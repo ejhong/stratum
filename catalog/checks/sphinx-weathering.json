@@ -1,0 +1,82 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Seismic investigations in the vicinity of the great Sphinx of Giza, Egypt",
+  "crossref_year": 1992,
+  "crossref_venue": "Geoarchaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Geologic weathering and its implications on the age of the sphinx",
+  "crossref_year": 1995,
+  "crossref_venue": "Geoarchaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Weathering of limestone beds at the great sphinx",
+  "crossref_year": 1990,
+  "crossref_venue": "Environmental Geology and Water Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Reconstructing the Sphinx",
+  "crossref_year": 1992,
+  "crossref_venue": "Cambridge Archaeological Journal",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site",
+  "crossref_year": 2001,
+  "crossref_venue": "Archaeometry",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Comments on ‘A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site’",
+  "crossref_year": 2001,
+  "crossref_venue": "Archaeometry",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Comment on C. D. Reader, ‘A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site’",
+  "crossref_year": 2001,
+  "crossref_venue": "Archaeometry",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A Response to Comments on ‘A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site’",
+  "crossref_year": 2001,
+  "crossref_venue": "Archaeometry",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Major Geological Fissure through Prehistoric Lion Monument at Giza Inspired Split Lion Hieroglyphs and Ancient Egypt’s Creation Myth",
+  "crossref_year": 2019,
+  "crossref_venue": "Archaeological Discovery",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Great Sphinx: A New View on the Erosion Enigma",
+  "crossref_year": 2025,
+  "crossref_venue": "Geological Society of America Abstracts with Programs",
+  "checked_on": "2026-09-23"
+ }
+}

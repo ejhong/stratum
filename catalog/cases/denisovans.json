@@ -8,7 +8,7 @@
     "continent": "Asia"
   },
   "anomaly_type": "hominin",
-  "claim": "In 2010, DNA from a finger bone in Denisova Cave, Siberia, was shown to belong to a hominin distinct from Neanderthals and modern humans. Named 'Denisovans', the group was defined from molecular data alone, before any remains could be diagnosed by anatomy.",
+  "claim": "In 2010, mtDNA from a Denisova Cave finger bone was reported as a hominin distinct from Neanderthals and modern humans, its divergence initially read as a separate migration out of Africa. Named 'Denisovans' months later from nuclear DNA, before any remains could be diagnosed by anatomy.",
   "claimed_age": {
     "label": "~48,000-30,000 years (Denisova 3, by cave stratigraphy)",
     "bp_min": 30000,
@@ -16,11 +16,17 @@
     "basis": "Age of the finger bone (Denisova 3) as originally reported, inferred from its stratigraphic layer at Denisova Cave, not a direct date on the bone itself.",
     "source": "S1"
   },
-  "accepted_age": null,
+  "accepted_age": {
+    "label": "~52,000-76,000 years (Bayesian model)",
+    "bp_min": 52000,
+    "bp_max": 76000,
+    "basis": "Bayesian model combining radiocarbon, U-series, OSL and stratigraphy (Douka et al. 2019); supersedes the 48,000-30,000 yr layer estimate, which Dennell (2019) says was too young for the bone.",
+    "source": "S9"
+  },
   "orthodoxy_at_claim": {
-    "label": "Neanderthals were the only well-established non-modern hominin known in Late Pleistocene Eurasia; no distinct archaic Asian lineage was recognized.",
+    "label": "Eastern Asian archaic hominins were debated from fragmentary fossils; no archaic Eurasian lineage besides Neanderthals was genetically characterised.",
     "limit_bp": null,
-    "source": "S1"
+    "source": "S2"
   },
   "year_claimed": 2010,
   "key_proponents": [
@@ -30,6 +36,11 @@
     "Bence Viola",
     "Fahu Chen",
     "Qiaomei Fu"
+  ],
+  "key_critics": [
+    "María Martinón-Torres",
+    "Robin Dennell",
+    "Ryan K. Lowery"
   ],
   "evidence_types": [
     "dna",
@@ -41,11 +52,11 @@
     "radiocarbon",
     "osl"
   ],
-  "independent_methods_count": 5,
+  "independent_methods_count": 3,
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "yes",
-      "note": "A complete mitochondrial genome, then a nuclear genome, matched no known human, Neanderthal or ape sequence; contamination was measured at ~0.1-0.2%, too low to explain the result.",
+      "note": "A complete mitochondrial genome, then a nuclear genome, matched no known human, Neanderthal or ape sequence; contamination ran up to ~0.4% (mtDNA ~0.1-0.3%, nuclear to 0.43%), too low to explain it.",
       "source": "S2"
     },
     "documented_context": {
@@ -59,8 +70,8 @@
       "source": "S9"
     },
     "multiple_labs": {
-      "value": "partial",
-      "note": "Both 2010 papers used DNA from the same Leipzig facility; the nuclear genome was analysed by a separate group (Reich, Harvard) using independent statistical methods.",
+      "value": "no",
+      "note": "Both 2010 papers sequenced DNA at the same Leipzig (MPI-EVA) facility. Nuclear-genome statistics involved a Harvard co-author (Reich) already part of that consortium paper, not an independent lab.",
       "source": "S2"
     },
     "professional_recovery": {
@@ -80,8 +91,8 @@
     },
     "independent_teams": {
       "value": "partial",
-      "note": "Fossil recovery and sequencing stayed within one Leipzig-centred consortium through this window; other population geneticists soon used the published genome to study living populations.",
-      "source": "S7"
+      "note": "Recovery and sequencing stayed within the Leipzig consortium; but Skoglund & Jakobsson (Uppsala) independently reanalysed the genome within a year, finding further Denisovan affinity in East Asians.",
+      "source": "S16"
     },
     "proponent_stake": {
       "value": "no",
@@ -91,22 +102,40 @@
   },
   "objections": [
     {
-      "text": "Ancient-DNA claims of deep, previously unknown lineages have often turned out to reflect modern human contamination of the sample or sequencing library rather than a real archaic population.",
+      "text": "The finger bone's original 48,000-30,000 year age came from its stratigraphic layer, not a direct measurement, in a karst cave where deposits can be disturbed by burrowing, subsidence or freeze-thaw.",
       "kind": "dating",
-      "raised_by": "Standard methodological caution in the ancient-DNA field",
+      "raised_by": "Krause et al. (2010); Dennell (2019)",
       "year": 2010,
-      "outcome": "wrong",
-      "outcome_note": "Krause et al. and Reich et al. measured present-day human mtDNA contamination in their libraries at about 0.1-0.2% and reproduced the signal across independent extracts and a second molecule (nuclear DNA).",
-      "source": "S2"
+      "outcome": "held",
+      "outcome_note": "Douka et al. (2019) modelled the youngest directly-dated Denisovan remains to 52,000-76,000 years, older than the original layer-based estimate; 48,000-30,000 years is no longer used for this bone.",
+      "source": "S9"
     },
     {
-      "text": "Denisovans have no formally published species name or morphological holotype; for years only a handful of fragmentary remains from a single site had been attributed to them, entirely by molecular data.",
+      "text": "Krause et al.'s reading of the mtDNA split as evidence for a distinct hominin migration out of Africa was an over-interpretation; the divergence need not imply a separate migration.",
+      "kind": "other",
+      "raised_by": "Martinón-Torres, Dennell & Bermúdez de Castro (2011)",
+      "year": 2011,
+      "outcome": "held",
+      "outcome_note": "Reich et al.'s nuclear genome, published later the same year, placed Denisovans as sister to Neanderthals rather than a separate deep migration, dropping the reading this objection challenged.",
+      "source": "S13"
+    },
+    {
+      "text": "Denisovans were named from molecular data alone with no morphological holotype of their own; only a handful of fragmentary remains from one site were attributed to them for their first decade.",
       "kind": "identification",
       "raised_by": "General taxonomic caution in paleoanthropology",
       "year": 2013,
       "outcome": "unresolved",
-      "outcome_note": "Fossils outside Siberia (Xiahe 2019, Harbin 2025) now corroborate the lineage, but no binomial name is formally validated, and its rank as a species or a Homo erectus/heidelbergensis population is still debated.",
+      "outcome_note": "Xiahe, Penghu and Harbin fossils now corroborate the lineage by protein or DNA evidence. Homo longi (2021) and Homo juluensis (2024) have been proposed as binomials, but neither is in consensus use.",
       "source": "S7"
+    },
+    {
+      "text": "Denisovan and Neanderthal genetic affinities with living humans could reflect shared ancestral variation retained from a common ancestor, not introgression from real interbreeding.",
+      "kind": "other",
+      "raised_by": "Lowery, Uribe, Jimenez, Weiss et al. (2013)",
+      "year": 2013,
+      "outcome": "wrong",
+      "outcome_note": "A directly sequenced first-generation Neanderthal-Denisovan hybrid (Denisova 11, 2018) shows these lineages did interbreed; no later paper defending the shared-ancestral-polymorphism reading was found.",
+      "source": "S14"
     },
     {
       "text": "The Xiahe mandible was a surface find handed to researchers by a monk in 1980 with no excavation record; its ~160,000-year age comes from U-series dating of a carbonate crust on the bone, not the bone itself.",
@@ -116,34 +145,19 @@
       "outcome": "held",
       "outcome_note": "The protein-based Denisovan identification of the mandible is not disputed, but its own age remains an inference from the adhering crust rather than a direct measurement; no subsequent direct date was found.",
       "source": "S3"
-    },
-    {
-      "text": "Nearly every specimen defining the Denisovans passed through one research consortium, raising the question of whether the finding depended on independent replication.",
-      "kind": "other",
-      "raised_by": "General methodological caution",
-      "year": 2012,
-      "outcome": "wrong",
-      "outcome_note": "By 2019-2025, separate institutions (Lanzhou University with Copenhagen proteomics for Xiahe; the Chinese Academy of Sciences for Harbin) corroborated Denisovan identifications independently.",
-      "source": "S5"
     }
   ],
   "status": "vindicated",
-  "status_note": "A genetically distinct Denisovan population is accepted throughout paleoanthropology and population genetics, corroborated at three sites using nuclear DNA, sediment DNA and ancient proteins. Debate continues only over its taxonomic rank.",
+  "status_note": "A genetically distinct Denisovan lineage is accepted across paleoanthropology, attested at Denisova Cave, Baishiya, Penghu and Harbin. The 2010 result was accepted quickly, not independently replicated; rank and naming remain debated.",
   "year_resolved": 2010,
-  "what_settled_it": "Independent mitochondrial and nuclear genome analyses of the same bone, published months apart in 2010, agreed it belonged to no known population and, via the nuclear genome, showed a detectable ancestry signal in living Melanesians.",
+  "what_settled_it": "Mitochondrial and nuclear genome analyses of the same bone, both from the Leipzig-based consortium, agreed months apart in 2010 that it matched no known population and, via the nuclear genome, showed ancestry in living Melanesians. Later finds corroborated but did not independently replicate it.",
   "settled_by": [
     "dna",
-    "replication",
     "morphology",
     "expert-review"
   ],
   "failure_mode": "none",
   "timeline": [
-    {
-      "year": 1980,
-      "event": "Systematic Russian excavations at Denisova Cave, Altai, are already under way (begun c. 1979, per a 2019 retrospective).",
-      "source": "S11"
-    },
     {
       "year": 1980,
       "event": "A monk finds a hominin mandible at Baishiya Karst Cave, Xiahe, on the Tibetan Plateau, China, later called the Xiahe mandible.",
@@ -166,8 +180,7 @@
     },
     {
       "year": 2017,
-      "event": "Slon et al. recover Neanderthal and Denisovan DNA directly from cave sediment with no skeletal remains, a method later applied at Baishiya.",
-      "source": "S9"
+      "event": "Slon et al. recover Neanderthal and Denisovan DNA directly from cave sediment with no skeletal remains, a method later applied at Baishiya."
     },
     {
       "year": 2018,
@@ -186,7 +199,7 @@
     },
     {
       "year": 2020,
-      "event": "Zhang et al. detect Denisovan mitochondrial DNA in Baishiya Karst Cave sediment, independently corroborating Denisovan presence there.",
+      "event": "Zhang et al. detect Denisovan mtDNA in Baishiya sediment, corroborating Denisovan presence there; authors overlap with the Denisova Cave team.",
       "source": "S4"
     },
     {
@@ -196,18 +209,23 @@
     },
     {
       "year": 2025,
-      "event": "Fu, Cao et al. recover Denisovan mitochondrial DNA from dental calculus on the Harbin cranium, linking it to the Denisovan lineage.",
+      "event": "Fu et al. identify the Harbin cranium as Denisovan via mtDNA from dental calculus and, in a companion paper, ancient proteins; both led by the same team.",
       "source": "S5"
+    },
+    {
+      "year": 2025,
+      "event": "Tsutaya et al. identify the Penghu 1 mandible from Taiwan as a male Denisovan by ancient protein analysis, a fourth Denisovan locality.",
+      "source": "S15"
     }
   ],
   "decisive_tests": [
     {
-      "test": "Recover nuclear DNA or a proteome from additional Xiahe- or Harbin-associated skeletal material to build a second high-coverage Denisovan genome outside Denisova Cave.",
-      "would_show": "Whether the Tibetan and Northeast Asian Denisovan populations were genetically distinct from the Siberian lineage, and would support formally naming the group.",
+      "test": "Recover nuclear DNA or a proteome from additional Xiahe-, Penghu- or Harbin-associated skeletal material to build a second high-coverage Denisovan genome outside Denisova Cave.",
+      "would_show": "Whether the Tibetan, Taiwanese and Northeast Asian Denisovan populations were genetically distinct from the Siberian lineage, and would support formally naming the group.",
       "cost": "medium"
     }
   ],
-  "falsifier": "Independent reanalysis showing the Denisova 3 sequences were contaminated or artefactual, or repeated failure to replicate Denisovan DNA or proteins in the Siberian, Tibetan or Harbin material, would overturn this status. No such failure is reported.",
+  "falsifier": "Independent reanalysis showing the Denisova 3 sequences were contaminated or artefactual, or repeated failure to replicate Denisovan DNA or proteins in the Siberian, Tibetan, Taiwanese or Harbin material, would overturn this status. No such failure is reported.",
   "sources": [
     {
       "id": "S1",
@@ -227,7 +245,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Full introduction/results sections read: names 'Denisovans', reports ~4-6% Melanesian ancestry, discusses mtDNA-vs-nuclear divergence discrepancy, and gives contamination estimates (~0.1-0.2%)."
+      "note": "Full introduction/results sections read: names 'Denisovans', reports ~4-6% Melanesian ancestry, discusses mtDNA-vs-nuclear divergence discrepancy, and gives contamination estimates (~0.1-0.4%)."
     },
     {
       "id": "S3",
@@ -267,7 +285,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read: proposes the Harbin cranium as a new Homo species based on morphology; no DNA/protein evidence and no Denisovan link in this paper."
+      "note": "Abstract read: proposes the Harbin cranium as a new Homo species (Homo longi) based on morphology; no DNA/protein evidence and no Denisovan link in this paper."
     },
     {
       "id": "S7",
@@ -276,7 +294,7 @@
       "url": "https://www.nature.com/articles/s41576-023-00643-4",
       "kind": "review",
       "access": "paywalled",
-      "verification": "checked",
+      "verification": "exists",
       "note": "Abstract open, full text paywalled. Confirms only ~10 fragmentary remains from two sites attributed to Denisovans by molecular data alone as of this review."
     },
     {
@@ -296,8 +314,8 @@
       "url": "https://www.nature.com/articles/s41586-018-0870-z",
       "kind": "primary",
       "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract/intro accessible, full text paywalled: 50 radiocarbon dates plus 3 direct hominin dates, Bayesian-modelled; cites prior data deposition in ENA/GenBank."
+      "verification": "exists",
+      "note": "Abstract/intro accessible; full text and dating figures paywalled. The 52,000-76,000 yr range in accepted_age follows the skeptic review's verified reading, not re-confirmed this pass."
     },
     {
       "id": "S10",
@@ -306,7 +324,7 @@
       "url": "https://www.nature.com/articles/s41586-018-0843-2",
       "kind": "primary",
       "access": "paywalled",
-      "verification": "checked",
+      "verification": "exists",
       "note": "Abstract accessible, full text paywalled: prior chronology relied on radiocarbon (to ~50 ka) plus less reliable TL/palaeomagnetism/genetics; this paper adds 103 OSL dates."
     },
     {
@@ -318,25 +336,87 @@
       "access": "open",
       "verification": "checked",
       "note": "Read in full (News & Views): cave occupied >=200,000 yr; excavations began ~1979; notes karst deposits can be disturbed by burrowing, subsidence and freeze-thaw."
+    },
+    {
+      "id": "S12",
+      "citation": "Fu, Q., Bai, F., Rao, H., Chen, S. et al. (2025). The proteome of the late Middle Pleistocene Harbin individual. Science 389(6761): 704-707.",
+      "doi": "10.1126/science.adu9677",
+      "url": "https://doi.org/10.1126/science.adu9677",
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read in full: 95 endogenous proteins from the Harbin cranium; 3 Denisovan-derived amino-acid variants; clusters with Denisova 3. Confirms protein AND mtDNA (S5) identification."
+    },
+    {
+      "id": "S13",
+      "citation": "Martinón-Torres, M., Dennell, R., Bermúdez de Castro, J.M. (2011). The Denisova hominin need not be an out of Africa story. Journal of Human Evolution 60(2): 251-255.",
+      "doi": "10.1016/j.jhevol.2010.10.005",
+      "url": "https://doi.org/10.1016/j.jhevol.2010.10.005",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref metadata confirmed; no open abstract found. Title disputes Krause et al.'s out-of-Africa migration reading of the mtDNA result."
+    },
+    {
+      "id": "S14",
+      "citation": "Lowery, R.K., Uribe, G., Jimenez, E.B., Weiss, M.A. et al. (2013). Neanderthal and Denisova genetic affinities with contemporary humans: Introgression versus common ancestral polymorphisms. Gene 530(1): 83-94.",
+      "doi": "10.1016/j.gene.2013.06.005",
+      "url": "https://doi.org/10.1016/j.gene.2013.06.005",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref metadata confirmed; no open abstract found. Title matches: archaic-human affinities could reflect shared ancestral polymorphism, not introgression."
+    },
+    {
+      "id": "S15",
+      "citation": "Tsutaya, T., Sawafuji, R., Taurozzi, A.J., Fagernäs, Z. et al. (2025). A male Denisovan mandible from Pleistocene Taiwan. Science 388(6743): 176-180.",
+      "doi": "10.1126/science.ads3888",
+      "url": "https://doi.org/10.1126/science.ads3888",
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read in full: Penghu 1 mandible ID'd as male Denisovan via 2 Denisovan-specific amino-acid variants from 4,241 residues; age 10-70 or 130-190 ka."
+    },
+    {
+      "id": "S16",
+      "citation": "Skoglund, P., Jakobsson, M. (2011). Archaic human ancestry in East Asia. Proceedings of the National Academy of Sciences 108(45): 18301-18306.",
+      "doi": "10.1073/pnas.1108181108",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3215044",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read in full: independent Uppsala analysis, within a year of Reich et al. 2010, found Denisovan affinity in East/Southeast Asians beyond Oceania."
+    },
+    {
+      "id": "S17",
+      "citation": "Bae, C.J., Wu, X. (2024). Making sense of eastern Asian Late Quaternary hominin variability. Nature Communications 15(1).",
+      "doi": "10.1038/s41467-024-53918-7",
+      "url": "https://www.nature.com/articles/s41467-024-53918-7.pdf",
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read: reviews named eastern Asian hominin groups, including Homo longi and Homo juluensis alongside H. floresiensis and H. luzonensis."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Founding genetic papers and the hybrid/mandible/Harbin papers were read in full or substantial part, all open access. Two site-chronology papers and the 2023 review were only abstract-readable.",
+  "confidence_note": "Founding, hybrid, Xiahe, Baishiya, Penghu and Harbin-proteome papers read as full text or full abstracts. S7/S9/S10 are paywalled beyond abstracts ('exists'); two 2011-13 critiques are metadata-only.",
   "corrections": [
-    "Starter notes described the 2025 Harbin attribution as via 'proteins or DNA'; it was specifically ancient mitochondrial DNA recovered from dental calculus (Fu, Cao et al. 2025), not protein.",
-    "'Denisovan' is not a formally established Linnaean species name; no binomial with a designated holotype has been validly published. It remains an informal lineage name defined by molecular (and now some morphological) evidence.",
-    "The Xiahe mandible was not a fresh 2019 discovery; it was found by a local monk in 1980 and only scientifically dated, analysed and published decades later."
+    "The widely cited 48,000-30,000 year age for Denisova 3 was a stratigraphic estimate, not a direct measurement; Douka et al. (2019) modelled the youngest Denisovan remains to 52,000-76,000 years, older than its layer implied."
   ],
-  "notes": "This record treats 2010-2025 as one case: each later specimen (Xiahe, Harbin) corroborates the 2010 claim rather than making a new one. A real puzzle: the 2010 mtDNA alone implied a split twice as deep as the Neanderthal-human split; the nuclear genome, published the same year, instead placed Denisovans as sister to Neanderthals, so the mtDNA reflected that lineage's own history, not the population's divergence time. No sustained rebuttal of the core 2010 claim was found; this looks like fast, low-resistance acceptance from convergent molecular evidence, not a contested anomaly.",
+  "notes": "This record treats 2010-2025 as one case: later specimens (Xiahe, Penghu, Harbin) corroborate the 2010 claim but share investigators with the Leipzig consortium, so they are corroboration, not independent replication. Puzzle: 2010 mtDNA implied a split twice as deep as the Neanderthal-human split; the nuclear genome, months later, placed Denisovans as Neanderthals sister, so mtDNA reflected lineage history, not divergence time. No binomial is in consensus use: Homo longi (2021) and Homo juluensis (2024) have been proposed for populations that may include Denisovans. No sustained rebuttal of the lineage existence was found: fast acceptance of a surprise discovery, not a contested anomaly.",
   "review": {
     "drafted_by": "researcher agent (claude-sonnet-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft",
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
     "open_issues": [
-      "Could not confirm a revised direct date for Denisova 3; Douka et al. 2019 revised the chronology but the paywalled full text with the exact figure could not be read, so accepted_age is left null.",
-      "No Wikimedia Commons file titles for Denisova Cave, the finger bone or the Xiahe/Harbin specimens could be confirmed within budget (four guesses all 'NOT FOUND'); plates were skipped rather than guessed.",
-      "The 'independent_teams' and 'multiple_labs' features are 'partial' because founding sequencing stayed within one Leipzig-centred consortium through ~2015; skeptic should check for an earlier independent replication I may have missed.",
-      "No named critic of the core 2010 claim was found; objections 1, 2 and 4 are general methodological cautions, not attributed to specific people. Worth a second search pass with more sources."
+      "Declined to add Meyer et al. 2012 (Science, high-coverage genome) as a separate source; budget did not allow verifying it, and S2/S8 already establish the founding genome and hybrid evidence.",
+      "Martinón-Torres et al. (2011) and Lowery et al. (2013) could not be read beyond Crossref metadata (paywalled, no open abstract); marked 'exists', with outcomes reasoned from related checked sources (S2, S8), not each paper's own text.",
+      "The 52,000-76,000 year range in accepted_age (S9) follows the task brief and the skeptic's verified Europe PMC reading; this pass's own fetch of the publisher page truncated before that figure, so S9 stays 'exists' rather than 're-checked'.",
+      "Declined to add Wikimedia Commons plates; still no confirmed file titles found, and none attempted this pass under the tool-call budget.",
+      "Declined to add a separate objection on Harbin's and Penghu's own lack of excavation context (both are non-stratified finds like Xiahe); noted here for a future revision rather than added under length budgets."
     ]
   }
 }

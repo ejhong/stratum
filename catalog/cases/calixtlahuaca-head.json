@@ -1,143 +1,166 @@
 {
   "id": "calixtlahuaca-head",
-  "name": "Tecaxic-Calixtlahuaca Roman head",
-  "hook": "A Roman-style clay head in a 15th-century Aztec grave, resting on a thin, disputed 1933 dig record.",
+  "name": "Tecaxic-Calixtlahuaca \"Roman head\"",
+  "hook": "A Roman-looking clay head from a Mexican burial dug in 1933; its date, context and origin are all disputed.",
   "location": {
     "country": "Mexico",
     "region": "State of México",
     "continent": "North America"
   },
   "anomaly_type": "contact",
-  "claim": "Hristov and Genovés argued that a small terracotta head from a pre-Hispanic burial at Calixtlahuaca is a genuine 2nd-3rd century Roman artifact, and that its presence is the first solid evidence of transoceanic contact between the Old World and Mesoamerica before Columbus.",
+  "claim": "A small clay head from a 1933 burial at Calixtlahuaca was shown at the 1960 Congress of Americanists and published by Heine-Geldern (1961) as a Roman find from pre-Columbian Mexico, evidence of transoceanic contact. Hristov and Genovés revived the claim in 1999 with a TL date.",
   "claimed_age": {
-    "label": "~1780 ± 400 BP (TL, as reported 1999)",
-    "bp_min": 1380,
-    "bp_max": 2180,
-    "basis": "Thermoluminescence on the ceramic, Forschungsstelle Archäometrie, Heidelberg (tested 1995), as published by Hristov & Genovés (1999). The lab later said this figure and its cited reference were incorrect.",
-    "source": "S1"
+    "label": "2nd-3rd century AD (style, not a physical date)",
+    "bp_min": 1650,
+    "bp_max": 1850,
+    "basis": "Stylistic attribution by classical archaeologist Ernst Boehringer, as reported by Hristov & Genovés. Their 1999 revival added a TL age of 1780 ± 400 b.p., which the lab later called wrong (S2).",
+    "source": "S6"
   },
   "accepted_age": {
-    "label": "~870 BC-AD 1270 (corrected TL range, wide 2-sigma)",
+    "label": "~870 BC-AD 1270 (TL, date of firing only)",
     "bp_min": 680,
     "bp_max": 2820,
-    "basis": "Corrected TL range from the same Heidelberg lab (Schaaf & Wagner 2001); a standard TL determination wasn't possible. Excludes Colonial-period manufacture but too imprecise to confirm or exclude Roman origin.",
+    "basis": "Corrected TL limits from the Heidelberg lab that ran the 1995 test; a standard TL determination was not possible. Probably excludes Colonial manufacture; says nothing on when the head entered the burial.",
     "source": "S2"
   },
   "orthodoxy_at_claim": {
-    "label": "No accepted evidence existed for Old World-Mesoamerica contact before Columbus; only Norse contact in northeast North America (~AD 1000) was accepted.",
+    "label": "No Old World object from a pre-Columbian context in Mesoamerica had been accepted as evidence of contact before 1492.",
     "limit_bp": null,
-    "source": "S1"
+    "source": "S6"
   },
-  "year_claimed": 1999,
+  "year_claimed": 1960,
   "key_proponents": [
+    "Robert Heine-Geldern",
+    "Ernst Boehringer",
     "Romeo H. Hristov",
     "Santiago Genovés T."
   ],
   "key_critics": [
+    "Michael E. Smith",
     "Peter Schaaf",
     "Günther A. Wagner",
-    "Paul Schmidt (secondhand report)"
+    "Paul Schmidt (relaying John Paddock)"
   ],
   "evidence_types": [
-    "tl",
+    "art",
     "artifacts",
     "stratigraphy",
-    "art"
+    "tl"
   ],
   "independent_methods_count": 2,
   "features_at_claim": {
     "unambiguous_signal": {
-      "value": "yes",
-      "note": "The head is unambiguously a human-made ceramic artifact; the dispute is over its origin and how it entered the deposit, not whether it is artificial.",
-      "source": "S1"
+      "value": "partial",
+      "note": "Certainly a human-made clay head, but its Roman (Old World) origin rested on stylistic opinion alone; the 1960 congress did not generally accept it as evidence of contact.",
+      "source": "S7"
     },
     "documented_context": {
       "value": "partial",
-      "note": "Reportedly found under floors of a structure per García Payón's field record, unpublished until decades after the 1933 dig; an unresolved allegation says the piece was planted as a prank.",
-      "source": "S6"
+      "note": "The excavator's account puts it under three intact floors of a pyramidal structure (S6), but only a two-page note was in print by 1966; Smith judges the record below professional norms.",
+      "source": "S8"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "Only thermoluminescence was applied to the head itself; the reported 1476-1510 burial date rests on stylistic/stratigraphic association with grave goods, not an independent physical date on the head.",
-      "source": "S1"
+      "note": "No physical date on the head until the 1995 TL test; in 1960-66 its age rested on style alone.",
+      "source": "S6"
     },
     "multiple_labs": {
       "value": "no",
-      "note": "All TL work on the head was done at one laboratory (Forschungsstelle Archäometrie, Heidelberg).",
-      "source": "S2"
+      "note": "No laboratory analysed the head in 1960-66; the later TL work (1995) came from one Heidelberg lab.",
+      "source": "S6"
     },
     "professional_recovery": {
-      "value": "yes",
-      "note": "Reportedly excavated by José García Payón, a professional Mexican archaeologist, during a documented dig.",
+      "value": "partial",
+      "note": "Dug in 1933 under José García Payón, a professional archaeologist, but in the 1960s he was often asked whether he was present at the find; he said he was (his son, per S6).",
       "source": "S6"
     },
     "peer_reviewed_report": {
-      "value": "yes",
-      "note": "Published in Ancient Mesoamerica (Cambridge), followed by a peer-reviewed critique-and-reply exchange within two years.",
-      "source": "S1"
+      "value": "no",
+      "note": "By 1966 only short notes were in print: García Payón (1961, 2 pp.) and Heine-Geldern (1961, 3 pp.), per H&G's references. No full technical report.",
+      "source": "S6"
     },
     "material_accessible": {
-      "value": "yes",
-      "note": "The head was directly tested by an outside TL laboratory (Schaaf & Wagner) and, reportedly, examined by an outside Roman-art specialist.",
-      "source": "S2"
+      "value": "partial",
+      "note": "The head was brought to the 1960 Vienna congress for specialists to see, but the excavation record stayed largely unpublished until García Payón's posthumous 1979 account (S8).",
+      "source": "S7"
     },
     "independent_teams": {
-      "value": "yes",
-      "note": "An independent TL laboratory (Schaaf & Wagner, Heidelberg) and, reportedly, an outside Roman-art historian both examined the piece within the claim's first years.",
-      "source": "S2"
+      "value": "partial",
+      "note": "Outside scholars judged only its style (Heine-Geldern 1961; Boehringer, date not given); no independent group re-examined the deposit or analysed the object in the 1960s.",
+      "source": "S6"
     },
     "proponent_stake": {
       "value": "unknown",
-      "note": "No documented commercial, religious or nationalist motive found. Hristov's research focuses on trans-oceanic contact questions — an ordinary specialization, not a clear unusual stake."
+      "note": "No documented commercial, religious, nationalist or fame-seeking motive found for the 1960-61 proponents or the 1999 revivers."
     }
   },
   "objections": [
     {
-      "text": "The thermoluminescence figure Hristov and Genovés reported (1780 ± 400 BP) and its cited reference were incorrect; a standard TL age could not actually be obtained.",
+      "text": "The thousand-year gap between the head's style and the rest of the offering cast doubt on the find's reliability; the 1960 congress did not generally accept it as evidence of contact.",
+      "kind": "context",
+      "raised_by": "Participants, 34th International Congress of Americanists (Vienna)",
+      "year": 1960,
+      "outcome": "unresolved",
+      "outcome_note": "The association still rests on García Payón's account (S6); no re-examination of the deposit is reported in the sources checked.",
+      "source": "S7"
+    },
+    {
+      "text": "The head is a Colonial-period object: the Museo Nacional de Antropología catalogues it as Colonial, and in 1996 Paul Schmidt told Hristov that 'everybody knows that the head is Colonial'.",
+      "kind": "identification",
+      "raised_by": "Museo Nacional de Antropología catalogue; Paul Schmidt (UNAM)",
+      "year": 1996,
+      "outcome": "wrong",
+      "outcome_note": "For manufacture only: the corrected TL limits end about AD 1270, and the lab says they 'probably' rule out a Colonial manufacturing date (S2). Colonial deposition is a separate, open objection.",
+      "source": "S6"
+    },
+    {
+      "text": "The head was planted as a joke during the dig: Paul Schmidt said so in 1996 and, in a letter of 6 March 2000, named Hugo Moedano as the prankster, citing John Paddock.",
+      "kind": "integrity",
+      "raised_by": "John Paddock (oral), relayed by Paul Schmidt (UNAM)",
+      "year": 1996,
+      "outcome": "unresolved",
+      "outcome_note": "Hearsay: Paddock and Moedano had died. Senior scholars Hristov asked had not heard it (S6); Smith says many Mexican archaeologists have, and he could neither confirm nor reject it (S8).",
+      "source": "S6"
+    },
+    {
+      "text": "The TL age Hristov and Genovés reported (1780 ± 400 b.p.) and its cited reference were wrong; a standard TL determination could not be made on the head.",
       "kind": "dating",
       "raised_by": "Peter Schaaf and Günther A. Wagner (the Heidelberg TL laboratory)",
       "year": 2001,
       "outcome": "held",
-      "outcome_note": "Confirmed by the dating lab itself; Hristov and Genovés's own reply restates a corrected, much wider range (870 BC-AD 1270) rather than defending the original figure.",
+      "outcome_note": "Stated by the lab that ran the test; H&G's 2001 reply adopts the corrected, much wider limits (S3). The lab says the result cannot decide the head's origin.",
       "source": "S2"
     },
     {
-      "text": "Even a genuine ancient Roman object could have reached Mexico long after manufacture, e.g. as an early Colonial-period import, since TL only dates firing, not when the object entered the ground.",
+      "text": "Even if Roman, the head could have been brought by a Spaniard and placed in an offering made in the early Colonial period; the contents and context cannot show the offering is pre-Conquest.",
       "kind": "context",
-      "raised_by": "unnamed critics, per Hristov & Genovés's own reply",
+      "raised_by": "Critics answered in H&G (2001); Michael E. Smith (c. 2003)",
       "year": 2001,
       "outcome": "unresolved",
-      "outcome_note": "Proponents call post-1492 import 'highly unlikely' given Aztec-Matlatzinca political relations, but no independent re-examination of the deposit has been published since.",
-      "source": "S3"
+      "outcome_note": "H&G cite intact floors, untouched gold and site abandonment in AD 1510 (S6), but the site's last phase runs to AD 1530 (S4). No direct date on the offering is reported.",
+      "source": "S8"
     },
     {
-      "text": "Provenance rests only on García Payón's field notes, reportedly unpublished until 1960; an archaeologist (Paul Schmidt) later reported an informal claim that a colleague planted the head as a prank during the dig.",
+      "text": "García Payón kept few field notes, so the head may have entered the Calixtlahuaca collections by error after excavation; the Toluca collection includes vessels donated from other sites.",
       "kind": "integrity",
-      "raised_by": "Paul Schmidt (UNAM), reported secondhand",
-      "year": null,
+      "raised_by": "Michael E. Smith",
+      "year": 2003,
       "outcome": "unresolved",
-      "outcome_note": "Per a tertiary account, Hristov calls the allegation hearsay, unconfirmable since those involved have died; García Payón's son disputes that his father was ever absent from the site.",
-      "source": "S6"
+      "outcome_note": "H&G reply that García Payón never listed any donated item as excavated, and that his 1979 account describes the context with a photo, plan and plates (S7). No inventory audit is reported.",
+      "source": "S8"
     },
     {
-      "text": "A single isolated find is a weak basis for inferring transoceanic contact; no other confirmed Roman-period Old World material is reported from a secure pre-Columbian Mesoamerican context.",
-      "kind": "prior",
-      "year": null,
-      "outcome": "unresolved",
-      "outcome_note": "Schaaf and Wagner's own corrected TL range is, by their own statement, too imprecise to serve as central evidence for the contact claim either way.",
-      "source": "S2"
-    },
-    {
-      "text": "The Roman, Severan-period stylistic identification is reported as resting on one outside expert's opinion; it has not been independently replicated in published work by other Roman-art specialists.",
+      "text": "The Roman attribution rests on experts' statements, with no published comparison to known Roman figurines; the head may be a post-Roman European Christian figure, the first professional reaction.",
       "kind": "identification",
-      "year": null,
+      "raised_by": "Michael E. Smith (citing the initial 1960s reaction)",
+      "year": 2003,
       "outcome": "unresolved",
-      "outcome_note": "No second published art-historical assessment of the piece was found in the sources checked for this record.",
-      "source": "S6"
+      "outcome_note": "Boehringer, Heine-Geldern and Andreae (as quoted) called it Roman, but no side-by-side comparison was found; the TL range, reaching AD 1270, also allows medieval manufacture (S2).",
+      "source": "S8"
     }
   ],
   "status": "open",
-  "status_note": "Unresolved since 2001. The TL date is far less precise than first reported; the hoax allegation and a post-Columbian-import scenario remain neither confirmed nor excluded. No new dating or documentary study is on record since.",
+  "status_note": "Open since 1960. Its proponents maintain a Roman origin; the 1960 congress was not convinced, and the site's later excavator calls the case 'weak'. TL cannot decide origin, and no new test of the head since 1995.",
   "year_resolved": null,
   "what_settled_it": null,
   "settled_by": [
@@ -147,58 +170,88 @@
   "timeline": [
     {
       "year": 1933,
-      "event": "José García Payón reportedly excavates a burial at Tecaxic-Calixtlahuaca; a terracotta head is recovered among rich grave goods.",
+      "event": "José García Payón's excavation at Calixtlahuaca reportedly finds the head in a burial offering under three intact floors of a pyramidal structure.",
       "source": "S6"
     },
     {
       "year": 1960,
-      "event": "García Payón reportedly first publishes information about the head, decades after the excavation.",
+      "event": "Ignacio Bernal brings the head to the 34th International Congress of Americanists in Vienna; it is not generally accepted as evidence of contact.",
+      "source": "S7"
+    },
+    {
+      "year": 1961,
+      "event": "García Payón publishes a two-page note in Boletín INAH, his only publication on the head in his lifetime.",
+      "source": "S7"
+    },
+    {
+      "year": 1961,
+      "event": "Heine-Geldern publishes 'Ein römischer Fund aus dem vorkolumbischen Mexiko' ('A Roman find from pre-Columbian Mexico').",
       "source": "S6"
     },
     {
+      "year": 1979,
+      "event": "García Payón's fuller excavation account appears posthumously; H&G call it detailed, while Smith finds little specific context in it.",
+      "source": "S8"
+    },
+    {
       "year": 1995,
-      "event": "The head is thermoluminescence-tested at the Forschungsstelle Archäometrie, Heidelberg.",
-      "source": "S1"
+      "event": "The head is tested by thermoluminescence at the Forschungsstelle Archäometrie, Heidelberg.",
+      "source": "S6"
+    },
+    {
+      "year": 1996,
+      "event": "Paul Schmidt tells Hristov that the head is known to be Colonial and was planted as a joke; he later names Hugo Moedano, citing John Paddock.",
+      "source": "S6"
     },
     {
       "year": 1999,
-      "event": "Hristov and Genovés publish the claim in Ancient Mesoamerica, presenting the TL date and arguing for Roman origin and transoceanic contact.",
+      "event": "Hristov and Genovés revive the claim in Ancient Mesoamerica, reporting a TL age of 1780 ± 400 b.p. and no sign of post-Columbian intrusion.",
       "source": "S1"
     },
     {
       "year": 2001,
-      "event": "Schaaf and Wagner publish a correction: the reported TL figure and its reference were wrong; the real range is much wider.",
+      "event": "Schaaf and Wagner, who ran the TL test, say the reported figure and its reference were wrong; the corrected limits are 870 BC-AD 1270.",
       "source": "S2"
     },
     {
       "year": 2001,
-      "event": "Hristov and Genovés reply, restating corrected TL limits and addressing the post-Columbian-import and 'planted' hoax objections.",
+      "event": "Hristov and Genovés reply, adopting the corrected TL limits and rebutting the post-1492 import and 'planted' objections.",
       "source": "S3"
+    },
+    {
+      "year": 2003,
+      "event": "Michael E. Smith's web page lists six alternative explanations and calls the case for a Roman object 'weak'.",
+      "source": "S8"
+    },
+    {
+      "year": 2015,
+      "event": "Huster and Smith date Calixtlahuaca's last phase (Yata) to AD 1450-1530, later than the AD 1510 abandonment H&G assume.",
+      "source": "S4"
     }
   ],
   "decisive_tests": [
     {
-      "test": "Independently re-date the head (TL or OSL) at a second laboratory, with full raw equivalent-dose data published.",
-      "would_show": "Whether an independent lab reproduces a Roman-era-consistent firing date or the wide, imprecise range Schaaf and Wagner report.",
-      "cost": "low"
-    },
-    {
-      "test": "Petrographic and chemical (e.g. pXRF or INAA) sourcing of the ceramic fabric against Roman Mediterranean and central Mexican clay/temper reference groups.",
-      "would_show": "Whether the clay is consistent with Mediterranean manufacture or with a local/regional Mexican fabric.",
+      "test": "With INAH permission, re-date the head by TL or OSL at a second laboratory and publish the raw data; check feasibility first, since the 1995 test gave no standard TL determination.",
+      "would_show": "Whether firing can be narrowed enough to separate Roman, medieval European and Mesoamerican manufacture.",
       "cost": "medium"
     },
     {
-      "test": "Independent stylistic re-examination of the head by two or more Roman-art specialists, with published high-resolution imaging.",
-      "would_show": "Whether the Severan-period Roman identification is replicated by other experts rather than resting on one assessment.",
+      "test": "Petrographic and chemical sourcing (e.g. INAA or pXRF) of the clay against Mediterranean and central Mexican references, plus CT or X-radiography to show if the head was moulded or hand-modelled.",
+      "would_show": "Whether clay and forming technique match Roman-period Mediterranean workshops, later European ones, or local Mexican ones.",
+      "cost": "medium"
+    },
+    {
+      "test": "A published side-by-side comparison of the head with dated Roman and post-Roman European terracotta heads, by two or more specialists working independently.",
+      "would_show": "Whether the Roman attribution survives comparison with real comparanda rather than resting on stated opinion.",
       "cost": "low"
     },
     {
-      "test": "Archival review of García Payón's original 1933 field notes and any excavation photographs, plus documentary research on the Schmidt/Moedano planting allegation.",
-      "would_show": "Whether contemporary records support an undisturbed, sealed context, and whether the hoax allegation has any documentary support beyond hearsay.",
+      "test": "Archive study: García Payón's 1933 notes and 1979 texts, the MNA catalogue history behind the 'Colonial' entry, and the Toluca offering inventory (Smith, Wharton & McCarron); trace the Paddock story.",
+      "would_show": "Whether the head is securely tied to the 1933 offering or could have entered the collection later, and whether the planting story has any documentary basis.",
       "cost": "low"
     }
   ],
-  "falsifier": "Undermined if the fabric matches local or Colonial-period clay, or if documents confirm the planting allegation. Strengthened by an independent second TL/OSL date and petrographic sourcing to Mediterranean clays.",
+  "falsifier": "Toward refutation: clay or technique matching Mexican or post-Roman European work, archives showing the head joined the collection later, or documents confirming the planting story. Toward vindication: Roman-period Mediterranean clay plus a securely pre-Conquest offering.",
   "sources": [
     {
       "id": "S1",
@@ -208,7 +261,7 @@
       "kind": "primary",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read via lookup (Crossref/OpenAlex); states the 1995 TL test, the 1780±400 BP figure, and that context review found no sign of post-Columbian intrusion. Full text paywalled."
+      "note": "Abstract read: 1995 Heidelberg TL test, 1780 ± 400 b.p., no sign of post-Columbian intrusion in field notes or site, 'first hard evidence' of contact. Full text paywalled."
     },
     {
       "id": "S2",
@@ -218,7 +271,7 @@
       "kind": "critique",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read: the 1999 TL figure and reference were wrong; corrected range 870 BC-AD 1270, too imprecise to argue origin. Written by the analysts who ran the original test. Full text paywalled."
+      "note": "Abstract read: 1999 TL figure and reference wrong; corrected limits AD 1270-870 BC; 'probably rules out' Colonial manufacture; no use for origin. By the lab that ran the test. Paywalled."
     },
     {
       "id": "S3",
@@ -238,7 +291,7 @@
       "kind": "other",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read: site occupied ca. AD 1100-1530 (final phase AD 1450-1530), consistent with the head's reported burial date. Does not discuss the head. Full text paywalled."
+      "note": "Abstract read: 54 radiocarbon dates; phases Dongu AD 1130-1380, Ninupi 1380-1450, Yata 1450-1530. Does not discuss the head. Full text paywalled."
     },
     {
       "id": "S5",
@@ -248,29 +301,58 @@
       "kind": "other",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read for site background (occupation ca. AD 1100-1530); does not discuss the head. Full text paywalled."
+      "note": "Abstract read: Smith's team excavated at the site, occupied ca. AD 1100-1530. Background only; does not discuss the head. Full text paywalled."
     },
     {
       "id": "S6",
-      "citation": "Wikipedia contributors. \"Tecaxic-Calixtlahuaca head.\" Wikipedia, The Free Encyclopedia (revision accessed 2026-09-23).",
+      "citation": "Hristov, R.H. & Genovés T., S. (n.d., c. 2000-01). The Roman head from Tecaxic-Calixtlahuaca, Mexico: a review of the evidence. Web essay, University of New Mexico. Not peer-reviewed.",
       "doi": null,
-      "url": "https://en.wikipedia.org/wiki/Tecaxic-Calixtlahuaca_head",
-      "kind": "other",
+      "url": "https://www.unm.edu/~rhristov/calixtlahuaca/Romanhead.htm",
+      "kind": "reply",
       "access": "open",
       "verification": "checked",
-      "note": "Tertiary source. Its 1933/1960 dates, Andreae ID, and the Schmidt/Moedano hoax claim trace to a since-offline Hristov & Genovés essay; not independently confirmed in peer-reviewed literature."
+      "note": "Proponents' own web text. Passages read: 1933 find, three floors, offerings, burial 1476-1510, Boehringer, Andreae quote, MNA 'Colonial' entry, Schmidt letter, son's remark, references."
+    },
+    {
+      "id": "S7",
+      "citation": "Hristov, R.H. & Genovés T., S. (n.d., c. 2010). The Roman head from Tecaxic-Calixtlahuaca, Mexico: a review of the evidence. Extended version of a 2001 SAA meeting paper, with a reply to M.E. Smith. Web page, University of New Mexico. Not peer-reviewed.",
+      "doi": null,
+      "url": "https://www.unm.edu/~rhristov/calixtlahuaca.html",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Passages read: 1960 Vienna congress showing (brought by Bernal; not generally accepted), García Payón 1961 as his only lifetime text on the head, rebuttal of Smith. Undated."
+    },
+    {
+      "id": "S8",
+      "citation": "Smith, M.E. (n.d., c. 2003; photo note Nov. 2011). The \"Roman Figurine\" supposedly excavated at Calixtlahuaca. Web page, Arizona State University; Internet Archive copy, 2012. Not peer-reviewed.",
+      "doi": null,
+      "url": "http://web.archive.org/web/2012/http://www.public.asu.edu/~mesmith9/tval/RomanFigurine.html",
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Non-peer-reviewed web critique (file dated Jan 2003). Read: six alternatives, case 'weak', Paddock story, few notes, collection mix-up, possible early-Colonial offering, no Roman comparisons."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Claim-critique-reply chain (S1-S3) verified via checked abstracts; full texts stayed paywalled. Provenance/hoax details rest on one tertiary source (S6) tracing to an inaccessible primary essay.",
+  "confidence_note": "Provenance rests on both sides' own web texts (S6-S8), read directly but not peer-reviewed; S1-S3 read as abstracts only; the 1961 notes and Andreae's quote were not seen.",
   "corrections": [
-    "Brief: TL dating 'reported by Hristov & Genovés (1999) as pre-Columbian.' The lab itself (Schaaf & Wagner 2001) found that figure wrong; the corrected range (870 BC-AD 1270) is far wider and too imprecise to argue origin.",
-    "Brief names 'Michael E. Smith' as a critic questioning provenance. No Smith publication on this case was located despite searching; the verified critique is Schaaf & Wagner (2001). Smith's role is UNVERIFIED here."
+    "Published figure corrected: Hristov & Genovés (1999) gave a TL age of 1780 ± 400 b.p. The lab that ran the test says that figure and its reference were wrong; its limits are 870 BC-AD 1270 (S2), adopted in H&G's reply (S3).",
+    "Smith (S8) says García Payón published the head in 1960. H&G's reference lists (S6, S7) date his note to 1961, with 1960 as its showing at the Vienna Congress of Americanists. The 1961 note itself was not seen."
   ],
-  "notes": "The head is reportedly a fragment (face/head only) of a larger figurine, found with gold, copper, turquoise, rock crystal, jet, bone, shell and pottery grave goods (S6; not independently confirmed) — if accurate, consistent with a rich elite burial rather than casual fill. Bernard Andreae (German Archaeological Institute) is reported to have identified the style as Roman, Severan-period (c. AD 193-235), via a secondhand quote (\"Domenici 2000\") that could not be located or independently checked for this record. Calixtlahuaca's Late Postclassic occupation ran to about AD 1530 (S4), so a Colonial-era intrusion into the deposit remains stratigraphically plausible on current evidence.",
+  "notes": "The whole case rests on one object; H&G note that no Old World find from Mesoamerica has been accepted as proof of pre-1492 contact (S6). H&G date the burial to AD 1476-1510 but the passages read do not say how. Andreae's Severan-period attribution (c. AD 193-235) is known only as H&G quote it from Domenici 2000: 29, not located (UNVERIFIED). The draft's 'fragment of a larger figurine' detail was dropped: no source outside Wikipedia was found. H&G's two web texts differ on small details (1997 vs 1998 for their poll of senior scholars; page ranges for García Payón 1979).",
   "review": {
-    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_by": "researcher agent (claude-sonnet-5); revised by claude-opus-5-5",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Declined moving corrections[0] to notes: it is now framed as a correction of a published figure (H&G 1999's TL age, withdrawn by the lab, S2), which the schema allows; the brief is no longer quoted.",
+      "Not added: Wagner's April 2000 letter to New Scientist (cited only by Smith, S8), not verified. H&G's rebuttal of Smith (S7) is undated, so it has no timeline entry.",
+      "Not listed as sources (unverified; no DOI/URL): García Payón 1961 (Boletín INAH 6:1-2) and Heine-Geldern 1961 (Anzeiger ÖAW phil.-hist. Kl. 98(16):117-119), known only from H&G's references. Andreae quote not located.",
+      "Dropped the draft's unattributed 'single find is a weak basis' objection (no critic named; S2 does not say it). The single-object point is now in notes."
+    ]
   }
 }

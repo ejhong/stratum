@@ -1,0 +1,522 @@
+{
+ "auditor": "Sonnet auditor",
+ "date": "2026-09-23",
+ "monuments": [
+  {
+   "id": "stonehenge",
+   "name": "Stonehenge",
+   "country": "United Kingdom",
+   "construction_date": "Multi-stage, c. 3000-1600 BC; sarsen circle/trilithons erected c. 2620-2480 cal BC (95% prob., Bayesian model) [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "strong",
+   "direct_methods_applied": [],
+   "n_dates": "many (dozens; Bayesian-modelled across 5 stages)",
+   "spread_note": "Antler-pick and ditch/posthole-fill radiocarbon, Bayesian-modelled across stages spanning ~3000-1600 BC",
+   "feasible_direct_methods": "OSL of buried sarsen/bluestone stone-hole packing surfaces if re-excavated",
+   "decisive_if": "Direct OSL/exposure dates on stone-socket surfaces would confirm or revise whether erection matches the antler-pick dates",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Darvill, T., Marshall, P., Parker Pearson, M., Wainwright, G. (2012). Stonehenge remodelled. Antiquity 86(334): 1021-1040.",
+     "doi": "10.1017/s0003598x00048225",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Parker Pearson, M. (2021). Archaeology and legend: investigating Stonehenge. Archaeology International 24(1).",
+     "doi": "10.14324/111.444.ai.2021.09",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "high",
+   "notes": "Textbook associated-organic case: many dates, sealed contexts, decades of Bayesian refinement, but no date has ever been taken from the stones themselves."
+  },
+  {
+   "id": "avebury",
+   "name": "Avebury",
+   "country": "United Kingdom",
+   "construction_date": "Main henge bank/ditch c. 2500 cal BC; precise date of the stone circles themselves unresolved [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "few (source's own word: 'scarce')",
+   "spread_note": "Source states reliable dates for construction phases 'remain scarce'; stone-circle date not independently fixed",
+   "feasible_direct_methods": "OSL of buried megalith stone-hole packing (Southern/Northern Inner Circles)",
+   "decisive_if": "A direct date on stone-hole fill would show whether the megaliths are contemporary with, or postdate, the c. 2500 BC bank",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Gillings, M., Pollard, J., Strutt, K. (2019). The origins of Avebury. Antiquity 93(368): 359-377.",
+     "doi": "10.15184/aqy.2019.37",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Authors themselves flag the chronology as poorly secured; a striking direct quote from the paper: reliable dates 'remain scarce'."
+  },
+  {
+   "id": "newgrange",
+   "name": "Newgrange",
+   "country": "Ireland",
+   "construction_date": "Charcoal from burnt-soil roof-joint caulking gave GrN-5462 2550+/-45 BC and GrN-5463 2465+/-40 BC (uncalibrated, as published 1969); widely recalibrated in later literature to c. 3200 cal BC, not independently re-verified in this audit [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "moderate",
+   "direct_methods_applied": [],
+   "n_dates": "2 (original 1969 study); later dating programmes reportedly added more, not independently confirmed here",
+   "spread_note": "Only 2 primary dates, but charcoal was sealed in roof-joint caulking under 3m of undisturbed cairn material",
+   "feasible_direct_methods": "U-series on any calcite/flowstone over passage orthostats; OSL of buried orthostat bases",
+   "decisive_if": "More direct/sealed dates would confirm the ~3200 cal BC estimate and pin sub-phases (kerb vs chamber vs cairn)",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "O'Kelly, M.J. (1969). Radiocarbon Dates for the Newgrange Passage Grave, Co. Meath. Antiquity 43(170): 140-141.",
+     "doi": "10.1017/s0003598x00107690",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Cooney, G. (2006). Newgrange - a view from the platform. Antiquity 80(309): 697-708.",
+     "doi": "10.1017/s0003598x0009414x",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Good example of a calibration-driven age shift: the original 1969 paper's uncalibrated ~2500 BC became the famous 'older than the Pyramids' ~3200 cal BC once calibration curves matured; only the primary 1969 figures were read directly in this audit."
+  },
+  {
+   "id": "carrowmore",
+   "name": "Carrowmore",
+   "country": "Ireland",
+   "construction_date": "4th-millennium BC per revised antler/bone-pin dating; earlier claims of a 5th-millennium BC (Mesolithic-adjacent) origin now considered unreliable [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "moderate",
+   "direct_methods_applied": [],
+   "n_dates": "25 (new pin-fragment dates from 2 monuments, Bergh & Hensey 2013)",
+   "spread_note": "25 new pin dates revise earlier charcoal-based 5th-millennium-BC claims to a 4th-millennium-BC range",
+   "feasible_direct_methods": "None on the stones; further antler/bone dating from sealed cairn contexts at undated monuments in the complex",
+   "decisive_if": "Would settle whether Carrowmore genuinely predates or postdates other Irish passage tombs such as Newgrange",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Bergh, S., Hensey, R. (2013). Unpicking the Chronology of Carrowmore. Oxford Journal of Archaeology 32(4): 343-366.",
+     "doi": "10.1111/ojoa.12019",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "high",
+   "notes": "A clean vindication of H7's logic in reverse: the paper explicitly names 'the general problem of using charcoal to date megalithic monuments' as the cause of earlier overestimates."
+  },
+  {
+   "id": "callanish",
+   "name": "Callanish Stones",
+   "country": "United Kingdom",
+   "construction_date": "Erected in the later Neolithic, commonly cited as c. 2900 BC in secondary literature; precise construction-context dating not confirmed in sources read this audit [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "few (not enumerated in the source checked at citation level only)",
+   "spread_note": "Dating leans on peat-inception and pit/posthole radiocarbon rather than dated material from the stone sockets",
+   "feasible_direct_methods": "OSL of buried stone-socket packing if sockets are re-excavated",
+   "decisive_if": "A direct date on stone-socket fill would test whether erection matches the commonly cited ~2900 BC estimate",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Richards, C., Demetri, G., French, C., Nunn, R. et al. (2013). Expedient Monumentality. In Building the Great Stone Circles of the North, pp. 224-253.",
+     "doi": "10.2307/j.ctv13gvfvx.14",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Only verified at citation level (paywalled, abstract not available via OpenAlex); construction-date figure is a commonly cited estimate, flagged as not independently confirmed in this audit's reading."
+  },
+  {
+   "id": "ring-of-brodgar",
+   "name": "Ring of Brodgar",
+   "country": "United Kingdom",
+   "construction_date": "Later Neolithic, commonly cited c. 2600 BC; no organic material recovered in direct association with the stone sockets themselves [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "very few (ditch-cut dating only, per chapter title/abstract-level review)",
+   "spread_note": "Chronology rests mainly on ditch-cut dates; the standing stones themselves are undated",
+   "feasible_direct_methods": "OSL of stone-socket packing if re-excavated; U-series if any carbonate crust is present",
+   "decisive_if": "A direct date on a stone socket would confirm whether the ~2600 BC ditch-based estimate applies to the stones",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Downes, J., Richards, C., Brown, J., Cresswell, A.J. et al. (2013). Investigating the Great Ring of Brodgar, Orkney. In Building the Great Stone Circles of the North, pp. 90-118.",
+     "doi": "10.2307/j.ctv13gvfvx.9",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Only verified at citation level (paywalled). A strong H7 lead: Orkney's other great monuments (Ness of Brodgar) are well dated, but Brodgar's own stones reportedly are not."
+  },
+  {
+   "id": "carnac",
+   "name": "Carnac alignments",
+   "country": "France",
+   "construction_date": "Morbihan megalith-building emerges c. 4700-4300 cal BC per regional Bayesian model; the alignments' own individual menhirs are not separately dated in the source read [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "2,410 radiocarbon results compiled region-wide; count specific to the alignment rows not stated",
+   "spread_note": "Huge regional dataset (n=2410) pins the wider tradition, but few if any dates tie directly to individual alignment stone-sockets",
+   "feasible_direct_methods": "OSL of buried menhir-socket packing; excavation of unexcavated alignment sockets",
+   "decisive_if": "Direct dates on alignment stone-sockets would show if the rows are contemporary with regional tomb-building or a later addition",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Schulz Paulsson, B. (2019). Radiocarbon dates and Bayesian modeling support maritime diffusion model for megaliths in Europe. PNAS 116(9): 3460-3465.",
+     "doi": "10.1073/pnas.1813268116",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Regional strength should not be mistaken for site-specific strength: the 2410-date Bayesian model covers NW-France megaliths broadly, not the Carnac alignments' individual stones specifically."
+  },
+  {
+   "id": "barnenez",
+   "name": "Barnenez cairn",
+   "country": "France",
+   "construction_date": "c. 4800 BC, among the earliest known megalithic monuments in Europe, from charcoal in the cairn matrix [S1][S2]",
+   "dating_basis": "associated-organic",
+   "association_strength": "moderate",
+   "direct_methods_applied": [],
+   "n_dates": "several from the original excavation, incorporated into a larger regional Bayesian dataset",
+   "spread_note": "Charcoal dates from the cairn matrix place Barnenez among the earliest European megaliths, ~4800 BC",
+   "feasible_direct_methods": "OSL of buried orthostat/chamber-wall contact surfaces",
+   "decisive_if": "Would test whether Barnenez is truly among the very earliest European megaliths or whether charcoal dates reflect old wood",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Giot, P., l'Helgouach, J. (1957). Le Cairn de Barnenez en Plouezoc'h (Finistere). Architecture et mobilier de la tombe C. Annales de Bretagne.",
+     "doi": "10.3406/abpo.1957.2014",
+     "verification": "exists"
+    },
+    {
+     "id": "S2",
+     "citation": "Schulz Paulsson, B. (2019). Radiocarbon dates and Bayesian modeling support maritime diffusion model for megaliths in Europe. PNAS 116(9): 3460-3465.",
+     "doi": "10.1073/pnas.1813268116",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Original 1957 excavation report verified at citation level only (pre-DOI-era French journal); charcoal-in-matrix is a classic 'old wood' risk the source does not appear to address."
+  },
+  {
+   "id": "menga",
+   "name": "Dolmen of Menga",
+   "country": "Spain",
+   "construction_date": "c. 3800-3600 BCE, per recent geoarchaeological/engineering studies [S1][S2]",
+   "dating_basis": "associated-organic",
+   "association_strength": "moderate",
+   "direct_methods_applied": [],
+   "n_dates": "not stated in the passages read; papers assert the date range without detailing the underlying radiocarbon dataset",
+   "spread_note": "Narrow 200-year range cited by 2 recent papers, but the dating evidence itself (likely skeletal remains/pottery) was not directly confirmed here",
+   "feasible_direct_methods": "OSL of buried capstone/orthostat foundation contact surfaces (foundation depths already geoarchaeologically mapped by the source team)",
+   "decisive_if": "Would confirm whether capstone-laying matches the currently cited 3800-3600 BCE range",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Lozano Rodriguez, J.A., Garcia Sanjuan, L., Jimenez-Espejo, F.J., Alvarez-Valero, A.M. et al. (2024). Early science and colossal stone engineering in Menga, a Neolithic dolmen (Antequera, Spain). Science Advances 10(34).",
+     "doi": "10.1126/sciadv.adp1295",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Rodriguez, J.A.L., Sanjuan, L.G., Alvarez-Valero, A.M., Jimenez-Espejo, F. et al. (2023). The provenance of the stones in the Menga dolmen reveals one of the greatest engineering feats of the Neolithic. Scientific Reports 13(1).",
+     "doi": "10.1038/s41598-023-47423-y",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Abstracts and full-text passages read focus on engineering/quarry provenance, not the radiocarbon basis for the quoted date; a paywall (science.org, HTTP 403) blocked deeper full-text access to the chronology section. Flagged as a verification gap rather than papered over."
+  },
+  {
+   "id": "almendres",
+   "name": "Almendres Cromlech",
+   "country": "Portugal",
+   "construction_date": "UNVERIFIED precise date; secondary literature commonly places it in the Middle Neolithic (broadly 6th-5th millennium BC), but no dedicated radiocarbon/OSL dating study of the cromlech itself was located in this audit",
+   "dating_basis": "none",
+   "association_strength": null,
+   "direct_methods_applied": [],
+   "n_dates": "0 (no absolute dates for this monument found)",
+   "spread_note": "No radiocarbon/OSL/U-series dates for the cromlech itself found in this audit; age rests on regional stylistic comparison",
+   "feasible_direct_methods": "OSL of buried menhir-base contact surfaces; excavation for sealed organic material at stone bases",
+   "decisive_if": "Any direct or associated date at all would be a first for this monument and could confirm or overturn the assumed Middle Neolithic age",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Cerrillo-Cuenca, E., Bueno-Ramirez, P. et al. (2019). '3DMeshTracings': A protocol for the digital recording of prehistoric art. Its application at Almendres cromlech (Evora, Portugal). Journal of Archaeological Science: Reports.",
+     "doi": "10.1016/j.jasrep.2019.03.010",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Search for a dedicated Almendres chronology/OSL paper (e.g. Boaventura-led work on Alentejo menhirs) did not surface a citable result within this audit's tool budget. This is one of the cleanest H7 cases in the sample: apparently no absolute date exists for the monument at all."
+  },
+  {
+   "id": "ggantija",
+   "name": "Ggantija",
+   "country": "Malta",
+   "construction_date": "c. 3600-3200 BC (Ggantija phase of the Maltese temple sequence), per the calibrated radiocarbon chronology Renfrew established for Malta's temple period [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "several, defining Malta's island-wide temple-period phases; dataset is the original 1960s-70s one, not independently re-checked here",
+   "spread_note": "Phase-defining dates underpinning 'Ggantija phase' terminology are decades old; no recent site-specific re-dating confirmed",
+   "feasible_direct_methods": "U-series on any calcite deposits on temple walls; OSL of buried orthostat bases",
+   "decisive_if": "Fresh direct/associated dating would test whether the 1970s temple-phase boundaries still hold",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Renfrew, C. (1972). Malta and the calibrated radiocarbon chronology. Antiquity 46(182): 141-144.",
+     "doi": "10.1017/s0003598x00053400",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "A more recent island-wide Bayesian re-dating project (e.g. FRAGSUS) is known to exist in the literature but a citable DOI/abstract for it was not located within this audit's search budget; flagged rather than assumed."
+  },
+  {
+   "id": "hagar-qim",
+   "name": "Hagar Qim",
+   "country": "Malta",
+   "construction_date": "c. 3600-3200 BC per the island-wide Maltese temple-period sequence; no temple-specific dating dataset located in this audit [S1]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "not specific to this temple in sources reviewed; relies on the island-wide temple-period framework",
+   "spread_note": "No temple-specific radiocarbon dataset found; dated by fitting into Malta's general sequence, not by direct evidence from the site",
+   "feasible_direct_methods": "OSL of buried megalith bases; U-series on any carbonate crusts on the stones",
+   "decisive_if": "A site-specific date would show whether Hagar Qim fits the standard island sequence or needs its own chronology",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Renfrew, C. (1972). Malta and the calibrated radiocarbon chronology. Antiquity 46(182): 141-144.",
+     "doi": "10.1017/s0003598x00053400",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Same source-scarcity issue as Ggantija; both Maltese temples share this audit's weakest source base for a 'mainstream, well-known' monument."
+  },
+  {
+   "id": "gobekli-tepe",
+   "name": "Gobekli Tepe",
+   "country": "Turkey",
+   "construction_date": "c. 9600-8200 cal BC; e.g. lime-mortar sample KIA-44149: 9984+/-42 BP = 9745-9314 cal BC; latest Pre-Pottery-Neolithic activity 8860+/-60 BP = 8240-7780 cal BC [S1]",
+   "dating_basis": "direct",
+   "association_strength": null,
+   "direct_methods_applied": [
+    "mortar/plaster radiocarbon (AMS on lime mortar and embedded organics, Kiel lab)"
+   ],
+   "n_dates": "many (dozens of AMS dates across Layers III/II)",
+   "spread_note": "Mortar and charcoal AMS dates span ~9745-7780 cal BC across construction/use phases",
+   "feasible_direct_methods": "Already applied (mortar radiocarbon); further dating of individual enclosure fills could refine sub-phasing",
+   "decisive_if": "Already largely settled by direct mortar dates; further dates would refine sequencing between enclosures, not the overall age",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Dietrich, L., Meister, J., Dietrich, O., Notroff, J., Kiep, J., Heeb, J., Beuger, A., Schutt, B. (2019). Cereal processing at Early Neolithic Gobekli Tepe, southeastern Turkey. PLOS ONE 14(5): e0215214.",
+     "doi": "10.1371/journal.pone.0215214",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Schmidt, K. (2000). Gobekli Tepe, Southeastern Turkey. A Preliminary Report on the 1995-1999 Excavations. Paleorient 26(1): 45-54.",
+     "doi": "10.3406/paleo.2000.4697",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "high",
+   "notes": "The one clear counter-example to H7 in this batch of 20: construction is dated directly via radiocarbon on the lime mortar itself, not merely on associated finds."
+  },
+  {
+   "id": "karahan-tepe",
+   "name": "Karahan Tepe",
+   "country": "Turkey",
+   "construction_date": "Broadly PPNA/early PPNB (10th-9th millennium BC), dated mainly by comparison to Gobekli Tepe; no site-specific radiocarbon dataset located in this audit [S1]",
+   "dating_basis": "stylistic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "0 confirmed in sources reviewed (comparison-based dating only in the accessible literature found)",
+   "spread_note": "2011 report dates the site by stylistic comparison (T-pillar motifs) to Gobekli Tepe only",
+   "feasible_direct_methods": "Mortar/lime-plaster radiocarbon as successfully applied at Gobekli Tepe, if comparable material is present",
+   "decisive_if": "Direct mortar or sealed-fill dates would confirm whether Karahan Tepe is contemporary with, older, or younger than Gobekli Tepe",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Celik, B. (2011). Karahan Tepe: a new cultural centre in the Urfa Area in Turkey. Documenta Praehistorica 38: 241-254.",
+     "doi": "10.4312/dp.38.19",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Important gap to flag: large-scale controlled excavation under Necmi Karul since 2019 (Tas Tepeler project) almost certainly has produced radiocarbon dates, but a citable DOI/abstract for that later work was not located within this audit's search budget. The record above reflects only the earlier, style-comparison-based literature found."
+  },
+  {
+   "id": "nevali-cori",
+   "name": "Nevali Cori",
+   "country": "Turkey",
+   "construction_date": "UNVERIFIED specific dates; general literature places the PPNB cult building broadly in the 9th millennium BC, but no primary dating source was independently confirmed in this audit",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "UNVERIFIED - not independently confirmed in this audit",
+   "spread_note": "UNVERIFIED - primary excavation reports (Hauptmann, largely pre-DOI German-language publications) not accessed this audit",
+   "feasible_direct_methods": "None now feasible - site has been submerged under the Ataturk Dam reservoir since 1992",
+   "decisive_if": "N/A for new fieldwork; only re-analysis of archived samples/records from the 1980s-90s excavation could refine this",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Nevali Cori. (2021). Encyclopedic Dictionary of Archaeology, p. 931.",
+     "doi": "10.1007/978-3-030-58292-0_140182",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "The weakest-sourced record in this batch. Primary Nevali Cori publications (Hauptmann's excavation reports) are largely pre-DOI German-language journal articles (Istanbuler Mitteilungen, Anatolica) not indexed on Crossref/OpenAlex; none were located via this audit's search tools. Flagged honestly rather than filled in from unverified general knowledge, per project no-fabrication rule."
+  },
+  {
+   "id": "rujm-el-hiri",
+   "name": "Rujm el-Hiri",
+   "country": "Golan Heights",
+   "construction_date": "Chalcolithic period per a recent OSL-supported landscape analysis, contra earlier Early Bronze Age attributions based on surface pottery [S1][S2]",
+   "dating_basis": "associated-organic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "few sherds plus an OSL study (sample count not stated in the abstract read)",
+   "spread_note": "Few sherds gave inconsistent Early-Bronze-ish dates; a newer OSL study instead argues for the Chalcolithic",
+   "feasible_direct_methods": "OSL of buried wall-base contact surfaces (already partly applied); further sampling of wall foundations",
+   "decisive_if": "More OSL/associated dates would resolve the long-standing Chalcolithic-vs-Early-Bronze-Age dispute",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Freikman, M., Porat, N. (2017). Rujm el-Hiri: The Monument in the Landscape. Tel Aviv 44(1): 14-39.",
+     "doi": "10.1080/03344355.2017.1280973",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Freikman, M. (2018). Dating the Megalithic Structures of the Golan. Journal of the Israel Prehistoric Society 48: 108-146.",
+     "doi": "10.61247/s663359",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Source explicitly states 'there is still no consensus on its date...due to the very scanty archaeological evidence found between its walls' - a direct, citable confirmation of H7's premise."
+  },
+  {
+   "id": "baalbek",
+   "name": "Baalbek (Temple of Jupiter podium and trilithon)",
+   "country": "Lebanon",
+   "construction_date": "Conventionally Julio-Claudian, c. AD 40-60, anchored by a stonemason's graffito dated 2 August AD 60 on one of the blocks; relative sequence of trilithon vs podium still debated [S1]",
+   "dating_basis": "historical-contextual",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "n/a (one securely dated inscription; broader phasing inferred from Roman textual/architectural context)",
+   "spread_note": "One dated mason's graffito (AD 60) anchors the podium; the trilithon's relative sequence is still debated",
+   "feasible_direct_methods": "None applicable to the dry-laid megalithic core (no mortar); cosmogenic exposure dating of quarry-face cut surfaces could be tried",
+   "decisive_if": "Would resolve whether the trilithon predates, postdates, or is contemporary with the Julio-Claudian podium construction",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Magli, G. (2019). The Archaeoastronomy and Chronology of the Temple of Jupiter at Baalbek. In Archaeoastronomy in the Roman World, pp. 145-151.",
+     "doi": "10.1007/978-3-319-97007-3_9",
+     "verification": "checked"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Source itself states 'an impressive number of problems remain unsolved...including precise dating, phases of construction'; a dated graffito is unusually strong for the historical-contextual category, but per the audit's own schema an inscription is text, not a physical dating method."
+  },
+  {
+   "id": "great-sphinx",
+   "name": "Great Sphinx of Giza",
+   "country": "Egypt",
+   "construction_date": "Conventionally attributed to Khafre (4th Dynasty, c. 2500 BC) via stylistic/facial and causeway-layout association with Khafre's pyramid complex; a minority geological weathering argument (Schoch) proposes a much greater age, contested by mainstream geologists reading the same outcrop differently [S1][S2][S3]",
+   "dating_basis": "stylistic",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "0 (no radiometric/absolute date of the carved bedrock itself)",
+   "spread_note": "No absolute date of the carved bedrock exists; age is inferred from art style and causeway alignment to Khafre's complex",
+   "feasible_direct_methods": "Cosmogenic nuclide exposure dating of enclosure-wall carved surfaces; U-series on any calcite veining",
+   "decisive_if": "A direct exposure/U-series date could confirm the Khafre-era attribution, or support a substantially older or younger carving date",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Dobecki, T.L., Schoch, R.M. (1992). Seismic investigations in the vicinity of the great Sphinx of Giza, Egypt. Geoarchaeology 7(6): 527-544.",
+     "doi": "10.1002/gea.3340070603",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Chowdhury, A.N., Punuru, A.R., Gauri, K.L. (1990). Weathering of limestone beds at the great sphinx. Environmental Geology and Water Sciences 15(3): 217-223.",
+     "doi": "10.1007/bf01706413",
+     "verification": "exists"
+    },
+    {
+     "id": "S3",
+     "citation": "The Geology of the Great Sphinx. (2026). In Rewriting the History of the Great Sphinx, pp. 125-147.",
+     "doi": "10.2307/jj.38271388.14",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "high",
+   "notes": "The canonical H7 case in this batch: both the mainstream dating and the best-known challenge to it rest on interpretation (style, or weathering-pattern reading) rather than any absolute chronometric date of the bedrock."
+  },
+  {
+   "id": "great-pyramid",
+   "name": "Great Pyramid of Giza",
+   "country": "Egypt",
+   "construction_date": "c. 2560-2540 BC (4th Dynasty, reign of Khufu), from radiocarbon on organic material (charcoal, reed, wood) embedded in mortar/construction debris, broadly matching but offset from the historical regnal chronology [S1][S2]",
+   "dating_basis": "associated-organic",
+   "association_strength": "strong",
+   "direct_methods_applied": [],
+   "n_dates": "many (450+ organic samples collected across Old/Middle Kingdom monuments; subset specific to the Great Pyramid)",
+   "spread_note": "Radiocarbon dates trend somewhat older than the historical/regnal chronology by decades to about a century (old-wood effect debated)",
+   "feasible_direct_methods": "Direct mortar-carbonate radiocarbon (distinct from dating organic inclusions) rarely attempted due to old-carbon contamination risk in Egyptian lime",
+   "decisive_if": "Would test whether the radiocarbon/historical offset reflects old wood, mortar reuse/repair, or a genuine chronology revision",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Bonani, G., Haas, H., Hawass, Z., Lehner, M. et al. (2001). Radiocarbon Dates of Old and Middle Kingdom Monuments in Egypt. Radiocarbon 43(3): 1297-1320.",
+     "doi": "10.1017/s0033822200038558",
+     "verification": "checked"
+    },
+    {
+     "id": "S2",
+     "citation": "Bronk Ramsey, C., Dee, M.W. et al. (2010). Radiocarbon-Based Chronology for Dynastic Egypt. Science 328(5985): 1554-1557.",
+     "doi": "10.1126/science.1189395",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "high",
+   "notes": "Classified as associated-organic rather than direct: the dated material is organic temper/debris embedded in or under the mortar, not radiocarbon on the mortar's own lime carbonation (a distinct, rarely-used technique for Egyptian contexts). This distinction is judgment-call territory and worth a specialist's review."
+  },
+  {
+   "id": "osireion",
+   "name": "Osireion, Abydos",
+   "country": "Egypt",
+   "construction_date": "Conventionally linked to Seti I's adjacent temple, c. 1290s-1279 BC (19th Dynasty), by location/architectural association and inscriptions in the neighbouring temple and later additions; the megalithic core itself carries no independent inscriptional date [S1]",
+   "dating_basis": "historical-contextual",
+   "association_strength": "weak",
+   "direct_methods_applied": [],
+   "n_dates": "0",
+   "spread_note": "No radiocarbon/OSL/U-series dates located for the structure; dated purely by proximity to Seti I's temple and later royal additions",
+   "feasible_direct_methods": "U-series on calcite deposited during the structure's long groundwater submersion; OSL of buried foundation-block contact surfaces",
+   "decisive_if": "A direct date would settle whether the Osireion's core is contemporary with Seti I or an earlier/later structure later associated with his temple",
+   "sources": [
+    {
+     "id": "S1",
+     "citation": "Wegner, M.P. (2019). Birth and Rebirth in the Abydos Landscape. In Abydos, pp. 235-254.",
+     "doi": "10.2307/j.ctv1q26pqk.16",
+     "verification": "exists"
+    }
+   ],
+   "confidence": "low",
+   "notes": "Along with the Great Sphinx and Almendres, one of this batch's cleanest H7 leads: zero absolute dates located for a megalithic structure whose age is debated partly on the basis of construction style resembling earlier (Old Kingdom) masonry."
+  }
+ ]
+}

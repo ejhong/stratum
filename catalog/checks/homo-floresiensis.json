@@ -118,5 +118,45 @@
   "crossref_year": 2024,
   "crossref_venue": "Nature Communications",
   "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Flores hominid: New species or microcephalic dwarf?",
+  "crossref_year": 2006,
+  "crossref_venue": "The Anatomical Record Part A: Discoveries in Molecular, Cellular, and Evolutionary Biology",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Insular dwarfism in hippos and a model for brain size reduction in Homo floresiensis",
+  "crossref_year": 2009,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Early stone technology on Flores and its implications for Homo floresiensis",
+  "crossref_year": 2006,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S19": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Craniometric ratios of microcephaly and LB1,\n                    <i>Homo floresiensis</i>\n                    , using MRI and endocasts",
+  "crossref_year": 2011,
+  "crossref_venue": "Proceedings of the National Academy of Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S20": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Skeptics Question Whether Flores Hominid Is a New Species",
+  "crossref_year": 2004,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
  }
 }

@@ -157,6 +157,7 @@ def rules(rec, stem, errs):
             if a["bp_min"] > a["bp_max"]:
                 errs.append(f"{key}: bp_min is greater than bp_max")
     for text in strings(rec):
+        text = re.sub(r"10\.\d{4,9}/\S+", " ", text)  # DOIs quoted in prose are not coordinates
         if COORD_RE.search(text):
             errs.append(f"possible coordinates or location detail: {text[:80]!r} — location must stay at country/region level")
             break

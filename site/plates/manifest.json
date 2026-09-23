@@ -135,7 +135,7 @@
  "homo-floresiensis": [
   {
    "file": "plates/homo-floresiensis/homo-floresiensis.jpg",
-   "caption": "A reconstructed Homo floresiensis skull cast, showing the small braincase central to the microcephaly debate.",
+   "caption": "Cast of the LB1 skull and mandible on museum display.",
    "commons_file": "File:Homo floresiensis.jpg",
    "license": "CC BY-SA 2.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
@@ -169,6 +169,32 @@
    "source_url": "https://commons.wikimedia.org/wiki/File:MeadowcroftRockshelter.jpg",
    "width": 1400,
    "height": 904
+  }
+ ],
+ "gunung-padang": [
+  {
+   "file": "plates/gunung-padang/situs-gunung-padang.jpg",
+   "caption": "The megalithic step-terraces at Gunung Padang, Cianjur Regency, West Java.",
+   "commons_file": "File:Situs Gunung Padang.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "credit": "Arie Basuki",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Situs_Gunung_Padang.jpg",
+   "width": 1400,
+   "height": 931
+  }
+ ],
+ "sphinx-weathering": [
+  {
+   "file": "plates/sphinx-weathering/great-sphinx-of-giza-20080716a.jpg",
+   "caption": "The Great Sphinx of Giza, showing the weathered limestone body at the center of the dating controversy.",
+   "commons_file": "File:Great Sphinx of Giza - 20080716a.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "credit": "Taken by the uploader, w:es:Usuario:Barcex",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_-_20080716a.jpg",
+   "width": 1400,
+   "height": 931
   }
  ]
 }

@@ -1,0 +1,164 @@
+{
+  "id": "kensington-runestone",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "'Refuted' is right, but Winchell led the 1910 MHS panel that endorsed the stone; the record makes him a critic. It also wrongly corrects the brief's 1899 date, overstates Williams 2012 (unread), codes unsettled objections 'held', omits the 2004 Larsson papers and misdates Krueger (2015).",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "objections[3].raised_by; timeline[4].event; features_at_claim.peer_reviewed_report.note; features_at_claim.independent_teams.note; key_proponents",
+      "problem": "The record makes Newton H. Winchell a critic who saw fresh chisel marks, and says Flom's 1910 verdict came 'alongside state geologists' observations'. The record shows the reverse. Winchell investigated for the Minnesota Historical Society Museum Committee, which on 21 Apr 1910 unanimously resolved that it 'renders a favorable opinion of the authenticity of the Kensington rune stone', on condition that a Scandinavian specialist verify it. His weathering section concludes 'stages (2) and (3) may have required each about 500 years'. Williams (2012): 'The first geologist working on the stone, Newton H. Winchell, found the inscription to be old.' The freshness argument (calcite runes as clear as the graywacke) is Flom's alone. S1 names Winchell only in a footnote, as the informant for a find detail.",
+      "fix": "Remove Winchell from objections[3].raised_by (Flom only) and add him to key_proponents. Add a 1910 timeline event: the MHS committee gives a conditional favorable opinion. Rewrite timeline[4] without 'state geologists'. Add the MHS report as a primary source: Minnesota Historical Society Museum Committee (1910), The Kensington Rune Stone: Preliminary Report, St. Paul (printed Dec 1910).",
+      "evidence": "https://archive.org/stream/kensingtonrunest00minn/kensingtonrunest00minn_djvu.txt (Resolutions adopted 21 Apr 1910; 'Slight Weathering' section); Williams 2012, 'facts' item 4, https://collections.carli.illinois.edu/digital/api/collection/npu_sahq/id/6147/download"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].outcome; objections[3].outcome; objections[3].outcome_note",
+      "problem": "Both objections are coded 'held' (later confirmed), but the record's own modern authority says neither was settled. Williams (2012): 'Historical arguments have raged on the possibility and probability of a fourteenth-century journey from Scandinavia to Minnesota, but nothing has been proven either way' and 'Nor are the geological questions solved.' Objection 4's own outcome_note calls the weathering dispute unresolved, which contradicts 'held'. An implausibility argument cannot be 'confirmed' by absence of evidence.",
+      "fix": "Set both outcomes to 'unresolved'. Objection 1 note: no trace of an inland route has been found, but the medieval claim fell on the inscription itself, not on route logistics. Objection 4 note: Winchell (1910) and Wolter (2000s) read the weathering as old, and no published, replicated study has settled it.",
+      "evidence": "Williams 2012, 'facts' items 3-4 (CARLI PDF above)"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[0]; hook; status_note; timeline; year_resolved",
+      "problem": "Correction 1 says the brief's 'from 1899' could not be verified, but the brief was right. Williams (2012): Curme (Chicago, 1899) and 'O[laus] J. Breda in Minneapolis', who 'had already provided a preliminary translation on the basis of a drawing', 'were unanimous in their conclusion that the inscription on the KRS was not medieval.' S1 also has a footnote saying Breda 'also at the time passed adversely on the stone.' The hook ('judged modern within twelve years'), status_note ('since Flom (1910)') and timeline all leave out the 1899 verdicts. year_resolved 1910 is presented as settled by Flom, although the MHS endorsed the stone that same year.",
+      "fix": "Delete correction 1. Add an 1899 timeline event: Breda and Curme judge it not medieval (S9, S1). Hook: 'judged modern by specialists within a year'. year_resolved: use 1899, since specialists rejected it at once and their verdict never shifted. Or keep 1910, but then say in status_note that the MHS endorsed the stone in 1910 and that the academic verdict hardened around 1950. Williams: 'around 1950, when most of the academic scholars proclaimed the KRS to be modern'.",
+      "evidence": "Williams 2012 opening section (CARLI PDF); S1 footnote on Breda (archive.org kensingtonrunest00flom)"
+    },
+    {
+      "severity": "major",
+      "field": "what_settled_it; settled_by; timeline",
+      "problem": "The record leaves out the most important modern evidence and mislabels what settled the case. In 2004 two sheets were found at the dialect archive in Umea (DAUM): a rune-row dated 1883 by Carl Emil Larsson, and an 1885 copy by his brother Edward Larsson, a tailor from Dalarna. Williams says they show 'a system of characters closely related to that used on the KRS' and that the find 'changed everything.' settled_by also lists 'geology', but geology has only ever been argued for authenticity (Winchell 1910; Wolter), and Williams says the geological questions are not solved.",
+      "fix": "settled_by: ['expert-review'] (drop 'geology'). In what_settled_it, add the 2004 Larsson papers as the first documented 19th-century source for the rune forms, with Williams's caveat about 'important differences, especially regarding n, o, p, r, and t'. Add a 2004 timeline event, making room by merging the 1909 Gjessing entry into 1910. Source: Williams 2012. Sköld, T. (2003), 'Edward Larssons alfabet och Kensingtonstenens', DAUM-Katta 13: 5-11, is cited in Williams fn 36; verify it before adding.",
+      "evidence": "Williams 2012, Larsson-papers section (CARLI PDF)"
+    },
+    {
+      "severity": "major",
+      "field": "objections[1].outcome_note; status_note; timeline[10].event; corrections[2]; sources[S9]",
+      "problem": "S9 was not read, yet the record says it simply 'reaffirms the 19th-century verdict'. Read in full, it is more cautious: 'the evidence against a medieval origin of the KRS inscription is not as clear-cut as some believe, the weight of the evidence still supports a nineteenth-century origin. Still, many of the supposedly impossible words and forms have been shown to exist or to be at least possible' in Old Swedish. It adds that 'the case for a nineteenth-century origin is not complete.' The claim that 'no runologist has published a peer-reviewed defense of a medieval date' is also misleading. The record itself calls S2 (Speculum 1950) a scholarly defense in a refereed journal. Williams also names linguist Robert Hall and William Thalbitzer as scholarly supporters of authenticity.",
+      "fix": "Rewrite objection 2's outcome_note to match Williams: the weight of evidence supports a 19th-century origin, but several specific anachronism claims were overstated. Delete the 'no runologist' sentence. Add Thalbitzer to key_proponents or notes. Mark S9 'checked' only after reading it, and add the open-access CARLI URL.",
+      "evidence": "https://collections.carli.illinois.edu/digital/api/collection/npu_sahq/id/6147/download"
+    },
+    {
+      "severity": "major",
+      "field": "sources[S10]; timeline[9]",
+      "problem": "Krueger's Myths of the Rune Stone is a 2015 book. Crossref has 2015 records for it: 10.5749/9781452974729 (open access, full title) and 10.5749/minnesota/9780816696918.001.0001 (the print ISBN). The 2010 date on chapter DOI 10.5749/9781452945422-005 is a metadata error. S10 is also wrongly coded kind 'review' and access 'paywalled'.",
+      "fix": "Use 2015 in the citation and the timeline. Set kind 'book' and access 'open', and cite DOI 10.5749/9781452974729. Mention in the note that the Crossref chapter record misdates it to 2010.",
+      "evidence": "lookup.py doi 10.5749/9781452974729 (2015; abstract: credibility 'quickly challenged and ultimately undermined by experts')"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.peer_reviewed_report; features_at_claim.independent_teams; features_at_claim.proponent_stake; features_at_claim.material_accessible",
+      "problem": "These are coded from events 9-12 years after the 1898 claim (Holand's 1907 purchase, Flom and the MHS in 1910), not as things stood by about 1903. By then no technical report existed. S1 says the stone 'was not therefore submitted to a detailed examination' and was used as a granary door-step. For independent_teams, the evidence in the window is Breda's and Curme's separate 1899 verdicts. For proponent_stake, Holand's share dates from 1907 (Williams), so no stake is documented within the window.",
+      "fix": "peer_reviewed_report: 'no'. independent_teams: keep 'partial' only with a note citing Breda and Curme 1899 (S9). proponent_stake: 'unknown', with a note that Holand's financial interest began in 1907. material_accessible: remove the 1909-10 MHS examination from the note.",
+      "evidence": "S1 door-step passage; Williams 2012 (1907 sale; 1899 Breda/Curme)"
+    },
+    {
+      "severity": "major",
+      "field": "evidence_types; independent_methods_count",
+      "problem": "Nothing in the record explains or sources 'artifacts'. 'stratigraphy' overstates the tree-root testimony; Williams notes there were 'no corroborating witnesses' and no tangible evidence for the find context. The independent lines actually offered are the inscription, the find-context testimony and weathering (Winchell 1910). A count of 4 inflates a variable the analyst will use as a predictor.",
+      "fix": "Drop 'artifacts', or source it (for example Holand's later 'mooring stones') and treat it as a separate claim. Set independent_methods_count to 3, or 2 if the testimony is not counted.",
+      "evidence": "Williams 2012 'facts' item 2; MHS 1910 report weathering section"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[2]",
+      "problem": "Williams: Öhman 'kept it until 1907, when it was sold to Hjalmar Holand, who wrote extensively about it from 1908'. S1 dates Holand's first account to Husbibliotek 3 (1908) but gives no year for the purchase.",
+      "fix": "Split into two events: 1907, Holand buys the stone (or a share, per S1); 1908, his first published account.",
+      "evidence": "Williams 2012 (CARLI PDF); S1"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].text",
+      "problem": "'modern plural verb endings' reverses S1's point. Flom's argument is that plural subjects take singular verb forms (vi var, vi kom, vi fan, vi har), where 14th-century Swedish required -um endings (vi varom, vi komom, vi funnum).",
+      "fix": "Say instead: plural subjects with singular verb forms (vi var, vi kom), where 14th-century Swedish had -um endings; dialectal spellings.",
+      "evidence": "S1 verb-form passage (archive.org kensingtonrunest00flom)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[2].outcome_note",
+      "problem": "'Folk-runic literacy existed within the immigrant community itself' has no source. The evidence is the Larsson papers from Dalarna in Sweden, plus Flom's inference that the carver was probably from Dalarna. The one local lead is hearsay in the MHS report (from Gunder Johnson) that Öhman carved runes on wood around 1883. Williams: 'no evidence of any kind has ever surfaced' that Öhman was the author.",
+      "fix": "Rephrase: rune-rows from Dalarna closely related to the KRS runes are documented in 1883 and 1885, which weakens the 'no one could know these runes' argument. Who carved the stone is still unknown.",
+      "evidence": "Williams 2012; MHS 1910 report (Gunder Johnson passage)"
+    },
+    {
+      "severity": "minor",
+      "field": "notes; status_note; corrections[3]; key_proponents",
+      "problem": "Wolter's work can be cited, though none of it is peer-reviewed: Nielsen, R. and Wolter, S. F. (2006), The Kensington Rune Stone: Compelling New Evidence (Chanhassen, MN), and Wolter (2009), The Hooked X (St. Cloud, MN). Williams cites both (fns 18 and 5) and says recent geological work 'has reiterated Winchell's results, but has not been scientifically published and has had no scientific support.' So the 'not peer-reviewed' framing is fair. But the record calls Wolter's case the proponents' 'most recent argument' without saying it revives Winchell's 1910 case. Correction 4 is not a correction, because the brief was accurate.",
+      "fix": "Add Nielsen and Wolter 2006 as a source with verification 'exists'. Keep the mica details marked UNVERIFIED until the book is read. Say that Wolter's case continues Winchell's. Move correction 4 into notes, and add Richard Nielsen to key_proponents.",
+      "evidence": "Williams 2012 fns 5, 18 and 'facts' item 4"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S11].citation",
+      "problem": "The end page (645) was 'inferred from standard article length'. Principle 4 forbids inventing figures. A search snippet quoting a 1936 Minnesota History bibliography gives 613-645, but this has not been checked against the article itself.",
+      "fix": "Cite a source for 613-645, or give the start page only. Delete the 'inferred' note.",
+      "evidence": "Crossref 10.2307/359189 gives start page 613 only"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S9].citation",
+      "problem": "Crossref and Project MUSE list the journal under its current name, 'Swedish-American Studies'. In 2012 it was published as The Swedish-American Historical Quarterly (the North Park digital collection is 'npu_sahq').",
+      "fix": "Cite it as The Swedish-American Historical Quarterly 63(1): 3-22 and add the CARLI open-access URL.",
+      "evidence": "https://collections.carli.illinois.edu/digital/api/collection/npu_sahq/id/6147/download"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S8]",
+      "problem": "The citation gives no reviewer name, and kind 'reply' is wrong for a book notice. It is used only to show that Hall's book exists.",
+      "fix": "Cite Hall, R. A., Jr. (1994), The Kensington Rune-Stone: Authentic and Important (Jupiter Press) directly, as 'exists'. For a runologist's critique, consider Page, R. I. (1983), his Speculum review of Hall 1982, doi:10.2307/2848976.",
+      "evidence": "lookup.py doi 10.1353/lan.1998.0175 (no author; misaligned abstract)"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[1]; corrections[2]; corrections[4]",
+      "problem": "Corrections 2 and 3 confirm the brief rather than correct it; the schema reserves corrections for places where the brief or published accounts were wrong. Correction 5 is supported by S1, but 'as sometimes stated' has no source.",
+      "fix": "Delete corrections 2 and 3. For correction 5, add Williams ('sold to Hjalmar Holand', 1907), and either name an account that says 'gift' or drop 'as sometimes stated'.",
+      "evidence": "S1 ('purchased the stone ... or ... a share'); Williams 2012"
+    },
+    {
+      "severity": "minor",
+      "field": "plates[0].caption",
+      "problem": "'202-pound' is copied from the Commons file description and cannot be seen in a photograph. 'Greywacke slab' is incomplete: S1 says the stone is 'partly graywacke, partly calcite'.",
+      "fix": "Use a caption that describes only what is visible, e.g. 'The Kensington Runestone on display, with runes on its face and edge.'",
+      "evidence": "lookup.py commons 'File:Kensington Runestone.jpg'; S1"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[6].event; timeline[7].event",
+      "problem": "Both describe the content of sources nobody read. The record calls Hagen 1950 a 'detailed scholarly defense' (S2 is marked 'exists'), and Williams's list of scholarly supporters does not include Hagen. 'The fullest historical investigation' (Blegen) is an evaluation, not a fact.",
+      "fix": "Confirm Hagen's stance from the article or a contemporary review, or word it neutrally. Drop 'fullest'.",
+      "evidence": "Williams 2012 (supporters named: Hall, Thalbitzer, Wolter)"
+    },
+    {
+      "severity": "minor",
+      "field": "failure_mode; notes",
+      "problem": "'hoax' is the best-fitting value, but the carver and motive are unproven. Williams finds no evidence that Öhman was the author, says the deathbed-confession rumor 'does not stand up to scrutiny', and writes that 'the issue is so much more complex than just the question of fake or not.'",
+      "fix": "Keep 'hoax', but state in notes that the author is unknown and that a 19th-century carving made without intent to deceive has not been ruled out.",
+      "evidence": "Williams 2012 'facts' item 1 and conclusion"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence; confidence_note",
+      "problem": "Given the errors above, 'medium' overstates the draft as written, and the note relies on S1 alone. With S9 (open access) and the MHS report now readable, 'medium' will be justified after revision. 'High' would need the content of Wahlgren or Blegen, or an equivalent source, to be verified.",
+      "fix": "Revise, then keep 'medium'. Update the note to say S1, S9 and the MHS report were read.",
+      "evidence": "This review"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Full text grepped. Supports: 1898 find, son Edward aged ten, Curme's reversal, door-step, Holand's 'share', Gjessing in Symra V, objections 1, 2, 3, 5 and 6, and the freshness argument (Flom's own). Does not support: Winchell as a critic, 'state geologists' observations', the MHS examination, the 1820 lower bound."},
+    {"id": "S2", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match (Speculum 25(3):321-356). Its stance as a defense is asserted without being read."},
+    {"id": "S3", "exists": true, "supports_citation": "could-not-read", "note": "archive.org record, lending-restricted. Williams cites Wahlgren for rune and language points."},
+    {"id": "S4", "exists": true, "supports_citation": "could-not-read", "note": "archive.org record. Several 1969 reviews exist (Scott JAH; Page JAS; Wahlgren Antiquity; Dodge AHR)."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match. Not cited by any field; supports only the key_critics entry."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "Crossref lists Kehoe as author of a 3-page item with her book's title. Unconfirmed whether it is an article or a book précis."},
+    {"id": "S7", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match. Not cited by any field."},
+    {"id": "S8", "exists": true, "supports_citation": "partial", "note": "Book notice with no author in Crossref. It only establishes that Hall's book exists."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "Read by the skeptic (open-access PDF at CARLI). Supports a 19th-century origin 'on the weight of evidence', with caveats. Contradicts outcomes 1 and 4 and Winchell as a critic. Gives Breda/Curme 1899, Holand 1907 and the Larsson papers of 2004."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "The chapter abstract supports the civic-identity framing. The book is 2015 (Crossref 10.5749/9781452974729, open access), not 2010."},
+    {"id": "S11", "exists": true, "supports_citation": "could-not-read", "note": "Crossref gives start page 613 only. The researcher inferred the end page 645."},
+    {"id": "NEW: MHS Museum Committee 1910 report", "exists": true, "supports_citation": "yes", "note": "archive.org kensingtonrunest00minn, printed Dec 1910. Conditional favorable opinion adopted 21 Apr 1910; Winchell's weathering analysis (~500 years). Should be added as a primary source."},
+    {"id": "NEW: Nielsen & Wolter 2006", "exists": true, "supports_citation": "could-not-read", "note": "Cited in Williams 2012 fn 18 (Chanhassen, MN). This is the citable, non-peer-reviewed form of Wolter's weathering case."}
+  ]
+}

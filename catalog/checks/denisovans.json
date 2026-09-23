@@ -86,5 +86,53 @@
   "crossref_year": 2019,
   "crossref_venue": "Nature",
   "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The proteome of the late Middle Pleistocene Harbin individual",
+  "crossref_year": 2025,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Denisova hominin need not be an out of Africa story",
+  "crossref_year": 2011,
+  "crossref_venue": "Journal of Human Evolution",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Neanderthal and Denisova genetic affinities with contemporary humans: Introgression versus common ancestral polymorphisms",
+  "crossref_year": 2013,
+  "crossref_venue": "Gene",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A male Denisovan mandible from Pleistocene Taiwan",
+  "crossref_year": 2025,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Archaic human ancestry in East Asia",
+  "crossref_year": 2011,
+  "crossref_venue": "Proceedings of the National Academy of Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Making sense of eastern Asian Late Quaternary hominin variability",
+  "crossref_year": 2024,
+  "crossref_venue": "Nature Communications",
+  "checked_on": "2026-09-23"
  }
 }

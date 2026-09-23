@@ -1,148 +1,231 @@
 {
   "id": "glozel",
   "name": "Glozel",
-  "hook": "A Bourbonnais field yielded 'Neolithic' tablets in an unknown alphabet; a 1927 panel called most of it fake.",
+  "hook": "A French field yielded 'Neolithic' tablets in an unknown script; critics soon called them forgeries.",
   "location": {
     "country": "France",
     "region": "Allier, central France",
     "continent": "Europe"
   },
   "anomaly_type": "capability",
-  "claim": "Antonin Morlet, building on finds by the Fradin family, argued that a chamber and pits at Glozel held a Neolithic (or older) civilization unknown to science: inscribed clay tablets in an unattested alphabetic script, ceramic 'idols', bone tools and burials.",
+  "claim": "Antonin Morlet, building on finds by the Fradin family, argued that pits at Glozel held an early Neolithic necropolis of a civilization unknown to science: inscribed clay tablets in an unattested alphabetic script, ceramic 'idols', engraved stones and bones.",
   "claimed_age": {
-    "label": "Neolithic (\"haute epoque neolithique\"); no figure given",
-    "bp_min": null,
-    "bp_max": null,
-    "basis": "Relative dating only: Morlet argued no Roman or Celtic objects occurred with the finds, and compared bone/stone tool forms to known Neolithic types. No absolute dating method was used or available to him.",
-    "source": "S1"
+    "label": "Early Neolithic; c. 4000-3500 BC per Reinach (1926)",
+    "bp_min": 5450,
+    "bp_max": 5950,
+    "basis": "Morlet: 'haute époque néolithique' by typology, no Roman or Celtic finds (S1); no absolute dating. Reinach (The Times, 1926) dated idols and inscriptions to about 4000-3500 [BC] (quoted in S13).",
+    "source": "S13"
   },
   "accepted_age": {
-    "label": "Mixed periods: TL ~700 BC-AD 100, plus medieval material",
-    "bp_min": 1850,
-    "bp_max": 2650,
-    "basis": "TL on sampled tablets, urns, vessels gave 700 BC-AD 100 (McKerrell et al. 1974, uncalibrated). The 1983-1990 excavation also found medieval material; figures cover the TL range only, not the whole site.",
-    "source": "S5"
+    "label": "Glozelian objects non-authentic; TL ages disputed",
+    "bp_min": null,
+    "bp_max": null,
+    "basis": "Publisher of the 2023 monograph: documents 'considérés comme non authentiques' (S12). Antiquity's translator (S3) deemed genuine only glass-kiln debris and a few flint chips. 1974 TL was 'preliminary', disputed.",
+    "source": "S12"
   },
   "orthodoxy_at_claim": {
-    "label": "Alphabetic writing was thought to begin in the eastern Mediterranean (Bronze/Iron Age); no older script was known from Neolithic Western Europe.",
+    "label": "No script was accepted for Neolithic western Europe; Reinach's view that the Palaeolithic lasted to c. 5000 BC was called 'unorthodox'.",
     "limit_bp": null,
-    "source": "S1"
+    "source": "S13"
   },
   "year_claimed": 1925,
-  "key_proponents": ["Antonin Morlet", "Emile Fradin"],
-  "key_critics": ["Rene Dussaud", "Antoine Vayson de Pradenne", "Dorothy Garrod", "Felix Regnault"],
-  "evidence_types": ["artifacts", "inscription", "human-remains", "stratigraphy", "tl", "geology", "plant-remains", "lithics"],
+  "key_proponents": [
+    "Antonin Morlet",
+    "Emile Fradin",
+    "Salomon Reinach"
+  ],
+  "key_critics": [
+    "Rene Dussaud",
+    "A. Vayson de Pradenne",
+    "O.G.S. Crawford",
+    "Champion (Saint-Germain museum)"
+  ],
+  "evidence_types": [
+    "artifacts",
+    "inscription",
+    "human-remains",
+    "stratigraphy",
+    "tl",
+    "geology",
+    "plant-remains",
+    "lithics"
+  ],
   "independent_methods_count": 2,
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "partial",
-      "note": "Skulls, bone and fired clay were clearly worked objects, but visiting specialists flagged specific classes (bone 'harpoons', 'polished' tools) as suspect from early on.",
-      "source": "S2"
+      "note": "Objects were plainly man-made, but their age was disputed from the outset: Reinach set 'Aegean' Neolithic idols beside 'degenerate Magdalenian' engravings (S13).",
+      "source": "S13"
     },
     "documented_context": {
       "value": "no",
-      "note": "The 1924 chamber and the 1925 pits were dug and interpreted by Morlet, a physician, working with Fradin, the teenage discoverer; no trained archaeologist directed or recorded the original excavation.",
+      "note": "S1: the first oval pit was found and destroyed before Morlet's regular digging began; no stratigraphic record by a trained excavator appears in sources read.",
       "source": "S1"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "No absolute dating method existed or was used at the time. Age rested only on the absence of Roman/Celtic associated finds and on artifact-type comparison.",
+      "note": "Age rested on typology and the absence of Roman or Celtic finds; no absolute dating was used.",
       "source": "S1"
     },
     "multiple_labs": {
       "value": "no",
-      "note": "No laboratory analysis was involved in the original claim; it predates any dating lab's involvement at Glozel.",
+      "note": "No laboratory analysis supported the original claim; S1 relays typological arguments only.",
       "source": "S1"
     },
     "professional_recovery": {
       "value": "no",
-      "note": "Morlet was a physician and amateur excavator, not a trained archaeologist; Fradin was a farmer's son with no training.",
+      "note": "S1 relays the dig as Dr Morlet's, aided by the Fradin family; no trained archaeologist is named as directing it.",
       "source": "S1"
     },
     "peer_reviewed_report": {
-      "value": "partial",
-      "note": "Morlet's 1925 book was self-published. Esperandieu read his finds to the Academie des Inscriptions et Belles-Lettres in 1927 -- a learned-society proceedings, not a refereed technical report.",
+      "value": "no",
+      "note": "The claim reached the Académie only as a two-page relay of Morlet's report (S1); no refereed technical report by the proponents was found.",
       "source": "S1"
     },
     "material_accessible": {
-      "value": "partial",
-      "note": "Morlet showed the site to visitors (Reinach, Breuil) in 1926 and let the 1927 commission dig three days; in 1928 police raided Fradin's museum and seized material.",
-      "source": "S2"
+      "value": "yes",
+      "note": "Reinach reported finds 'ascertained last summer at Glozel' (1926, S13); the 1927 International Commission worked on the ground and examined earlier finds (S11).",
+      "source": "S11"
     },
     "independent_teams": {
-      "value": "yes",
-      "note": "Within about five years, an International Commission (1927) and a separate 'Committee of Studies' (1928), plus a police forensic examiner, each investigated independently of Morlet and Fradin.",
-      "source": "S2"
+      "value": "no",
+      "note": "No independent team corroborated the claim in sources read. The 1927 International Commission (S11) investigated for the critics; a pro-Glozel 1928 committee is unverified.",
+      "source": "S11"
     },
     "proponent_stake": {
-      "value": "partial",
-      "note": "Morlet paid for the right to excavate and Fradin's family later ran a paying on-site museum, a modest commercial interest, but no source checked here quantifies profit as the driving motive."
+      "value": "unknown",
+      "note": "Accounts of paid excavation rights and a paying family museum were not found in any source read here."
     }
   },
   "objections": [
     {
-      "text": "Neither the 1924 discovery nor Morlet's 1925 dig was directed by a trained archaeologist; a physician and the teenage discoverer did the excavating and the interpreting.",
+      "text": "The finds were dug by Dr Morlet and the Fradin family without recorded stratigraphy, so their context cannot be checked.",
       "kind": "context",
-      "raised_by": "International Commission and later reviewers",
-      "year": 1927,
+      "raised_by": "Critics; lesson restated by the 2023 monograph",
+      "year": null,
       "outcome": "held",
-      "outcome_note": "Confirmed by contemporaries; the French state's 1983-1990 re-excavation was ordered specifically because the original work lacked professional oversight.",
-      "source": "S1"
+      "outcome_note": "1983 state test pits sought intact deposits to check and found none ('infructueuse'), so the original context cannot now be tested (S8).",
+      "source": "S12"
     },
     {
-      "text": "Several artifact classes, notably bone 'harpoons' and 'polished' stone tools, look shaped with modern (metal) tools rather than worked by ancient technique.",
-      "kind": "identification",
-      "raised_by": "Abbe Henri Breuil",
-      "year": 1927,
-      "outcome": "held",
-      "outcome_note": "Consistent with the International Commission's and Vayson de Pradenne's conclusion that most non-clay, non-glass material at Glozel was fabricated.",
-      "source": "S2"
-    },
-    {
-      "text": "Apart from a few flint and stone pieces, the Glozel assemblage is not authentic Neolithic material; it was manufactured to look ancient.",
+      "text": "Engravings, perforations and borings on the Glozel stones were made with metal tools, not by ancient techniques.",
       "kind": "integrity",
-      "raised_by": "International Commission (Institut International d'Anthropologie)",
-      "year": 1927,
+      "raised_by": "Champion, Saint-Germain museum workshops",
+      "year": 1928,
       "outcome": "held",
-      "outcome_note": "No genuine Neolithic civilization at Glozel is accepted today, though later thermoluminescence work showed some non-Neolithic ceramics are centuries old rather than freshly made in the 1920s.",
+      "outcome_note": "Not overturned in sources read; consistent with the 2023 monograph's view that the finds are not authentic (S12).",
       "source": "S2"
     },
     {
-      "text": "Thermoluminescence readings of 700 BC-AD 100 on tested tablets and vessels are far too recent for the claimed Neolithic (or older) age.",
+      "text": "Nearly everything at Glozel was forged; only glass-kiln bricks, crucibles, glass and a few flint chips were genuine, all but the flints of late date.",
+      "kind": "integrity",
+      "raised_by": "Vayson de Pradenne and Dussaud; list per Antiquity's translator",
+      "year": 1930,
+      "outcome": "held",
+      "outcome_note": "The 2023 monograph's publisher calls the documents 'non authentiques' (S12); TL on some ceramics remains disputed (see below).",
+      "source": "S3"
+    },
+    {
+      "text": "TL on inscribed tablets, urns, idols and other ceramics gave a preliminary date within 700 BC-AD 100, far too young for a Neolithic age.",
       "kind": "dating",
-      "raised_by": "McKerrell, Mejdahl, Francois and Portal",
+      "raised_by": "McKerrell et al. (who offered TL as proof against forgery)",
       "year": 1974,
       "outcome": "held",
-      "outcome_note": "Confirms the tested pieces are not Neolithic. It does not establish find context or confirm the inscriptions are ancient; a 1975 Antiquity note urged caution about the sampling and interpretation.",
+      "outcome_note": "No later source read dates Glozelian objects to the Neolithic; the TL ages themselves remain disputed (next objection).",
       "source": "S5"
     },
     {
-      "text": "Professional re-excavation (1983-1990) found stratigraphy and finds spanning the Iron Age to medieval periods, not a single Neolithic culture, with probable forgeries mixed in.",
-      "kind": "integrity",
-      "raised_by": "Daugas, Demoule, Guilaine, Miallier, Petrequin, Poursat (ministry team)",
+      "text": "The TL ages might be unsound: a forger could have irradiated modern pieces to mimic age, and dose rates needed refining.",
+      "kind": "dating",
+      "raised_by": "Zimmerman (1976); ministry programme (S8)",
+      "year": 1976,
+      "outcome": "unresolved",
+      "outcome_note": "Zimmerman's zircon result was not read; the 1983-90 programme ran dosimetry to refine TL (S8); its 2023 TL chapters were not read.",
+      "source": "S16"
+    },
+    {
+      "text": "State test pits at Glozel found no intact archaeological deposits, and three related findspots showed only medieval and modern occupation, no Glozelian remains.",
+      "kind": "context",
+      "raised_by": "Daugas & Pétrequin; Flouest (ministry programme)",
       "year": 1995,
       "outcome": "held",
-      "outcome_note": "This is the current professional position, restated in the full 2023 publication edited by Guilaine and Miallier, though a 2024 review notes the conclusions are still rejected by some.",
+      "outcome_note": "Reported in the 1995 summary (S8 p. 1); both reports are chapters of the 2023 monograph (S9).",
       "source": "S8"
     }
   ],
   "status": "refuted",
-  "status_note": "The claimed Neolithic civilization with its own alphabet is not accepted. A 1927 commission and Vayson de Pradenne (1930) judged most finds forged; 1983-1990 excavation found an ordinary Iron Age-medieval site with likely added forgeries.",
-  "year_resolved": 1995,
-  "what_settled_it": "No single event. The 1927 commission and Vayson de Pradenne (1930) found most artifacts forged; 1970s TL dated some ceramics to the Iron Age, too recent for Neolithic; the 1983-1990 ministry excavation, published in full in 2023-24, found a real multi-period site with probable forgeries added.",
-  "settled_by": ["expert-review", "independent-redating", "new-excavation", "forensic-analysis", "geology"],
+  "status_note": "The claimed Neolithic civilization with its own script lost professional support by 1927-30 and never regained it. The 2023 monograph deems the finds non-authentic; some still reject this (S9), and early TL ages remain disputed.",
+  "year_resolved": 1927,
+  "what_settled_it": "Antiquity's 1927 critique (S13) and the International Commission's report (Dec 1927, S11) came first; by 1930 Antiquity called the fraud exposed, citing 'official reports' as 'categorical proofs of forgery' (S3). TL from 1974 reopened only whether some objects are old.",
+  "settled_by": [
+    "expert-review",
+    "site-visit",
+    "forensic-analysis"
+  ],
   "failure_mode": "hoax",
   "timeline": [
-    { "year": 1924, "event": "Emile Fradin, plowing near Glozel (Allier), uncovers an underground chamber with clay-brick walls, ceramics and human bone." },
-    { "year": 1925, "event": "Antonin Morlet begins excavating and presents the site as a Neolithic (or older) civilization with an unattested alphabetic script.", "source": "S1" },
-    { "year": 1927, "event": "An International Commission excavates for three days and reports the material as fabricated except for a few flint and stone pieces.", "source": "S2" },
-    { "year": 1929, "event": "A police forensic report calls the artifacts recent forgeries; press coverage reports the alphabet 'called fraud'.", "source": "S10" },
-    { "year": 1974, "event": "TL dating of sampled tablets and vessels gives 700 BC-AD 100, reported as consistent with genuine firing, reopening the dispute.", "source": "S5" },
-    { "year": 1983, "event": "The French Ministry of Culture commissions professional archaeologists to re-excavate the site and related findspots.", "source": "S8" },
-    { "year": 1995, "event": "The ministry-sponsored team publishes a summary: material spans the Iron Age to medieval periods, not Neolithic, with likely forgeries mixed in.", "source": "S8" },
-    { "year": 2024, "event": "A review of the full excavation monograph, edited by Guilaine and Miallier, states the authenticity question is resolved, though some still reject it.", "source": "S9" }
+    {
+      "year": 1924,
+      "event": "Enigmatic objects are found at Glozel's 'Champ des Morts' (Allier), opening a dispute over their authenticity and meaning.",
+      "source": "S8"
+    },
+    {
+      "year": 1926,
+      "event": "Salomon Reinach backs the finds in The Times (27 Sept), dating idols and inscriptions to about 4000-3500 BC.",
+      "source": "S13"
+    },
+    {
+      "year": 1927,
+      "event": "Morlet's report is relayed to the Académie des Inscriptions: 'haute époque néolithique', no Roman or Celtic finds.",
+      "source": "S1"
+    },
+    {
+      "year": 1927,
+      "event": "The International Commission's report on its fieldwork and on earlier finds appears on 23 December (Revue anthropologique).",
+      "source": "S11"
+    },
+    {
+      "year": 1928,
+      "event": "Champion, of the Saint-Germain museum workshops, reports that engravings and borings on the stones were made with metal tools.",
+      "source": "S2"
+    },
+    {
+      "year": 1929,
+      "event": "Science News-Letter headline: 'Glozel Alphabet Called Fraud'.",
+      "source": "S10"
+    },
+    {
+      "year": 1930,
+      "event": "Antiquity prints Vayson de Pradenne's 'The Glozel Forgeries', treating the fraud as exposed.",
+      "source": "S3"
+    },
+    {
+      "year": 1974,
+      "event": "TL on tablets, urns, idols and other ceramics gives a 'preliminary date' within 700 BC-AD 100; the authors call the objects genuine.",
+      "source": "S5"
+    },
+    {
+      "year": 1975,
+      "event": "Antiquity prints 'Thermoluminescence and Glozel: a plea for caution'; the TL team replies with 'a plea for patience'.",
+      "source": "S14"
+    },
+    {
+      "year": 1976,
+      "event": "Zimmerman runs zircon-grain TL to test whether samples could have been artificially irradiated to fake an old age.",
+      "source": "S16"
+    },
+    {
+      "year": 1983,
+      "event": "State test pits find no intact deposits at Glozel; 1983-84 work at three related findspots finds only medieval and modern occupation.",
+      "source": "S8"
+    },
+    {
+      "year": 2023,
+      "event": "Full results of the 1983-1990 programme are published (Guilaine & Miallier dir.); the publisher calls the finds non-authentic.",
+      "source": "S12"
+    }
   ],
-  "falsifier": "This record would be wrong if a professionally controlled excavation recovered securely stratified, genuinely Neolithic-age material bearing the Glozel-style script, replicated and dated by multiple methods, rather than the mixed, forgery-associated material found so far.",
+  "falsifier": "Status would change if securely stratified Neolithic material with Glozel-type script were excavated and dated by several methods. TL/OSL with controlled dosimetry showing inscribed tablets fired in antiquity would shift failure_mode from hoax toward misinterpretation.",
   "sources": [
     {
       "id": "S1",
@@ -152,27 +235,27 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Read on Persee. Morlet's report as relayed to the Academy: finds called 'haute epoque neolithique', no Roman/Celtic material found with them, interpreted as a necropolis."
+      "note": "Read on Persée. Relays Morlet's report: 'haute époque néolithique', no Roman/Celtic finds, a necropolis; first oval pit found and destroyed before Morlet's regular digging."
     },
     {
       "id": "S2",
-      "citation": "Champion, B.-C. (1928). A propos de Glozel [Observations techniques sur les trouvailles de Glozel]. Bulletin de la Societe prehistorique de France 25(1): 51-64.",
+      "citation": "Champion, M. (1928). A propos de Glozel [Observations techniques sur les trouvailles de Glozel]. Bulletin de la Société préhistorique de France 25(1): 51-64.",
       "doi": "10.3406/bspf.1928.6289",
       "url": "https://doi.org/10.3406/bspf.1928.6289",
       "kind": "critique",
       "access": "open",
       "verification": "checked",
-      "note": "Read via Persee (search-indexed passages). Reproduces the 1927 International Commission report ('vaste mystification') and Abbe Breuil's letter flagging bone harpoons and 'polished' tools as suspect."
+      "note": "Read on Persée: Champion's report (reprinted from Revue anthropologique 1928 nos 1-3) says engravings and borings he examined were metal-tool work. Commission/Breuil text not seen."
     },
     {
       "id": "S3",
-      "citation": "Vayson de Pradenne, A. (1930). The Glozel Forgeries. Antiquity 4(14): 201-222.",
+      "citation": "Vayson de Pradenne, A. (1930). The Glozel Forgeries (translated by the Editor). Antiquity 4(14): 201-222.",
       "doi": "10.1017/S0003598X00004518",
       "url": "https://doi.org/10.1017/S0003598X00004518",
       "kind": "critique",
-      "access": "open",
+      "access": "paywalled",
       "verification": "checked",
-      "note": "Read in translation on Cambridge Core (openly accessible). States only bricks, kiln debris/glass and a few flint chips seemed genuine, all of late date; the rest he judged forged."
+      "note": "First page and notes read on Cambridge Core. Opening: fraud 'exposed'; editor cites 'official reports' proving forgery. 'Only genuine' list is a footnote signed TRANSLATOR (p. 212)."
     },
     {
       "id": "S4",
@@ -182,17 +265,17 @@
       "kind": "review",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Paywalled on Cambridge Core; only the citation was confirmed. Author was a member of the 1927 International Commission; cited here for orientation, not as sole support for any field."
+      "note": "Paywalled; content not read. Not used to support any field."
     },
     {
       "id": "S5",
-      "citation": "McKerrell, H., Mejdahl, V., Francois, H. & Portal, G. (1974). Thermoluminescence and Glozel. Antiquity 48(192): 265-272.",
+      "citation": "McKerrell, H., Mejdahl, V., François, H. & Portal, G. (1974). Thermoluminescence and Glozel. Antiquity 48(192): 265-272.",
       "doi": "10.1017/s0003598x00058208",
       "url": "https://doi.org/10.1017/s0003598x00058208",
       "kind": "report",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read via OpenAlex (full text paywalled). Reports TL dates of 700 BC-AD 100 on tablets, urns, idols, vessels and bobines, called 'genuine' rather than modern forgeries."
+      "note": "Abstract read (OpenAlex): all tested objects 'genuine', giving 'a preliminary date within the period 700 BC-AD 100'. Full text paywalled."
     },
     {
       "id": "S6",
@@ -202,7 +285,7 @@
       "kind": "critique",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Paywalled; only the citation was confirmed. Title indicates renewed controversy after the 1974 TL results; cited for that context only."
+      "note": "Editorial, pp. 222-223; paywalled, not read. Not used to support any field."
     },
     {
       "id": "S7",
@@ -212,17 +295,17 @@
       "kind": "report",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Access blocked (HTTP 403); only the citation was confirmed. Listed as a follow-up TL study, not used to support any specific figure here."
+      "note": "Wiley 403; not read. Later TL work; whether it reported mixed ages, as the brief says, is unverified. Not used for any field."
     },
     {
       "id": "S8",
-      "citation": "Daugas, J.-P., Demoule, J.-P., Guilaine, J., Miallier, D., Petrequin, P. & Poursat, J.-C. (1995). Resume des recherches effectuees a Glozel entre 1983 et 1990, sous l'egide du ministere de la culture. Revue archeologique du Centre de la France 34(1): 251-259.",
+      "citation": "Daugas, J.-P., Demoule, J.-P., Guilaine, J., Miallier, D., Pétrequin, P. & Poursat, J.-C. (1995). Résumé des recherches effectuées à Glozel entre 1983 et 1990, sous l'égide du ministère de la culture. Revue archéologique du Centre de la France 34(1): 251-259.",
       "doi": null,
-      "url": "https://www.persee.fr/issue/racf_0220-6617_1995_num_34_1",
+      "url": "https://www.persee.fr/doc/racf_0220-6617_1995_num_34_1_2730",
       "kind": "report",
       "access": "open",
       "verification": "checked",
-      "note": "Read via Persee (issue table of contents and search-indexed passages). Confirms the Ministry of Culture commissioned Daugas and Petrequin in 1983 for test excavations at Glozel and related sites."
+      "note": "Only p. 1 read (Persée): 1982 requests; 1983 CSRA programme; test pits 'infructueuse'; related sites medieval/modern; dosimetry to refine TL. Conclusions (pp. 252-259) not read."
     },
     {
       "id": "S9",
@@ -232,7 +315,7 @@
       "kind": "review",
       "access": "open",
       "verification": "checked",
-      "note": "Read in full (open access). Describes the 1983-1990 dossier (sedimentology, palynology, TL, physico-chemical analyses); says authenticity is resolved, though rejected by some and still contested."
+      "note": "Read in full (open). Lists the monograph's chapters; says authenticity 'a été résolu, même si les conclusions sont encore rejetées par certains'."
     },
     {
       "id": "S10",
@@ -242,17 +325,75 @@
       "kind": "news",
       "access": "paywalled",
       "verification": "exists",
-      "note": "JSTOR stub only; citation confirmed but text not read. Used only to date contemporary press coverage of the 1929 fraud finding, not for technical detail."
+      "note": "JSTOR stub; title only. Cited only for the headline, not for any technical detail."
+    },
+    {
+      "id": "S11",
+      "citation": "Anonymous (1928). The Glozel Investigations. Nature 121(3036): 17-18.",
+      "doi": "10.1038/121017a0",
+      "url": "https://www.nature.com/articles/121017a0",
+      "kind": "news",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "First paragraph read: the International Commission's report appeared 'on Dec. 23' as a Revue anthropologique supplement, covering fieldwork and earlier finds. Verdict not visible."
+    },
+    {
+      "id": "S12",
+      "citation": "Guilaine, J. & Miallier, D. (dir.) (2023). Glozel : résultats des recherches effectuées entre 1983 et 1990 à la demande du Ministère de la Culture. Clermont-Ferrand: Presses universitaires Blaise-Pascal (Terra Mater 5), 320 p.",
+      "doi": null,
+      "url": "https://www.pubp.fr/archeologie/503-glozel-9782383770961.html",
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Publisher's page read: the documents 'sont aujourd'hui considérés comme non authentiques'; book publishes the 1983 fieldwork and later analyses. Chapters not read."
+    },
+    {
+      "id": "S13",
+      "citation": "Crawford, O.G.S. (1927). L'Affaire Glozel. Antiquity 1(2): 181-188.",
+      "doi": "10.1017/s0003598x00000387",
+      "url": "https://doi.org/10.1017/s0003598x00000387",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex): quotes Reinach's Times letter of 27 Sept 1926 dating idols and inscriptions to about 4000-3500; says the debate was confused 'from the outset'."
+    },
+    {
+      "id": "S14",
+      "citation": "[No author listed in Crossref] (1975). Thermoluminescence and Glozel: a plea for caution. Antiquity 49(195): 223-226.",
+      "doi": "10.1017/s0003598x00103485",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Paywalled; only title and reference list visible. Cited only for its publication and title."
+    },
+    {
+      "id": "S15",
+      "citation": "McKerrell, H.V., Mejdahl, V., François, H. & Portal, G. (1975). Thermoluminescence and Glozel: a plea for patience. Antiquity 49(196): 267-272.",
+      "doi": "10.1017/s0003598x00070290",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Paywalled; content not read. Listed as the TL team's reply to S14; not used to support any field."
+    },
+    {
+      "id": "S16",
+      "citation": "Zimmerman, D. (1976). Mesures de la thermoluminescence de grains de zircon extraits de deux prélèvements de Glozel. Revue archéologique du Centre de la France 15(1): 29-30.",
+      "doi": "10.3406/racf.1976.2019",
+      "url": "https://www.persee.fr/doc/racf_0220-6617_1976_num_15_1_2019",
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read on Persée: sole aim was to test whether a forger could have artificially irradiated samples to mimic age. The conclusion passage was not visible."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Core narrative rests on checked, mostly open sources (1927 commission, 1930 critique, 1974 TL, 1995/2024 review). Legal-case specifics in tertiary accounts were not verified and were omitted.",
+  "confidence_note": "Fields rest on passages read (S1-S3, S5, S8 p. 1, S9, S11-S13, S16). Unread: commission report, S7, S8 conclusions, monograph chapters. Legal-case details unchecked, so omitted.",
   "corrections": [
-    "Starter notes cite 'a ministry review (1990s)'. The ministry commissioned fieldwork in 1983-1990; only a 13-page summary appeared in 1995 (S8); the full volume, edited by Guilaine and Miallier, appeared in 2023-2024 (S9), decades later.",
-    "The 1974 TL dates were not vaguely 'mixed': McKerrell et al. reported 700 BC-AD 100 for tested objects, calling this consistent with genuine firing -- a finding that reopened controversy rather than resolving it.",
-    "Widely repeated legal details (1929 indictment, 1931 appeal reversal, 1932 defamation conviction of Rene Dussaud) appear in tertiary sources but were not checked against an academic source, so are omitted rather than stated as fact."
+    "Brief: 'a later French ministry review (1990s)'. Clarification: fieldwork was 1983 test pits (no intact deposits) and 1983-84 work at related sites (medieval/modern only), summarized in 1995 (S8); full results 2023 (S12)."
   ],
-  "notes": "Glozel is a genuine excavated site (tombs, a kiln area, ceramics, inscribed tablets), not a pure paper hoax, which is what makes it hard to close. The 1927 commission and Vayson de Pradenne (1930) judged nearly everything but glass, kiln debris and a few flint chips forged. Yet 1970s TL dating showed some tested ceramics were fired in the Iron Age/Gallo-Roman period, not the Neolithic Morlet claimed. The 1983-1990 state-sponsored excavation, published in full only in 2023-2024, describes an unremarkable multi-period site into which forgeries were likely introduced. The tablets' alphabet remains undeciphered and is not accepted as genuine ancient writing.",
+  "notes": "Glozel yielded tablets, 'idols', urns and bones, but the original digging left no intact deposits to check (S8). Antiquity's translator deemed genuine only glass-kiln debris and a few flint chips (S3). The 1974 TL range (700 BC-AD 100) was 'preliminary'; forgery by artificial irradiation was tested (S16) and dose rates were studied in 1983-90 (S8). Whether later TL (S7) gave mixed ages, as the brief says, was not checked, so the draft's correction of 'mixed' was withdrawn. year_claimed 1925 (Morlet's first publication) is UNVERIFIED; the earliest public claim read is Reinach's 1926 letter (S13). Police and court episodes of 1928-32 are omitted as unchecked.",
   "plates": [
     {
       "commons_file": "File:Glozel-commission internationale.jpg",
@@ -264,8 +405,20 @@
     }
   ],
   "review": {
-    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_by": "researcher agent (claude-sonnet-5); revised by claude-opus-5-5",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Declined: S8 kept 'checked', as it is cited only for p. 1, which was read; its conclusions (pp. 252-259) remain unread and are not used.",
+      "Not found: a readable text of the 1927 International Commission report; its date comes from S11 and its forgery verdict only indirectly from S3 ('official reports').",
+      "UNVERIFIED: year_claimed 1925 (Morlet and Fradin's first fascicle) was not located; the earliest public claim read is Reinach's 1926 Times letter (S13).",
+      "Unread: Mejdahl 1980 (S7, Wiley 403), the 'plea for caution' (S14) and the 2023 TL chapters, so the TL objection stays 'unresolved' and the 'mixed ages' correction was withdrawn.",
+      "Not verified: the pro-Glozel 1928 Comite d'etudes, the 1928 police raid and the 1929 police report; omitted, so independent_teams is coded 'no' on read sources only.",
+      "Dropped Garrod and Regnault from key_critics (no read source); 'Antoine' changed to 'A.' for Vayson de Pradenne, as the first name was not verified.",
+      "Declined: confidence 'low'. After revision each field rests on a passage read and the gaps are listed here, so 'medium' is kept."
+    ]
   }
 }

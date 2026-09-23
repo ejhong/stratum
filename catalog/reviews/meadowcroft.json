@@ -1,0 +1,127 @@
+{
+  "id": "meadowcroft",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "All 11 sources exist. 'partial' fits only narrowly. Fix: Clovis-first prior coded 'wrong' from hindsight via unread S2; failure_mode 'contamination' unsupported; claim public by 1977; 'widely accepted' rests on Adovasio papers; limit_bp in 14C years; documented objections missing.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "objections[3]",
+      "problem": "The prior objection is coded 'wrong' from hindsight. Its only source, S2, was never read. No source read shows any critic arguing from Clovis-first against Meadowcroft. Even the proponents' own review (S7) lists the critics' objections as 'stratigraphy, floral and faunal associations, the \"character\" of its earliest artifact assemblage, and ... the radiocarbon dates'. It lists no prior. The only trace is the proponents' own charge of a 'Clovis primacy syndrome' (Adovasio et al. 1980 reply). The objection as written ('a date of up to 19,000 years') is also not shown wrong. S10 says current data 'do not support an earlier (pre-17.5 ka ago) occupation'. Potter et al. 2022 define Pre-Paleoindian as >16,000 cal yr BP and 'regard all purported Pre-Paleoindian sites as equivocal'. The pedra-furada record codes the similar Lynch prior 'unresolved'. S10's abstract also does not say Clovis was 'redated younger'. If every Clovis-first prior is coded 'wrong' because the model failed at other sites, the records will produce the 'wrong objections were priors' pattern whatever happened at each site.",
+      "fix": "Delete it. Or re-source it to Adovasio et al. 1980 (10.2307/279879) with raised_by 'implicit; alleged by proponents' and outcome 'unresolved'. The note should say that Clovis-first fell because of other sites, not because of evidence from Meadowcroft. Analyst: keep field-wide prior outcomes separate from outcomes tested at the site.",
+      "evidence": "S7 abstract; 10.2307/279879 abstract; S10 abstract; Potter et al. 2022, PaleoAmerica 8(1):62-76, 10.1080/20555563.2021.1978721; catalog/cases/pedra-furada.json"
+    },
+    {
+      "severity": "major",
+      "field": "failure_mode",
+      "problem": "'contamination' says this mundane explanation won for the part of the claim that failed. But the record codes every contamination objection 'unresolved'. S6 found 'no evidence of groundwater contamination'. S5 and the 1992 reply reject contamination: 'there is no evidence whatsoever for particulate or nonparticulate contamination'. No source reports that the recommended coal tests were ever done. Nothing shows the oldest dates are contaminated.",
+      "fix": "Set failure_mode to 'none'. Name contamination in status_note or notes as the leading alternative that is still unresolved.",
+      "evidence": "S6 abstract; Adovasio, Donahue & Stuckenrath 1992, American Antiquity 57(2):327-331, 10.2307/280737"
+    },
+    {
+      "severity": "major",
+      "field": "year_claimed",
+      "problem": "1978 is the first major peer-reviewed overview (S1), not the first public claim. Crossref confirms Adovasio, Gunn et al. 1977, 'Progress report on the Meadowcroft Rockshelter - a 16,000 year chronicle', Annals of the New York Academy of Sciences. Haynes 1980's reference list also cites a 1975 progress report (Pennsylvania Archaeologist 45(3):1-30) and 'Retrospect 1976' (1977). S5's title starts the chronology in 1975. This matters for resolution-time analysis and for the five-year window used in features_at_claim.",
+      "fix": "Set year_claimed to 1977 (verified). Use 1975 instead if the 1975 progress report is confirmed to report pre-Clovis dates. Add the 1977 paper as a source and a timeline event. Re-check features_at_claim against the new window.",
+      "evidence": "10.1111/j.1749-6632.1977.tb33607.x; Haynes 1980 reference list at https://doi.org/10.2307/279878"
+    },
+    {
+      "severity": "major",
+      "field": "accepted_age; status_note",
+      "problem": "S5 does not give '~14,000-16,000 BP'. It says people were present 'by 14,000-14,500 years ago', in radiocarbon years that the label does not mark as uncalibrated. 'Widely accepted' has no independent source: S5, S7 and S9 are all co-authored by Adovasio. S7 says only that 'most conservative assessments concede a 12,000-year initial occupancy (cf. Fagan, 1995)'. The proponents' own 1990 figure of 14,000-14,500 14C yr BP is roughly 17,000-17,700 cal BP (reviewer's approximate conversion, not a sourced figure). That is past Potter et al. 2022's 16,000 cal BP threshold and at S10's 17.5 ka limit. The status_note phrase 'fitting the modern view (~17.5-14.6 ka)' holds only for the conservative reading of about 12,000 14C yr BP.",
+      "fix": "Define the accepted part narrowly: some pre-Clovis occupation, conceded by conservative assessments at about 12,000 14C yr BP or more (S7, citing Fagan 1995). Give the proponents' figure as 14,000-14,500 14C yr BP (S5). Add Potter et al. 2022. Drop 'widely accepted' unless an independent (non-Adovasio) review or the Wheat 2012 survey is read and supports it. If no independent source can be found, recode the status as 'open'.",
+      "evidence": "S5, S7, S10 abstracts; 10.1080/20555563.2021.1978721 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].text; corrections[0]; corrections[1]",
+      "problem": "objections[0] credits Haynes 1980 with the coal idea ('coal-bearing sediment'), yet corrections[1] admits that attribution is unverified. Haynes 1980's reference list on Cambridge Core cites no coal literature. It does cite Braun 1950 (deciduous forests), Gruger 1972 (Wisconsinan vegetation), Guilday 1967 (climatic significance of a Pennsylvania fauna) and Gillespie & Clendening 1968 (a flora from proglacial Lake Monongahela). The proponents' reply in the same issue is titled 'A Reply to Haynes and Mead'. It argues the dates are 'not discordant with either the associated fauna, flora, and artifacts or with the known geological history'. So Haynes very probably also made the flora and fauna argument, and corrections[0] ('That was actually J.I. Mead') is not earned. 'Discordant' versus 'absent' is a matter of wording, not an error in the brief. corrections[1] does not show the brief was wrong.",
+      "fix": "Reword objections[0] to what S5 attests: 'particulate or nonparticulate contamination'. Credit coal to Tankersley, Munson & Smith 1987 (10.2307/281783) and Tankersley & Munson 1992 (S4). Soften corrections[0] to: 'Mead (1980) is the documented source of the fauna/flora objection; whether Haynes (1980) also made it is unverified.' Move corrections[1] to confidence_note.",
+      "evidence": "https://doi.org/10.2307/279878 (reference list); 10.2307/279879 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "objections",
+      "problem": "Documented objections are missing, while an undocumented one (the prior) is included. S7 says critics questioned the site's 'stratigraphy' (context: association and intrusion) and the 'character' of its earliest assemblage (identification). Neither is coded. Intrusion is a real mundane risk at this site: S9 shows maize in strata IV-XI, once dated by associated charcoal to as early as the 4th century BC, is actually post-AD 1800. Coal contamination was first raised in print in 1987, not 1992; the 1992 reply says Tankersley and Munson 'reiterate' it.",
+      "fix": "Add a context objection (stratigraphy and association) and an identification objection (character of the assemblage), both 'unresolved' and sourced to S7. Kelly 1987 (S8) is a candidate critic but is unread. If the 1987 paper discusses Meadowcroft, date objections[2] to 1987.",
+      "evidence": "S7 abstract; S9 full text; 10.2307/280737 abstract; 10.2307/281783"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim.limit_bp",
+      "problem": "11500 is in radiocarbon years (S11: Clovis in sediments 'between 11,000 and 11,500 years old'). The schema requires calendar years BP, because this field feeds the leap-factor calculation. Sibling records that code the same Clovis-first orthodoxy use calendar values: calico-hills 13350, paisley-caves 13000. hueyatlaco has the same fault.",
+      "fix": "Use a sourced calendar value, for example Potter et al. 2022's 'Strict Clovis-First (13,050 cal yr BP)', or follow the calico-hills convention. Keep the 11,500 14C figure in the label.",
+      "evidence": "catalog/schema.json; S11 abstract; 10.1080/20555563.2021.1978721"
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age",
+      "problem": "The label says 'yr BP' but does not say radiocarbon. In 1978, calibration did not reach this range, so these figures must be uncalibrated 14C years. 'Presumed' can therefore be firmed up. Leaving bp_min and bp_max null is correct for now. Calibrated equivalents are older (roughly 19,000-23,000 cal BP, reviewer's approximation), which puts the claim in the pre-LGM range.",
+      "fix": "Change the label to '16,000-19,000 14C yr BP (uncalibrated)'. Fill bp values only after reading the individual lab dates (S5 full text or an open database such as p3k14c) and calibrating them with a named curve. Never back-calculate from the rounded span.",
+      "evidence": "S1, S5 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "A count of 2 is defensible: radiocarbon dates, plus artifacts and features in stratified context. The Oxford AMS dates are the same method. S6 tests the integrity of the deposits, not their age. The flora and fauna were disputed rather than supportive. But the record never says which two lines it counts.",
+      "fix": "Keep 2 and name the two lines in notes.",
+      "evidence": "S1, S5, S6 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests[0]; decisive_tests[1]",
+      "problem": "ABOX pretreatment removes labile contaminants. It is not designed to separate refractory coal particles from charcoal, and coal is the contamination at issue. Tankersley et al. 1987 name paleobotanical and reflectance analysis as the ways to recognise coal.",
+      "fix": "Test 1: single-fragment AMS dates on botanically identified charcoal from the lower Stratum IIa features, run at an independent lab, with petrography or reflectance checks on the same samples.",
+      "evidence": "10.2307/281783 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "settled_by",
+      "problem": "'independent-redating' overstates the 1990 work. It was a second lab dating samples that the excavators chose, reported by the excavators (S5). By the record's own what_settled_it, acceptance of the core claim came from other sites.",
+      "fix": "Replace 'independent-redating' with 'replication' and keep 'geology' (S6).",
+      "evidence": "S5 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim",
+      "problem": "unambiguous_signal cites S3, which does not discuss artifacts; S7 records the objection to the assemblage's 'character'. The multiple_labs note (Smithsonian lab) is not in the S5 abstract. The 'Retrospect 1977' dates in the peer_reviewed_report note are not in S1. documented_context is coded 'yes' without noting that critics challenged the stratigraphy (S7).",
+      "fix": "Re-source unambiguous_signal to S7. Add a note on the disputed stratigraphy to documented_context. Source or trim the other notes.",
+      "evidence": "S3, S5, S7 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "sources; timeline; objections[1].outcome_note",
+      "problem": "The direct replies are missing. Adovasio et al. 1980, 'Yes Virginia, It Really is That Old: A Reply to Haynes and Mead' (10.2307/279879), answers S2 and S3. Adovasio, Donahue & Stuckenrath 1992, 'Never Say Never Again' (10.2307/280737), answers S4. The 'refugium' argument in objections[1] has no source. There is no 2020s synthesis on pre-16 ka claims.",
+      "fix": "Add both replies and Potter et al. 2022 as sources and as timeline events. Cite the 1980 reply for the proponents' fauna and flora response.",
+      "evidence": "Crossref abstracts for the three DOIs"
+    },
+    {
+      "severity": "minor",
+      "field": "notes; objections[4]",
+      "problem": "The survey that Wikipedia cites is Wheat 2012, 'Survey of professional opinions regarding the peopling of the Americas', SAA Archaeological Record 12:10-14 (reference 9 in Potter et al. 2018). It is not a 2013 survey. Its content was not read, so the 38%/20% figures should not be used, even as 'broadly consistent'. objections[4] is a statement about status, not an objection. Its 'unnamed critics' are named in S7 (Fagan 1995).",
+      "fix": "Read Wheat 2012 and cite it, or drop the figures. Move objections[4] into status_note and credit Fagan 1995 via S7.",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6082647/ reference 9; S7 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "hook; falsifier",
+      "problem": "The hook's '19,000 years' mixes radiocarbon years with implied calendar years. The falsifier sends the case to 'refuted' if the basal dates are inflated, but the pre-Clovis core could survive that.",
+      "fix": "Hook: say '19,000 radiocarbon years'. Falsifier: 'refuted' only if all dates from lower Stratum IIa prove contaminated or intrusive; 'vindicated' if basal dates are replicated by single-fragment AMS at an independent lab.",
+      "evidence": "S1, S5 abstracts"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Abstract: the 11 strata 'span at least 16,000 years and perhaps 19,000 years'. This is the first major overview, not the first public claim (1977 Annals NYAS; 1975 progress report)."},
+    {"id": "S2", "exists": true, "supports_citation": "could-not-read", "note": "No abstract. Cambridge Core shows only the reference list: paleobotany, faunal climate and glacial-lake works, and no coal literature. The 'exists' label is correct. Does not support the coal wording or the prior objection."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Abstract confirms that the Stratum IIa fauna and flora are 'discordant with other local Wisconsinan-age fossils'. It does not discuss artifacts, so it cannot source unambiguous_signal."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: clarifies points of confusion about coal contamination and recommends tests. 'Detail how coal particles could contaminate' is a slight gloss. The authors' earlier 1987 coal paper is missing."},
+    {"id": "S5", "exists": true, "supports_citation": "partial", "note": "Supports the Oxford AMS reply and 'by 14,000-14,500 years ago' (radiocarbon years). Does not support the accepted_age range '~14,000-16,000' or 'widely accepted', or the Smithsonian-lab note."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Abstract: 'no evidence of groundwater contamination of the early levels'. Tests groundwater (non-particulate) contamination only, not coal particles."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Confirms 'most conservative assessments concede a 12,000-year initial occupancy (cf. Fagan, 1995)'. Proponent paper. It lists critics' objections (stratigraphy, assemblage 'character') that the record does not code, and no prior-based objection."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "No abstract. The reference list cites Stuckenrath et al. 1982 (stratigraphy and chronology) and Adovasio et al. 1984 (Pleistocene/Holocene transition). The 'exists' label and the generic timeline wording are acceptable."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Open full text: 'best known for its pre-Clovis occupation'. 17 maize AMS dates from strata IV-XI all come from historical use, most likely after AD 1800. Co-authored by Adovasio."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "Abstract supports 17.5-14.6 ka and 'do not support ... pre-17.5 ka' occupation. It does not say Clovis was redated younger, which objections[3] cites it for. It cuts against the claimed ages."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Abstract: Clovis in sediments 'between 11,000 and 11,500 years old' (radiocarbon years). Supports the label, but limit_bp must be in calendar years."}
+  ]
+}

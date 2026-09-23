@@ -1,7 +1,7 @@
 {
   "id": "homo-floresiensis",
   "name": "Homo floresiensis (\"the Hobbit\")",
-  "hook": "A 1-metre skeleton in a Flores cave, dismissed as a sick modern human, is now a distinct hominin species.",
+  "hook": "A 1-metre Flores skeleton, called a diseased modern human by critics, is now a distinct hominin species.",
   "location": {
     "country": "Indonesia",
     "region": "Flores Island, East Nusa Tenggara",
@@ -24,9 +24,9 @@
     "source": "S14"
   },
   "orthodoxy_at_claim": {
-    "label": "Late Pleistocene Island Southeast Asia was assumed occupied only by modern Homo sapiens; no other hominin was expected to survive there almost to the present.",
+    "label": "Pleistocene Asia was accepted to hold one hominin genus, Homo erectus and H. sapiens, both larger-brained and taller than Pliocene Australopithecus.",
     "limit_bp": null,
-    "source": "S2"
+    "source": "S1"
   },
   "year_claimed": 2004,
   "key_proponents": [
@@ -41,7 +41,8 @@
     "Teuku Jacob",
     "Maciej Henneberg",
     "Robert B. Eckhardt",
-    "Israel Hershkovitz"
+    "Israel Hershkovitz",
+    "Robert D. Martin"
   ],
   "evidence_types": [
     "radiocarbon",
@@ -65,7 +66,7 @@
     },
     "documented_context": {
       "value": "yes",
-      "note": "LB1 and later individuals were excavated in situ over controlled seasons by the joint Indonesian-Australian team under an official research permit.",
+      "note": "Excavated in situ over controlled seasons by the joint Indonesian-Australian team under permit; the dated deposits were later found misassociated with the skeletal levels (S11).",
       "source": "S2"
     },
     "multiple_dating_methods": {
@@ -90,7 +91,7 @@
     },
     "material_accessible": {
       "value": "partial",
-      "note": "For about three months in 2005 the type specimen was held and studied by a rival Indonesian researcher rather than the describing team, before being returned.",
+      "note": "For about three months beginning in late 2004, the type specimen was held and studied by a rival Indonesian researcher rather than the describing team, before being returned.",
       "source": "S4"
     },
     "independent_teams": {
@@ -109,10 +110,28 @@
       "text": "LB1 is not a new species but comes from a small-bodied ('pygmy') Australomelanesian modern human population; LB1 itself also shows microcephaly and other developmental abnormalities.",
       "kind": "identification",
       "raised_by": "Teuku Jacob and colleagues",
+      "year": 2004,
+      "outcome": "wrong",
+      "outcome_note": "First reported by Balter (2004); formalised in Jacob et al. 2006. Falk (2005) and Baab (2013) group LB1 with archaic Homo, not microcephalics; Martin (2006) and Vannucci (2011) argued microcephaly remained plausible.",
+      "source": "S20"
+    },
+    {
+      "text": "LB1's ~400 cc cranial capacity is smaller than any known hominin under 3.5 million years old, too small to result from ordinary insular dwarfing of Homo erectus.",
+      "kind": "prior",
+      "raised_by": "Robert D. Martin and colleagues",
       "year": 2006,
       "outcome": "wrong",
-      "outcome_note": "LB1's virtual endocast is not microcephalic or pygmy in shape (Falk et al. 2005); 2013 geometric morphometrics grouped LB1 with archaic Homo, not modern humans (Baab et al. 2013).",
-      "source": "S5"
+      "outcome_note": "Weston & Lister (2009) found insular dwarf hippos had brains up to 30% smaller than scaling from a mainland ancestor predicts, so disproportionate reduction is biologically plausible; deep ancestry remains debated.",
+      "source": "S16"
+    },
+    {
+      "text": "Liang Bua stone tools used a prepared-core technique and bladelets otherwise associated exclusively with Homo sapiens, implying modern humans made them, not H. floresiensis.",
+      "kind": "prior",
+      "raised_by": "Robert D. Martin and colleagues",
+      "year": 2006,
+      "outcome": "wrong",
+      "outcome_note": "Brumm et al. (2006) showed technological continuity between Liang Bua tools and 840,000-700,000-year-old Mata Menge artefacts, long predating any Homo sapiens presence on Flores.",
+      "source": "S16"
     },
     {
       "text": "The small stature and small head are explained by Laron syndrome, a growth-hormone-insensitivity disorder documented in modern human populations of the region.",
@@ -131,28 +150,17 @@
       "outcome": "wrong",
       "outcome_note": "A 2016 re-evaluation, co-authored by original describer Peter Brown and endocast specialist Dean Falk, compared LB1 to clinical Down-syndrome samples and found it does not match the Down-syndrome pattern.",
       "source": "S10"
-    },
-    {
-      "text": "It is unclear whether H. floresiensis is a dwarfed descendant of Asian Homo erectus or instead descends from an earlier, already small-brained hominin lineage that left Africa before H. erectus.",
-      "kind": "prior",
-      "raised_by": "Framed as an open question by van den Bergh et al. 2016",
-      "year": 2016,
-      "outcome": "unresolved",
-      "outcome_note": "Mata Menge fossils (700 ka) are as small as Liang Bua H. floresiensis and closest to early Asian H. erectus, favouring dwarfing from H. erectus; deep phylogeny still debated.",
-      "source": "S13"
     }
   ],
-  "status": "vindicated",
-  "status_note": "The new-species view is now accepted, supported by primitive wrist and brain anatomy, at least nine individuals, and ~700,000-year-old small-bodied ancestors at Mata Menge. A small minority still argue for pathology.",
+  "status": "partial",
+  "status_note": "The new-species view is accepted: H. erectus-shaped endocast, primitive wrist, ~9 individuals, ~700 ka Mata Menge ancestors. But the 2004 survival claim (~18 ka) was withdrawn by excavators' 2016 redating (S11): skeletons are ~100-60 ka.",
   "year_resolved": 2016,
-  "what_settled_it": "Comparative-morphology studies (2005-2016) repeatedly distinguished the Flores skeletons from microcephalic, Laron-syndrome and Down-syndrome humans, grouping them with archaic Homo; ~700,000-year-old Mata Menge fossils showed the lineage was ancient, not one pathological individual.",
+  "what_settled_it": "Comparative morphology (2005-2016) distinguished the skeletons from microcephalic, Laron- and Down-syndrome humans, grouping them with archaic Homo; ~700 ka Mata Menge fossils showed the lineage was ancient. The excavators' 2016 redating (S11) revised the ~18 ka survival age to ~100-60 ka.",
   "settled_by": [
     "morphology",
-    "independent-redating",
-    "new-excavation",
-    "expert-review"
+    "new-excavation"
   ],
-  "failure_mode": "none",
+  "failure_mode": "dating-error",
   "timeline": [
     {
       "year": 2003,
@@ -162,10 +170,10 @@
     {
       "year": 2004,
       "event": "Brown et al. and Morwood et al. name Homo floresiensis in Nature, dating LB1 to ~18,000 years within a ~95,000-12,000 year sequence.",
-      "source": "S1"
+      "source": "S2"
     },
     {
-      "year": 2005,
+      "year": 2004,
       "event": "Teuku Jacob takes the type specimen to his own laboratory for about three months, restricting the describing team's access.",
       "source": "S4"
     },
@@ -236,8 +244,8 @@
       "url": null,
       "kind": "primary",
       "access": "paywalled",
-      "verification": "exists",
-      "note": "Crossref metadata confirmed; no OpenAlex abstract, full text paywalled. LB1's description is corroborated by later checked sources (S3, S11) that cite and recap its findings."
+      "verification": "checked",
+      "note": "Full text read via nature.com: confirms only H. erectus and H. sapiens were accepted in Pleistocene Asia; LB1 ~1 m stature, 380 cm3, assigned to new species via dwarfed H. erectus."
     },
     {
       "id": "S2",
@@ -378,25 +386,86 @@
       "access": "open",
       "verification": "checked",
       "note": "Full abstract read: Mata Menge adult humerus 9-16% shorter/thinner than the Liang Bua type specimen; diminutive body size on Flores since at least ~700,000 years, likely from early Asian H. erectus."
+    },
+    {
+      "id": "S16",
+      "citation": "Martin, R.D., MacLarnon, A.M., Phillips, J.L., Dobyns, W.B. (2006). Flores hominid: New species or microcephalic dwarf?. The Anatomical Record Part A 288A(11): 1123-1145.",
+      "doi": "10.1002/ar.a.20389",
+      "url": null,
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: LB1's ~400 cc brain called too small for normal H. erectus dwarfing; associated prepared-core tools and bladelets called otherwise exclusive to H. sapiens."
+    },
+    {
+      "id": "S17",
+      "citation": "Weston, E.M., Lister, A.M. (2009). Insular dwarfism in hippos and a model for brain size reduction in Homo floresiensis. Nature 459(7243): 85-88.",
+      "doi": "10.1038/nature07922",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2679980",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read via PMC: extinct Madagascar dwarf hippos had endocranial capacity up to 30% smaller than a mainland ancestor scaled to equal body mass, beyond standard scaling models."
+    },
+    {
+      "id": "S18",
+      "citation": "Brumm, A., Aziz, F., van den Bergh, G.D., Morwood, M.J. et al. (2006). Early stone technology on Flores and its implications for Homo floresiensis. Nature 441(7093): 624-628.",
+      "doi": "10.1038/nature04618",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Text and editor summary read: 840,000-year-old Mata Menge artefacts show technological continuity with Liang Bua tools, indicating toolmakers were present long before Homo sapiens reached the region."
+    },
+    {
+      "id": "S19",
+      "citation": "Vannucci, R.C., Barron, T.F., Holloway, R.L. (2011). Craniometric ratios of microcephaly and LB1, Homo floresiensis, using MRI and endocasts. Proceedings of the National Academy of Sciences 108(34): 14043-14048.",
+      "doi": "10.1073/pnas.1105585108",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3161571",
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: LB1 endocast cerebral/cerebellar ratios fall largely outside modern-human and H. erectus range, within the microcephalic range; authors call this supportive, not proof."
+    },
+    {
+      "id": "S20",
+      "citation": "Balter, M. (2004). Skeptics Question Whether Flores Hominid Is a New Species. Science 306(5699): 1116.",
+      "doi": "10.1126/science.306.5699.1116a",
+      "url": null,
+      "kind": "news",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full text read: within a month of the October 2004 announcement, a small group of scientists (Jacob among them) argued LB1 was a microcephalic modern human; the original team disagreed."
     }
   ],
   "confidence": "high",
-  "confidence_note": "Nearly every objection and rebuttal is grounded in a directly read abstract or excerpt. The gap is Brown et al. (2004), confirmed via Crossref metadata and content described in later checked sources.",
+  "confidence_note": "Nearly every objection and rebuttal is grounded in a directly read abstract or excerpt, including newly added S16-S20. S1 (Brown 2004) is now upgraded to checked, read in full via nature.com.",
   "corrections": [
     "Starter notes give the original age simply as '~18,000 years'. Morwood et al. (2004) claimed H. floresiensis existed from before ~38,000 to at least ~18,000 years ago, within deposits bracketed at ~95,000-12,000 years.",
     "The 2016 revision is not one number: Sutikna et al. (2016, 2018) date the skeletal remains to ~100,000-60,000 years, while stone-tool evidence for the taxon persists to ~50,000 years, in a sequence spanning ~190,000 years.",
-    "Starter notes list three pathology hypotheses as if concurrent; they were proposed in sequence by separate groups (Jacob et al. 2006; Hershkovitz et al. 2007; Henneberg/Eckhardt et al. 2014), each later addressed by its own rebuttal study."
+    "The pathology hypotheses were not all from separate groups: Henneberg, Eckhardt and Hsu co-authored both the 2006 microcephaly critique (with Jacob) and the 2014 Down-syndrome critique; Laron syndrome (2007) came from a separate group."
   ],
-  "notes": "No ancient DNA or protein sequence from H. floresiensis is published as of 2026; a rib taken during the 2005 custody dispute does not appear to have yielded reported results. 'Hobbit' is a press nickname, not a formal designation. At least nine individuals are now attributed to the species, one reason a single-individual pathology reading is now a minority view. Mundane checks: excavation was by a credentialed team under permit; stratigraphic complexity, not fraud, explains the original age mismatch. Henneberg and Eckhardt's group still defends the Down-syndrome reading; this record treats that as unresolved dissent, not disproof of the rebuttal.",
+  "notes": "No ancient DNA or protein sequence from H. floresiensis is published as of 2026; a rib taken during the 2004-05 custody dispute yielded no reported results. 'Hobbit' is a press nickname, not a formal designation. At least nine individuals are now attributed to the species, one reason single-individual pathology readings are now a minority view. Mundane checks: excavation was by a credentialed team under permit; stratigraphic complexity, not fraud, explains the age mismatch. Ancestry (H. erectus vs. an earlier small-brained lineage) remains debated (van den Bergh 2016). Henneberg and Eckhardt's group is understood to defend Down syndrome; treated here as unresolved dissent, not disproof.",
   "plates": [
     {
       "commons_file": "File:Homo floresiensis.jpg",
-      "caption": "A reconstructed Homo floresiensis skull cast, showing the small braincase central to the microcephaly debate."
+      "caption": "Cast of the LB1 skull and mandible on museum display."
     }
   ],
   "review": {
     "drafted_by": "researcher agent (claude-sonnet-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (Claude Opus 5.5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Did not add an independent rebuttal (Westaway et al. 2015) or a source for Henneberg/Eckhardt's continuing dissent (e.g. Eckhardt & Henneberg 2021); sources array is at the schema's 20-item cap after required additions.",
+      "Did not add a fourth pathology hypothesis (myxoedematous cretinism, Obendorf et al. 2008) as a new objection; the 20-source cap is already reached.",
+      "Left corrections[0] and corrections[1] as detail-adding entries rather than moving them to notes; they add detail but do not correct an error, so this is low priority.",
+      "Did not re-source features_at_claim.independent_teams/multiple_labs notes (Jacob et al. 2006 co-author Soejono undercuts 'independent'); would need to read paywalled S6 or S2's supplementary methods.",
+      "independent_methods_count (4) is left as the four dating methods already described in features_at_claim.multiple_dating_methods; did not add a separate morphological-evidence count.",
+      "Did not add Falk et al. 2009 as a direct rebuttal source for the Laron-syndrome objection; S9 already supports 'wrong' and the source cap is reached."
+    ]
   }
 }

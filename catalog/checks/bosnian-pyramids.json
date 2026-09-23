@@ -72,5 +72,23 @@
   "crossref_year": 2026,
   "crossref_venue": "Archaeological Discovery",
   "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Discussion Reporting of\n                    <sup>14</sup>\n                    C Data",
+  "crossref_year": 1977,
+  "crossref_venue": "Radiocarbon",
+  "checked_on": "2026-09-23"
  }
 }
