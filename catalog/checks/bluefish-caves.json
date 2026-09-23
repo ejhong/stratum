@@ -1,0 +1,131 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Earliest Human Presence in North America Dated to the Last Glacial Maximum: New Radiocarbon Dates from Bluefish Caves, Canada",
+  "crossref_year": 2017,
+  "crossref_venue": "PLOS ONE",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "ANCIENT BERINGIANS: HUMAN OCCUPATION IN THE LATE PLEISTOCENE OF ALASKA AND THE YUKON TERRITORY",
+  "crossref_year": 1982,
+  "crossref_venue": "Paleoecology of Beringia",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Quaternary Cave Faunas of Canada: A Review of the Vertebrate Remains",
+  "crossref_year": 2011,
+  "crossref_venue": "Journal of Cave and Karst Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "error",
+  "detail": "HTTP 429",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Paleoethological Reconstruction and Taphonomy of &lt;i&gt;Equus lambei&lt;/i&gt; from the Bluefish Caves, Yukon Territory, Canada",
+  "crossref_year": 1998,
+  "crossref_venue": "ARCTIC",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Bluefish Cave II (Yukon Territory, Canada): Taphonomic Study of a Bone Assemblage",
+  "crossref_year": 2015,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Unresolved Questions about Site Formation, Provenience, and the Impact of Natural Processes on Bone at the Bluefish Caves, Yukon Territory",
+  "crossref_year": 2020,
+  "crossref_venue": "Arctic Anthropology",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Current evidence allows multiple models for the peopling of the Americas",
+  "crossref_year": 2018,
+  "crossref_venue": "Science Advances",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Current Understanding of the Earliest Human Occupations in the Americas: Evaluation of Becerra-Valdivia and Higham (2020)",
+  "crossref_year": 2022,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Revisiting the mammoth bone modifications from Bluefish Caves (YT, Canada)",
+  "crossref_year": 2021,
+  "crossref_venue": "Journal of Archaeological Science: Reports",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Experiments suggest rockfall an improbable cause for bone surface modification on 24,000-year-old bone at Bluefish Caves, Canada",
+  "crossref_year": 2023,
+  "crossref_venue": "Journal of Archaeological Science",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Beringia and the peopling of the Western Hemisphere",
+  "crossref_year": 2023,
+  "crossref_venue": "Proceedings of the Royal Society B: Biological Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Leveraging sedimentary ancient DNA from Bluefish Cave III to provide paleoenvironmental context for human activity in eastern Beringia",
+  "crossref_year": 2026,
+  "crossref_venue": "Frontiers in Ecology and Evolution",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Taphonomy of Beringian Karstic Sites: A Case Study from Bluefish Cave III, Yukon, Canada",
+  "crossref_year": 2026,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ }
+}

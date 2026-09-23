@@ -4,6 +4,9 @@
 
 Live site: https://ejhong.github.io/stratum/ · Repository: https://github.com/ejhong/stratum
 
+**Read first:** `docs/RUNBOOK.md` (how to run a batch) · `docs/DECISIONS.md` (why things are
+as they are; newer entries win) · `docs/DESIGN.md` (the site's design system).
+
 ## Mission
 
 Stratum is an AI-operated research lab for archaeology, history and human origins. It looks
@@ -69,12 +72,18 @@ The pipeline for every case:
 **Source verification labels**: `checked` (opened and confirmed it says what it is cited
 for) · `exists` (metadata confirmed, content not read, e.g. paywalled) · `unverified`.
 
-**Cost policy.** Accuracy of sources is the product, so researchers and skeptics use Opus.
-Mechanical steps (validation, citation lookup, images, database, site) are scripts that cost
-no tokens. Wave 2 drafts with Sonnet researchers under the same Opus skeptics; compare issue
-rates in `logs/usage.md` and scale with the cheapest configuration that keeps skeptic
-failures rare. Never downgrade the skeptic. Log approximate tokens per batch in
-`logs/usage.md`.
+**Cost policy: scripts sift the haystack, models judge the needles.**
+- Anything mechanical is a script and costs no tokens: validation, citation matching, image
+  import, database, analysis, site, and (Phase 2) scanning whole databases for outliers.
+- Model reasoning is spent where judgment matters: drafting records, the skeptic gate, and
+  weighing the small residue that survives the scripts.
+- Agents use `scripts/lookup.py` for every lookup (citation, abstract, open-access status,
+  `page --grep` for passages) and never read raw API output or whole PDFs: everything an
+  agent reads is re-read on every later step. Budgets: researcher ≈ 40 tool calls, skeptic
+  ≈ 35. One case per agent.
+- Researchers and skeptics run on Opus; wave 2 trials Sonnet researchers under Opus skeptics,
+  and the cheapest configuration that keeps skeptic failures rare wins. Never downgrade the
+  skeptic. Log tokens per batch in `logs/usage.md`.
 
 ## Phase 1: The Anomaly Fates Catalog (current)
 
@@ -144,12 +153,15 @@ the Mound Builder myth, Chiquihuite Cave, Polynesian–American contact, Neander
 *Homo naledi* burial. *Forbidden Archaeology* (Cremo & Thompson, 1993) can be mined for
 candidates, but only with independent literature on each.
 
-Target: 24 well-verified records, then 100+.
+Target: about 60 balanced, reviewed records — enough to test H1–H6 at their thresholds —
+before Phase 2 starts; 100+ over time.
 
 ## The site
 
 The site is how the lab reports: every record, finding and lead appears there
-automatically. The owner's standard is **super clean, simple and beautiful, never wordy**.
+automatically. The owner's standard is **beautiful, dense and concise**: tables and bullets
+rather than narrative, smaller type, lots of information per screen, nothing flourishy. Full
+system in `docs/DESIGN.md`.
 
 - **Generated, never hand-edited.** `python3 scripts/build.py` validates the catalog, builds
   the SQLite database, runs the analysis, and writes the static site to `_site/`. Pushing to
@@ -160,17 +172,20 @@ automatically. The owner's standard is **super clean, simple and beautiful, neve
   would settle them), Method (how the lab works, and its costs).
 - **Design rules** (`site/assets/style.css` holds the tokens):
   - Show, don't tell: charts are generated from the data (deep-time section, lifelines,
-    feature matrix). Text is short; details sit behind disclosure.
+    evidence matrix, strips, per-case ruler). Tables and bullets, not paragraphs.
   - One accent color. Fate colors are never red-versus-green and always paired with a shape:
     vindicated ● · partial ◐ · open ◎ · refuted ✕.
-  - Newsreader for headings, IBM Plex Sans for reading, IBM Plex Mono only for numbers and
-    small labels. Nothing below 12px; WCAG AA contrast; works on a phone.
+  - Newsreader for titles, IBM Plex Sans for reading (15px), IBM Plex Mono for numbers and
+    labels. WCAG AA contrast; works on a phone (wide tables and charts scroll sideways).
+  - Drafts appear labelled "Draft"; only skeptic-reviewed records count in the analysis.
   - Real, credited photographs only. No precise locations anywhere.
 - New page types must fit this system. Prefer removing words to adding sections.
 
 ## Later phases
 
-Ordered by the chance of a genuine discovery per unit of effort.
+Phase 1 is the teacher (what distinguishes real anomalies from false ones); Phase 2 is the
+search engine (anomalies nobody has flagged yet), filtered by Phase 1's lessons. Phase 2
+starts once Phase 1 reaches about 60 reviewed records, and runs alongside it.
 
 - **Phase 2 · Radiocarbon residue.** The closest analog to the biology work. Scan open
   radiocarbon databases (p3k14c, XRONOS, CARD, regional sets) for dates that contradict their
@@ -204,9 +219,10 @@ stratum/
 │   ├── checks/             machine citation checks per case (generated)
 │   ├── candidates.json     scout proposals awaiting research
 │   └── stratum.db          SQLite database (generated, not committed)
+├── docs/                   RUNBOOK, DECISIONS (append-only), DESIGN
 ├── findings/log.md         pre-registered hypotheses, observations, leads
 ├── analysis/outputs/       analysis results (generated)
-├── scripts/                validate, check_sources, fetch_plates, build (+ db, analysis, site)
+├── scripts/                validate, check_sources, lookup, fetch_plates, build (+ db, analysis, site, charts)
 ├── site/                   site source: styles, scripts, photographs
 ├── sources/                research notes (PDFs stay local and are not committed)
 ├── logs/usage.md           approximate token cost per batch
@@ -219,6 +235,7 @@ stratum/
 ```bash
 python3 scripts/validate.py              # check every record against the schema
 python3 scripts/check_sources.py [id]    # verify DOIs and URLs (needs network)
+python3 scripts/lookup.py doi <doi>      # compact citation + abstract (also: search, page --grep, commons)
 python3 scripts/fetch_plates.py          # download licensed Commons photographs
 python3 scripts/build.py                 # validate → database → analysis → site in _site/
 python3 -m http.server -d _site 8000     # preview at http://localhost:8000

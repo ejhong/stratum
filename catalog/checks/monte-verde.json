@@ -1,0 +1,136 @@
+{
+ "S1": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Monte Verde : adaptación humana en el Centro-Sur de Chile durante el pleistoceno tardio",
+  "crossref_year": 1986,
+  "crossref_venue": "Journal de la Société des Américanistes",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Early cultural evidence from Monte Verde in Chile",
+  "crossref_year": 1988,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Glacial-Age Man in South America? A Critical Review",
+  "crossref_year": 1990,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Monte Verde, Chile: A Comment on Lynch",
+  "crossref_year": 1991,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "On the Pleistocene Antiquity of Monte Verde, Southern Chile",
+  "crossref_year": 1997,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Resolving an Anomolous Radiocarbon Determination on Mastodon Bone from Monte Verde, Chile",
+  "crossref_year": 2005,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Monte Verde: Seaweed, Food, Medicine, and the Peopling of South America",
+  "crossref_year": 2008,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "New Archaeological Evidence for an Early Human Presence at Monte Verde, Chile",
+  "crossref_year": 2015,
+  "crossref_venue": "PLOS ONE",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "CORRECTING FIEDEL, ONCE AGAIN: MONTE VERDE AND THE PEOPLING OF SOUTH AMERICA",
+  "crossref_year": 2022,
+  "crossref_venue": "Radiocarbon",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Monte Verde II: an assessment of new radiocarbon dates and their sedimentological context",
+  "crossref_year": 2023,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A mid-Holocene age for Monte Verde challenges the timeline of human colonization of South America",
+  "crossref_year": 2026,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Replication as a Virtue: What the Monte Verde Debate Tells Us About Archaeological Science",
+  "crossref_year": 2026,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Evaluation of the Geoarchaeological Study that Proposes a Middle Holocene Age for Monte Verde II, Chile",
+  "crossref_year": 2026,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S19": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ }
+}

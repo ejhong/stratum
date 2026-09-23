@@ -1,0 +1,414 @@
+{
+  "id": "bluefish-caves",
+  "name": "Bluefish Caves",
+  "hook": "Yukon caves whose cut-marked bones may place people in North America at the height of the last Ice Age.",
+  "location": {
+    "country": "Canada",
+    "region": "Yukon",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "In 1979 Cinq-Mars dated human use of Bluefish Cave I to 13,000–10,000 radiocarbon years ago. Later bone dates led him to argue that flaked and butchered bone showed people there as early as ~24,800 radiocarbon years ago, before the Last Glacial Maximum.",
+  "claimed_age": {
+    "label": "~24,800 14C BP (about 30,000 cal BP)",
+    "bp_min": null,
+    "bp_max": 30000,
+    "basis": "Oldest proponent dates: AMS 24,800 14C BP on a split caribou tibia; ~23,500 on a mammoth bone core and flake. Calendar figure is S1's rounding of 25,000 14C BP.",
+    "source": "S4"
+  },
+  "accepted_age": null,
+  "orthodoxy_at_claim": {
+    "label": "No accepted sites in eastern Beringia or the Americas older than ~14,000 cal BP; people were thought to arrive after the LGM.",
+    "limit_bp": 14000,
+    "source": "S1"
+  },
+  "year_claimed": 1979,
+  "key_proponents": [
+    "Jacques Cinq-Mars",
+    "Richard E. Morlan",
+    "C. Richard Harington",
+    "Lauriane Bourgeon",
+    "Ariane Burke",
+    "Thomas Higham"
+  ],
+  "key_critics": [
+    "Kathryn E. Krasinski",
+    "John C. Blong",
+    "Ben A. Potter",
+    "E. James Dixon"
+  ],
+  "evidence_types": [
+    "radiocarbon",
+    "stratigraphy",
+    "lithics",
+    "artifacts",
+    "fauna"
+  ],
+  "independent_methods_count": 2,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "partial",
+      "note": "Stone tools are clearly human-made but were not directly dated; the older evidence is broken and marked bone, which natural processes can mimic.",
+      "source": "S1"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Excavated in 5 cm spits and described in 1979 as near-primary, but the cave fills also held carnivore-accumulated bone and rockfall debris.",
+      "source": "S2"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "Radiocarbon dates on bone only; pollen and fauna fit the dates but are not independent dating methods.",
+      "source": "S1"
+    },
+    "multiple_labs": {
+      "value": "no",
+      "note": "Dates published by 1982 came from the Geological Survey of Canada; later AMS dates from other labs were listed only in a database.",
+      "source": "S1"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated 1977–1987 by the Archaeological Survey of Canada under Jacques Cinq-Mars.",
+      "source": "S1"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "The 1979 claim appeared as a 32-page article in the Canadian Journal of Archaeology.",
+      "source": "S2"
+    },
+    "material_accessible": {
+      "value": "unknown",
+      "note": "Collections are kept at the Canadian Museum of History and were re-studied from 2015; access for critics in the 1980s is not documented.",
+      "source": "S1"
+    },
+    "independent_teams": {
+      "value": "no",
+      "note": "Reports into the early 1980s came from Cinq-Mars and co-authors (Morlan; Ritchie and Cwynar on pollen).",
+      "source": "S4"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No motive beyond ordinary career interest is documented; Cinq-Mars was a federal museum archaeologist.",
+      "source": "S18"
+    }
+  },
+  "objections": [
+    {
+      "text": "Archaeological contexts were significantly disturbed, so the stone tools and the LGM-age dated bones may not be associated.",
+      "kind": "context",
+      "raised_by": "Krasinski & Blong (and earlier critics)",
+      "year": 2020,
+      "outcome": "unresolved",
+      "outcome_note": "Direct dates on cut bones avoid the association problem for those bones, but lithic ages and provenience are still disputed (S14, S15).",
+      "source": "S9"
+    },
+    {
+      "text": "Breaks and grooves on the bones could come from rockfall or carnivore chewing rather than human butchery and toolmaking.",
+      "kind": "identification",
+      "raised_by": "Unnamed critics of Cinq-Mars",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "A 2023 experiment found rockfall marks distinguishable from cut marks (S13, title only); natural bone damage is still argued (S9).",
+      "source": "S18"
+    },
+    {
+      "text": "No other eastern Beringian sites of similar age exist; a successful LGM settlement should have left more sites in later millennia.",
+      "kind": "prior",
+      "raised_by": "Potter et al.",
+      "year": 2018,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents reply that LGM visits were brief and the population small (S1); no second LGM site in eastern Beringia appears in sources read.",
+      "source": "S10"
+    }
+  ],
+  "status": "open",
+  "status_note": "Cut-marked bones directly dated to ~24,000 cal BP support LGM visits, but critics cite disturbed deposits and natural bone damage; reviews in 2023 and 2026 still describe the evidence as disputed.",
+  "year_resolved": null,
+  "what_settled_it": null,
+  "settled_by": [
+    "not-settled"
+  ],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 1975,
+      "event": "The caves are spotted from the air during a University of Toronto survey of the northern Yukon.",
+      "source": "S4"
+    },
+    {
+      "year": 1977,
+      "event": "Jacques Cinq-Mars begins excavations for the Archaeological Survey of Canada; work continues to 1987.",
+      "source": "S1"
+    },
+    {
+      "year": 1979,
+      "event": "Cinq-Mars reports stone tools and Ice Age bones in Cave I and dates human use to 13,000–10,000 radiocarbon years ago.",
+      "source": "S2"
+    },
+    {
+      "year": 2003,
+      "event": "Morlan notes that regional summaries start the record at 11,500–12,000 14C BP and dismiss or ignore older evidence.",
+      "source": "S6"
+    },
+    {
+      "year": 2008,
+      "event": "Harington and Cinq-Mars summarize the case: flaked mammoth bone (~23,500 14C BP) and a split caribou tibia (24,800 14C BP).",
+      "source": "S4"
+    },
+    {
+      "year": 2015,
+      "event": "Bourgeon's taphonomic study of Cave II finds most bone damage non-human, with a small part possibly human-made.",
+      "source": "S8"
+    },
+    {
+      "year": 2017,
+      "event": "Bourgeon, Burke and Higham report 15 cut-marked bones; the oldest, a horse jaw, dates to 19,650 ± 130 14C BP (~24,000 cal BP).",
+      "source": "S1"
+    },
+    {
+      "year": 2018,
+      "event": "Potter et al. call the Bluefish record 'enigmatic' and note the lack of later LGM-age sites.",
+      "source": "S10"
+    },
+    {
+      "year": 2019,
+      "event": "A Kansas-led team tests Cave III (no stone tools found) and locates an unexcavated Cave IV.",
+      "source": "S17"
+    },
+    {
+      "year": 2020,
+      "event": "Krasinski and Blong argue that disturbed contexts and natural bone damage leave the site 'provocative but unconvincing'.",
+      "source": "S9"
+    },
+    {
+      "year": 2023,
+      "event": "Litynski and Pante's experiments suggest rockfall is an improbable cause of the marks on the dated bone.",
+      "source": "S13"
+    },
+    {
+      "year": 2026,
+      "event": "Cave III studies find no human traces there; site researchers say the Caves I–II evidence still 'spurs controversy'.",
+      "source": "S15"
+    }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Blind re-study of the 15 cut-marked and 20 'probable' bones at the Canadian Museum of History by an independent taphonomy lab, using 3-D micro-morphometrics.",
+      "would_show": "Whether the marks are stone-tool cuts rather than carnivore, trampling or rockfall damage.",
+      "cost": "medium"
+    },
+    {
+      "test": "Re-date the cut-marked horse jaw (OxA-33778) and caribou pelvis (OxA-33777) at a second laboratory, ideally by single-amino-acid (hydroxyproline) AMS dating.",
+      "would_show": "Whether the ~24,000–22,000 cal BP ages are free of contamination.",
+      "cost": "low"
+    },
+    {
+      "test": "AMS-date the mammoth bone core, its refitting flake and the split caribou tibia with modern pretreatment, and publish full lab data.",
+      "would_show": "Whether the oldest claimed tools really date to ~23,500–24,800 14C BP.",
+      "cost": "low"
+    },
+    {
+      "test": "Excavate intact fill in Cave IV with piece-plotting, micromorphology and direct dates on any cut bone or stone tools (Caves I and II were dug out to bedrock).",
+      "would_show": "Whether undisturbed LGM-age cultural layers exist at the site.",
+      "cost": "high"
+    }
+  ],
+  "falsifier": "An independent re-study showing the dated marks are carnivore, trampling or rockfall damage, or re-dates placing the cut bones after the LGM, would refute LGM use. Intact cultural layers dated to ~24,000 cal BP in Cave IV or a nearby site would confirm it.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Bourgeon L, Burke A, Higham T. 2017. Earliest human presence in North America dated to the Last Glacial Maximum: new radiocarbon dates from Bluefish Caves, Canada. PLOS ONE 12(1): e0169486.",
+      "doi": "10.1371/journal.pone.0169486",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read: 36,000 bones, 15 cut-marked, six AMS dates, prior date table, history of doubts, ~14,000 cal BP accepted limit."
+    },
+    {
+      "id": "S2",
+      "citation": "Cinq-Mars J. 1979. Bluefish Cave I: a late Pleistocene eastern Beringian cave deposit in the northern Yukon. Canadian Journal of Archaeology 3: 1–32.",
+      "doi": null,
+      "url": "https://canadianarchaeology.com/publications/canadian-journal-archaeologyjournal-canadien-darcheologie/3/001-032",
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read on the CAA site (1978 test excavation; use 13,000–10,000 BP; near-primary context). Full text is members-only."
+    },
+    {
+      "id": "S3",
+      "citation": "Morlan RE, Cinq-Mars J. 1982. Ancient Beringians: human occupation in the Late Pleistocene of Alaska and the Yukon Territory. In: Hopkins DM et al., eds. Paleoecology of Beringia. New York: Academic Press, pp. 353–381.",
+      "doi": "10.1016/b978-0-12-355860-2.50033-8",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed in Crossref; chapter not read (paywalled). Not used for any key field."
+    },
+    {
+      "id": "S4",
+      "citation": "Harington CR, Cinq-Mars J. 2008. Bluefish Caves – fauna and context. Beringian Research Notes 19: 1–8. Whitehorse: Yukon Palaeontology Program, Government of Yukon.",
+      "doi": null,
+      "url": "https://web.archive.org/web/20220115094903/https://yukon.ca/sites/yukon.ca/files/tc/tc-research-note-bluefish-caves-2008.pdf",
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read (archived copy; yukon.ca blocks bots). Gives 1975 discovery, 1977–1987 digs, 23,500 and 24,800 BP bone dates."
+    },
+    {
+      "id": "S5",
+      "citation": "Harington CR. 2011. Quaternary cave faunas of Canada: a review of the vertebrate remains. Journal of Cave and Karst Studies 73(3): 162–180.",
+      "doi": "10.4311/jcks2009pa128",
+      "url": null,
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: mammoth core and flake AMS ~23,500 BP; caribou tibia 24,800 BP; key dates cited as personal communication from Cinq-Mars (2010)."
+    },
+    {
+      "id": "S6",
+      "citation": "Morlan RE. 2003. Current perspectives on the Pleistocene archaeology of eastern Beringia. Quaternary Research 60(1): 123–132.",
+      "doi": "10.1016/s0033-5894(03)00070-x",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: summaries start the record with the Nenana complex (11,500–12,000 14C BP) and dismiss or ignore older evidence."
+    },
+    {
+      "id": "S7",
+      "citation": "Burke A, Cinq-Mars J. 1998. Paleoethological reconstruction and taphonomy of Equus lambei from the Bluefish Caves, Yukon Territory, Canada. Arctic 51(2): 105–115.",
+      "doi": "10.14430/arctic1052",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: predators likely main bone accumulators in Cave I; caves hold palimpsest deposits from multiple agents."
+    },
+    {
+      "id": "S8",
+      "citation": "Bourgeon L. 2015. Bluefish Cave II (Yukon Territory, Canada): taphonomic study of a bone assemblage. PaleoAmerica 1(1): 105–108.",
+      "doi": "10.1179/2055556314z.0000000001",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: most remains non-human in origin; a small component may be human-modified."
+    },
+    {
+      "id": "S9",
+      "citation": "Krasinski KE, Blong JC. 2020. Unresolved questions about site formation, provenience, and the impact of natural processes on bone at the Bluefish Caves, Yukon Territory. Arctic Anthropology 57(1): 1–21.",
+      "doi": "10.3368/aa.57.1.1",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read on publisher page: disturbed contexts, lithic/date associations, natural bone alteration; 'provocative but unconvincing'."
+    },
+    {
+      "id": "S10",
+      "citation": "Potter BA, Baichtal JF, Beaudoin AB, et al. 2018. Current evidence allows multiple models for the peopling of the Americas. Science Advances 4(8): eaat5473.",
+      "doi": "10.1126/sciadv.aat5473",
+      "url": null,
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read: calls the Bluefish record 'enigmatic'; LGM settlement should have left more later sites, which are absent."
+    },
+    {
+      "id": "S11",
+      "citation": "Potter BA, Chatters JC, Prentiss AM, et al. 2022. Current understanding of the earliest human occupations in the Americas: evaluation of Becerra-Valdivia and Higham (2020). PaleoAmerica 8(1): 62–76.",
+      "doi": "10.1080/20555563.2021.1978721",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: all claimed sites older than 16,000 cal BP judged equivocal. The abstract does not name Bluefish."
+    },
+    {
+      "id": "S12",
+      "citation": "Bourgeon L. 2021. Revisiting the mammoth bone modifications from Bluefish Caves (YT, Canada). Journal of Archaeological Science: Reports 37: 102969.",
+      "doi": "10.1016/j.jasrep.2021.102969",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed; paywalled, abstract not accessible. Not used for any key field."
+    },
+    {
+      "id": "S13",
+      "citation": "Litynski ML, Pante MC. 2023. Experiments suggest rockfall an improbable cause for bone surface modification on 24,000-year-old bone at Bluefish Caves, Canada. Journal of Archaeological Science 160: 105860.",
+      "doi": "10.1016/j.jas.2023.105860",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed; paywalled. Cited only for the finding stated in its title."
+    },
+    {
+      "id": "S14",
+      "citation": "Hoffecker JF, Elias SA, Scott GR, O'Rourke DH, Hlusko LJ, Potapova O, Pitulko V, Pavlova E, Bourgeon L, Vachula RS. 2023. Beringia and the peopling of the Western Hemisphere. Proceedings of the Royal Society B 290(1990): 20222246.",
+      "doi": "10.1098/rspb.2022.2246",
+      "url": null,
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read: Bluefish marks suggest LGM use 'although their interpretation has been disputed'. Bourgeon is a co-author."
+    },
+    {
+      "id": "S15",
+      "citation": "Kisielinski C, Tackney JC, Norman LEY, Mandel RD, O'Rourke DH. 2026. Leveraging sedimentary ancient DNA from Bluefish Cave III to provide paleoenvironmental context for human activity in eastern Beringia. Frontiers in Ecology and Evolution.",
+      "doi": "10.3389/fevo.2026.1789717",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read: Caves I–II evidence 'spurs controversy'; Caves I–II dug to bedrock; no human traces in Cave III."
+    },
+    {
+      "id": "S16",
+      "citation": "Bourgeon L, Norman LEY, Mandel RD. 2026. Taphonomy of Beringian karstic sites: a case study from Bluefish Cave III, Yukon, Canada. PaleoAmerica (online 28 July 2026): 1–16.",
+      "doi": "10.1080/20555563.2026.2694234",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read (full text blocked to bots): carnivores built the Cave III assemblage; no signs of human activity there."
+    },
+    {
+      "id": "S17",
+      "citation": "Kansas Geological Survey, University of Kansas (Odyssey Research Program). Bluefish Caves [project web page]. Accessed 23 September 2026.",
+      "doi": null,
+      "url": "https://kgs.ku.edu/bluefish-caves",
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: 2019 Cave III test found no lithics; Caves I–II deposits removed; Cave IV found and tested in 2022; context 'has been challenged'."
+    },
+    {
+      "id": "S18",
+      "citation": "Pringle H. 2017. From vilified to vindicated: the story of Jacques Cinq-Mars. Hakai Magazine, 7 March 2017.",
+      "doi": null,
+      "url": "https://hakaimagazine.com/features/vilified-vindicated-story-jacques-cinq-mars/",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Journalism. Read: critics proposed rockfall or carnivores; funding grew scarce and fieldwork ended; some stayed skeptical after 2017."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Dates, cut-mark findings and critiques come from sources read. The first print date of the ~24,800 BP claim is unconfirmed, and 2021–2023 papers were paywalled.",
+  "corrections": [
+    "Starter notes imply a ~25,000-year claim from the late 1970s. The 1979 paper claimed use 13,000–10,000 radiocarbon years ago; the ~24,800 BP claim came later and is in radiocarbon, not calendar, years.",
+    "Excavations ran from 1977 to 1987, not only in the late 1970s.",
+    "The oldest 2017 cut-marked bone is a horse jaw at 19,650 ± 130 14C BP (~24,000 cal BP, IntCal13); the same team later gives ~23,500 cal BP. It is younger than the 24,800 14C BP tibia claim.",
+    "Status is open, not vindicated: critics call the evidence 'provocative but unconvincing' (2020), and a 2023 review co-authored by Bourgeon says its interpretation 'has been disputed'.",
+    "The 2017 re-study found wolves, lions and foxes were the main bone collectors; under 1% of the 36,000 bones studied show human or probable human marks."
+  ],
+  "notes": "year_claimed is 1979, the first published claim of Pleistocene use; the ~24,800 14C BP claim came later (works of 1982–2008, per S1 and S4) and its first print date is unconfirmed. The 1980s AMS dates behind it were never formally published (S1 Table 1; S5 cites them as personal communication). limit_bp uses the ~14,000 cal BP limit stated in 2017 (S1); 2003 summaries began the regional record at 11,500–12,000 14C BP (S6). Proponents' 2021 re-studies (S12) and the rockfall experiment (S13) were paywalled and not read. S14 and S16 include Bourgeon as an author, so they are not independent of the 2017 study.",
+  "review": {
+    "drafted_by": "researcher agent (claude-opus-5-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

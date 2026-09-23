@@ -70,5 +70,29 @@
    "width": 1400,
    "height": 1225
   }
+ ],
+ "calico-hills": [
+  {
+   "file": "plates/calico-hills/calico-early-man-site-52720096308.jpg",
+   "caption": "Signpost listing distances to other archaeological sites, on the gravelly desert surface at the site (BLM photo, 2023).",
+   "commons_file": "File:Calico Early Man Site (52720096308).jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "credit": "blmcalifornia",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Calico_Early_Man_Site_(52720096308).jpg",
+   "width": 1400,
+   "height": 1050
+  },
+  {
+   "file": "plates/calico-hills/calicovisitorcenter-8521.jpg",
+   "caption": "Visitor center with a BLM sign reading 'Calico Early Man Archeological Site', eroded hills behind (2010).",
+   "commons_file": "File:CalicoVisitorCenter 8521.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "credit": "Ellen Levy Finch (Elf)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:CalicoVisitorCenter_8521.jpg",
+   "width": 1400,
+   "height": 933
+  }
  ]
 }

@@ -1,0 +1,162 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "As primeiras ocupações humanas da área Arqueológica de São Raimundo Nonato - Piauí",
+  "crossref_year": 1984,
+  "crossref_venue": "Revista de Arqueologia",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Carbon-14 dates point to man in the Americas 32,000 years ago",
+  "crossref_year": 1986,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Glacial-Age Man in South America? A Critical Review",
+  "crossref_year": 1990,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "On a Pleistocene human occupation at Pedra Furada, Brazil",
+  "crossref_year": 1994,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Le plus ancien peuplement de l'Amérique : le Paléolithique du Nordeste brésilien",
+  "crossref_year": 1994,
+  "crossref_venue": "Bulletin de la Société préhistorique française",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Comment on Pedra Furada",
+  "crossref_year": 1995,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Nature and age of the deposits in Pedra Furada, Brazil: reply to Meltzer, Adovasio &amp; Dillehay",
+  "crossref_year": 1996,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A revised chronology of the lowest occupation layer of Pedra Furada Rock Shelter, Piauı́, Brazil: the Pleistocene peopling of the Americas",
+  "crossref_year": 2003,
+  "crossref_venue": "Quaternary Science Reviews",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "TL age-estimates of burnt quartz pebbles from the Toca do Boqueirăo da Pedra Furada (Piaui, Northeastern Brazil)",
+  "crossref_year": 2003,
+  "crossref_venue": "Quaternary Science Reviews",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A new late Pleistocene archaeological sequence in South America: the Vale da Pedra Furada (Piauí, Brazil)",
+  "crossref_year": 2014,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Final Pleistocene and Early Holocene at Sitio do Meio, Piauí - Brazil: stratigraphy and comparison with Pedra Furada",
+  "crossref_year": 2014,
+  "crossref_venue": "Journal of Lithic Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Ambiguity and Debates on the Early Peopling of South America",
+  "crossref_year": 2016,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Wild monkeys flake stone tools",
+  "crossref_year": 2016,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Did Monkeys Make the Pre-Clovis Pebble Tools of Northeastern Brazil?",
+  "crossref_year": 2017,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Genesis and taphonomy of the archaeological layers of Pedra Furada rock-shelter, Brazil",
+  "crossref_year": 2018,
+  "crossref_venue": "Quaternaire",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Three thousand years of wild capuchin stone tool use",
+  "crossref_year": 2019,
+  "crossref_venue": "Nature Ecology &amp; Evolution",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Late Pleistocene exploration and settlement of the Americas by modern humans",
+  "crossref_year": 2019,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "24.0 kyr cal BP stone artefact from Vale da Pedra Furada, Piauí, Brazil: Techno-functional analysis",
+  "crossref_year": 2021,
+  "crossref_venue": "PLOS ONE",
+  "checked_on": "2026-09-23"
+ },
+ "S19": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Questioning the Anthropic Nature of Pedra Furada and the Piauí Sites",
+  "crossref_year": 2022,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S20": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Pedra Furada: A reappraisal of its artifacts, structures and stratigraphy",
+  "crossref_year": 2023,
+  "crossref_venue": "L'Anthropologie",
+  "checked_on": "2026-09-23"
+ }
+}
