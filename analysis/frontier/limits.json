@@ -1,0 +1,206 @@
+{
+  "method": "R2 · The frontier scan: dates older than the accepted first arrival (pre-registered 2026-09-23 in findings/log.md). This file is step (1): regions, membership and limits, fixed and committed before any scan.",
+  "fixed_on": "2026-09-23",
+  "what_was_looked_at_before_fixing": "The literature sources listed below (checked with python3 scripts/lookup.py doi/search/page on 2026-09-23), and the p3k14c v2022.06 Continent/Country/Province vocabulary with row counts, to define membership. No radiocarbon age, error, material, lab or site name from p3k14c was examined.",
+  "units": "Limits are calendar years BP (before AD 1950). AD years convert as 1950 - AD.",
+  "limit_rule": "Each limit is the oldest end of the first arrival that the cited source accepts, or the point beyond which the source says occupation is not supported. A region's limit applies to every part of the region, so later-settled parts get a limit older than their own settlement and the test is conservative there.",
+  "conversion_rule": {
+    "curve": "IntCal20 mean curve and its 1-sigma (Reimer et al. 2020, Radiocarbon 62(4), doi:10.1017/RDC.2020.41), the file data/raw/intcal20.14c already registered for R1 (SHA-256 974a66649f2ac8a53e6c99e256b019ac6982f999b12dcf7193162d4c1c09168e).",
+    "threshold": "T = the oldest radiocarbon age the mean curve reaches at any calendar age at or younger than the limit (linear interpolation between curve points), so a wiggle or plateau younger than the limit cannot create a false exceedance. sigma_T = the curve's 1-sigma at that point.",
+    "pre_limit_date": "A date is older than the limit by more than 2 standard errors if (Age - T) > 2 * sqrt(Error^2 + sigma_T^2), with Age and Error the uncalibrated 14C BP values in p3k14c.",
+    "southern_hemisphere": "IntCal20 is used for every region, including southern ones (Sahul, Madagascar, New Zealand, much of Remote Oceania, southern South America). SHCal20 radiocarbon ages average 36 +/- 27 14C years older than IntCal20 (Hogg et al. 2020, Radiocarbon 62(4): 759-778, doi:10.1017/RDC.2020.59), so southern thresholds here are slightly too young: the test is slightly permissive (flags a little more) in the south.",
+    "display_only": "Approximate calendar ranges shown for flagged dates are read off the IntCal20 mean curve for Age +/- 2 Error; they are not formal calibrations."
+  },
+  "membership_rule": "Field values are compared after lower-casing, removing accents and removing everything but letters and digits (so 'BurkinaFaso' = 'Burkina Faso'). A date belongs to a region if it matches one of the region's include rules and none of its exclude rules. A rule may give continent, country, or country plus province. Every date may belong to at most one region; the scan checks this.",
+  "database_coverage_note": "From the vocabulary listing only: p3k14c v2022.06 has no rows whose country is a Caribbean island, a Pacific island state, New Zealand or Madagascar, and has no Hawaii province. Rapa Nui appears as Chile / Rapa Nui. Rows with USA and a blank province (which could include Hawaii or Alaska) cannot be placed below country level and are counted with the Americas. These regions are kept as registered; with no rows they are reported as untestable, not as nulls.",
+  "regions": [
+    {
+      "id": "americas",
+      "name": "The Americas (mainland North, Central and South America, including Beringia and continental islands)",
+      "include": [
+        {"continent": "North America"},
+        {"continent": "Central America"},
+        {"continent": "South America"},
+        {"country": "Trinidad and Tobago"}
+      ],
+      "exclude": [
+        {"country": "Chile", "province": "Rapa Nui"},
+        {"country": "Chile", "province": "Isla de Pascua"},
+        {"country": "Chile", "province": "Easter Island"},
+        {"country": "USA", "province": "Hawaii"},
+        {"country": "USA", "province": "Hawai'i"},
+        {"country": "USA", "province": "Puerto Rico"},
+        {"country": "USA", "province": "Virgin Islands"},
+        {"country": "Cuba"}, {"country": "Haiti"}, {"country": "Dominican Republic"}, {"country": "Puerto Rico"},
+        {"country": "Jamaica"}, {"country": "Bahamas"}, {"country": "Turks and Caicos Islands"},
+        {"country": "Cayman Islands"}, {"country": "US Virgin Islands"}, {"country": "British Virgin Islands"},
+        {"country": "Anguilla"}, {"country": "Saint Martin"}, {"country": "Sint Maarten"},
+        {"country": "Saint Barthelemy"}, {"country": "Antigua and Barbuda"}, {"country": "Saint Kitts and Nevis"},
+        {"country": "Montserrat"}, {"country": "Guadeloupe"}, {"country": "Dominica"}, {"country": "Martinique"},
+        {"country": "Saint Lucia"}, {"country": "Saint Vincent and the Grenadines"}, {"country": "Barbados"},
+        {"country": "Grenada"}, {"country": "Aruba"}, {"country": "Curacao"}, {"country": "Bonaire"}
+      ],
+      "limit_cal_bp": 17500,
+      "limit_basis": "Waters (2019), abstract: archaeological evidence shows dispersed populations in North and South America 'between ~15.5 and ~14 ka ago', genetic data put the move south of the ice sheets 'between ~17.5 and ~14.6' ka, and 'Current genetic and archaeological data do not support an earlier (pre-17.5 ka ago) occupation of the Americas.' The limit is that 17.5 ka boundary.",
+      "source": {
+        "citation": "Waters, M.R. (2019). Late Pleistocene exploration and settlement of the Americas by modern humans. Science 365(6449): eaat5447.",
+        "doi": "10.1126/science.aat5447",
+        "access": "paywalled; abstract read",
+        "verified": "python3 scripts/lookup.py doi 10.1126/science.aat5447 (2026-09-23)"
+      },
+      "contested": "High. The oldest widely accepted radiocarbon-dated site, Cooper's Ferry, is 16,560-15,280 cal BP (Davis et al. 2019, Science 365: 891-897, doi:10.1126/science.aax9830), inside the limit. Pre-LGM claims push earlier: the White Sands tracks (~23,000-21,000 cal BP) are recorded as open in this catalog (catalog/cases/white-sands.json); if they are accepted, the limit moves to about 23,000 cal BP. Beringia (Alaska, Yukon) could in principle hold people earlier than the lands south of the ice sheets; one limit is used for the whole region."
+    },
+    {
+      "id": "sahul",
+      "name": "Sahul (Australia including Tasmania, New Guinea)",
+      "include": [
+        {"continent": "Australia"},
+        {"country": "Australia"},
+        {"country": "Papua New Guinea"},
+        {"country": "Indonesia", "province": "Papua"},
+        {"country": "Indonesia", "province": "West Papua"},
+        {"country": "Indonesia", "province": "Papua Barat"}
+      ],
+      "exclude": [],
+      "limit_cal_bp": 50000,
+      "limit_basis": "O'Connell et al. (2018), abstract: reviewing arrival across South China to Sahul, 'We find that an age estimate of >50 ka for this site [Madjedbebe] is unlikely to be valid.' The limit is 50 ka.",
+      "source": {
+        "citation": "O'Connell, J.F., Allen, J., Williams, M.A.J., Williams, A.N., Turney, C.S.M., Spooner, N.A., Kamminga, J., Brown, G., Cooper, A. (2018). When did Homo sapiens first reach Southeast Asia and Sahul? PNAS 115(34): 8482-8490.",
+        "doi": "10.1073/pnas.1808385115",
+        "access": "open",
+        "verified": "python3 scripts/lookup.py doi 10.1073/pnas.1808385115 (2026-09-23)"
+      },
+      "contested": "High. Madjedbebe's ~65 ka (Clarkson et al. 2017, Nature 547: 306-310, doi:10.1038/nature22968) is recorded as open in this catalog (catalog/cases/madjedbebe.json); the short chronology puts arrival about 47 ka (O'Connell & Allen 2015, J. Archaeol. Sci. 56: 73-84, doi:10.1016/j.jas.2015.02.020), and 2025 genetic papers disagree (Allen & O'Connell 2025, doi:10.1002/arco.70002; Gandini et al. 2025, doi:10.1126/sciadv.ady9493).",
+      "testability": "Radiocarbon cannot test this limit under R1's filters: filter (c) removes every date over 40,000 14C BP, and 40,000 14C BP falls well short of 50,000 cal BP on IntCal20, so no date can be older than this limit. Expected result: untestable by design, known before the scan."
+    },
+    {
+      "id": "japan",
+      "name": "Japanese Archipelago (Hokkaido to the Ryukyus)",
+      "include": [{"country": "Japan"}],
+      "exclude": [],
+      "limit_cal_bp": 40000,
+      "limit_basis": "Nakazawa (2017), full text: the Paleolithic record in Paleo-Honshu 'started at the beginning of the Upper Paleolithic, around 40,000-37,000 years ago', and 'The possibility of an archaeological record before 40 ka was largely dismissed when the Early Paleolithic hoax was exposed in 2000.' The limit is the older end, 40 ka (read as calendar years).",
+      "source": {
+        "citation": "Nakazawa, Y. (2017). On the Pleistocene population history in the Japanese Archipelago. Current Anthropology 58(S17): S539-S552.",
+        "doi": "10.1086/694447",
+        "access": "open (Hokkaido University repository PDF)",
+        "verified": "python3 scripts/lookup.py doi 10.1086/694447 and page --grep on the repository PDF (2026-09-23)"
+      },
+      "contested": "Moderate. The same source notes that an Early Paleolithic had been seriously discussed for sites such as Sozudai and Hoshino (argued over as artifacts versus geofacts) and that the pre-40 ka record was largely dismissed after the Fujimura hoax (catalog/cases/japanese-paleolithic-hoax.json, refuted). Hokkaido is 'not earlier than 30,000 years ago' (same source) and the Ryukyus about 35,000-30,000 years ago (Kaifu et al. 2020, Sci. Rep. 10, doi:10.1038/s41598-020-76831-7), so one archipelago-wide limit is conservative there.",
+      "testability": "Only dates between the 14C equivalent of 40,000 cal BP (plus 2 standard errors) and R1's 40,000 14C BP cut-off can qualify: a narrow window."
+    },
+    {
+      "id": "remote_oceania_west",
+      "name": "Remote Oceania, western part: Micronesia, Island Melanesia beyond the main Solomons chain, Fiji and West Polynesia",
+      "include": [
+        {"country": "Guam"}, {"country": "Northern Mariana Islands"}, {"country": "Palau"},
+        {"country": "Federated States of Micronesia"}, {"country": "Micronesia"}, {"country": "Marshall Islands"},
+        {"country": "Kiribati"}, {"country": "Nauru"}, {"country": "Vanuatu"}, {"country": "New Caledonia"},
+        {"country": "Solomon Islands", "province": "Temotu"}, {"country": "Fiji"}, {"country": "Tonga"},
+        {"country": "Samoa"}, {"country": "American Samoa"}, {"country": "USA", "province": "American Samoa"},
+        {"country": "USA", "province": "Guam"}, {"country": "Wallis and Futuna"}, {"country": "Tuvalu"},
+        {"country": "Tokelau"}, {"country": "Niue"}
+      ],
+      "exclude": [],
+      "limit_cal_bp": 3450,
+      "limit_basis": "Rieth & Athens (2019), abstract: 'most researchers have accepted a date of ~3500 BP/1500 BC for the initial human settlement of the Mariana Islands', the earliest settlement proposed anywhere in Remote Oceania. The limit is 1500 BC = 3450 cal BP.",
+      "source": {
+        "citation": "Rieth, T.M., Athens, J.S. (2019; online 2017). Late Holocene human expansion into Near and Remote Oceania: a Bayesian model of the chronologies of the Mariana Islands and Bismarck Archipelago. Journal of Island and Coastal Archaeology 14(1): 5-16.",
+        "doi": "10.1080/15564894.2017.1331939",
+        "access": "paywalled; abstract read",
+        "verified": "python3 scripts/lookup.py doi 10.1080/15564894.2017.1331939 (2026-09-23)"
+      },
+      "contested": "Moderate. Rieth & Athens' own model puts Marianas settlement later, 3230-3085 cal BP (95%); Carson (2020, Radiocarbon 62(6): 1733-1754, doi:10.1017/rdc.2020.89) defends an initial horizon around 1500 BC. Archipelagos in this group settled later than the Marianas get a conservative limit."
+    },
+    {
+      "id": "remote_oceania_east_polynesia",
+      "name": "Remote Oceania, East Polynesia except New Zealand (Society, Cook, Austral, Tuamotu, Marquesas, Pitcairn, Hawaii, Rapa Nui)",
+      "include": [
+        {"country": "French Polynesia"}, {"country": "Cook Islands"}, {"country": "Pitcairn Islands"},
+        {"country": "Pitcairn"}, {"country": "USA", "province": "Hawaii"}, {"country": "USA", "province": "Hawai'i"},
+        {"country": "Chile", "province": "Rapa Nui"}, {"country": "Chile", "province": "Isla de Pascua"},
+        {"country": "Chile", "province": "Easter Island"}
+      ],
+      "exclude": [],
+      "limit_cal_bp": 925,
+      "limit_basis": "Wilmshurst et al. (2011), abstract: from 1,434 radiocarbon dates, reliable short-lived samples show colonization 'earliest in the Society Islands A.D. ~1025-1120', then to all remaining islands 'A.D. ~1190-1290'. The limit is AD 1025 = 925 cal BP.",
+      "source": {
+        "citation": "Wilmshurst, J.M., Hunt, T.L., Lipo, C.P., Anderson, A.J. (2011). High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia. PNAS 108(5): 1815-1820.",
+        "doi": "10.1073/pnas.1015876108",
+        "access": "open",
+        "verified": "python3 scripts/lookup.py doi 10.1073/pnas.1015876108 (2026-09-23)"
+      },
+      "contested": "Moderate. The source replaced longer chronologies, which it says 'relied upon radiocarbon-dated materials with large sources of error'. Hawaii and Rapa Nui belong to the later pulse (AD ~1190-1290), so the region-wide AD 1025 limit is conservative for them."
+    },
+    {
+      "id": "new_zealand",
+      "name": "New Zealand (Aotearoa, including the Chatham Islands)",
+      "include": [{"country": "New Zealand"}, {"country": "Aotearoa"}],
+      "exclude": [],
+      "limit_cal_bp": 670,
+      "limit_basis": "Wilmshurst et al. (2008), abstract: dates on rat-gnawed seeds and rat bones show the Pacific rat reached both main islands 'approximately 1280 A.D.', matching 'the earliest-dated archaeological sites'. The limit is AD 1280 = 670 cal BP.",
+      "source": {
+        "citation": "Wilmshurst, J.M., Anderson, A.J., Higham, T.F.G., Worthy, T.H. (2008). Dating the late prehistoric dispersal of Polynesians to New Zealand using the commensal Pacific rat. PNAS 105(22): 7676-7680.",
+        "doi": "10.1073/pnas.0801507105",
+        "access": "open",
+        "verified": "python3 scripts/lookup.py doi 10.1073/pnas.0801507105 (2026-09-23)"
+      },
+      "contested": "Low. The source notes proposed chronologies once ranged from about 200 B.C. to 1000 A.D. or younger; the short chronology is now standard. The date is approximate: Wilmshurst et al. (2011, doi:10.1073/pnas.1015876108) place New Zealand in the AD ~1190-1290 pulse, so dates a few decades older than 670 cal BP are not anomalous on their own."
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "include": [{"country": "Iceland"}],
+      "exclude": [],
+      "limit_cal_bp": 1080,
+      "limit_basis": "Vesteinsson & McGovern (2012), abstract: 'people had arrived in Iceland before AD 870 but ... comprehensive occupation only took place after that date', within 'a late 9th century colonization'. The limit is AD 870 = 1080 cal BP.",
+      "source": {
+        "citation": "Vésteinsson, O., McGovern, T.H. (2012). The peopling of Iceland. Norwegian Archaeological Review 45(2): 206-218.",
+        "doi": "10.1080/00293652.2012.721792",
+        "access": "paywalled; abstract read",
+        "verified": "python3 scripts/lookup.py doi 10.1080/00293652.2012.721792 (2026-09-23)"
+      },
+      "contested": "Low to moderate. The source itself accepts some presence shortly before AD 870, by an unstated margin, so dates just older than the limit are expected and not anomalous by themselves."
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "include": [{"country": "Madagascar"}],
+      "exclude": [],
+      "limit_cal_bp": 1450,
+      "limit_basis": "Mitchell (2020), abstract: 'there is thus no convincing evidence that Madagascar was settled before the mid-first millennium AD'. The limit is AD 500 = 1450 cal BP.",
+      "source": {
+        "citation": "Mitchell, P. (2020; online 2019). Settling Madagascar: when did people first colonize the world's largest island? Journal of Island and Coastal Archaeology 15(4): 576-595.",
+        "doi": "10.1080/15564894.2019.1582567",
+        "access": "paywalled; abstract read",
+        "verified": "python3 scripts/lookup.py doi 10.1080/15564894.2019.1582567 (2026-09-23)"
+      },
+      "contested": "High. The same abstract reports 'increasing acceptance of a late first-millennium BC date' (cut-marked bones, introduced Cannabis pollen) and claims pushed much earlier (stone tools at Lakaton'i Anja; cut-marked bones at Christmas River and Lamboharana), which Mitchell judges do not meet the criteria used for pre-Clovis and early Polynesian claims. Another critical review exists (Douglass et al. 2019, Quat. Sci. Rev. 221: 105878, doi:10.1016/j.quascirev.2019.105878); its conclusions were not read for this file."
+    },
+    {
+      "id": "caribbean",
+      "name": "The Caribbean islands (Greater and Lesser Antilles, Bahamas, Aruba-Bonaire-Curacao), excluding Trinidad and Tobago",
+      "include": [
+        {"country": "Cuba"}, {"country": "Haiti"}, {"country": "Dominican Republic"}, {"country": "Puerto Rico"},
+        {"country": "USA", "province": "Puerto Rico"}, {"country": "USA", "province": "Virgin Islands"},
+        {"country": "Jamaica"}, {"country": "Bahamas"}, {"country": "Turks and Caicos Islands"},
+        {"country": "Cayman Islands"}, {"country": "US Virgin Islands"}, {"country": "British Virgin Islands"},
+        {"country": "Anguilla"}, {"country": "Saint Martin"}, {"country": "Sint Maarten"},
+        {"country": "Saint Barthelemy"}, {"country": "Antigua and Barbuda"}, {"country": "Saint Kitts and Nevis"},
+        {"country": "Montserrat"}, {"country": "Guadeloupe"}, {"country": "Dominica"}, {"country": "Martinique"},
+        {"country": "Saint Lucia"}, {"country": "Saint Vincent and the Grenadines"}, {"country": "Barbados"},
+        {"country": "Grenada"}, {"country": "Aruba"}, {"country": "Curacao"}, {"country": "Bonaire"}
+      ],
+      "exclude": [],
+      "limit_cal_bp": 5800,
+      "limit_basis": "Napolitano et al. (2019), full text (Discussion): after chronometric hygiene and Bayesian modelling, 'Trinidad produced the oldest colonization model estimate of 8420-7285 cal years B.P.' (it was joined to or near the mainland), and 'After Trinidad, our results suggest two distinct clusters of colonization estimates modeled from ca. 5800-2500 cal' years B.P., the earliest islands being Cuba, Hispaniola and Puerto Rico. The limit is 5800 cal BP. Trinidad and Tobago is one country in p3k14c, so it is placed with the Americas (Tobago, in the first cluster, is lost; p3k14c has no rows for it).",
+      "source": {
+        "citation": "Napolitano, M.F., DiNapoli, R.J., Stone, J.H., Levin, M.J., et al. (2019). Reevaluating human colonization of the Caribbean using chronometric hygiene and Bayesian modeling. Science Advances 5(12): eaar7806.",
+        "doi": "10.1126/sciadv.aar7806",
+        "access": "open (PMC6957329)",
+        "verified": "python3 scripts/lookup.py doi 10.1126/sciadv.aar7806 and page --grep on the Europe PMC full text (2026-09-23)"
+      },
+      "contested": "Moderate. An earlier review put settlement of the Antilles at 'ca. 7000 cal yr BP' (Fitzpatrick 2015, PaleoAmerica 1(4): 305-331, doi:10.1179/2055557115y.0000000010); the hygiene analysis makes the earliest estimates for Anguilla, Cuba, Hispaniola and Puerto Rico 'as much as ca. 2100 to 2300 years younger than previously reported'."
+    }
+  ]
+}
