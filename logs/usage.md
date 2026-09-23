@@ -11,3 +11,6 @@ run summaries; they are estimates, not invoices.
 | 2026-09-23 | Wave 2 · 14 skeptic reviews | 14 × skeptic (Opus) | ≈ 2.1M (135–159k each; 26–38 tool calls) | 0 pass, 14 revise, 0 fail; no fabricated sources; one invented detail (Hueyatlaco). |
 | 2026-09-23 | Revisions, waves 1–2 | 14 × Sonnet + 9 × Opus revisers | ≈ 3.4M (105–176k each; 11–35 tool calls) | Opus used where drafts had misread sources. All 24 starter records now reviewed. |
 | 2026-09-23 | Discovery track R1 + megalith audit | 1 × Opus scan, 2 × Sonnet auditors | ≈ 0.50M | R1 null; audit under Opus review. |
+| 2026-09-23 | Hancock cases (Sphinx, Gunung Padang) | 2 × researcher (Sonnet), 2 × skeptic (Opus), 2 × reviser (Opus) | ≈ 0.98M | Sphinx open (enclosure never directly dated); Gunung Padang refuted (retracted 2024). |
+| 2026-09-23 | Discovery track R2 + triage; megalith audit review | 2 × Opus (scan, triage), 1 × Opus (audit review) | ≈ 0.70M | R2: no genuine leads after triage. H7 consistent (35 of 40 megaliths dated only by association). |
+| 2026-09-23 | **Session total (agents)** | ≈ 100 agent runs | **≈ 15M** | Excludes the orchestrating main session. |
