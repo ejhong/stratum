@@ -129,6 +129,14 @@ def cmd_commons(title):
 
 
 def main(argv):
+    try:
+        return run(argv)
+    except HTTPError as e:
+        print(f"FAILED    HTTP {e.code} — the service refused or rate-limited; wait a minute and retry, or use another source")
+        return 1
+
+
+def run(argv):
     if len(argv) < 2:
         print(__doc__)
         return 1

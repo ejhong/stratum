@@ -1,0 +1,150 @@
+{
+  "id": "japanese-paleolithic-hoax",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Core facts check out (JAA, Miyagi, Hudson, Science, Keally). Revise: unambiguous_signal is coded 'yes' in hindsight, but Oda & Keally 1986 said the older lithics looked natural; that objection is missing; the Takeoka objection came after the exposé. Minor fixes to calibration and sources.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "features_at_claim.unambiguous_signal",
+      "problem": "Coded 'yes' in hindsight. In 1986 Oda & Keally said the older Miyagi lithics looked like 'unpatterned breakage caused by natural forces, clear bulbs of percussion notwithstanding' and that their mixed, local raw materials suggested natural origin. Keally (2000) lists 'the chunky lithics from the lower levels of some sites were not artifacts' and the Babadan A flakes from stratum 14 down 'probably were not artifacts' among the 1986 points. So the note's 'Critics attacked their age and context' misreports S1. The cited source S11 does not say the finds were clearly human-made or ended the debate; it says only that most archaeologists doubted Serizawa's sites.",
+      "fix": "Set value to 'partial' with source S1. Suggested note: 'The 1981 Zazaragi pieces were well-made tools (S12), but critics argued the older chunky lithics and small flakes could be natural (S1).'",
+      "evidence": "S1 (J-STAGE PDF, section on the older lithic collections); S5 list of the 1986 criticisms; S12 p. 195"
+    },
+    {
+      "severity": "major",
+      "field": "objections",
+      "problem": "A mundane explanation is missing: the 1986 identification objection (older chunky lithics and the small Babadan A flakes were probably natural). So is what followed it. Keally (2000): after the critique 'chunky artifacts no longer were found, and bifacial spatula-shaped artifacts began to appear'. Oda (2014): in 1987, fabricated 'Early Paleolithic' tools turned up in layers older than 30,000 years at Tama New Town No. 471-B in Tokyo, Oda's own field, and were then used as proof that such sites existed outside Miyagi. The finds changing to answer each criticism is a key hoax signature for the analysis.",
+      "fix": "Add an objection: kind identification; raised_by Oda & Keally; year 1986; outcome unresolved; note that the planted items were mostly real Jomon tools and that the sources read do not say what the pre-1986 chunky pieces were. Add the 1987 Tama New Town 471-B event to the timeline (S12). Mention it in objections[3].outcome_note, since the South Kanto argument was 'answered' by a planted find. Add the 'finds adapted to critics' point to notes and consider a findings/log.md entry.",
+      "evidence": "S1; S5 (http://web.archive.org/web/20251222113707/http://www.t-net.ne.jp/~keally/Hoax/pal-hoax-1.html); S12 p. 195"
+    },
+    {
+      "severity": "major",
+      "field": "objections[4]",
+      "problem": "Takeoka's list comes from the Asahi Shimbun of 10 Nov 2000, p. 13 (per S5), five days after the Mainichi exposé of 5 Nov. With year 2000 and outcome 'held', and year_resolved 2002, it will be counted as a pre-resolution warning that proved right, which inflates the critics' record by hindsight. None of its content can be tied to Takeoka's 1998 paper, because S4 was not read.",
+      "fix": "Remove it from objections; its flat-surface and no-debris points are already in the 1986 objections. Mention it in notes as a post-exposure summary. If S4's 1998 text is read and contains these points, re-date the objection to 1998 and cite S4. Reword timeline 1998 as Takeoka's later account ('he said in Nov 2000 that after his 1998 critique the group stopped showing him artifacts').",
+      "evidence": "S5: 'Asahi Shimbun, Nov. 10, 2000, p. 13'; 'Yukan Yomiuri Shimbun, Nov. 7, 2000, p. 15'"
+    },
+    {
+      "severity": "minor",
+      "field": "orthodoxy_at_claim.limit_bp",
+      "problem": "The 30,000 figure is on the uncalibrated radiocarbon scale. S1 frames the boundary as 'predating 30,000 B.P.', with older boundaries 'following the dates given by radiocarbon'. The schema wants calendar years. claimed_age.bp_min repeats 30000, yet its basis says calendar years, so the two scales are mixed.",
+      "fix": "Either calibrate (30,000 14C BP is roughly 34,000-35,000 cal BP; compute the exact value with IntCal20 before entering it) and say so in the label, or keep 30000 and label it explicitly as 'uncalibrated 14C BP; leap factor approximate'. Put claimed_age.bp_min on the same scale.",
+      "evidence": "S1 introduction; Reimer et al. 2020, IntCal20, Radiocarbon 62(4):725-757, doi:10.1017/RDC.2020.41"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[2].source",
+      "problem": "S10 could not be opened: the J-STAGE PDF returns HTTP 500, and the DOI landing page shows only metadata. The 1981 event relies on S10 alone. S10's note also carries the 'pyroclastic flow' and 'delisted Dec 2002' details.",
+      "fix": "Cite S12 for the 1981 event; it says the Zazaragi summary report declared the Early Paleolithic debate over. S7 supports tools found in pyroclastic-flow and water-laid layers and the delisting of the historic site. Keep S10 as 'exists' until someone re-reads it.",
+      "evidence": "S12 p. 195; S7"
+    },
+    {
+      "severity": "minor",
+      "field": "year_claimed",
+      "problem": "1981 is defensible: it is the Zazaragi dig and the declaration that the debate was over (S12). However, S1 cites a first Zazaragi report of 1978, and S11 dates planting to at least 1976. I did not establish whether any report before 1981 already claimed tools older than 30,000 years.",
+      "fix": "Keep 1981. Add to notes that it marks the first public claim of tools older than 30,000 years, not the start of the fraud (planting from at least 1976; first Zazaragi report 1978). If the 1978 report already made the claim, change the year to 1978.",
+      "evidence": "S1 (Sekki Bunka Danwakai 1978 cited); S11; S12"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[9]",
+      "problem": "year_resolved 2002 is defensible: the May 2002 JAA interim verdict plus the spring 2002 Zazaragi re-dig. However, S8 says the interim report covered the 30 sites verified so far (10 in Miyagi), not all of Fujimura's material. The general ruling came with the 2003 final report.",
+      "fix": "Keep 2002. Reword the event to: 'JAA interim report: all 30 verified Fujimura sites likely faked, unusable as Early or Middle Paleolithic evidence; a re-dig shows Zazaragi's early finds were planted.'",
+      "evidence": "S8 (平成14年5月 中間報告, 30遺跡)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.peer_reviewed_report",
+      "problem": "S1's bibliography shows that the proponents' reports from 1978 to 1986 were excavation volumes, meeting résumés, symposium handouts and a popular magazine (Rekishi Techo). S1 also deplores the use of the press before any evaluation. That points to 'no' more than 'unknown'.",
+      "fix": "Code 'no', citing S1's reference list. Alternatively, keep 'unknown' but put this evidence in the note.",
+      "evidence": "S1 references (Okamura 1985a, 1985b, 1986a, 1986b; Sekki Bunka Danwakai 1978, 1981, 1983)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.independent_teams",
+      "problem": "Replication outside Miyagi came from the same group: Tama New Town 471-B in Tokyo (1987), and later Fukushima, Yamagata, Iwate, Tochigi, Gunma and Saitama (S12). Every apparent independent confirmation ran through one finder. The South Kanto sentence is negative evidence, not a contributing team.",
+      "fix": "Keep 'partial' or code 'no'. Say in the note that confirmations outside Miyagi came from the same circle, and move the South Kanto point to the objections only.",
+      "evidence": "S12 p. 195"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.documented_context",
+      "problem": "Strong supporting data are left out, and they bear on documented_context and professional_recovery. Of the 1,372 Miyagi pieces re-examined, 561 were excavated, 659 were pulled from section faces and 152 were surface finds. At Zazaragi, about 20 of the 60-70 finds from Strata 6-7 came from a tree-throw and were assigned to a stratum by soil colour.",
+      "fix": "Add these facts to the notes, citing S8 and S1. They support keeping 'partial'.",
+      "evidence": "S8 (観察資料の総数は1,372点); S1 (Sekki Bunka Danwakai 1981: 56-61)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[0].kind",
+      "problem": "Keally (2000) presents the drill-and-pottery point as careless taphonomy, meaning vertical displacement went unrecognised. That makes it a context objection. S5 also says the items were assigned to Late Paleolithic cultures.",
+      "fix": "Change kind to 'context'. In outcome_note, say the mechanism turned out to be planting rather than natural displacement.",
+      "evidence": "S5 list of the 1986 criticisms"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[2].text",
+      "problem": "'Set aside ... all radiocarbon dates' overstates S1. S1 says Okamura rejected the TL and radiocarbon dates for one component, and that only one relevant radiocarbon date existed for the older phases. Keally (2000) adds that the dating situation 'has improved considerably' since 1986.",
+      "fix": "Reword to: 'Proponents picked TL and fission-track ages that fit, and ignored reversals and conflicting TL and radiocarbon dates.'",
+      "evidence": "S1 (Zazaragi and Eai River date discussion); S5"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]",
+      "problem": "The 42-site confession was not complete. The JAA page says the Agency for Cultural Affairs counted 55 sites involving Fujimura, plus 3 more identified from records.",
+      "fix": "Add this to the correction or the notes.",
+      "evidence": "S7 (文化庁の調査では藤村関与の遺跡は55遺跡で、その他3遺跡)"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[4]",
+      "problem": "The 'project archaeologist' is Hiroshi Kajiwara, a key proponent. The remark was a personal communication written in Keally's notes from a December 1994 meeting and first published in 2000.",
+      "fix": "Name Kajiwara and describe the remark as a personal comment recorded by Keally.",
+      "evidence": "S5 Note 4"
+    },
+    {
+      "severity": "minor",
+      "field": "accepted_age.source",
+      "problem": "S11 supports 'mostly Jomon surface finds, planted from at least 1976'. The plough and iron marks and the adhering topsoil come from S7, not S11.",
+      "fix": "Cite S7 for the verification traits, in the basis text or as the source.",
+      "evidence": "S7"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.material_accessible",
+      "problem": "'Yes' holds for 1986, but access narrowed later: Takeoka said the group stopped showing him artifacts after his 1998 critique.",
+      "fix": "Keep 'yes' and add this to the note.",
+      "evidence": "S5"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "The TL, fission-track and paleomagnetic ages date the tephra, not the tools. Every line of evidence depends on the in-place association that one finder supplied.",
+      "fix": "Say this in the notes, or lower the count to reflect how dependent the lines are.",
+      "evidence": "S1; S6"
+    },
+    {
+      "severity": "minor",
+      "field": "sources",
+      "problem": "The resolving study is cited only through a web page. Also missing from the record: critic Takeoka later sat on the JAA's artifact-verification working group.",
+      "fix": "Add the JAA special committee (ed.) 2003 report, 前・中期旧石器問題の検証 (625 pp.); the title and length are confirmed on S7, and the full publication details need verifying. Mention Takeoka's committee role in notes.",
+      "evidence": "S7"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Full text grepped. Supports the Jomon drill and pottery point, no refits or vertical displacement, selective TL/FT dates, the South Kanto argument, the museum study and Babadan A visit, and the Ichikawa and Koshimizu dates. It contradicts 'critics attacked age and context' by also arguing the older lithics were natural."},
+    {"id": "S2", "exists": true, "supports_citation": "could-not-read", "note": "CiNii URL returns HTTP 200; the text was not opened. 'exists' is the correct label. Not cited by any field."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Crossref match; abstract gives TL ages of 306, 429 and 490 ka and lists Fujimura as a co-author. Not cited by any field."},
+    {"id": "S4", "exists": true, "supports_citation": "could-not-read", "note": "The JaLC DOI resolves, but the redirect chain failed here. Content unread, so 'exists' is right. The PDF may be on the national site-reports database (全国遺跡報告総覧); a human should check."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Archive copy read. Supports the claimed ages, the 1994 remark, the 1998 access complaint and the exposure dates. Shows the Takeoka list is post-exposure (Asahi, 10 Nov 2000) and includes the 1986 point that some lithics were natural."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Ash dated 570,000 years; Fujimura admitted planting 61 of 65 Kamitakamori items and all 29 at Soshin Fudozaka; Kamata called the posthole rings genuine."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Read in Japanese. Supports 42 confessed sites, 1,100+ tools from 28 sites, tools pushed into slits and tamped down, faked caches, Jomon parallels and the 625-page report. Also: the Agency for Cultural Affairs counted 55+3 sites; Takeoka sat on working group 1."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Read in Japanese. Supports the Jan 2001 defence of three sites, the Oct 2001 confession, the spring 2002 Zazaragi re-dig, the May 2002 interim report (30 sites) and the 1,372 pieces examined."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "148 sites, 19 kept as Paleolithic and 129 dropped; all confirmed tools are Late Paleolithic."},
+    {"id": "S10", "exists": true, "supports_citation": "could-not-read", "note": "DOI resolves (not in Crossref). J-STAGE PDF returned HTTP 500; the claims resting on it are unconfirmed. Downgrade to 'exists' unless re-read."},
+    {"id": "S11", "exists": true, "supports_citation": "partial", "note": "Full text grepped. Supports planting from at least 1976, ~186 sites, mostly Jomon tools, the 1970s 30,000-year view, the ignored critique, the Renfrew & Bahn textbook and Fujimura's unclear motives. Does not support the unambiguous_signal note."},
+    {"id": "S12", "exists": true, "supports_citation": "yes", "note": "Read in Japanese. Supports the 1975 founding, the 1981 Zazaragi claim of an ended debate, no rebuttal to the 1986 critique, and textbooks. Also reports the 1987 planted Tama New Town 471-B finds, which the record omits."},
+    {"id": "S13", "exists": true, "supports_citation": "yes", "note": "Green OA copy. Says the faking began 'in the 1980s' (the record already notes this conflict); little evidence before about 38 ka; Kanedori among the candidate sites."}
+  ]
+}

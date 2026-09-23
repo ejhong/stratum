@@ -1,0 +1,127 @@
+{
+  "id": "jebel-irhoud",
+  "reviewer": "skeptic agent (Claude Opus 5.5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Sources real; most checked claims hold. Revise: 'vindicated' (2018) overstates: age uncontested but H. sapiens attribution still disputed (all objections unresolved); 'partial' fits. 286 ka ESR is a recalculated 1960s find, not new. Plates are CC BY-SA 2.0, not Commons' CC BY 4.0.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "status; year_resolved; what_settled_it; status_note",
+      "problem": "'vindicated' (2018) overstates the case. The 2017 novelty, the ~315 ka age, is uncontested. But the claim also asserts H. sapiens-lineage membership and a pan-African origin. All four recorded objections (all identification) are 'unresolved'. The only independent morphometric analyses (S9 2019, S14 2023) place Irhoud outside H. sapiens ancestry: a population that introgressed into Neandertals, with a northern African origin 'less likely'. The 2018 'settlement' is an expert review (S10), not a test, and it was co-authored by key proponent P. Gunz. The 2026 reaffirmation (S15) comes from the proponents' own team.",
+      "fix": "Recode status as 'partial': the age and deep antiquity are accepted, while the attribution and pan-African inference are majority views but disputed. Set year_resolved to the year the age was accepted (2017; no dating challenge found). Rewrite what_settled_it and status_note to separate the settled age from the unsettled taxonomy. Keep decisive_tests and failure_mode 'none'. The schema does not define 'partial', so record that here it means 'accepted in part, rest contested', not 'partly refuted'.",
+      "evidence": "S9 abstract and text ('A northern African origin is less likely'); S10 Crossref author list (Gunz, 4th author; also a key_proponent and an S1 author); record objections[0-3].outcome"
+    },
+    {
+      "severity": "major",
+      "field": "what_settled_it; features_at_claim.multiple_dating_methods.note; claimed_age.basis; notes",
+      "problem": "'TL and U-series/ESR ages ... agreed on excavated finds' is inaccurate. The 286 ± 32 ka US-ESR age is a recalculated age for the Irhoud 3 mandible, which was found in the 1960s and earlier dated to 160 ± 16 ka (S4). It is not a date on the newly excavated finds, and it is not a new, independent measurement. The ~125 ka shift on recalculation shows that the only direct fossil date depends heavily on dose-rate assumptions. The mundane checks in notes leave out this possible dating error.",
+      "fix": "State that 286 ka recalculates the age of a 1960s find whose link to the dated layer was reconstructed later. Keep multiple_dating_methods 'yes' only with this caveat. Check whether the recalculation reused the site dose-rate data used for TL; if it did, the two ages are not fully independent (UNVERIFIED). Add the point to the mundane checks in notes.",
+      "evidence": "S3 (MPG press release): 'recalculate a direct age of the Jebel Irhoud 3 mandible found in the 1960s. This mandible had been previously dated to 160 thousand years ago'; S4 abstract ('dated at 160,000 years')"
+    },
+    {
+      "severity": "major",
+      "field": "plates",
+      "problem": "The license conflict is resolved against Commons. The Commons pages cite the MPI EVA press kit as their source, and the archived kit (2017-06-07) labels both images 'License: CC-BY-SA 2.0' (Irhoud 10 in situ: Steffen Schatz; stone tools: Mohammed Kamal). Commons' CC BY 4.0 tag rests only on the uploader's paraphrase, so fetch_plates.py would publish the wrong license. Irhoud 10 in situ.jpg is also only 308×232 px.",
+      "fix": "Do not publish these plates until the Commons tags are corrected to CC BY-SA 2.0 (a human can request this on the file talk pages, citing the archived kit), or choose other files. Licenses are never typed by hand, so the correction belongs on Commons.",
+      "evidence": "https://web.archive.org/web/20170607113313/https://www.eva.mpg.de/homo-sapiens/presskit.html; lookup.py commons for both files"
+    },
+    {
+      "severity": "minor",
+      "field": "claim",
+      "problem": "'...and outside East Africa' misstates the 2017 inference. Hublin et al. argued for a pan-African origin (the clade spread across Africa by ~300 ka), not an origin outside East Africa. Hublin (1992) had already written that modern features 'cannot be restricted to a sub-Saharan or eastern African area', so this element is older than 2017.",
+      "fix": "Reword, e.g. '...and implying the lineage had already spread across Africa rather than arising only in East Africa.' Keep year_claimed 2017: the earlier attributions (1992, and 2007 at ~160 ka) fitted the orthodoxy of their time. The anomaly is fossils of the H. sapiens clade dated to ~315 ka. Say this in notes.",
+      "evidence": "S5 abstract; S3 ('spread across the entire African continent around 300 thousand years'); S1 accepted manuscript"
+    },
+    {
+      "severity": "minor",
+      "field": "hook",
+      "problem": "'Skulls ... redated in 2017 to ~315,000 years' contradicts corrections[2]. TL dated heated flints, and the only direct fossil date is the recalculated Irhoud 3 jaw.",
+      "fix": "Reword so the 2017 date applies to the fossil layer or flints, keeping within 110 characters.",
+      "evidence": "S2 abstract; S3"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S1].access; confidence_note",
+      "problem": "An open accepted manuscript exists. The skeptic searched it and confirmed: 'new date of 300-350 ka ... oldest and richest African Middle Stone Age hominin site that documents early stages of the H. sapiens clade'; the 1961 find; the earlier ~40 ka Neanderthal reading.",
+      "fix": "Set access to 'open' and add the URL https://kar.kent.ac.uk/62267/. Update confidence_note, since the S1 full text has now been checked.",
+      "evidence": "https://kar.kent.ac.uk/62267/1/Submission_288356_1_art_file_2637492_j96j1b.pdf"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.multiple_labs.note",
+      "problem": "The ESR authors were not simply at the 'Australian National University'. The listed affiliations are Griffith University and ANU RSES (Grün) and Southern Cross University (Joannes-Boyau). ANU staff helped with the laser-ablation measurements.",
+      "fix": "Write 'ESR by R. Grün and R. Joannes-Boyau (Griffith, ANU and Southern Cross universities, Australia)'.",
+      "evidence": "S2 Nature page: affiliations and acknowledgements"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.material_accessible.note; features_at_claim.independent_teams.note",
+      "problem": "'Studied a cast of Irhoud 1' could not be confirmed: the words 'cast' and 'casts' do not appear in S9's main text or methods (it may be in the SI). The independent_teams note also leaves out that the only independent analysis of the fossils within five years (S9) disputed the attribution.",
+      "fix": "Confirm the cast in the S9 SI, or drop the word 'cast'. In the independent_teams note, add that S9 was independent and disagreed. The value 'partial' can stay.",
+      "evidence": "S9 full-text search"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].outcome_note; sources[S12].note",
+      "problem": "This overstates Vidal et al. (2022). They wrote that most of eight late Middle Pleistocene sites have 'considerable age uncertainty or debatable H. sapiens apomorphy'. That is a combined statement about age or anatomy, and it does not single out Irhoud.",
+      "fix": "Quote it accurately, e.g. 'most candidate fossils have uncertain ages or debatable H. sapiens traits', and say that it is not specific to Irhoud.",
+      "evidence": "S12 introduction"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[2].outcome_note",
+      "problem": "'No study settling this comparison was found' leaves out S15. That paper compares ~773 ka Casablanca hominins with H. antecessor, finds them morphologically distinct, and argues for an African lineage ancestral to H. sapiens. This is the proponents' answer to Hawks's point that the Irhoud face could be retained from an antecessor-like ancestor.",
+      "fix": "Cite S15 as the proponents' response. The outcome stays 'unresolved', because S15 comes from the same team.",
+      "evidence": "S15 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "what_settled_it",
+      "problem": "'Genetic split estimates of 350-260 ka fit' relies on one model (S11). A later demographic model places the earliest split among living populations at 120-135 ka, within a weakly structured stem. Genetic dates therefore do not simply confirm a ~315 ka origin.",
+      "fix": "Soften to 'some genetic estimates (350-260 ka) are compatible' and cite the model dependence.",
+      "evidence": "Ragsdale, A.P. et al. (2023). A weakly structured stem for human origins in Africa. Nature 617: 755-763. doi:10.1038/s41586-023-06055-y (abstract)"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]; corrections[1]",
+      "problem": "corrections[0] misreads the starter notes. inputs/chat says Irhoud 'pushed Homo sapiens back to around 300,000 years', which already treats the age as the novelty. corrections[1] quotes 'Long treated as Neanderthal-like', but that phrase is in neither CLAUDE.md nor inputs/.",
+      "fix": "Link each correction to text that actually appears in a source (e.g. S7: 'Originally thought to be 40,000-year-old Neandertals'), or remove it.",
+      "evidence": "inputs/chat line 33; grep of CLAUDE.md and inputs/"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests",
+      "problem": "Test 1 ('would show whether Irhoud sits on the H. sapiens branch or a Neanderthal-linked lineage') promises too much. Enamel proteomes carry few informative sites among closely related Middle Pleistocene Homo, and the result could be inconclusive (reviewer judgement). No test targets the dating weakness in issue 2.",
+      "fix": "Change the wording to 'may help place'. Add a test: direct US-ESR or other dating of the new in-situ fossil teeth (Irhoud 10/11) by an independent laboratory.",
+      "evidence": "S18 (not read; metadata only); record claimed_age"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S13].kind; sources[S8].citation",
+      "problem": "S13 is the proponents' own primary study, not a reply to a critique. The S8 citation uses the page's search-engine title; the headline shown on the page is '315,000-Year-Old Fossils From Morocco Could Be Earliest Recorded Homo Sapiens'.",
+      "fix": "Set S13 kind to 'primary' and use the visible S8 headline.",
+      "evidence": "S13 abstract; S8 page"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Searched the Kent accepted manuscript: 300-350 ka; 'early stages of the H. sapiens clade'; mosaic; 1961 find, ~40 ka Neanderthal reading. The Nature page lists R.G. Klein and C. Stringer as reviewers."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Abstract: TL on heated flints, 315 ± 34 ka; ~195 ka Omo; ~200 ka orthodoxy. Contributions: TL by D.R., ESR by R.G. and R.J.-B.; no competing interests. The value 286 ± 32 is not in the readable text (abstract truncated)."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Excavations began 2004; fossils rose from six to 22 from at least five individuals. The 160 ka date of the 1960s Irhoud 3 mandible was recalculated."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: an early H. sapiens juvenile dated at 160,000 years. The ± 16 is not given in the abstract."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract: stage 5 or 6 from ESR and fossils; no Neanderthal apomorphy; synapomorphies with modern humans; modern features not restricted to eastern Africa."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Introduction: Irhoud 1 found by workmen in 1961; Ennouchi (1962) called it a Neandertal; site is in a barite mine."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Quotes Hawks on H. antecessor and Mirazón Lahr on globular skulls and 'close cousins'; 1961 barite find; first thought 40,000-year-old Neandertals."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Potts: possibly 'a more primitive ancestor', 'snapshot'; Stringer supports. The citation title is the page's search-engine title."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Abstract: origin from South and possibly East African sources; North African fossils may be a population that introgressed into Neandertals; 'less likely'; 315 ka. No mention of a cast in the main text."},
+    {"id": "S10", "exists": true, "supports_citation": "could-not-read", "note": "Full text blocked (HTTP 403). The Crossref abstract says H. sapiens-clade populations 'lived throughout Africa', which is consistent. The quote and 'H. helmei' were not confirmed. P. Gunz (a proponent) is a co-author."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "The title gives 350,000-260,000 years; the paper does not study Irhoud. The later Ragsdale 2023 model is not reflected."},
+    {"id": "S12", "exists": true, "supports_citation": "partial", "note": "Omo I 233 ± 22 ka is supported. On 'debatable apomorphy' the source says 'age uncertainty or debatable ... apomorphy', not specific to Irhoud."},
+    {"id": "S13", "exists": true, "supports_citation": "yes", "note": "Abstract fragment: brain shape evolved within the H. sapiens lineage. Primary study, not a reply."},
+    {"id": "S14", "exists": true, "supports_citation": "could-not-read", "note": "The abstract mentions Irhoud (keyword match), but the hybridization sentence could not be displayed. Consistent with S9."},
+    {"id": "S15", "exists": true, "supports_citation": "yes", "note": "Abstract: ThI-GH ~773 ka, distinct from H. antecessor; 'earliest H. sapiens individuals discovered at Jebel Irhoud'."},
+    {"id": "S16", "exists": true, "supports_citation": "could-not-read", "note": "Not reopened (tool budget). Crossref metadata match only."},
+    {"id": "S17", "exists": true, "supports_citation": "could-not-read", "note": "The abstract passage contains 'birthplace' (keyword match), but the sentence could not be displayed. Consistent with the note."},
+    {"id": "S18", "exists": true, "supports_citation": "could-not-read", "note": "Metadata only, correctly labelled 'exists'."}
+  ]
+}

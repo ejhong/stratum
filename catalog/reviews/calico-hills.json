@@ -1,0 +1,97 @@
+{
+  "id": "calico-hills",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Sources real; most support the record. 'refuted' and year_resolved 1973 are defensible judgments. One major fix: claimed_age (30-120 ka, a geomorphic estimate) understates proponent claims by 1970-73 (100-500 ka floated; Haynes answered a 'pre-Neanderthaloid' age). Several minor fixes.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "claimed_age",
+      "problem": "The 30,000-120,000 yr range is Butzer & Hansen's geomorphic estimate for the fan, quoted by the lab in a date list (S3). It is not a stated proponent claim. The label and basis ('later >200,000 yr ... rests on 1981 U-series') misdate when very old ages were claimed. S12: the 1970 conference ended in 'a hung jury and thoughts that the site's age might be a half million years old ... (500,000-100,000 years)'. S11 fn 11: Haynes (1973:307) was already answering an age that implied 'pre-Neanderthaloid' makers, and S11 says Leakey pushed Calico as a mid-Pleistocene site. S14: Leakey likened pieces to Homo erectus tools more than 100,000 years old. The record's own objections[1] (1973, 'Middle Pleistocene') contradicts bp_max 120000. S5 (1979) states the claim as 'possibly more than 50,000 years'.",
+      "fix": "Recode claimed_age to what proponents claimed in 1968-73. Example: label '>50,000 yr; 100,000-500,000 floated 1970; >200,000 since 1981'. Set bp_min to 30000 (S3) or 50000 (S5) and say which. Set bp_max to 500000 (S12) or null. The basis should cite S3, S5, S12 and S11. Keep the 1968 report's own figure UNVERIFIED until someone reads it. Re-check the leap factor afterwards.",
+      "evidence": "S12 (1970 conference passage); S11 footnote 11 and the paragraph citing Schuiling 1972:75; S14; S5 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "notes; claimed_age.basis",
+      "problem": "Origin of the ~200 ka figure, listed as unresolved. S11 credits Leakey with a U-series argument for >200,000 yr (citing Taylor 1994b). But the project timeline puts Bischoff & Ku's first visit to test whether U-Th dating would work after 1974, and the Geology paper in Dec 1981. Both are after Leakey died in 1972, which matches S14 ('In 1981, the journal Geology published ... about 200,000 years ago').",
+      "fix": "Date the ~200 ka figure to the 1979-81 U-series work. Say S11 probably merges Leakey's pre-1972 mid-Pleistocene advocacy with that later work. The exception is if Berger 1972 (isotopic study, Schuiling 1972:65-68, unread) reported U-series ages; mark that UNVERIFIED.",
+      "evidence": "http://www.desertmoon.net/calico/timeline.html (proponent-affiliated timeline); S14; S11"
+    },
+    {
+      "severity": "minor",
+      "field": "what_settled_it; year_resolved",
+      "problem": "'Haynes (1973) showed natural fracturing ... could produce the specimens' overstates. Haynes argued that natural processes were 'adequate to explain' the finds, and he was not 'convinced that all of the specimens are geofacts' (S12 quoting 1973:309). Keeping 1973 is defensible. Even the proponent S12 says Haynes 'effectively, though hypothetically, dismissed' the collection, and S14 says 'After the Science article, there was no avoiding it'. But Calico never had consensus (the 1970 conference was a 'hung jury'), so 1973 marks when rejection became explicit, not a shift.",
+      "fix": "Replace 'showed' with 'argued'. Add a note that year_resolved is a judgment: rejection became explicit in 1973, and the defensible range is 1973-1984. Analysts computing resolution time should know this.",
+      "evidence": "S12; S14"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]",
+      "problem": "Leakey's role is right in formal terms. S3: excavations 'under direction of L.S.B. Leakey, R. D. E. Simpson ... and T. Clements'. S15: Leakey 'directed the Calico project from its start in 1964 until his death in 1972'. But S14 calls him 'a regular visitor' from 1963 to 1972 and Simpson 'his colleague on-site', so 'directed the excavations' implies more hands-on control than the sources show. The starter list never mentions Leakey, so this corrects nothing in it.",
+      "fix": "Suggested wording: 'Leakey was project director (with Simpson and Clements, S3) from 1964 until his death in 1972. He visited regularly, while Simpson ran the fieldwork on site (S14). He won National Geographic funding and said there was \"no doubt, whatsoever\" the pieces were man-made (S11).' Cite S11 (quoting M. D. Leakey 1984:142-3) for Mary Leakey under key_critics.",
+      "evidence": "S3; S14; S15; S11"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[5].raised_by",
+      "problem": "The hearth objection is credited to the TL/ESR test authors, and one of them, Budinger, is a proponent. They tested the objection; they did not raise it. The earlier magnetic evidence for heating came from Berger working with Vaclav Bucha (S11) and is not cited.",
+      "fix": "Set raised_by to the critic who first questioned the hearth (check whether it was Haynes 1973) or leave it blank, and fix the year to match. Keep outcome 'held', with the 1984 test in outcome_note. Cite S11 for the Berger-Bucha magnetic study.",
+      "evidence": "S8 abstract (earlier magnetic study suggested 360 C heating); S11"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].outcome",
+      "problem": "The age objection ('prior') is coded 'held', but nothing tested it directly. S11 says the identification studies 'tended to render the age estimates of the sediments moot'. Coding it 'held' credits the age objection with a refutation that was won on other grounds. It also ignores that this catalog has an open ~130 ka claim (cerutti-mastodon). The age-bias argument is also supported by S12 ('If the specimens were found in a 15-25,000-year-old context, would they have been accepted?'), not only S10.",
+      "fix": "Either code it 'unresolved' (7 of 11 age objections in the catalog are coded that way), or keep 'held' and say it was never independently tested. Cite S12 alongside S10.",
+      "evidence": "S11; S12; catalog/cases/*.json (count of outcomes for age objections)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[3].outcome_note",
+      "problem": "'No systematic comparison has been published' is too strong. S12 tabulates specimen yields from the control pits against the master pits, and notes that smaller test units were dug after the two 1967 control pits. That work is a proponent's tabulation in proceedings that are not peer-reviewed.",
+      "fix": "Change to 'no independent, peer-reviewed comparison has been published (proponent counts in S12)'.",
+      "evidence": "S12 (control-pit section and Haynes 1973:308 quotation)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.multiple_labs; features_at_claim.professional_recovery",
+      "problem": "multiple_labs: by about 1972, Berger had magnetic measurements on a hearth cobble made with Bucha in Czechoslovakia (S11; Berger 1972), a second laboratory's analysis within 5 years. The note does not mention it. professional_recovery: S14 says the pits were 'dug by hand by archaeologists and enthusiasts', and volunteers did much of the work.",
+      "fix": "Either code multiple_labs 'partial' with a note, or explain why the magnetic study is excluded. For professional_recovery, either keep 'yes' and note that volunteers dug under Simpson's supervision, or code 'partial'.",
+      "evidence": "S11; S14"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S6,S10,S12,S13,S14,S15].note",
+      "problem": "S12 says 'over 70,000' specimens, not ~73,000. S14 never names TL: it says an expert at the University of Washington found the oldest of 15 artifacts was 'a little more than 11,000 years old'. S15 gives a U-series age of 205 +2.9/-2.8 ka on a rind over flake scars (Fig. 12), but no year 2007 appears in it. S6 and S13 abstracts could not be re-read: OpenAlex has only author affiliations for S6, the publishers blocked access, and no Purdue URL is recorded. The ~200 ka and ~198 ka ages are backed by S12, S14 and S15, but S6's 80,000-125,000-yr soil age is not. S10's '20,000-30,000 yr' remark is not in the OpenAlex text.",
+      "fix": "Change ~73,000 to 'over 70,000'. Remove 'TL' from the S14 note and from notes, and say the method is not stated. Remove '2007' or give its source. Record the URL where the S6, S10 and S13 abstracts were read; if there is none, downgrade those to 'exists'.",
+      "evidence": "S12; S14; S15; OpenAlex and publisher checks (HTTP 403)"
+    },
+    {
+      "severity": "minor",
+      "field": "accepted_age; notes; sources",
+      "problem": "Completeness. S12 and S15 cite sediment TL of ~135 ka (Debenham 1998, 1999), younger than bp_min 200000. S15 reports a biface in an eroded-and-refilled part of the site, sediment-TL dated to 14.4 ± 2.2 ka. Together with S14's ~11 ka dates, this points to younger material at the site, which bears on stratigraphic mixing or intrusion; the record does not discuss that. Key publications are also missing: Schuiling (ed.) 1972, Pleistocene Man at Calico (the fullest proponent statement), and Taylor & Payen 1979 (critique, cited in S10).",
+      "fix": "Mention the ~135 ka TL date in accepted_age.basis, and either lower bp_min or say why that date is discounted. Add one line on younger material and possible mixing. Add Schuiling 1972 and Taylor & Payen 1979 as 'exists'-level sources.",
+      "evidence": "S12; S15; S14; S10 abstract"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "OpenAlex abstract: Clovis points confined to sediments 11,000-11,500 yr old."},
+    {"id": "S2", "exists": true, "supports_citation": "could-not-read", "note": "Science page blocked (403); no abstract in OpenAlex, Semantic Scholar or PubMed. Correctly labelled 'exists'."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Read the Calico series: excavations 'under direction of' Leakey, Simpson and Clements; >34,000 yr on carbonate at 400-480 cm; Butzer & Hansen estimate >30,000 and <120,000 yr. The source gives coordinates and directions; the record rightly leaves them out."},
+    {"id": "S4", "exists": true, "supports_citation": "could-not-read", "note": "Blocked (403). Quotations confirmed through S12 (1973:308, 309) and S11 footnote 11 (1973:307, 'pre-Neanderthaloid')."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract: lithics made naturally. It states the claim as 'possibly more than 50,000 years'."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "OpenAlex abstract holds only affiliations; publisher 403. ~200 ka U-series confirmed by S12, S14 and S15; the 80-125 ka soil age is not confirmed."},
+    {"id": "S7", "exists": true, "supports_citation": "could-not-read", "note": "Chapter not read. S15 quotes Payen 1982a:200: 'no significant difference' from uncontrolled fracture."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Abstract: earlier magnetic study suggested 360 C heating; TL/ESR showed no inner/outer difference; samples saturated; at least 400,000 yr needed to re-saturate."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Abstract matches the note."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "OpenAlex text confirms 'some 200,000 years ago' and the two-issue framing (authenticity and age). The 20,000-30,000-yr remark was not found in the available text."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Full text read. Supports the note, the Friends of Calico statement, the attribution of >200 ka U-series to Leakey (via Taylor 1994b), Mary Leakey 1984:142-3, and the Berger-Bucha magnetic study."},
+    {"id": "S12", "exists": true, "supports_citation": "yes", "note": "Haynes quotations confirmed (1973:308-309). 'Over 70,000' specimens, not ~73,000. Reports that ages of 100,000-500,000 yr were discussed at the 1970 conference."},
+    {"id": "S13", "exists": true, "supports_citation": "could-not-read", "note": "No OpenAlex or Semantic Scholar abstract; publisher blocked. S15 confirms '~198ka' from Owen et al. 2011. Add the Purdue URL."},
+    {"id": "S14", "exists": true, "supports_citation": "partial", "note": "Confirmed: 1 Nov 1964 start, NGS ~$50,000, 1970 conference, closure after 2016 vandalism, Schroth's discard of more than half of ~70,000 pieces, BLM plan to fill pits. It does not name TL for the 15-artifact dates, and it calls Leakey a 'regular visitor'."},
+    {"id": "S15", "exists": true, "supports_citation": "partial", "note": "Confirmed: >200 ka claim, groundwater carbonate, Payen quotation, 205 ka rind date, Leakey 'directed the Calico project' 1964-1972. No year 2007 found. Readable through the drive.google.com/uc?export=download link."},
+    {"id": "S16", "exists": true, "supports_citation": "could-not-read", "note": "Metadata match only. Calibration not re-run by the reviewer; 11,500 14C BP to ~13,350 cal BP is plausible."}
+  ]
+}

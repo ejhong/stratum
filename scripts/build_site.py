@@ -596,6 +596,10 @@ def parse_usage():
 def method(cases):
     drafted = len(cases)
     reviewed = sum(r["_reviewed"] for r in cases)
+    ncorr = sum(len(r.get("corrections", [])) for r in cases)
+    with_corr = sum(1 for r in cases if r.get("corrections"))
+    corr_line = (f'<li><b>Starter briefs corrected.</b> Each researcher starts from a brief written from general knowledge. '
+                 f'So far {ncorr} corrections across {with_corr} of {drafted} records (about {ncorr / max(1, drafted):.1f} per case) — why every claim is re-verified.</li>') if drafted else ""
     agents = "".join(
         f'<tr><td><b>{e(m.get("name", "").capitalize())}</b></td><td>{e(m.get("description", "").split(". ")[0])}.</td>'
         f'<td class="m">{e(m.get("model", "inherit"))} · {e(m.get("effort", "default"))}</td><td class="m" style="white-space:normal">{e(m.get("tools", ""))}</td></tr>'
@@ -632,7 +636,7 @@ def method(cases):
 <li><b>Crossref.</b> Every DOI is matched by script against its title, year and authors.</li>
 <li><b>Source labels.</b> <span class="ver checked">● checked</span> opened and confirmed · <span class="ver exists">◐ exists</span> metadata only · <span class="ver unverified">○ unverified</span>.</li>
 <li><b>Skeptic review.</b> An independent agent tries to break each draft; issues go back to the researcher.</li>
-<li><b>Hindsight guard.</b> Evidence is coded as it stood at the time of the claim; a blind re-coding test is planned (M1).</li></ul></div>
+<li><b>Hindsight guard.</b> Evidence is coded as it stood at the time of the claim; a blind re-coding test is planned (M1).</li>{corr_line}</ul></div>
 </section>
 <section class="section"><div class="sh"><h2>Agents</h2><p>Each role has its own model, effort and tools. The analyst has no web access, so it can only use the checked catalog.</p></div>
 <div class="table-scroll"><table class="data"><thead><tr><th>Role</th><th>Job</th><th>Model · effort</th><th>Tools</th></tr></thead><tbody>{agents}</tbody></table></div></section>

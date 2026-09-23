@@ -13,8 +13,20 @@ class HTTPError(Exception):
         self.code = code
 
 
-def fetch(url, accept="application/json", timeout=30, method="GET"):
-    """Return (content_type, body_bytes). Raises HTTPError(code) on HTTP errors."""
+def fetch(url, accept="application/json", timeout=30, method="GET", tries=4):
+    """Return (content_type, body_bytes). Retries politely on 429/503 (APIs rate-limit parallel
+    agents); raises HTTPError(code) on other HTTP errors."""
+    import time
+    for attempt in range(tries):
+        try:
+            return _fetch(url, accept, timeout, method)
+        except HTTPError as e:
+            if e.code not in (429, 503) or attempt == tries - 1:
+                raise
+            time.sleep(3 * 2 ** attempt)
+
+
+def _fetch(url, accept, timeout, method):
     req = urllib.request.Request(url, method=method, headers={"User-Agent": UA, "Accept": accept})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:

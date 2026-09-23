@@ -1,0 +1,7 @@
+[
+ {"id": "malakunanja-ii-1990", "name": "Malakunanja II (1990 TL claim)", "country": "Australia", "anomaly_type": "chronology",
+  "expected_status": "partial", "why": "The site's first >50 ka claim (TL, 1990), made when ~40 ka was the accepted limit; later supported by OSL (1998) and the 2017 Madjedbebe work.",
+  "sources": ["Roberts, R.G., Jones, R. & Smith, M.A. (1990). Thermoluminescence dating of a 50,000-year-old human occupation site in northern Australia. Nature 345: 153–156. doi:10.1038/345153a0",
+              "Roberts, R.G., Yoshida, H. et al. (1998). Single-aliquot and single-grain optical dating confirm thermoluminescence age estimates from Malakunanja II rock shelter in northern Australia. Ancient TL 16. doi:10.26034/la.atl.1998.287"],
+  "found_via": "skeptic review of madjedbebe (2026-09-23)", "proposed_on": "2026-09-23"}
+]

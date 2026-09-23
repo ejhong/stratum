@@ -6,194 +6,676 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "id", "name", "hook", "location", "anomaly_type", "claim", "claimed_age",
-    "year_claimed", "key_proponents", "evidence_types", "independent_methods_count",
-    "features_at_claim", "objections", "status", "status_note", "year_resolved",
-    "timeline", "falsifier", "sources", "confidence", "review"
+    "id",
+    "name",
+    "hook",
+    "location",
+    "anomaly_type",
+    "claim",
+    "claimed_age",
+    "year_claimed",
+    "key_proponents",
+    "evidence_types",
+    "independent_methods_count",
+    "features_at_claim",
+    "objections",
+    "status",
+    "status_note",
+    "year_resolved",
+    "timeline",
+    "falsifier",
+    "sources",
+    "confidence",
+    "review"
   ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 40, "description": "Slug; must equal the file name." },
-    "name": { "type": "string", "maxLength": 60, "description": "Common name of the site or find." },
-    "hook": { "type": "string", "maxLength": 110, "description": "One plain line for cards, e.g. 'A campsite in a Chilean bog that broke Clovis-first.' No hype." },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 40,
+      "description": "Slug; must equal the file name."
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 60,
+      "description": "Common name of the site or find."
+    },
+    "hook": {
+      "type": "string",
+      "maxLength": 110,
+      "description": "One plain line for cards, e.g. 'A campsite in a Chilean bog that broke Clovis-first.' No hype."
+    },
     "location": {
-      "type": "object", "additionalProperties": false,
-      "required": ["country", "continent"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "country",
+        "continent"
+      ],
       "description": "Country/region only. Never coordinates, never directions to a site.",
       "properties": {
-        "country": { "type": "string", "maxLength": 60 },
-        "region": { "type": "string", "maxLength": 60, "description": "State/province/large region at most." },
-        "continent": { "enum": ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"] }
+        "country": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "region": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "State/province/large region at most."
+        },
+        "continent": {
+          "enum": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America",
+            "South America",
+            "Oceania",
+            "Antarctica"
+          ]
+        }
       }
     },
     "anomaly_type": {
-      "enum": ["chronology", "hominin", "capability", "contact", "legend", "artifact"],
+      "enum": [
+        "chronology",
+        "hominin",
+        "capability",
+        "contact",
+        "legend",
+        "artifact"
+      ],
       "description": "chronology = people/culture earlier than accepted; hominin = new human group or species; capability = monument or technology beyond accepted capacity for its time; contact = long-distance contact not otherwise accepted; legend = a place or event from tradition claimed to be real; artifact = a single out-of-place object."
     },
-    "claim": { "type": "string", "maxLength": 300, "description": "What was claimed, in one or two plain sentences." },
-    "claimed_age": { "$ref": "#/$defs/age", "description": "Age as claimed by proponents." },
+    "claim": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "What was claimed, in one or two plain sentences."
+    },
+    "claimed_age": {
+      "$ref": "#/$defs/age",
+      "description": "Age as claimed by proponents."
+    },
     "accepted_age": {
-      "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/age" }],
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/age"
+        }
+      ],
       "description": "What the material/site is now understood to be (e.g. natural deposits, a modern forgery, or confirmation of the claim). Null if nothing is settled."
     },
     "orthodoxy_at_claim": {
-      "oneOf": [{ "type": "null" }, {
-        "type": "object", "additionalProperties": false, "required": ["label"],
-        "properties": {
-          "label": { "type": "string", "maxLength": 160, "description": "The accepted view the claim challenged, at the time it was made." },
-          "limit_bp": { "type": ["integer", "null"], "minimum": 0, "description": "For chronology claims: the then-accepted earliest date, calendar years before 1950. Used to compute the leap factor." },
-          "source": { "type": "string", "pattern": "^S[0-9]+$" }
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "label"
+          ],
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxLength": 160,
+              "description": "The accepted view the claim challenged, at the time it was made."
+            },
+            "limit_bp": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "description": "For chronology claims: the then-accepted earliest date, calendar years before 1950. Used to compute the leap factor."
+            },
+            "source": {
+              "type": "string",
+              "pattern": "^S[0-9]+$"
+            }
+          }
         }
-      }]
+      ]
     },
-    "year_claimed": { "type": "integer", "minimum": 1700, "maximum": 2030, "description": "Year the claim was first made publicly." },
-    "key_proponents": { "type": "array", "items": { "type": "string", "maxLength": 60 }, "maxItems": 6 },
-    "key_critics": { "type": "array", "items": { "type": "string", "maxLength": 60 }, "maxItems": 6 },
+    "year_claimed": {
+      "type": "integer",
+      "minimum": 1700,
+      "maximum": 2030,
+      "description": "Year the claim was first made publicly."
+    },
+    "key_proponents": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 60
+      },
+      "maxItems": 6
+    },
+    "key_critics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 60
+      },
+      "maxItems": 6
+    },
     "evidence_types": {
-      "type": "array", "minItems": 1, "uniqueItems": true,
-      "items": { "enum": [
-        "radiocarbon", "osl", "tl", "u-series", "ar-ar", "esr", "amino-acid", "paleomagnetism",
-        "stratigraphy", "geology", "lithics", "artifacts", "fauna", "human-remains", "dna",
-        "proteins", "coprolites", "plant-remains", "features", "footprints", "art",
-        "architecture", "inscription", "written-sources", "chemistry", "morphology"
-      ] }
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "radiocarbon",
+          "osl",
+          "tl",
+          "u-series",
+          "ar-ar",
+          "esr",
+          "amino-acid",
+          "paleomagnetism",
+          "stratigraphy",
+          "geology",
+          "lithics",
+          "artifacts",
+          "fauna",
+          "human-remains",
+          "dna",
+          "proteins",
+          "coprolites",
+          "plant-remains",
+          "features",
+          "footprints",
+          "art",
+          "architecture",
+          "inscription",
+          "written-sources",
+          "chemistry",
+          "morphology"
+        ]
+      }
     },
-    "independent_methods_count": { "type": "integer", "minimum": 0, "maximum": 20, "description": "Number of genuinely independent lines of evidence offered for the claim (not repeated dates by one method)." },
+    "independent_methods_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 20,
+      "description": "Number of genuinely independent lines of evidence offered for the claim (not repeated dates by one method)."
+    },
     "features_at_claim": {
-      "type": "object", "additionalProperties": false,
+      "type": "object",
+      "additionalProperties": false,
       "description": "Diagnostic features coded AS THEY STOOD within about five years of the claim, not with hindsight. Each cites a source.",
       "required": [
-        "unambiguous_signal", "documented_context", "multiple_dating_methods", "multiple_labs",
-        "professional_recovery", "peer_reviewed_report", "material_accessible", "independent_teams", "proponent_stake"
+        "unambiguous_signal",
+        "documented_context",
+        "multiple_dating_methods",
+        "multiple_labs",
+        "professional_recovery",
+        "peer_reviewed_report",
+        "material_accessible",
+        "independent_teams",
+        "proponent_stake"
       ],
       "properties": {
-        "unambiguous_signal": { "$ref": "#/$defs/feature", "description": "Evidence is unambiguously what is claimed (clearly human-made artifacts, human remains, distinct genome) rather than something that could be natural." },
-        "documented_context": { "$ref": "#/$defs/feature", "description": "Recovered in place with documented, undisturbed stratigraphy or equivalent context." },
-        "multiple_dating_methods": { "$ref": "#/$defs/feature", "description": "Two or more independent dating methods agreed. 'no' if a single method or no dating." },
-        "multiple_labs": { "$ref": "#/$defs/feature", "description": "Key dates or analyses came from more than one laboratory." },
-        "professional_recovery": { "$ref": "#/$defs/feature", "description": "Recovered and recorded by trained archaeologists or scientists." },
-        "peer_reviewed_report": { "$ref": "#/$defs/feature", "description": "Full technical report in a peer-reviewed venue within about five years." },
-        "material_accessible": { "$ref": "#/$defs/feature", "description": "Specimens, site or data were open to critics for independent re-examination." },
-        "independent_teams": { "$ref": "#/$defs/feature", "description": "More than one independent research group contributed evidence within about five years." },
-        "proponent_stake": { "$ref": "#/$defs/feature", "description": "Documented commercial, religious, nationalist or fame-seeking motive beyond ordinary career interest. 'yes' is a warning sign." }
+        "unambiguous_signal": {
+          "$ref": "#/$defs/feature",
+          "description": "Evidence is unambiguously what is claimed (clearly human-made artifacts, human remains, distinct genome) rather than something that could be natural."
+        },
+        "documented_context": {
+          "$ref": "#/$defs/feature",
+          "description": "Recovered in place with documented, undisturbed stratigraphy or equivalent context."
+        },
+        "multiple_dating_methods": {
+          "$ref": "#/$defs/feature",
+          "description": "Two or more independent dating methods agreed. 'no' if a single method or no dating."
+        },
+        "multiple_labs": {
+          "$ref": "#/$defs/feature",
+          "description": "Key dates or analyses came from more than one laboratory."
+        },
+        "professional_recovery": {
+          "$ref": "#/$defs/feature",
+          "description": "Recovered and recorded by trained archaeologists or scientists."
+        },
+        "peer_reviewed_report": {
+          "$ref": "#/$defs/feature",
+          "description": "Full technical report in a peer-reviewed venue within about five years."
+        },
+        "material_accessible": {
+          "$ref": "#/$defs/feature",
+          "description": "Specimens, site or data were open to critics for independent re-examination."
+        },
+        "independent_teams": {
+          "$ref": "#/$defs/feature",
+          "description": "More than one independent research group contributed evidence within about five years."
+        },
+        "proponent_stake": {
+          "$ref": "#/$defs/feature",
+          "description": "Documented commercial, religious, nationalist or fame-seeking motive beyond ordinary career interest. 'yes' is a warning sign."
+        }
       }
     },
     "objections": {
-      "type": "array", "maxItems": 8,
+      "type": "array",
+      "maxItems": 8,
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["text", "kind", "outcome"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "text",
+          "kind",
+          "outcome"
+        ],
         "properties": {
-          "text": { "type": "string", "maxLength": 220 },
-          "kind": { "enum": ["prior", "context", "dating", "identification", "integrity", "other"], "description": "prior = conflicts with the accepted model or expectations; context = stratigraphy, association, disturbance; dating = samples, contamination, method, lab; identification = natural vs human-made, species; integrity = fraud, provenance, chain of custody." },
-          "raised_by": { "type": "string", "maxLength": 80 },
-          "year": { "type": ["integer", "null"], "minimum": 1700, "maximum": 2030 },
-          "outcome": { "enum": ["held", "wrong", "unresolved"], "description": "held = later confirmed; wrong = later shown mistaken; unresolved = still open." },
-          "outcome_note": { "type": "string", "maxLength": 220 },
-          "source": { "type": "string", "pattern": "^S[0-9]+$" }
+          "text": {
+            "type": "string",
+            "maxLength": 220
+          },
+          "kind": {
+            "enum": [
+              "prior",
+              "context",
+              "dating",
+              "identification",
+              "integrity",
+              "other"
+            ],
+            "description": "prior = conflicts with the accepted model or expectations; context = stratigraphy, association, disturbance; dating = samples, contamination, method, lab; identification = natural vs human-made, species; integrity = fraud, provenance, chain of custody."
+          },
+          "raised_by": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "year": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1700,
+            "maximum": 2030
+          },
+          "outcome": {
+            "enum": [
+              "held",
+              "wrong",
+              "unresolved"
+            ],
+            "description": "held = later confirmed; wrong = later shown mistaken; unresolved = still open."
+          },
+          "outcome_note": {
+            "type": "string",
+            "maxLength": 220
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^S[0-9]+$"
+          }
         }
       }
     },
-    "status": { "enum": ["vindicated", "refuted", "open", "partial"] },
-    "status_note": { "type": "string", "maxLength": 240, "description": "Why this status, in one or two sentences, including residual dissent." },
-    "year_resolved": { "type": ["integer", "null"], "minimum": 1700, "maximum": 2030, "description": "Year consensus shifted. Null if open." },
-    "what_settled_it": { "type": ["string", "null"], "maxLength": 300 },
+    "status": {
+      "enum": [
+        "vindicated",
+        "refuted",
+        "open",
+        "partial"
+      ]
+    },
+    "status_note": {
+      "type": "string",
+      "maxLength": 240,
+      "description": "Why this status, in one or two sentences, including residual dissent."
+    },
+    "year_resolved": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1700,
+      "maximum": 2030,
+      "description": "Year consensus shifted. Null if open."
+    },
+    "what_settled_it": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 300
+    },
     "settled_by": {
-      "type": "array", "uniqueItems": true,
-      "items": { "enum": [
-        "independent-redating", "new-excavation", "site-visit", "replication", "dna",
-        "morphology", "forensic-analysis", "confession", "provenance-research", "geology",
-        "expert-review", "not-settled"
-      ] }
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "independent-redating",
+          "new-excavation",
+          "site-visit",
+          "replication",
+          "dna",
+          "morphology",
+          "forensic-analysis",
+          "confession",
+          "provenance-research",
+          "geology",
+          "expert-review",
+          "not-settled"
+        ]
+      }
     },
     "failure_mode": {
-      "enum": ["none", "hoax", "natural", "dating-error", "contamination", "intrusive", "misidentification", "misinterpretation"],
+      "enum": [
+        "none",
+        "hoax",
+        "natural",
+        "dating-error",
+        "contamination",
+        "intrusive",
+        "misidentification",
+        "misinterpretation"
+      ],
       "description": "For refuted/partial cases: the mundane explanation that won. 'none' otherwise."
     },
     "timeline": {
-      "type": "array", "minItems": 2, "maxItems": 12,
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 12,
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["year", "event"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "year",
+          "event"
+        ],
         "properties": {
-          "year": { "type": "integer", "minimum": 1700, "maximum": 2030 },
-          "event": { "type": "string", "maxLength": 160 },
-          "source": { "type": "string", "pattern": "^S[0-9]+$" }
+          "year": {
+            "type": "integer",
+            "minimum": 1700,
+            "maximum": 2030
+          },
+          "event": {
+            "type": "string",
+            "maxLength": 160
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^S[0-9]+$"
+          }
         }
       }
     },
     "decisive_tests": {
-      "type": "array", "maxItems": 4,
+      "type": "array",
+      "maxItems": 4,
       "description": "Required for open and partial cases: the specific, feasible tests that would settle it. This is the queue for the field partner.",
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["test", "would_show", "cost"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "test",
+          "would_show",
+          "cost"
+        ],
         "properties": {
-          "test": { "type": "string", "maxLength": 220 },
-          "would_show": { "type": "string", "maxLength": 200 },
-          "cost": { "enum": ["low", "medium", "high"], "description": "low = desk study or a few dates; medium = lab program; high = new excavation." }
+          "test": {
+            "type": "string",
+            "maxLength": 220
+          },
+          "would_show": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "cost": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ],
+            "description": "low = desk study or a few dates; medium = lab program; high = new excavation."
+          }
         }
       }
     },
-    "falsifier": { "type": "string", "maxLength": 280, "description": "What evidence would overturn this record's status." },
+    "falsifier": {
+      "type": "string",
+      "maxLength": 280,
+      "description": "What evidence would overturn this record's status."
+    },
     "sources": {
-      "type": "array", "minItems": 3, "maxItems": 20,
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 20,
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["id", "citation", "kind", "verification"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "citation",
+          "kind",
+          "verification"
+        ],
         "properties": {
-          "id": { "type": "string", "pattern": "^S[0-9]+$" },
-          "citation": { "type": "string", "maxLength": 400, "description": "Full reference: authors, year, title, venue, volume(issue): pages." },
-          "doi": { "type": ["string", "null"], "pattern": "^10\\.[0-9]{4,9}/\\S+$" },
-          "url": { "type": ["string", "null"], "pattern": "^https?://" },
-          "kind": { "enum": ["primary", "critique", "reply", "review", "report", "book", "news", "database", "other"] },
-          "access": { "enum": ["open", "paywalled", "unknown"] },
-          "verification": { "enum": ["checked", "exists", "unverified"], "description": "checked = opened and confirmed it supports what it is cited for; exists = metadata confirmed (e.g. Crossref) but content not read; unverified = could not confirm." },
-          "note": { "type": "string", "maxLength": 200 }
+          "id": {
+            "type": "string",
+            "pattern": "^S[0-9]+$"
+          },
+          "citation": {
+            "type": "string",
+            "maxLength": 400,
+            "description": "Full reference: authors, year, title, venue, volume(issue): pages."
+          },
+          "doi": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^10\\.[0-9]{4,9}/\\S+$"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^https?://"
+          },
+          "kind": {
+            "enum": [
+              "primary",
+              "critique",
+              "reply",
+              "review",
+              "report",
+              "book",
+              "news",
+              "database",
+              "other"
+            ]
+          },
+          "access": {
+            "enum": [
+              "open",
+              "paywalled",
+              "unknown"
+            ]
+          },
+          "verification": {
+            "enum": [
+              "checked",
+              "exists",
+              "unverified"
+            ],
+            "description": "checked = opened and confirmed it supports what it is cited for; exists = metadata confirmed (e.g. Crossref) but content not read; unverified = could not confirm."
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 200
+          }
         }
       }
     },
-    "confidence": { "enum": ["high", "medium", "low"], "description": "Confidence in this record's accuracy, not in the claim." },
-    "confidence_note": { "type": "string", "maxLength": 200 },
-    "corrections": { "type": "array", "maxItems": 6, "items": { "type": "string", "maxLength": 240 }, "description": "Where the starter list or common accounts were wrong." },
-    "notes": { "type": "string", "maxLength": 700 },
-    "plates": {
-      "type": "array", "maxItems": 3,
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "Confidence in this record's accuracy, not in the claim."
+    },
+    "confidence_note": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "corrections": {
+      "type": "array",
+      "maxItems": 6,
       "items": {
-        "type": "object", "additionalProperties": false, "required": ["commons_file", "caption"],
+        "type": "string",
+        "maxLength": 240
+      },
+      "description": "Where the starter brief (catalog/briefs.json, quoted exactly) or common published accounts were wrong, with the source that corrects it."
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 700
+    },
+    "plates": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "commons_file",
+          "caption"
+        ],
         "properties": {
-          "commons_file": { "type": "string", "pattern": "^File:.+", "description": "Exact Wikimedia Commons title. License and credit are fetched from Commons, never typed by hand." },
-          "caption": { "type": "string", "maxLength": 140, "description": "What the photograph shows. Observation, not interpretation." }
+          "commons_file": {
+            "type": "string",
+            "pattern": "^File:.+",
+            "description": "Exact Wikimedia Commons title. License and credit are fetched from Commons, never typed by hand."
+          },
+          "caption": {
+            "type": "string",
+            "maxLength": 140,
+            "description": "What the photograph shows. Observation, not interpretation."
+          }
         }
       }
     },
     "review": {
-      "type": "object", "additionalProperties": false, "required": ["drafted_by", "drafted_on", "stage"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "drafted_by",
+        "drafted_on",
+        "stage"
+      ],
       "properties": {
-        "drafted_by": { "type": "string", "maxLength": 80 },
-        "drafted_on": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-        "stage": { "enum": ["draft", "skeptic-passed", "revised", "published"] },
-        "skeptic_by": { "type": "string", "maxLength": 80 },
-        "skeptic_on": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-        "skeptic_verdict": { "enum": ["pass", "revise", "fail"] },
-        "open_issues": { "type": "array", "maxItems": 8, "items": { "type": "string", "maxLength": 240 } }
+        "drafted_by": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "drafted_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "stage": {
+          "enum": [
+            "draft",
+            "skeptic-passed",
+            "revised",
+            "published"
+          ]
+        },
+        "skeptic_by": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "skeptic_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "skeptic_verdict": {
+          "enum": [
+            "pass",
+            "revise",
+            "fail"
+          ]
+        },
+        "open_issues": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "maxLength": 240
+          }
+        }
       }
     }
   },
   "$defs": {
     "age": {
-      "type": "object", "additionalProperties": false, "required": ["label"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label"
+      ],
       "properties": {
-        "label": { "type": "string", "maxLength": 60, "description": "Display text with units and calibration, e.g. '~14,500 cal BP' or 'AD 1021'." },
-        "bp_min": { "type": ["integer", "null"], "minimum": -100, "description": "Calendar years before 1950 (calibrated). Negative only for post-1950." },
-        "bp_max": { "type": ["integer", "null"], "minimum": -100 },
-        "basis": { "type": "string", "maxLength": 220, "description": "Method and material, noting calibration or radiocarbon years." },
-        "source": { "type": "string", "pattern": "^S[0-9]+$" }
+        "label": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "Display text with units and calibration, e.g. '~14,500 cal BP' or 'AD 1021'."
+        },
+        "bp_min": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": -100,
+          "description": "Calendar years before 1950 (calibrated). Negative only for post-1950."
+        },
+        "bp_max": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": -100
+        },
+        "basis": {
+          "type": "string",
+          "maxLength": 220,
+          "description": "Method and material, noting calibration or radiocarbon years."
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^S[0-9]+$"
+        }
       }
     },
     "feature": {
-      "type": "object", "additionalProperties": false, "required": ["value"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value"
+      ],
       "properties": {
-        "value": { "enum": ["yes", "partial", "no", "unknown"] },
-        "note": { "type": "string", "maxLength": 200 },
-        "source": { "type": "string", "pattern": "^S[0-9]+$" }
+        "value": {
+          "enum": [
+            "yes",
+            "partial",
+            "no",
+            "unknown"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^S[0-9]+$"
+        }
       }
     }
   }

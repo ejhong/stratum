@@ -40,7 +40,9 @@ Do not write helper scripts; temporary files go only in a folder named after the
    the claim, not with knowledge of how it ended? Are objection outcomes supported?
 7. **Evenhandedness and tone**: loaded wording, uneven care, hype.
 8. **Ethics**: no coordinates, directions, or restricted site details.
-9. **Completeness**: key publications missing (the original claim, the main critique, the
+9. **Corrections**: check each `corrections` entry against the case's brief in
+   `catalog/briefs.json` (what the researcher was actually told) and against its cited source.
+10. **Completeness**: key publications missing (the original claim, the main critique, the
    resolving study)? Open cases: are the decisive tests concrete and feasible?
 
 ## Output: `catalog/reviews/<id>.json`

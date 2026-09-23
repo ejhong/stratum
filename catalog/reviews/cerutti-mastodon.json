@@ -1,0 +1,135 @@
+{
+  "id": "cerutti-mastodon",
+  "reviewer": "skeptic agent (Claude Opus 5.5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "All 19 sources exist; most support their citations and 'open' fits 2026. Revise: multiple_dating_methods should be 'no' (OSL ~73 ka, not 130 ka); Gruhn and Boëda overstated as backers; S15 contradicts 'no controlled comparison'; construction note needs balance.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_dating_methods",
+      "problem": "Coded 'partial', but the ~130 ka age rests on U-series alone, as corrections[2] itself says, and the schema codes a single method 'no'. OSL did not agree. The 2008 UIC run gave a weighted mean of 73.3 ± 4.1 ka (N=5) and 99 ± 12 ka for underlying Bed C; most aliquots in the 2011 Nebraska run were saturated and could not be dated. The two methods agree only if the OSL results are reread as minimum ages.",
+      "fix": "Code 'no'. Note along the lines of: 'U-series only; finite OSL ages (73.3 ± 4.1 ka; 99 ± 12 ka for Bed C) conflict unless read as saturated minimums; radiocarbon failed.' Replace the loose '69–99 ka' with these values here and in timeline[2].",
+      "evidence": "S2, Section 7 (radiocarbon and OSL) and Section 8 (U-series)"
+    },
+    {
+      "severity": "major",
+      "field": "status_note",
+      "problem": "Says Gruhn holds 'that people broke the bones'. Gruhn's abstract says only that soil carbonate on the broken surfaces proves the breakage is ancient, that modern machinery is ruled out, and that the site 'remains an anomaly'. It says nothing about human agency.",
+      "fix": "For example: '...while the authors hold that people broke the bones. Gruhn (2018), after examining them, ruled out machine breakage and called the site an unresolved anomaly.'",
+      "evidence": "S10 abstract (OpenAlex): 'the hypothesis of breakage by modern heavy machinery is invalid ... The site remains an anomaly'"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[3]",
+      "problem": "'Boëda et al. (2017) ... backed the authors' is cited to S13, which only lists that paper in its references. The Boëda paper is not in sources, and its abstract is cautious: the remains were 'possibly altered by humans' and the find is 'potentially transformational', with a call to look for similar sites. Gruhn backed only the break-age point.",
+      "fix": "Add Boëda, E., Griggo, C. & Lahaye, C. (2017), 'The Cerutti Mastodon site: archaeological or paleontological?', PaleoAmerica 3(3): 193–195, doi 10.1080/20555563.2017.1338006. Reword to: 'Boëda et al. (2017) called the find potentially transformational; Gruhn (2018) rejected machine breakage after examining the bones.'",
+      "evidence": "https://doi.org/10.1080/20555563.2017.1338006 (abstract via OpenAlex); S13 reference list"
+    },
+    {
+      "severity": "major",
+      "field": "objections[1].outcome_note",
+      "problem": "'No controlled comparison has tested it' is contradicted by S15, which is already in the record. Its abstract, open on the Springer page, reports that notched edges, smooth fracture surfaces and curvilinear outlines, features thought diagnostic of percussion, also form on non-green bones and through non-anthropogenic processes. That tests the criteria the proponents cite, though not the CM bones themselves. Omitting it tilts the note toward the anomaly.",
+      "fix": "Add: 'Haynes et al. (2021) found such notches, smooth fracture faces and curved outlines also arise without people; the CM bones themselves have not been tested.' Set S15 verification to 'checked' (abstract) and drop 'not read' and 'reportedly' from notes.",
+      "evidence": "https://link.springer.com/article/10.1007/s10816-020-09486-3 (abstract)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[0]",
+      "problem": "The flagged carbonate rebuttal is supported by the S5 and S10 abstracts, but the note is unbalanced in both directions. For the objection: S2 itself reports that excavation equipment damaged much of the nearby Equus skeleton. The carbonate argument first appears in the 2018 reply; no crust-on-break passage was found in the 2017 SI. S5 says 'most', not all, relevant fragments were coated, and no thin sections appear in the sources read. Against the objection: Ferrell used plans, maps and web photos rather than the bones, and Sutton et al., who did examine them, favour ancient disturbance by mastodons.",
+      "fix": "Keep 'unresolved'. Widen the text to 'construction or excavation machinery (1992–93 salvage)'. Suggested note (under 220 characters): 'Proponents (2018 reply) and Gruhn report thick old carbonate on most breaks; Sutton et al. favour ancient breakage. Ferrell used plans and photos, not the bones. No thin sections published.'",
+      "evidence": "S2 (Equus, SDNHM Locality 3677: 'damaged by excavation equipment'); S5, S10, S11 and S12 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].text",
+      "problem": "S12's abstract says the assemblage is 'a natural deposit, likely disturbed by other mastodons soon after the death'. It does not say the bones were broken, or that the carcass was trampled.",
+      "fix": "'The assemblage may be a natural deposit disturbed by other mastodons soon after death (e.g. by trampling), with no human involvement.'",
+      "evidence": "S12 abstract (OpenAlex)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[6].outcome_note",
+      "problem": "S16 says the twelve experiments 'were methodologically inconsistent, had variable outcomes, and most produced little or no published quantitative data'. The set was inconsistent; 'most inconsistent' misreads this. S15 and S16 are also led by Haynes, a principal critic. The record flags S14's lack of independence but not theirs.",
+      "fix": "'...found the experiments methodologically inconsistent, most with little or no quantitative data.' Add to the S15 and S16 notes: 'Lead author is a principal critic of the CM claim.'",
+      "evidence": "Crossref abstract of the SSRN preprint, https://api.crossref.org/works/10.2139/ssrn.6293278"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.material_accessible",
+      "problem": "The source is S10, but the videos and 3D models statement comes from S13. The wording also reads as if Magnani et al. published them; in fact Holen et al. released them.",
+      "fix": "'Holen et al. released videos and 3D models (acknowledged by Magnani et al. 2019); Gruhn (2018) and Sutton et al. (2019) examined the collection.' Cite S13.",
+      "evidence": "S13: 'We thank Holen and his co-authors for making extensive supplementary data available ... including videos and three-dimensional models'"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.unambiguous_signal.note; objections[3].text",
+      "problem": "S5's abstract supports the absence of knapped tools but does not mention cut marks. S18 supports 'human remains or even flaked stone tools ... none were'. The absence of cut marks is not documented in any source read.",
+      "fix": "Cite S18 for the absence of tools and remains. Either cite the S1 or S2 passage stating that there are no cut marks, or drop 'cut marks'.",
+      "evidence": "S5 abstract; S18"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[4].outcome_note; notes",
+      "problem": "'OSL gave only >60–70 ka minimums' was not found in S2. The SI gives finite ages (73.3 ± 4.1 ka; 99 ± 12 ka) and saturated aliquots. The notes' argument that 'even the OSL minimum ... is far older than accepted sites' depends on this unlocated figure.",
+      "fix": "Cite the exact passage for '>60–70 ka', or use the SI values; otherwise mark it UNVERIFIED.",
+      "evidence": "S2, Section 7"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.multiple_labs",
+      "problem": "The key ~130 ka date comes from one lab (USGS). The other labs' OSL did not reproduce it, and radiocarbon failed. 'partial' gives credit for labs that did not confirm the key result.",
+      "fix": "Consider 'no', or keep 'partial' with a note that no second lab confirmed the key date.",
+      "evidence": "S2, Sections 7–8"
+    },
+    {
+      "severity": "minor",
+      "field": "orthodoxy_at_claim",
+      "problem": "The flagged limit_bp of 15000 is supported by S17's abstract ('earliest securely dated sites after ~15,000 years ago') and stands. But S17 postdates the claim (August 2018), and 'entered after ~16,000' paraphrases 'population expansion occurred after 16,000 years ago'.",
+      "fix": "Reword to 'expanded'. Optionally add S4 as contemporaneous support: the claim is 'more than 110,000 years earlier than the oldest widely accepted archaeological sites'.",
+      "evidence": "S17 abstract; S4 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "falsifier",
+      "problem": "'Refuted if break faces cut through old carbonate crusts' overreaches. Fresh breaks on some bones would show only that those bones broke recently, as decisive_tests[0] correctly says, and recently broken fragments could sit alongside anciently broken ones.",
+      "fix": "'Refuted if the key impact-notched and refitting fractures cut through old crusts, or if controlled natural or machine breakage reproduces ...'",
+      "evidence": "decisive_tests[0].would_show"
+    },
+    {
+      "severity": "minor",
+      "field": "sources",
+      "problem": "Missing from the same Antiquity debate as S13 and S19: Eren, M.I. & Bebber, M.R. (2019), 'The Cerutti Mastodon site and experimental archaeology's quiet coming of age', Antiquity, doi 10.15184/aqy.2019.50.",
+      "fix": "Check its content and add it as a reply or other source.",
+      "evidence": "lookup search result, doi 10.15184/aqy.2019.50"
+    },
+    {
+      "severity": "minor",
+      "field": "plates[1].caption",
+      "problem": "'In the upright position recorded at excavation' is interpretation. The Commons description says only 'Cerutti Mastodon tusk on display at the San Diego Natural History Museum in Balboa Park in September 2024'. S2 records tusk CM-56 as vertical, but whether this display shows CM-56 in that position is unverified.",
+      "fix": "'A Cerutti mastodon tusk displayed upright at the San Diego Natural History Museum, 2024.'",
+      "evidence": "https://commons.wikimedia.org/wiki/File:Cerutti_mastodon_tusk_-_full.jpg"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Nature page: abstract; 'no competing financial interests'; ED Fig. 10 legend lists three cortical-bone profiles (CM-20, CM-225, CM-292) with 2σ errors."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Confirms construction losses, radiocarbon (Beta Analytic mid-1990s; Stafford Laboratories 2009), OSL (UIC 2008 and 2009; Nebraska 2011), U-series 2012–15 with 130.7 ± 9.4 ka as a weighted mean of three bones, the vertical tusk and Forman as OSL analyst. Does not support OSL 'agreement' or '>60–70 ka'."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Abstract: heavy earth-moving equipment; no strictly local uranium source sampled; no traces of a hominin dispersal."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: unknown archaic hominin with no fossil, archaeological or genomic trace; claim is >110 ka earlier than the oldest widely accepted sites. Ten authors confirmed."},
+    {"id": "S5", "exists": true, "supports_citation": "partial", "note": "Abstract: thick pedogenic carbonate on 'most' relevant fragments; intact stratigraphy; knapped tools not required. No mention of cut marks."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Abstract: critics 'misuse' the 'extraordinary claims' aphorism."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Opening paragraph: 'common geological and taphonomic processes'. Forman (S.L.F.) interpreted the geology and lithics."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "'There is no sedimentological or geomorphic evidence of an alluvial fan.'"},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Abstract: the earthmoving alternative 'still has not been adequately considered'; it also grants that hominin modification is possible."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "Abstract supports carbonate on broken surfaces and the rejection of machinery. It does not say that people broke the bones (status_note, corrections[3])."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Abstract: a desk study using a right-of-way map, construction plans and web photos; no examination of the specimens."},
+    {"id": "S12", "exists": true, "supports_citation": "partial", "note": "Abstract: brief examination; 'natural deposit, likely disturbed by other mastodons'. Says nothing about breakage by trampling."},
+    {"id": "S13", "exists": true, "supports_citation": "partial", "note": "Supports the experimental-design critique and the release of videos and 3D models. Lists Boëda et al. 2017 only as a reference, so it cannot support 'backed the authors'."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Semantic Scholar abstract: residues on use-wear faces of CM-254 and CM-281, absent from the naturally broken or downward faces and from sediment away from the bones."},
+    {"id": "S15", "exists": true, "supports_citation": "yes", "note": "Abstract readable on the Springer page; supports the statement in notes. Can be upgraded to checked."},
+    {"id": "S16", "exists": true, "supports_citation": "partial", "note": "Crossref SSRN abstract: twelve experiments, 'methodologically inconsistent', most with little or no quantitative data. Not 'most inconsistent'."},
+    {"id": "S17", "exists": true, "supports_citation": "yes", "note": "Abstract: 'population expansion occurred after 16,000 years ago'; 'earliest securely dated sites after ~15,000 years ago'."},
+    {"id": "S18", "exists": true, "supports_citation": "yes", "note": "Found November 1992 and excavated over the next five months; Holen first examined the specimens in 2008; no human remains or flaked tools."},
+    {"id": "S19", "exists": true, "supports_citation": "could-not-read", "note": "Metadata only; no abstract available. The 'exists' label is correct."}
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "white-sands",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "'open' is the honest 2026 status: every direct date fits ~23-21 ka, but published expert dissent (incl. pre-Clovis researcher Waters) ran into 2025. All 19 sources exist and largely support the text. Fix one misquoted starter note (major) and several one-sided or overstated notes.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "corrections[0]",
+      "problem": "Says 'Starter notes say the 2023 pollen/OSL dating is widely seen as settling the age.' Neither starter document says this. CLAUDE.md only lists White Sands under 'Largely vindicated'; inputs/chat says it 'overturn[ed] the Clovis first consensus'. Neither mentions the 2023 dating.",
+      "fix": "Quote what the starter notes actually say: 'largely vindicated', and that it overturned Clovis-first. Then correct both: critiques through 2025 mean the case is open; and Clovis-first had already fallen, since the view it challenged was a ~16 ka post-LGM entry (as orthodoxy_at_claim already says).",
+      "evidence": "CLAUDE.md starter list; inputs/chat line 19; S17 and S19 (pre-Clovis accepted to ~16 ka)"
+    },
+    {
+      "severity": "minor",
+      "field": "status_note",
+      "problem": "Status 'open' is right and should stay. But 'many now build on it' has no source. Also, listing five critics makes the dissent sound broader than it is: it comes mostly from two co-authoring groups (Madsen-Davis-Rhode-Oviatt; Rachal-Dello-Russo-Cuba-Mead) plus Waters. The note also does not say that the dissent rests on possible old-age biases rather than on any measured younger date.",
+      "fix": "Suggested wording: 'All direct dates (seeds, pollen, OSL, mud; several labs) fit ~23-21 ka and later work builds on it, but two critic groups and M. Waters, a pre-Clovis researcher, argued in 2024-25 that each method could read too old. The OSL test on more track layers is still undone.' Cite Steffen 2026 for the uptake.",
+      "evidence": "S15; Steffen, M.L. (2026) PaleoAmerica 12(1):1-4, doi:10.1080/20555563.2025.2600141 ('has redefined the peopling of the Americas')"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim",
+      "problem": "Not a breach: Pigati 2023 and Holliday (June 2025) both fall within ~4 years of the Sept 2021 claim. Not hindsight either, because nothing is resolved yet. But for a 2021 claim the five-year window covers the whole history of the case, including evidence produced in answer to the objections. The standard is also applied unevenly: multiple_labs is 'yes' on 2025 labs, while multiple_dating_methods stays 'partial' despite the 2023 agreement.",
+      "fix": "Keep the window, but give the 2021 value in each affected note ('2021: no; by 2025: yes/partial' for multiple_dating_methods, multiple_labs, independent_teams) so the analyst can run an at-claim check. Use one standard for both date-based codes.",
+      "evidence": "schema.json features_at_claim; S8; S12"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[3].outcome_note",
+      "problem": "'wrong' is supported. Haynes did propose Holocene crossings (S5 abstract), and no later critic argues for a Holocene age: S4 proposes Clovis (~13 ka), and S9's title calls them 'Pleistocene footprints'. But 'at all levels' goes beyond the sources: S5 says the megafauna tracks are 'interspersed' with the prints, and S8 says they occur on 'multiple' horizons. That evidence already existed in 2021, and it does not rule out the Clovis-age alternative.",
+      "fix": "'Pleistocene megafauna tracks are interspersed with the human prints (S5, S8); later critics, including Haynes, argue for Pleistocene ages (S4, S9).' Drop 'at all levels' unless S1 shows it.",
+      "evidence": "S5 abstract; S8 full text; S9 title"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[2].outcome_note",
+      "problem": "One-sided. S12 concludes its data 'do not support' the storm and seed-ball model, but it also reports 'Balls of seeds observed in Trench 18-1 ... were not dated'. Those seed balls are the very feature S7 treats as the sign of storm transport. 'Found no sign of storm transport' overstates the case.",
+      "fix": "'Holliday et al. (2025) saw no evidence of turbulent water at dated lenses, though undated seed balls occur in one nearby trench.'",
+      "evidence": "S12 (PMC12175891, discussion); S7 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[6].outcome_note",
+      "problem": "S12 does report '55 dates' as consistent, but that total spans both teams and all materials: 26 are seed dates, which is the material Waters disputes. '~2 km' could not be found (S12 describes a 3-km segment of escarpment), and the δ13C contrast was not confirmed. Waters was commenting on this very paper, so its data cannot be offered as the answer to him.",
+      "fix": "'Holliday et al. (2025) report mud δ13C unlike the seeds and 55 concordant dates across both teams; no published reply yet to the concern about where the mud carbon comes from.' Source the δ13C claim to S12.",
+      "evidence": "S12 ('21 AMS radiocarbon dates on seeds, 5 on bulk sediments, and 3 on pollen ... 5 ... on seeds and 21 acceptable dates on bulk sediment. These 55 dates are consistent'); S15"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "Seed 14C and bulk-mud 14C both date aquatic or wetland carbon, so both are exposed to the same hard-water bias (Waters, S15). In 2025, 5 of the 26 new dates were again on Ruppia seeds, and only 21 mud dates were accepted as 'acceptable'. Counting seed and mud as two independent lines overstates independence on the central objection.",
+      "fix": "Use 3 (aquatic-carbon 14C, terrestrial-pollen 14C, OSL), or keep 4 and add a note on the shared vulnerability and the 5 seed dates in 2025. Also note that some bulk dates were excluded (S12 supplement).",
+      "evidence": "S12; S15"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[1]",
+      "problem": "States as fact that the OSL level was 'below most prints'. That is the critics' wording (S10: 'below most of the human trackways'). S8 puts the level 'well within the human footprint horizons', and S14 says the quartz was collected 'above the lowest footprints'.",
+      "fix": "'...from a single level within the footprint sequence (critics say below most trackways), not an age for each track horizon.'",
+      "evidence": "S8; S10 abstract; S14"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[2]",
+      "problem": "The substance is correct: 7 of the 11 S8 authors were 2021 co-authors, and S8 defines its independence as 'dating techniques, the sample types, and the accelerator mass spectrometry facility' (LLNL-CAMS). OSL was run by USGS (Gray). But the scare quotes around 'independent' read as loaded.",
+      "fix": "'Pigati et al. 2023 used independent methods, materials and an outside AMS lab, but came from the same core team. The partly independent study is Holliday et al. 2025, led by a 2021 co-author who did not take part in the excavation.'",
+      "evidence": "S8 author list and text; S16"
+    },
+    {
+      "severity": "minor",
+      "field": "falsifier",
+      "problem": "Leaves a gap. Consistent ages of ~16-20 ka would already refute the 23-21 ka LGM claim, but the falsifier only triggers 'well below ~16,000'.",
+      "fix": "'Consistent ages younger than ~20 ka would refute the LGM age; below ~16 ka would remove the anomaly entirely.'",
+      "evidence": "claim and claimed_age in this record"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.documented_context.note",
+      "problem": "'Seven excavated surfaces' could not be confirmed; only S1's abstract was reachable. ('61 prints' is consistent with S14's 'more than 60' and S19's '60-some'.) The note also leaves out that the depositional context of the dated seeds is contested (objection 3).",
+      "fix": "Confirm 'seven' from the S1 text or write 'several'. Add: 'context of the dated seeds contested (S7).'",
+      "evidence": "S14; S19; S7"
+    },
+    {
+      "severity": "minor",
+      "field": "sources",
+      "problem": "S9 is open access (Cambridge PDF via OpenAlex) but is listed as paywalled with the abstract only. The record also lacks a source for uptake by the field and for independent commentary.",
+      "fix": "Set S9 access to 'open'. Add Steffen 2026 (doi:10.1080/20555563.2025.2600141) and Philippsen's 2023 Science commentary (quoted in S14; find its DOI before citing).",
+      "evidence": "lookup doi 10.1017/qua.2023.74; S14"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Repository page showed only the abstract (in-situ prints, seed brackets, ~23-21 ka). 11 aliquots and the 21,130-22,860 range are corroborated by S8 and S19. Could not read '61', 'seven surfaces' or IntCal20."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Abstract: reservoir effects may make the ages thousands of years too old."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Abstract: team maintains the ages are robust."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: Clovis alternative. The Holocene hypothesis is documented via S5."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Gives both Haynes hypotheses. Megafauna tracks 'interspersed'; nothing says 'at all levels'."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "1947 Malpais Spring Ruppia, ca. 7400 cal yr BP."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "High-wind seiche model; ball-like seed aggregations."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Full text: 11 aliquots; LLNL-CAMS independent; 3 OSL minima from one level, >21.5 ± 1.9 ka. The pollen ± range was not located."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "'at least ~7500 yr younger'. Open access, not paywalled."},
+    {"id": "S10", "exists": true, "supports_citation": "yes", "note": "OSL maximum ages; position below most trackways; pollen may be redeposited."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Objections 'without merit'; says the chronology is 'resolved'."},
+    {"id": "S12", "exists": true, "supports_citation": "partial", "note": "26 dates from two independent labs (UA, NAU), 5 of them on seeds; 55 concordant; spring-analog and alkalinity replies. Undated seed balls. '~2 km' and δ13C not confirmed."},
+    {"id": "S13", "exists": true, "supports_citation": "could-not-read", "note": "No abstract; publisher page blocked. SSRN preprint 10.2139/ssrn.5122919 exists. 'exists' label correct."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Davis 'very likely have a resolution'; layers too thin; Philippsen commentary."},
+    {"id": "S15", "exists": true, "supports_citation": "yes", "note": "Waters quotes verbatim; Holliday's '55' figure."},
+    {"id": "S16", "exists": true, "supports_citation": "yes", "note": "2019 excavation; the 'no artifacts' question; Holliday a co-author via 2012 data, not the excavation."},
+    {"id": "S17", "exists": true, "supports_citation": "partial", "note": "Proponent synthesis; seeds on stems; megafauna. The 'predominantly positive' wording could not be isolated (passages truncated)."},
+    {"id": "S18", "exists": true, "supports_citation": "partial", "note": "Data release has a U-series file. The 14 ages, their range and the lab name were not verified."},
+    {"id": "S19", "exists": true, "supports_citation": "yes", "note": "Quotes Rachal & Dello-Russo: LGM claim 'flawed'. Opinion essay."}
+  ]
+}

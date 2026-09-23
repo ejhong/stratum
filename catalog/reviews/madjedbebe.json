@@ -1,0 +1,130 @@
+{
+  "id": "madjedbebe",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "All 14 sources exist and the key figures check out; 'open' is right. Revise: the orthodoxy label misquotes S7 (46–50 ka, not 48–50) and relies on a post-claim critique, and the top decisive test ignores that Phase 2 charcoal already failed pretreatment. Some wording fixes.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim",
+      "problem": "The label says Sahul was settled 'about 48,000–50,000 years ago', but S7 says 'throughout Sahul by 46–50 ka'. Its 48–50 ka figure is for Niah Cave, Borneo, and S7's source note repeats the mistake. S7 is also a 2018 critique written in response to the claim, so it describes the orthodoxy with hindsight.",
+      "fix": "Cite a pre-claim source: O'Connell & Allen 2015, 'The process, biotic impact, and global implications of the human colonization of Sahul about 47,000 years ago', J. Archaeol. Sci. 56: 73–84, doi:10.1016/j.jas.2015.02.020. Relabel as '~47,000–50,000 years (short chronology); no accepted site older than ~50 ka'. limit_bp 50,000 is defensible as the upper bound: S9 calls 65 ka 'a 30% increase in the currently accepted length' and S13 gives the short chronology as 47–51 ka. It yields leap 1.30, against 1.38 at 47,000. Choose one convention for the whole catalog and record it in notes. Fix S7's note too.",
+      "evidence": "S7 (PMC6112744): 'Niah Cave (Borneo) by 48–50 ka, throughout Sahul by 46–50 ka'; S9 abstract; S13 abstract; Crossref search for 10.1016/j.jas.2015.02.020"
+    },
+    {
+      "severity": "major",
+      "field": "decisive_tests[0]",
+      "problem": "This test is listed as low-cost and decisive, but it has already been tried. S6 reports that charcoal from the lowest hearth (C1/43a) failed pretreatment at ANSTO, and that 16 of 40 charcoal samples failed ABA/ABOx pretreatment, with more failing the deeper they came from. The would_show text also overstates what the test can show. A background result (>~50 ka) cannot tell ~55 ka from ~65 ka, and a finite age could come from leftover contamination as well as from intrusion.",
+      "fix": "State the earlier failures and raise the cost to medium: it needs a search of the archived Phase 2 material for identified charred Pandanus endocarp or hearth charcoal. Reword would_show: finite ages at two labs on ABOx-SC-pretreated material from within an intact hearth would point to intrusion; background ages would show only an age above ~50 ka, not 65 ka.",
+      "evidence": "S6 (author's PDF): 'did not survive the chemical pretreatment ... 16 of 40 charcoal samples submitted did not survive'; figure caption 'ABA or ABOX pretreatment'"
+    },
+    {
+      "severity": "minor",
+      "field": "status_note",
+      "problem": "'the excavators reject both' is inaccurate for the 2025 Neanderthal-DNA argument. Veth, Matisoo-Smith, Brumm, Groucutt & Scerri answered it (S11/S12), and none of them are among the excavators credited in S4 (C.C., B.M., R.F., L.W., M.Sm.).",
+      "fix": "Rewrite as 'the excavators reject the first; Veth and colleagues (2025) dispute the second'.",
+      "evidence": "S4 author contributions; S12"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[4]",
+      "problem": "A caveat is missing. O'Connell told S12 the DNA argument 'doesn't necessarily mean that the data is wrong', only that if the date is right, Madjedbebe's occupants were not significant ancestors of modern Sahul populations. S7 makes the same point ('cryptic earlier population movement'). So the objection is about ancestry more than the site's age, while the status_note presents it as dating the site.",
+      "fix": "Add the caveat to the objection text or outcome_note, and soften the status_note to match.",
+      "evidence": "S12; S7 genetics section"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].text",
+      "problem": "'Phase 2 has no radiocarbon date' contradicts the rest of the same sentence. S7's point is that there is no infinite (>50 ka) result, while a charcoal sample taken at Phase 2 depth in 1989 (−2.54 m, ANUA-9915, Bird et al.) gave a calibrated 12.8–13.0 ka. The word 'fine' charcoal is not in S7.",
+      "fix": "Say 'no infinite (>50 ka) radiocarbon result' and give the 12.8–13.0 ka cal BP range with its attribution (Bird et al., via S7).",
+      "evidence": "S7 (PMC6112744)"
+    },
+    {
+      "severity": "minor",
+      "field": "falsifier",
+      "problem": "The falsifier depends on 'in-place Phase 2 organics', which is exactly the point in dispute. The one finite date that already exists at Phase 2 depth (12.8–13.0 ka) was dismissed by the excavators as intrusive.",
+      "fix": "Say how in-place status would be shown: material from within an intact hearth confirmed by micromorphology, ABOx-SC pretreatment, and replication at two labs. Mention the existing 12.8–13.0 ka date.",
+      "evidence": "S7; S6"
+    },
+    {
+      "severity": "minor",
+      "field": "year_claimed",
+      "problem": "Keying the record to 2017 is defensible, and the record applies it consistently (claim, claimed_age, orthodoxy, features and proponents all refer to 2017). But the site's >50 ka claim dates from 1990 (S1: TL 50–60 kyr when the oldest accepted date was 40 kyr). It was contested (Hiscock 1990; Bowdler 1991) and checked by OSL in 1998. Its lower bound now sits inside the critics' accepted 46–50 ka, so it may code as partial. Using 2017 alone makes this a 9-year open case instead of a 36-year dispute, and the resolution-time analysis misses a probable partial outcome.",
+      "fix": "Keep this as the 65 ka record and create a separate 1990 Malakunanja II record (limit_bp 40,000 per S1), cross-linked from notes.",
+      "evidence": "S1 abstract (Nature page); Bowdler 1991, doi:10.1080/03122417.1991.11681414; Roberts, Yoshida et al. 1998, Ancient TL, doi:10.26034/la.atl.1998.287"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[2]",
+      "problem": "'the excavators reply' is cited to S2, which is Hiscock's critique and was not read.",
+      "fix": "Add Roberts, R.G., Jones, R. & Smith, M.A. 1990, 'Stratigraphy and statistics at Malakunanja II: reply to Hiscock', Archaeology in Oceania, doi:10.1002/j.1834-4453.1990.tb00243.x.",
+      "evidence": "Crossref search result"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.multiple_labs.note",
+      "problem": "'radiocarbon ages came from two laboratories' is unconfirmed. S4's author contributions credit radiocarbon dating to Q. Hua alone, and S6 names only ANSTO. The confirmed blind OSL test at Adelaide is enough on its own to justify 'yes'.",
+      "fix": "Name the second radiocarbon lab with a source, or drop the clause.",
+      "evidence": "S4 page: 'L.J.A. conducted the blind OSL dating study. Q.H. conducted 14C dating.'"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.material_accessible.note; timeline[5]",
+      "problem": "S6 says its OSF deposit holds 'the underlying research materials for this article, including data and R code to reproduce the table and figures', meaning the reply's own analyses. That does not show the full raw 2017 dataset was posted. Coding the feature 'partial' is still reasonable.",
+      "fix": "Narrow the wording, or cite a data-availability statement that covers the 2017 dataset.",
+      "evidence": "S6"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "The count of 3 is not explained. The Phase 2 age rests on luminescence alone: 2017 single-grain OSL, 1990 TL and 1998 OSL, which share dose-rate assumptions. Radiocarbon does not reach Phase 2.",
+      "fix": "Name the three lines in notes (e.g. luminescence, radiocarbon cross-check above ~1.6 m, refit/micromorphology integrity) or reduce the count to 2. 'partial' for multiple_dating_methods is consistent with either choice.",
+      "evidence": "S4; S6"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests[1]; decisive_tests[3]",
+      "problem": "Test 1 calls Phase 1 'sparse', which is the excavators' framing; S7 says Phase 1 yielded 'hundreds of stone tools' OSL-dated 65.4–87.4 ka. Test 3's 'planned Nauwalabila I re-investigation' has no source.",
+      "fix": "Use neutral wording for Phase 1, and cite the Nauwalabila plan or drop 'planned'.",
+      "evidence": "S7"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[3].outcome_note; timeline[11]",
+      "problem": "S14 takes its ~65 ka Sahul figure from Madjedbebe itself (its ref. 7), so it does not independently support the site's age. The stencil gives a minimum age for people in Wallacea, and who made it is inferred.",
+      "fix": "Keep 'consistent with', and note that S14 builds on Madjedbebe's date.",
+      "evidence": "S14: 'thought to have occurred by at least 68.7–59.3 ka ... based on excavated findings at Madjedbebe'"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]; corrections[1]",
+      "problem": "They quote 'starter notes' wording ('TL/OSL', 'Artifacts dating to ~65,000 years') that does not appear in CLAUDE.md, whose starter list says only '~65,000-year claim', or anywhere else in the repo. The statement about 1998 OSL has no source.",
+      "fix": "Say where the wording came from, or rephrase as corrections of common accounts. Add Roberts, Yoshida et al. 1998, Ancient TL 16, doi:10.26034/la.atl.1998.287.",
+      "evidence": "grep of the repository; Crossref search"
+    },
+    {
+      "severity": "minor",
+      "field": "sources",
+      "problem": "Wood 2017, 'Comments on the chronology of Madjedbebe' (Aust. Archaeol., doi:10.1080/03122417.2017.1408545), is missing. It is a radiocarbon specialist's critique, part of the 2017 forum that S6 answers (Veth 2017 and Allen 2017 are also named in S6). My searches found no other Madjedbebe-specific work from 2025–2026 beyond S10–S14.",
+      "fix": "Read Wood 2017 and add it as an objection if it raises a separate point.",
+      "evidence": "Crossref search; S6"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Nature page abstract: TL suggests arrival 50–60 kyr; oldest secure date then 40 kyr."},
+    {"id": "S2", "exists": true, "supports_citation": "could-not-read", "note": "Metadata only. It is the critique, not the excavators' reply that timeline[2] also attributes to it."},
+    {"id": "S3", "exists": true, "supports_citation": "could-not-read", "note": "No abstract available through OpenAlex or Europe PMC in this review. The 'checked' label rests on the researcher's reading."},
+    {"id": "S4", "exists": true, "supports_citation": "partial", "note": "Confirmed: median vertical refit 0.10 m, blind OSL (Arnold, Adelaide), no competing interests, 1973 trench. Two radiocarbon labs not confirmed."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Preprint DOI 10.31235/osf.io/7a6h6 found in Crossref. Content not read. Cited only in corrections."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Confirmed: Dortch & Malaspinas 53±4 vs 65±6 ka; 'no sound statistical basis'; 71–59 ka; 16 of 40 charcoal samples failed; Table 15 correction. The OSF deposit is for the reply."},
+    {"id": "S7", "exists": true, "supports_citation": "partial", "note": "Confirmed: 'unlikely to be valid', 'single data point', 12.8–13.0 ka charcoal, Phase 1 65.4–87.4 ka, 15–20 ky gap. Gives Sahul 46–50 ka, not 48–50."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Abstract: no termite stone lines at Madjedbebe or Nauwalabila; both may have complex histories."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Abstract: the criteria are invalid; radiocarbon and luminescence data fit termite disruption; the early dates 'must be rejected'."},
+    {"id": "S10", "exists": true, "supports_citation": "yes", "note": "Abstract matches objections[4]."},
+    {"id": "S11", "exists": true, "supports_citation": "could-not-read", "note": "Crossref abstract field holds only a data statement. Content known via S12. 'exists' label is correct."},
+    {"id": "S12", "exists": true, "supports_citation": "yes", "note": "Confirms the 50,500–43,500 pulse, 43–54 ka for other sites, Veth and Brumm quotes. Adds O'Connell's ancestry caveat, which the record omits."},
+    {"id": "S13", "exists": true, "supports_citation": "yes", "note": "Confirmed: n = 2456 mitogenomes, settlement by ~60 ka via two routes, 53–60 ka 'likely' for Madjedbebe; short chronology 47–51 ka."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Minimum age 67.8 ka. Its Sahul ~65 ka figure cites Madjedbebe (ref. 7)."}
+  ]
+}
