@@ -116,7 +116,8 @@ worded here.
 - **Would disprove it:** (the method's value) no region qualifies, or every qualifying site is already known and debated — the scan adds nothing new.
 - **Status:** pre-registered; scan pending
 - **Result (2026-09-23):** limits fixed and pushed before the scan (be225f4). 77,098 dates in the tested regions → 487 older than their region's limit → 273 dates at 89 sites after R1's filters. Two regions met the rule: Iceland (3 sites; one is a mis-coded record — without it, no lead) and the Americas (85 sites: 56 fossil-fauna localities with bone or unspecified dates; known controversies such as Bluefish Caves, Cactus Hill, Meadowcroft and Old Crow; and 10 unfamiliar sites with old charcoal or wood dates, sent to literature triage). Sahul untestable (limit beyond the 40,000-year filter); no p3k14c rows for New Zealand, Madagascar, the Caribbean or western Remote Oceania. Report: analysis/frontier/r2_report.md.
-- **Status:** tested — leads in triage
+- **Triage (2026-09-23):** none of the 10 unfamiliar Americas sites is a genuine lead — no pre-limit date has a documented cultural association. Millard Creek: date rejected by its lab as probably coal-contaminated; Petroglyph Canyon: a rock-varnish sample miscoded as charcoal; Dry Creek: five same-named sites merged by the scan (a scan bug to fix); Chugachik Island: probable data error; Clam Gulch and Rock Levee: old material in much younger sites (provisional); Iceberg, Drift Fence, Phillis, The Burn Site: unexplained only because their context was never published — each checkable from the site report or lab record. Files: analysis/frontier/r2_triage.json, r2_triage.md.
+- **Status:** tested — no genuine leads (4 weak, unpublished-context cases open)
 
 ## O1 · Refutations stay clean; vindications mostly do not
 - **Date:** 2026-09-23

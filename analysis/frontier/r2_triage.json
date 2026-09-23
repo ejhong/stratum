@@ -1,0 +1,208 @@
+{
+  "run": {
+    "date": "2026-09-23",
+    "task": "R2 step 4 triage: the 10 unfamiliar Americas sites whose pre-17,500 cal BP candidate dates are on charcoal or wood (analysis/frontier/r2_report.md)",
+    "method": "p3k14c fields read directly (no coordinates read or copied), including every date at each site and neighbouring lab numbers; literature found with scripts/lookup.py (search, doi, page --grep) and web search to locate documents; no Wikipedia. Calibrated ranges are the approximate ones in r2_report.md.",
+    "classes": ["non-cultural", "data error", "old material in a younger site", "already known and debated", "unexplained — a genuine lead"],
+    "summary": {
+      "non-cultural": ["Petroglyph Canyon"],
+      "data error": ["Chugachik Island", "Dry Creek"],
+      "old material in a younger site": ["Millard Creek", "Clam Gulch", "Rock Levee"],
+      "already known and debated": [],
+      "unexplained — a genuine lead": ["Drift Fence site", "Phillis", "The Burn Site", "Iceberg"]
+    },
+    "headline": "No date has a documented cultural association. The four 'unexplained' dates are unexplained because nothing about their context is published; they are records to check, not evidence of early people.",
+    "not_read": "Paywalled or offline, so not read: Reger 1983 and 1987 (Clam Gulch), Moss & Erlandson 1995, McGhee & Tuck 1975, Tuck 1978, Weinstein et al. 1995, Mills 1994, and the body of Francis et al. 1993 (abstract only). The provisional calls depend on these.",
+    "cost": "about 48 tool calls, about 175k tokens"
+  },
+  "sites": [
+    {
+      "site": "Chugachik Island",
+      "region": "Alaska, USA (Kachemak Bay, Kenai Peninsula)",
+      "site_id": null,
+      "dates": [
+        {"lab_id": "WSU-4302", "age_14C_BP": 18910, "error": 250, "approx_cal": "~22.4-23.7 ka cal BP", "material_recorded": "charcoal", "compilation": "CARD", "reference_field": "Mills 1994: 135; Rutherford et al. 1981: 108; K.W. Workman 1977; W.B. Workman 1977 1980; Yesner 1977"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. No publication located describes this sample; its provenience is unknown.",
+      "context": "The published series for the Chugachik Island site (SEL 033) has five dates, 1475 ± 70 to 2740 ± 75 BP. The oldest (UGa-2343) is from the bottom of the midden, and birchbark S-1062 (2310 ± 65) lay in the shell layer directly above sterile peat under the site (Workman et al. 1980, Table 1; Rutherford et al. 1981). WSU-4302 is in neither list. Its reference field repeats the site's general reference list, which includes a University of Saskatchewan date list that reports only S- numbers. The next lab number, WSU-4303 (4005 ± 100), is also filed under Chugachik Island but cites 'Breschini G. S. T. Haversat 1992', a source unrelated to Alaska (these authors worked in central California: general knowledge, UNVERIFIED).",
+      "classification": "data error",
+      "reason": "Probably attached to the wrong site. The date is in no published series for the site, its references are the site's generic list, and the paired lab number points to an unrelated source. If it does come from Chugachik Island, the published stratigraphy puts the midden's base at 2740 ± 75 BP on sterile peat, so a date this old would come from natural deposits below the occupation.",
+      "confidence": "low",
+      "test_to_settle": "Find WSU-4302 in Mills 1994: 135 (not read) or in the Washington State University radiocarbon laboratory's records: submitter, site, provenience. If it is from another site, correct CARD and p3k14c. If it is from below the Chugachik midden, reclassify it as non-cultural.",
+      "sources": [
+        {"citation": "Workman, W.B., Lobdell, J.E. & Workman, K.W. (1980). Recent Archeological Work in Kachemak Bay, Gulf of Alaska. Arctic 33(3).", "link": "https://doi.org/10.14430/arctic2573", "read": "full text (open access), Table 1"},
+        {"citation": "Rutherford, A.A., Wittenberg, J. & Wilmeth, R. (1981). University of Saskatchewan Radiocarbon Dates IX. Radiocarbon 23(1): 94-135.", "link": "https://doi.org/10.1017/S0033822200037486", "read": "full text (open access), Chugachik Island series"},
+        {"citation": "p3k14c v2022.06 (Bird et al. 2022, Scientific Data), rows WSU-4302, WSU-4303 and the other Chugachik Island rows", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"}
+      ]
+    },
+    {
+      "site": "Clam Gulch",
+      "region": "Alaska, USA (Cook Inlet, Kenai Peninsula)",
+      "site_id": null,
+      "dates": [
+        {"lab_id": "BETA-6689", "age_14C_BP": 16280, "error": 110, "approx_cal": "~19.4-19.9 ka cal BP", "material_recorded": "charcoal", "compilation": "CARD", "reference_field": "Moss and Erlandson 1995"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. The excavator's reports (Reger 1983; Reger 1987) are not online and were not read, so the sample's provenience is unknown.",
+      "context": "The Clam Gulch site is a seasonal Dena'ina site with abundant faunal remains, and 'radiocarbon dates from the site document the occupation at about AD 1500 (Reger 1987:98)' (Reger 2008). The site's other p3k14c dates are five charcoal dates of 190-360 BP, 1210 ± 50 (plant) and 4980 ± 80 (charred wood). BETA-6689 falls in a lab-number block of Kenai Peninsula samples (BETA-6680 to -6684 Moose River; BETA-6685, -6686 and -6690 Clam Gulch), so it is probably a real sample from this project rather than a misfiled record. Its only reference, Moss & Erlandson 1995, a review of Pacific Coast prehistory, was not read (paywalled).",
+      "classification": "old material in a younger site",
+      "reason": "The excavator dates the occupation to about AD 1500. This sample is about 14,000 radiocarbon years older, and no Pleistocene component has been claimed for the site. Provisional: the excavator's account of this particular sample was not found, so the mechanism (older wood or charcoal from the enclosing deposits, or contamination) is not yet sourced.",
+      "confidence": "medium",
+      "test_to_settle": "Read Reger 1983 (Alaska DGGS Open-File Report 172, 17 p., available on paper only) and Reger 1987 for BETA-6689's provenience and the excavator's comment. If the sample came from below the cultural deposits, reclassify it as non-cultural. If it came from a cultural feature and was never explained, it becomes a lead: identify any archived charcoal and AMS-date it.",
+      "sources": [
+        {"citation": "Reger, D.R. (2008). Dena'ina use of marine resources for food and tools. Alaska Journal of Anthropology 6(1-2) (second author Mobley per the PDF file name; not confirmed).", "link": "http://www.alaskaanthropology.org/wp-content/uploads/2017/08/akanth-articles_254_v6_n12_Reger-Mobley.pdf", "read": "full text, Clam Gulch passage"},
+        {"citation": "Reger, D.R. (1983). Preliminary archaeological investigations at the Clam Gulch Site, Cook Inlet. Alaska Division of Geological & Geophysical Surveys, Alaska Open-File Report 172.", "link": "https://doi.org/10.14509/108", "read": "catalogue page only; no digital copy"},
+        {"citation": "Moss, M.L. & Erlandson, J.M. (1995). Reflections on North American Pacific Coast prehistory. Journal of World Prehistory 9(1).", "link": "https://doi.org/10.1007/BF02221002", "read": "not read (paywalled)"},
+        {"citation": "p3k14c v2022.06, Clam Gulch rows and neighbouring lab numbers BETA-6680 to -6695", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"}
+      ]
+    },
+    {
+      "site": "Drift Fence site",
+      "region": "Oregon, USA (Umatilla County)",
+      "site_id": "35UM169",
+      "dates": [
+        {"lab_id": "BETA-146263", "age_14C_BP": 24700, "error": 80, "approx_cal": "~28.8-29.1 ka cal BP", "material_recorded": "charcoal", "compilation": "UWyo2021", "reference_field": "Oregon database"},
+        {"lab_id": "BETA-146262", "age_14C_BP": 13200, "error": 60, "approx_cal": "below the R2 threshold (14,442 14C BP); not a candidate, listed for context", "material_recorded": "charcoal", "compilation": "UWyo2021", "reference_field": "Oregon database"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. Provenience unknown.",
+      "context": "p3k14c cites only the 'Oregon database' (the state's radiocarbon files). No report or publication for 35UM169 was found. The site's other five dates run from 370 ± 50 to 2530 ± 60 BP. The first lab batch (BETA-146261 to -146263) gave 2530, 13,200 and 24,700 BP; a later batch (BETA-175626 to -175629) gave four dates of 370-1610 BP.",
+      "classification": "unexplained — a genuine lead",
+      "reason": "No published explanation and no sourced reason to dismiss it. Nor is any cultural association documented, so this is a records lead, not evidence of early people. The two old dates are outliers in an otherwise late Holocene site; there are several mundane possibilities (natural fire charcoal, older sediment below the occupation), but none is sourced.",
+      "confidence": "low",
+      "test_to_settle": "Get the report behind the Oregon SHPO entry for 35UM169. Read the provenience of BETA-146262 and -146263: feature or natural soil, depth, sediment unit, associated artifacts. If they came from a hearth or pit with artifacts, identify the charcoal, AMS-date single fragments from the same feature (archived material if kept), and OSL-date the enclosing sediment. If they came from natural soil or burned roots, reclassify them as non-cultural.",
+      "sources": [
+        {"citation": "p3k14c v2022.06, all seven 35UM169 rows (UWyo2021, 'Oregon database')", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"},
+        {"citation": "No literature found (lookup.py search and web search for the site name and number)", "link": null, "read": "n/a"}
+      ]
+    },
+    {
+      "site": "Dry Creek (labelled 'Wyoming' in r2_report.md)",
+      "region": "USA; true state unknown",
+      "site_id": null,
+      "dates": [
+        {"lab_id": "SI-1544", "age_14C_BP": 19050, "error": 1500, "approx_cal": "~19.4-26.3 ka cal BP", "material_recorded": "charcoal", "compilation": "CARD", "reference_field": "Byers 1979; Shaw 1988: 60"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. The site it belongs to cannot be identified from the database.",
+      "context": "scripts/frontier/scan.py groups rows by normalised site name within a country and, when only one province appears among them, gives that province to every row. 'Dry Creek' in the USA covers at least five different sites: the Dry Creek site in Alaska (references Powers & Hoffecker 1989; Thorson & Hamilton 1977; Hoffecker et al. 1996), a Nebraska locality (Kivett & Metcalf 1997; Long & Mielke 1966), a Utah date (Dalley 1977), an Oregon-database date, and the Wyoming site 48NA3805 (BETA-225063, 3930 ± 50 BP). Only 48NA3805 carries a province, so SI-1544 inherited 'Wyoming'. SI-1544 itself has no province, and its references (Byers 1979; Shaw 1988: 60) match none of those series. Because of its ±1,500 error, it is only 3.1 standard errors past the threshold.",
+      "classification": "data error",
+      "reason": "The 'Dry Creek (Wyoming)' candidate is an artefact of merging unrelated sites that share a name. The date's real site and region are unknown. Nothing shows the measurement itself is wrong; it simply cannot be placed.",
+      "confidence": "high that the Wyoming attribution is an artefact; the date itself is unplaced",
+      "test_to_settle": "Identify 'Byers 1979' and 'Shaw 1988' in CARD's bibliography to find the site, and drop the date from the candidate list until then. Fix the scan: split same-name sites by SiteID or reference, and never let one row's province spread to other rows.",
+      "sources": [
+        {"citation": "p3k14c v2022.06, all rows named 'Dry Creek' (CARD and UWyo2021) and their reference fields", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"},
+        {"citation": "scripts/frontier/scan.py, site grouping (province assigned when only one is present)", "link": "scripts/frontier/scan.py", "read": "code"}
+      ]
+    },
+    {
+      "site": "Iceberg",
+      "region": "Newfoundland and Labrador, Canada (the cited work concerns the Strait of Belle Isle, Labrador)",
+      "site_id": null,
+      "dates": [
+        {"lab_id": "SI-2431", "age_14C_BP": 18730, "error": 850, "approx_cal": "~20.5-24.6 ka cal BP", "material_recorded": "charcoal", "compilation": "CARD", "reference_field": "Tuck 1978; McGhee and Tuck 1975"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. Provenience unknown; the sources are not online.",
+      "context": "The site's seven other dates are Smithsonian charcoal dates from the same investigators, 2115 ± 70 to 3470 ± 50 BP (SI-2312, -2313, -2427 to -2430, -2433). SI-2431's error (±850) is 11-17 times theirs (50-75), which suggests a small sample. McGhee & Tuck 1975 and Tuck 1978 could not be read, so any comment by the excavators is unknown.",
+      "classification": "unexplained — a genuine lead",
+      "reason": "No published explanation was located, and no sourced reason to dismiss it. It is a weak lead, though: no cultural association is documented, it is a lone outlier with a very large error in a consistent late Holocene series, and southern Labrador is generally understood to have been under the Laurentide Ice Sheet 20-25 ka ago (general knowledge, UNVERIFIED here). If so, no fire of that age could have burned at the site.",
+      "confidence": "low",
+      "test_to_settle": "Read SI-2431's provenience and any comment in McGhee & Tuck 1975 and Tuck 1978 (library copies), or in the Smithsonian lab record, and check the local deglaciation age in Dalton et al. 2020. If the location was under ice 20.5-24.6 ka cal BP, the sample must contain older carbon (reclassify it as old material or a lab problem). Only a sample from a sealed cultural feature on ground that was ice-free then would keep it open.",
+      "sources": [
+        {"citation": "McGhee, R. & Tuck, J.A. (1975). An Archaic Sequence from the Strait of Belle Isle, Labrador. National Museum of Man Mercury Series.", "link": "https://doi.org/10.2307/j.ctt22zmcws", "read": "not read (no open copy found)"},
+        {"citation": "Dalton, A.S. et al. (2020). An updated radiocarbon-based ice margin chronology for the last deglaciation of the North American Ice Sheet Complex. Quaternary Science Reviews 234: 106223.", "link": "https://doi.org/10.1016/j.quascirev.2020.106223", "read": "citation verified; text not read (download refused); cited only as the check to make"},
+        {"citation": "p3k14c v2022.06, all eight Iceberg rows", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"}
+      ]
+    },
+    {
+      "site": "Phillis",
+      "region": "Pennsylvania, USA (Beaver County)",
+      "site_id": "36BV344",
+      "dates": [
+        {"lab_id": "BETA-108382", "age_14C_BP": 16280, "error": 100, "approx_cal": "~19.4-19.9 ka cal BP", "material_recorded": "charcoal (d13C -24.2 per mil)", "compilation": "UWyo2021", "reference_field": "SHPO Files"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. Its d13C of -24.2 per mil is ordinary for wood charcoal. Provenience unknown.",
+      "context": "This is the only p3k14c date for 36BV344. It comes from Pennsylvania SHPO files, and no report was found. The name and county match Phillis Island in the Ohio River, where, according to a US Fish & Wildlife Service page, 'archeological studies ... turned up artifacts' of the Paleo-Indian, Archaic and Woodland periods (a popular source; it gives no report or dates). The adjacent lab number, BETA-108383, belongs to a West Virginia site (46JA60), also from SHPO files.",
+      "classification": "unexplained — a genuine lead",
+      "reason": "Old charcoal attributed to a recorded archaeological site, with no published explanation, so it cannot be dismissed. It is not evidence of early people: no cultural association is documented, and the match between 36BV344 and Phillis Island rests only on name and county.",
+      "confidence": "low",
+      "test_to_settle": "Obtain the Pennsylvania SHPO site file and the CRM report behind BETA-108382. Record the provenience (feature or natural stratum), depth, sediment unit (Holocene alluvium or older terrace or outwash deposits) and any associated artifacts. If it came from a cultural feature, identify single charcoal fragments from the same context, AMS-date them, and OSL-date the enclosing sediment. If it came from basal gravels or natural deposits, reclassify it as non-cultural.",
+      "sources": [
+        {"citation": "p3k14c v2022.06, row BETA-108382 and neighbouring BETA-108383", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"},
+        {"citation": "US Fish & Wildlife Service, 'Phillis Island' (web story, undated)", "link": "https://www.fws.gov/story/phillis-island", "read": "full page; popular source"}
+      ]
+    },
+    {
+      "site": "Petroglyph Canyon",
+      "region": "Montana, USA (Carbon County)",
+      "site_id": "24CB602",
+      "dates": [
+        {"lab_id": "AA-6537", "age_14C_BP": 15695, "error": 135, "approx_cal": "~18.8-19.2 ka cal BP", "material_recorded": "CHARCOAL (AMS)", "compilation": "UWyo2021", "reference_field": "Francis et al. 1993"}
+      ],
+      "what_was_dated": "Almost certainly organic matter from a weathering rind or varnish on a petroglyph surface, not charcoal from an occupation deposit.",
+      "context": "AA-6535 to AA-6545 form one lab-number block, all cited to Francis, Loendorf & Dorn 1993, which AMS-dated organic matter associated with rock varnish on petroglyphs at seven Bighorn Basin sites. The Wyoming members of the block are coded 'OTHER'; the four Montana ones (Petroglyph Canyon, Bear Shield) are coded 'CHARCOAL'. The paper's abstract says AMS dating of 10 petroglyphs gave Early Archaic to Protohistoric ages, so no Pleistocene age was accepted. A later account of the site says three Montana petroglyphs were sampled for weathering-rind organics (Francis et al. 1993), with accepted ages from 2600 ± 350 to under 1000 BP. It gives the excavated cultural deposits at Petroglyph Canyon as 1270 ± 125 and 850 ± 50 BP, plus a roasting pit at 1820 ± 30 and 1740 ± 30 BP, and states that 'no petroglyphs have been directly dated'. Beck et al. 1998 later found that rock-varnish and weathering-rind samples prepared in Dorn's laboratory contained coal-like and charcoal-like particles of widely differing radiocarbon ages, which makes whole-sample ages ambiguous.",
+      "classification": "non-cultural",
+      "reason": "The sample belongs to a rock-art AMS series, not to an occupation layer. The material code 'CHARCOAL' is a compilation error. The authors did not accept a Pleistocene age, the method was later shown to mix carbon of different ages, and the site's excavated occupation is late Holocene.",
+      "confidence": "medium (inferred from the lab block and the published accounts; the paper's date table was not read)",
+      "test_to_settle": "Confirm in Francis et al. 1993 (date table) that AA-6537 is a weathering-rind sample, and read the authors' comment on it. Reopen only if it proves to be charcoal from an excavated layer.",
+      "sources": [
+        {"citation": "Francis, J.E., Loendorf, L.L. & Dorn, R.I. (1993). AMS Radiocarbon and Cation-Ratio Dating of Rock Art in the Bighorn Basin of Wyoming and Montana. American Antiquity 58(4): 711-737.", "link": "https://doi.org/10.2307/282204", "read": "abstract only (paywalled)"},
+        {"citation": "'Petroglyphs', The Pryor Mountains website (first-person account drawing on Loendorf 1984 and Francis et al. 1993; author not stated in the passages read)", "link": "https://pryormountains.org/petroglyphs", "read": "passages on dating"},
+        {"citation": "Beck, W. et al. (1998). Ambiguities in Direct Dating of Rock Surfaces Using Radiocarbon Measurements. Science 280(5372): 2132-2139.", "link": "https://doi.org/10.1126/science.280.5372.2132", "read": "abstract"},
+        {"citation": "p3k14c v2022.06, rows AA-6535 to AA-6545", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"}
+      ]
+    },
+    {
+      "site": "Rock Levee",
+      "region": "Mississippi, USA (Bolivar County, Yazoo Basin)",
+      "site_id": "22BO637",
+      "dates": [
+        {"lab_id": "UGA-6060", "age_14C_BP": 16479, "error": 571, "approx_cal": "~18.7-21.4 ka cal BP", "material_recorded": "charcoal (radiometric)", "compilation": "UWyo2021", "reference_field": "Weinstein et al. 1995; Sims and Connaway 2000"},
+        {"lab_id": "UGA-6064", "age_14C_BP": 13870, "error": 158, "approx_cal": "below the R2 threshold; not a candidate, listed for context", "material_recorded": "charcoal (radiometric)", "compilation": "UWyo2021", "reference_field": "Weinstein et al. 1995; Sims and Connaway 2000"}
+      ],
+      "what_was_dated": "Charcoal, as recorded (conventional radiometric dates). Provenience unknown.",
+      "context": "The excavators' report is titled 'The Rock Levee Site: Late Marksville through Late Mississippi Period Settlement, Bolivar County, Mississippi' (Weinstein et al. 1995; tDAR holds only the citation). They read the occupation as Late Marksville to Late Mississippi, i.e. within the first and second millennia AD (general knowledge of the period names). The site's other five dates are 830-4425 BP (four charcoal, one shell). The two charcoal dates of 16,479 and 13,870 BP are more than 9,000 radiocarbon years older than any of them.",
+      "classification": "old material in a younger site",
+      "reason": "The excavators identify no occupation older than Late Marksville, and the two old dates stand far apart from the site's other five. Provisional: the report is not online, so how the excavators treated UGA-6060 and UGA-6064 is unknown, and the mechanism (older charcoal reworked from the sediments below, or contamination) is not sourced.",
+      "confidence": "medium",
+      "test_to_settle": "Read Weinstein et al. 1995 for the proveniences of UGA-6060 and UGA-6064 and the authors' comment. If they came from basal or natural sediments, reclassify them as non-cultural. If they came from a cultural feature and were never explained, they become a lead: identify and AMS-date archived charcoal from the same features.",
+      "sources": [
+        {"citation": "Weinstein, R.A., Fuller, R.S., Scott, S.L., Scarry, C.M. & Duay, S.T. (1995). The Rock Levee Site: Late Marksville through Late Mississippi Period Settlement, Bolivar County, Mississippi. (tDAR citation record 250744)", "link": "https://core.tdar.org/document/250744/the-rock-levee-site-late-marksville-through-late-mississippi-period-settlement-bolivar-county-mississippi", "read": "citation record only; report not read"},
+        {"citation": "p3k14c v2022.06, all seven 22BO637 rows (UGA-6058 to UGA-6065)", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"}
+      ]
+    },
+    {
+      "site": "The Burn Site",
+      "region": "Kansas, USA (as recorded)",
+      "site_id": null,
+      "dates": [
+        {"lab_id": "TX-8484", "age_14C_BP": 20425, "error": 396, "approx_cal": "~23.8-25.6 ka cal BP", "material_recorded": "charcoal (radiometric; d13C -24.7 per mil)", "compilation": "UWyo2021", "reference_field": "Texas lab database"}
+      ],
+      "what_was_dated": "Charcoal, as recorded. Nothing else is known.",
+      "context": "This is the only p3k14c row with this name. It has no site number, and its source is the radiocarbon laboratory's own database, not an archaeological report. No publication or site record was found, so it is not even established that 'The Burn Site' is an archaeological site.",
+      "classification": "unexplained — a genuine lead",
+      "reason": "Nothing was found either way: no sourced reason to dismiss it, and no cultural association. It is the weakest lead in the set: a single date with no site number and no report.",
+      "confidence": "low",
+      "test_to_settle": "Request TX-8484's submission record (submitter, project, sample description) from the laboratory's archive, and check the Kansas Historical Society site files for a site of this name. If it is not an archaeological sample, remove it from the candidates. If it is, get its field context before any re-dating.",
+      "sources": [
+        {"citation": "p3k14c v2022.06, row TX-8484", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"},
+        {"citation": "No literature found (lookup.py search and web search)", "link": null, "read": "n/a"}
+      ]
+    },
+    {
+      "site": "Millard Creek",
+      "region": "British Columbia, Canada (Comox district, Vancouver Island)",
+      "site_id": null,
+      "dates": [
+        {"lab_id": "S-142 as recorded in p3k14c/CARD; the published lab number for this age is S-944", "age_14C_BP": 16910, "error": 270, "approx_cal": "~19.6-21.0 ka cal BP", "material_recorded": "charcoal", "compilation": "CARD", "reference_field": "Rutherford et al. 1981; Morrison 1989; Faunmap 2979"}
+      ],
+      "what_was_dated": "Charcoal from 76-81 cm below surface, in the bottom third of an unstratified test pit, associated with a bone whistle.",
+      "context": "University of Saskatchewan date list IX, 'Millard Creek site series': an extensive shell-midden site with bone awls, small shell disc beads, worked cannel coal (lignite), and obsidian and rock-crystal debitage. S-142 is 8300 ± 200 BP on charcoal from the lower 30 cm of a habitation-stained forest soil. The 16,910 ± 270 result belongs to the second sample. The list's comment reads: 'S-142 compatible with ages of other sites of tradition; S-944 too early, probably coal contaminated.'",
+      "classification": "old material in a younger site",
+      "reason": "The published date list, reporting the submitter's reading, rejects the date as probably contaminated by coal, a material present and worked at the site. The p3k14c/CARD row also pairs this age with the wrong lab number (S-142, whose age is 8300 ± 200), a data error to report upstream.",
+      "confidence": "high",
+      "test_to_settle": "None needed. Correct the lab number (S-944) in the record.",
+      "sources": [
+        {"citation": "Rutherford, A.A., Wittenberg, J. & Wilmeth, R. (1981). University of Saskatchewan Radiocarbon Dates IX. Radiocarbon 23(1): 94-135.", "link": "https://doi.org/10.1017/S0033822200037486", "read": "full text (open access; OCR), Millard Creek site series"},
+        {"citation": "p3k14c v2022.06, Millard Creek rows and neighbouring lab numbers S-140 to S-149", "link": "https://doi.org/10.1038/s41597-022-01118-7", "read": "database fields"}
+      ]
+    }
+  ]
+}
