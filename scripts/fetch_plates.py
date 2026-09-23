@@ -85,6 +85,10 @@ def main(argv):
                 print(f"↓ {f.stem}: {title} ({lic})")
             w = ii.get("thumbwidth") or ii.get("width")
             h = ii.get("thumbheight") or ii.get("height")
+            if shutil.which("sips") and out.exists():  # real size after resizing, for link previews
+                dims = subprocess.run(["sips", "-g", "pixelWidth", "-g", "pixelHeight", str(out)], capture_output=True, text=True).stdout.split()
+                if "pixelWidth:" in dims and "pixelHeight:" in dims:
+                    w, h = int(dims[dims.index("pixelWidth:") + 1]), int(dims[dims.index("pixelHeight:") + 1])
             entries.append({
                 "file": rel, "caption": pl["caption"], "commons_file": title, "license": lic,
                 "license_url": (meta.get("LicenseUrl") or {}).get("value"),

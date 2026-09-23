@@ -50,9 +50,15 @@ def fate(status):
     return f'<span class="fate {status}">{charts.glyph_svg(status, 12)}{e(STATUS_LABEL[status])}</span>'
 
 
-def page(rel, title, body, active=None, desc=None, full_title=False, root=None):
+SITE_CARD = {"image": f"{URL}assets/og.png", "width": 1200, "height": 630,
+             "alt": "Stratum — some anomalies rewrite history, most don’t: a stratigraphic column of the catalog’s cases"}
+
+
+def page(rel, title, body, active=None, desc=None, full_title=False, root=None, og=None, og_title=None):
     root = "../" * rel.count("/") if root is None else root
     desc = desc or "An AI-operated lab that learns from how past archaeological anomalies fared, and ranks the open ones worth testing."
+    og = og or SITE_CARD
+    og_title = og_title or title
     nav = "".join(f'<a href="{root}{h}"{" aria-current=page" if h == active else ""}>{lbl}</a>' for h, lbl in NAV)
     html = f"""<!doctype html>
 <html lang="en">
@@ -62,14 +68,26 @@ def page(rel, title, body, active=None, desc=None, full_title=False, root=None):
 <title>{e(title if full_title else f"{title} · Stratum")}</title>
 <meta name="description" content="{e(desc)}">
 <meta property="og:site_name" content="Stratum">
-<meta property="og:title" content="{e(title)}">
+<meta property="og:title" content="{e(og_title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
 <meta property="og:url" content="{URL}{rel.replace("index.html", "")}">
-<meta property="og:image" content="{URL}assets/og.png">
+<meta property="og:image" content="{e(og["image"])}">
+<meta property="og:image:secure_url" content="{e(og["image"])}">
+<meta property="og:image:type" content="{"image/png" if og["image"].endswith(".png") else "image/jpeg"}">
+<meta property="og:image:width" content="{og["width"]}">
+<meta property="og:image:height" content="{og["height"]}">
+<meta property="og:image:alt" content="{e(og["alt"])}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{e(og_title)}">
+<meta name="twitter:description" content="{e(desc)}">
+<meta name="twitter:image" content="{e(og["image"])}">
+<meta name="twitter:image:alt" content="{e(og["alt"])}">
 <meta name="theme-color" content="#f8f5ef">
+<link rel="canonical" href="{URL}{rel.replace("index.html", "")}">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
@@ -361,7 +379,9 @@ def home(cases, summary, latest=None):
 <li><b>Sources.</b> Every claim cites a source; each DOI is matched against Crossref by script.</li></ul></div>
 </section>
 </div>"""
-    page("index.html", "Stratum — what’s left after the boring explanations", body, full_title=True)
+    page("index.html", "Stratum — what’s left after the boring explanations", body, full_title=True,
+         desc="An AI-operated archaeology lab: how famous anomalies really fared, which open ones deserve a test"
+              + (f" — and lab bulletin {latest['number']}: {latest['title'].lower()}." if latest else "."))
 
 
 def cases_index(cases):
@@ -525,7 +545,12 @@ def case_page(r):
 <div class="record" style="margin-top:14px">{"".join(rec)}</div>
 </section>
 </div>"""
-    page(f"cases/{r['id']}/index.html", r["name"], body, active="cases/", desc=r["hook"])
+    og = None
+    if r["_plates"]:
+        p0 = r["_plates"][0]
+        og = {"image": f"{URL}{p0['file']}", "width": p0.get("width") or 1200, "height": p0.get("height") or 800, "alt": p0["caption"]}
+    page(f"cases/{r['id']}/index.html", r["name"], body, active="cases/", desc=r["hook"], og=og,
+         og_title=f"{r['name']} — {STATUS_LABEL[st]} · Stratum")
 
 
 def findings(cases, summary):
@@ -718,7 +743,11 @@ def bulletins():
 <p class="lede">{e(bl['dek'])}</p></div></section>
 <section class="section" style="max-width:860px"><ol class="bulletin">{pts}</ol>
 <p class="falsifier" style="margin-top:22px">{e(bl['caveat'])}</p></section></div>"""
-        page(f"bulletin/{bl['number']}/index.html", bl["title"], body, desc=bl["dek"])
+        card = ROOT / "site" / "assets" / f"og-bulletin-{bl['number']}.png"
+        og = {"image": f"{URL}assets/og-bulletin-{bl['number']}.png", "width": 1200, "height": 630,
+              "alt": f"Lab bulletin {bl['number']}: {bl['title']}"} if card.exists() else None
+        page(f"bulletin/{bl['number']}/index.html", bl["title"], body, desc=bl["dek"], og=og,
+             og_title=f"{bl['title']} — Stratum lab bulletin {bl['number']}")
         out.append(bl)
     return out[-1] if out else None
 
