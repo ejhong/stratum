@@ -117,6 +117,15 @@ def profile_dots(r, with_stake=False):
     return f'<span class="profile" aria-label="Evidence profile {r["_profile"]:g} of 8">{"".join(out)}</span>'
 
 
+def age_cell(r):
+    """Claimed age for tables: the range when it is wide (a midpoint would be a figure nobody claimed)."""
+    ca = r["claimed_age"]
+    lo, hi = ca.get("bp_min"), ca.get("bp_max")
+    if isinstance(lo, int) and isinstance(hi, int) and lo > 0 and hi / lo > 1.5:
+        return f'{fmt_age(lo).replace(" yrs", "")}–{fmt_age(hi)}'
+    return fmt_age(r["_age"]) if r["_age"] else "—"
+
+
 def verdict_cell(r):
     if r["status"] == "open":
         return "open"
@@ -168,7 +177,7 @@ def case_rows(cases, compact=False):
         if not compact:
             cells.append(f'<td data-v="{e(r["anomaly_type"])}" class="kind" title="{e(TYPE_LABEL[r["anomaly_type"]])}">{e(TYPE_SHORT[r["anomaly_type"]])}</td>')
         cells += [
-            f'<td class="n" data-v="{int(r["_age"] or 0)}">{e(r["claimed_age"]["label"])}</td>',
+            f'<td class="n" data-v="{int(r["_age"] or 0)}" title="{e(r["claimed_age"]["label"])}">{e(age_cell(r))}</td>',
             f'<td class="n" data-v="{r["year_claimed"]}">{r["year_claimed"]}</td>',
             f'<td class="n" data-v="{r.get("year_resolved") or 9999}">{verdict_cell(r)}</td>',
             f'<td class="n" data-v="{r["_years"]}">{years_cell(r)}</td>',
