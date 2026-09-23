@@ -33,6 +33,7 @@ docs/DECISIONS.md, check the state of the catalog, and run the next batch."*
    `review.open_issues`), then:
    ```bash
    python3 scripts/fetch_plates.py      # licensed photographs
+   python3 scripts/make_og.py           # link-preview cards with current numbers (needs Chrome)
    python3 scripts/build.py             # validate → database → analysis → site
    python3 -m http.server -d _site 8000 # look at it: http://localhost:8000
    ```

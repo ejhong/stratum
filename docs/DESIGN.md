@@ -74,3 +74,18 @@ Never AI-generated images of evidence.
 Use `page()` in `build_site.py`; keep the nav at four items (Cases, Findings, Leads, Method).
 Prefer a table row or a bullet over a new section, and a chart over a paragraph. Check desktop
 (1440px) and phone (390px) screenshots before publishing.
+
+## Link previews
+
+What people see when a link is shared (iMessage, Slack, X, LinkedIn, WhatsApp):
+
+- **Site card** (`site/assets/og.png`, 1200×630): wordmark, headline, fate counts, a
+  stratigraphic column of the cases, and the latest bulletin in a dark strip.
+- **Bulletin cards** (`og-bulletin-<n>.png`): dark, the headline large, one line of context,
+  one small data graphic.
+- **Case pages** preview with their own licensed photograph; the title carries the fate
+  ("Piltdown Man — Refuted · Stratum"). Cases without a photograph use the site card.
+- Every page carries complete Open Graph and Twitter tags (image size, alt text) and an
+  `apple-touch-icon`. `scripts/make_og.py` regenerates the cards from the catalog; run it
+  after each batch or bulletin. Platforms cache previews, so a changed card shows on new
+  shares, not old ones.
