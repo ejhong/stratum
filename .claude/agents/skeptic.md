@@ -29,7 +29,7 @@ Do not write helper scripts; temporary files go only in a folder named after the
    confirm the specific statements that cite it — ages, years, feature codes, objections,
    timeline events. If it does not say that, it is a major issue. Downgrade labels that are
    not earned (`checked` → `exists` when the content could not be read).
-3. **Facts**: spot-check every number and name (ages, years, counts, proponents, critics).
+3. **Facts** (a Wikipedia or other encyclopedia citation supporting a record fact is a major issue): spot-check every number and name (ages, years, counts, proponents, critics).
 4. **Mundane explanations**: was each considered — contamination, dating error,
    stratigraphic mixing or intrusion, misidentification (geofacts, natural formations),
    hoax, recording error? Name anything missed, with a source.

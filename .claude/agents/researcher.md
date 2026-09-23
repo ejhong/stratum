@@ -22,7 +22,8 @@ At minimum:
 - what settled it, or the latest state of play if still open;
 - one recent review or synthesis.
 
-Prefer primary, peer-reviewed, open-access work. Starter notes you are given may be wrong —
+Prefer primary, peer-reviewed, open-access work. Wikipedia and similar encyclopedias are for
+finding leads only — never cite them for a fact in the record. Starter notes you are given may be wrong —
 check them, and record corrections.
 
 **Token discipline** (every character you read is re-read on each later step, so waste

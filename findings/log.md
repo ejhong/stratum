@@ -74,3 +74,11 @@ worded here.
 - **Test:** re-code a random subset blind: a separate agent sees only sources published before resolution, never the outcome. Compare agreement.
 - **Would disprove it:** (that this bias matters) blind and unblinded codings agree on at least 90% of feature values.
 - **Status:** planned for after the first 24 records
+
+## R1 · Coherent residue: do dismissed dates line up?
+- **Date:** 2026-09-23
+- **Type:** pre-registered method (discovery track pilot), written before any radiocarbon data was examined
+- **Claim:** Dates set aside as "too old" are usually noise (contamination, old wood, reservoir effects, lab error), and noise should scatter. If, within a region, isolated too-old dates from independent sites (different sites, labs and materials) cluster at a common age more than chance allows, that coherent residue is a candidate signal of an unrecognized earlier occupation.
+- **Test:** (1) Data: open radiocarbon databases, p3k14c first. (2) Outliers: at sites with ≥ 5 dates, a date older than every other date at the site by > 3 combined standard errors, with no other date at that site within 2σ of it (an isolated old date, the kind excavators dismiss). (3) Mundane filters, applied before any clustering: marine shell and other reservoir-prone materials; bone dated before 1990 without stated collagen quality control; dates beyond 40,000 radiocarbon years; duplicate or split samples. (4) Coherence: per region, the largest number of independent sites whose outliers overlap in one 2σ age window, compared with a permutation null that shuffles outlier ages across regions within the same continent (10,000 permutations). (5) Threshold: p < 0.01 after Bonferroni correction across regions. (6) Every surviving cluster goes to a researcher and a skeptic: is it already known, and is there a mundane cause?
+- **Would disprove it:** (the method's value) no cluster survives, or every survivor is already known or mundanely explained — a publishable null for this approach on this database.
+- **Status:** pre-registered; pilot pending

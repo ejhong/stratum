@@ -6,3 +6,4 @@ __pycache__/
 sources/**/*.pdf
 sources/**/*.PDF
 .claude/settings.local.json
+data/raw/

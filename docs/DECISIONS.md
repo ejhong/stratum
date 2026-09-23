@@ -87,3 +87,13 @@ largest (hundreds of thousands of tokens by mid-session). So a fix needing more 
 two steps is cheaper in a fresh agent with a small context than in the main session. Records
 that *pass* review are marked `skeptic-passed` at once, with minor issues listed in
 `review.open_issues` for a later batched clean-up pass.
+
+## 2026-09-23 · D15 · Start a discovery track now, alongside Phase 1
+The owner wants genuinely new findings, not only verdicts on proposed cases — the analog of
+the biology lab's database scan. So the "coherent residue" pilot (R1 in the findings log)
+starts now rather than after 60 records: dismissed too-old radiocarbon dates should scatter
+if they are noise; independent ones that line up in age are a pattern no single excavator
+could see. The method was pre-registered before any data was examined. Scripts do the scan
+(no model tokens); agents judge only the survivors. Raw data with site coordinates stays out
+of git; outputs are region-level only. Planned next: a `synthesist` agent that proposes new
+hypotheses across the catalog and the scans, each pre-registered before testing.
