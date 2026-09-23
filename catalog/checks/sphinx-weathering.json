@@ -78,5 +78,65 @@
   "crossref_year": 2025,
   "crossref_venue": "Geological Society of America Abstracts with Programs",
   "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Rewriting the History of the Great Sphinx",
+  "crossref_year": 2026,
+  "crossref_venue": "",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Accumulation of Cosmogenic Chlorine-36 in Rocks: a Method for Surface Exposure Dating",
+  "crossref_year": 1986,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Cosmogenic chlorine-36 from calcium spallation",
+  "crossref_year": 1996,
+  "crossref_venue": "Geochimica et Cosmochimica Acta",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Dating carbonate rocks with in-situ produced cosmogenic 10Be: Why it often fails",
+  "crossref_year": 2008,
+  "crossref_venue": "Quaternary Geochronology",
+  "checked_on": "2026-09-23"
+ },
+ "S19": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Radiocarbon Dates of Old and Middle Kingdom Monuments in Egypt",
+  "crossref_year": 2001,
+  "crossref_venue": "Radiocarbon",
+  "checked_on": "2026-09-23"
  }
 }

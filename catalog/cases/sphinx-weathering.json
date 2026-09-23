@@ -1,344 +1,477 @@
 {
-  "id": "sphinx-weathering",
-  "name": "Great Sphinx Weathering Controversy",
-  "hook": "Rain-channel erosion on the Sphinx walls, read by some geologists as proof it predates Khafre.",
-  "location": {
-    "country": "Egypt",
-    "region": "Giza",
-    "continent": "Africa"
+ "id": "sphinx-weathering",
+ "name": "Great Sphinx Weathering Controversy",
+ "hook": "Deep weathering around the Great Sphinx, read by a geologist as a sign it was carved millennia before Khafre.",
+ "location": {
+  "country": "Egypt",
+  "region": "Giza",
+  "continent": "Africa"
+ },
+ "anomaly_type": "chronology",
+ "claim": "Robert Schoch, a geologist working with John Anthony West, argued that 'precipitation-induced weathering' of the Sphinx and its enclosure walls, and deeper weathering under the enclosure floor at its front and sides, show the Sphinx was first carved millennia before Khafre (c. 2500 BC).",
+ "claimed_age": {
+  "label": "c. 7000-5000 BC ('probably a minimum')",
+  "bp_min": 6950,
+  "bp_max": 8950,
+  "basis": "Schoch (1992): floor weathering 'fifty to 100 percent deeper' at front and sides than at the rear (taken as c. 2500 BC) gives a 'tentative estimate'. Seismic depths, not radiometric dating.",
+  "source": "S11"
+ },
+ "accepted_age": null,
+ "orthodoxy_at_claim": {
+  "label": "Carved for Khafre (Fourth Dynasty, c. 2500 BC), as were the adjacent Sphinx and Valley temples: the standard Egyptological attribution.",
+  "limit_bp": 4450,
+  "source": "S11"
+ },
+ "year_claimed": 1991,
+ "key_proponents": [
+  "Robert M. Schoch",
+  "John Anthony West",
+  "Thomas L. Dobecki"
+ ],
+ "key_critics": [
+  "K. Lal Gauri",
+  "James A. Harrell",
+  "Mark Lehner"
+ ],
+ "evidence_types": [
+  "geology",
+  "morphology",
+  "architecture"
+ ],
+ "independent_methods_count": 3,
+ "features_at_claim": {
+  "unambiguous_signal": {
+   "value": "no",
+   "note": "Contemporaries disputed whether the profile and channels record rainfall: Harrell (1994) proposed wet sand and salts, Gauri et al. (1995) arid weathering and old karst.",
+   "source": "S2"
   },
-  "anomaly_type": "chronology",
-  "claim": "Geologist Robert Schoch, with John Anthony West, argued that rounded, vertically-channeled weathering on the Sphinx and its rock-cut enclosure walls was produced by centuries of heavy rainfall, requiring carving millennia before Khafre's Fourth Dynasty reign (c. 2500 BCE).",
-  "claimed_age": {
-    "label": "~7,000+ yr BP (proposed minimum, open-ended)",
-    "bp_min": 7000,
-    "bp_max": null,
-    "basis": "Schoch and West (1991) attributed the enclosure's weathering to rainfall during a humid climate phase they placed at 'at least 7000 years ago', implying carving well before Khafre's c. 2500 BCE reign.",
-    "source": "S2"
+  "documented_context": {
+   "value": "partial",
+   "note": "A surveyed rock-cut monument (ARCE photogrammetry), but exposed bedrock has no sealed sequence to date; the case rests on weathering, not stratified finds.",
+   "source": "S4"
   },
-  "accepted_age": null,
-  "orthodoxy_at_claim": {
-    "label": "Sphinx carved during Khafre's Fourth Dynasty reign (c. 2500 BCE) as part of his pyramid and valley-temple complex.",
-    "limit_bp": 4500,
-    "source": "S2"
+  "multiple_dating_methods": {
+   "value": "no",
+   "note": "No absolute dating. The 7000-5000 BC figure scales seismic weathering depths against a rear taken as c. 2500 BC.",
+   "source": "S11"
   },
-  "year_claimed": 1991,
-  "key_proponents": [
-    "Robert M. Schoch",
-    "John Anthony West",
-    "Thomas L. Dobecki",
-    "Colin D. Reader"
-  ],
-  "key_critics": [
-    "K. Lal Gauri",
-    "James A. Harrell",
-    "Mark Lehner",
-    "Zahi Hawass",
-    "T.A.H. Wilkinson",
-    "A.J. Shortland & C.J. Doherty"
-  ],
-  "evidence_types": [
-    "geology",
-    "morphology",
-    "stratigraphy",
-    "architecture"
-  ],
-  "independent_methods_count": 2,
-  "features_at_claim": {
-    "unambiguous_signal": {
-      "value": "no",
-      "note": "The pattern itself is disputed: Gauri et al. (1995) show arid-climate weathering of interbedded hard/soft limestone reproduces the same rounded profile, so it is not unambiguous evidence of rainfall.",
-      "source": "S2"
-    },
-    "documented_context": {
-      "value": "partial",
-      "note": "The enclosure is a standing, professionally surveyed rock-cut monument (ARCE photogrammetric study; seismic survey), but as exposed bedrock has no sealed stratigraphic sequence to date.",
-      "source": "S4"
-    },
-    "multiple_dating_methods": {
-      "value": "no",
-      "note": "No radiometric or absolute-dating method was applied at the time of the claim; it rests on comparative interpretation of weathering morphology plus one seismic-refraction survey.",
-      "source": "S1"
-    },
-    "multiple_labs": {
-      "value": "no",
-      "note": "No dating laboratories were involved, since no absolute-dating method was used to support the original claim.",
-      "source": "S1"
-    },
-    "professional_recovery": {
-      "value": "yes",
-      "note": "Conducted by a credentialed geologist (Schoch, Boston University) and a professional geophysicist (Dobecki) using standard field and seismic-survey methods.",
-      "source": "S1"
-    },
-    "peer_reviewed_report": {
-      "value": "yes",
-      "note": "The seismic survey underlying the claim appeared in Geoarchaeology within about a year of the 1991 public announcement.",
-      "source": "S1"
-    },
-    "material_accessible": {
-      "value": "yes",
-      "note": "The Sphinx and its enclosure are a permanent, openly accessible public monument; critics examined the same walls Schoch and West described.",
-      "source": "S2"
-    },
-    "independent_teams": {
-      "value": "yes",
-      "note": "Gauri, Sinai and Bandyopadhyay (University of Louisville) independently re-examined the same features within about four years and published a competing interpretation.",
-      "source": "S2"
-    },
-    "proponent_stake": {
-      "value": "unknown",
-      "note": "Sources reviewed this session do not document proponents' motives. West was not a credentialed geologist or Egyptologist, but his specific motivations were not independently verified this session."
-    }
+  "multiple_labs": {
+   "value": "no",
+   "note": "No laboratory dating was involved.",
+   "source": "S11"
   },
-  "objections": [
-    {
-      "text": "Alternating hard and soft limestone strata have different pore ('ink-bottle') structures; under ordinary arid-climate weathering alone these reproduce the enclosure's rounded profile without invoking prolonged rainfall.",
-      "kind": "other",
-      "raised_by": "K. Lal Gauri, J.J. Sinai & J.K. Bandyopadhyay (1995)",
-      "year": 1995,
-      "outcome": "unresolved",
-      "outcome_note": "Widely treated as the mainstream explanation, but Reader (2001) still argued water was involved, so the mechanism debate continued rather than closing.",
-      "source": "S2"
-    },
-    {
-      "text": "The deep vertical channels in the enclosure walls are pre-existing (pre-Pliocene) karst features cut by ancient groundwater, then simply re-exposed when Old Kingdom workers excavated the enclosure ditch.",
-      "kind": "context",
-      "raised_by": "K. Lal Gauri, J.J. Sinai & J.K. Bandyopadhyay (1995)",
-      "year": 1995,
-      "outcome": "unresolved",
-      "outcome_note": "No independent dating of the karst infill or of the re-exposure event has been published to directly test this.",
-      "source": "S2"
-    },
-    {
-      "text": "Distribution of erosion across the enclosure fits rainfall run-off channeling water across the surface, not direct, uniform rainfall ('rainfall per se') as Schoch's original argument proposed.",
-      "kind": "other",
-      "raised_by": "Colin D. Reader (2001)",
-      "year": 2001,
-      "outcome": "held",
-      "outcome_note": "Reader's run-off refinement is now the more commonly cited form of the water-erosion argument among researchers who accept it, though it remains a minority position.",
-      "source": "S5"
-    },
-    {
-      "text": "Reader's water-erosion argument and proposed pre-Khufu date drew formal published objections from an Egyptologist and from archaeological-materials specialists in the same journal issue.",
-      "kind": "other",
-      "raised_by": "T.A.H. Wilkinson; A.J. Shortland & C.J. Doherty (2001)",
-      "year": 2001,
-      "outcome": "unresolved",
-      "outcome_note": "Full text of both comments was not accessible this session (HTTP 403; no Crossref abstract); Reader published a reply defending his interpretation in the same issue.",
-      "source": "S6"
-    },
-    {
-      "text": "What has been described as erosion may not be weathering at all: the Sphinx body may be rough-pounded bedrock originally covered by a fine limestone veneer, later looted, exposing a rough core misread as erosion.",
-      "kind": "identification",
-      "raised_by": "R. Schneiker (2025)",
-      "year": 2025,
-      "outcome": "unresolved",
-      "outcome_note": "A 2025 conference abstract, not yet a peer-reviewed paper or evaluated in the wider literature.",
-      "source": "S10"
-    }
-  ],
-  "status": "open",
-  "status_note": "Most geologists and Egyptologists still favor Khafre's Fourth Dynasty date; Gauri et al. (1995) showed arid weathering can reproduce the profile. The mechanism stays debated (Reader 2001; Schneiker 2025); no direct dating test has run.",
-  "year_resolved": null,
-  "what_settled_it": null,
-  "settled_by": [
-    "not-settled"
-  ],
-  "failure_mode": "none",
-  "timeline": [
-    {
-      "year": 1979,
-      "event": "American Research Center in Egypt begins an architectural and photogrammetric study of the Sphinx (Lehner), later published as its standard reconstruction.",
-      "source": "S4"
-    },
-    {
-      "year": 1990,
-      "event": "Chowdhury, Punuru & Gauri publish a pore-structure model of Sphinx limestone weathering, predating the Schoch/West claim.",
-      "source": "S3"
-    },
-    {
-      "year": 1991,
-      "event": "Schoch and West first publicly propose that Sphinx enclosure weathering reflects ancient rainfall, implying a pre-dynastic carving date.",
-      "source": "S2"
-    },
-    {
-      "year": 1992,
-      "event": "Dobecki & Schoch publish seismic-survey evidence in Geoarchaeology for non-uniform subsurface weathering around the Sphinx enclosure.",
-      "source": "S1"
-    },
-    {
-      "year": 1992,
-      "event": "Lehner publishes 'Reconstructing the Sphinx', the detailed ARCE-based photogrammetric reconstruction of the Fourth- and Eighteenth-Dynasty phases.",
-      "source": "S4"
-    },
-    {
-      "year": 1995,
-      "event": "Gauri, Sinai & Bandyopadhyay rebut Schoch and West in Geoarchaeology: differential porosity plus re-exposed ancient karst explain the profile.",
-      "source": "S2"
-    },
-    {
-      "year": 2001,
-      "event": "Reader proposes in Archaeometry that rainfall run-off eroded the enclosure and that the Sphinx may predate Khufu, though not by millennia.",
-      "source": "S5"
-    },
-    {
-      "year": 2001,
-      "event": "Wilkinson and Shortland & Doherty publish critical comments on Reader's paper in Archaeometry; Reader replies in the same issue.",
-      "source": "S6"
-    },
-    {
-      "year": 2019,
-      "event": "Seyfzadeh & Schoch argue from hieroglyph iconography (Archaeological Discovery) for a lion monument at Giza predating Khafre by about 700 years.",
-      "source": "S9"
-    },
-    {
-      "year": 2025,
-      "event": "Schneiker proposes at a GSA meeting that the 'eroded' Sphinx body is rough-pounded bedrock once covered by a since-looted stone veneer, not weathering.",
-      "source": "S10"
-    }
-  ],
-  "decisive_tests": [
-    {
-      "test": "Cosmogenic 36Cl (or 10Be) exposure dating of sampled points on the Sphinx enclosure walls, calibrated against exposure ages from dated Khafre-era Giza quarry/causeway limestone faces.",
-      "would_show": "Whether the enclosure walls' exposure history matches ~4,500 years, as the Khafre attribution predicts, or requires far longer exposure.",
-      "cost": "medium"
-    },
-    {
-      "test": "Search for, and if present, U-series or radiocarbon date any secondary carbonate crusts or cemented sediment films on the weathered enclosure faces.",
-      "would_show": "A minimum or maximum age bracketing when active surface weathering or water-related deposition last occurred on that wall.",
-      "cost": "medium"
-    },
-    {
-      "test": "Comparative weathering study: measure weathering depth and style on the enclosure walls against nearby, securely Khafre-dated Giza quarry and causeway faces of the same limestone member and similar exposure.",
-      "would_show": "Whether ~4,500 years of ordinary arid weathering on identical rock reproduces the enclosure's profile (supports Gauri) or falls far short of it (supports Schoch/Reader).",
-      "cost": "low"
-    },
-    {
-      "test": "Close visual and microscopic survey of the Sphinx body surface for tool marks, veneer-block sockets or fixation traces versus true weathering rinds, to test the 2025 construction-technique hypothesis.",
-      "would_show": "Whether the 'eroded' texture is worked, once-veneered bedrock or genuine natural weathering.",
-      "cost": "low"
-    }
-  ],
-  "falsifier": "Strengthened if exposure, carbonate, or comparative-weathering dating shows the enclosure needed far more than ~4,500 years of exposure. Refuted as ordinary weathering if dating matches Khafre's reign, or the 'eroded' surface proves a worked, once-veneered core.",
-  "sources": [
-    {
-      "id": "S1",
-      "citation": "Dobecki, T.L. & Schoch, R.M. (1992). Seismic investigations in the vicinity of the great Sphinx of Giza, Egypt. Geoarchaeology 7(6): 527-544.",
-      "doi": "10.1002/gea.3340070603",
-      "url": null,
-      "kind": "primary",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Full abstract read: seismic refraction/reflection survey found non-uniform subsurface weathering depth and cavities around the enclosure, cited as supporting an older date."
-    },
-    {
-      "id": "S2",
-      "citation": "Lal Gauri, K., Sinai, J.J. & Bandyopadhyay, J.K. (1995). Geologic weathering and its implications on the age of the sphinx. Geoarchaeology 10(2): 119-133.",
-      "doi": "10.1002/gea.3340100203",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Full abstract read: states Schoch & West's (1991) claim ('at least 7000 yr ago'), then rebuts with differential-porosity weathering and re-exposed karst; Sphinx 'may still be...pharaonic'."
-    },
-    {
-      "id": "S3",
-      "citation": "Chowdhury, A.N., Punuru, A.R. & Gauri, K.L. (1990). Weathering of limestone beds at the great sphinx. Environmental Geology and Water Sciences 15(3): 217-223.",
-      "doi": "10.1007/BF01706413",
-      "url": "https://doi.org/10.1007/BF01706413",
-      "kind": "report",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Read via publisher landing page: Sphinx limestone weathering is controlled by strata-specific 'ink-bottle' pore structure. Predates the 1991 claim; the pre-existing conventional explanation."
-    },
-    {
-      "id": "S4",
-      "citation": "Lehner, M. (1992). Reconstructing the Sphinx. Cambridge Archaeological Journal 2(1): 3-26.",
-      "doi": "10.1017/S0959774300000445",
-      "url": null,
-      "kind": "report",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: reports the 1979-83 ARCE photogrammetric study reconstructing the Sphinx as carved in the 4th Dynasty, remodeled in the 18th. Does not itself address rainfall-weathering."
-    },
-    {
-      "id": "S5",
-      "citation": "Reader, C.D. (2001). A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site. Archaeometry 43(1): 149-165.",
-      "doi": "10.1111/1475-4754.00009",
-      "url": null,
-      "kind": "primary",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Full abstract read: independent proposal that rainfall run-off (not direct rainfall) eroded the enclosure, and that the Sphinx may predate Khufu -- a more modest revision than Schoch's."
-    },
-    {
-      "id": "S6",
-      "citation": "Shortland, A.J. & Doherty, C.J. (2001). Comments on 'A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site'. Archaeometry 43(1): 160-162.",
-      "doi": "10.1111/1475-4754.00010",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "exists",
-      "note": "Existence, authors and page range confirmed via Crossref; no abstract available, full text blocked (HTTP 403). Not used to support arguments beyond its existence."
-    },
-    {
-      "id": "S7",
-      "citation": "Wilkinson, T.A.H. (2001). Comment on C. D. Reader, 'A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site'. Archaeometry 43(1): 163-165.",
-      "doi": "10.1111/1475-4754.00011",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "exists",
-      "note": "Existence, author and page range confirmed via Crossref; no abstract available and full text blocked this session, so specific arguments are not used to support any field beyond its existence."
-    },
-    {
-      "id": "S8",
-      "citation": "Reader, C.D. (2001). A Response to Comments on 'A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site'. Archaeometry 43(1): 166-168.",
-      "doi": "10.1111/1475-4754.00012",
-      "url": null,
-      "kind": "reply",
-      "access": "paywalled",
-      "verification": "exists",
-      "note": "Existence and page range confirmed via Crossref; full text blocked (HTTP 403) this session. Used only to confirm a reply was published."
-    },
-    {
-      "id": "S9",
-      "citation": "Seyfzadeh, M. & Schoch, R.M. (2019). Major Geological Fissure through Prehistoric Lion Monument at Giza Inspired Split Lion Hieroglyphs and Ancient Egypt's Creation Myth. Archaeological Discovery 7(4): 211-256.",
-      "doi": "10.4236/ad.2019.74011",
-      "url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=94795",
-      "kind": "primary",
-      "access": "open",
-      "verification": "checked",
-      "note": "Non-weathering (hieroglyph) argument by the same proponent for a pre-Khafre 'lion monument', ~700 yr before Khafre. Minimal-gatekeeping journal; treated as proponent source."
-    },
-    {
-      "id": "S10",
-      "citation": "Schneiker, R. (2025). The Great Sphinx: A New View on the Erosion Enigma. Geological Society of America Abstracts with Programs.",
-      "doi": "10.1130/abs/2025am-9176",
-      "url": "https://doi.org/10.1130/abs/2025am-9176",
-      "kind": "other",
-      "access": "open",
-      "verification": "checked",
-      "note": "Abstract read via GSA program page (OpenAlex lists closed, page was readable). Frames Schoch/Reader as erosion proponents; proposes 'erosion' is a once-veneered surface. Not yet peer-reviewed."
-    }
-  ],
-  "confidence": "medium",
-  "confidence_note": "Core exchange (Dobecki & Schoch, Gauri et al., Chowdhury et al., Reader, Lehner, Schneiker) checked in full. Wilkinson/Shortland & Doherty comments, Harrell's critique, not locatable this session.",
-  "corrections": [
-    "Brief: critics 'proposed salt weathering, flash floods, differing rock quality'. Verified 1995 rebuttal (Gauri et al., S2) argues pore structure plus re-exposed karst -- not salt/flash floods; unconfirmed this session.",
-    "Brief names Harrell among critics with an implied rebuttal. No Harrell Sphinx publication located in Crossref/OpenAlex this session; retained in key_critics on the brief's strength, but not cited as a source.",
-    "Brief's '1991-92' claim window is confirmed: Gauri et al. (1995, S2) date the original claim to 'Schoch and West (1991)', with Dobecki & Schoch's peer-reviewed seismic paper following in 1992 (S1)."
-  ],
-  "notes": "Three 'early Sphinx' claims are sometimes conflated: Schoch/West's rainfall claim (>=7,000 BP, open-ended, S2), Reader's 2001 run-off revision (pre-Khufu, not millennia older, S5), and Seyfzadeh & Schoch's 2019 hieroglyph claim (~700 yr pre-Khafre, S9). Wilkinson's and Shortland & Doherty's 2001 critiques of Reader (S6, S7) could not be read in full this session (HTTP 403; no Crossref abstract) -- flagged for the skeptic. No cosmogenic (36Cl/10Be), U-series, or carbonate dating study of the enclosure was located. A 2026 JSTOR volume 'Rewriting the History of the Great Sphinx' exists but its authorship and peer-review status could not be confirmed, so it is not used as a source.",
-  "plates": [
-    {
-      "commons_file": "File:Great Sphinx of Giza - 20080716a.jpg",
-      "caption": "The Great Sphinx of Giza, showing the weathered limestone body at the center of the dating controversy."
-    }
-  ],
-  "review": {
-    "drafted_by": "researcher agent (claude-sonnet-5)",
-    "drafted_on": "2026-09-23",
-    "stage": "draft"
+  "professional_recovery": {
+   "value": "yes",
+   "note": "Field and seismic work by geologist Schoch with seismologist Dobecki, with permission of the Egyptian Antiquities Organization.",
+   "source": "S11"
+  },
+  "peer_reviewed_report": {
+   "value": "partial",
+   "note": "The seismic data appeared in Geoarchaeology (1992), but its abstract gives no age; the dating argument ran in KMT, a popular magazine (S11).",
+   "source": "S1"
+  },
+  "material_accessible": {
+   "value": "yes",
+   "note": "The walls are a standing monument and the seismic profiles were published; Harrell (1994) re-analysed the published profiles.",
+   "source": "S12"
+  },
+  "independent_teams": {
+   "value": "partial",
+   "note": "Gauri's group, Harrell and Lehner examined the evidence within about four years, all against the claim; no independent group corroborated it (Dobecki co-authored).",
+   "source": "S2"
+  },
+  "proponent_stake": {
+   "value": "unknown",
+   "note": "No documented commercial, religious or nationalist motive; a critic's allegation of motive (Lehner 1994) is not documentation.",
+   "source": "S14"
   }
+ },
+ "objections": [
+  {
+   "text": "Weathering in an arid climate 'can produce the rounded profile' of the Sphinx thorax, given its alternating hard and soft limestone strata, so the profile need not date from a humid phase.",
+   "kind": "identification",
+   "raised_by": "K. Lal Gauri, J.J. Sinai & J.K. Bandyopadhyay (1995)",
+   "year": 1995,
+   "outcome": "unresolved",
+   "outcome_note": "Argued from lithology and pore structure (S3), not tested on dated faces of the same beds; Schoch still argues for a much older monument (S9).",
+   "source": "S2"
+  },
+  {
+   "text": "The deep channels in the enclosure walls are 'pre-Pliocene karst features formed by underground water', only exposed when the Sphinx ditch was cut, so they need not record weathering after carving.",
+   "kind": "context",
+   "raised_by": "K. Lal Gauri, J.J. Sinai & J.K. Bandyopadhyay (1995)",
+   "year": 1995,
+   "outcome": "unresolved",
+   "outcome_note": "Schoch counts 'vertical crevices and other solution features' as precipitation weathering (S11); no dating of the channel fills was found.",
+   "source": "S2"
+  },
+  {
+   "text": "Sand buried the Sphinx for most of its history; kept wet by rain and Nile floods, it drove 'clay expansion' and 'salt (halite and gypsum) precipitation', so an early age 'is thus not required'.",
+   "kind": "identification",
+   "raised_by": "James A. Harrell (1994)",
+   "year": 1994,
+   "outcome": "unresolved",
+   "outcome_note": "Schoch replied that durable top beds are worn back most, by 'rain-runoff cascading over the walls'; Harrell answered that the walls were cut sloping (S13). Untested.",
+   "source": "S12"
+  },
+  {
+   "text": "Schoch's control tombs are not comparable: the Debehen tomb is in higher beds and eastern-escarpment tombs in a 'much more durable unit' than Member II; they are also 'higher and drier' (Harrell).",
+   "kind": "context",
+   "raised_by": "Mark Lehner (1994); James A. Harrell (1994)",
+   "year": 1994,
+   "outcome": "unresolved",
+   "outcome_note": "Harrell reports undulating profiles, with less relief, on nearby 4th-Dynasty quarry walls in more durable beds (S13); no bed-matched measured comparison was found.",
+   "source": "S14"
+  },
+  {
+   "text": "The seismic 'weathered' layer may be a coral-bearing reef facies, and line S3's lower velocities would make the rear floor more weathered, the reverse of Schoch's reading.",
+   "kind": "dating",
+   "raised_by": "James A. Harrell (1994)",
+   "year": 1994,
+   "outcome": "unresolved",
+   "outcome_note": "This layer is the basis of Schoch's age figure; no core-calibrated re-survey was found, so weathering versus facies is undecided.",
+   "source": "S12"
+  },
+  {
+   "text": "'Two-stage' temple building is ordinary core and casing, 'standard for Old Kingdom stone buildings'; such huge core blocks are 'nearly exclusive' to Khafre's temples, the Sphinx Temple and Menkaure's.",
+   "kind": "context",
+   "raised_by": "Mark Lehner (1994)",
+   "year": 1994,
+   "outcome": "unresolved",
+   "outcome_note": "West and Schoch hold that the core blocks were weathered before the granite casing was fitted (quoted in S14); no dating of that weathering was found.",
+   "source": "S14"
+  },
+  {
+   "text": "The uneven erosion fits 'rainfall run-off', 'experienced at Giza until the late Fifth Dynasty', not 'rainfall per se', implying that the Sphinx 'may pre-date the reign of Khufu'.",
+   "kind": "dating",
+   "raised_by": "Colin D. Reader (2001)",
+   "year": 2001,
+   "outcome": "unresolved",
+   "outcome_note": "A water-erosion reading with a smaller shift (pre-Fourth Dynasty); comments by Shortland & Doherty and Wilkinson (S6, S7) and Reader's reply (S8) could not be read.",
+   "source": "S5"
+  },
+  {
+   "text": "The Sphinx body shows 'very little erosion': its soft layers were pounded back and veneered, and looted veneer exposed a rough core 'misidentified as erosion'.",
+   "kind": "identification",
+   "raised_by": "R. Schneiker (2025)",
+   "year": 2025,
+   "outcome": "unresolved",
+   "outcome_note": "A 2025 conference abstract, not peer-reviewed; it concerns the body, not the enclosure walls, where Harrell notes the profile is strongest (S12).",
+   "source": "S10"
+  }
+ ],
+ "status": "open",
+ "status_note": "Khafre's reign remains the standard attribution; critics argue wet sand, salts, rock strata and karst explain the weathering, while Schoch keeps an older date (2019). No direct dating of the enclosure walls was found.",
+ "year_resolved": null,
+ "what_settled_it": null,
+ "settled_by": [
+  "not-settled"
+ ],
+ "failure_mode": "none",
+ "timeline": [
+  {
+   "year": 1990,
+   "event": "Chowdhury, Punuru & Gauri relate Sphinx limestone weathering to stratum-specific 'ink-bottle' pore systems.",
+   "source": "S3"
+  },
+  {
+   "year": 1991,
+   "event": "Schoch and West present the case that the Sphinx's weathering reflects rainfall in a humid era, implying a much older monument.",
+   "source": "S2"
+  },
+  {
+   "year": 1992,
+   "event": "Schoch's KMT article estimates first carving at 'ca. 7000 to 5000 B.C.', a 'tentative estimate' that is 'probably a minimum'.",
+   "source": "S11"
+  },
+  {
+   "year": 1992,
+   "event": "Dobecki & Schoch report in Geoarchaeology that weathering below the enclosure floor 'is not uniform'.",
+   "source": "S1"
+  },
+  {
+   "year": 1992,
+   "event": "Lehner publishes the 1979-83 ARCE photogrammetric study, reconstructing a Sphinx carved in the 4th Dynasty and renovated in the 18th.",
+   "source": "S4"
+  },
+  {
+   "year": 1994,
+   "event": "Harrell (KMT) argues that wet sand fill and salts explain the weathering and disputes the seismic picks; Schoch rebuts, Harrell replies.",
+   "source": "S12"
+  },
+  {
+   "year": 1994,
+   "event": "Lehner (KMT) argues that Schoch's control tombs lie in different beds and that 'two-stage' temples are normal core-and-casing work.",
+   "source": "S14"
+  },
+  {
+   "year": 1995,
+   "event": "Gauri, Sinai & Bandyopadhyay (Geoarchaeology) argue that arid weathering of alternating strata and re-exposed karst explain the features.",
+   "source": "S2"
+  },
+  {
+   "year": 2001,
+   "event": "Reader (Archaeometry) links the erosion to rainfall run-off and a pre-Khufu Sphinx; comments by Shortland & Doherty and by Wilkinson, and his reply, follow.",
+   "source": "S5"
+  },
+  {
+   "year": 2019,
+   "event": "Seyfzadeh & Schoch argue from split-lion hieroglyphs that a lion monument stood at Giza at least seven centuries before Khafre.",
+   "source": "S9"
+  },
+  {
+   "year": 2025,
+   "event": "Schneiker (GSA abstract) proposes that the body's 'erosion' is a pounded-back core exposed by looting of a stone veneer.",
+   "source": "S10"
+  },
+  {
+   "year": 2026,
+   "event": "Reader publishes a book, 'Rewriting the History of the Great Sphinx' (content not reviewed here).",
+   "source": "S15"
+  }
+ ],
+ "decisive_tests": [
+  {
+   "test": "Paired 36Cl depth profiles with measured Cl (10Be dating of carbonates often fails) in the enclosure walls and in bed-matched 4th-Dynasty quarry faces and dated masonry with the same sand burial and salt history.",
+   "would_show": "Shared burial, salt and inheritance effects cancel. Clearly longer modelled exposure on the walls than on the controls would support an earlier cut; matching exposure, Khafre's date.",
+   "cost": "high"
+  },
+  {
+   "test": "Re-survey the enclosure floor (seismic refraction plus resistivity), calibrated by shallow cores at front, sides and rear, to measure the depth of weathered rock directly.",
+   "would_show": "Whether floor weathering is really 50-100% deeper at front and sides, the basis of Schoch's date (S11), or the low-velocity layer is a reef facies, as Harrell argued (S12).",
+   "cost": "medium"
+  },
+  {
+   "test": "AMS-date any charcoal in mortar behind the earliest masonry repairs on the Sphinx body, sampled as the ARCE program did for other Giza monuments (Bonani et al. 2001, S19).",
+   "would_show": "An Old Kingdom date would mean the body was already worn when first repaired, favouring Schoch; a New Kingdom date fits Lehner's expectation for the first repairs (S11).",
+   "cost": "low"
+  },
+  {
+   "test": "Laser-scan wall recession in the enclosure and on 4th-Dynasty quarry walls and tombs, matched bed by bed and for burial and run-off position, with each model's prediction stated in advance.",
+   "would_show": "Similar recession on matched beds supports Khafre's date; far deeper recession in the enclosure than burial, salts and run-off can explain supports an earlier cut.",
+   "cost": "medium"
+  }
+ ],
+ "falsifier": "Toward refuted: 36Cl profiles or bed-matched recession on the enclosure walls match securely 4th-Dynasty faces with similar burial and salt exposure. Toward vindicated or partial: the walls show far longer exposure than burial, salts and run-off can explain.",
+ "sources": [
+  {
+   "id": "S1",
+   "citation": "Dobecki, T.L. & Schoch, R.M. (1992). Seismic investigations in the vicinity of the great Sphinx of Giza, Egypt. Geoarchaeology 7(6): 527-544.",
+   "doi": "10.1002/gea.3340070603",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: subsurface weathering below the enclosure floor 'is not uniform' ('varied periods of subaerial exposure'); cavities found. Gives no age."
+  },
+  {
+   "id": "S2",
+   "citation": "Lal Gauri, K., Sinai, J.J. & Bandyopadhyay, J.K. (1995). Geologic weathering and its implications on the age of the sphinx. Geoarchaeology 10(2): 119-133.",
+   "doi": "10.1002/gea.3340100203",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: cites 'Schoch and West (1991)'; arid weathering of hard/soft strata and pre-Pliocene karst; the Sphinx 'may still be regarded as of pharaonic origin'."
+  },
+  {
+   "id": "S3",
+   "citation": "Chowdhury, A.N., Punuru, A.R. & Gauri, K.L. (1990). Weathering of limestone beds at the great sphinx. Environmental Geology and Water Sciences 15(3): 217-223.",
+   "doi": "10.1007/BF01706413",
+   "url": "https://doi.org/10.1007/BF01706413",
+   "kind": "report",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read on publisher page: weathering controlled by 'ink-bottle' pore systems that vary from stratum to stratum. Predates the 1991 claim."
+  },
+  {
+   "id": "S4",
+   "citation": "Lehner, M. (1992). Reconstructing the Sphinx. Cambridge Archaeological Journal 2(1): 3-26.",
+   "doi": "10.1017/S0959774300000445",
+   "url": null,
+   "kind": "report",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: 1979-83 ARCE study; Sphinx modelled as carved in the 4th Dynasty and renovated in the 18th. Does not address rainfall weathering."
+  },
+  {
+   "id": "S5",
+   "citation": "Reader, C.D. (2001). A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site. Archaeometry 43(1): 149-165.",
+   "doi": "10.1111/1475-4754.00009",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: run-off, not 'rainfall per se'; Sphinx 'may pre-date the reign of Khufu'. Crossref pages 149-165 overlap S6-S8; article likely ends p. 159 (unconfirmed)."
+  },
+  {
+   "id": "S6",
+   "citation": "Shortland, A.J. & Doherty, C.J. (2001). Comments on 'A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site'. Archaeometry 43(1): 160-162.",
+   "doi": "10.1111/1475-4754.00010",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Crossref metadata confirmed; no abstract; Wiley page HTTP 403 (rechecked 2026-09-23). Cited for existence only."
+  },
+  {
+   "id": "S7",
+   "citation": "Wilkinson, T.A.H. (2001). Comment on C. D. Reader, 'A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site'. Archaeometry 43(1): 163-165.",
+   "doi": "10.1111/1475-4754.00011",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Crossref metadata confirmed; no abstract; full text not accessible. Cited for existence only."
+  },
+  {
+   "id": "S8",
+   "citation": "Reader, C.D. (2001). A Response to Comments on 'A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site'. Archaeometry 43(1): 166-168.",
+   "doi": "10.1111/1475-4754.00012",
+   "url": null,
+   "kind": "reply",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Crossref metadata confirmed; no abstract; full text not accessible. Cited only to show a reply was published."
+  },
+  {
+   "id": "S9",
+   "citation": "Seyfzadeh, M. & Schoch, R.M. (2019). Major Geological Fissure through Prehistoric Lion Monument at Giza Inspired Split Lion Hieroglyphs and Ancient Egypt's Creation Myth. Archaeological Discovery 7(4): 211-256.",
+   "doi": "10.4236/ad.2019.74011",
+   "url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=94795",
+   "kind": "primary",
+   "access": "open",
+   "verification": "checked",
+   "note": "Abstract read: lion monument 'at least seven centuries before the time of Khafre'; restates remodelling from 'the much older' lioness Mehit. A minimum, not a retreat."
+  },
+  {
+   "id": "S10",
+   "citation": "Schneiker, R. (2025). The Great Sphinx: A New View on the Erosion Enigma. Geological Society of America Abstracts with Programs.",
+   "doi": "10.1130/abs/2025am-9176",
+   "url": "https://doi.org/10.1130/abs/2025am-9176",
+   "kind": "other",
+   "access": "open",
+   "verification": "checked",
+   "note": "GSA abstract read: 'very little erosion'; body pounded back and veneered; looted veneer left a core 'misidentified as erosion'. Body only; not peer-reviewed."
+  },
+  {
+   "id": "S11",
+   "citation": "Schoch, R.M. (1992). Redating the Great Sphinx of Giza. KMT: A Modern Journal of Ancient Egypt 3(2) (Summer 1992). Author's online reprint.",
+   "doi": null,
+   "url": "http://www.robertschoch.net/Redating%20the%20Great%20Sphinx%20of%20Giza.htm",
+   "kind": "primary",
+   "access": "open",
+   "verification": "checked",
+   "note": "Reprint read: four lines of evidence; floor weathering 'fifty to 100 percent deeper' at front and sides; 'ca. 7000 to 5000 B.C.', 'probably a minimum'. Issue per Harrell (S12)."
+  },
+  {
+   "id": "S12",
+   "citation": "Harrell, J.A. (1994). The Sphinx controversy: another look at the geological evidence. KMT: A Modern Journal of Ancient Egypt 5(2): 70-74.",
+   "doi": null,
+   "url": "https://www.hallofmaat.com/sphinx/the-sphinx-controversy-another-look-at-the-geological-evidence-2/",
+   "kind": "critique",
+   "access": "open",
+   "verification": "checked",
+   "note": "Reprint read ('From KMT Vol. 5, No. 2'); on Harrell's University of Toledo publication list. Wet sand, clay and salts; seismic critique; West 'enlisted Dr. Schoch'."
+  },
+  {
+   "id": "S13",
+   "citation": "Harrell, J.A. (1994). Reply to R.M. Schoch's letter (KMT 5(2): 5-7) on 'The Sphinx controversy'. KMT: A Modern Journal of Ancient Egypt 5(3): 3-4.",
+   "doi": null,
+   "url": "https://www.hallofmaat.com/sphinx/more-sphinx-debate-he-said-i-say-james-harrell-responds-to-robert-schoch/",
+   "kind": "critique",
+   "access": "open",
+   "verification": "checked",
+   "note": "Reprint read; issue and pages from Harrell's publication list. Reports Schoch's counterpoints, e.g. 'rain-runoff cascading over the walls', with Harrell's answers."
+  },
+  {
+   "id": "S14",
+   "citation": "Lehner, M. (1994). Notes and photographs on the West-Schoch Sphinx hypothesis. KMT: A Modern Journal of Ancient Egypt 5(3): 40-48.",
+   "doi": null,
+   "url": "https://www.hallofmaat.com/sphinx/notes-and-photographs-on-the-west-schoch-sphinx-hypothesis/",
+   "kind": "critique",
+   "access": "open",
+   "verification": "checked",
+   "note": "Reprint read ('From KMT Vol. 5, No. 3, Fall 1994, pp 40-8'); title as given by the reprint. Control-tomb beds; core-and-casing construction."
+  },
+  {
+   "id": "S15",
+   "citation": "Reader, C.D. (2026). Rewriting the History of the Great Sphinx. Book (JSTOR).",
+   "doi": "10.2307/jj.38271388",
+   "url": null,
+   "kind": "book",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Crossref/OpenAlex metadata only; publisher and content not checked. Cited only for the timeline entry."
+  },
+  {
+   "id": "S16",
+   "citation": "Phillips, F.M., Leavy, B.D., Jannik, N.O., Elmore, D. et al. (1986). The Accumulation of Cosmogenic Chlorine-36 in Rocks: a Method for Surface Exposure Dating. Science 231(4733): 41-43.",
+   "doi": "10.1126/science.231.4733.41",
+   "url": null,
+   "kind": "other",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: 36Cl builds up in exposed rock and can date surface exposure over 10^3 to 10^6 years. Method source for the 36Cl test."
+  },
+  {
+   "id": "S17",
+   "citation": "Stone, J., Allan, G., Fifield, L. & Cresswell, R. (1996). Cosmogenic chlorine-36 from calcium spallation. Geochimica et Cosmochimica Acta 60(4): 679-692.",
+   "doi": "10.1016/0016-7037(95)00429-7",
+   "url": null,
+   "kind": "other",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Metadata confirmed; content not read. Cited only for its title's point that 36Cl is produced from calcium, the main cation in limestone."
+  },
+  {
+   "id": "S18",
+   "citation": "Merchel, S., Braucher, R., Benedetti, L., Grauby, O. et al. (2008). Dating carbonate rocks with in-situ produced cosmogenic 10Be: Why it often fails. Quaternary Geochronology 3(4): 299-307.",
+   "doi": "10.1016/j.quageo.2008.01.008",
+   "url": null,
+   "kind": "other",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Metadata confirmed; content not read. Cited only for its title's point that in-situ 10Be dating of carbonate rocks often fails."
+  },
+  {
+   "id": "S19",
+   "citation": "Bonani, G., Haas, H., Hawass, Z., Lehner, M. et al. (2001). Radiocarbon Dates of Old and Middle Kingdom Monuments in Egypt. Radiocarbon 43(3): 1297-1320.",
+   "doi": "10.1017/s0033822200038558",
+   "url": null,
+   "kind": "report",
+   "access": "open",
+   "verification": "checked",
+   "note": "Open PDF read: the ARCE program sampled charcoal specks in mortar between blocks of Old and Middle Kingdom monuments. Method source for the mortar test."
+  }
+ ],
+ "confidence": "medium",
+ "confidence_note": "Paywalled S1-S5 read as abstracts only; the 1992-94 KMT exchange read in online reprints. The 2001 comments (S6, S7) are unread. 'No direct dating' rests on searches.",
+ "corrections": [
+  "Brief: critics 'proposed salt weathering, flash floods, differing rock quality'. Salts (Harrell, S12) and rock quality (Gauri et al., S2; Lehner, S14) are right. Not flash floods: Harrell invoked sand kept wet by rain and Nile floods (S12).",
+  "Brief: 'From 1991–92 geologist Robert Schoch (with John Anthony West) argued'. West advocated the idea first and 'enlisted Dr. Schoch to develop the supporting evidence' (Harrell 1994, S12)."
+ ],
+ "notes": "Schoch's figure comes from seismic depth ratios; he wrote that the carving 'may be even earlier than 9,000 years' (S11). His four lines (weathering, two-stage temples, old repairs, seismic) all partly rest on reading weathering, so 3 are counted. Reader (S5) is a separate, smaller pre-Khufu revision. Test basis: 36Cl exposure dating (S16), 36Cl from calcium (S17), 10Be in carbonates often fails (S18), mortar charcoal dated at Giza (S19). No published 36Cl, U-series or carbonate dating of the enclosure walls was found by the researcher or the skeptic (2026-09-23).",
+ "plates": [
+  {
+   "commons_file": "File:Great Sphinx of Giza - 20080716a.jpg",
+   "caption": "The Great Sphinx of Giza, carved from the limestone bedrock of the Giza Plateau."
+  }
+ ],
+ "review": {
+  "drafted_by": "researcher agent (claude-sonnet-5)",
+  "drafted_on": "2026-09-23",
+  "stage": "revised",
+  "skeptic_by": "skeptic agent (claude-opus-5-5)",
+  "skeptic_on": "2026-09-23",
+  "skeptic_verdict": "revise",
+  "open_issues": [
+   "Declined: objections from the 2001 comments (S6, S7). Wiley returns HTTP 403 and the only summary found is a personal website, so their arguments are not recorded; S6-S8 stay 'exists'.",
+   "Declined: S5 pages left at Crossref's 149-165. They overlap S6-S8, but Wiley's contents page is unreadable (HTTP 403), so the likely 149-159 is unconfirmed.",
+   "Declined: the carbonate-crust test was dropped rather than reworded, since no source read shows closed-system calcite on the walls. Savchuk 2026 not added: its content was not checked.",
+   "proponent_stake 'partial' rests on a critic's account of West's aim (S14); a proponent-side source would be better. Hawass removed from key_critics: no text by him on this claim was read.",
+   "Schoch's 1994 KMT letter (5(2): 5-7) was not read; his counterpoints are given as Harrell reports them (S13). S11's volume 3(2) is inferred from Harrell's 'summer 1992 KMT'.",
+   "Main session: proponent_stake recoded unknown — a critic's allegation is not a documented stake."
+  ]
+ }
 }

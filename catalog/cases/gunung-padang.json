@@ -1,46 +1,48 @@
 {
   "id": "gunung-padang",
   "name": "Gunung Padang",
-  "hook": "Claimed 27,000-year-old buried pyramid beneath a real Javan megalith site; the paper was retracted in 2024.",
+  "hook": "A claimed Ice Age pyramid inside a Javan megalith hill; the paper was retracted in 2024.",
   "location": {
     "country": "Indonesia",
-    "region": "West Java (Cianjur Regency)",
+    "region": "West Java",
     "continent": "Asia"
   },
   "anomaly_type": "capability",
-  "claim": "Natawidjaja et al. (2023) claimed that Gunung Padang, a hilltop megalithic terrace site, contains deliberately built subsurface layers reaching 20-30 m deep, plus buried chambers, with construction beginning in the Palaeolithic and the deepest layer dated to roughly 27,000 years ago.",
+  "claim": "By 2013 Natawidjaja's team (TTRM) claimed man-made layers 14,000+ years old lie deep inside Gunung Padang hill. Their 2023 paper: a natural lava hill 'sculpted' and encased 25,000–14,000 BCE, then buried and built phases to 5500 BCE, 20–30 m deep, with chambers.",
   "claimed_age": {
-    "label": "Construction phases to ~27,000 yr BP (deepest layer)",
-    "bp_min": 9000,
-    "bp_max": 27000,
-    "basis": "Radiocarbon on organic matter in soil from cores/trenches. Retraction notice cites '9,000 or more years' for the rejected 'pyramid built' claim; secondary sources report the deepest unit at up to ~27,000 years.",
+    "label": "Oldest phase 25,000–14,000 BCE (~27,000–16,000 cal BP)",
+    "bp_min": 15949,
+    "bp_max": 26949,
+    "basis": "OxCal-calibrated 14C on 12 bulk organic-soil samples (6 cores, 6 trenches): 8 AMS at Beta Analytic, 4 conventional at BATAN. Also claimed: Unit 3 buried 7900–6100 BCE; Unit 2 built 6000–5500 BCE.",
     "source": "S1"
   },
   "accepted_age": {
-    "label": "Surface terraces: prehistoric, exact age unresolved",
-    "bp_min": null,
-    "bp_max": null,
-    "basis": "Accepted as a genuine built monument. Proponents' own preliminary surface dating gave ~3,000 cal BP (2018 preprint); no independently confirmed numeric age was found to cite here.",
-    "source": "S5"
+    "label": "Terraces ~117–45 BCE (charcoal); deep layers not shown built",
+    "bp_min": 1994,
+    "bp_max": 2066,
+    "basis": "Press report: Yondri (BRIN, outside the team) had charcoal from under terrace walls 14C-dated at BATAN: Terrace 1 ~117 BCE, Terrace 4 ~45 BCE; calibration unreported. S1 put the terraces at 2000–1100 BCE.",
+    "source": "S10"
   },
   "orthodoxy_at_claim": {
-    "label": "Surface terraces accepted as prehistoric; IAAI archaeologists had already called this team's 2011-2014 'pyramid' claims unsupported.",
+    "label": "A megalithic terrace complex sitting on the hilltop, used for ancestor worship; the rock layers below were read as natural.",
     "limit_bp": null,
-    "source": "S9"
+    "source": "S5"
   },
-  "year_claimed": 2023,
+  "year_claimed": 2013,
   "key_proponents": [
-    "Danny Hilman Natawidjaja (BRIN, geologist)",
-    "Ali Akbar (Universitas Indonesia, archaeologist)",
-    "Andang Bachtiar (geologist)",
-    "Bagus Endar B. Nurhandoko (geophysicist)",
-    "Tim Terpadu Riset Mandiri Gunung Padang"
+    "Danny Hilman Natawidjaja (geologist, lead author)",
+    "Ali Akbar (archaeologist, TTRM archaeology lead)",
+    "Andang Bachtiar (co-author)",
+    "Bagus Endar B. Nurhandoko (co-author)",
+    "Tim Terpadu Riset Mandiri (TTRM) Gunung Padang"
   ],
   "key_critics": [
-    "Eileen Ernenwein & Gregory Tsokas (journal co-editors)",
+    "Eileen Ernenwein & Gregory Tsokas (co-editors-in-chief)",
     "Truman Simanjuntak (archaeologist, IAAI)",
     "Daud Tanudirjo (archaeologist, IAAI)",
-    "Wiley / Archaeological Prospection investigation"
+    "Lutfi Yondri (BRIN archaeologist)",
+    "Flint Dibble (archaeologist)",
+    "Anonymous experts in geophysics, archaeology and 14C"
   ],
   "evidence_types": [
     "radiocarbon",
@@ -53,109 +55,110 @@
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "no",
-      "note": "Retraction investigation found dated soils were not tied to any artifact or feature reliably interpreted as anthropogenic.",
-      "source": "S2"
+      "note": "The deep evidence was geophysical layers, cores and soil dates, not artifacts. In July 2013 IAAI archaeologists called the results hypothesis without strong archaeological evidence.",
+      "source": "S9"
     },
     "documented_context": {
       "value": "partial",
-      "note": "Cores, trenches and geophysics were systematically logged, but the link between those logs and human construction, rather than natural stratigraphy, is exactly what was found unsupported.",
-      "source": "S2"
+      "note": "Cores and trenches were logged against geophysics, but whether the layers were built or natural was the open question; the team says Layer 2 was once read as natural rock.",
+      "source": "S5"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "Only radiocarbon dated the deep layers; no OSL/TL cross-check on the disputed 'construction' soils is reported in accessible sources.",
+      "note": "All ages were radiocarbon (on bulk soil in S1); no second dating method was applied to the deep layers.",
       "source": "S1"
     },
     "multiple_labs": {
-      "value": "unknown",
-      "note": "Number of radiocarbon laboratories used is not confirmed in the sources accessible to this record (full paper text blocked)."
+      "value": "yes",
+      "note": "12 bulk-soil samples: 8 AMS at Beta Analytic, 4 conventional at BATAN (S1, 2023). Both labs dated bulk soil, so the second lab does not address the association problem.",
+      "source": "S1"
     },
     "professional_recovery": {
       "value": "yes",
-      "note": "Team included credentialed geologists/geophysicists from Indonesia's national research agency (BRIN) and an archaeologist (Ali Akbar, Universitas Indonesia).",
-      "source": "S1"
+      "note": "Geologists and geophysicists cored and trenched the site; archaeologist Ali Akbar led the TTRM archaeology team (Oct 2011–2014).",
+      "source": "S10"
     },
     "peer_reviewed_report": {
-      "value": "yes",
-      "note": "Published in Archaeological Prospection after peer review; the journal's co-editor-in-chief later wrote that peer review failed to catch the core problem before publication.",
-      "source": "S3"
+      "value": "no",
+      "note": "Through 2018 the claim appeared in a popular book (Akbar 2013, S10) and a preprint (2018). The first peer-reviewed report came in 2023 and was retracted in 2024.",
+      "source": "S5"
     },
     "material_accessible": {
       "value": "partial",
-      "note": "The hilltop site is an open public heritage/tourism location, but no evidence found here that the specific dated soil samples or cores were shared with outside labs for re-analysis.",
-      "source": "S7"
+      "note": "Outside archaeologists worked on the surface terraces (Yondri), but no outside team re-examined the deep layers. Supporting data were posted publicly only in 2024 (S11).",
+      "source": "S10"
     },
     "independent_teams": {
       "value": "no",
-      "note": "All geophysics, coring and dating behind the claim came from the single Natawidjaja-led team; no outside group had corroborated the deep 'construction' interpretation as of 2026.",
-      "source": "S1"
+      "note": "All deep geophysics, coring and dating came from the Natawidjaja-led team. In 2024 Ali Akbar said no other team had dug the disputed 6–11 m.",
+      "source": "S10"
     },
     "proponent_stake": {
       "value": "yes",
-      "note": "Peer-reviewed analysis ties the site's reinterpretation to nationalist and media narratives; traces to a 2011 claim based on 'ancestral guidance,' later backed by a presidential-staff-sponsored team.",
-      "source": "S8"
+      "note": "Team formed under a presidential special staffer; Natawidjaja wrote a book linking the site to Plato's Atlantis (S9). S8 analyses the nationalist framing of the 'pyramid'.",
+      "source": "S9"
     }
   },
   "objections": [
     {
-      "text": "Radiocarbon dates came from soil samples not associated with any artifact or feature that could be reliably interpreted as anthropogenic ('man-made').",
+      "text": "The radiocarbon dates came from soil samples not associated with any artifact or feature that could reliably be interpreted as man-made.",
       "kind": "context",
-      "raised_by": "Wiley / Archaeological Prospection editorial investigation",
+      "raised_by": "Journal co-editors-in-chief and Wiley (retraction notice)",
       "year": 2024,
       "outcome": "held",
-      "outcome_note": "Stated verbatim as the reason for retraction; the authors disagreed with retracting but did not dispute this underlying fact in their response.",
+      "outcome_note": "Upheld by the journal's investigation. The authors dispute it, saying the soils come from man-made rock layers with small artifacts, shown only in their correspondence (S12).",
       "source": "S2"
     },
     {
-      "text": "GPR, electrical resistivity and seismic tomography can map subsurface density/resistivity contrasts, but cannot by themselves identify an archaeological 'cultural layer' containing traces of human activity.",
+      "text": "The 'pyramid' is a natural volcano, older than human occupation, with an archaeological site on its surface; the buried layers are more likely natural.",
       "kind": "identification",
-      "raised_by": "Critics cited in Indonesian science press",
-      "year": 2024,
-      "outcome": "held",
-      "outcome_note": "Matches the retraction's own finding that no anthropogenic feature was linked to the dated soils.",
-      "source": "S9"
-    },
-    {
-      "text": "The buried layers identified by geophysics may have formed naturally rather than through construction.",
-      "kind": "identification",
-      "raised_by": "Unnamed critics, per Nature news coverage",
+      "raised_by": "Anonymous third-party experts (Dec 2023); critics in Nature news (S4)",
       "year": 2023,
       "outcome": "unresolved",
-      "outcome_note": "The retraction rejected the anthropogenic interpretation but no independent geological study confirming natural origin was found in sources checked here.",
-      "source": "S4"
+      "outcome_note": "S1 itself calls the core (Unit 4) a natural lava hill. That Units 2–3 are natural is argued but not yet shown by a published geological study.",
+      "source": "S12"
     },
     {
-      "text": "The Indonesian Archaeologists Association judged the same team's 2011-2014 'ancient pyramid' claims to be hypothesis without sufficient archaeological evidence, years before the 2023 paper.",
-      "kind": "prior",
-      "raised_by": "Truman Simanjuntak & Daud Tanudirjo (IAAI discussion, 2013)",
-      "year": 2013,
+      "text": "The 14C dates may not even date the soils accurately, since soils are notoriously difficult to date.",
+      "kind": "dating",
+      "raised_by": "Anonymous third-party experts (critique sent to authors 19 Dec 2023)",
+      "year": 2023,
+      "outcome": "unresolved",
+      "outcome_note": "Not tested independently; all 12 dates in S1 were on bulk organic soil.",
+      "source": "S12"
+    },
+    {
+      "text": "GPR, ERT and seismic tomography can map subsurface layers but cannot identify a cultural layer; the team's work is geology, not archaeology.",
+      "kind": "identification",
+      "raised_by": "H. Sofian (The Conversation Indonesia)",
+      "year": 2024,
       "outcome": "held",
-      "outcome_note": "The 2023 peer-reviewed version of the claim was itself retracted in 2024 for essentially the same core problem.",
+      "outcome_note": "Consistent with the retraction's finding that no man-made feature was tied to the dated soils (S2).",
       "source": "S9"
     },
     {
-      "text": "No accepted evidence anywhere shows humans capable of monumental construction as early as ~27,000 years ago; this would predate all currently accepted monumental architecture by tens of thousands of years.",
-      "kind": "prior",
-      "raised_by": "Critics, per Nature news coverage",
-      "year": 2023,
+      "text": "The team's results were still hypothesis, without sufficiently strong archaeological evidence.",
+      "kind": "identification",
+      "raised_by": "Truman Simanjuntak & Daud Tanudirjo (IAAI discussion, July 2013)",
+      "year": 2013,
       "outcome": "held",
-      "outcome_note": "No published find has overturned the current global record of first monumental construction.",
-      "source": "S4"
+      "outcome_note": "No archaeological evidence for the deep phases has been published since; the 2023 paper was retracted on this point (S2).",
+      "source": "S9"
     },
     {
-      "text": "Peer review did not catch the mismatch between the radiocarbon evidence and the anthropogenic interpretation before publication.",
-      "kind": "other",
-      "raised_by": "Eileen Ernenwein (journal co-editor-in-chief)",
-      "year": 2025,
+      "text": "There is no evidence people had the skills to build a pyramid as early as 25,000–14,000 BCE.",
+      "kind": "prior",
+      "raised_by": "Critics quoted in Nature news",
+      "year": 2023,
       "outcome": "held",
-      "outcome_note": "Acknowledged by the journal's own co-editor-in-chief in a published reflection on the episode.",
-      "source": "S3"
+      "outcome_note": "No evidence of such building skills at that date has been published since.",
+      "source": "S4"
     }
   ],
-  "status": "partial",
-  "status_note": "The hilltop megalithic terraces are a genuine, accepted prehistoric site. The 2023 claim of deliberately built layers to ~27,000 years ago was retracted in 2024: the radiocarbon dates were not tied to any anthropogenic feature.",
+  "status": "refuted",
+  "status_note": "Refuted as published: the only peer-reviewed evidence was retracted in 2024 because the dated soils had no shown link to human work. The authors reject this, citing unpublished artifacts; no outside team has dug the disputed 6–11 m.",
   "year_resolved": 2024,
-  "what_settled_it": "Wiley's editors investigated concerns raised by outside geophysics, archaeology and radiocarbon specialists after publication and found the radiocarbon dating had been applied to soil samples not associated with any artifact or feature identifiable as human-made.",
+  "what_settled_it": "Third-party experts in geophysics, archaeology and radiocarbon raised concerns. The journal's co-editors and Wiley found a major error: the dated soils were not associated with any artifact or feature reliably interpreted as man-made, so the paper was retracted in 2024.",
   "settled_by": [
     "expert-review"
   ],
@@ -163,103 +166,108 @@
   "timeline": [
     {
       "year": 1891,
-      "event": "Dutch researcher Verbeek first publishes the site's existence in Verhandelingen van het Bataviaasch Genootschap.",
-      "source": "S9"
+      "event": "Verbeek first records the site.",
+      "source": "S13"
     },
     {
       "year": 1914,
-      "event": "N.J. Krom records the site in the Rapporten Oudheidkundige Dienst, describing it as a place of ancestor veneration.",
-      "source": "S6"
+      "event": "N.J. Krom records the site and describes it as a place of ancestor worship.",
+      "source": "S9"
     },
     {
       "year": 1979,
-      "event": "Site rediscovered by local farmers; renewed study begins by Indonesia's antiquities service and archaeology institute.",
+      "event": "Three local farmers rediscover the site; government archaeological studies follow.",
       "source": "S6"
     },
     {
       "year": 2011,
-      "event": "Yayasan Turangga Seta claims pyramids beneath several West Java mountains, including Gunung Padang, based on claimed ancestral guidance.",
+      "event": "Yayasan Turangga Seta claims pyramids under several West Java mountains, including Gunung Padang, citing ancestral guidance.",
       "source": "S9"
     },
     {
-      "year": 2012,
-      "event": "A presidential-staff-sponsored team led by Natawidjaja begins coring; reports of 'ancient cement' draw public attention; team claims 13,000-23,000 years BCE.",
-      "source": "S9"
+      "year": 2011,
+      "event": "The team later called TTRM begins work at the site (Oct 2011–2014), eventually digging to 4–11 m.",
+      "source": "S10"
     },
     {
       "year": 2013,
-      "event": "Indonesian Archaeologists Association members publicly call the team's findings hypothesis without sufficient archaeological evidence.",
+      "event": "Ali Akbar's book dates the team's Layer 3 (5–30 m deep) to about 14,000 years.",
+      "source": "S10"
+    },
+    {
+      "year": 2013,
+      "event": "At a July IAAI discussion, archaeologists call the team's results hypothesis without strong archaeological evidence.",
       "source": "S9"
     },
     {
       "year": 2018,
-      "event": "Team publishes an ESSOAR preprint describing a multi-layer buried structure with preliminary radiocarbon dating.",
+      "event": "Team posts a preprint claiming a layered, pyramid-like structure predating 10,000 BP.",
       "source": "S5"
     },
     {
-      "year": 2022,
-      "event": "Gunung Padang is featured in Netflix's 'Ancient Apocalypse' with Graham Hancock.",
-      "source": "S9"
-    },
-    {
       "year": 2023,
-      "event": "Natawidjaja et al. publish a peer-reviewed paper in Archaeological Prospection claiming construction phases to ~27,000 years BP.",
+      "event": "Archaeological Prospection publishes the paper (20 Oct): oldest phase 25,000–14,000 BCE.",
       "source": "S1"
     },
     {
       "year": 2024,
-      "event": "Wiley retracts the paper after finding the radiocarbon dating was not tied to any anthropogenic feature; authors disagree with the retraction.",
+      "event": "The co-editors and Wiley retract the paper: dated soils not tied to man-made features. All authors disagree.",
       "source": "S2"
     },
     {
+      "year": 2024,
+      "event": "Authors publish a response rejecting the retraction, citing small artifacts shown only in correspondence with the journal.",
+      "source": "S12"
+    },
+    {
       "year": 2025,
-      "event": "Journal co-editor-in-chief Eileen Ernenwein publishes a reflection on the episode and on peer-review process failures.",
+      "event": "Co-editor Eileen Ernenwein publishes a reflection: the false claim got through because of peer-review oversights.",
       "source": "S3"
     }
   ],
   "decisive_tests": [
     {
-      "test": "AMS-date short-lived organic material (charcoal, seed) recovered in situ from a sealed context directly beneath or between intentionally placed stones, under controlled excavation, not bulk soil from a core.",
-      "would_show": "Whether construction-associated material actually predates the accepted age of the surface terraces.",
+      "test": "Publish depth and context records for the 12 dated samples, and have outside archaeologists examine the small artifacts the authors say accompany Units 1–3.",
+      "would_show": "Whether any cultural material is securely associated with the dated soils.",
+      "cost": "low"
+    },
+    {
+      "test": "Independent controlled excavation across the Unit 1–3 boundary to 6–11 m, AMS-dating short-lived material (charcoal, seeds) sealed between placed stones, not bulk soil.",
+      "would_show": "Whether any construction-linked material predates the surface terraces.",
       "cost": "high"
     },
     {
-      "test": "OSL/TL dating of the buried, light-shielded face of a column block suspected of having been moved, compared with an in-situ, never-moved column of the same rock.",
-      "would_show": "Whether a block was moved by people (recent light exposure reset) versus never disturbed from natural jointing.",
+      "test": "Independent petrographic and geochemical study of the deep columnar rock and the 'fine-grained mortar' in Units 2–3.",
+      "would_show": "Whether the layers are in-place weathered lava and soil, or placed stone set in made mortar.",
       "cost": "medium"
     },
     {
-      "test": "Independent petrographic/geochemical sourcing of the deep 'core' columnar rock.",
-      "would_show": "Whether the deep layer is in-situ volcanic bedrock or transported/assembled material.",
+      "test": "Rock-surface luminescence dating of buried faces of columnar blocks said to be placed, compared with columns still in natural position.",
+      "would_show": "Whether the blocks were moved by people (light exposure reset) or never disturbed.",
       "cost": "medium"
-    },
-    {
-      "test": "Independent, documented stratigraphic re-excavation (not coring) across the boundary between the accepted terraces and the disputed deeper layers, with full artifact recovery and reporting.",
-      "would_show": "Whether any cultural material occurs in confirmed association with the deeper layers.",
-      "cost": "high"
     }
   ],
-  "falsifier": "Reproducible AMS or OSL dates from an independent excavation with documented stratigraphic/artifact context showing construction-tied material older than the surface terraces; or independent geology confirming the deep layers are natural rock.",
+  "falsifier": "Published artifacts or features securely tied to Units 2–3, dated on short-lived material from an independent, documented excavation and older than the surface terraces, would reopen the claim.",
   "sources": [
     {
       "id": "S1",
-      "citation": "Natawidjaja, D.H.; Bachtiar, A.; Nurhandoko, B.E.B.; Akbar, A. et al. (2023, retracted 2024). Geo-archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia. Archaeological Prospection 31(2).",
+      "citation": "Natawidjaja, D.H.; Bachtiar, A.; Nurhandoko, B.E.B.; Akbar, A. et al. (2024). RETRACTED: Geo‐archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia. Archaeological Prospection 31(2).",
       "doi": "10.1002/arp.1912",
-      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/arp.1912",
+      "url": "https://web.archive.org/web/2024id_/https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/arp.1912",
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read in full (multi-layer construction, Palaeolithic initial phase, 20-30m depth). Full text blocked (HTTP 403) so unit-level breakdown not directly confirmed."
+      "note": "Online 20 Oct 2023. Archived CC-BY full text read: phase ages (Fig. 14, Conclusions); 12 soil samples, 8 AMS at Beta Analytic, 4 conventional at BATAN; mortar; water loss."
     },
     {
       "id": "S2",
-      "citation": "(2024). Retraction: Geo-Archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia. Archaeological Prospection 31(2): 199.",
+      "citation": "(2024). Retraction: Geo‐Archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia. Archaeological Prospection 31(2): 199-199.",
       "doi": "10.1002/arp.1932",
-      "url": null,
+      "url": "https://doi.org/10.1002/arp.1932",
       "kind": "report",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Full retraction statement read via metadata: soil dating not tied to anthropogenic features; authors disagree with retraction."
+      "note": "Full notice text read (Crossref): soils not associated with man-made artifacts or features; '9000 or more years' pyramid reading incorrect; all authors disagree."
     },
     {
       "id": "S3",
@@ -269,7 +277,7 @@
       "kind": "review",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: confirms 27,000-year headline figure, editorial investigation process, peer-review failure."
+      "note": "Text read: 27,000-year headline, letters of concern to the co-editors, and 'false claim ... published due to peer review oversights'."
     },
     {
       "id": "S4",
@@ -279,17 +287,17 @@
       "kind": "news",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: critics say layers likely natural and no evidence of the skills to build a pyramid then; notes link to 'lost civilization' narratives."
+      "note": "Text read: critics say the buried layers are 'more likely' natural and there is no evidence people had the skills to build a pyramid then; Wiley ethics investigation."
     },
     {
       "id": "S5",
-      "citation": "Natawidjaja, D.H.; Bachtiar, A.; Endar, B.; Daryono, M. et al. (2018). Evidences of Large pyramid-like structure predating 10,000 Year BP at Mount Padang, West Java, Indonesia. ESSOAR preprint.",
+      "citation": "Natawidjaja, D.H.; Bachtiar, A.; Endar, B.; Daryono, M. et al. (2018). Evidences of Large pyramid-like structure predating 10,000 Year BP at Mount Padang, West Java, Indonesia: Applications of geological-geophysical methods to explore buried large archeological site. ESSOAR preprint.",
       "doi": "10.1002/essoar.10500119.1",
-      "url": "https://www.essoar.org/doi/10.1002/essoar.10500119.1",
+      "url": "https://doi.org/10.1002/essoar.10500119.1",
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read in full: describes layered structure, notes a previously 'misinterpreted as natural' buried layer, preliminary surface dating ~3,000 cal BP. Full text blocked (HTTP 403)."
+      "note": "Abstract read: site long known as a megalithic complex on top; team says Layer 2 was 'previously misinterpreted as natural'. Not peer-reviewed."
     },
     {
       "id": "S6",
@@ -299,17 +307,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read in full: site rediscovery in 1979 by local farmers, earlier 1914 Krom record, construction/stacking pattern of the accepted terraces."
-    },
-    {
-      "id": "S7",
-      "citation": "Yondri, L. (2021). Strategi Adaptasi dari Kebencanaan: Studi Kasus Struktur dan Lingkungan Situs Gunung Padang. Prosiding Balai Arkeologi Jawa Barat: 305-315.",
-      "doi": "10.24164/prosiding.v4i1.27",
-      "url": "https://prosidingbalarjabar.kemdikbud.go.id/index.php/seminar/article/download/81/64",
-      "kind": "primary",
-      "access": "open",
-      "verification": "checked",
-      "note": "Abstract read in full: describes the terrace structure as built by prehistoric society, adapted to landslide/fault hazard."
+      "note": "Abstract read: rediscovered in 1979 by three local farmers; recorded by Krom in 1914; later government studies."
     },
     {
       "id": "S8",
@@ -319,7 +317,7 @@
       "kind": "review",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read in full: peer-reviewed analysis of nationalist and media dynamics around the site's reinterpretation as a pyramid."
+      "note": "Abstract read: how the state, archaeologists and media built a national myth around the site's 'pyramid' reinterpretation."
     },
     {
       "id": "S9",
@@ -329,25 +327,76 @@
       "kind": "news",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: 1891 Verbeek record, 2011-2014 Turangga Seta/TTRM history, IAAI's 2013 objection, GPR/ERT/ST vs. 'cultural layer' critique, Netflix link."
+      "note": "Text read: Krom 1914, Turangga Seta 2011, TTRM under presidential staff, 13,000–23,000 BCE claim, Atlantis book, IAAI July 2013, author's geophysics critique."
+    },
+    {
+      "id": "S10",
+      "citation": "Tempo.co (2024). Penanggalan Karbon dan Kontroversi Situs Gunung Padang. Tempo.co, Sains.",
+      "doi": null,
+      "url": "https://www.tempo.co/sains/penanggalan-karbon-dan-kontroversi-situs-gunung-padang-74940",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Indonesian press report after the Mar 2024 retraction. Quotes Yondri (BATAN charcoal dates) and Ali Akbar (TTRM 2011–2014; 6–11 m untested; 2013 book ages)."
+    },
+    {
+      "id": "S11",
+      "citation": "Retraction Watch (2024, 20 March). Controversial pyramid paper retracted when authors turn out to have radiocarbon-dated nearby dirt. Retraction Watch.",
+      "doi": null,
+      "url": "https://retractionwatch.com/2024/03/20/controversial-pyramid-paper-retracted-when-authors-turn-out-to-have-radiocarbon-dated-nearby-dirt",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Text read: Natawidjaja says the journal gave no 'sufficient evidence and scientific rationale'; he posted supporting materials in a Dropbox folder; Flint Dibble's critique."
+    },
+    {
+      "id": "S12",
+      "citation": "Natawidjaja, D.H. et al. (2024). The Unjust Retraction of Groundbreaking Research: A Call for Academic Integrity. Posted on grahamhancock.com.",
+      "doi": null,
+      "url": "https://grahamhancock.com/natawidjajadh1/",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Authors' reply, hosted by proponent G. Hancock; reproduces the third-party critique sent 19 Dec 2023. Read: artifact claim, phase ages, call for a geological alternative."
+    },
+    {
+      "id": "S13",
+      "citation": "Yondri, L. (2024). BAB 11 Punden Berundak Gunung Padang: Konstruksi Batuan Tertua untuk Kebutuhan Ritual di Tatar Sunda. Prosiding Seminar Nasional Arkeologi 2021 'Teknologi di Indonesia dari Masa ke Masa'. BRIN.",
+      "doi": "10.55981/brin.710.c1081",
+      "url": "https://doi.org/10.55981/brin.710.c1081",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read: Verbeek 1891, Krom 1914, 1979 rediscovery; 14C dates on charcoal from terraces 1–4 (figures not extracted). Gives site directions; none copied."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Original 2023 paper accessible only as abstract (Wiley blocked full-text fetch, HTTP 403); unit-by-unit figures rely on the retraction notice, editor's 2025 reflection, and news coverage instead.",
+  "confidence_note": "Phase ages and labs now read from S1's archived full text. Terrace dates rest on a press interview (S10); the authors' artifact evidence is unpublished and unassessed.",
   "corrections": [
-    "Brief's expected status was 'refuted (as to ancient construction)'; recorded here as `partial` instead, since status covers the whole claim and the surface megalithic terraces are a genuine, undisputed prehistoric site.",
-    "Brief gives one figure, '~27,000 years ago'; the retraction notice frames the rejected claim as 'pyramid built 9,000+ years ago,' while ~27,000 is the reported max for the deepest layer. Full text was inaccessible to reconcile the two."
+    "Brief: 'construction phases back to ~27,000 years ago'. S1's oldest phase is 25,000–14,000 BCE (~27,000–16,000 yr), so ~27,000 is its upper bound. The retraction's '9000 or more years' (S2) is a lower limit, not a conflicting figure.",
+    "Brief: 'Natawidjaja et al. 2023 (Archaeological Prospection) claimed'. The team claimed deep man-made layers 14,000+ years old by 2013 (Akbar's book, S10; IAAI rebuttal, S9); 2023 was the first peer-reviewed report."
   ],
-  "notes": "The 2023 paper has roots in a 2011 claim by Yayasan Turangga Seta, based on claimed ancestral guidance, that West Java mountains hid pyramids. A presidential-staff-backed team led by Natawidjaja then reported more dramatic finds (e.g. 'ancient cement,' buried gold) that drew public attention but are not part of the 2023 paper and are not evaluated here. Ali Akbar, a long-time team member, published a popular book on the site. Gunung Padang featured in Netflix's 'Ancient Apocalypse' (2022) about a year before the retracted paper. The upper terraces are not disputed as a real, built prehistoric site; the controversy concerns only the deeper 'construction' layers.",
+  "notes": "Proponents' evidence (S1): columnar rock set in 'fine-grained mortar' in trenches; core logs matched to GPR, ERT and seismic layers; 32 m³ of drilling water lost at 8–14 m, read as a cavity; 14C on organic soil from within the rock layers. All authors reject the retraction: they hold the dated soils come from man-made layers with many small artifacts, sent to the journal but unpublished, and ask critics for a geological alternative (S12). TTRM earlier claimed 13,000–23,000 BCE (S9). The co-editor says peer review missed the error (S3). The 2011 Turangga Seta 'ancestral guidance' claim came from a separate group (S9). The surface terraces were never in dispute.",
   "plates": [
     {
       "commons_file": "File:Situs Gunung Padang.jpg",
-      "caption": "The megalithic step-terraces at Gunung Padang, Cianjur Regency, West Java."
+      "caption": "The megalithic stone terraces at Gunung Padang, West Java."
     }
   ],
   "review": {
-    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_by": "researcher agent (claude-sonnet-5); revised by claude-opus-5-5",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "fail",
+    "open_issues": [
+      "accepted_age uses press-reported charcoal dates (S10). Yondri's chapter (S13) confirms 14C on terrace charcoal, but I could not extract its figures and calibration is unreported, so the bp values are approximate.",
+      "year_claimed 2013 is the earliest dated public claim found (Akbar's book, S10; IAAI rebuttal, S9). 2012 statements are likely, but no dated source was verified, and S9 gives no year for TTRM's 13,000–23,000 BCE claim.",
+      "multiple_labs is coded 'yes' from S1 (2023); whether both labs' dates were public by 2013–2018 is undocumented.",
+      "Declined the review's basis wording 'AMS 14C on 12 samples': S1 says 4 of the 12 were dated by the conventional method at BATAN.",
+      "Split the Dec 2023 critique instead of one 'held' objection: the association point held (S2), but natural origin of Units 2–3 stays unresolved because no published geological study shows it.",
+      "The review's detik.com source for Yondri's dates returned HTTP 404, so Tempo (S10) is used. Dropped S7 (no longer cited) and the Netflix 2022 event (not re-read, not evidential)."
+    ]
   }
 }
