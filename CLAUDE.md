@@ -1,6 +1,6 @@
 # Stratum
 
-*What's left after the boring explanations.*
+*Strange finds, fair tests.*
 
 Live site: https://ejhong.github.io/stratum/ · Repository: https://github.com/ejhong/stratum
 

@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import charts  # noqa: E402
 from stratum_data import (  # noqa: E402
     COST_LABEL, FEATURES, OBJECTION_KIND, OUTCOME_LABEL, POSITIVE_FEATURES, ROOT, STATUS_LABEL, STATUSES,
-    THIS_YEAR, TYPE_LABEL, fmt_age, fmt_leap, load_cases,
+    TAGLINE, THIS_YEAR, TYPE_LABEL, fmt_age, fmt_leap, load_cases,
 )
 
 OUT = ROOT / "_site"
@@ -96,7 +96,7 @@ def page(rel, title, body, active=None, desc=None, full_title=False, root=None, 
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
-<a class="brand" href="{root or "./"}"><b>Stratum</b><span>what’s left after the boring explanations</span></a>
+<a class="brand" href="{root or "./"}"><b>Stratum</b><span>{TAGLINE.lower()}</span></a>
 <nav class="nav" aria-label="Main">{nav}</nav>
 </div></header>
 <main id="main">
@@ -379,7 +379,7 @@ def home(cases, summary, latest=None):
 <li><b>Sources.</b> Every claim cites a source; each DOI is matched against Crossref by script.</li></ul></div>
 </section>
 </div>"""
-    page("index.html", "Stratum — what’s left after the boring explanations", body, full_title=True,
+    page("index.html", f"Stratum — {TAGLINE}", body, full_title=True,
          desc="An AI-operated archaeology lab: how famous anomalies really fared, which open ones deserve a test"
               + (f" — and lab bulletin {latest['number']}: {latest['title'].lower()}." if latest else "."))
 

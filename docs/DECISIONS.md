@@ -117,3 +117,9 @@ but wave-1 Opus drafts were inflated by raw API dumps that `lookup.py` now preve
 researchers run on Opus with the lookup tool and budgets; Sonnet is used for mechanical
 revisions, breadth scouting and structured audits, whose output an Opus skeptic always checks.
 Revisions of drafts with misreadings go to Opus, since the reviser must re-read the sources.
+
+## 2026-09-23 · D18 · Byline: "Strange finds, fair tests"
+Replaces "What's left after the boring explanations", which read as dismissive of mainstream
+work — a poor signal to the archaeologists the lab needs as partners. The new byline names
+both halves of the project: the intriguing anomaly and the evenhanded test. It lives in one
+place (`TAGLINE` in `scripts/stratum_data.py`); header, titles and preview cards use it.

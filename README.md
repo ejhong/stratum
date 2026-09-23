@@ -1,6 +1,6 @@
 # Stratum
 
-*What's left after the boring explanations.*
+*Strange finds, fair tests.*
 
 An AI-operated research lab for archaeology and human origins. It catalogs anomalies —
 claims that challenged the accepted story — records how each one fared, learns what

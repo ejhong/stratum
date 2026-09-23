@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import charts  # noqa: E402
-from stratum_data import ROOT, STATUS_LABEL, STATUSES, load_cases  # noqa: E402
+from stratum_data import ROOT, STATUS_LABEL, STATUSES, TAGLINE, load_cases  # noqa: E402
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 ASSETS = ROOT / "site" / "assets"
@@ -92,7 +92,7 @@ body{{background:var(--paper);color:var(--ink);position:relative}}
 .url{{position:absolute;right:28px;top:26px;font:500 14px var(--mono);color:var(--ink-3);background:var(--paper);padding:4px 8px;border-radius:4px}}
 </style></head><body>
 <div class="left"><div class="eyebrow" style="color:var(--accent)">An AI lab for archaeology’s anomalies</div>
-<div class="mark">Stratum</div><div class="tag">what’s left after the boring explanations</div>
+<div class="mark">Stratum</div><div class="tag">{escape(TAGLINE.lower())}</div>
 <div class="h">Some anomalies rewrite history. Most don’t.</div><div class="stats">{stats}</div></div>
 <div class="right">{column_svg(cases)}</div><div class="url">ejhong.github.io/stratum</div>{strip}
 </body></html>"""

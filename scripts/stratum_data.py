@@ -11,6 +11,7 @@ CHECKS = ROOT / "catalog" / "checks"
 PLATES = ROOT / "site" / "plates" / "manifest.json"
 THIS_YEAR = date.today().year
 
+TAGLINE = "Strange finds, fair tests"  # the byline everywhere (header, titles, preview cards)
 STATUSES = ["vindicated", "partial", "open", "refuted"]
 STATUS_LABEL = {"vindicated": "Vindicated", "partial": "Partly vindicated", "open": "Open", "refuted": "Refuted"}
 TYPE_LABEL = {
