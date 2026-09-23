@@ -68,7 +68,7 @@ def section(cases, root):
     """Every claim placed by when it was made (x) and how old it claimed to be (y, deeper = older)."""
     rows = [r for r in cases if r["_age"]]
     W, H = 1100, 560
-    L, R, T, B = 64, 150, 40, 16
+    L, R, T, B = 64, 162, 40, 16
     if not rows:
         return ""
     years = [r["year_claimed"] for r in rows]
