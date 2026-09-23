@@ -1,0 +1,119 @@
+{
+  "id": "cardiff-giant",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Status (refuted, hoax) is right and S1 supports most of the story. But Marsh's tool-mark argument is not in S1, 'cousin' and the 1869 confession date are unsupported, and the detail rests on one 1921 account. Add White 1905 (primary, open) and Pettit 2006 (Isis).",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "objections[0].text; what_settled_it",
+      "problem": "Both cite S1 for Marsh's reasoning (fresh tool marks on soluble gypsum). S1 says only that Marsh 'asserted that it was clearly of recent origin and \"a most decided humbug\"'; in S1 the gypsum and worn-underside insight belongs to Andrew D. White. The reasoning is real, but it comes from a source the record does not cite.",
+      "fix": "Add S5: White, A.D. (1905). Autobiography of Andrew Dickson White, vol. 2, ch. LVI 'The Cardiff Giant: A Chapter in the History of Human Folly, 1869-1870'. New York: The Century Co. Open at https://www.gutenberg.org/ebooks/1370 (kind primary: a named critic's first-hand account). It quotes Marsh: 'Very short exposure of the statue would suffice to obliterate all trace of tool-marks, and also to roughen the polished surfaces, but these are still quite perfect, and hence the giant must have been very recently buried', citing Marsh's letter in the Syracuse Daily Journal, 30 Nov 1869 (fn 27). Cite S5 for objections[0] and for the Marsh clause of what_settled_it.",
+      "evidence": "S1 PDF (Marsh passage); https://www.gutenberg.org/cache/epub/1370/pg1370.txt ch. LVI, fn 27"
+    },
+    {
+      "severity": "major",
+      "field": "timeline[5]; objections[0].outcome_note; status_note; year_resolved",
+      "problem": "'Hull confessed within weeks' and the 1869 date of his confession appear in neither S1 (which gives no dates) nor White. Both put his public admission after the Fort Dodge evidence came out as the pamphlet 'The Cardiff Giant Humbug', which White (fn 19) dates to Fort Dodge, 1870. White also puts it after McWhorter's 'Phenician idol' revival. Popular accounts give 10 Dec 1869 (UNVERIFIED). The confession may belong to 1870.",
+      "fix": "Date the confession from a source you have read (Tribble 2008's exposure chapters, or 1869-70 newspapers), or write 'late 1869 or 1870' and drop 'within weeks'. Keep year_resolved 1869 only if it is tied explicitly to Marsh's 30 Nov 1869 verdict and the Iowa affidavits, and say so in what_settled_it.",
+      "evidence": "S1 (pamphlet sent to New York, then 'in the midst of their protestations, Hull ... made public the whole story of the swindle'); White 1905 ch. LVI synopsis and fn 19"
+    },
+    {
+      "severity": "minor",
+      "field": "claim",
+      "problem": "'his cousin George Hull' has no support. S1 says 'a relative of William Newell'; White, who visited the farm in 1869, calls Hull 'Newell's brother-in-law'. '16 October 1869' appears in no source that was read (S1: 'One Saturday morning in October, 1869'; S2 abstract: 'In October 1869'). The date fits, since 16 Oct 1869 was a Saturday, but it has no source. The field also tells how the case was resolved, which belongs in accepted_age and what_settled_it.",
+      "fix": "Write 'a relative (brother-in-law per White 1905; popular accounts say cousin)'. Give 'October 1869' or cite a source for the day. Keep the claim to what was claimed: a petrified giant or an ancient statue.",
+      "evidence": "S1; White 1905 ch. LVI"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.unambiguous_signal.note",
+      "problem": "'a buried Indian-prophet idol' merges two separate theories: the local story that it was 'the petrified body of a gigantic Indian prophet' (S1; White), and Alexander McWhorter's later 'Phenician idol' with an inscription (White). 'before any fraud was suspected' goes too far: S1 says Hull's early claim to a share of the takings 'aroused some gossip'.",
+      "fix": "Write 'a petrified Indian prophet, a Jesuit-era statue, or (later) a Phoenician idol', and drop 'before any fraud was suspected'.",
+      "evidence": "S1; White 1905 ch. LVI synopsis"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[2]; key_critics",
+      "problem": "Boynton appears only as an antiquity proponent, but S1 says he 'later decided that the statue had probably not been buried more than three years'. S1 also records Wescott asserting 'There were no chisel marks', while Marsh saw tool marks intact. The examiners disagreed even on what they could see, a pattern worth recording.",
+      "fix": "Note Boynton's reversal in timeline[2], and optionally list him among the critics. Mention the chisel-mark disagreement in notes.",
+      "evidence": "S1"
+    },
+    {
+      "severity": "minor",
+      "field": "notes",
+      "problem": "The record leaves out the most telling fraud evidence, which appears in both S1 and White. The worn underside that Hall cited as water damage proving great age had been deliberately 'grooved and channeled in order that it should appear to be wasted by age' and pitted 'with a mallet faced with needles'. The contracted, 'agonized' pose that Wescott read as a body in pain came from cutting the block short in transit. So the proponents' main physical evidence for age and for petrification was manufactured, which bears directly on the Phase 1 pattern questions (compare Piltdown's staining).",
+      "fix": "Add one or two sentences to notes citing S1 and S5, and optionally reflect this in features_at_claim.unambiguous_signal.note.",
+      "evidence": "S1; White 1905 ch. LVI (affidavits passage)"
+    },
+    {
+      "severity": "minor",
+      "field": "sources; notes",
+      "problem": "The record cites no primary source and no peer-reviewed study. The notes imply that no peer-reviewed treatment exists, but Pettit (2006) in Isis is one: its abstract says a farmer 'claimed to have discovered the fossilized remains of a prehistoric, perhaps biblical, giant', and it draws on newspapers, memoirs and exposés. The primary material the researcher could not find is named in S1 and White. S3 and S4 were not read and support nothing, and several citations are incomplete.",
+      "fix": "Add S5 (White 1905, above) and S6: Pettit, M. (2006). 'The joy in believing': the Cardiff giant, commercial deceptions, and styles of observation in Gilded Age America. Isis 97(4): 659-677. doi:10.1086/509948 (paywalled; confirmed to exist, abstract read). Name the primary sources as cited in S5: Marsh's letter, Syracuse Daily Journal, 30 Nov 1869; 'The Cardiff Giant Humbug' (Fort Dodge, 1870; affidavits); Hull's 'Final Statement', Ithaca Daily Journal, 4 Jan 1898. A lead not checked here: Franco, B. (1969), 'The Cardiff Giant: A Hundred Year Old Hoax', New York History (UNVERIFIED). Complete S2 (subtitle 'The Giant from Cardiff that Fooled America'; Rowman & Littlefield) and S3/S4 (editors; SAGE), or drop S3/S4. Revise the notes sentence about peer-reviewed literature.",
+      "evidence": "https://doi.org/10.1086/509948 (Europe PMC, PMID 17367004); White 1905 fns 19, 27, 35"
+    },
+    {
+      "severity": "minor",
+      "field": "evidence_types; features_at_claim.proponent_stake.note; objections[2].outcome_note; timeline[3]",
+      "problem": "Several details lack support. 'chemistry': the record itself says no lab analysis was done, and the gypsum was identified by eye (White 'was shown a piece'). 'Hull spent heavily' and 'a 50-cent admission from the first days' are not in S1, which gives 50 cents but no timing. 'quarry contract': S1 says C. B. Cummins refused the order, so the men leased land and hired Foley.",
+      "fix": "Drop 'chemistry' unless a test is sourced. Use sourced wording: '$20,000 was said to have been received' (S1), and Newell 'remitted to a man named Hull ... several thousand dollars' (White). Replace 'quarry contract' with 'land lease and quarryman Michael Foley'.",
+      "evidence": "S1; White 1905 ch. LVI"
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age.basis",
+      "problem": "'200-300 years' is set in quote marks, but S1 reads 'two or three hundred years before'. The 'antediluvian ... Biblical antiquity' reading is not in S1; it is supported by S2's abstract ('ties to Biblical history') and by White ('There were giants in those days').",
+      "fix": "Paraphrase without quote marks, and cite S2 or S5 for the biblical reading.",
+      "evidence": "S1; S2 abstract; White 1905 ch. LVI"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "None of the entries shows the brief to be wrong. The brief's \"'discovered' in 1869\" is correct, its 'e.g.' does not claim to be complete, and entry 3 is a note on method. The one real nuance goes unstated: Marsh's verdict did not end the affair (S1: 'Its fame, however, continued and still the curious thronged to view it'). The exposure came from the Iowa affidavits and Hull's admission.",
+      "fix": "Replace the entries with one correction that quotes the brief exactly ('exposed quickly (e.g. by Othniel C. Marsh, and Hull's own admission)') and gives that nuance, citing S1 and S5. Move the other points to notes.",
+      "evidence": "catalog/briefs.json; S1"
+    },
+    {
+      "severity": "minor",
+      "field": "accepted_age.bp_min; location.region",
+      "problem": "AD 1868 is 82 BP, so bp_min 81 (AD 1869, the year of the 'discovery') is one year off for when the object was made. The region 'Cardiff, Onondaga County, New York' is more precise than the schema allows ('State/province/large region at most'). This is no heritage risk, and the claim already names Cardiff.",
+      "fix": "Set bp_min = bp_max = 82 and region to 'New York'.",
+      "evidence": "catalog/schema.json"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence",
+      "problem": "'high' rests on one source that was read, plus one abstract. That source is a 1921 popular-history article that quotes White's account verbatim (the 'erratic Hebrew scholar' passage), so it is not fully independent of him. Several details are unsupported or contradicted (see the issues above). The hoax verdict itself is not in doubt.",
+      "fix": "Keep 'high' only after adding S5 (read) and S6 and fixing the issues above. Otherwise use 'medium' and give the reason in confidence_note.",
+      "evidence": "S1 compared with White 1905 ch. LVI"
+    }
+  ],
+  "sources_checked": [
+    {
+      "id": "S1",
+      "exists": true,
+      "supports_citation": "partial",
+      "note": "Gallaher 1921, read with grep. Confirms: the well dug one Saturday in October 1869; 10 ft 2.5 in; 50 cents admission and about $20,000 taken; the views of Boynton, Hall and Wescott; White's gypsum identification; Marsh's 'humbug'; Parsons; Foley; the wagon; the pamphlet; Barnum's copy; Hull's admission and his motive. Does not support: 'cousin', 16 Oct, Marsh's tool-mark reasoning, or any confession date. Parts are drawn from White."
+    },
+    {
+      "id": "S2",
+      "exists": true,
+      "supports_citation": "partial",
+      "note": "Abstract only (OpenAlex): October 1869, a ten-foot 'petrified giant', ties to Biblical history, 'an elaborate hoax'. The 'exists' label is correct. The citation lacks the subtitle and the publisher."
+    },
+    {
+      "id": "S3",
+      "exists": true,
+      "supports_citation": "could-not-read",
+      "note": "Crossref match; no abstract. Not cited for anything; it pads the source count. Add editor and publisher, or replace."
+    },
+    {
+      "id": "S4",
+      "exists": true,
+      "supports_citation": "could-not-read",
+      "note": "Crossref match; no abstract. Not cited for anything; it pads the source count. Add editor and publisher, or replace."
+    }
+  ]
+}

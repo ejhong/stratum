@@ -1,0 +1,104 @@
+{
+  "id": "gobekli-tepe",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Sources real; dates check. 'Partial' is fair but mis-sourced: S7's full text, not S6, shows the 'purely ritual' view revised. S7 also contradicts the backfill objection (slope slides, mixed fill) and the no-burials test. Claim must state the part that failed; sedentism prior miscoded.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "claim / status / features_at_claim",
+      "problem": "The 'partial' split is fair in substance, but the record does not encode it consistently. (a) The part that failed, a 'purely ritual site' with no domestic structures, is never stated in `claim`. The sources say it plainly: S7 ('interpreted as a purely ritual site'), S3 ('not as a settlement, but as a hill sanctuary'), S4 ('its excavator claims consisted only of temples'). (b) `claim` includes a third part (ritual gatherings 'may have helped drive the shift to agriculture') whose fate is never assessed. (c) `features_at_claim`, `anomaly_type` and `orthodoxy_at_claim` describe only the monumental/age part, which held. So the analyst would pair features of a vindicated claim with an outcome driven by the failed part. year_claimed 1995 fits both parts: S7 says the purely-ritual reading formed 'soon after the initiation of excavations in 1995'. Catalog precedent (troy-hisarlik, jebel-irhoud) uses 'partial' only when the failed part is stated in `claim`.",
+      "fix": "Rewrite `claim` as two explicit parts: (1) monumental enclosures built by pre-farming hunter-gatherers from c. 9600 cal BC; (2) a purely ritual site with no residents (cite S3, S7). Drop the agriculture-driver clause, or say in status_note that it is untested. Add to confidence_note or notes that the features are coded for part (1). Also record why part (2) failed: it rested on absence of evidence from digs focused on the big enclosures. S7 says the rectangular buildings were 'known from earliest excavations... in the 1990s' but 'never before featured prominently in published research'. That lesson matters for the analyst. Alternative: narrow `claim` to part (1) and code 'vindicated'. Either is defensible; the current mix is not.",
+      "evidence": "S7 full text, https://publications.dainst.org/journals/efb/article/download/2596/7095 (§2, §5); S3 ('Göbekli Tepe: a PPN cultic centre'); S4 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "what_settled_it / objections[1] / year_resolved",
+      "problem": "The revision is credited to S6 (Dietrich L. et al. 2019). S6 reports cereal processing, concludes that 'work feasts are a likely model' and still argues for intentional backfill. It does not report domestic buildings or residents. The needed evidence is in S7's full text, which the researcher read only as an abstract: 2015-2016 deep soundings exposed round-oval structures around an activity area with 'a sequence of hearths', plus rainwater harvesting and a carved 'cistern'. S7 calls a revision of the temple narrative 'now unavoidable'. objections[1] (Banning) is marked 'held' and cites S6, but S7 still calls the large enclosures 'special buildings'. Only Banning's 'not exclusively temples' point has held, not his alternative that the enclosures were houses.",
+      "fix": "Cite S7 in what_settled_it and in objections[1].outcome_note. Set objections[1].source to S4. Either narrow objections[1].text to the 'temples only / no domestic buildings' point (outcome held), or keep 'the enclosures were houses' and mark it unresolved. Set year_resolved to 2020, when S7 published the revision, unless an earlier statement is found. Base S7's 'checked' label on the full text.",
+      "evidence": "S7 'Domestic contexts' §5 and §3; S6 Discussion and 'intentional backfill' passage"
+    },
+    {
+      "severity": "major",
+      "field": "objections[2] / notes",
+      "problem": "objections[2] says the enclosures were deliberately backfilled and that the excavators 'built phasing around documented backfill events'. S7 says the opposite: 'While previous conclusions postulated an intentional (ritually-motivated) backfilling... a review of the available evidence now suggests an inundation by displaced archaeological deposits' from slope slides. S7 adds that the debris 'contains mixed PPNA and PPNB materials', which explains 'the heterogeneity of previous radiocarbon measurements' on fill samples. That is a mundane explanation (redeposition and stratigraphic mixing) raised and accepted by the excavators, yet the notes say no source raised one. It is also the sourced version of the early-dates story the researcher chose to leave out.",
+      "fix": "Rewrite the objection. kind: context. raised_by: the excavators (Clare 2020, S7), revising Schmidt's ritual-backfill reading. Outcome: held. Fill is redeposited and mixed, so neither dates nor finds from the fill date or locate primary use; that includes the S9 skull fragments ('recovered from fill deposits') and many grinding tools. Note that construction is dated by organics in wall mortar (KIA-44149, S6). In notes, say stratigraphic mixing was raised and accepted: it limits dating resolution and blurs where finds came from, but does not threaten the PPN age. Ritual backfilling was itself part of the temple reading, which supports the 'partial' split.",
+      "evidence": "S7 (quoted passage on slope slides); S9 abstract; S6 (KIA-44149, 9984±42 BP, 9745-9314 cal BC)"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0] / orthodoxy_at_claim.label",
+      "problem": "The prior is framed as 'monuments require a sedentary, farming base; mobile foragers could not build them', and marked 'wrong'. But the record's own status rests on the builders having domestic buildings (S7), so the sedentism half has not been shown wrong. Only the farming prerequisite has. S3 frames the surprise as organisation ('far more organised than researchers dared to think 20 years ago'), not mobility. As coded, the analyst would count a partly correct expectation as bias.",
+      "fix": "Restate the prior as 'monumental construction requires a farming economy' (outcome wrong; S3: 'neither domesticated plants nor animals are known'; S7). Drop 'mobile' from orthodoxy_at_claim. If sedentism is kept, make it a separate objection citing S7, with outcome held or unresolved. Sedentary pre-farming (Natufian) villages were arguably already part of the standard model before 1995; check this against a review such as Bar-Yosef 1998 (Evolutionary Anthropology) before saying so.",
+      "evidence": "S3 'Emerging new concepts'; S7 §2 and §5"
+    },
+    {
+      "severity": "major",
+      "field": "decisive_tests[2] / falsifier / status_note",
+      "problem": "decisive_tests[2] rests on 'the current absence of burials', but S7 Fig. 1 marks a 'subfloor burial (DR1)'. S9's 'burials still absent' dates from 2017. The '~10% excavated' figure has no source. More importantly, the crux of 'partial' is untested. S7 says the domestic contexts have no 14C (AMS) ages yet; their overlap with the PPNA enclosures rests on building archaeology and stratigraphy. Neither the status_note nor the falsifier says so.",
+      "fix": "Replace test 3 with: AMS-date short-lived material from the hearth sequence in the domestic contexts and compare it with the enclosure-mortar dates (cost low to medium). Add to the falsifier: if those dates show the houses postdate the enclosures' use, the 'no residents' reading for Layer III stands and status becomes vindicated. Add to status_note that the domestic evidence is not yet radiocarbon-dated (S7).",
+      "evidence": "S7 Fig. 1 caption; S7 §5 ('Although 14C (AMS) ages are not yet available'); S9 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.multiple_labs / decisive_tests[1] / timeline[2]",
+      "problem": "Coded from Kiel lab codes published in S6 (2019): hindsight, well outside the five-year window. The first dates were two reported by Kromer & Schmidt (1998, Neo-Lithics 3/98: 8-9; listed in Wikipedia's references, not read here). Bernd Kromer is a Heidelberg radiocarbon scientist, so 'all carry the Kiel prefix' is probably wrong for the site overall, and test 2's 'outside Kiel' premise is shaky. The 1998 timeline event has no source.",
+      "fix": "Code the feature from the dates available by about 2000. It is probably still 'no', since one lab had produced them. Read Kromer & Schmidt 1998, confirm its lab code, and cite it for the 1998 event. Drop 'outside Kiel' from test 2 unless confirmed.",
+      "evidence": "S6 (KIA codes); https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe reference list (Kromer & Schmidt 1998)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.multiple_dating_methods / features_at_claim.independent_teams",
+      "problem": "multiple_dating_methods is coded 'partial' by counting lithic typology, which is itself cross-dated by radiocarbon at other sites; other records code single-method cases 'no'. independent_teams cites Nevalı Çori (Hauptmann 1993). That site predates the claim, so it is corroborating context, not an independent team adding Göbekli Tepe evidence by about 2000. Schmidt's own earlier involvement at Nevalı Çori should be checked before calling it independent.",
+      "fix": "Code multiple_dating_methods 'no', or justify counting typology the same way other records do. Code independent_teams 'no' and mention Nevalı Çori in the note as context.",
+      "evidence": "S3 ('The first time a cult building with T-shaped pillars... was uncovered was at Nevalı Çori... (Hauptmann 1993)')"
+    },
+    {
+      "severity": "minor",
+      "field": "accepted_age.basis / timeline[9] / sources[S8]",
+      "problem": "The 8-phase chronology is credited to S8, which was never read (per its note, the attribution came from Wikipedia). I did not find it in the S7 passages searched either.",
+      "fix": "Base accepted_age on S7 ('~9.500-8.000 calBC') and S6's mortar date. Drop the phase count unless S8 is actually read.",
+      "evidence": "S7 abstract; S8 note in the record"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[0] / sources[S2]",
+      "problem": "S2 exists: S1 (p. 45, open on Persée) quotes Benedict (1980: 179, 181) on the site. The quote describes flint-strewn knolls and says 'the two highest knolls have small cemeteries covering the top'. It does not show an Aceramic Neolithic identification, or pillar tops mistaken for grave markers. Those details trace to Wikipedia.",
+      "fix": "Set S2 verification to 'exists' (confirmed via S1). Reword the 1963 event to what S1 shows (survey recorded knolls with small cemeteries and abundant flint; significance not recognised) and cite S1. Keep 'grave markers' and 'Aceramic' only if Benedict's text is read; otherwise mark them UNVERIFIED.",
+      "evidence": "https://www.persee.fr/doc/paleo_0153-9345_2000_num_26_1_4697"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "None of the three entries corrects the brief. #3 misstates it: the brief says 'domestic or roofed buildings, e.g. Banning 2011', and does not frame a two-way debate. #1 rests on the unverified S2. #2 (1994 recognition) has no source. The roofing question raised in the brief is not covered anywhere in the record.",
+      "fix": "Move #1 and #2 to notes with sources, and delete #3. Add one sourced line on the roofing debate (Banning 2011; the excavators' later view).",
+      "evidence": "catalog/briefs.json (gobekli-tepe)"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[5]",
+      "problem": "'likely feasting/beer residue' overstates S3. S3 says 'the occurrence of beer making is not yet certain', and its only evidence is oxalate spot tests.",
+      "fix": "Reword to: 'proposes feasting and possible beer brewing (oxalate spot tests; stated as not yet certain)'.",
+      "evidence": "S3 ('In Göbekli Tepe, the occurrence of beer making is not yet certain')"
+    },
+    {
+      "severity": "minor",
+      "field": "status_note / key_proponents / sources[S1].access / evidence_types",
+      "problem": "(a) 'accepted with no challenge' is absolute; S7 gives ~9500-8000 calBC and notes that the fill dates are heterogeneous. (b) Lee Clare led the revision (S7) yet is listed as a proponent of a claim that includes the ritual reading. (c) S1 is open on Persée, not paywalled. (d) evidence_types omits fauna, the main early basis for calling the builders hunter-gatherers (S6 abstract).",
+      "fix": "Write 'widely accepted'. Move Clare out of key_proponents and name him in notes as the reviser. Set S1 access to 'open' and add the Persée URL. Add 'fauna' to evidence_types.",
+      "evidence": "S7; S6 abstract ('only zooarchaeological evidence has been discussed'); Persée page above"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Abstract supports the megalithic architecture and 'religious function'. Persée p. 45 quotes Benedict 1980. The layer sequence and 1995 start were not in the portion read. Open on Persée; the PDF returned 403 to scripts."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Existence confirmed via S1's quotation (pp. 179, 181): flint-strewn knolls with small cemeteries. The grave-marker misreading and Aceramic identification are not shown."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Full text: PPNA Layer III; 'neither domesticated plants nor animals are known'; 'not as a settlement, but as a hill sanctuary'; Nevalı Çori. Beer making 'not yet certain', so the timeline overstates it."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: the excavator 'claims consisted only of temples'; the buildings 'may actually be houses'."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match; paywalled; not cited in any field."},
+    {"id": "S6", "exists": true, "supports_citation": "partial", "note": "Confirmed: KIA-44149 (9984±42 BP, 9745-9314 cal BC), 8860±60 BP (8240-7780 cal BC), >7000 artifacts, phytoliths. It does not report domestic buildings; it argues for work feasts and intentional backfill."},
+    {"id": "S7", "exists": true, "supports_citation": "partial", "note": "DOI resolves (not in Crossref). Full text read from the DAI PDF. Supports the revision (domestic buildings, hearths, rainwater). Contradicts objections[2] (slope slides, mixed fill) and test 3 (subfloor burial DR1). Domestic contexts are not yet 14C-dated."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match; the JSTOR PDF returned no text. The 8-phase chronology was taken via Wikipedia."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Abstract: burials 'still absent' (as of 2017); three modified skulls; the bones came from fill deposits."}
+  ]
+}

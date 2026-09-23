@@ -1,0 +1,105 @@
+{
+  "id": "bosnian-pyramids",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Sources real; 'refuted' and 2006 defensible. Fix: claim dates (12,000 yr in 2005; ~34,000 yr by 2015, not 2025), a wrong 'flatirons' correction, misread S9 (6 outside labs) and S10 (wood caveats), misstated concrete claim, and methods count 1.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "claim, hook, claimed_age, corrections[1]",
+      "problem": "The claim's dates are wrong in both directions. (a) claim/hook put 'tens of thousands of years' and the Ravne tunnels in the 2005 announcement. S2 says Osmanagic declared the hills the work of 'a previously unknown Neolithic civilization' and a '12,000 years ago' supercivilization. Woodard (Smithsonian) still reports 'some 12,000 years old' and describes tunnel digging as a later phase. No cited source puts the tunnels in the 2005 announcement. (b) corrections[1] and claimed_age say the tens-of-thousands age came only in a 2025 preprint. But The Straits Times (2015) reports his claim of material 'tested scientifically to date back 34,000 years'. The record's own S6 (2020) gives his claim as 'built tens of thousands of years ago'. S9 draws on dates from 2006-2025 campaigns, including an 'earlier' 24,800 +/- 200 BP sample.",
+      "fix": "claim: 'In October 2005 Osmanagic announced that Visocica and neighbouring hills near Visoko were step pyramids built about 12,000 years ago by a lost European civilization; he later added the Ravne tunnels.' claimed_age label: '~12,000 yr (2005-09); ~34,000 yr (by 2015)'. Rewrite corrections[1]: the brief's 'tens of thousands' is wrong only for 2005-09. Hook: drop or date 'tens of thousands'.",
+      "evidence": "S2 abstract; Woodard, C., 'The Mystery of Bosnia's Ancient Pyramids', Smithsonian Magazine (usually cited as Dec 2009; confirm) https://www.smithsonianmag.com/history/the-mystery-of-bosnias-ancient-pyramids-148990462/ ; Khew, C., 'Pyramids exist in Bosnia: Archaeologist', The Straits Times, 14 Aug 2015 (date from Wikipedia citation; text confirmed in 2016 archive) https://web.archive.org/web/2016id_/http://www.straitstimes.com/world/pyramids-exist-in-bosnia-archaeologist ; S6 abstract; S9 sec. 3.1"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[0]",
+      "problem": "The brief's 'flatirons' is not wrong. Paul Heinrich, an archaeological geologist at Louisiana State University, said of the Visoko landform: 'They're called flatirons in the United States', with 'hundreds around the world'. S3 neither uses nor disputes the term. The brief never said 'purely natural illusion'. Schoch's point that crews shaped the hills is a useful addition, not a correction, and it is already in objections[2].",
+      "fix": "Delete corrections[0]. Optionally add Heinrich to key_critics, citing Woodard.",
+      "evidence": "Woodard (Smithsonian), Heinrich quote; S3 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_labs.note, objections[4], sources[S9].note, claimed_age.basis",
+      "problem": "These fields contradict S9. The notes say the dates were 'not cross-checked by outside laboratories' and that no 'non-foundation laboratory' produced them. But S9 sent radiocarbon samples to six outside labs: Kyiv IHME, Beta Analytic, TUBITAK Gebze, Silesian Univ. Gliwice, Uppsala Angstrom and Kiel Leibniz. Soil-dating work went to the Federal Institute for Agropedology in Sarajevo, and S10 used Vilnius. The '~33,800 BP' figure is the calibration of ONE Kyiv date: 29,200 +/- 400 radiocarbon BP (IHME-3734), on organic material 'between these concrete layers'. It is not a combined result of radiocarbon, U-Th and pedogenesis; U-Th gave 15,000-19,000 on stalagmites. What has never been repeated is independent sampling and study of context, not the lab measurements.",
+      "fix": "Reword: the foundation alone chose the samples and described their contexts; outside labs measured them; no independent team has resampled. claimed_age.basis: '29,200 +/- 400 14C BP (Kyiv, IHME-3734) on organics between block layers, calibrated to ~33,800 cal BP'. Re-derive multiple_labs from 2005-10 evidence only: 'no' if no dates were published by 2010, otherwise 'unknown'.",
+      "evidence": "S9 sec. 2.2 (lab list), 2.4 (Agropedology), 3.1 (IHME-3734), 3.3 (U-Th)"
+    },
+    {
+      "severity": "major",
+      "field": "objections[5], timeline[8], notes, sources[S10].note",
+      "problem": "The figures match S10: 415+/-29, 433+/-28 and 402+/-29 BP, Vilnius lab, IntCal20 at 2 sigma, late 15th-early 16th c. CE. But the result is miscast as an objection 'raised by' its own authors, with outcome 'held'. The authors say the dates 'relate specifically to the wooden materials sampled... No broader chronological inference is made'. They list secondary deposition, old wood and reuse as caveats, and set the result beside claimed Neolithic, Roman and medieval finds elsewhere in Ravne. S9 treats a 261-423 CE charcoal date the same way, as 'post-construction visitation'. Wood in tunnel fill shows only that the passage existed by about 1500 CE; it does not date when the passage was cut. 'Accredited' and 'not the Palaeolithic' do not appear in S10. Note: the researcher described the tunnel item as kept 'unresolved', but the file codes it 'held'.",
+      "fix": "Move the result to timeline/notes and state it as the authors do. For a tunnel objection, frame it as: the Ravne passages are historic-era workings or were enlarged by the foundation. Code the outcome 'unresolved'. Note that foundation-reported tunnel dates run from 34,000+/-1,500 and 30,600+/-525 14C BP (the same wood, Gliwice and Kiel) down to 261-423 CE and the 15th-16th c. CE. Add Woodard's report that Osmanagic was widening a 3-ft passage to 7 ft for tourists. Delete 'Accredited' and 'not the Palaeolithic'.",
+      "evidence": "S10 abstract, sec. 4.7, sec. 5.4; S9 sec. 3.3; Woodard (Smithsonian)"
+    },
+    {
+      "severity": "major",
+      "field": "objections[3], features_at_claim.unambiguous_signal",
+      "problem": "This misstates the proponents' case. 'Only the arrangement and strength are disputed, not the material itself' is wrong. Osmanagic said the blocks were concrete poured on site, and materials scientist Joseph Davidovits endorsed this (Woodard). S9 still calls them 'concrete-like blocks', and S8 offers 'clay binders' as a sign of artificial making. The real dispute is natural versus artificial cementation. A 2006 geologists' objection is sourced to a 2025 proponent preprint (S8), and a 2025 source is used for a feature meant to be coded as it stood near the claim (hindsight).",
+      "fix": "State the proponents' evidence in their own terms: poured concrete, 'paved terraces', alignment to true north, and a TV report that thermal imaging showed concrete blocks. Re-source the objection to the early-2006 University of Tuzla core analysis (via Woodard): 'alternating layers of conglomerate, clay and sandstone', the same as nearby hills. Also cite S3. Set raised_by to 'University of Tuzla geologists; R. M. Schoch'. Source unambiguous_signal to S3 and Woodard.",
+      "evidence": "Woodard (Smithsonian): Tuzla report, Davidovits, 'paved terraces'; S8 abstract; S9 sec. 3.1"
+    },
+    {
+      "severity": "major",
+      "field": "independent_methods_count",
+      "problem": "The schema counts lines of evidence offered for the claim, not lines that held up. Proponents offered the landform's shape and orientation, the block material ('concrete'), the tunnel features, and later radiocarbon, U-Th and soil dating (S8, S9). Other failed claims in the catalog are counted by lines offered: japanese-paleolithic-hoax = 4, calico-hills = 3. A value of 1 builds the outcome into a predictor the analyst will use.",
+      "fix": "Recount by lines offered: about 3 for 2005-10 (shape/orientation, block material, tunnels), listed in notes. If whole-history counting is the convention, use about 5.",
+      "evidence": "catalog/schema.json; S8 and S9 abstracts; catalog/cases/japanese-paleolithic-hoax.json"
+    },
+    {
+      "severity": "minor",
+      "field": "objections (missing), notes",
+      "problem": "Two ordinary explanations are missing. (1) Contamination: if the dated organics come from the Miocene strata described in S3, they should hold no measurable radiocarbon. Finite ages of 24,800-34,000 14C BP are what 1.5-4.6% modern carbon would produce (roots, humic acids, handling). The age formula is t = -8033 ln F. Two labs also gave 34,000+/-1,500 and 30,600+/-525 on the same wood. No one has shown the dated organics relate to any building event. (2) Hoax: Nadija Nukic, a geologist Osmanagic once employed, told BH Dani there was no writing on the tunnel boulders when she first saw them; Osmanagic reportedly denies this.",
+      "fix": "Add a 'dating' objection (contamination or intrusive younger carbon; unresolved) and an 'integrity' objection (tunnel carvings; unresolved). The record does not yet mention the carved-stone evidence at all.",
+      "evidence": "Stuiver & Polach 1977, Radiocarbon 19(3):355-363, doi:10.1017/S0033822200003672 (Libby mean life 8033 yr); S9 sec. 3.1, 3.3; Woodard (Smithsonian), Nukic via BH Dani (primary not checked)"
+    },
+    {
+      "severity": "minor",
+      "field": "year_resolved, what_settled_it, settled_by, timeline",
+      "problem": "year_resolved 2006 is justified, but for more reasons than the record gives. Early in 2006 University of Tuzla geologists, asked by Osmanagic himself, found the hill made of the same layers as other local mountains. Harding's letter to The Times followed in April 2006 (via Wikipedia; primary not checked), then Schoch's July-August visit (published November) and the EAA-led declaration in December. The claim was never accepted, so 2006 marks professional rejection, not a change of consensus. 'Matching documented basin geology' relies on the 2018 study S7, not on anything that settled the question in 2006. timeline[1]: S2 does not date the foundation to 2006, and Woodard places it just after the 2005 book.",
+      "fix": "Keep 2006. Add the Tuzla core analysis to what_settled_it and the timeline, add 'site-visit' to settled_by, and state in status_note that the claim was rejected on arrival. Re-date timeline[1] to 2005, or leave it undated with its source. Optionally add the June 2006 endorsement by Bosnian presidency chair Tihic and the 2015 34,000-yr claim.",
+      "evidence": "Woodard (Smithsonian); S2; S3; https://en.wikipedia.org/wiki/Bosnian_pyramid_claims (pointer only)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.professional_recovery.note, .proponent_stake.note, .independent_teams.note",
+      "problem": "Features meant to reflect 2005-10 are sourced to papers from 2020-26. S10's 'formally authorized ... for the first time' applies only to stratigraphic excavation of the Ravne 6 section. Woodard reports that Osmanagic 'secured digging permits from the appropriate authorities' before digging. S10 also says the 2025 work had ministry permits, review by the heritage institute and supervision by qualified archaeologists; fairness requires saying so. 'Fee-charging' is not in S6's abstract. S2, from 2006, cannot support 'By 2010'.",
+      "fix": "Re-source to Woodard, which reports public donations of 'hundreds of thousands of dollars', money from state-owned companies, a souvenir trade, and endorsements from Davidovits and Barakat as individuals rather than teams. Keep the values. Drop 'two decades' and 'preprints' from notes on features coded near the claim.",
+      "evidence": "S10 abstract and sec. 3.1; Woodard (Smithsonian); S6 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S7], accepted_age.basis, objections[0].outcome_note, timeline[5]",
+      "problem": "OpenAlex has no abstract for S7, and the UU repository was unreachable, so I could not confirm the 'checked' label. Unless S7 discusses Visoko itself, 'matching the pyramid hills' geology' is the researcher's inference. Also check the age S7 gives for the basin fill: if it is Early-Middle rather than Late Miocene, accepted_age should say 'Miocene'.",
+      "fix": "Keep 'checked' only if a passage can be quoted; otherwise use 'exists'. Reword 'matches' to 'consistent with'.",
+      "evidence": "lookup.py doi 10.1016/j.palaeo.2018.06.009 (no abstract); dspace.library.uu.nl unreachable"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[2], key_critics, key_proponents, objections[1].kind, objections[2].outcome",
+      "problem": "corrections[2] corrects nothing: the brief said only 'Science covered it (Bohannon 2006)'. key_critics leaves out Anthony Harding (EAA president), Heinrich and the Tuzla geologists. key_proponents could name Davidovits, who endorsed the concrete idea. objections[1] (EAA: the project is a 'hoax') is not a 'context' objection. objections[2] is 'held' on one eyewitness plus no rebuttal.",
+      "fix": "Move corrections[2] to notes. Add the critics and Davidovits. Set objections[1].kind to 'other'. State the basis for objections[2], or mark it 'unresolved'.",
+      "evidence": "Woodard (Smithsonian); S2"
+    },
+    {
+      "severity": "minor",
+      "field": "hook, status_note, notes, orthodoxy_at_claim",
+      "problem": "Tone: 'carved and marketed' (hook) and 'kept self-publishing' are loaded. status_note does not say that 'refuted' rests on the hills, and that no independent study of the tunnels exists. orthodoxy_at_claim has no source, though S2 supports it ('small groups of hunter-gatherers'). Ethics: the S10 abstract prints exact coordinates, and the record correctly omits them.",
+      "fix": "Use neutral wording. Add a tunnel sentence to status_note. Cite S2 for orthodoxy_at_claim. Never copy S10's coordinates.",
+      "evidence": "S2; S10 abstract"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Only the paywalled teaser is readable. Cited only for its own Sept 2006 publication; 'exists' is correct."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Abstract confirms: 12,000-yr 'supercivilization', 'Neolithic civilization', EAA quote, Carlton (Newcastle). It does not date the foundation to 2006 or support 'By 2010'."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "Confirms: Late Miocene lake and river deposits, fossils destroyed, crews shaping the hills, Jul-Aug 2006 visit. Its reference list confirms S4 and S5. Says nothing about flatirons, blocks or a basin match."},
+    {"id": "S4", "exists": true, "supports_citation": "could-not-read", "note": "Listed in S3's references (Klepsidra, Sarajevo, 2005). 'exists' is correct."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Listed in S3's references (Gorgias, Piscataway NJ, 2005). No field cites it; cite it somewhere or drop it."},
+    {"id": "S6", "exists": true, "supports_citation": "partial", "note": "Abstract supports New Age pilgrimage and commodification, and gives the claim as 'tens of thousands of years ago', contrary to corrections[1]. 'Fee-charging' is not in the abstract."},
+    {"id": "S7", "exists": true, "supports_citation": "could-not-read", "note": "Crossref matches. No abstract in OpenAlex and the UU repository was unreachable, so I could not confirm 'matching the pyramid hills'."},
+    {"id": "S8", "exists": true, "supports_citation": "partial", "note": "Confirms breccia/clay binders/sandstone, true north, 28-30 kHz and Fibonacci. Presents the blocks as 'artificially arranged', not natural, and cannot source a 2006 objection."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "33,800 BP is one Kyiv date (29,200+/-400 14C BP) calibrated. Samples went to six outside labs plus the Agropedology Institute, contrary to 'not cross-checked by outside laboratories'."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "Dates, Vilnius lab, IntCal20 and 15th-16th c. CE all confirmed. 'First formally authorized' covers this tunnel section only. Authors limit inference and list caveats; 'accredited' is not in the text."}
+  ]
+}

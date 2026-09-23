@@ -1,0 +1,127 @@
+{
+  "id": "calixtlahuaca-head",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "S1-S5 are real and 'open' is right. But provenance rests on Wikipedia though the H&G and Smith web texts are online; the claim dates to 1960-61 (Heine-Geldern), not 1999; the Smith correction is false; hook and signal coding favour the claim; a refuted Colonial objection is missing.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "sources[S6]; features_at_claim.documented_context; features_at_claim.professional_recovery; objections[2]; objections[4]; timeline[0]; timeline[1]; notes",
+      "problem": "Every provenance fact (1933 find, three floors, grave goods, 1960 publication, planting story, Andreae attribution, 'fragment of a larger figurine') rests on Wikipedia (S6), labelled 'checked'. S6's note says the Hristov & Genovés essay is 'since-offline'. That is false: it is live at unm.edu, and so is an extended version.",
+      "fix": "Drop S6. Cite (a) Hristov & Genovés, 'The Roman head from Tecaxic-Calixtlahuaca, Mexico: a review of the evidence' (web essay c. 2001; kind reply, open) for: 1933; burial under three intact floors of a pyramidal structure; gold, copper, turquoise, rock crystal, jet, bone, shell and pottery; burial 'dated between 1476-1510'; Boehringer's II-III c. AD attribution; Andreae quoted from Domenici 2000: 29; the MNA 'Colonial' catalogue entry; Schmidt's 1996 remark and 6 March 2000 letter; the son's 1997 statement. (b) Cite the extended version (SAA 2001 paper plus a rebuttal to Smith) for the 1960 ICA showing, and for García Payón 1961 as his only lifetime publication on the head. (c) Cite Smith's page for the critics' side (see next issue). All three are non-peer-reviewed web texts by parties to the dispute: say so. Remove 'fragment of a larger figurine' or mark it UNVERIFIED (not found outside Wikipedia).",
+      "evidence": "https://www.unm.edu/~rhristov/calixtlahuaca/Romanhead.htm ; https://www.unm.edu/~rhristov/calixtlahuaca.html"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[1]; key_critics",
+      "problem": "False correction; the brief was right. Michael E. Smith (ASU), who later led excavations at the site (S5), wrote a web page titled 'The \"Roman Figurine\" Supposedly Excavated at Calixtlahuaca' (c. 2003; photo note dated Nov 2011). The Wikipedia article used as S6 cites that page, and Hristov answers it point by point. Smith calls the case for a Roman object 'weak'. He reports Paddock's planting story as unconfirmed, says García Payón 'did not take extensive notes', raises a post-excavation mix-up in the collections, notes the offering cannot be dated as pre-Conquest rather than early Colonial, and observes that no comparisons with known Roman figurines were ever published.",
+      "fix": "Delete corrections[1]. Add 'Michael E. Smith' to key_critics. Add a source: Smith, M.E. (n.d., c. 2003). The 'Roman Figurine' supposedly excavated at Calixtlahuaca. ASU web page, via web.archive.org (kind critique, open, not peer-reviewed). No peer-reviewed Smith text on the head was found (Crossref/OpenAlex search; blog search).",
+      "evidence": "http://web.archive.org/web/2012/http://www.public.asu.edu/~mesmith9/tval/RomanFigurine.html ; Wikipedia reference list: 'Smith, Michael E. The Roman Figurine Supposedly Excavated at Calixtlahuaca'"
+    },
+    {
+      "severity": "major",
+      "field": "year_claimed; claim; key_proponents; claimed_age; orthodoxy_at_claim; features_at_claim",
+      "problem": "The Roman/contact claim went public in 1960-61, not 1999. Ignacio Bernal brought the head to the 34th International Congress of Americanists (Vienna, 1960), where it 'was not generally accepted as evidence of transoceanic contacts'. García Payón published it in 1961 (Boletín INAH 6:1-2), and Heine-Geldern (1961, Anzeiger ÖAW phil.-hist. Kl. 98(16):117-119) attributed it to Roman art. Boehringer dated it to the II-III c. AD. Hristov & Genovés (1999) revived the claim with TL. As a result, features_at_claim are coded about 40 years too late.",
+      "fix": "year_claimed 1960, or 1961 if first print is the rule. Add Robert Heine-Geldern (and Ernst Boehringer) to key_proponents. Recast the claim as shown in 1960, published in 1961 and revived with TL in 1999. Set claimed_age to the stylistic 2nd-3rd c. AD (about 1650-1850 BP). Recode features as of 1960-66: multiple_dating_methods no (no physical date until 1995); multiple_labs no; peer_reviewed_report no (short notes of 2 and 3 pages); independent_teams partial (outsiders judged style only); professional_recovery partial (the excavator's presence is disputed and his notes are thin per Smith, 'meticulous' per Hristov). Orthodoxy in 1960: no pre-Columbian Old World contact was yet archaeologically established, since L'Anse aux Meadows was only found in 1960. Drop the claim that Norse contact 'was accepted', or source it from the lanse-aux-meadows record.",
+      "evidence": "https://www.unm.edu/~rhristov/calixtlahuaca.html ('not generally accepted as evidence of transoceanic contacts in the 34th International Congress of Americanists (Vienna, 1960)'; 'García Payón (1961: 2) notes that the figurine was brought personally by Ignacio Bernal'); Romanhead.htm reference list"
+    },
+    {
+      "severity": "major",
+      "field": "hook",
+      "problem": "The hook states contested points as fact. 'Roman-style' is the disputed attribution. '15th-century Aztec grave' takes the proponents' burial date, but that date (1476-1510) runs into the 16th century, Smith says the contents and context cannot show whether the offering is pre-Hispanic or early Colonial, and S4 has the site occupied to AD 1530.",
+      "fix": "For example: 'A Roman-looking clay head from a burial dug in 1933; its date, context and origin are all disputed.' (99 chars)",
+      "evidence": "Smith page (possibility 3); S4 abstract (Yata phase AD 1450-1530)"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.unambiguous_signal",
+      "problem": "'yes' codes the head as clearly man-made, but the claim is that it is an Old World (Roman) object. That identification rests on stylistic opinion alone. The 1960 congress was unconvinced; the first professional reaction was that it is a post-Roman Christian figurine (Smith); no comparisons have been published; and the TL result 'cannot be used as an argument in the debate over the head's origin' (S2).",
+      "fix": "Code 'partial', with the note: certainly an artifact; the Roman origin rests on style alone.",
+      "evidence": "S2 abstract; Smith page (possibility 4); unm.edu/~rhristov/calixtlahuaca.html"
+    },
+    {
+      "severity": "major",
+      "field": "objections",
+      "problem": "Two objections and mundane explanations are missing. (1) The Colonial-object objection: the MNA catalogues the head as Colonial, and Schmidt said in 1996 that 'everybody knows that the head is Colonial'. S2's TL 'probably rules out a Colonial manufacturing date', so this objection's outcome is 'wrong' for manufacture. It is exactly the evidence the catalog needs for its 'objections that turned out wrong' question. (2) A post-excavation mix-up in the collections: Smith notes that the Toluca collection includes vessels donated from other sites; Hristov replies that García Payón never listed such items as excavated. Outcome unresolved.",
+      "fix": "Add both objections: (1) kind dating or identification, outcome wrong (manufacture only); (2) kind integrity, outcome unresolved. Cite the H&G essay, S2 and the Smith page.",
+      "evidence": "Romanhead.htm ('it is catalogued as such in the Museo Nacional de Antropología'); Smith page (possibility 2); unm.edu/~rhristov/calixtlahuaca.html"
+    },
+    {
+      "severity": "major",
+      "field": "objections[4]",
+      "problem": "The text 'resting on one outside expert's opinion' is wrong: Boehringer, Heine-Geldern (1961) and Andreae (quoted 2000) all attributed the head to Roman art. The real objection, Smith's, is that none of them published comparisons with known Roman figurines and that it may be a post-Roman European piece. The TL range, which runs to AD 1270, also allows medieval European or Mesoamerican manufacture.",
+      "fix": "Rewrite with raised_by 'Michael E. Smith (initial 1960s reaction per Smith)', year about 2003, kind identification, outcome unresolved, citing the Smith page.",
+      "evidence": "Romanhead.htm; Smith page"
+    },
+    {
+      "severity": "major",
+      "field": "claim; orthodoxy_at_claim; features_at_claim.multiple_dating_methods; features_at_claim.material_accessible; features_at_claim.independent_teams",
+      "problem": "Some statements cite sources whose abstracts, the only parts that were read, do not contain them. The 1476-1510 burial date, the '2nd-3rd century' and 'only Norse contact accepted' cite S1, but S1's abstract gives no century and no burial date. The 'outside Roman-art specialist' is attributed to S2, whose abstract does not mention one.",
+      "fix": "Cite the H&G essay instead (1476-1510; Boehringer; Norse remark citing McGee 1984), and for Andreae the essay's quotation from Domenici 2000: 29 (primary still unlocated). Otherwise, read the S1 full text.",
+      "evidence": "lookup.py doi abstracts of S1, S2"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline",
+      "problem": "timeline[1] ('1960 first publishes') conflicts with the H&G bibliography: García Payón's note appeared in 1961 (Boletín INAH 6:1-2) and was his only publication on the head in his lifetime. His texts of 1979, published after his death, cover pp. 203-206, and the page ranges differ between the two H&G versions. 1960 was the Vienna showing; Smith and Wikipedia say 1960. The timeline also omits the 1961 Heine-Geldern attribution, Schmidt's statements (1996, 2000), Wagner's letter to New Scientist no. 2233 (2000: 64-65; cited by Smith, verify before use), and the Smith (c. 2003) and Hristov (c. 2010) web exchange.",
+      "fix": "1960: shown at the 34th ICA in Vienna, not generally accepted. 1961: García Payón's note and Heine-Geldern's Roman attribution. Add the other events, staying within 12 entries. Record 1960 versus 1961 as a correction of common accounts.",
+      "evidence": "Romanhead.htm reference list; unm.edu/~rhristov/calixtlahuaca.html"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1]; objections[2]",
+      "problem": "Attribution and balance. Planting: the story came from John Paddock orally, relayed by Schmidt in a 1996 remark and a 6 March 2000 letter; the year is not null. Smith says many Mexican archaeologists have heard the story; H&G say five senior scholars asked in 1997 had not. The son said his father 'always assured' people he was present, not that he was 'never absent'. Import: Smith raised this; the objection should cover any European object fired before about AD 1270 and an early-Colonial burial. H&G's rebuttal rests on the site being 'abandoned in A.D. 1510', which S4 (Yata phase to 1530) contradicts.",
+      "fix": "Set raised_by, year and outcome_note to match, citing the H&G essay, the Smith page and S4. Move the S4 point from notes into objections[1].",
+      "evidence": "Romanhead.htm; Smith page; S4 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "accepted_age; claimed_age",
+      "problem": "In accepted_age, 'wide 2-sigma' is not in S2, and 'Excludes Colonial-period manufacture' overstates S2's 'probably rules out'; the range is a firing date only. In claimed_age, TL 'b.p.' counts from about 1995 (S3: 730 BP = AD 1265), so 1780±400 b.p. corresponds to about 1335-2135 BP on the 1950 scale, not 1380-2180. This is moot if claimed_age becomes the stylistic date.",
+      "fix": "Drop '2-sigma' and write 'probably excludes'. Label accepted_age as the firing date only; the deposition date is unknown.",
+      "evidence": "S2, S3 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]",
+      "problem": "This is not a correction. The brief said TL was reported as pre-Columbian, which S1 did, and even the corrected range indicates pre-Colonial firing. The quote also drops ', Ancient Mesoamerica' (quotes must be exact).",
+      "fix": "Move it to notes as a clarification.",
+      "evidence": "catalog/briefs.json; S1, S2 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "status_note; confidence",
+      "problem": "'open' is honest: TL cannot tell Roman, medieval European and Mesoamerican firing apart (S2), the deposition rests on García Payón's notes, and no test has settled the case. But the dispute is unresolved since 1960, not 2001. 'No new dating or documentary study' should say 'on the head itself', because the Smith et al. (2003) study of the offerings and S4 bear on the context. The residual dissent is also missing: the 1960 congress rejected the claim and the site's later excavator calls it 'weak'. With provenance on Wikipedia, confidence should be low as drafted; medium is fair after the fixes.",
+      "fix": "Revise status_note along these lines. Keep status 'open' and failure_mode 'none'.",
+      "evidence": "S2; Smith page; unm.edu/~rhristov/calixtlahuaca.html"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests",
+      "problem": "S2 could not make a standard TL determination ('methodological problems'), so a second TL attempt may fail the same way, and sampling an INAH-held object is not 'low' cost. The archival test misses the key targets.",
+      "fix": "Set test 1 to cost medium. Add to test 4: the MNA catalogue history (the 'Colonial' entry), García Payón's 1979 posthumous texts, and the Toluca offering inventory (Smith et al. 2003), to test the collection-mix-up scenario. Add CT or X-radiography of how the head was formed (moulded vs hand-modelled) to test 2.",
+      "evidence": "S2 abstract; Smith page"
+    },
+    {
+      "severity": "minor",
+      "field": "anomaly_type",
+      "problem": "Checked: 'contact' is right. The claim is transatlantic contact, and kensington-runestone, also a single object, is coded 'contact'. Switching to 'artifact' would break consistency. However, the record never states that the case rests on one object.",
+      "fix": "Keep 'contact'. Add one line to notes: the whole case rests on a single object, so the analyst can cross-tab single-object contact claims.",
+      "evidence": "catalog/cases/kensington-runestone.json"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "The abstract confirms the 1995 Heidelberg TL test, 1780±400 b.p., no sign of intrusion, and 'first hard evidence'. It does not contain the 1476-1510 date, the 2nd-3rd c. or the Norse remark cited to it. It places the find 'near Mexico City'."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Supports the TL statements (wrong figure and reference; AD 1270-870 BC; 'probably rules out' Colonial manufacture; no use for origin). Does not support '2-sigma' or the 'outside Roman-art specialist' cited to it."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "The abstract gives 2870-730 BP (875 BC-AD 1265), addresses the post-1492 import and 'planted' objections, and calls both 'highly unlikely' via Aztec-Matlatzinca relations."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Phases Dongu 1130-1380, Ninupi 1380-1450, Yata 1450-1530 from 54 14C dates. Does not discuss the head; the 'ca. AD 1100' start comes from S5."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Occupation ca. AD 1100-1530. Background only."},
+    {"id": "S6", "exists": true, "supports_citation": "partial", "note": "A tertiary source that states what is cited, but its '1960' conflicts with the H&G bibliography (1961). Its own reference list cites Smith's page. Replace it."},
+    {"id": "NEW-A", "exists": true, "supports_citation": "yes", "note": "H&G web essay, unm.edu/~rhristov/calixtlahuaca/Romanhead.htm (live). Confirms 1933, floors, goods, 1476-1510, Boehringer, Andreae, MNA 'Colonial', Schmidt/Paddock/Moedano, son 1997, refs to García Payón 1961 and Heine-Geldern 1961."},
+    {"id": "NEW-B", "exists": true, "supports_citation": "yes", "note": "H&G extended version and rebuttal of Smith, unm.edu/~rhristov/calixtlahuaca.html. Covers the 1960 Vienna ICA showing (brought by Bernal; not generally accepted) and García Payón 1961 as his only lifetime publication."},
+    {"id": "NEW-C", "exists": true, "supports_citation": "yes", "note": "Smith, 'The Roman Figurine Supposedly Excavated at Calixtlahuaca', ASU web page (Wayback). Six alternative explanations; calls the case 'weak'; limited field notes; no Roman comparisons published."},
+    {"id": "NEW-D", "exists": true, "supports_citation": "could-not-read", "note": "Heine-Geldern 1961, Anzeiger ÖAW phil.-hist. Kl. 98(16):117-119. The volume and pages are corroborated by the H&G references and an independent web citation. Not in Crossref; text not read."},
+    {"id": "NEW-E", "exists": false, "supports_citation": "could-not-read", "note": "García Payón 1961, 'Una cabecita de barro, de extraña fisonomía', Boletín INAH 6:1-2. Known only from the H&G reference list; mark it unverified until found in a catalogue."}
+  ]
+}

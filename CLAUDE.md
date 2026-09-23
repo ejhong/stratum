@@ -81,9 +81,10 @@ for) · `exists` (metadata confirmed, content not read, e.g. paywalled) · `unve
   `page --grep` for passages) and never read raw API output or whole PDFs: everything an
   agent reads is re-read on every later step. Budgets: researcher ≈ 40 tool calls, skeptic
   ≈ 35. One case per agent.
-- Researchers and skeptics run on Opus; wave 2 trials Sonnet researchers under Opus skeptics,
-  and the cheapest configuration that keeps skeptic failures rare wins. Never downgrade the
-  skeptic. Log tokens per batch in `logs/usage.md`.
+- Researchers and skeptics run on Opus: a trial with Sonnet researchers produced about 2.4×
+  the major issues, including misread sources (D17). Sonnet does mechanical revisions, scouting
+  and structured audits, always checked by an Opus skeptic. Never downgrade the skeptic. Log
+  tokens per batch in `logs/usage.md`.
 
 ## Phase 1: The Anomaly Fates Catalog (current)
 

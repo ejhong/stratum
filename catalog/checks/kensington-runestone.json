@@ -1,0 +1,81 @@
+{
+ "S1": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Kensington Runic Inscription",
+  "crossref_year": 1950,
+  "crossref_venue": "Speculum",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Folk Archaeology in Anthropological Perspective",
+  "crossref_year": 1990,
+  "crossref_venue": "Current Anthropology",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Kensington Runestone: Approaching a Research Question Holistically",
+  "crossref_year": 2006,
+  "crossref_venue": "Anthropology of Consciousness",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Kensington Runestone: Approaching a Research Question Holistically",
+  "crossref_year": 2006,
+  "crossref_venue": "Ethnohistory",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 88%, year ok, author ok",
+  "crossref_title": "The Kensington rune-stone: Authentic and important By Robert A. Hall, Jr (review)",
+  "crossref_year": 1998,
+  "crossref_venue": "Language",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Kensington Runestone: Fact and Fiction",
+  "crossref_year": 2012,
+  "crossref_venue": "Swedish-American Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "In Defense Of Main Street",
+  "crossref_year": 2010,
+  "crossref_venue": "Myths of the Rune Stone",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Myth of the Kensington Rune Stone: The Norse Discovery of Minnesota 1362",
+  "crossref_year": 1934,
+  "crossref_venue": "The New England Quarterly",
+  "checked_on": "2026-09-23"
+ }
+}

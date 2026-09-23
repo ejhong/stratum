@@ -1,0 +1,140 @@
+{
+  "id": "glozel",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Status refuted, failure_mode hoax and type capability are right, but the draft overstates a genuine 'Iron Age-medieval site': S8 p.1 says 1983 test pits found no intact deposits; TL is treated as settled; S2/S3 misread; year_resolved should be ~1927, not 1995.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "status_note; what_settled_it; objections[4]; timeline[6]; notes; accepted_age.basis",
+      "problem": "The record says the 1983-1990 'excavation' found stratigraphy and finds from the Iron Age to the medieval period, with forgeries added. S8's only readable page says otherwise about the site itself. The 1983 Daugas-Petrequin test pits were meant to find intact deposits: 'Cette démarche s'est révélée infructueuse'. Flouest's 1983-84 work on three peripheral findspots found no Glozelian remains, only medieval and modern occupation. Fieldwork ran 1983-84; 1983-1990 is the whole research programme, lab work included. S8's conclusion pages (pp. 252-259) were not read: the Persée PDF returns 403 and the HAL record has no file. No read source supports 'an ordinary Iron Age-medieval site with added forgeries'.",
+      "fix": "Rewrite to match what is verifiable. The 1983 test pits found no intact deposits. The peripheral sites were medieval/modern, with no Glozelian material. The Glozelian objects 'sont aujourd'hui considérés comme non authentiques' (publisher text of the 2023 monograph). Write 'test excavations (1983-84)', not '1983-1990 excavation'. Unless pp. 252-259 are read (e.g. the Academia.edu copy uploaded by Petrequin/Demoule, or a library copy), label S8 'exists' for its conclusions. The 'Iron Age' element comes only from TL on museum objects, not from excavated stratigraphy; say so.",
+      "evidence": "https://www.persee.fr/doc/racf_0220-6617_1995_num_34_1_2730 (p. 251); https://www.pubp.fr/archeologie/503-glozel-9782383770961.html"
+    },
+    {
+      "severity": "major",
+      "field": "accepted_age",
+      "problem": "The record treats the 1974 TL range (bp 1850-2650) as the accepted age of the material. Four problems. (1) S5's abstract calls it a 'preliminary date'. (2) S5 does not support the 'medieval material' in the label. (3) TL gives calendar ages, so 'uncalibrated' misleads. (4) The 1983-90 programme had to run dosimetric studies 'pour affiner les datations par thermoluminescence' (S8 p.1), so the dose rate was an open problem. Critics accepted as genuine only the late glass-kiln debris and a few flint chips (S3, translator's note). As coded, the analysis will read Glozel as a real Iron Age assemblage.",
+      "fix": "Relabel along the lines of 'Medieval glass-kiln debris; Glozelian objects judged non-authentic; TL ages disputed'. Set bp_min/bp_max to null (or to a sourced medieval range) and source it to S3 plus the 2023 monograph. Move the 1974 TL range to notes as a disputed result.",
+      "evidence": "S5 abstract via OpenAlex (doi 10.1017/s0003598x00058208); S8 p.1; S3 note to p. 212"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[1]",
+      "problem": "This entry says the brief's 'mixed' TL ages were wrong. That is true only of the 1974 paper, which gave a single range (S5: 700 BC-AD 100). The brief says '1970s thermoluminescence dates'. Later 1970s work reportedly split the objects into three groups: Iron Age-Roman, 13th-century medieval, and recent (attributed to Mejdahl 1980, S7). That account comes only from secondary summaries that cannot be cited (e.g. en.wikipedia 'Glozel artifacts'), and S7 itself was not read. The correction may itself be the error.",
+      "fix": "Read S7, or the McKerrell and Mejdahl preamble in the 2023 monograph. If the later dates include medieval or recent ages, delete the correction or narrow it to 'the 1974 paper alone gave 700 BC-AD 100'.",
+      "evidence": "S5 abstract; S7 doi 10.1111/j.1475-4754.1980.tb00943.x (Wiley 403)"
+    },
+    {
+      "severity": "major",
+      "field": "objections (missing TL objection); objections[3].outcome_note; sources[S6]",
+      "problem": "No objection covers the mundane explanations for the TL dates themselves. (1) Artificial irradiation of fakes: Zimmerman (1976) ran zircon-grain TL 'dans un seul but : déterminer si un mystificateur aurait pu faire subir aux prélèvements une irradiation artificielle'. His conclusion was not visible. (2) Dose-rate uncertainty (S8 p.1). (3) Low or repeated firing (secondary accounts only). Separately, objections[3].outcome_note cites S5 (1974) for 'a 1975 Antiquity note urged caution'. That note is 'Thermoluminescence and Glozel: a plea for caution', Antiquity 49(195): 223-226. It is neither S5 nor S6 (S6 is the editorial on pp. 222-223), and nobody read it. McKerrell et al. offered TL as evidence against forgery, so naming them as the source of an objection needs a note.",
+      "fix": "Add a 'dating' objection on TL reliability, outcome 'unresolved' unless the 2023 TL chapters (Stoneham; Miallier) settle it. Cite Zimmerman 1976 (doi 10.3406/racf.1976.2019), the plea for caution (doi 10.1017/s0003598x00103485) and the reply by McKerrell et al. 1975 (Antiquity 49(196): 267-272, doi 10.1017/s0003598x00070290). Label each by what was actually read.",
+      "evidence": "https://www.persee.fr/doc/racf_0220-6617_1976_num_15_1_2019; Crossref records for the two 1975 Antiquity items"
+    },
+    {
+      "severity": "major",
+      "field": "sources[S2]; features_at_claim.independent_teams; features_at_claim.material_accessible; features_at_claim.unambiguous_signal; objections[1]; objections[2]",
+      "problem": "S2 is Champion's technical report, reprinted 'in extenso' from Revue anthropologique 1928 nos. 1-3. Its readable text is Champion's own tool-mark analysis. The commission report, 'vaste mystification' and Breuil's letter that the source note describes were not visible. S2 is also cited for events it cannot contain: the April 1928 Comité d'études and the 1929 police examiner. It was not shown to mention the 1928 police raid either. objections[1] credits the tool-mark objection to Breuil (1927) without citing any Breuil text.",
+      "fix": "Downgrade S2 to 'exists' unless a full read confirms the commission and Breuil passages. Cite the 1927 International Commission report (Revue anthropologique) directly, and a read source for the 1928-29 events. Re-attribute objections[1] to Champion (1928) unless a Breuil source is found. Check objections[2]'s 'a few flint and stone pieces' against the commission text.",
+      "evidence": "https://www.persee.fr/doc/bspf_0249-7638_1928_num_25_1_6289"
+    },
+    {
+      "severity": "major",
+      "field": "sources[S3].note; objections[1].outcome_note; notes",
+      "problem": "S3 is 'Translated by the EDITOR' (Antiquity's editor, O.G.S. Crawford). The passage 'only genuine: bricks, crucibles, glass fragments... a few minute flint chips' is a first-person footnote signed '-TRANSLATOR'. That makes it Crawford's view, not Vayson de Pradenne's, and it exempts the flints from 'late date' ('All except the last were plainly of quite a late date'). objections[1].outcome_note says the critics judged 'most non-clay, non-glass material' fabricated. That implies they accepted the clay tablets, idols and urns, but the only clay they accepted was kiln bricks and crucibles. Cambridge Core shows only S3's first page and notes, not open full text.",
+      "fix": "Attribute the passage to the translator/editor (Crawford, 1930) and quote it exactly. Replace 'non-clay, non-glass' with 'everything except glass-kiln bricks, crucibles, glass and a few flint chips'. Label S3 'checked' only for the passages actually read.",
+      "evidence": "https://doi.org/10.1017/S0003598X00004518 (title-note '* Translated by the EDITOR'; note to p. 212)"
+    },
+    {
+      "severity": "major",
+      "field": "year_resolved; settled_by; what_settled_it",
+      "problem": "1995 mixes up two questions. The claim itself, a Neolithic civilization with its own alphabet, lost professional acceptance with the 1927 commission report and never regained it; in 1930, S3 already speaks of having 'exposed the fraud'. The 1974 TL reopened only a sub-question: forged, or genuinely old? Even taken at face value, the TL ruled out a Neolithic date. Using 1995 turns roughly 3 years to resolution into roughly 70, which biases the project's 'how long did resolution take' analysis.",
+      "fix": "Set year_resolved to 1927 (or 1930). In what_settled_it, describe 1974-2023 as a reopened sub-question about authenticity. Limit settled_by to what settled the claim (expert-review, site-visit, forensic-analysis). If 1995 is kept, justify it explicitly in status_note.",
+      "evidence": "S3 opening paragraph; timeline[2]; S5 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.independent_teams",
+      "problem": "'yes' counts hostile investigations (the 1927 commission, a police examiner) as independent teams. That breaks the house coding: piltdown, calico-hills and bosnian-pyramids code 'no' where no independent group corroborated the claim. The April 1928 Comité d'études was reportedly formed by the pro-Glozel camp and declared the site authentic and Neolithic. So it was not independent of the proponents, and the record omits its dissent. Both points come from non-scholarly accounts and need verifying.",
+      "fix": "Recode as 'no' or 'partial' with a sourced note. Once verified (e.g. from Daugas's historical preamble in the 2023 monograph), record the Comité d'études report as contemporary support for the claim.",
+      "evidence": "catalog/cases/piltdown.json, calico-hills.json, bosnian-pyramids.json; lead only: http://embed.retronews.fr/sciences/chronique/2019/10/16/l-affaire-de-glozel"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.proponent_stake; timeline[0]; timeline[1]; timeline[3]",
+      "problem": "Four statements lack a source that was actually read. proponent_stake has no source at all (Morlet paying for excavation rights; the Fradin family's paying museum). timeline[0] (1924) has no source. timeline[1] cites S1, a 1927 note that says nothing about 1925 or about when Morlet began. timeline[3]'s 'police forensic report calls the artifacts recent forgeries' rests on S10, a JSTOR stub nobody read.",
+      "fix": "Source proponent_stake or set it to 'unknown'. For 1925, cite the original claim publication (Morlet and Fradin's 1925 'Nouvelle station néolithique' fascicle), after verifying its bibliographic details. Cite a read source for the 1929 forensic report, or cut the event back to what S10's title supports.",
+      "evidence": "S1 text on Persée; S10 JSTOR stub"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].outcome_note",
+      "problem": "The note says the 1983-1990 work was ordered 'specifically because the original work lacked professional oversight' and cites S1 (1927). S8 p.1 gives a different reason: requests from 1982 onward to reopen the excavations, and a programme set up 'afin de faire le point scientifique sur cette affaire' at the request of the Conseil Supérieur de la Recherche Archéologique.",
+      "fix": "Restate the reason as S8 p.1 gives it, and cite S8.",
+      "evidence": "https://www.persee.fr/doc/racf_0220-6617_1995_num_34_1_2730"
+    },
+    {
+      "severity": "major",
+      "field": "sources (completeness)",
+      "problem": "Key publications are missing or unread. (1) Original claim: Morlet and Fradin 1925, absent. (2) Main critique: the 1927 International Commission report, seen only through S2's reprint, which was not verified. (3) Resolving study: the 2023 monograph, cited only through a one-page review. The monograph's publisher page states plainly that the finds are 'considérés comme non authentiques'.",
+      "fix": "Add the 1927 commission report and the 2023 monograph (Guilaine & Miallier dir., Presses universitaires Blaise-Pascal, Terra Mater 5, 320 p.). Add the 1925 fascicle once verified.",
+      "evidence": "S9 header; https://www.pubp.fr/archeologie/503-glozel-9782383770961.html"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.documented_context.note",
+      "problem": "Says the 1924 chamber was dug and interpreted by Morlet. S1 says the first oval pit was 'découverte et détruite avant le début régulier des fouilles entreprises par M. le Dr Morlet'.",
+      "fix": "Correct the note. The coding 'no' stands.",
+      "evidence": "S1, CRAI 1927 p. 168"
+    },
+    {
+      "severity": "minor",
+      "field": "orthodoxy_at_claim.source",
+      "problem": "S1 says nothing about where alphabetic writing began.",
+      "fix": "Cite a source that states this orthodoxy, or drop the source field.",
+      "evidence": "S1 text on Persée"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.peer_reviewed_report",
+      "problem": "'partial' rests on a two-page CRAI relay of Morlet's report and on self-published fascicles. Neither is a full technical report in a refereed venue. 'Self-published 1925 book' has no source.",
+      "fix": "Recode to 'no' unless a proponent report in a refereed venue within about 5 years is cited.",
+      "evidence": "S1"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]; corrections[2]",
+      "problem": "corrections[0] misquotes the brief, which reads 'a later French ministry review (1990s)'. The brief was not wrong: the 1995 résumé is a ministry-sponsored review from the 1990s. S8 runs pp. 251-259, 9 pages, not 13. Fieldwork ran 1983-84. The monograph is dated 2023 (S9), not 2023-2024. corrections[2] corrects neither the brief nor a published account; it is a note about scope.",
+      "fix": "Quote the brief exactly and recast the entry as a clarification (summary 1995, monograph 2023). Move corrections[2] to confidence_note.",
+      "evidence": "catalog/briefs.json; S8; S9"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[7]; objections[4].outcome_note; sources[S9].note",
+      "problem": "The key event is the 2023 monograph, not the 2024 review of it. S9 does not restate an 'Iron Age-medieval' conclusion. It says the authenticity problem 'a été résolu, même si les conclusions sont encore rejetées par certains et le seront finalement toujours', and lists chapters such as Gallay's 'Glozel : bilan d'une manipulation'.",
+      "fix": "Make the timeline entry '2023: full results published (Guilaine & Miallier dir.)'. Quote S9 accurately.",
+      "evidence": "https://doi.org/10.4000/139qi"
+    },
+    {
+      "severity": "minor",
+      "field": "falsifier; confidence",
+      "problem": "The falsifier covers only a Neolithic date. The live residual question is the hoax verdict: were the inscribed tablets fired in antiquity? Confidence 'medium' is too high while S7, S8's conclusions and the monograph remain unread.",
+      "fix": "Add to the falsifier: a TL/OSL programme with controlled dosimetry showing inscribed tablets fired in antiquity would move failure_mode from hoax toward misinterpretation. Set confidence to 'low' until the fixes are made.",
+      "evidence": "S8 p.1 (dosimetry programme)"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Persée note: supports 'haute époque néolithique', no Celtic/Roman objects, necropolis, Morlet aided by Fradin. Silent on 1925, orthodoxy, 1983 motive; contradicts 'Morlet dug 1924 pit'."},
+    {"id": "S2", "exists": true, "supports_citation": "could-not-read", "note": "Only p.1 visible: Champion's report reprinted from Rev. anthropologique 1928 nos 1-3. Commission/Breuil passages not seen; cannot cover Apr 1928 Comité or 1929 examiner. Use 'exists'."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "First page + notes only. 'Translated by the EDITOR'; 'only genuine' passage is the translator's footnote (p.212), flints not 'late'. Supports the forgery framing."},
+    {"id": "S4", "exists": true, "supports_citation": "could-not-read", "note": "Paywalled; not cited for any field. 'exists' is correct."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract: all tested objects 'genuine', 'preliminary date within the period 700 BC-AD 100'. Does not support 'medieval material' or the 1975 caution note."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "Editorial, pp. 222-223. Not the 'plea for caution' (pp. 223-226, doi 10.1017/s0003598x00103485) that objections[3] describes."},
+    {"id": "S7", "exists": true, "supports_citation": "could-not-read", "note": "Wiley 403. Needed to test corrections[1]; reportedly shows later TL split incl. medieval and recent ages (unverified)."},
+    {"id": "S8", "exists": true, "supports_citation": "partial", "note": "URL is the issue TOC; article is /doc/racf_0220-6617_1995_num_34_1_2730. p.1: 1983 commissioning, test pits 'infructueuse', peripheral sites medieval/modern. Conclusions unread."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "Supports monograph details (PUBP 2023, 320 p.), dossier contents, 'résolu... rejetées par certains'. Does not state Iron Age-medieval conclusions."},
+    {"id": "S10", "exists": true, "supports_citation": "could-not-read", "note": "JSTOR stub; title only. Cannot support the police-report content in timeline[3]."}
+  ]
+}

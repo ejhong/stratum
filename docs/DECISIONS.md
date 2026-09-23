@@ -106,3 +106,14 @@ direct date (rock-surface luminescence, cosmogenic exposure, U-series) would be 
 leads, whichever way they come out; (2) Hancock's key evidential claims enter the catalog
 under the same rules as everything else, each with a decisive test (Sphinx weathering and
 Gunung Padang first). The audit's monument list is committed before any dating research.
+
+## 2026-09-23 · D17 · Model trial result: researchers stay on Opus
+Wave 2 drafted 14 records with Sonnet researchers under the same Opus skeptics. Skeptic major
+issues per record: Sonnet ≈ 6.6 (range 2–11) vs Opus ≈ 2.7 (range 0–7) in wave 1. The extra
+Sonnet issues were qualitatively worse — misread sources, false "corrections" of true
+statements, Wikipedia used for record facts, and one invented detail — exactly the failures
+this project exists to prevent. Sonnet drafts cost about half the tokens of wave-1 Opus drafts,
+but wave-1 Opus drafts were inflated by raw API dumps that `lookup.py` now prevents. Decision:
+researchers run on Opus with the lookup tool and budgets; Sonnet is used for mechanical
+revisions, breadth scouting and structured audits, whose output an Opus skeptic always checks.
+Revisions of drafts with misreadings go to Opus, since the reviser must re-read the sources.

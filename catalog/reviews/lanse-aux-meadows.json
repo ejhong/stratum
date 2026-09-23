@@ -1,0 +1,146 @@
+{
+  "id": "lanse-aux-meadows",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Core facts hold: a Norse site, AD 1021, vindicated. But the record mixes an 1837 anchor with 1960s features, cites Wikipedia for key facts, credits Ingstad-era finds to Parks Canada, dates consensus to UNESCO 1978, and miscodes four objections. Fixable.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "year_claimed; features_at_claim; notes; corrections[0]; timeline[0]",
+      "problem": "Dual anchoring. year_claimed is 1837 (Rafn), but the claim, key_proponents, features_at_claim, objections and status all describe the Ingstads' 1960s site claim. Coded strictly for 1837-42, every feature would be 'no'. 1837 is not even the first such claim: Cooke (1965) names Torfaeus (1705) and Forster (1784) as earlier, and credits Rafn only with starting 'spirited controversy'. Rafn's Vinland (Massachusetts) is a separate claim that failed. Catalog precedent anchors legend cases on the site-specific claim (troy-hisarlik uses Calvert, 1865).",
+      "fix": "Anchor on the Ingstads. Set year_claimed to 1960, the year the site was identified (S2 p. 976; Parks Canada; the brief agrees). The earliest publication I verified is H. Ingstad, 'Discovery of Vinland', Arctic Circular 15(1): 2-6 (dated 1962, issued January 1963; cited in Cooke 1965). If no public statement from 1960 can be documented, use the year of the first documented announcement. Re-code every features_at_claim entry for 1960-65 only, and drop hindsight wording such as 'became decisive'. Delete the dual-anchor text in notes and corrections[0]. Keep Rafn 1837 only as a background timeline event, cited to Cooke (1965) or to Rafn (1837) itself.",
+      "evidence": "Cooke, A. (1965). The identification of Vinland. Polar Record, doi:10.1017/s0032247400058782 (first paragraph and reference list); S2 p. 976; https://parks.canada.ca/lhn-nhs/nl/meadows/culture"
+    },
+    {
+      "severity": "major",
+      "field": "year_resolved; settled_by; what_settled_it",
+      "problem": "1978 is the UNESCO inscription. That listing assumed a consensus that already existed; it was not when the consensus formed. The Historic Sites and Monuments Board (HSMBC) designated the site in 1968, the year the Ingstad excavations ended. The federal heritage directory cites the HSMBC 1968 minutes and gives the reason for designation: 'the first known site established by Vikings in North America'. what_settled_it credits the pin, spindle whorl, rivets and smithy to an 'independent Parks Canada re-excavation after 1968'. That contradicts the record's own features note (recovered 1961-1968), S2, and Parks Canada ('Excavation by the Ingstads and, later, by Parks Canada'). 'independent-redating' (1989, 2021) came after the consensus.",
+      "fix": "Set year_resolved to 1968: 8 years after the claim, not 18. Say in notes that this is a judgment call. Acceptance may date to about 1964-65: the spindle whorl was reportedly found in 1964, and the full text of Cooke 1965 (a survey written at the time) should be checked. A.S. Ingstad's 1977 report and Parks Canada's 1970s excavations (years to verify) consolidated the consensus rather than creating it. If documented professional doubt lasted past 1968, use the year it faded, not 1978 by default. Set settled_by to new-excavation and expert-review. Rewrite what_settled_it: the Ingstad excavations of 1961-68 (turf halls, iron-working slag, Norse artifacts) plus the 1968 national designation, with UNESCO 1978 and the 1989 and 2021 dating studies as later confirmation.",
+      "evidence": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=236 ; S2 p. 976; https://parks.canada.ca/culture/spm-whs/sites-canada/sec02a"
+    },
+    {
+      "severity": "major",
+      "field": "sources[S8,S9] and every field citing them",
+      "problem": "Encyclopedia citations support record facts: features unambiguous_signal, documented_context and independent_teams; timeline entries for 1837, 1960, 1961, 1968, 1978 and 2016; objections[4]; corrections[1]; and the hook's 'old Indian camp'.",
+      "fix": "Replace S8 and S9 as follows. 1960 discovery, George Decker's role and the 1961-68 international team: Parks Canada 'Culture and history' page. 1960 discovery and the seven 1961-68 expeditions directed by A.S. Ingstad: S2 p. 976. 1968 designation: Parks Canada federal heritage directory page. 1978 inscription: UNESCO WHC list no. 4 (whc.unesco.org/en/list/4; the page blocked my fetch, so verify) or the Parks Canada World Heritage page. Halls, smithy, spindle whorl and ringed pin: Wallace 2003, Newfoundland Studies 19(1): 5-43 (open access), and A.S. Ingstad 1977 (Universitetsforlaget, Oslo). Rafn: Cooke 1965. Point Rosee: Parcak and Mumford's 2017 report to the Newfoundland and Labrador Provincial Archaeology Office, or drop it. Drop 'old Indian camp' unless a non-encyclopedic source is found.",
+      "evidence": "https://parks.canada.ca/lhn-nhs/nl/meadows/culture ; https://journals.lib.unb.ca/index.php/NFLDS/article/view/140 ; doi:10.1017/s0032247400058782"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.professional_recovery; features_at_claim.peer_reviewed_report",
+      "problem": "Both rest on S6, a 1980 review of the 1977 monograph that was never read (verification 'exists' only). In the 1960-65 window, the only publications I found (in Cooke 1965's reference list) are H. Ingstad's short note in the Arctic Circular (1962/63) and a National Geographic article (1964). The full technical report is A.S. Ingstad 1977.",
+      "fix": "Set peer_reviewed_report to 'no' unless a peer-reviewed technical report from 1960-65 is found. Keep professional_recovery 'yes', but cite S2 ('his wife, Anne Stine Ingstad ... directed the archaeological work') or the Parks Canada page.",
+      "evidence": "Cooke 1965 references: Ingstad 1962, Arctic Circular 15(1): 2-6; Ingstad 1964, National Geographic 126(5): 708-34. S2 p. 976."
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_labs; features_at_claim.multiple_dating_methods",
+      "problem": "Both notes contradict their cited source, S2. The multiple_labs note says Nydal does not break out labs, but he lists Trondheim (T-530, T-531) and Stockholm (St-2665) samples. The multiple_dating_methods note says AMS was not applied until 2022, but S2 cites Toronto IsoTrace accelerator dating (Beukens 1986). Also, S1 says earlier age estimates rested on 'stylistic analysis of the architectural remains and a handful of artefacts', which is typological cross-dating.",
+      "fix": "Find out when the T- and St- dates were measured. Code multiple_labs 'yes' or 'partial' if two labs reported by about 1965; otherwise leave it 'unknown' with a correct note. For multiple_dating_methods, correct the note (AMS is still radiocarbon) and decide whether typology plus radiocarbon counts as 'partial' under catalog convention.",
+      "evidence": "S2 pp. 976-978; S1 introduction"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim; objections[0]",
+      "problem": "This misstates the orthodoxy of 1960. Cooke (1965): 'few informed persons have doubted that about A.D. 1000 the Norse attempted to colonize a part of the New World that they called Vinland'. The disputes were over location and 'the lack of incontrovertible evidence of Norse occupation'. Wallace (2003, p. 9) says 19th-century scholars read the sagas as accurate history. S3's abstract does not mention Columbus. objections[0] is coded 'wrong' against 'sagas widely treated as embellished tradition', a view literary historians still hold (S3), and it has no named raiser.",
+      "fix": "Rewrite orthodoxy_at_claim: Norse Vinland voyages around AD 1000 were widely accepted from the sagas, but their location was disputed and no incontrovertible Norse site was known (Cooke 1965; S3). Reframe objections[0] as the prior doubt that a Norse site survived or would be found in northern Newfoundland, with a named and sourced raiser and outcome 'wrong'. If no raiser can be sourced, drop it.",
+      "evidence": "doi:10.1017/s0032247400058782; Wallace 2003, Newfoundland Studies 19(1), p. 9"
+    },
+    {
+      "severity": "major",
+      "field": "objections[1]; key_critics",
+      "problem": "The outcome 'wrong' is not supported. S2 calls driftwood 'the most problematic feature', says it 'may dramatically affect a dating result', and builds an assumed 30±20-year systematic (old-wood) error into its AD 975-1020 range. S1 says the more than 150 legacy radiocarbon dates have 'not proved especially informative', with calibrated ranges spanning the whole Viking Age. The year 1989 is when Nydal reviewed the problem, not when it was raised. Nydal was the site's radiocarbon dater (the Trondheim T- samples), not a critic. Kay (S4) questions the site's function and diet, not its Norse identity.",
+      "fix": "Set the outcome to 'held': the old-wood bias was real and limited radiocarbon precision, though it never bore on Norse identity. Set year to null or to the earliest source that raised it. Set raised_by to 'radiocarbon analysts (summarised in Nydal 1989)'. Remove Nydal from key_critics. Either label Kay a critic of interpretation or remove him. If no named critic of the Norse identification can be found, leave key_critics empty and say so in notes.",
+      "evidence": "S2 pp. 976-978; S1 introduction"
+    },
+    {
+      "severity": "major",
+      "field": "objections[2]",
+      "problem": "Misattributed. Wallace argues the opposite. She writes 'There is little doubt that L'Anse aux Meadows was Straumfjord' and holds that Leifsbúðir and Straumfjord are one place (Wallace 2003, pp. 10-11). S3 is titled 'Leif Eriksson's Home in Vinland'. The cited S5 was not read.",
+      "fix": "Reframe the objection: matching the site to a saga place (Leifsbúðir/Straumfjord) is an interpretation proposed by Wallace and adopted by Parks Canada ('could be Leif Ericsson's short-lived Vinland camp'), and it remains interpretive. raised_by must name a sourced sceptic of that identification; otherwise move the point to notes. Cite Wallace 2003 (open access), not S5.",
+      "evidence": "https://journals.lib.unb.ca/index.php/NFLDS/article/download/140/237/630 ; https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=236"
+    },
+    {
+      "severity": "major",
+      "field": "objections[4]",
+      "problem": "Point Rosee is not an objection to this claim. Parcak's team proposed Point Rosee, and their own excavation found nothing there, so raised_by misattributes. Recording an objection as 'held' on a vindicated case will distort the objection-outcome analysis.",
+      "fix": "Remove it from objections, and from the timeline unless it adds something. If it stays as a note, cite Parcak and Mumford's November 2017 report to the Newfoundland and Labrador Provincial Archaeology Office. News coverage says the report found no Norse presence or pre-historic-period human activity; verify this against the report.",
+      "evidence": "https://www.cbc.ca/news/canada/newfoundland-labrador/codroy-valley-vikings-report-1.4684066 (timed out for me; verify)"
+    },
+    {
+      "severity": "major",
+      "field": "objections; notes (mundane explanations)",
+      "problem": "Mundane checks are incomplete. (a) Misidentification: locally the mounds were taken for an Indigenous camp (the hook says so), and iron nails reportedly 'put to rest the suggestion that aboriginal communities had built the houses' (JSTOR Daily). Later European fishing structures are the other alternative. Neither is recorded. (b) Mixing: Parks Canada says 'many people have lived at L'Anse aux Meadows' over 4,000-5,000 years. Wallace 2003 (Fig. 4) plots a Point Revenge/Little Passage point inside the Norse A-B-C complex. Ledger et al. 2019 found a new cultural horizon that 'may relate to indigenous or Norse activities'. (c) Hoax: none has been alleged, and the record should say so.",
+      "fix": "Add an 'identification' objection covering Indigenous or later European structures, with outcome 'wrong' and a raiser sourced from A.S. Ingstad 1977 or another primary source. Add a context note on the site's multiple occupations and how Norse material was separated from them (S1 used position in the Norse deposit plus metal-tool cuts).",
+      "evidence": "https://parks.canada.ca/lhn-nhs/nl/meadows/culture ; Wallace 2003 Fig. 4; Ledger et al. 2019, PNAS 116(31): 15341-15343, doi:10.1073/pnas.1907986116; https://daily.jstor.org/anse-aux-meadows-and-the-viking-discovery-of-north-america/"
+    },
+    {
+      "severity": "major",
+      "field": "sources[S3,S4].verification; objections[3]; timeline (2012)",
+      "problem": "S3 and S4 are labelled 'checked' from their abstracts only, yet the record cites them for statements the abstracts do not contain. S3 is cited for Columbus and for 'no location fixed before 1960'. S4 is cited for 'population size, length of occupation' and 'duration'. S4's abstract covers function, diet and site activities only.",
+      "fix": "Cut the unsupported phrases or read the full texts. Otherwise set verification to 'exists'.",
+      "evidence": "Crossref abstracts via scripts/lookup.py doi"
+    },
+    {
+      "severity": "minor",
+      "field": "hook",
+      "problem": "'the Vinland sagas' confirmed Norse site' overclaims. Parks Canada says only that it 'could be Leif Ericsson's short-lived Vinland camp', and the record itself marks the saga identification as unresolved.",
+      "fix": "For example: 'Mounds in a Newfoundland hamlet proved to be an 11th-century Norse camp, the first confirmed in the Americas.' (109 characters)",
+      "evidence": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=236"
+    },
+    {
+      "severity": "minor",
+      "field": "accepted_age",
+      "problem": "The label says 'site range c. AD 975-1050' but the basis says AD 975-1020, and 1050 has no source. '(tree-ring)' is really radiocarbon wiggle-matching plus ring counting. The 127 dates were measured on 83 rings from 4 items, of which 3 were dated, not on 3 items. S1 says the legacy radiocarbon dates span the whole Viking Age, and Ledger 2019 suggests Norse activity may have lasted a century.",
+      "fix": "Relabel as 'AD 1021 (felling of 3 worked wood items; 14C wiggle-match)'. Fix the counts. State that the length of occupation is uncertain, citing S1 and Ledger 2019.",
+      "evidence": "S1 results section; doi:10.1073/pnas.1907986116"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "None of the three corrects an error in the brief. [0]: the brief sets no year_claimed, and its '1960' is right. [1]: the brief's wording matches Parks Canada ('discovered in 1960 by Helge and Anne Stine Ingstad'). [2]: the brief already says 'dated wood cutting', and the 975-1020 gloss conflicts with S1.",
+      "fix": "Delete [0] and [2]. Move Decker's role to notes, citing the Parks Canada culture page.",
+      "evidence": "catalog/briefs.json; https://parks.canada.ca/lhn-nhs/nl/meadows/culture"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "The count of 5 double-counts radiocarbon (wiggle-matching is radiocarbon) and includes evidence that came after the claim (butternuts, the 2021 dating).",
+      "fix": "Use 4: house architecture, artifact typology, iron-working slag, radiocarbon. Or follow the catalog's convention and explain the count in notes.",
+      "evidence": "schema.json independent_methods_count definition"
+    },
+    {
+      "severity": "minor",
+      "field": "key_proponents",
+      "problem": "Kuitems (2021 dating) was not a proponent of the 1960 claim. Wallace, from the 1970s on, proposed the saga identification rather than the claim itself.",
+      "fix": "List the Ingstads, and mention later researchers in notes.",
+      "evidence": "S1; S3"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S3].citation; timeline (1968, 1978)",
+      "problem": "The S3 volume '201' comes from Crossref's volume field; the DOI (037.002) points to Special Volume 2 (2009). The timeline calls the site 'Canada's first' World Heritage Site, but Nahanni was inscribed at the same 1978 session. The 1968 entry says 'eight or nine' buildings; Parks Canada says eight.",
+      "fix": "Verify the volume and correct it. Reword the 1978 entry to 'among the first 12 sites inscribed (1978)', after verifying on whc.unesco.org. Use 'eight buildings'.",
+      "evidence": "doi:10.3721/037.002.s212; https://parks.canada.ca/culture/spm-whs/sites-canada/sec02a"
+    },
+    {
+      "severity": "minor",
+      "field": "sources; decisive_tests[1]",
+      "problem": "Key publications are missing: the original claim (H. Ingstad 1962/63 in the Arctic Circular, or the 1964 National Geographic article), the full report (A.S. Ingstad 1977, cited only through the unread reviews S6/S7), Wallace 2003 (open access), and Ledger et al. 2019. Ledger et al. already carried out part of decisive_tests[1] (peat sampling and a Bayesian re-analysis of the legacy dates) and call the site 'the only undisputed site of pre-1492 presence of Europeans in the Americas'.",
+      "fix": "Add these sources. Update decisive_tests[1] to build on Ledger 2019. Use Ledger 2019 and S1 to support status_note.",
+      "evidence": "doi:10.1073/pnas.1907986116; Cooke 1965 reference list"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Full text grepped. Confirms AD 1021 felling in 3 items via the AD 993 event, and 115 Groningen plus 12 Mannheim dates. The 127 dates are on 83 rings from 4 items (1 excluded). Also says the legacy radiocarbon dates 'not proved especially informative', which undercuts objections[1] 'wrong' and the 975-1050 range."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Open full text. Supports the 1960 discovery, the 1961-68 expeditions directed by A.S. Ingstad, the driftwood concern, AD 975-1020 and 'assumed historical age of ca AD 1000'. Contradicts objections[1] 'wrong', the multiple_labs note (it lists T- and St- lab codes) and 'no AMS until 2022' (Toronto AMS)."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "Abstract only (paywalled). Supports the point that saga historicity was debated. Nothing on Columbus or 'no location before 1960'. The author argues the site was Leif's home in Vinland, against objections[2]. Volume '201' looks wrong. Downgrade to 'exists' unless the full text is read."},
+    {"id": "S4", "exists": true, "supports_citation": "partial", "note": "Abstract covers function, diet and site activities, not population size or duration. It critiques interpretation, not Norse identity."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Chapter text unavailable, so it cannot support objections[2]. Wallace's open-access 2003 paper argues the site was Straumfjord (= Leifsbúðir)."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "1980 review of A.S. Ingstad 1977, not read. It cannot support professional_recovery or peer_reviewed_report."},
+    {"id": "S7", "exists": true, "supports_citation": "could-not-read", "note": "1979 review. Crossref lists Ingstad as co-author, a conflation the researcher noted. Not read, but no field relies on it."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "Wikipedia, not opened by the reviewer. An encyclopedia cannot support record facts; replace it as set out in the issues."},
+    {"id": "S9", "exists": true, "supports_citation": "could-not-read", "note": "Wikipedia, not opened. The Rafn 1837 fact is available from Cooke 1965 (doi:10.1017/s0032247400058782), which also names Torfaeus (1705) as earlier."}
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "hueyatlaco",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "All 11 sources exist; 'open' holds; footprints kept separate. But S6's Late Pleistocene conclusion is reported as 'unresolved', VanLandingham's ages come from misread titles, Lorenzo's 1967 planting charge is missing, one feature uses hindsight and Irwin-Williams is wrongly a proponent.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "timeline[8].event; status_note; objections[0].outcome_note",
+      "problem": "S6 is misreported. The record says Gonzalez et al. 'describe the age question as still unresolved' and that 'no resolution followed'. S6's abstract reports new AMS 14C dates (molluscs) and ESR dates (mammoth bone) on the Valsequillo Gravels. It proposes a framework in which 'all the stratigraphy with archaeological remains is considered to be Late Pleistocene in age', which rejects the ~245,000-yr age. The main published counter-assessment is left out, and that flatters the anomaly.",
+      "fix": "Give S6's conclusion and new dates in the timeline and status_note, and add Gonzalez/Huddart/Bennett to key_critics. For balance, note that the link between the dated Gravels and Hueyatlaco's artifact beds is indirect, and that the framework's Xalnene-ash (footprint) dating was itself disputed (Renne et al. 2005, doi 10.1038/nature04425; not read here). Do not import any footprint dates into this record.",
+      "evidence": "S6 abstract (lookup doi 10.1080/00438240600963155)"
+    },
+    {
+      "severity": "major",
+      "field": "timeline[7].event; timeline[9].event; sources[9].note; decisive_tests[3]; confidence_note",
+      "problem": "VanLandingham is misread. The 2004 abstract defines 'Sangamonian Interglacial sensu lato' as 80,000 to ca. 220,000 yr BP (not 'roughly 130,000-80,000') and says the artifacts are 'no older than Sangamonian'. S10 was never read, and its title gives a MAXIMUM Yarmouthian age (430,000-500,000 yr): an upper bound, not a new 'older correlation'. What really changed over time is the upper bound: ~220 ka (2004), then 80-430 ka (Sangamonian-Illinoian, 2006 J. Paleolimnol., missing from the record), then at most 430-500 ka (2010). Calling the 2004 and 2010 papers contradictory overstates this.",
+      "fix": "Rewrite both timeline entries using VanLandingham's own ranges. Add VanLandingham 2006, J. Paleolimnol. 36(1): 101-116 (doi 10.1007/s10933-006-0008-4). S9's abstract is in OpenAlex under the alternate DOI 10.1661/0026-2803(2004)050[0313:COSAOA]2.0.CO;2, so read it and upgrade S9 to checked. Recast decisive test 4 as an independent check of single-author diatom biostratigraphy, not of a 'conflict'. Revise confidence_note to match.",
+      "evidence": "OpenAlex abstract of VanLandingham 2004; Crossref titles of the 2006 and 2010 papers"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].outcome_note",
+      "problem": "The note says 'Malde and Steen-McIntyre replied in the same 1981 issue that typology cannot override concordant physical dates.' It was not the same issue: S3 is Quat. Res. 16(2) and S4 is 16(3). No source that was read supports the reply's argument: S4 was not read, and the cited S8 does not describe the reply. S4's reference list (Seitz & Taylor 1974 on uranium variation in fossil bone; USGS radiocarbon dates XIV; Irwin-Williams 1978) suggests it dealt with U-series reliability and radiocarbon evidence, not only typology.",
+      "fix": "Unless S4 is read, say only that Malde & Steen-McIntyre replied (S4, 16(3): 418-421). S3 also cites Seitz & Taylor 1974, so objections[1] (U-series on bone) may also be Irwin-Williams's 1981 objection. Confirm this before attributing it.",
+      "evidence": "Cambridge Core pages for 10.1016/0033-5894(81)90048-x and 10.1016/0033-5894(81)90020-x (reference lists only)"
+    },
+    {
+      "severity": "major",
+      "field": "objections; key_critics; timeline",
+      "problem": "The hoax/planting charge is missing. In 1967 José L. Lorenzo, INAH Director of Prehistory, alleged that some Hueyatlaco artifacts had been planted by laborers. This is the case's only integrity objection, and it is the context for S5 (1969 statements by independent observers on in situ associations). The protocol requires hoax to be considered.",
+      "fix": "Add an 'integrity' objection: Lorenzo, 1967. Mark the outcome 'unresolved' unless a source shows the charge was disproven, and note that S5's observers attested in situ associations. Add Lorenzo to key_critics and add a 1967 timeline entry. Cite Webb & Clark 1999, Disputatio 1(6): 2-18 (doi 10.2478/disp-1999-0001, open access), and Lorenzo's own 1967 text if it can be found.",
+      "evidence": "Webb & Clark 1999 (Sciendo PDF): 'Lorenzo (1967) alleged that some of the artifacts had been planted by laborers working at the site'"
+    },
+    {
+      "severity": "major",
+      "field": "objections[4].outcome_note",
+      "problem": "The note says 'No site of comparable age has been reported anywhere in the Americas in the decades since; the controversy remains confined to Valsequillo.' This is false, and S6 does not support it. Cerutti Mastodon (~130 ka, Holen et al. 2017) and Calico (a U-series claim of ~200 ka) are both cases in this catalog.",
+      "fix": "Say instead that other Middle/Late Pleistocene claims exist (Calico, Cerutti) but none is accepted, citing Holen et al. 2017 (doi 10.1038/nature22065). Either source the genetic argument or drop it.",
+      "evidence": "Holen et al. 2017, Nature 544: 479-483; catalog/cases/cerutti-mastodon.json, calico-hills.json"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_dating_methods",
+      "problem": "This is coded with hindsight. By the record's own timeline, the fission-track dates were first published in 1981, 12 years after the 1969 claim; Steen-McIntyre 2008 places them after 1973. Within about five years, the only dates for Hueyatlaco were U-series dates on bone: 230Th and 231Pa on the same specimens, from one USGS lab. These are not independent methods.",
+      "fix": "Recode as 'no', or as 'partial' citing the 230Th/231Pa concordance, with S2/S8 as sources. Keep the FT dates in claimed_age and the timeline.",
+      "evidence": "S2 abstract; record timeline[3]; Steen-McIntyre 2008 GSA review (pleistocenecoalition.com PDF)"
+    },
+    {
+      "severity": "major",
+      "field": "key_proponents",
+      "problem": "Cynthia Irwin-Williams is listed as a proponent of the ~245,000-yr claim. She co-authored the paper titled 'Dilemma posed by...' and rejected the ages (S8), and the record's own hook calls it 'a date even the excavator rejected'. She argued for a Late Pleistocene, pre-Clovis association, not for the U-series age. corrections[1] builds on the same error ('proponent and critic').",
+      "fix": "Remove her from key_proponents, keep her in key_critics, and explain her role as excavator and pre-Clovis advocate in notes. Consider adding Juan Armenta Camacho, co-discoverer of the Valsequillo sites.",
+      "evidence": "S8: 'These dates were rejected by prehistorians as inconsistent with the tool typology (Irwin-Williams 1981)'; Steen-McIntyre 2008: 'She never forgave us for our old dates'"
+    },
+    {
+      "severity": "minor",
+      "field": "claim; claimed_age.basis",
+      "problem": "The numbers are correct, but the claim that the dates 'placed the tool beds at ~245,000-600,000 years' overstates what the proponents said. They claimed ~250,000 yr. S2 presents the FT ages as agreeing with the U-series age within their errors, and those ages come from tephra lying ABOVE the tool beds, so in principle they are minimum ages. The FT errors are 2σ, which the record does not say, and the 231Pa result (>180,000 yr) is omitted.",
+      "fix": "Suggested wording: 'U-series on a camel pelvis gave ~245,000 yr; zircon FT ages on overlying tephra (370,000±200,000 and 600,000±340,000 yr, 2σ) were presented as agreeing.' Add '2σ' and the 231Pa result to basis.",
+      "evidence": "S2 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "Neither entry corrects an error in the brief. The brief's '~250,000 years' matches how S2 framed the tephra evidence (the FT ages 'agree with' the U-series age). The brief's 'far older than the excavator expected' is accurate. corrections[1] also misquotes the brief by dropping 'the'.",
+      "fix": "Drop both entries or move the clarifications to notes. Quote the brief exactly in any entry that remains.",
+      "evidence": "catalog/briefs.json 'hueyatlaco'; S2 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.peer_reviewed_report; features_at_claim.material_accessible",
+      "problem": "'yes' is generous. Within five years only a dating paper appeared (S1). The geology report came in 1981, and the excavator's site report never appeared: Irwin-Williams died in 1990 with her reports unfinished, and her Valsequillo data 'disappear[ed] from her files' before 1997 (a proponent's account). S6 says most of the finds are now missing.",
+      "fix": "Recode peer_reviewed_report as 'partial'. Record the lost finds and records in material_accessible and notes, and in the feasibility of decisive_tests[0].",
+      "evidence": "Steen-McIntyre 2008 GSA review PDF; S6 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "claim; objections[5].text; decisive_tests[0]",
+      "problem": "The mastodon molar (M-B-8, 280,000 yr) comes from El Horno, a separate and stratigraphically lower locality, not from Hueyatlaco's tool levels. The dated camel pelvis (M-B-3) comes from unit C, while the Lerma point comes from unit E. The claim implies that the point and the dated bone were found together.",
+      "fix": "Name El Horno explicitly and keep units C and E separate. Recast decisive test 1 as: re-date the original specimens if still curated, otherwise sample new in situ bone from unit C.",
+      "evidence": "S8 (full text)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].outcome_note; objections[2].outcome_note; falsifier",
+      "problem": "Three points are left out, and they cut in different directions. (1) S8 notes that at Caulapan the same U-series method (M-B-6, 21,500±1,500) agreed with 14C on shell (21,850±850), which weakens a blanket 'U-series on bone is unreliable' objection. (2) The two FT ages have 2σ ranges that largely overlap, so the 'reversal' is not statistically meaningful. (3) One mundane explanation was missed: older detrital zircons in reworked, water-laid tephra would push FT ages too old. S2 places the tephra within cut-and-fill stream deposits.",
+      "fix": "Add the Caulapan agreement to objections[1] and the 2σ overlap to objections[2]. Add detrital-zircon contamination, with a geochronology source, to objections[2] or the falsifier.",
+      "evidence": "S8 (Caulapan passage); S2 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "orthodoxy_at_claim.limit_bp",
+      "problem": "11500 is a radiocarbon age, but the field is defined in calendar years BP. Other catalog records give Clovis-era limits in cal BP (13,350-13,500). S11 (2007) also stands in for the 1969 orthodoxy. It is acceptable, but a source from the period would be better.",
+      "fix": "Set limit_bp to about 13350 and note the calibration.",
+      "evidence": "catalog/schema.json; S11 abstract ('between 11,500 and 10,900 radiocarbon years')"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[5]; timeline[6]; objections[3].outcome_note; sources[2].note",
+      "problem": "Several small inaccuracies. Pichardo's 14,000-16,000 BP applies to the Lerma/El Jobo bifacial-point horizon. For Valsequillo it rests on biostratigraphy; the radiocarbon-dated tephra work is from the Valley of Mexico. In 1997 he put the bifacial level at ~10,000 BP and the unifacial level at 22,000-30,000 BP (S7). The biostratigraphy is Kiel University's (1973), not his own independent work. Finally, S3's note says S8 'quotes' Irwin-Williams, but S8 only paraphrases and cites her.",
+      "fix": "Correct the wording in each of these fields.",
+      "evidence": "S7 abstract; S8 abstract and text"
+    },
+    {
+      "severity": "minor",
+      "field": "notes; sources",
+      "problem": "Some flagged items can be resolved and some sources are missing. The 1962 joint survey by Irwin-Williams and Armenta Camacho (U. Puebla), and Armenta's earlier collection, are described in Steen-McIntyre 2008, a proponent's account. Webb & Clark 1999 report the difficulties Steen-McIntyre faced only through personal communication, so the career-cost claim should stay UNVERIFIED. The excavator's own reports are missing: Irwin-Williams 1967 (in Martin & Wright eds., Pleistocene Extinctions) and 1978 (Cultural Continuity in Mesoamerica, Mouton: 7-22; cited by S4 and S8).",
+      "fix": "Cite the survey with its proponent sourcing labelled. Add Irwin-Williams 1967/1978, VanLandingham 2006 and Webb & Clark 1999.",
+      "evidence": "Steen-McIntyre 2008 GSA PDF; Webb & Clark 1999 reference list; S4 reference list"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests",
+      "problem": "The most direct test is missing: dating the artifact-bearing units themselves. AMS 14C on in situ shell or bone and feldspar post-IR IRSL on the unit C/E sediments would do it. Finite ages under 50 ka would falsify the 245,000-yr claim; saturated or infinite results would keep it alive.",
+      "fix": "Add this test (cost: medium) and replace or reframe test 4.",
+      "evidence": "S2 abstract (tephra in the tool bed is unsuitable, per S8); S6 (AMS 14C on molluscs is feasible in the basin)"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match; no abstract. The 245,000±40,000 yr date on M-B-3 that it is cited for is confirmed by S2 and S8. The 'exists' label is correct."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Abstract confirms beds traced in 1973; FT ages of 370,000±200,000 and 600,000±340,000 yr (2σ) on two younger tephras; 230Th 245,000±40,000 and 231Pa >180,000. The record omits '2σ' and that the FT ages were presented as agreeing with the U-series age."},
+    {"id": "S3", "exists": true, "supports_citation": "could-not-read", "note": "One-page comment in Quat. Res. 16(2). Only the reference list is visible (it cites Seitz & Taylor 1974 on U in bone). The typology point is supported by S8's paraphrase, not a quotation. 'exists' is correct."},
+    {"id": "S4", "exists": true, "supports_citation": "could-not-read", "note": "The reply is in 16(3), not the 'same issue' as S3. Its content is not read, so the characterization in objections[0] is unsupported. The reference list points to U-series and 14C arguments."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract: MacNeish, Petersen and Wormington quoted as independent observers of the in situ associations."},
+    {"id": "S6", "exists": true, "supports_citation": "partial", "note": "Abstract supports review of the U-series/FT, diatom and bone-assemblage work. But it concludes the archaeological stratigraphy is Late Pleistocene and reports new AMS 14C and ESR dates. 'Unresolved' misrepresents it, and it does not support objections[4]'s note."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Abstract supports the hypothesis that redeposited, mineralized fossils (M-B-3, M-B-8) explain the old U-series ages. It puts the bifacial level at ~10,000 BP and the unifacial level at ~22-30 ka."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Full text supports: M-B-3 in unit C; M-B-8 at El Horno; typology rejection (a paraphrase); U-series contamination; FT reversal; unit E channels; small-sample argument; 14-16 ka. It also gives the Caulapan U-series/14C agreement, which the record omits."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "Abstract (alternate DOI, via OpenAlex): Sangamonian s.l. = 80,000-ca. 220,000 yr BP; artifacts in situ and 'no older than Sangamonian'. The record's '130,000-80,000' is wrong."},
+    {"id": "S10", "exists": true, "supports_citation": "could-not-read", "note": "Metadata only. The title states a MAXIMUM age of 430,000-500,000 yr, so the record misreads it as an age estimate that conflicts with S9."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Abstract: Clovis dated 'between 11,500 and 10,900 radiocarbon years'. limit_bp should be in cal BP."}
+  ]
+}

@@ -525,11 +525,17 @@ def findings(cases, summary):
     reviewed = [r for r in cases if r["_reviewed"]]
     resolved = [r for r in reviewed if r["status"] in ("vindicated", "refuted")]
     entries = parse_log()
-    obs = [en for en in entries if not en["id"].startswith("H")]
+    disc = [en for en in entries if en["id"].startswith("R")]
+    obs = [en for en in entries if en["id"].startswith("M")]
     obs_rows = "".join(
         f'<tr><td class="id">{e(o["id"])}</td><td><div class="t">{e(o["title"])}</div><div class="c">{e(o.get("Claim", ""))}</div>'
         f'<details><summary>Test · disproof</summary><p><b>Test.</b> {e(o.get("Test", ""))}</p><p><b>Would disprove it.</b> {e(o.get("Would disprove it", ""))}</p></details></td>'
         f'<td><span class="tag">{e(o.get("Status", ""))}</span></td></tr>' for o in obs)
+    disc_rows = "".join(
+        f'<tr><td class="id">{e(o["id"])}</td><td><div class="t">{e(o["title"])}</div><div class="c">{e(o.get("Claim", ""))}</div>'
+        f'<details><summary>Method · disproof</summary><p><b>Test.</b> {e(o.get("Test", ""))}</p><p><b>Would disprove it.</b> {e(o.get("Would disprove it", ""))}</p></details></td>'
+        f'<td class="rd">{e(next((v for k, v in o.items() if k.startswith("Result")), ""))}</td>'
+        f'<td><span class="tag">{e(o.get("Status", ""))}</span></td></tr>' for o in disc)
     h4 = summary.get("hypotheses", {}).get("H4", {}).get("table", {})
     obj_rows = "".join(
         f'<tr><td>{e(OBJECTION_KIND.get(k, k))}</td>' + "".join(f'<td class="n">{v[oc] or "·"}</td>' for oc in ("held", "wrong", "unresolved")) + "</tr>"
@@ -551,6 +557,8 @@ def findings(cases, summary):
 <p class="lede">Six hypotheses, published before any record existed and tested exactly as worded. Only skeptic-reviewed records count; nothing is a result until its threshold is met.</p></div>{stats}</section>
 <section class="section">{hyp_table(summary)}</section>
 {viz}
+<section class="section"><div class="sh"><h2>Discovery track</h2><p>Scans of open data for patterns nobody has proposed. Methods are pre-registered; nulls are reported.</p></div>
+<div class="table-scroll"><table class="data hyps"><tbody>{disc_rows}</tbody></table></div></section>
 <section class="section"><div class="sh"><h2>Notes on our own method</h2></div>
 <div class="table-scroll"><table class="data hyps"><tbody>{obs_rows}</tbody></table></div></section>
 </div>"""

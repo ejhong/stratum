@@ -157,5 +157,18 @@
    "width": 1400,
    "height": 1867
   }
+ ],
+ "meadowcroft": [
+  {
+   "file": "plates/meadowcroft/meadowcroftrockshelter.jpg",
+   "caption": "Meadowcroft Rockshelter near Avella, Washington County, Pennsylvania, 2010.",
+   "commons_file": "File:MeadowcroftRockshelter.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "credit": "Lee Paxton",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MeadowcroftRockshelter.jpg",
+   "width": 1400,
+   "height": 904
+  }
  ]
 }

@@ -1,0 +1,133 @@
+{
+  "id": "topper",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Status open and the 2004 anchor are sound, but most facts rest on Wikipedia (S5, S6). multiple_labs and peer_reviewed_report are miscoded, and S2, S3 and S8 are misapplied. Two 2004 reports I read can replace most S5 facts. S1 must be read in full, or its points dropped.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "sources[S5], sources[S6]; claimed_age.source; features_at_claim.{unambiguous_signal,documented_context,multiple_dating_methods,professional_recovery,proponent_stake}.source; objections[0-3].source; timeline[0-2].source; notes/status_note (~16,000 yr)",
+      "problem": "Encyclopedia sources support record facts: Wikipedia 'Topper site' (S5) carries the claimed age, five features, all four objections and three timeline events, and Wikipedia 'Settlement of the Americas' (S6) carries the ~16,000-year figure. No peer-reviewed abstract states these points. S1's abstract is withheld by the publisher (OpenAlex and Semantic Scholar have none, Pascal-Francis shows only keywords), and ScienceDirect, ResearchGate and Academia block automated access.",
+      "fix": "Replace S5/S6 with two contemporary reports I read (neither is peer-reviewed; add them as kind primary/news). (A) USC 2004 press release. It gives: dates of 50,300 and 51,700 on burnt plant remains, measured at the UC Irvine lab; samples collected by T. Stafford; a third date modern ('intrusion'); Stafford: 'at least 50,300... absolute age is not known'; the May 2004 terrace dig (~4 m, backhoe plus hand excavation); the 1998 dig below Clovis; the May 1999 outside geologists led by Waters; OSL >14,000 on soils above the ice-age strata; the 1998 artifacts in soils 'later dated by an outside team of geologists to be 16,000 years old'; Goodyear at SCIAA since 1974. (B) AIA Archaeology 2004. It gives: Michael Collins (Univ. of Texas): 'They're geofacts--not man-made'; Collins had seen the objects; David Anderson awaiting formal publication; >=3 earlier dates in the lower soils >50,000. Remove whatever has no readable source (see the issues below).",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm ; https://archive.archaeology.org/online/news/topper.html"
+    },
+    {
+      "severity": "major",
+      "field": "objections",
+      "problem": "[0] geofacts: the objection is dated 2009 and attributed to Waters et al., but Collins raised it in 2004 (AIA 2004). [1] 'unchanged tools': this point exists only as Wikipedia's paraphrase of S1, and the '35,000 years' is the researcher's own arithmetic. [2] natural-fire stain: the only sources are Wikipedia, 'critics, per Wikipedia synthesis' and year 2004; there is no named critic, year or readable source. [3] radiocarbon ceiling: this was the dater's own caveat at the announcement, not a critics' objection.",
+      "fix": "[0] Set raised_by to 'Michael Collins (2004); Waters et al. (2009)', year 2004, source AIA 2004. [1] Keep only after reading the S1 full text (then S1 counts as checked), and phrase it as '~50,000 to ~15,000 BP'. Otherwise remove it or mark it UNVERIFIED. [2] Remove unless S1 or another readable source states it. [3] Set raised_by to 'T. Stafford (2004 announcement)', source USC 2004, outcome held.",
+      "evidence": "https://archive.archaeology.org/online/news/topper.html ; https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_labs",
+      "problem": "Coded 'yes' because of Stafford's 2009 involvement. 2009 is only just inside the window (S1 was accepted in Dec 2008 and printed in Jul 2009), but the real problem is independence: Stafford collected the 2004 samples himself, and UC Irvine measured them. His 2009 co-authorship continues the original dating program; it is not a second laboratory. The only documented lab for the key dates is UC Irvine. Which lab ran the >=3 earlier >50k dates is undocumented.",
+      "fix": "Set to 'no' (key 2004 dates came from one lab, UC Irvine). Use 'unknown' instead only if S1 shows that the earlier >50k dates came from a different lab. Cite USC 2004.",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.peer_reviewed_report; timeline[3]",
+      "problem": "The S8 abstract (Scholar Commons) reviews four eastern sites that 'collectively... indicate a late-glacial time range of approximately 12,000 to 16,000 RCYBP'. It does not mention the ~50,000 dates, and 'peer-reviewed volume' is not verified. The 50k claim was announced by press release; in AIA 2004 Anderson was 'awaiting formal publication'. Within ~5 years, the only peer-reviewed technical treatment was the external S1 (2009).",
+      "fix": "Recode to 'partial' (S1 only, by an external team; never the proponents' own report) or 'no'. Stop citing S8 for this feature. Reword the 2005 timeline event: it covers the 12,000-16,000 RCYBP evidence, not the 50k dates.",
+      "evidence": "https://scholarcommons.sc.edu/sciaa_staffpub/27 ; https://archive.archaeology.org/online/news/topper.html"
+    },
+    {
+      "severity": "major",
+      "field": "timeline[5]; notes; sources[S2].note",
+      "problem": "S2 is misapplied. Its abstract presents pre-Clovis occupation 'in a Pleistocene terrace' with radiocarbon and OSL dates on 'the Pleistocene sediments', and calls it 'pre-LGM'. It does not say this is a shallower layer. The notes also call the ~16,000-year layer pre-LGM, which contradicts itself, because 16,000 years is after the LGM. S2 is really the proponents' 2018 restatement of a very old terrace claim, which shows the anchor claim is still maintained.",
+      "fix": "Reword the timeline and notes: 'Goodyear & Sain (2018) maintain a pre-LGM pre-Clovis core-and-flake occupation (Clariant complex) in the Pleistocene terrace.' Use S2 in status_note as the proponents' current position.",
+      "evidence": "https://doi.org/10.5744/florida/9781683400349.003.0002 (abstract)"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim.source",
+      "problem": "S3 is labelled checked, but its abstract says nothing about Monte Verde, ~14,500 cal BP or 50,000-year sites. It says only that Clovis is 'the oldest unequivocal evidence' and that pre-Clovis presence is implied. It also dates from 2007, after the claim.",
+      "fix": "Cite AIA 2004, where Anderson says that sites older than 40,000 years have been proposed but 'none... have survived careful professional examination'. Cite a Monte Verde source already verified in catalog/cases/monte-verde.json for the ~14,500 cal BP limit. Downgrade S3 to partial support.",
+      "evidence": "https://doi.org/10.1126/science.1137166 ; https://archive.archaeology.org/online/news/topper.html"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.proponent_stake.note",
+      "problem": "'Goodyear was South Carolina's state archaeologist' is not in S5 and appears to be wrong. USC 2004 describes him as a USC archaeologist who joined SCIAA in 1974, has been in its Research Division since 1976, and founded and directs the Allendale PaleoIndian Expedition.",
+      "fix": "Change the note to 'SCIAA (Univ. of South Carolina) research archaeologist' and cite USC 2004. The value 'no' can stay.",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "major",
+      "field": "status_note",
+      "problem": "'No independent lab has replicated the ~50,000-year dates' has no source and misreads the dispute. AIA 2004 reports >=3 earlier dates >50k in the lower soils, so the old age of the sediment is not what is contested. The contested questions are whether the pieces are artifacts and whether they are associated with the dates. 'Wider but not universal support' for the ~16k layer also has no source. Search-engine summaries of S1 suggest it doubts the human origin of the early sub-Clovis assemblage too.",
+      "fix": "Rewrite: the sediments are radiocarbon-dead (minimum ages). Collins (2004) and Waters et al. (2009) doubt that the pieces are artifacts. The proponents maintain the claim (S2, 2018). Drop 'wider support' unless you have a source for it.",
+      "evidence": "https://archive.archaeology.org/online/news/topper.html"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.documented_context.note",
+      "problem": "A mundane explanation is missing. Of the three 2004 samples from the dated level, one gave a modern date 'related to an intrusion' and was discarded. That is direct evidence of intrusion or bioturbation, and the record never mentions it.",
+      "fix": "Add the intrusive modern date and the backhoe-plus-hand excavation, cited to USC 2004 and AIA 2004. Consider adding a context objection about it.",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[0], timeline[1]",
+      "problem": "The 1985 SCIAA excavation and the 1998 'flooding' detail rest only on Wikipedia.",
+      "fix": "For 1998, cite USC 2004 ('dug below the 13,000-year Clovis level... found unusual stone tools up to a meter deeper') and drop the flood detail, or mark it UNVERIFIED. Remove the 1985 entry, or source it from the Goodyear 2005 full text, which is open on Scholar Commons but must be downloaded by hand. Add an entry: 1999, outside geologists led by Waters begin a geological study (USC 2004).",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "minor",
+      "field": "key_critics; timeline[4]",
+      "problem": "Stafford collected the claim's own samples, so listing him as a key critic hides that dual role. Forman's critic role is unverified. The earliest named critic, Collins, is missing. Calling S1 'independent' also skips over the fact that Waters' team was brought in as outside geologists in 1999.",
+      "fix": "Make Michael Collins and Michael R. Waters the key critics, and note Stafford's dual role. Reword the 2009 event as an 'external geoarchaeological study (fieldwork from 1999)'.",
+      "evidence": "https://archive.archaeology.org/online/news/topper.html"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests[0], decisive_tests[2], falsifier",
+      "problem": "Replicating a background (>50k) radiocarbon age cannot test whether humans were present, and modern contamination makes a date younger, not older. So 'failure to reproduce the dates' would not refute the claim. The stain was sampled away in 2004.",
+      "fix": "Replace test 0 with finite-age luminescence dating of the artifact-bearing terrace sands (first check whether S1 already reports this), plus a blind lithic comparison against naturally fractured chert controls from sterile terrace sediment. For test 2, specify preserved samples or a newly exposed equivalent feature. Rewrite the falsifier to match.",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "Neither entry corrects anything in the brief. [0] The brief does not blend the strata; it lists the late-1990s material and the 2004 dates separately. The entry also relies on unread S1, and by 2004 the outside geologists had already dated those soils to ~16,000 years (USC 2004). [1] 'Not verified in that wording' is not a correction. The brief's 'charcoal' matches USC 2004 ('collected charcoal samples'), and 'unassociated' is essentially the natural-fire and intrusion argument.",
+      "fix": "Drop both entries, or move [0] into notes as a scope note.",
+      "evidence": "catalog/briefs.json (topper); https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age",
+      "problem": "The label hides that the two dates are minimum ages and never gives the actual values.",
+      "fix": "Change the label to '>=50,300 14C BP (minimum age)' and the basis to 'two AMS dates, 50,300 and 51,700 14C BP, on burnt plant remains, UC Irvine; the dater says the absolute age is unknown'. Cite USC 2004.",
+      "evidence": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S8]",
+      "problem": "Access is marked 'unknown' and the note leans on Wikipedia's reference list. The Scholar Commons landing page confirms the venue, 2005 and pp. 103-112, and hosts an open-access PDF.",
+      "fix": "Set access to open, add the URL https://scholarcommons.sc.edu/sciaa_staffpub/27, and use it only for the 12,000-16,000 RCYBP pre-Clovis evidence.",
+      "evidence": "https://scholarcommons.sc.edu/sciaa_staffpub/27"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence; confidence_note; claim",
+      "problem": "Confidence 'medium' is not justified while most facts rest on an encyclopedia that the note calls 'checked directly'. The word 'escalation' in the claim is mildly loaded.",
+      "fix": "Set confidence to low until the sources are replaced; medium is fine once S1 is read. Change 'escalation' to 'extension'.",
+      "evidence": "catalog/cases/topper.json"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match. Abstract withheld by the publisher (OpenAlex, Semantic Scholar, Pascal-Francis); ScienceDirect, ResearchGate and Academia return 403. 'exists' label is correct, but content relied on via Wikipedia is unverified."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Abstract: pre-Clovis in the Pleistocene terrace, radiocarbon + OSL, 'pre-LGM', 'one of the oldest sites in the Western Hemisphere'. Does not describe a 'shallower layer'."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "Abstract supports only 'pre-Clovis implied'. Nothing on Monte Verde, 14,500 cal BP or 50k sites. Dates from 2007."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: 'one of the largest buried Clovis sites in North America'."},
+    {"id": "S5", "exists": true, "supports_citation": "partial", "note": "Contains the 50k announcement, the natural-fire and ceiling points, and Waters et al.'s natural/unchanged-tools points. Does not contain 'state archaeologist'. Encyclopedia: not acceptable for record facts."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "States that Topper is '16,000 years old'. Encyclopedia; replace with USC 2004."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Abstract: Clovis hearth within a probable semi-open structure. DOI has a 2025 suffix; Crossref gives 2024, 43(4)."},
+    {"id": "S8", "exists": true, "supports_citation": "partial", "note": "Scholar Commons landing page and abstract: late-glacial 12,000-16,000 RCYBP; no 50k. Open-access PDF exists but returns 403 to automated fetch."},
+    {"id": "NEW-USC2004", "exists": true, "supports_citation": "yes", "note": "University of South Carolina press release, 18 Nov 2004, via ScienceDaily 041118104010. Read; supports dates, lab, Stafford, intrusive date, timeline, 16,000-year soils, affiliation."},
+    {"id": "NEW-AIA2004", "exists": true, "supports_citation": "yes", "note": "'Early Dates, Real Tools?', Archaeology (AIA) online news, 2004. Read; supports Collins' geofact objection, Anderson's caution, >=3 earlier >50k dates."}
+  ]
+}

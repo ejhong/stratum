@@ -1,0 +1,147 @@
+{
+  "id": "troy-hisarlik",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Place/war split and 'partial' hold. Fix: 2002 is no resolution (use ~1894). Maclaren claimed Hisarlık in 1822. claimed_age copies accepted_age. Signal and stake coded with hindsight. Troy VI is above Troy II, not beneath. Add Easton 1984, Kolb 2004, earthquake objection.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "year_resolved; what_settled_it",
+      "problem": "2002 marks no consensus shift. S3's abstract shows the 2001 press dispute and the Feb 2002 Tübingen symposium were about Korfmann's claims for Troy VI's importance and its lower city, not about whether Hisarlık is Troy. That identification had been standard since Dörpfeld exposed Troy VI (Cline 2013 ch.5: Schliemann 'later had to accept that it was Troy VI'). The record's own S8 (2019) contradicts 'no longer contested' by 2002.",
+      "fix": "Set year_resolved to 1894, when Dörpfeld's 1893-94 campaigns uncovered the Troy VI fortifications (1890-1902 is arguable). Cite Cline 2013 ch.5 (10.1093/actrade/9780199760275.003.0005) or Dörpfeld 1902, Troja und Ilion. Record the Wilusa step as a timeline event: Hawkins 1998, Anatolian Studies 48: 1-32, 10.2307/3643046, the Karabel reading behind S3's 'firming up the historical geography'. Delete the 2002 sentence from what_settled_it. Keep status 'partial'.",
+      "evidence": "S3 abstract; Cline 2013 ch.5 abstract; S8 abstract: 'This stronghold was neither Troy nor the capital of Wilusa'."
+    },
+    {
+      "severity": "major",
+      "field": "what_settled_it",
+      "problem": "'a fortified Bronze Age city (Troy VI) beneath Schliemann's mistaken Burnt City' gets the stratigraphy upside down. Troy VI is later than Troy II (by roughly a millennium) and lies above it. Schliemann's error was choosing a layer that was far too early.",
+      "fix": "For example: 'Dörpfeld's 1893-94 campaigns exposed the Troy VI fortifications, a Late Bronze Age city later than Schliemann's Burnt City (Troy II), which predates the traditional war by about 1,000 years.'",
+      "evidence": "Cline 2013 ch.5 abstract: the treasure 'predated the Trojan War by 1000 years'; Dörpfeld excavated 'the fortifications which were untouched by Schliemann's previous excavations'."
+    },
+    {
+      "severity": "major",
+      "field": "year_claimed; claim; key_proponents; timeline; corrections",
+      "problem": "Calvert did not originate the claim. Charles Maclaren, A Dissertation on the Topography of the Plain of Troy (Edinburgh: Constable, 1822), rejected Lechevalier's Bunarbashi and argued that Homer's Troy occupied the ground of New Ilium, the ruins at Hisarlık. He restated this in The Plain of Troy Described (1863). The schema defines year_claimed as the first public claim. The brief credits Calvert, and the researcher did not correct it.",
+      "fix": "Preferred: set year_claimed to 1822. Add Maclaren to key_proponents (replacing C. Brian Rose), to the timeline and to the sources, and re-code features_at_claim for 1822-27, when the case was topographic and textual with no excavation. If the catalog counts the first excavation-based claim instead, keep 1865 and say so in claim and notes. Either way, add a correction: brief 'Frank Calvert in the 1860s'; Maclaren proposed Hisarlık in 1822, and Calvert was the first to dig there.",
+      "evidence": "archive.org/details/adissertationon00maclgoog (OCR): 'the ruins at Issarlik ... are those of New Ilium'; Chevalier's Bounarbashi theory is 'fundamentally wrong'; 'ancient Troy occupied the same ground as the city then existing'."
+    },
+    {
+      "severity": "major",
+      "field": "claimed_age",
+      "problem": "claimed_age copies accepted_age (Troy VI-VIIa, ~1750-1180 BCE). No proponent claimed this. Maclaren and Calvert claimed Homer's Troy at its traditional date, Schliemann claimed Troy II, and the VI/VIIa phasing comes later, from Dörpfeld and Blegen. So the record describes three different claims: Calvert 1865-70 in year_claimed and the features, modern knowledge in claimed_age, and Schliemann's 1873 claims in proponent_stake, the objections and status.",
+      "fix": "Change claimed_age to: label 'Homer's Troy; fall trad. c. 1184 BCE', bp_min = bp_max = 3133, basis 'No physical dating; ancient chronographers (Eratosthenes); Schliemann later placed it in his Burnt City (Troy II)'. Give a read source for 1184 BCE or mark it UNVERIFIED. Keep Troy VI-VIIa in accepted_age only.",
+      "evidence": "The record's own claimed_age.basis; Cline 2013 ch.5 abstract: Schliemann 'thought that it was Troy II'."
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age.source; accepted_age (label, bp_max, source); sources[S3].verification",
+      "problem": "The researcher's flag is confirmed. The phase dates cite S3, which was not read: the SOAS copy returns HTTP 403 and the abstract gives no dates, so 'checked' is not earned for this use. An open article by the excavator supports 1180 BCE as the end date but a 17th-century start, not 1750.",
+      "fix": "Cite Korfmann, M. (2004) 'Was There a Trojan War?' Archaeology 57(3), https://archive.archaeology.org/0405/etc/troy.html, and use ~1700-1180 BCE (bp_max 3650), or find a read source for 1750.",
+      "evidence": "Korfmann 2004: 'a lower settlement from the seventeenth to the early twelfth centuries B.C. (Troy levels VI/VIIa)'; 'destroyed around 1180 B.C. (... Troy VIi or VIIa)'."
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.unambiguous_signal",
+      "problem": "'yes' is coded with hindsight. S1's abstract says only 'promising trial excavations'. Nobody in 1865 could date masonry at Hisarlık to the Bronze Age, and the visible ruins were already known as Greco-Roman New Ilium (Maclaren 1822). Nobody doubted the ruins were man-made. The open question was whether any of them were Homer's Troy, and nothing dug by 1870 answered it.",
+      "fix": "Use 'partial' ('no' if the claim moves to 1822), with the note: 'Ruins plainly man-made but known as Greek/Roman Ilion; nothing then exposed tied them to a Bronze Age city; the case rested on topography and tradition.'",
+      "evidence": "S1 abstract; Maclaren 1822 (archive.org)."
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.proponent_stake",
+      "problem": "The researcher's flag. S2 is real and documents Schliemann's lying (Calder 1972; Traill 1983), but the coding is unfair as sourced. (a) 'Calvert ... hoped to profit' has no source: S2 is not about Calvert, and S1's abstract says only that he owned much of the site. (b) 'Already self-promoting' is not in S2. (c) The evidence comes from after the claim window (the 1873 find; fabrications documented in 1972 and 1983), and it shows lying, not a motive at claim time. This is hindsight.",
+      "fix": "Code the proponent the record chooses: Maclaren 'no' (no documented stake), or Calvert 'unknown' unless Allen's full text documents a commercial motive. Move Schliemann's fame-seeking and lying to the objections and notes, alongside his 1873 claim about the war, citing Calder 1972 and Traill 1983.",
+      "evidence": "S2 abstract; S1 abstract."
+    },
+    {
+      "severity": "major",
+      "field": "objections",
+      "problem": "The main natural and chronological objections to the war are missing. Blegen concluded that Troy VI ended in an earthquake. Troy VIIa's destruction (c. 1180 BCE) is too late for a Mycenaean attack, and who destroyed it is unknown. Decisive test 2 mentions earthquakes, but no objection records this.",
+      "fix": "Add an objection: 'Troy VI ended in an earthquake, not a sack; Troy VIIa's fire (c. 1180 BCE) is too late for a Mycenaean attack and its attackers are unknown.' kind 'dating', raised_by 'Carl Blegen; later re-dating of VIIa', outcome 'unresolved', source Cline 2013 ch.6 (10.1093/actrade/9780199760275.003.0006). Add the same caveat to the 1932 timeline entry.",
+      "evidence": "Cline 2013 ch.6 abstract: Blegen 'believed that the destruction of Troy VI was caused by an earthquake'; 'the date of Troy VIIa was too late for it to have been destroyed by the Mycenaeans'; Korfmann's findings 'have been questioned'."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1]; timeline[1983]; corrections[2]",
+      "problem": "The researcher's flag on Traill. The framing is broadly fair but overstates and omits the reply. S2 says Schliemann described the find 'in about a dozen different places' and compares four early versions. It does not say 'at least a dozen inconsistent accounts'. Easton 1984 (Antiquity 58: 197-204, 10.1017/s0003598x00056283) directly challenges Traill, and Cline 2013 says Schliemann only 'probably' falsified the find. 'Substantially fabricated' (timeline) and 'not disputed' (correction 3) go beyond the literature.",
+      "fix": "Text: 'Schliemann described the find in about a dozen places; four early versions conflict (Traill 1983).' Outcome_note: 'The inconsistencies are accepted; how much of the story was invented is disputed (Easton 1984).' Timeline: 'Traill argues...'. Correction 3: 'generally accepted as genuine Early Bronze Age objects'. Add Easton 1984 as a source.",
+      "evidence": "S2 abstract; Easton 1984 abstract ('how accurate are the shots?'); Cline 2013 ch.5 abstract."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[5].raised_by/year; key_critics",
+      "problem": "The objection to the war's historicity is credited to 'Eric H. Cline and others' in 2013. Cline summarizes the debate and concludes with 'a qualified yes' (Epilogue). The classic skeptical statement is Finley's, from 1964.",
+      "fix": "Set raised_by to 'M.I. Finley (1964) and others' and year to 1964. Add Finley, M.I.; Caskey, J.L.; Kirk, G.S.; Page, D.L. (1964) 'The Trojan War', JHS 84: 1-20, 10.2307/627688. Keep S7 as the modern summary and add Finley to key_critics.",
+      "evidence": "Abstract of 10.2307/627688; Cline 2013 Epilogue abstract (10.1093/actrade/9780199760275.003.0007)."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[0].outcome_note; notes; sources[S8].note",
+      "problem": "'Unanimous' contradicts status_note ('nearly all') and S8: Schürr 2019 denies that the stronghold was Troy at all, not only the Wilusa name equations. The Bunarbashi objection and its abandonment have no source.",
+      "fix": "Use 'nearly all' throughout. Source the Bunarbashi debate (Maclaren 1822) and its end (Cline 2013 ch.5). Extend the S8 note to include Schürr's wider denial.",
+      "evidence": "S8 abstract."
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "Corrections 1 and 2 only add detail; the brief's '1860s' and 'c. 2001' are accurate. The brief's real errors are missed: (i) Maclaren's priority (issue 3); (ii) the brief presents the Korfmann-Kolb debate as a debate over whether the war happened, but S3 and S4 show it was about Troy VI's size and status (lower city, trade hub). Correction 2's 'four articles (S3-S6)' also omits Kolb 2004, the paper S5 answers.",
+      "fix": "Replace corrections 1 and 2 with those two corrections. Add Kolb, F. (2004) 'Troy VI: A Trading Center and Commercial City?' AJA 108(4): 577-613, 10.3764/aja.108.4.577, as the main critique. Also change objections[3].year to 2001: S3 dates the criticism to 'the year 2001'.",
+      "evidence": "catalog/briefs.json; S3 and S4 abstracts; Crossref 10.3764/aja.108.4.577 (S5's title: 'A Response to Frank Kolb')."
+    },
+    {
+      "severity": "minor",
+      "field": "orthodoxy_at_claim.label",
+      "problem": "Unsourced and incomplete. At the time, most topographers put Homer's Troy at Bunarbashi (Lechevalier), and Maclaren's whole book argues against that; others treated the war as poetic legend. Hisarlık was accepted only as the later city of New Ilium.",
+      "fix": "'Most topographers placed Troy at Bunarbashi; others treated it as legend; Hisarlık was known only as Greco-Roman Ilion.' Cite Maclaren 1822.",
+      "evidence": "Maclaren 1822 OCR: Chevalier's theory had 'temporary popularity' and he 'was the first who ventured to speak decisively'."
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[1865]; features_at_claim.independent_teams.note",
+      "problem": "S1 says Calvert 'announced these findings' to London scholars in 1865. It does not explicitly say he identified Hisarlık as Troy then. 'Only Calvert had dug the site by 1870' conflicts with S1, which says Schliemann 'initiated his probe on the mound in 1870'.",
+      "fix": "Confirm the 1865 identification from Allen's full text, or soften to 'announces his Hisarlık finds'. Change the note to: 'Before 1871 only Calvert and Schliemann's 1870 probe had dug; neither was an independent team.'",
+      "evidence": "S1 abstract."
+    },
+    {
+      "severity": "minor",
+      "field": "settled_by; independent_methods_count; evidence_types; failure_mode",
+      "problem": "'geology' in settled_by rests on S9 (2003), which is unread ('exists') and a century later than the settlement. The count of 5 includes the classical tradition, which is the claim's premise, not an independent test. 'inscription' is unexplained (Hittite tablets count as 'written-sources'). For failure_mode, Schliemann's Troy II attribution is a chronological misreading of the layers, not a misidentification.",
+      "fix": "Drop 'geology' from settled_by. Set the count to 3-4 and list the lines in notes. Say which inscription is meant, or drop it. Set failure_mode to 'misinterpretation' (or 'dating-error').",
+      "evidence": "S9: publisher header only via lookup.py; Cline 2013 ch.5 abstract."
+    },
+    {
+      "severity": "minor",
+      "field": "objections (completeness); sources",
+      "problem": "A well-documented objection that proved 'wrong' is missing: Ernst Bötticher's 1880s claim that Hisarlık was a cremation necropolis rather than a city, which Schliemann contested with invited expert inspections. Also missing: Hawkins 1998, the key Wilusa geography paper.",
+      "fix": "Optional objection (kind 'identification', outcome 'wrong'), sourced to Zavadil, M. (2009) Ein trojanischer Federkrieg: Die Auseinandersetzungen zwischen Ernst Boetticher und Heinrich Schliemann (Vienna); label it 'exists' and verify the dates.",
+      "evidence": "Crossref: Samida 2011 review in Gnomon (10.17104/0017-1417_2011_7_647); Babin 1890 CRAI report on Hissarlik (10.3406/crai.1890.69807)."
+    },
+    {
+      "severity": "minor",
+      "field": "falsifier; decisive_tests[1]",
+      "problem": "A text placing Wilusa elsewhere would overturn only the Wilusa equation. Hisarlık = Homer's Troy rests on Greek tradition and excavation. Test 2 ignores evidence already reported for the c. 1180 BCE destruction: fire, skeletons and heaps of sling bullets (Korfmann 2004).",
+      "fix": "Give a separate falsifier for each part: Troy (e.g. a larger Late Bronze Age fortified centre elsewhere in the Troad that fits better), Wilusa, and the war. Reframe test 2 as an independent re-analysis of the published VIIa/VIi destruction evidence against earthquake or accidental fire.",
+      "evidence": "Korfmann 2004, Archaeology 57(3)."
+    },
+    {
+      "severity": "minor",
+      "field": "plates[1].caption; sources[S1].kind",
+      "problem": "'Now linked to Hittite Wilusa' is interpretation; the schema asks for observation. S1 (Allen 1995) is a historical study, not the primary claim. Both Commons files exist (CC BY-SA 4.0 Barrowbob; CC BY 4.0 Ertly).",
+      "fix": "Caption: 'Fortification walls of the Troy VI level at Hisarlık.' Set S1 kind to 'review' or 'other'.",
+      "evidence": "lookup.py commons for both files."
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Abstract: Calvert owned much of the site; trial digs at least 7 years before Schliemann's 1870 probe; 1865 findings announced in London. No explicit 1865 Troy claim, profit motive, Bronze Age masonry or 1868 meeting."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Abstract: Calder 1972 on fabrications; about a dozen accounts, four compared. Does not support 'at least a dozen inconsistent accounts' or 'already self-promoting'. Challenged by Easton 1984."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "Abstract confirms ~15 years of Tübingen-Cincinnati work, the 2001 press criticism, the Feb 2002 symposium and 'considerably exaggerated'. Full text returned 403, so the phase dates cited to S3 are unconfirmed."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract matches: disputes Troy VI as a palatial city, trade hub or 'hanse'; answers Easton et al. 2002."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match, no abstract. The 'exists' label is correct. It answers Kolb 2004 (AJA 108: 577-613), which the record does not cite."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Abstract matches the 'assumptions and wishful thinking' quote. DOI resolves."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Abstract supports Wilusa likely = Troy, four possible conflicts in the 15th-13th c. BCE, and possible telescoping. Cline is a summarizer, not the originator of the objection."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Abstract supports the name-equation critique (1911/1924/1931). Goes further than the record says: 'neither Troy nor the capital of Wilusa'."},
+    {"id": "S9", "exists": true, "supports_citation": "could-not-read", "note": "GSA page header only. 'exists' is correct. It should not support settled_by 'geology'."},
+    {"id": "S10", "exists": true, "supports_citation": "yes", "note": "Abstract confirms the treasures went from Berlin to Moscow and St Petersburg for about 50 years."}
+  ]
+}

@@ -8,7 +8,7 @@
     "continent": "Asia"
   },
   "anomaly_type": "capability",
-  "claim": "Klaus Schmidt identified massive Pre-Pottery Neolithic stone enclosures at Göbekli Tepe, built by hunter-gatherers from the late 10th millennium BCE, before local farming began. He interpreted them as a network of ritual 'temples' that may have helped drive the shift to agriculture.",
+  "claim": "Klaus Schmidt found Pre-Pottery Neolithic stone enclosures at Göbekli Tepe, built by pre-agricultural hunter-gatherers from the late 10th millennium BCE, and read the site as purely ritual 'temples' with no residents. The age and pre-farming construction held; 'purely ritual, uninhabited' did not.",
   "claimed_age": {
     "label": "~9600-8200 cal BC",
     "bp_min": 10150,
@@ -20,18 +20,17 @@
     "label": "~9600-8000 cal BC",
     "bp_min": 9950,
     "bp_max": 11550,
-    "basis": "DAI chronology (Kinzel & Clare 2020) divides occupation into 8 phases across Layer III (circular enclosures) and Layer II (rectangular buildings); no re-dating has overturned the original PPNA start.",
-    "source": "S8"
+    "basis": "DAI synthesis (Clare 2020): Layer III circular/oval enclosures (PPNA, from ~9500 cal BC) underlie Layer II rectangular buildings (PPNB, to ~8000 cal BC); no re-dating has overturned the original PPNA start.",
+    "source": "S7"
   },
   "orthodoxy_at_claim": {
-    "label": "Standard models held farming and settled life came before large-scale monumental construction; mobile foragers were not expected to build it.",
+    "label": "Standard models held that a farming economic base was needed to support large-scale monumental construction; hunter-gatherers were not expected to build it.",
     "limit_bp": null,
     "source": "S3"
   },
   "year_claimed": 1995,
   "key_proponents": [
     "Klaus Schmidt",
-    "Lee Clare",
     "Oliver Dietrich",
     "Jens Notroff"
   ],
@@ -46,13 +45,14 @@
     "architecture",
     "art",
     "human-remains",
-    "plant-remains"
+    "plant-remains",
+    "fauna"
   ],
   "independent_methods_count": 4,
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "yes",
-      "note": "Multi-ton carved T-shaped limestone pillars arranged in walled circles, with figurative animal reliefs, are unambiguously artificial monumental construction, not a natural or ambiguous feature.",
+      "note": "Multi-ton carved T-shaped pillars in walled circles are unambiguous artificial construction. The 'purely ritual, no residents' reading was an interpretation of that evidence, later revised (S7).",
       "source": "S1"
     },
     "documented_context": {
@@ -61,8 +61,8 @@
       "source": "S1"
     },
     "multiple_dating_methods": {
-      "value": "partial",
-      "note": "Lithic typology suggested a PPN date before excavation; radiocarbon dating followed soon after, but a mature multi-sample chronology took over a decade. No second method (e.g. OSL) was found.",
+      "value": "no",
+      "note": "Lithic typology suggested a PPN date before excavation, but typology is itself cross-dated by radiocarbon elsewhere, not independent here. Radiocarbon was the only method applied at the site.",
       "source": "S6"
     },
     "multiple_labs": {
@@ -85,49 +85,58 @@
       "note": "No independent (non-DAI) study of the material within about five years of the 1995 claim was found; the first outside critique (Banning) did not appear until 2011."
     },
     "independent_teams": {
-      "value": "partial",
-      "note": "One coordinated DAI-Şanlıurfa Museum project, not independent teams. Comparable T-pillar architecture was independently documented nearby at Nevalı Çori (excavated by Hauptmann).",
+      "value": "no",
+      "note": "One coordinated DAI-Şanlıurfa Museum project; no second team added evidence within five years. Comparable T-pillars at Nevalı Çori (Hauptmann) are corroborating context, not independent evidence.",
       "source": "S3"
     },
     "proponent_stake": {
       "value": "no",
-      "note": "An academic, institutionally funded research excavation (DAI/Şanlıurfa Museum); no commercial, religious or nationalist motive is documented in the sources reviewed.",
+      "note": "Academic, institutionally funded excavation (DAI/Şanlıurfa Museum); no commercial, religious or nationalist motive documented. The popular 'world's first temple' framing outran the evidence (S7).",
       "source": "S1"
     }
   },
   "objections": [
     {
-      "text": "Before Göbekli Tepe, monumental or ceremonial construction was thought to require a sedentary, farming economic base; large-scale coordinated building by mobile pre-agricultural foragers was considered implausible.",
+      "text": "Before Göbekli Tepe, monumental or ceremonial construction was thought to require a farming economic base to support the necessary labor and surplus.",
       "kind": "prior",
       "raised_by": "Prevailing Neolithic Revolution models",
       "year": null,
       "outcome": "wrong",
-      "outcome_note": "Göbekli Tepe and comparable sites (Nevalı Çori, Karahan Tepe) show hunter-gatherer communities organized large-scale monumental construction before domesticated agriculture; this is now standard in the literature.",
+      "outcome_note": "Neither domesticated plants nor animals are documented at Göbekli Tepe's Layer III (S3); hunter-gatherers organized monumental construction before agriculture. Now standard in the literature.",
       "source": "S3"
     },
     {
-      "text": "The evidence for calling the enclosures exclusively 'temples' is equivocal; ethnocentric sacred/profane distinctions may drive the interpretation, and the structures could be houses rich in symbolic content.",
+      "text": "Large-scale coordinated monumental building was also thought to require a sedentary, resident population, not seasonally mobile foragers.",
+      "kind": "prior",
+      "raised_by": "Prevailing Neolithic Revolution models",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "Domestic-type structures with hearths were later found beside the enclosures (S7), implying some on-site residency, but these are not yet radiocarbon-dated against the enclosures' main use.",
+      "source": "S7"
+    },
+    {
+      "text": "The evidence for calling the enclosures exclusively 'temples', with no domestic buildings anywhere on site, is equivocal.",
       "kind": "other",
       "raised_by": "Edward B. Banning",
       "year": 2011,
       "outcome": "held",
-      "outcome_note": "Post-2014 work found domestic-type buildings and large-scale cereal-processing tools (Dietrich L. et al. 2019), and DAI's 2020 review revises the 'temple-only' framing; most now favor a mixed ritual-domestic model.",
-      "source": "S6"
+      "outcome_note": "Post-2014 excavation (S7) found domestic-type round-oval structures with a hearth sequence beside the enclosures; DAI calls revising the 'temple' framing 'unavoidable'. Whether the enclosures are houses is untested.",
+      "source": "S4"
     },
     {
-      "text": "The enclosures were repeatedly, deliberately backfilled, and layers II and III overlap stratigraphically in places, so dates and finds from fill deposits may not represent the structures' construction or period of use.",
+      "text": "The large enclosures' fill was first read as deliberate, ritually-motivated backfilling when each fell out of use; if so, dates and finds recovered from fill would not represent primary construction or use.",
       "kind": "context",
-      "raised_by": "Excavation team, based on taphonomic and micromorphological study",
-      "year": 2019,
-      "outcome": "unresolved",
-      "outcome_note": "The excavators built phasing around documented backfill events rather than assuming fill dates construction, but they state that stratigraphic resolution across the site is still being refined.",
-      "source": "S6"
+      "raised_by": "Excavation team, revising Schmidt's original reading",
+      "year": 2020,
+      "outcome": "held",
+      "outcome_note": "S7: fill is redeposition from slope slides off adjacent knolls, containing mixed PPNA/PPNB material; explains heterogeneous fill dates. Finds like S9's skull fragments cannot be dated to a single phase.",
+      "source": "S7"
     }
   ],
   "status": "partial",
-  "status_note": "The ~9600-8200 cal BC age and construction by pre-agricultural hunter-gatherers are accepted with no challenge. Schmidt's stronger 'purely ritual, uninhabited' claim has not held up: post-2014 work found domestic structures.",
-  "year_resolved": 2019,
-  "what_settled_it": "Continued excavation after Schmidt's 2014 death, led by Lee Clare, documented domestic-type buildings and large-scale cereal-processing tools (Dietrich L. et al. 2019); DAI's 2020 review called for revising the 'world's first temple' framing.",
+  "status_note": "The ~9600-8200 cal BC age and pre-agricultural construction are widely accepted. Schmidt's 'purely ritual, uninhabited' reading has not held: post-2014 work found domestic structures with hearths (S7), not yet dated against the enclosures.",
+  "year_resolved": 2020,
+  "what_settled_it": "Renewed excavation (2015-2019) under Lee Clare exposed domestic-type round-oval structures with hearths and rainwater harvesting beside the enclosures; Clare's 2020 DAI review calls revising the 'temple' framing 'unavoidable' (S7). Cereal-processing tools (S6) support mixed use.",
   "settled_by": [
     "new-excavation",
     "expert-review"
@@ -136,8 +145,8 @@
   "timeline": [
     {
       "year": 1963,
-      "event": "Istanbul University-University of Chicago survey records the site; Benedict identifies Aceramic Neolithic flints but takes pillar tops for grave markers.",
-      "source": "S2"
+      "event": "1963 Istanbul-Chicago survey (Benedict, in Cambel & Braidwood) records flint-strewn knolls with small cemeteries at the site; significance not recognized.",
+      "source": "S1"
     },
     {
       "year": 1995,
@@ -160,7 +169,7 @@
     },
     {
       "year": 2012,
-      "event": "Dietrich, Heun, Notroff, Schmidt and Zarnkow synthesize evidence, including likely feasting/beer residue, framing Göbekli Tepe as predating agriculture.",
+      "event": "Dietrich, Heun, Notroff, Schmidt and Zarnkow synthesize evidence, proposing feasting and possible beer brewing (oxalate spot tests; stated as not yet certain).",
       "source": "S3"
     },
     {
@@ -196,22 +205,22 @@
       "cost": "medium"
     },
     {
-      "test": "Systematic survey for cemeteries or formal burial areas across the excavated and geophysically mapped parts of the mound.",
-      "would_show": "Whether the current absence of burials reflects a genuine absence of on-site death/burial practice (supporting continued ritual specialization) or is simply an artifact of the ~10% excavated so far.",
-      "cost": "high"
+      "test": "AMS-date short-lived material (e.g. hearth charcoal) from the domestic-context hearth sequence reported in S7 and compare against the enclosures' wall-mortar dates (e.g. KIA-44149, S6).",
+      "would_show": "Whether the domestic structures are contemporary with the enclosures' main use (mixed ritual-domestic site) or postdate them (supporting a purely-ritual Layer III).",
+      "cost": "low"
     }
   ],
-  "falsifier": "Independent re-dating placing the enclosures after regional adoption of domesticated cereals/livestock would undercut 'before farming'. A domestic signature across most buildings, with none set apart ritually, would overturn the ritual reading.",
+  "falsifier": "Independent re-dating placing the enclosures after regional adoption of domesticated cereals/livestock would undercut 'before farming'. If AMS dates show the domestic hearths postdate the enclosures' main use, 'no residents' would stand and status would move toward vindicated.",
   "sources": [
     {
       "id": "S1",
       "citation": "Schmidt, K. (2000). Göbekli Tepe, Southeastern Turkey. A Preliminary Report on the 1995-1999 Excavations. Paleorient 26(1): 45-54.",
       "doi": "10.3406/paleo.2000.4697",
-      "url": null,
+      "url": "https://www.persee.fr/doc/paleo_0153-9345_2000_num_26_1_4697",
       "kind": "primary",
-      "access": "paywalled",
+      "access": "open",
       "verification": "checked",
-      "note": "Abstract read via OpenAlex: describes the PPN mound's megalithic architecture, sculpture and 'religious function', contrasted with standard economic models of Neolithic origins."
+      "note": "Full text open on Persée (p.45): describes the PPN mound's megalithic architecture, sculpture and 'religious function'; quotes Benedict (1980: 179, 181) on the 1963 survey."
     },
     {
       "id": "S2",
@@ -220,8 +229,8 @@
       "url": null,
       "kind": "book",
       "access": "unknown",
-      "verification": "unverified",
-      "note": "Not independently read (no DOI or open text found); citation taken from secondary academic accounts. Used only for timeline color, not a key evidentiary field."
+      "verification": "exists",
+      "note": "Existence confirmed via S1's quotation (pp.179, 181): flint-strewn knolls with small cemeteries. The grave-marker/Aceramic detail is not shown there and is UNVERIFIED; not used for a key field."
     },
     {
       "id": "S3",
@@ -271,7 +280,7 @@
       "kind": "review",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract via OpenAlex: 2015-2019 work is 'leading to a revision of former interpretations' behind the popular 'World's First Temples' image. PDF fetch failed; abstract supports the citation."
+      "note": "Full text (DAI PDF): domestic structures, hearths, rainwater harvesting (2015-19); fill is slope-slide redeposition (mixed PPNA/PPNB), not ritual backfill; burial DR1 mapped; undated by AMS."
     },
     {
       "id": "S8",
@@ -281,7 +290,7 @@
       "kind": "review",
       "access": "unknown",
       "verification": "exists",
-      "note": "DOI and citation confirmed via Crossref; JSTOR access blocked full text. Cited (via Wikipedia's repeated sourcing to it) for the revised 8-phase chronology; not independently read."
+      "note": "DOI and citation confirmed via Crossref; JSTOR access blocked full text; not independently read. Not relied on for the phase count; accepted_age now cites S7 instead."
     },
     {
       "id": "S9",
@@ -295,13 +304,13 @@
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Age and pre-agricultural context are solidly sourced from open, checked literature. 'Partial' status is a judgment call; sources S5 and S8 exist but are paywalled, unread in full.",
+  "confidence_note": "Age and pre-farming context are solidly sourced from open literature. features_at_claim covers the monumental/age part of the claim; the failed 'purely ritual' part is assessed via objections/status.",
   "corrections": [
-    "Starter note is accurate but incomplete: the 1963 survey was directed by Cambel and Braidwood, but the surface misidentification (pillar tops as grave markers) is credited to Peter Benedict (1980).",
-    "Schmidt recognized the site's significance in 1994 (revisiting the 1963 survey location) and began excavating in 1995; this record codes 1995, when fieldwork and public reporting began, as year_claimed.",
-    "The starter note frames the debate as mainly Banning (2011) vs. Schmidt. In fact the excavators' own post-2014 fieldwork independently moved toward a more domestic/mixed reading, not just an outside critique."
+    "Commonly repeated detail that Benedict mistook pillar tops for grave markers is UNVERIFIED: S1's quotation of Benedict (1980: 179, 181) describes flint-strewn knolls with small cemeteries, not a grave-marker misreading.",
+    "The exact 1994 recognition date (before 1995 excavation) is UNVERIFIED in sources reviewed; this record codes 1995, when excavation and public reporting began, as year_claimed (S1).",
+    "The brief's 'domestic or roofed buildings' framing holds: Banning (2011, S4) proposed the enclosures could be houses; post-2014 fieldwork (S7) instead found separate domestic structures beside the decorated enclosures."
   ],
-  "notes": "This record separates two bundled claims: (1) pre-agricultural hunter-gatherers built monumental enclosures c. 9600-8200 cal BC, and (2) the complex was exclusively ritual 'temples' with no inhabitants. Claim (1) is vindicated and unchallenged in the sources reviewed. Claim (2) has been revised by the excavators' own post-2014 work (domestic buildings, cereal-processing tools) and by Banning's critique, hence 'partial' status. Speculative readings (e.g. astronomical alignments) are not part of this record. No source reviewed suggests hoax, contamination, or misidentification as natural; the live debate is about function, not authenticity or age.",
+  "notes": "This record separates two parts of the 1995 claim: (1) pre-agricultural hunter-gatherers built monumental enclosures c. 9600-8200 cal BC; (2) the complex was purely ritual, with no residents. Part (1) is vindicated; part (2) failed. Post-2014 excavation (S7) found domestic structures with hearths near the enclosures and a burial (DR1); S9's 2017 'burials absent' account predates this. S7 also found the fill is redeposited slope debris mixing PPNA/PPNB material, not deliberate backfill, explaining early dates' heterogeneity. 'May have helped drive the shift to agriculture' is untested and dropped from claim. No source suggests hoax or contamination; debate is about function, not age.",
   "plates": [
     {
       "commons_file": "File:Göbekli Tepe, Urfa.jpg",
@@ -311,12 +320,14 @@
   "review": {
     "drafted_by": "researcher agent (claude-sonnet-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft",
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
     "open_issues": [
-      "Benedict (1980), the source for the 1963 survey/misidentification story, was not independently read (no DOI or open text found). Verify against the original volume or a source quoting it directly.",
-      "Dietrich & Notroff (2015) and Kinzel & Clare (2020) are confirmed to exist (Crossref/JSTOR) but were paywalled; only existence, not content, was verified. Check they say what they are cited for.",
-      "'Partial' status is a judgment call: the age/monumentality claim is essentially unchallenged, but Schmidt's stronger 'purely ritual, uninhabited' claim did not hold. Confirm this framing matches intent.",
-      "A commonly repeated detail (1998 dates were centuries off, later resolved by plaster dating) could not be confirmed in a source read in full, so it was omitted rather than asserted."
+      "multiple_labs and decisive_tests' 'second lab outside Kiel' premise rest on unverified 1998 dates (Kromer & Schmidt, Neo-Lithics 3/98); not independently located this round, left as in the draft.",
+      "S5 (Dietrich & Notroff 2015) and S8 (Kinzel & Clare 2020) remain paywalled beyond confirmed metadata; not relied on for key fields.",
+      "Whether an expectation of sedentism (e.g. Natufian villages) already existed pre-1995, versus being newly established here, is untested against a source like Bar-Yosef 1998; objections[1] left 'unresolved' rather than resolved either way."
     ]
   }
 }

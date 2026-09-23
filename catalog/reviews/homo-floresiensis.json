@@ -1,0 +1,138 @@
+{
+  "id": "homo-floresiensis",
+  "reviewer": "skeptic agent (Claude Opus 5.5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "All 15 sources are real; most support their citations. Revise: 'vindicated' hides that the ~18 ka survival half of the claim failed (S11); the lone 'prior' objection is not one, and Martin 2006's prior ones are missing; microcephaly dissent is omitted; the 'separate groups' correction is false.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "status; status_note; claim; what_settled_it",
+      "problem": "The claim includes late survival ('survived far later than any other archaic hominin known in Asia'), and that half failed. S11 says the young ages were 'a major reason this taxon is controversial', and its new evidence 'does not support' LB1 at ~18 kyr cal BP or a last appearance at ~17 or 13-11 kyr. S14: the species was likely extinct by ~50 ka. The proponents' own team overturned it. Neither status_note nor what_settled_it says so, so 'vindicated' reads as if the whole 2004 claim held.",
+      "fix": "Choose one. (a) Narrow `claim` to the species claim, and add to status_note: 'The 2004 claim of survival to ~18 ka alongside modern humans was withdrawn by the team's own 2016 redating (S11).' (b) Keep the claim as written and recode status to 'partial'. The reviewer prefers (a): anomaly_type is 'hominin', and claimed_age vs accepted_age already records the age failure. Either way, what_settled_it should add that the 100-60 ka redating removed critics' premise that the remains were coeval only with H. sapiens (S10 abstract).",
+      "evidence": "S11 abstract and editor summary (nature.com/articles/nature17179); S14 abstract; S10 abstract ('coeval with only Homo sapiens populations worldwide')"
+    },
+    {
+      "severity": "major",
+      "field": "objections[3]; objections (missing prior-kind entries); key_critics",
+      "problem": "The three pathology objections are correctly coded 'identification'. But the only 'prior' objection, objections[3], is not an objection. The erectus vs pre-erectus ancestry question was framed by proponents (S13), and both options accept a distinct species. It adds a spurious 'prior -> unresolved' data point. Meanwhile the real prior objections are missing. Martin et al. 2006 argued that (i) LB1's ~400 cc brain is 'far too small to derive from Homo erectus by normal dwarfing', and (ii) prepared-core tools and bladelets 'otherwise associated exclusively with H. sapiens' pointed to modern humans. Both were answered. As coded, the record has identification objections 'wrong' x3 and prior objections 'wrong' x0, which biases the prior-vs-identification hypothesis.",
+      "fix": "Move objections[3] to notes (or recode it as kind 'identification', raised by the actual advocates of pre-erectus ancestry). Add two objections: kind 'prior', raised_by 'Robert D. Martin et al.', year 2006, with Martin et al. 2006 as a new source (doi 10.1002/ar.a.20389). (1) Brain too small for a dwarfed H. erectus: outcome 'wrong', citing Weston & Lister 2009 (10.1038/nature07922; insular dwarf hippo brains up to 30% smaller than scaling predicts); note that ancestry is still debated. (2) Tools too advanced, so made by H. sapiens: outcome 'wrong', citing Brumm et al. 2006 (10.1038/nature04618; technological continuity with 840-700 kyr Mata Menge artefacts). Add R.D. Martin to key_critics.",
+      "evidence": "Martin et al. 2006 abstract (Crossref/OpenAlex); Weston & Lister 2009 text (PMC2679980); Brumm et al. 2006 text (nature.com); S13 opening paragraph"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].year; objections[0].outcome_note",
+      "problem": "Microcephaly was first argued in 2004, not 2006: Balter (Science, Nov 2004) reports 'a small but vocal group' calling LB1 a microcephalic modern human. The outcome_note's first rebuttal, Falk 2005 (S3), predates Jacob 2006 and was itself contested; Martin et al. 2006 called its microcephalic comparison specimen 'particularly unsuitable'. The note also omits the main later pro-microcephaly study. Vannucci, Barron & Holloway 2011 (PNAS) put LB1's endocast ratios 'within the range of microcephalic endocasts', which they said 'support but do not prove' microcephaly. 'wrong' is still defensible (S9, S7, several small-bodied individuals, S13/S15), but the note overstates how cleanly this was settled.",
+      "fix": "Set year 2004 and cite Balter 2004 (10.1126/science.306.5699.1116a) as the first statement, with Jacob et al. 2006 as the full version. Rewrite outcome_note, e.g.: 'Contested back and forth (Falk 2005/2007 vs Martin 2006, Vannucci 2011); Baab 2013 found LB1 groups with fossil Homo, not microcephalics; small size is shared by other individuals and by ~700 ka Mata Menge fossils.'",
+      "evidence": "Balter 2004 abstract; Vannucci et al. 2011 abstract (10.1073/pnas.1105585108); Martin et al. 2006 abstract; S9 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[2]; key_proponents",
+      "problem": "The correction says the three pathology hypotheses came from 'separate groups'. They did not. Europe PMC author lists: S5 (2006) = Jacob, Indriati, Soejono, Hsu, Frayer, Eckhardt, Kuperavage, Thorne, Henneberg; S10 (2014) = Henneberg, Eckhardt, Chavanaves, Hsu. The Down-syndrome paper is the same core group's second diagnosis. The brief never called the hypotheses concurrent, and microcephaly dates to 2004. Also, key proponent R.P. Soejono, a co-author of both 2004 Nature papers, co-authored the 2006 critique (S5).",
+      "fix": "Rewrite, e.g.: 'The pathology hypotheses were not all independent: Henneberg, Eckhardt and Hsu co-authored both the microcephaly (2006) and Down-syndrome (2014) papers; the Laron (2007) and cretinism (2008) proposals came from separate groups.' Drop Soejono from key_proponents, or note that he co-authored S5.",
+      "evidence": "Europe PMC authorString for 10.1073/pnas.0605563103 and 10.1073/pnas.1407382111; catalog/briefs.json homo-floresiensis entry"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim.label; orthodoxy_at_claim.source",
+      "problem": "The label says Late Pleistocene Island Southeast Asia 'was assumed occupied only by modern Homo sapiens', citing S2. S2's abstract does not say this, and the type paper contradicts it. The S1 abstract says: 'it is widely accepted that only one hominin genus, Homo, was present in Pleistocene Asia, represented by two species, Homo erectus and Homo sapiens', both larger-brained and taller than Australopithecus. Late Javan H. erectus had also been claimed at 53-27 ka (Swisher et al. 1996).",
+      "fix": "Relabel, e.g.: 'Pleistocene Asia held only Homo erectus and H. sapiens, both larger-brained and taller than australopithecines.' Source it to S1, and upgrade S1 to 'checked': its abstract is readable on nature.com.",
+      "evidence": "S1 abstract (nature.com/articles/nature02999); S2 abstract; Swisher et al. 1996, doi 10.1126/science.274.5294.1870 (Crossref match only, not read)"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[2].outcome_note; notes",
+      "problem": "The Down-syndrome objection is answered mainly by S12, whose authors are largely proponents (Brown, Falk, Jungers) plus a Down-syndrome specialist (Richtsmeier). The note cites their authorship as a credential. An independent rebuttal exists (Westaway, Durband, Groves & Collard 2015, PNAS). The notes' statement that the group 'still defends' the reading has no source. Eckhardt & Henneberg 2021 still call the species a 'meme', and Flohr 2018 disputes LB1's long feet. S10's argument also relied on the pre-2016 young date.",
+      "fix": "Cite Westaway et al. 2015 (10.1073/pnas.1418997112) as an independent rebuttal, and describe S12's authorship neutrally. Source the continuing dissent to Eckhardt & Henneberg 2021 (10.2478/anre-2021-0023), and optionally Flohr 2018 (10.1127/anthranz/2018/0770; title only). Note that the 2016 redating removed S10's 'coeval only with H. sapiens' premise. The outcome 'wrong' can stand.",
+      "evidence": "Europe PMC author list for S12; Eckhardt & Henneberg 2021 abstract; S10 abstract; Westaway et al. 2015 and Flohr 2018 Crossref matches"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].outcome_note",
+      "problem": "The outcome 'wrong' is well supported: S9, from a group independent of the excavators, found LB1 'clearly distinct' from Laron-syndrome patients, and no later defence of the Laron hypothesis turned up. But the direct rebuttal is missing.",
+      "fix": "Optionally add Falk et al. 2009, 'The type specimen (LB1) of Homo floresiensis did not have Laron Syndrome' (10.1002/ajpa.21035; proponent-authored), alongside S9.",
+      "evidence": "S9 abstract; Falk et al. 2009 Crossref match"
+    },
+    {
+      "severity": "minor",
+      "field": "objections; key_critics",
+      "problem": "A fourth pathology hypothesis from a separate group is missing: myxoedematous endemic cretinism (Obendorf, Oxnard & Kefford 2008, Proc R Soc B; continued in 2010 and 2012). S9 itself names it and tests a hypothyroid sample. Brown 2012 (JHE) rebutted it directly.",
+      "fix": "Add an identification objection (raised_by 'Peter Obendorf, Charles Oxnard, Ben Kefford', year 2008, source 10.1098/rspb.2007.1488), with outcome 'wrong' citing Brown 2012 (10.1016/j.jhevol.2011.10.011) and S9. Add Oxnard or Obendorf to key_critics.",
+      "evidence": "S9 abstract; Crossref matches for Obendorf 2008, Oxnard 2010 (10.1371/journal.pone.0013018), Oxnard 2012 (10.1016/j.jchb.2012.09.005) and Brown 2012"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[0]; corrections[1]",
+      "problem": "Neither entry corrects the brief. The brief says the age was revised 'from ~18,000 to ~100,000-60,000 years for the skeletons'. LB1 was dated ~18 kyr cal BP (S11), and 100-60 ka is the accepted skeletal age (S11, S14). Both entries only add detail.",
+      "fix": "Move both to notes, or label them as clarifications. Keep the corrections field for genuine errors.",
+      "evidence": "catalog/briefs.json; S11 and S14 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[1].source; timeline[2].year; features_at_claim.material_accessible.note",
+      "problem": "The custody episode began in late 2004, not 2005. Balter (Nov 2004) reports that the skull had been removed to a rival's lab, and S4 (Feb 2005) says 'For the past 3 months'. Neither teaser names Jacob. Separately, timeline[1] cites S1 for '~18,000 years within a ~95,000-12,000 year sequence', but S1's abstract gives no dates; S11 does.",
+      "fix": "Set timeline[2] to 2004 and change the feature note to 'about three months, late 2004 to early 2005'. Confirm Jacob's name from S4's full text or another source. Re-source timeline[1] to S11.",
+      "evidence": "Balter 2004 abstract; S4 teaser; S1 and S11 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "settled_by",
+      "problem": "'independent-redating' is inaccurate: S11's own summary says the redating team included 'many of the original research team'. The redating also did not settle the species question. 'expert-review' has no cited review behind it.",
+      "fix": "Drop 'independent-redating' and 'expert-review' (keep 'morphology' and 'new-excavation'), or justify each with a source.",
+      "evidence": "S11 Nature editor summary"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.independent_teams.note; features_at_claim.multiple_labs.note; features_at_claim.documented_context.note",
+      "problem": "independent_teams calls Jacob et al. 2006 'distinct from the excavators', but excavation co-director Soejono co-authored it. Critics' reinterpretations are also weak evidence of independent testing. multiple_labs rests on co-author affiliations rather than on which labs ran which dates. documented_context 'yes' is correct as-at-claim, but the mundane failure that actually happened is not named: the dated deposits were misassociated with the skeletons, a stratigraphic error in the proponents' own chronology.",
+      "fix": "For independent_teams, cite a genuinely independent analysis within five years (e.g. Argue et al. 2006, S6, after reading it). For multiple_labs, cite S2's supplementary methods (separate radiocarbon, luminescence, TIMS U-series and ESR work). For documented_context, keep 'yes' but add: 'later found misassociated (S11)'. Name that error explicitly in the notes' mundane checks.",
+      "evidence": "Europe PMC author list for S5; S2 acknowledgements and supplementary-methods listing; S11 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "status_note",
+      "problem": "'primitive ... brain anatomy' misstates S3, which found 'derived frontal and temporal lobes' and an H. erectus-like endocast shape; only the brain/body ratio is australopithecine-like. 'at least nine individuals' has no source.",
+      "fix": "Reword to 'small, H. erectus-shaped endocast'. Cite a count, e.g. Martin et al. 2006 (LB1 plus eight other individuals, as of 2006), or a later tally.",
+      "evidence": "S3 abstract; Martin et al. 2006 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "hook; plates[0].caption",
+      "problem": "The hook's 'dismissed as a sick modern human' implies that the field dismissed the find; only a minority of critics did. The caption's 'showing the small braincase central to the microcephaly debate' is interpretation. The photo, from an AMNH exhibit per its Commons categories, shows a skull with mandible and no scale.",
+      "fix": "Hook: 'that critics called a diseased modern human'. Caption: 'Cast of the LB1 skull and mandible on museum display.'",
+      "evidence": "Commons File:Homo_floresiensis.jpg (CC BY-SA 2.0, Ryan Somma), image viewed"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "The value 4 is unexplained. It matches S2's four dating methods, but those support the age, not the species identity.",
+      "fix": "State the lines of evidence being counted in notes, e.g. cranial morphology, postcranial morphology, a second individual's mandible, and dated archaeological context, then adjust the count.",
+      "evidence": "S1 and S2 abstracts; schema definition"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence; confidence_note",
+      "problem": "'high' is premature. The objections that are included are well sourced, but major objections and published dissent are missing, and two fields misstate sources.",
+      "fix": "Set 'medium' until the major issues are fixed. 'high' is then justified.",
+      "evidence": "Issues above"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Abstract read on nature.com: ~1 m stature, 380 cm3, new species, dwarfed H. erectus; states that only H. erectus and H. sapiens were accepted in Pleistocene Asia. It has no dates, so timeline[1]'s dating content needs S11. Can be upgraded to 'checked'."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Abstract confirms 14C, luminescence, U-series and ESR, and the >38 to >=18 kyr range. It does not support orthodoxy_at_claim's 'only modern H. sapiens' label."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "'LB1 is not a microcephalic or pygmy'. But it predates the 2006 objection it is cited against, and it reports derived (not primitive) frontal/temporal lobes."},
+    {"id": "S4", "exists": true, "supports_citation": "partial", "note": "Teaser: 'For the past 3 months' a rival held the skeleton, invited others and took a rib sliver. The Feb 2005 date puts the start in late 2004; Jacob is not named."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract matches the objection. Authors include Soejono, Henneberg, Eckhardt and Hsu (Europe PMC)."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "No abstract in OpenAlex; paywalled. The 'exists' label is correct."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Primitive wrist; 'not a modern human with an undiagnosed pathology'."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Laron syndrome in a 'local, highly inbred' H. sapiens population."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "LB1 is distinct from healthy, hypothyroid and Laron samples; microcephalics 'converge, to some extent' on fossil Homo, but LB1 groups with fossil Homo, closest to H. erectus."},
+    {"id": "S10", "exists": true, "supports_citation": "yes", "note": "Down-syndrome brain size and femur/foot argument. Its premise is 'coeval with only Homo sapiens', which relied on the pre-2016 dates."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "95-12 kyr original bracket; LB1 ~18 kyr not supported; skeletons 100-60 ka, artefacts 190-50 ka. The team included many original members, so the redating is not independent."},
+    {"id": "S12", "exists": true, "supports_citation": "yes", "note": "Morphometric comparison with Down-syndrome and euploid samples; the LB1 femur:foot ratio is far beyond the Down-syndrome mean. Authors include proponents Brown, Falk and Jungers."},
+    {"id": "S13", "exists": true, "supports_citation": "yes", "note": "The opening paragraph frames erectus vs habilis-like ancestry as the controversy; 2014 Mata Menge finds. Size and age details are corroborated by the S15 abstract."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Skeletons ~100-60 ka; cultural evidence to ~50 ka; likely extinct by ~50 ka; sequence ~190 ka to present."},
+    {"id": "S15", "exists": true, "supports_citation": "yes", "note": "Mata Menge humerus 9-16% smaller than LB1; lineage from early Asian H. erectus, diminutive since at least ~700 ka."}
+  ]
+}

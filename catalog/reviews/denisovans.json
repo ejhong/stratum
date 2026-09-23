@@ -1,0 +1,141 @@
+{
+  "id": "denisovans",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Revise. All 11 sources real; 'vindicated' fair for the lineage. But: false correction (Harbin also ID'd by proteins), orthodoxy label contradicted by S1/S2, named 2011/2013 critics missed, independence overstated, accepted_age null though Douka 2019 models it ~76-52 ka. Borderline inclusion.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "corrections[0]",
+      "problem": "False correction. The brief said later fossils were attributed 'via proteins or DNA'; the record 'corrects' this to 'specifically ancient mitochondrial DNA ... not protein'. Fu, Bai, Rao, Chen et al. 2025 (Science 389(6761): 704-707) recovered 95 endogenous proteins from the Harbin cranium; it carries three Denisovan-derived amino-acid variants and clusters with Denisova 3. Harbin was attributed by BOTH mtDNA (S5) and proteins. The brief was right.",
+      "fix": "Delete this correction. Add Fu et al. 2025 Science as a source; revise the 2025 timeline event and status_note to 'mtDNA from dental calculus and ancient proteins'.",
+      "evidence": "https://doi.org/10.1126/science.adu9677 (abstract read)"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[1]; objections[1].outcome_note",
+      "problem": "Not a correction of the brief (the brief never named a species) and inaccurate as worded. Homo longi was published with the Harbin cranium as holotype (Ji et al. 2021 = the record's own S6), and Harbin is now tied to Denisovans (S5; Fu et al. 2025 Science), so an available binomial arguably applies. Bae & Wu 2024 separately proposed Homo juluensis to include Denisovans. What is unsettled is which name, if any, should be used, not whether a binomial with a holotype exists.",
+      "fix": "Move to notes and reword, e.g. 'No agreed binomial: H. longi (2021, Harbin holotype) and H. juluensis (2024) have both been proposed for groups that include Denisovans; the choice is debated.' Reword objection 2's outcome_note the same way.",
+      "evidence": "S6; Bae & Wu 2024, Nature Communications, https://doi.org/10.1038/s41467-024-53918-7 (metadata only); https://doi.org/10.1126/science.adu9677 (abstract: 'previously assigned to a new species, Homo longi')"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim.label",
+      "problem": "Contradicted by its own cited source. Krause 2010 (S1, editor's summary) invokes Homo floresiensis in Indonesia ~17,000 years ago as another coexisting Late Pleistocene lineage in Eurasia. Reich 2010 (S2) says 'In eastern Asia, no consensus exists about which groups were present' and notes H. floresiensis until at least 17,000 years ago. So 'Neanderthals were the only well-established non-modern hominin ... no distinct archaic Asian lineage was recognized' misstates the 2010 view.",
+      "fix": "Relabel, e.g. 'Archaic populations of eastern Asia were debated from fragmentary fossils; no archaic group other than Neanderthals had been characterised genetically.' Cite S2.",
+      "evidence": "S1 page (nature.com/articles/nature08976); S2 introduction (ncbi.nlm.nih.gov/pmc/articles/PMC4306417)"
+    },
+    {
+      "severity": "major",
+      "field": "objections; notes; review.open_issues",
+      "problem": "Named critics from the time were missed. Three of four objections are unattributed 'general caution' items, two of them scored 'wrong', and no one is shown to have raised them against this case. That inflates the 'objections that were wrong' tally. Real ones: (a) Martinón-Torres, Dennell & Bermúdez de Castro 2011, 'The Denisova hominin need not be an out of Africa story' (J Hum Evol 60(2): 251-255). It disputes Krause 2010's central inference that the mtDNA 'derives from a hominin migration out of Africa distinct from' the Neanderthal and modern-human ancestors. That inference was dropped once Reich 2010 placed Denisovans as Neanderthals' sister group, so the objection likely held (title only; paywalled). (b) Lowery et al. 2013 (Gene 530(1): 83-94) argued that Denisovan and Neanderthal affinities with living humans could reflect shared ancestral variation rather than introgression. That challenges the Melanesian-admixture part of the claim. I also found no named critic of the lineage's existence, so 'low resistance' holds only for the core claim.",
+      "fix": "Add (a) and (b) with sources. The researcher should read (a) to confirm its argument and find a source for (b)'s outcome. Either delete objections 1 and 4, or recast them as the authors' own pre-emptive checks (raised_by saying so) and keep them out of the wrong-objection tally. Revise notes and open_issues: there were named critics of the out-of-Africa and admixture inferences, but none of the existence of the lineage.",
+      "evidence": "https://doi.org/10.1016/j.jhevol.2010.10.005 ; https://doi.org/10.1016/j.gene.2013.06.005 (Crossref metadata; abstracts not available)"
+    },
+    {
+      "severity": "major",
+      "field": "accepted_age; claimed_age; objections",
+      "problem": "accepted_age is null, but the claimed age did not hold and a revised figure is available. Douka et al. 2019 (S9) abstract: 'The youngest Denisovan dates to 52,000-76,000 years ago' (a Bayesian model combining radiocarbon, U-series, OSL, stratigraphic and genetic data). Dennell 2019 (S11, already cited): 'Denisova 3 and Denisova 4 are older than expected compared with the layers in which they were found.' So the 48-30 ka age taken from layer 11 was wrong for this bone; Krause 2010 itself warned the dates had 'large and unknown errors'. This mundane explanation (the bone was displaced relative to its layer) did apply, to the age but not to the lineage, and the record never states it.",
+      "fix": "Set accepted_age to ~76,000-52,000 years (modelled), bp_min 52000, bp_max 76000, source S9. Confirm in Fig. 4 or the SI that the 'youngest Denisovan' is Denisova 3 (I read it that way). Add a context/dating objection (the layer age was unreliable for the bone; outcome held) and mention it in status_note.",
+      "evidence": "Europe PMC abstract of 10.1038/s41586-018-0870-z; S11 PDF, p. 572"
+    },
+    {
+      "severity": "major",
+      "field": "objections[3].outcome; what_settled_it; settled_by; features_at_claim.multiple_labs.note",
+      "problem": "Independence is overstated. The two 2010 analyses came from one Leipzig lab, one bone and overlapping authors; Reich was a co-author of the consortium's Neanderthal genome work, not a 'separate group'. So 'Independent mitochondrial and nuclear genome analyses' and settled_by 'replication' are unsupported for 2010. Objection 4 is scored 'wrong' because of 'separate institutions', but the Crossref author lists show otherwise. Chen 2019 (Xiahe) includes J.-J. Hublin (MPI-EVA) and Q. Fu. Zhang 2020 includes Pääbo, Meyer, Kelso, Slon and Fu. Both 2025 Harbin papers are led by Q. Fu, second author of Krause 2010 and listed here as a key proponent.",
+      "fix": "Drop 'Independent' from what_settled_it. Remove 'replication' from settled_by, or move year_resolved later. Set objection 4's outcome to 'unresolved', or cite Penghu 1 (Tsutaya et al. 2025) as the most independent confirmation after checking its author list for Leipzig overlap.",
+      "evidence": "Crossref author lists: 10.1038/s41586-019-1139-x, 10.1126/science.abb6320, 10.1126/science.adu9677"
+    },
+    {
+      "severity": "major",
+      "field": "status_note; sources; timeline",
+      "problem": "Key publications are missing. Tsutaya et al. 2025 (Science 388(6743): 176-180) identified the Penghu 1 mandible from Taiwan as a male Denisovan from two Denisovan-specific amino-acid variants. That makes Taiwan a fourth locality, and its age is loosely bounded (10-70 ka or 130-190 ka). The Harbin proteome paper (Fu et al. 2025, Science) is also missing, as is Meyer et al. 2012 (Science 338: 222-226), the high-coverage genome that was the main 2012 confirmation. 'Corroborated at three sites' is out of date.",
+      "fix": "Add all three sources. Update status_note to at least four localities (Denisova, Baishiya, Penghu, Harbin). Free timeline slots by dropping the 1980 excavation filler event.",
+      "evidence": "https://doi.org/10.1126/science.ads3888 (abstract read); https://doi.org/10.1126/science.1224344 (metadata)"
+    },
+    {
+      "severity": "minor",
+      "field": "year_resolved",
+      "problem": "Setting year_resolved = year_claimed = 2010 is defensible for the lineage: acceptance was fast and I found no sustained dissent on its existence. But it records acceptance, not confirmation by anyone else. Both 2010 results came from one lab and one bone, and the first paper's main interpretation (a separate out-of-Africa migration ~1.0 Ma) was revised within months. The zero-year gap will skew any time-to-resolution analysis.",
+      "fix": "Keep 2010 but say in status_note that it marks acceptance of the nuclear-genome result, not independent replication. Alternatively use 2012 (Meyer et al. 2012; independent reanalysis by Skoglund & Jakobsson 2011). The analyst should flag this case as a zero-gap outlier.",
+      "evidence": "S1, S2; https://doi.org/10.1073/pnas.1108181108"
+    },
+    {
+      "severity": "minor",
+      "field": "notes (inclusion rule 2)",
+      "problem": "Borderline inclusion. By S2's own account there was no consensus on archaic eastern Asians for this claim to contradict. The claim filled a gap, came from the field's leading lab in Nature, and met no resistance on its core. The one part that did cut against expectations, a separate out-of-Africa migration, was abandoned. Its all-yes/partial features and zero-year gap could create a spurious 'features predict vindication' pattern.",
+      "fix": "Keep it, but tag it in notes as a borderline 'surprise discovery, not a contested anomaly' case. The analyst should run results with and without it.",
+      "evidence": "CLAUDE.md inclusion rules; S2 introduction"
+    },
+    {
+      "severity": "minor",
+      "field": "claim",
+      "problem": "'Was shown to belong' assumes the outcome. The claim also leaves out Krause 2010's actual assertion: an mtDNA split ~1.0 Ma and a distinct out-of-Africa migration, which the nuclear genome revised.",
+      "fix": "Use 'was reported', and add one clause on the ~1.0 Ma mtDNA divergence and migration inference.",
+      "evidence": "S1 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "independent_methods_count",
+      "problem": "The count of 5 includes post-2019 evidence (proteins, U-series, OSL). The lines offered for the 2010 claim were mtDNA, nuclear DNA and molar morphology (Denisova 4, Reich 2010), with radiocarbon on the layer used only for age. This mixes in hindsight.",
+      "fix": "Use about 3, or state in notes that the count is cumulative to 2025.",
+      "evidence": "S2 abstract (tooth 'shares no derived morphological features' with Neanderthals or modern humans)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.unambiguous_signal.note; objections[0].outcome_note",
+      "problem": "The contamination figure '~0.1-0.2%' is incomplete. Reich 2010: mtDNA 0.2% (CI 0.1-0.3) and 0.1%; male-DNA 0.00% and 0.43% (CI 0.09-1.26). Krause 2010: 99.7% of fragments from one source (~0.3%).",
+      "fix": "Say 'at most ~0.4%' and cite S1 and S2.",
+      "evidence": "S2 results (PMC4306417); S1 text"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.independent_teams.source",
+      "problem": "S7's abstract does not support the note about a Leipzig-centred consortium and other population geneticists. The 'partial' value is fair.",
+      "fix": "Cite Skoglund & Jakobsson 2011 (PNAS 108(45): 18301-18306), an Uppsala team that reanalysed the published genome within a year.",
+      "evidence": "https://doi.org/10.1073/pnas.1108181108"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[5].source; timeline[0]",
+      "problem": "The 2017 sediment-DNA event cites S9 (Douka 2019), which does not report it. The 1980 event is labelled 1980 but says excavations began c. 1979 (S11: 'began there 40 years ago'), and it is filler.",
+      "fix": "Cite Slon et al. 2017, Science 356(6338): 605-608. Drop timeline[0].",
+      "evidence": "https://doi.org/10.1126/science.aam9695"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections[2]",
+      "problem": "This rebuts something the brief did not say. The brief gives 2019 as the year of attribution, not of discovery.",
+      "fix": "Move the monk and 1980 detail to notes or the timeline (it is already there).",
+      "evidence": "catalog/briefs.json"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S7,S9,S10].verification",
+      "problem": "These paywalled sources were read only at abstract level but are labelled 'checked'. They are cited for full-text details: S9 for the ZooMS restudy and data deposition, S10 for excavation leadership.",
+      "fix": "Downgrade to 'exists', or cite them only for what their abstracts state.",
+      "evidence": "Record notes on S7, S9, S10"
+    },
+    {
+      "severity": "minor",
+      "field": "objections; status_note",
+      "problem": "Uneven care. Xiahe's lack of provenance is recorded, but the Harbin cranium also has no excavation record (reportedly found in the 1930s and hidden until 2018; verify in S6 or Shao et al. 2021). Penghu 1 has no stratigraphic context either and a two-range age. 'Debate continues only over its taxonomic rank' is too narrow.",
+      "fix": "Add a context objection covering the Harbin and Penghu provenance (outcome unresolved). Broaden the residual-dissent wording.",
+      "evidence": "https://doi.org/10.1126/science.ads3888 abstract (age '10,000 to 70,000 years ago or 130,000 to 190,000 years ago')"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Confirms 48,000-30,000 yr (layer 11), excavated 2008, mtDNA distinct, second-extract replication, ~0.3% contamination. Contradicts the orthodoxy label: it invokes H. floresiensis."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Confirms the name 'Denisovans', 4-6% Melanesian ancestry, mtDNA contamination 0.1-0.2%; male DNA up to 0.43%. Its intro ('no consensus' in eastern Asia) contradicts the orthodoxy label."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Monk and 1980 confirmed via acknowledgements and the published peer-review file. Co-authors include Hublin and Q. Fu, so not independent of Leipzig."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: Denisovan mtDNA in sediment at ~100, ~60 and possibly ~45 ka. Co-authors include Pääbo, Meyer, Kelso, Slon, Fu."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract confirms no DNA from tooth or petrous bone; mtDNA from calculus related to an early Siberian Denisovan branch. Led by Q. Fu. Does not show Harbin was 'not protein'."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match; PDF returned HTTP 403. Title supports the new-species proposal. Its holotype undercuts corrections[1]."},
+    {"id": "S7", "exists": true, "supports_citation": "partial", "note": "Abstract: 'Only ten fragmentary remains from two sites ... entirely on molecular information.' Does not support the independent_teams note."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "Metadata match only; not re-opened within budget."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "Abstract (Europe PMC): 50 radiocarbon dates, 3 direct hominin dates, Bayesian model, youngest Denisovan 52-76 ka. Does not report 2017 sediment DNA (timeline[5])."},
+    {"id": "S10", "exists": true, "supports_citation": "could-not-read", "note": "Not opened; 103 OSL dates corroborated via S11."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Confirms excavations began 40 years before 2019, >=200 ka occupation, layer disturbance. Also says Denisova 3 is older than its layer, which the record does not use."}
+  ]
+}

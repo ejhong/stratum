@@ -1,0 +1,359 @@
+{
+ "id": "meadowcroft",
+ "name": "Meadowcroft Rockshelter",
+ "hook": "A Pennsylvania rockshelter whose deepest charcoal dates could push people in the Americas back 19,000 years.",
+ "location": {
+  "country": "United States",
+  "region": "Pennsylvania",
+  "continent": "North America"
+ },
+ "anomaly_type": "chronology",
+ "claim": "James Adovasio's team argued that stone tools, hearths and plant remains through 11 stratified layers at Meadowcroft Rockshelter show intermittent human use of the Cross Creek Valley spanning at least 16,000, and perhaps up to 19,000, years -- well before Clovis.",
+ "claimed_age": {
+  "label": "16,000-19,000 yr BP (occupation span, as reported 1978)",
+  "bp_min": null,
+  "bp_max": null,
+  "basis": "Adovasio et al. 1978: 11 strata 'span at least 16,000 years and perhaps 19,000 years.' Presumed uncalibrated 14C yr BP per era convention; not stated explicitly; not calibrated here.",
+  "source": "S1"
+ },
+ "accepted_age": {
+  "label": "~14,000-16,000 BP widely accepted; oldest dates disputed",
+  "bp_min": null,
+  "bp_max": null,
+  "basis": "Adovasio et al. 1990 (AMS-backed): presence in SW Pennsylvania 'by 14,000-14,500 years ago.' Widely but not universally accepted; dates beyond ~16,000-19,000 BP remain contested. Not recalibrated here.",
+  "source": "S5"
+ },
+ "orthodoxy_at_claim": {
+  "label": "Clovis-first: no confirmed human presence in the Americas before about 11,500 radiocarbon years BP",
+  "limit_bp": 11500,
+  "source": "S11"
+ },
+ "year_claimed": 1978,
+ "key_proponents": [
+  "James M. Adovasio",
+  "Jack Donahue",
+  "Robert Stuckenrath",
+  "R.C. Carlisle",
+  "David R. Pedler"
+ ],
+ "key_critics": [
+  "C. Vance Haynes Jr.",
+  "Jeffrey I. Mead",
+  "Kenneth B. Tankersley",
+  "Cheryl Ann Munson",
+  "Robert L. Kelly"
+ ],
+ "evidence_types": [
+  "radiocarbon",
+  "stratigraphy",
+  "lithics",
+  "features",
+  "fauna",
+  "plant-remains",
+  "geology"
+ ],
+ "independent_methods_count": 2,
+ "features_at_claim": {
+  "unambiguous_signal": {
+   "value": "partial",
+   "note": "Miller Complex lithics (point, blades, cores) in Stratum IIa are unambiguous artifacts, but the oldest dates (~19,000 BP) have weaker artifact ties and discordant fauna/flora.",
+   "source": "S3"
+  },
+  "documented_context": {
+   "value": "yes",
+   "note": "11 well-defined stratigraphic units recorded in place across multiple excavation seasons from 1973.",
+   "source": "S1"
+  },
+  "multiple_dating_methods": {
+   "value": "no",
+   "note": "Only radiocarbon dating (conventional counting) was used at claim time; no OSL, U-series or other independent chronometric method was applied to the Pleistocene strata.",
+   "source": "S1"
+  },
+  "multiple_labs": {
+   "value": "no",
+   "note": "Early dates came from the Smithsonian Institution radiocarbon lab (co-author Stuckenrath); independent Oxford AMS cross-checks came later, by 1990.",
+   "source": "S5"
+  },
+  "professional_recovery": {
+   "value": "yes",
+   "note": "Excavated from 1973 by Adovasio's University of Pittsburgh Cultural Resource Management Program.",
+   "source": "S1"
+  },
+  "peer_reviewed_report": {
+   "value": "yes",
+   "note": "Published in American Antiquity in 1978, with companion 'Retrospect 1977' reports following in 1979-1980.",
+   "source": "S1"
+  },
+  "material_accessible": {
+   "value": "unknown",
+   "note": "No source read here confirms whether critics had direct access to samples or the site within about five years of the 1978 claim.",
+   "source": "S1"
+  },
+  "independent_teams": {
+   "value": "no",
+   "note": "Evidence through the early 1980s came from Adovasio's single excavation team; critics (Haynes, Mead) published commentary but did not independently excavate or re-date within the window.",
+   "source": "S1"
+  },
+  "proponent_stake": {
+   "value": "no",
+   "note": "Standard university/CRM archaeology (University of Pittsburgh); no commercial, religious or nationalist motive found in the sources read.",
+   "source": "S1"
+  }
+ },
+ "objections": [
+  {
+   "text": "Radiocarbon dates from the earliest strata may be inflated by contamination with ancient ('dead') carbon, possibly from coal-bearing sediment in the region, infiltrating charcoal samples.",
+   "kind": "dating",
+   "raised_by": "C. Vance Haynes Jr.",
+   "year": 1980,
+   "outcome": "unresolved",
+   "outcome_note": "Adovasio's team replied with Oxford AMS dates (1990) and later geoarchaeology found no groundwater contamination, but coal-derived old carbon has not been conclusively excluded for the oldest dates.",
+   "source": "S2"
+  },
+  {
+   "text": "Fauna and flora recovered from the dated Stratum IIa are discordant with other well-documented full-glacial (Wisconsinan-age) assemblages known from the region, casting doubt on the ages.",
+   "kind": "context",
+   "raised_by": "Jeffrey I. Mead",
+   "year": 1980,
+   "outcome": "unresolved",
+   "outcome_note": "Proponents argue Cross Creek Valley was a sheltered local refugium; no independent re-analysis of the faunal/floral discordance was found in the sources reviewed here.",
+   "source": "S3"
+  },
+  {
+   "text": "Specific points of confusion remain about whether coal particles or dissolved 'dead carbon' from coal contaminated dated charcoal; specific comparative tests were recommended.",
+   "kind": "dating",
+   "raised_by": "Kenneth B. Tankersley; Cheryl Ann Munson",
+   "year": 1992,
+   "outcome": "unresolved",
+   "outcome_note": "No source reviewed here reports these specific recommended comparative coal-contaminant tests being completed and published.",
+   "source": "S4"
+  },
+  {
+   "text": "A pre-Clovis date of up to 19,000 years contradicted the Clovis-first model, under which no confirmed human presence existed in the Americas before about 11,500 radiocarbon years BP.",
+   "kind": "prior",
+   "raised_by": "C. Vance Haynes Jr. and other Clovis-first proponents",
+   "year": 1980,
+   "outcome": "wrong",
+   "outcome_note": "Clovis-first was abandoned field-wide from the 1990s-2000s as other pre-Clovis sites gained acceptance and Clovis itself was redated younger (S10).",
+   "source": "S2"
+  },
+  {
+   "text": "Even researchers who accept some pre-Clovis presence at the site treat only a conservative ~12,000-year initial occupancy as solid; the oldest claimed dates are not broadly accepted.",
+   "kind": "dating",
+   "raised_by": "unnamed critics, per Adovasio et al. 1999",
+   "year": null,
+   "outcome": "unresolved",
+   "outcome_note": "Adovasio's own 1999 review states this is the field's conservative position, implying dates beyond it remain contested today.",
+   "source": "S7"
+  }
+ ],
+ "status": "partial",
+ "status_note": "The core claim -- pre-Clovis human presence in the Cross Creek Valley -- is now widely accepted, fitting the modern view people reached the Americas by ~17.5-14.6 ka. The oldest claimed dates, near 19,000 years, remain more contested.",
+ "year_resolved": null,
+ "what_settled_it": "No single event. Oxford AMS dates (1990) and independent micromorphology (Goldberg & Arpin 1999) answered specific contamination questions; acceptance of the core claim grew as other pre-Clovis sites were vindicated from the 1990s-2000s. The oldest dates were never independently confirmed.",
+ "settled_by": [
+  "independent-redating",
+  "geology"
+ ],
+ "failure_mode": "contamination",
+ "timeline": [
+  {
+   "year": 1978,
+   "event": "Adovasio, Gunn, Donahue & Stuckenrath publish the first major overview, claiming occupation spanning 16,000-19,000 years.",
+   "source": "S1"
+  },
+  {
+   "year": 1980,
+   "event": "Haynes raises the possibility that ancient-carbon contamination inflated the site's radiocarbon dates.",
+   "source": "S2"
+  },
+  {
+   "year": 1980,
+   "event": "Mead argues Stratum IIa fauna and flora are discordant with other Wisconsinan-age (Ice Age) records in the region.",
+   "source": "S3"
+  },
+  {
+   "year": 1987,
+   "event": "Kelly publishes a further critique of the site's pre-Clovis deposits in Quaternary Research.",
+   "source": "S8"
+  },
+  {
+   "year": 1990,
+   "event": "Adovasio, Donahue & Stuckenrath reply with Oxford AMS dates, holding presence in SW Pennsylvania by 14,000-14,500 years ago.",
+   "source": "S5"
+  },
+  {
+   "year": 1992,
+   "event": "Tankersley & Munson detail how coal particles could contaminate and inflate radiocarbon dates, and recommend specific tests.",
+   "source": "S4"
+  },
+  {
+   "year": 1999,
+   "event": "Goldberg & Arpin's independent micromorphological study finds no evidence of groundwater contamination in the early levels.",
+   "source": "S6"
+  },
+  {
+   "year": 1999,
+   "event": "Adovasio, Pedler, Donahue & Stuckenrath review two decades of debate; note conservative critics concede only a ~12,000-year occupancy.",
+   "source": "S7"
+  },
+  {
+   "year": 2022,
+   "event": "Hart & Adovasio directly AMS-date maize remains once thought ancient by stratigraphic association, finding them post-AD 1800 intrusions.",
+   "source": "S9"
+  }
+ ],
+ "decisive_tests": [
+  {
+   "test": "AMS-date archived charcoal from Meadowcroft's basal Stratum I and lowest Stratum IIa at a second lab, using contamination-resistant (e.g. ABOX) pretreatment.",
+   "would_show": "Whether the oldest (~16,000-19,000 year) dates hold up once likely old-carbon contaminants are stripped out.",
+   "cost": "medium"
+  },
+  {
+   "test": "Test archived charcoal and sediment from the deepest strata for coal-derived hydrocarbons or coal macerals, compared against local coal seams.",
+   "would_show": "Direct chemical or petrographic evidence of coal contamination in the oldest samples, or its absence.",
+   "cost": "low"
+  },
+  {
+   "test": "Directly AMS-date any bone, antler, or other non-charcoal organic material associated with the earliest strata.",
+   "would_show": "An independent material class to cross-check the charcoal-based chronology of the oldest levels.",
+   "cost": "medium"
+  },
+  {
+   "test": "Permitted survey or coring nearby in Cross Creek Valley to test whether comparable old-carbon-bearing sediment occurs naturally without cultural material.",
+   "would_show": "Whether the local geology can produce anomalously old carbon dates without human presence, calibrating contamination risk.",
+   "cost": "high"
+  }
+ ],
+ "falsifier": "Would move toward 'refuted' if contamination-resistant re-dating shows the basal dates inflated by old carbon; toward 'vindicated' if such tests confirm the ~16,000-19,000-year dates and clear artifacts are newly identified there.",
+ "sources": [
+  {
+   "id": "S1",
+   "citation": "Adovasio, J.M., Gunn, J.D., Donahue, J. & Stuckenrath, R. 1978. Meadowcroft Rockshelter, 1977: An Overview. American Antiquity 43(4): 632-651.",
+   "doi": "10.2307/279496",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Original claim. Abstract read: 11 strata in Washington Co., SW Pennsylvania span 'at least 16,000 years and perhaps 19,000 years' of intermittent occupation."
+  },
+  {
+   "id": "S2",
+   "citation": "Haynes, C.V. 1980. Paleoindian Charcoal from Meadowcroft Rockshelter: Is Contamination a Problem? American Antiquity 45(3): 582-587.",
+   "doi": "10.2307/279878",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Key early critique (title only available; paywalled, no indexed abstract). Characterized by later replies (S4, S5) as raising old-carbon/particulate contamination concerns."
+  },
+  {
+   "id": "S3",
+   "citation": "Mead, J.I. 1980. Is It Really That Old? A Comment about the Meadowcroft Rockshelter \"Overview\". American Antiquity 45(3): 579-582.",
+   "doi": "10.2307/279877",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: Stratum IIa radiocarbon dates imply full-glacial occupation, but recovered fauna/flora are discordant with other local Wisconsinan-age fossils."
+  },
+  {
+   "id": "S4",
+   "citation": "Tankersley, K.B. & Munson, C.A. 1992. Comments on the Meadowcroft Rockshelter Radiocarbon Chronology and the Recognition of Coal Contaminants. American Antiquity 57(2): 321-326.",
+   "doi": "10.2307/280736",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: clarifies open questions on coal contamination of dated charcoal and recommends specific comparative tests."
+  },
+  {
+   "id": "S5",
+   "citation": "Adovasio, J.M., Donahue, J. & Stuckenrath, R. 1990. The Meadowcroft Rockshelter Radiocarbon Chronology 1975-1990. American Antiquity 55(2): 348-354.",
+   "doi": "10.2307/281652",
+   "url": null,
+   "kind": "reply",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: proponents' reply using Oxford AMS dates; concludes people present in SW Pennsylvania 'by 14,000-14,500 years ago.'"
+  },
+  {
+   "id": "S6",
+   "citation": "Goldberg, P. & Arpin, T.L. 1999. Micromorphological Analysis of Sediments from Meadowcroft Rockshelter, Pennsylvania: Implications for Radiocarbon Dating. Journal of Field Archaeology 26(3): 325-342.",
+   "doi": "10.1179/jfa.1999.26.3.325",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: independent micromorphological study finds deposition by attrition/roof fall/sheetwash and no evidence of groundwater contamination of early levels."
+  },
+  {
+   "id": "S7",
+   "citation": "Adovasio, J.M., Pedler, D.R., Donahue, J. & Stuckenrath, R. 1999. Two Decades of Debate on Meadowcroft Rockshelter. North American Archaeologist 19(4): 317-341.",
+   "doi": "10.2190/1636-pbkv-n0nc-q11h",
+   "url": null,
+   "kind": "review",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: reviews 20 years of debate; notes 'most conservative assessments concede a 12,000-year initial occupancy.'"
+  },
+  {
+   "id": "S8",
+   "citation": "Kelly, R.L. 1987. A Comment on the Pre-Clovis Deposits at Meadowcroft Rockshelter. Quaternary Research 27(3): 332-334.",
+   "doi": "10.1016/0033-5894(87)90088-3",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Further published critique (title only; paywalled, no indexed abstract, not read in full)."
+  },
+  {
+   "id": "S9",
+   "citation": "Hart, J.P. & Adovasio, J.M. 2022. Accelerator Mass Spectrometry Dating of Meadowcroft Rockshelter Maize. Radiocarbon 64(2): 265-277.",
+   "doi": "10.1017/rdc.2022.18",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AEB13F39AA46F6ED564113A179E2B1D2/S0033822222000182a.pdf/div-class-title-accelerator-mass-spectrometry-dating-of-meadowcroft-rockshelter-maize-div.pdf",
+   "kind": "primary",
+   "access": "open",
+   "verification": "checked",
+   "note": "Full text read (open PDF). Confirms site is still 'best known for its pre-Clovis occupation' (2022); shows unrelated maize once thought ancient AMS-dates to post-AD 1800."
+  },
+  {
+   "id": "S10",
+   "citation": "Waters, M.R. 2019. Late Pleistocene Exploration and Settlement of the Americas by Modern Humans. Science 365(6449): eaat5447.",
+   "doi": "10.1126/science.aat5447",
+   "url": null,
+   "kind": "review",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: current synthesis states genetic/archaeological data do not support occupation before ~17.5 ka, bearing on Meadowcroft's oldest claimed dates."
+  },
+  {
+   "id": "S11",
+   "citation": "Haynes, C.V. 1964. Fluted Projectile Points: Their Age and Dispersion. Science 145(3639): 1408-1413.",
+   "doi": "10.1126/science.145.3639.1408",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: defines the Clovis-first orthodoxy Meadowcroft's claim challenged -- Clovis points restricted to 11,000-11,500 RCYBP; no evidence in older deposits."
+  }
+ ],
+ "confidence": "medium",
+ "confidence_note": "Haynes (1980) and Kelly (1987) were confirmed to exist via Crossref but not read in full (paywalled, no indexed abstract); their arguments here are inferred from how S4, S5 and S7 characterize them.",
+ "corrections": [
+  "Brief credits Haynes 1980/Tankersley & Munson 1992 with questioning 'absence of Ice Age fauna.' That was actually J.I. Mead (1980), unnamed in the brief: fauna/flora are 'discordant' with regional fossils, not absent (S3).",
+  "Brief attributes coal-contamination jointly to Haynes (1980) and Tankersley & Munson (1992). Coal is explicit only in the latter's abstract (S4); Haynes (1980) was confirmed at title level only, so his wording on coal is unverified (S2)."
+ ],
+ "notes": "A Wikipedia summary cites a 2013 SAA survey reporting 38% of archaeologists accepting Meadowcroft's early dates and 20% rejecting them; this could not be verified via Crossref/OpenAlex, so it is not used here, though it is broadly consistent with 'partial' status. BP figures are as originally published (apparently uncalibrated radiocarbon years per era convention); no independent calibration attempted, per instructions to leave uncertain numbers null. Hart & Adovasio (2022) show unrelated 'ancient' maize AMS-dating to post-AD 1800 -- a reminder why directly dating, not just associating, early material matters. Adovasio & Carlisle (1988, Science) exists but was not read for this record.",
+ "plates": [
+  {
+   "commons_file": "File:MeadowcroftRockshelter.jpg",
+   "caption": "Meadowcroft Rockshelter near Avella, Washington County, Pennsylvania, 2010."
+  }
+ ],
+ "review": {
+  "drafted_by": "researcher agent (claude-sonnet-5)",
+  "drafted_on": "2026-09-23",
+  "stage": "draft"
+ }
+}

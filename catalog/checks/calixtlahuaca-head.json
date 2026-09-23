@@ -1,0 +1,47 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "MESOAMERICAN EVIDENCE OF PRE-COLUMBIAN TRANSOCEANIC CONTACTS",
+  "crossref_year": 1999,
+  "crossref_venue": "Ancient Mesoamerica",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "COMMENTS ON “MESOAMERICAN EVIDENCE OF PRE-COLUMBIAN \nTRANSOCEANIC CONTACTS” BY HRISTOV AND GENOVÉS, \nIN <i>ANCIENT MESOAMERICA</i> 10:207–213, 1999",
+  "crossref_year": 2001,
+  "crossref_venue": "Ancient Mesoamerica",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "REPLY TO PETER SCHAAF AND GÜNTHER A. WAGNER'S \n“COMMENTS ON ‘MESOAMERICAN EVIDENCE OF PRE-COLUMBIAN \nTRANSOCEANIC CONTACTS’ ”",
+  "crossref_year": 2001,
+  "crossref_venue": "Ancient Mesoamerica",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A New Archaeological Chronology for Aztec-Period Calixtlahuaca, Mexico",
+  "crossref_year": 2015,
+  "crossref_venue": "Latin American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Aztec period houses and terraces at Calixtlahuaca: The changing morphology of a Mesoamerican hilltop urban center",
+  "crossref_year": 2013,
+  "crossref_venue": "Journal of Field Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ }
+}
