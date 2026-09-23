@@ -147,6 +147,27 @@
         "soil/peat/humate"
       ],
       "status": "LEAD",
+      "pre_limit_dates_by_continent_before_filters": {
+        "North America": 479
+      },
+      "kept_dates_by_continent": {
+        "North America": 265
+      },
+      "kept_dates_by_class": {
+        "bone/tooth/antler": 198,
+        "short-lived plant": 6,
+        "charcoal/wood": 31,
+        "soil/peat/humate": 4,
+        "unknown": 25,
+        "other organic": 1
+      },
+      "kept_dates_by_p3k14c_source": {
+        "CARD": 256,
+        "UWyo2021": 9
+      },
+      "annotation_after_scan": "Most sites are Alaskan, Yukon and Alberta localities whose kept dates are on bones of named Pleistocene animals (mammoth, horse, bison, bear and others), compiled in CARD and often citing fauna compilations (FAUNMAP, Harington 2003, Guthrie). A date on a fossil bone gives the animal's age, not evidence of people, unless the bone is shown to be modified by humans. p3k14c does not record that, and R1's filters were not built to remove it, so the registered rule flags the region on the strength of fossil localities. The useful parts of this lead are the famous cases and the smaller set of unrecognized sites dated on charcoal, wood or plants. No Central or South American date passed the threshold, even before the filters.",
+      "source_short": "Waters 2019",
+      "source_doi": "10.1126/science.aat5447",
       "sites": [
         {
           "site": "Banks Island mammoth",
@@ -263,7 +284,7 @@
           "material_classes": [
             "short-lived plant"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Utah; a palaeontological dung cave)",
           "dates": [
             {
               "LabID": "A-3514",
@@ -297,7 +318,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Bluefish Caves, Yukon)",
           "dates": [
             {
               "LabID": "TO-1196",
@@ -382,7 +403,7 @@
           "material_classes": [
             "charcoal/wood"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (pre-Clovis claim, Virginia)",
           "dates": [
             {
               "LabID": "BETA-81590",
@@ -450,7 +471,7 @@
           "material_classes": [
             "soil/peat/humate"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Alaska; beach-ridge archaeological sequence)",
           "dates": [
             {
               "LabID": "B-265",
@@ -2455,7 +2476,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Alaska; late-glacial site)",
           "dates": [
             {
               "LabID": "BETA-109267",
@@ -4251,7 +4272,7 @@
           "material_classes": [
             "charcoal/wood"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (South Dakota; Paleoindian site)",
           "dates": [
             {
               "LabID": "AA-35949",
@@ -4473,7 +4494,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (pre-Clovis mastodon site, about 13,800 years)",
           "dates": [
             {
               "LabID": "UCIAMS-29116",
@@ -4507,7 +4528,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Alaska; late-glacial site)",
           "dates": [
             {
               "LabID": "NSRL-2000",
@@ -4543,7 +4564,7 @@
           "material_classes": [
             "charcoal/wood"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (pre-Clovis claim, Pennsylvania)",
           "dates": [
             {
               "LabID": "OXA-363",
@@ -4799,7 +4820,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-307",
@@ -4850,7 +4871,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-123",
@@ -4884,7 +4905,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "I-4229",
@@ -4918,7 +4939,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-122",
@@ -4952,7 +4973,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-733",
@@ -4986,7 +5007,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-136",
@@ -5020,7 +5041,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-127",
@@ -5054,7 +5075,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-727",
@@ -5088,7 +5109,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "famous early-arrival controversy (Old Crow Basin bone-tool debate, Yukon)",
           "dates": [
             {
               "LabID": "RIDDL-137",
@@ -5190,7 +5211,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Alaska; early Holocene human remains)",
           "dates": [
             {
               "LabID": "AA-15227",
@@ -5309,7 +5330,7 @@
           "material_classes": [
             "charcoal/wood"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Maryland; Paleoindian site)",
           "dates": [
             {
               "LabID": "AA-3870",
@@ -5857,7 +5878,7 @@
           "material_classes": [
             "short-lived plant"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Illinois)",
           "dates": [
             {
               "LabID": "ISGS-851",
@@ -5978,7 +5999,7 @@
           "material_classes": [
             "charcoal/wood"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Manitoba)",
           "dates": [
             {
               "LabID": "BGS-1315",
@@ -6012,7 +6033,7 @@
           "material_classes": [
             "bone/tooth/antler"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Alaska; I recall debated early bone dates, unverified)",
           "dates": [
             {
               "LabID": "BETA-35839",
@@ -6046,7 +6067,7 @@
           "material_classes": [
             "charcoal/wood"
           ],
-          "recognized": null,
+          "recognized": "known site, but not known to me for a claim this old (Alaska Peninsula)",
           "dates": [
             {
               "LabID": "SI-2079",
@@ -6158,6 +6179,13 @@
       "labs": [],
       "known_material_classes": [],
       "status": "untestable by design: limit is beyond R1's 40,000 14C BP filter",
+      "pre_limit_dates_by_continent_before_filters": {},
+      "kept_dates_by_continent": {},
+      "kept_dates_by_class": {},
+      "kept_dates_by_p3k14c_source": {},
+      "annotation_after_scan": null,
+      "source_short": "O'Connell et al. 2018",
+      "source_doi": "10.1073/pnas.1808385115",
       "sites": []
     },
     {
@@ -6181,6 +6209,13 @@
       "labs": [],
       "known_material_classes": [],
       "status": "not a lead",
+      "pre_limit_dates_by_continent_before_filters": {},
+      "kept_dates_by_continent": {},
+      "kept_dates_by_class": {},
+      "kept_dates_by_p3k14c_source": {},
+      "annotation_after_scan": null,
+      "source_short": "Nakazawa 2017",
+      "source_doi": "10.1086/694447",
       "sites": []
     },
     {
@@ -6204,6 +6239,13 @@
       "labs": [],
       "known_material_classes": [],
       "status": "untestable: no p3k14c rows",
+      "pre_limit_dates_by_continent_before_filters": {},
+      "kept_dates_by_continent": {},
+      "kept_dates_by_class": {},
+      "kept_dates_by_p3k14c_source": {},
+      "annotation_after_scan": null,
+      "source_short": "Rieth & Athens 2019",
+      "source_doi": "10.1080/15564894.2017.1331939",
       "sites": []
     },
     {
@@ -6231,6 +6273,21 @@
         "charcoal/wood"
       ],
       "status": "not a lead",
+      "pre_limit_dates_by_continent_before_filters": {
+        "South America": 1
+      },
+      "kept_dates_by_continent": {
+        "South America": 1
+      },
+      "kept_dates_by_class": {
+        "charcoal/wood": 1
+      },
+      "kept_dates_by_p3k14c_source": {
+        "Lima et al 2020": 1
+      },
+      "annotation_after_scan": null,
+      "source_short": "Wilmshurst et al. 2011",
+      "source_doi": "10.1073/pnas.1015876108",
       "sites": [
         {
           "site": "Site 18-473G",
@@ -6289,6 +6346,13 @@
       "labs": [],
       "known_material_classes": [],
       "status": "untestable: no p3k14c rows",
+      "pre_limit_dates_by_continent_before_filters": {},
+      "kept_dates_by_continent": {},
+      "kept_dates_by_class": {},
+      "kept_dates_by_p3k14c_source": {},
+      "annotation_after_scan": null,
+      "source_short": "Wilmshurst et al. 2008",
+      "source_doi": "10.1073/pnas.0801507105",
       "sites": []
     },
     {
@@ -6319,6 +6383,23 @@
         "short-lived plant"
       ],
       "status": "LEAD",
+      "pre_limit_dates_by_continent_before_filters": {
+        "Europe": 7
+      },
+      "kept_dates_by_continent": {
+        "Europe": 7
+      },
+      "kept_dates_by_class": {
+        "short-lived plant": 3,
+        "charcoal/wood": 3,
+        "unknown": 1
+      },
+      "kept_dates_by_p3k14c_source": {
+        "RADON-B": 7
+      },
+      "annotation_after_scan": "All 7 Icelandic rows in p3k14c come from RADON-B (a Bronze Age compilation) and fall between 2,650 and 2,820 14C BP, about 2,400–3,150 cal BP. One site name, Castro de Nossa Senhora da Guia, is Portuguese, which suggests a country-coding error in the compilation. Without that site, Iceland has 2 sites and no short-lived plant date, so it would not meet the lead rule. p3k14c does not record whether the other samples come from human activity at all. These observations come from the database fields only.",
+      "source_short": "Vésteinsson & McGovern 2012",
+      "source_doi": "10.1080/00293652.2012.721792",
       "sites": [
         {
           "site": "Castro de Nossa Senhora da Guia",
@@ -6514,6 +6595,13 @@
       "labs": [],
       "known_material_classes": [],
       "status": "untestable: no p3k14c rows",
+      "pre_limit_dates_by_continent_before_filters": {},
+      "kept_dates_by_continent": {},
+      "kept_dates_by_class": {},
+      "kept_dates_by_p3k14c_source": {},
+      "annotation_after_scan": null,
+      "source_short": "Mitchell 2020",
+      "source_doi": "10.1080/15564894.2019.1582567",
       "sites": []
     },
     {
@@ -6537,6 +6625,13 @@
       "labs": [],
       "known_material_classes": [],
       "status": "untestable: no p3k14c rows",
+      "pre_limit_dates_by_continent_before_filters": {},
+      "kept_dates_by_continent": {},
+      "kept_dates_by_class": {},
+      "kept_dates_by_p3k14c_source": {},
+      "annotation_after_scan": null,
+      "source_short": "Napolitano et al. 2019",
+      "source_doi": "10.1126/sciadv.aar7806",
       "sites": []
     }
   ],
@@ -6544,5 +6639,5 @@
     "americas",
     "iceland"
   ],
-  "runtime_seconds": 29.2
+  "runtime_seconds": 29.8
 }

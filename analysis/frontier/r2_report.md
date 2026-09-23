@@ -1,13 +1,12 @@
 # R2 · Frontier scan: dates older than the accepted first arrival
 
-*Run 2026-09-23 with `scripts/frontier/scan.py`. Method pre-registered in `findings/log.md` (R2); regions, limits and the conversion rule were fixed in `limits.json` and pushed first (commit be225f4). Full detail: `r2_summary.json`. No coordinates were read; sites are named only.*
+*Run 2026-09-23 with `scripts/frontier/scan.py`. Pre-registered in `findings/log.md` (R2); regions, limits and the conversion rule were fixed in `limits.json` and pushed before the scan (commit be225f4). Detail: `r2_summary.json`. No coordinates were read; sites are named only.*
 
-**Result: 2 lead region(s): The Americas, Iceland.** A lead means pre-limit dates recur at ≥ 3 sites with ≥ 2 labs and ≥ 2 material classes after R1's mundane filters. It is a list for the researcher and skeptic, not a finding.
+**Result: 2 region(s) meet the lead rule: Americas and Iceland.** A lead is a list for the researcher and skeptic, not a finding; read the note under each.
 
-## Method in brief
-Each region's limit (calendar years BP) was turned into a radiocarbon threshold: the oldest age the IntCal20 mean curve reaches at or after the limit, with the curve's own error. A date counts if it is older than that threshold by more than 2 combined standard errors. Then R1's filters removed reservoir-prone materials, bone without a post-1990 reference, ages over 40,000 14C BP, and split or duplicate samples. IntCal20 is used everywhere, which is slightly permissive in the Southern Hemisphere.
+**Method.** Each limit (calendar years BP) became a radiocarbon threshold: the oldest age the IntCal20 mean curve reaches at or after the limit, with the curve's own error (IntCal20 everywhere, slightly permissive in the south). A date counts if it is older than that by more than 2 combined standard errors and survives R1's filters. Lead = at least 3 sites, 2 labs and 2 known material classes between them.
 
-## Funnel (all regions)
+## Funnel
 
 | Stage | Dates | Sites |
 |---|---:|---:|
@@ -19,132 +18,90 @@ Each region's limit (calendar years BP) was turned into a radiocarbon threshold:
 | after (c) ages over 40,000 14C BP | 275 | 90 |
 | after (d) split or duplicate samples = candidates | 273 | 89 |
 
-Pre-limit dates with no usable site name (not countable as sites): 20. Removed as reservoir-prone: aquatic animal 11, sediment 5, shell 3. Bone: 151 pre-1990, 12 no year. Over 40,000: 30. Split/duplicate or no lab number: 2.
+Pre-limit dates with no usable site name: 20. Removed: reservoir-prone 19 (aquatic animal 11, sediment 5, shell 3); bone 151 pre-1990 + 12 no year; over 40,000: 30; split/duplicate or no lab number: 2.
 
 ## Regions
 
-| Region | Limit (cal BP) | 14C threshold | Dates in region | Pre-limit (> 2 SE) | Candidates | Sites | Labs | Classes | Result |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| The Americas | 17,500 | 14,442 ± 40 | 71,961 | 479 | 265 | 85 | 29 | 5 | LEAD |
-| Sahul | 50,000 | 47,531 ± 354 | 3,624 | 0 | 0 | 0 | 0 | 0 | untestable by design: limit is beyond R1's 40,000 14C BP filter |
-| Japanese Archipelago | 40,000 | 34,918 ± 125 | 1,433 | 0 | 0 | 0 | 0 | 0 | not a lead |
-| Remote Oceania, western part: Micronesia, Island Melanesia beyond the main Solomons chain, Fiji and West Polynesia | 3,450 | 3,227 ± 12 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no p3k14c rows |
-| Remote Oceania, East Polynesia except New Zealand | 925 | 1,009 ± 10 | 73 | 1 | 1 | 1 | 1 | 1 | not a lead |
-| New Zealand | 670 | 718 ± 11 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no p3k14c rows |
-| Iceland | 1,080 | 1,201 ± 13 | 7 | 7 | 7 | 3 | 3 | 2 | LEAD |
-| Madagascar | 1,450 | 1,603 ± 13 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no p3k14c rows |
-| The Caribbean islands | 5,800 | 5,084 ± 17 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no p3k14c rows |
+| Region | Limit, cal BP (source) | 14C threshold | Dates | Pre-limit | Kept | Sites | Labs | Classes | Result |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Americas | 17,500 (Waters 2019) | 14,442 ± 40 | 71,961 | 479 | 265 | 85 | 29 | 5 | **lead** |
+| Sahul | 50,000 (O'Connell et al. 2018) | 47,531 ± 354 | 3,624 | 0 | 0 | 0 | 0 | 0 | untestable: beyond 40k filter |
+| Japan | 40,000 (Nakazawa 2017) | 34,918 ± 125 | 1,433 | 0 | 0 | 0 | 0 | 0 | no |
+| Remote Oceania (west) | 3,450 (Rieth & Athens 2019) | 3,227 ± 12 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no rows |
+| Remote Oceania (East Polynesia) | 925 (Wilmshurst et al. 2011) | 1,009 ± 10 | 73 | 1 | 1 | 1 | 1 | 1 | no |
+| New Zealand | 670 (Wilmshurst et al. 2008) | 718 ± 11 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no rows |
+| Iceland | 1,080 (Vésteinsson & McGovern 2012) | 1,201 ± 13 | 7 | 7 | 7 | 3 | 3 | 2 | **lead** |
+| Madagascar | 1,450 (Mitchell 2020) | 1,603 ± 13 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no rows |
+| Caribbean | 5,800 (Napolitano et al. 2019) | 5,084 ± 17 | 0 | 0 | 0 | 0 | 0 | 0 | untestable: no rows |
 
-## Lead: The Americas (mainland North, Central and South America, including Beringia and continental islands)
+## Lead: Americas
 
-85 sites; labs: AECV, ARIZONA, AU, B, BETA, BGS, CAMS, DIC, GEORGIA, GSC, GX, I, ISGS, L, LUND, NSRL, OXA, QC, RIDDL, S, SI, SMU, ST, TO, TX, UCIAMS, USGS, W, WSU; material classes: bone/tooth/antler, charcoal/wood, other organic, short-lived plant, soil/peat/humate. Oldest kept date per site shown; every kept date is in the JSON. 'Known?' is from general knowledge only, not checked against the literature.
+85 sites, 265 kept dates, 29 labs. Classes: bone/tooth/antler 198, charcoal/wood 31, unknown 25, short-lived plant 6, soil/peat/humate 4, other organic 1. Compilations: CARD 256, UWyo2021 9. Continents (kept / before filters): North America 265/479. Sites with only animal-bone or unspecified dates: 56 of 85. 'Recognized' means from general knowledge; nothing about the leads was looked up.
 
-| Site | Country / province | Kept pre-limit dates (of all at site) | Oldest kept: lab no., 14C BP, ~cal BP (2σ), material | Labs | Known? |
-|---|---|---:|---|---|---|
-| Banks Island mammoth | Canada / Northwest Territories | 1 (1) | TO-2355, 20,700 ± 270, 24,200–25,660, mammoth bone collagen; collagène osseux de mammouth | TO | not recognized |
-| Beaverhouse Hill | USA | 1 (1) | GX-13092C, 16,950 ± 260, 19,860–21,010, bone collagen; collagène osseux | GX | not recognized |
-| Beaverlodge | Canada / Alberta | 1 (1) | AECV-1185C, 24,640 ± 940, 27,170–30,880, mammoth bone collagen; collagène osseux de mammouth | AECV | not recognized |
-| Bechan Cave | USA / Utah | 1 (32) | A-3514, 16,700 ± 250, 19,540–20,810, plant remains; restes de plantes | ARIZONA | not recognized |
-| Bluefish Cave 3 | Canada / Yukon Territories | 2 (9) | TO-1196, 33,550 ± 350, 37,160–39,400, ferret bone collagen; collagène osseux de furet | TO | not recognized |
-| Bushe River | Canada / Alberta | 1 (2) | AECV-719C, 22,020 ± 450, 25,390–27,250, mammoth bone collagen; collagène osseux de mammouth | AECV | not recognized |
-| Cactus Hill | USA / Virginia | 1 (25) | BETA-81590, 15,070 ± 70, 18,230–18,630, charcoal; charbon de bois | BETA | not recognized |
-| Canyon Creek | USA | 1 (1) | SMU-640, 39,390 ± 1,740, 41,050–45,340, horse bone collagen; collagène osseux de cheval | SMU | not recognized |
-| Cape Krusenstern | USA | 1 (31) | B-265, 26,100 ± 400, 29,650–31,090, peat; tourbe | B | not recognized |
-| Chatanika River | USA | 35 (51) | AA-3897, 33,000 ± 750, 35,970–39,620, animal remains; restes d'animaux | ARIZONA, CAMS, DIC, L, QC, SI, ST | not recognized |
-| Chuchi Lake | Canada | 3 (3) | BETA-78574, 35,480 ± 1,080, 37,730–42,160, bison bone collagen; collagène osseux de bison | BETA, TO | not recognized |
-| Chugachik Island | USA | 1 (7) | WSU-4302, 18,910 ± 250, 22,360–23,660, charcoal; charbon de bois | WSU | not recognized |
-| Clam Gulch | USA | 1 (8) | BETA-6689, 16,280 ± 110, 19,430–19,910, charcoal; charbon de bois | BETA | not recognized |
-| Clover Bar Pit | Canada / Alberta | 4 (6) | AECV-1202C, 31,220 ± 1,260, 33,120–39,070, horse bone collagen; collagène osseux de cheval | AECV | not recognized |
-| Colorado Creek | USA | 2 (4) | AA-683, 16,150 ± 230, 18,930–20,080, animal remains; restes d'animaux | ARIZONA, BETA | not recognized |
-| Consolidated Pit 45 | Canada / Alberta | 2 (5) | AECV-1582C, 35,760 ± 2,130, 35,970–43,060, wood; bois | AECV | not recognized |
-| Consolidated Pit 46 | Canada / Alberta | 3 (3) | AECV-718C, 39,960 ± 3,950, 36,330–50,280, mammoth bone collagen; collagène osseux de mammouth | AECV, TO | not recognized |
-| Consolidated Pit 48 | Canada / Alberta | 7 (8) | AECV-935C, 38,980 ± 3,520, 36,250–48,300, mammoth bone collagen; collagène osseux de mammouth | AECV | not recognized |
-| Crawford Knoll | Canada / Ontario | 1 (2) | TO-921, 15,120 ± 100, 18,230–18,680, bone collagen; collagène osseux | TO | not recognized |
-| Dawson Loc. 10 | Canada / Yukon Territories | 1 (4) | BETA-83413, 37,990 ± 750, 41,410–42,830, badger bone collagen; collagène osseux de blaireau | BETA | not recognized |
-| Dawson Loc. 12 | Canada / Yukon Territories | 2 (4) | BETA-23347, 30,370 ± 560, 33,860–35,960, ferret bone collagen; collagène osseux de furet | BETA | not recognized |
-| Dawson Loc. 29 | Canada / Yukon Territories | 2 (2) | TO-3712, 35,610 ± 340, 40,010–41,280, moose bone collagen; collagène osseux d' orignal | BETA, TO | not recognized |
-| Dawson Loc. 31 | Canada / Yukon Territories | 1 (1) | TO-2696, 26,040 ± 270, 29,920–30,930, bear bone collagen; collagène osseux d' ours | TO | not recognized |
-| Dawson Loc. 37 | Canada / Yukon Territories | 1 (2) | TO-3707, 24,850 ± 150, 28,780–29,250, bear bone collagen; collagène osseux d' ours | TO | not recognized |
-| Dawson Loc. 57 | Canada / Yukon Territories | 1 (1) | OXA-9259, 26,720 ± 290, 30,310–31,220, bear bone collagen; collagène osseux d'ours | OXA | not recognized |
-| Dawson Loc. 60 | Canada / Yukon Territories | 1 (1) | LU-3010, 37,220 ± 830, 40,740–42,560, mammoth bone collagen; collagène osseux de mammouth | LUND | not recognized |
-| Dawson Loc. 63 | Canada / Yukon Territories | 2 (2) | BETA-33192, 30,810 ± 975, 33,270–37,070, bison bone collagen; collagène osseux de bison | BETA | not recognized |
-| Dawson Loc. 77 | Canada / Yukon Territories | 1 (1) | BETA-79852, 20,250 ± 110, 24,030–24,620, bear bone collagen; collagène osseux d' ours | BETA | not recognized |
-| Drift Fence site | USA / Oregon | 1 (7) | BETA-146263, 24,700 ± 80, 28,770–29,130, CHARCOAL | BETA | not recognized |
-| Dry Creek | USA / Wyoming | 1 (24) | SI-1544, 19,050 ± 1,500, 19,420–26,340, charcoal; charbon de bois | SI | not recognized |
-| Duhme Cave | USA | 1 (1) | BETA-56040, 21,780 ± 240, 25,700–26,430, unknown; inconnu | BETA | not recognized |
-| Eagle Cave | Canada / Alberta | 2 (4) | TO-6350, 34,860 ± 470, 39,190–40,970, marmot bone collagen; collagène osseux de marmotte | TO | not recognized |
-| Epiguruk | USA | 9 (12) | USGS-1514, 36,850 ± 750, 40,560–42,380, horse bone collagen; collagène osseux de cheval | USGS | not recognized |
-| Esther | USA | 2 (3) | AA-17515, 34,974 ± 652, 39,000–41,270, bear bone collagen; collagène osseux d'ours | ARIZONA | not recognized |
-| Galt Island Bluff | Canada / Alberta | 2 (4) | GSC-14422, 38,700 ± 1,100, 41,410–44,110, wood; bois | GSC | not recognized |
-| Gerstle River | USA | 1 (7) | BETA-109267, 15,090 ± 70, 18,240–18,640, horse bone collagen; collagène osseux de cheval | BETA | not recognized |
-| Goldstream | USA | 85 (152) | AA-17514, 39,565 ± 1,126, 42,030–44,590, bear bone collagen; collagène osseux d'ours | ARIZONA, CAMS, I, OXA, QC, SI | not recognized |
-| Harvard bison | USA | 1 (1) | W-544, 21,280 ± 1,000, 23,140–27,460, bison bone; os de bison | W | not recognized |
-| HH75-1 | Canada / Yukon Territories | 1 (1) | TO-124, 34,220 ± 178, 39,160–39,680, rodent feces; féces de rongeur | TO | not recognized |
-| Hillsborough Mastodon | Canada / New Brunswick | 1 (3) | GSC-2469, 37,200 ± 1,310, 39,680–42,960, wood; bois | GSC | not recognized |
-| Hungry Creek | Canada / Yukon Territories | 1 (1) | GSC-2422, 36,900 ± 300, 41,290–42,100, beaver-chewed wood; bois rongé par des castors | GSC | not recognized |
-| Iceberg | Canada / Newfoundland | 1 (8) | SI-2431, 18,730 ± 850, 20,540–24,580, charcoal; charbon de bois | SI | not recognized |
-| Ikpikpuk River | USA | 6 (11) | TO-2539, 27,190 ± 280, 30,980–31,680, bear bone collagen; collagène osseux d'ours | DIC, GX, I, TO | not recognized |
-| Jim Pitts | USA / South Dakota | 1 (22) | AA-35949, 38,000 ± 1,300, 40,600–43,850, CHARCOAL | ARIZONA | not recognized |
-| Kangiguksuk | USA | 1 (2) | CAMS-107317, 34,820 ± 460, 39,180–40,920, Bone collagen | CAMS | not recognized |
-| Ketza River | Canada / Yukon Territories | 1 (1) | TO-393, 26,350 ± 280, 30,050–31,100, bison bone collagen; collagène osseux de bison | TO | not recognized |
-| Likely mammoth | Canada | 1 (1) | S-1036, 20,190 ± 190, 23,820–24,770, charcoal; charbon de bois | S | not recognized |
-| Lime Hills 1 | USA | 1 (7) | BETA-67670, 27,950 ± 560, 31,070–33,670, bison bone collagen; collagène osseux de bison | BETA | not recognized |
-| Lost Chicken Creek | USA | 2 (18) | AA-3076, 31,390 ± 780, 34,350–37,340, saiga bone collagen; collagène osseux de saéga | ARIZONA, I | not recognized |
-| Manis Mastodon | USA / Washington | 1 (13) | UCIAMS-29116, 29,070 ± 230, 33,040–34,170, BONE | UCIAMS | not recognized |
-| Mead | USA | 1 (9) | NSRL-2000, 17,370 ± 90, 20,800–21,160, mammoth bone collagen; collagène osseux de mammouth | NSRL | not recognized |
-| Meadowcroft Rockshelter | USA / Pennsylvania | 6 (6) | OXA-363, 31,400 ± 1,200, 33,580–39,120, CHARCOAL | DIC, OXA, SI | not recognized |
-| Melville Island mammoth | Canada / Northwest Territories | 1 (2) | GSC-1760, 21,000 ± 320, 24,500–25,910, mammoth bone collagen; collagène osseux de mammouth | GSC | not recognized |
-| Millard Creek | Canada | 1 (5) | S-142, 16,910 ± 270, 19,640–20,990, charcoal; charbon de bois | S | not recognized |
-| North Saskatchewan River | Canada / Alberta | 3 (9) | AECV-720C, 29,380 ± 4,970, 23,360–42,760, horse bone collagen; collagène osseux de cheval | AECV | not recognized |
-| Old Crow Loc. CRH-12 | Canada / Yukon Territories | 2 (4) | RIDDL-307, 38,200 ± 1,200, 40,970–43,850, mammoth bone collagen; collagène osseux de mammouth | RIDDL, TO | not recognized |
-| Old Crow Loc. CRH-13 | Canada / Yukon Territories | 1 (1) | RIDDL-123, 35,800 ± 1,000, 39,120–42,210, mammoth bone collagen; collagène osseux de mammouth | RIDDL | not recognized |
-| Old Crow Loc. CRH-22 | Canada / Yukon Territories | 1 (4) | I-4229, 33,880 ± 2,000, 34,380–42,240, moose bone collagen; collagène osseux d' orignal | I | not recognized |
-| Old Crow Loc. CRH-4 | Canada / Yukon Territories | 1 (3) | RIDDL-122, 31,120 ± 450, 34,580–36,300, mammoth? bone collagen; collagène osseux de mammouth | RIDDL | not recognized |
-| Old Crow Loc. CRH-47 | Canada / Yukon Territories | 1 (1) | RIDDL-733, 37,800 ± 800, 41,230–42,800, mammoth bone collagen; collagène osseux de mammouth | RIDDL | not recognized |
-| Old Crow Loc. CRH-70 | Canada / Yukon Territories | 1 (1) | RIDDL-136, 37,300 ± 750, 40,970–42,530, bison bone collagen; collagène osseux de bison | RIDDL | not recognized |
-| Old Crow Loc. CRH-71 | Canada / Yukon Territories | 1 (3) | RIDDL-127, 39,500 ± 1,600, 41,290–45,180, mammoth bone collagen; collagène osseux de mammouth | RIDDL | not recognized |
-| Old Crow Loc. CRH-87 | Canada / Yukon Territories | 1 (5) | RIDDL-727, 31,200 ± 500, 34,570–36,440, mammoth? bone collagen; collagène osseux de mammouth | RIDDL | not recognized |
-| Old Crow Loc. REM78-1 | Canada / Yukon Territories | 3 (6) | RIDDL-137, 35,700 ± 900, 39,180–42,100, mammal bone collagen; collagène osseux de mammiféres | RIDDL | not recognized |
-| Old Wound | USA | 1 (3) | AU-90, 26,900 ± 3,400, 24,150–39,040, peat; tourbe | AU | not recognized |
-| On Your Knees Cave | USA | 6 (21) | AA-15227, 35,365 ± 800, 39,090–41,870, bear bone collagen; collagène osseux d'ours | ARIZONA | not recognized |
-| Paw Paw Cove | USA / Maryland | 1 (2) | AA-3870, 17,820 ± 170, 21,020–22,110, wood; bois | ARIZONA | not recognized |
-| Petroglyph Canyon | USA / Montana | 1 (2) | AA-6537, 15,695 ± 135, 18,760–19,230, CHARCOAL | ARIZONA | not recognized |
-| Phillis | USA / Pennsylvania | 1 (1) | BETA-108382, 16,280 ± 100, 19,450–19,890, CHARCOAL | BETA | not recognized |
-| Porcupine River Cave 1 | USA | 2 (6) | BETA-37057, 38,260 ± 830, 41,500–43,010, sheep bone collagen; collagène osseux de mouflon | BETA, DIC | not recognized |
-| Riverview Pit | Canada / Alberta | 1 (1) | AECV-941C, 31,290 ± 1,960, 31,250–40,450, mammal bone collagen; collagène osseux de mammiféres | AECV | not recognized |
-| Rock Levee | USA / Mississippi | 1 (7) | UGA-6060, 16,479 ± 571, 18,690–21,360, CHARCOAL | GEORGIA | not recognized |
-| Schowalter | Canada / Alberta | 2 (2) | TO-872, 28,000 ± 250, 31,380–32,920, prairie dog bone collagen; collagène osseux de chien de prairie | TO | not recognized |
-| Seward | Canada / Alberta | 2 (3) | TO-1307, 25,980 ± 180, 29,980–30,740, prairie dog bone collagen; collagène osseux de chien de prairie | TO | not recognized |
-| Simpson Point | Canada / Yukon Territories | 2 (6) | BETA-70841, 36,160 ± 530, 40,340–41,990, horse bone collagen; collagène osseux de cheval | BETA, RIDDL | not recognized |
-| Sixtymile Loc. 3 | Canada / Yukon Territories | 6 (14) | TO-214, 39,560 ± 490, 42,450–43,390, ferret bone collagen; collagène osseux de furet | BETA, CAMS, TO | not recognized |
-| Sixtymile Loc. 5 | Canada / Yukon Territories | 2 (3) | BETA-16163, 24,980 ± 1,300, 26,480–31,560, mastodon bone collagen; collagène osseux de mastodonte | BETA | not recognized |
-| Smiling Dan | USA / Illinois | 1 (15) | ISGS-851, 23,380 ± 500, 26,480–28,670, plant remains; restes de plantes | ISGS | not recognized |
-| Sullivan Creek | USA | 2 (4) | AA-26858, 18,060 ± 130, 21,480–22,290, horse bone collagen; collagène osseux de cheval | ARIZONA, SI | not recognized |
-| The Burn Site | USA / Kansas | 1 (1) | TX-8484, 20,425 ± 396, 23,760–25,650, CHARCOAL | TX | not recognized |
-| The Forks | Canada / Manitoba | 1 (34) | BGS-1315, 16,330 ± 200, 19,180–20,240, charcoal; charbon de bois | BGS | not recognized |
-| Trail Creek Cave 9 | USA | 1 (16) | BETA-35839, 16,300 ± 140, 19,380–20,030, caribou bone collagen; collagène osseux de caribou | BETA | not recognized |
-| Ugashik Narrows | USA | 1 (16) | SI-2079, 35,700 ± 3,000, 34,280–44,540, charcoalé; charbon de boisé | SI | not recognized |
-| Whitestone mammoth CRH-43 | Canada / Yukon Territories | 1 (1) | I-3576, 30,380 ± 2,000, 30,780–39,510, mammoth bone collagen; collagène osseux de mammouth | I | not recognized |
-| Winter | Canada / Alberta | 1 (5) | TO-1142, 33,650 ± 340, 37,390–39,460, prairie dog bone collagen; collagène osseux de chien de prairie | TO | not recognized |
+*Note written after the scan, from the database fields only:* Most sites are Alaskan, Yukon and Alberta localities whose kept dates are on bones of named Pleistocene animals (mammoth, horse, bison, bear and others), compiled in CARD and often citing fauna compilations (FAUNMAP, Harington 2003, Guthrie). A date on a fossil bone gives the animal's age, not evidence of people, unless the bone is shown to be modified by humans. p3k14c does not record that, and R1's filters were not built to remove it, so the registered rule flags the region on the strength of fossil localities. The useful parts of this lead are the famous cases and the smaller set of unrecognized sites dated on charcoal, wood or plants. No Central or South American date passed the threshold, even before the filters.
+
+**Recognized as famous early-arrival controversies** (12 sites):
+- Bluefish Caves, Yukon: Bluefish Cave 3 (Yukon Territories; 2 of 9 dates kept; TO): TO-1196 33,550 ± 350 (~37.2–39.4 ka cal, ferret bone collagen); TO-1266 18,970 ± 1,490 (~19.3–26.1 ka cal, cougar bone collagen)
+- pre-Clovis claim, Virginia: Cactus Hill (Virginia; 1 of 25 dates kept; BETA): BETA-81590 15,070 ± 70 (~18.2–18.6 ka cal, charcoal)
+- pre-Clovis claim, Pennsylvania: Meadowcroft Rockshelter (Pennsylvania; 6 of 6 dates kept; DIC, OXA, SI): OXA-363 31,400 ± 1,200 (~33.6–39.1 ka cal, charcoal); OXA-364 30,900 ± 1,100 (~33.1–37.5 ka cal, charcoal); SI-1687 30,710 ± 1,140 (~32.3–37.4 ka cal, charcoal); +3 more
+- Old Crow Basin bone-tool debate, Yukon: 9 localities (Old Crow Loc. CRH-12, Old Crow Loc. CRH-13, Old Crow Loc. CRH-22, Old Crow Loc. CRH-4, Old Crow Loc. CRH-47, Old Crow Loc. CRH-70, Old Crow Loc. CRH-71, Old Crow Loc. CRH-87, Old Crow Loc. REM78-1); 12 dates, 22,330–39,500 14C BP; mammoth bone collagen 4, mammoth? bone collagen 3, mammal bone collagen 3, moose bone collagen 1, bison bone collagen 1; labs I, RIDDL, TO
+
+**Recognized sites, but not (to my knowledge) for a claim this old** (12):
+- Bechan Cave (Utah; 1 of 32 dates kept; ARIZONA): A-3514 16,700 ± 250 (~19.5–20.8 ka cal, plant remains) — Utah; a palaeontological dung cave
+- Cape Krusenstern (USA; 1 of 31 dates kept; B): B-265 26,100 ± 400 (~29.6–31.1 ka cal, peat) — Alaska; beach-ridge archaeological sequence
+- Gerstle River (USA; 1 of 7 dates kept; BETA): BETA-109267 15,090 ± 70 (~18.2–18.6 ka cal, horse bone collagen) — Alaska; late-glacial site
+- Jim Pitts (South Dakota; 1 of 22 dates kept; ARIZONA): AA-35949 38,000 ± 1,300 (~40.6–43.9 ka cal, charcoal) — South Dakota; Paleoindian site
+- Manis Mastodon (Washington; 1 of 13 dates kept; UCIAMS): UCIAMS-29116 29,070 ± 230 (~33.0–34.2 ka cal, bone) — pre-Clovis mastodon site, about 13,800 years
+- Mead (USA; 1 of 9 dates kept; NSRL): NSRL-2000 17,370 ± 90 (~20.8–21.2 ka cal, mammoth bone collagen) — Alaska; late-glacial site
+- On Your Knees Cave (USA; 6 of 21 dates kept; ARIZONA): AA-15227 35,365 ± 800 (~39.1–41.9 ka cal, bear bone collagen); +5 more — Alaska; early Holocene human remains
+- Paw Paw Cove (Maryland; 1 of 2 dates kept; ARIZONA): AA-3870 17,820 ± 170 (~21.0–22.1 ka cal, wood) — Maryland; Paleoindian site
+- Smiling Dan (Illinois; 1 of 15 dates kept; ISGS): ISGS-851 23,380 ± 500 (~26.5–28.7 ka cal, plant remains) — Illinois
+- The Forks (Manitoba; 1 of 34 dates kept; BGS): BGS-1315 16,330 ± 200 (~19.2–20.2 ka cal, charcoal) — Manitoba
+- Trail Creek Cave 9 (USA; 1 of 16 dates kept; BETA): BETA-35839 16,300 ± 140 (~19.4–20.0 ka cal, caribou bone collagen) — Alaska; I recall debated early bone dates, unverified
+- Ugashik Narrows (USA; 1 of 16 dates kept; SI): SI-2079 35,700 ± 3,000 (~34.3–44.5 ka cal, charcoalé) — Alaska Peninsula
+
+**Not recognized, with dates on charcoal, wood, plants, soil or other organics** (20; only those dates shown, the count includes any bone dates):
+- Chatanika River (USA; 35 of 51 dates kept; ARIZONA, CAMS, DIC, L, QC, SI, ST): QC-673 19,660 ± 30 (~23.8 ka cal, plant remains)
+- Chugachik Island (USA; 1 of 7 dates kept; WSU): WSU-4302 18,910 ± 250 (~22.4–23.7 ka cal, charcoal)
+- Clam Gulch (USA; 1 of 8 dates kept; BETA): BETA-6689 16,280 ± 110 (~19.4–19.9 ka cal, charcoal)
+- Consolidated Pit 45 (Alberta; 2 of 5 dates kept; AECV): AECV-1582C 35,760 ± 2,130 (~36.0–43.1 ka cal, wood); AECV-1581C 35,500 ± 2,530 (~34.7–43.8 ka cal, wood)
+- Drift Fence site (Oregon; 1 of 7 dates kept; BETA): BETA-146263 24,700 ± 80 (~28.8–29.1 ka cal, charcoal)
+- Dry Creek (Wyoming; 1 of 24 dates kept; SI): SI-1544 19,050 ± 1,500 (~19.4–26.3 ka cal, charcoal)
+- Epiguruk (USA; 9 of 12 dates kept; USGS): USGS-1443 33,670 ± 280 (~37.5–39.4 ka cal, willow wood); USGS-1442 23,560 ± 160 (~27.4–27.9 ka cal, willow wood); +3 more
+- Galt Island Bluff (Alberta; 2 of 4 dates kept; GSC): GSC-14422 38,700 ± 1,100 (~41.4–44.1 ka cal, wood); GSC-1442 37,900 ± 1,100 (~40.9–43.1 ka cal, wood)
+- Goldstream (USA; 85 of 152 dates kept; ARIZONA, CAMS, I, OXA, QC, SI): I-2116 24,000 ± 650 (~27.1–29.6 ka cal, plant remains); QC-668 18,230 ± 410 (~20.9–23.0 ka cal, plant remains); +1 more
+- HH75-1 (Yukon Territories; 1 of 1 dates kept; TO): TO-124 34,220 ± 178 (~39.2–39.7 ka cal, rodent feces)
+- Hillsborough Mastodon (New Brunswick; 1 of 3 dates kept; GSC): GSC-2469 37,200 ± 1,310 (~39.7–43.0 ka cal, wood)
+- Hungry Creek (Yukon Territories; 1 of 1 dates kept; GSC): GSC-2422 36,900 ± 300 (~41.3–42.1 ka cal, beaver-chewed wood)
+- Iceberg (Newfoundland; 1 of 8 dates kept; SI): SI-2431 18,730 ± 850 (~20.5–24.6 ka cal, charcoal)
+- Likely mammoth (Canada; 1 of 1 dates kept; S): S-1036 20,190 ± 190 (~23.8–24.8 ka cal, charcoal)
+- Millard Creek (Canada; 1 of 5 dates kept; S): S-142 16,910 ± 270 (~19.6–21.0 ka cal, charcoal)
+- Old Wound (USA; 1 of 3 dates kept; AU): AU-90 26,900 ± 3,400 (~24.1–39.0 ka cal, peat)
+- Petroglyph Canyon (Montana; 1 of 2 dates kept; ARIZONA): AA-6537 15,695 ± 135 (~18.8–19.2 ka cal, charcoal)
+- Phillis (Pennsylvania; 1 of 1 dates kept; BETA): BETA-108382 16,280 ± 100 (~19.4–19.9 ka cal, charcoal)
+- Rock Levee (Mississippi; 1 of 7 dates kept; GEORGIA): UGA-6060 16,479 ± 571 (~18.7–21.4 ka cal, charcoal)
+- The Burn Site (Kansas; 1 of 1 dates kept; TX): TX-8484 20,425 ± 396 (~23.8–25.6 ka cal, charcoal)
+
+**Not recognized, dated only on animal bone or unspecified material** (41; kept dates, oldest 14C BP): Banks Island mammoth (1; 20,700); Beaverhouse Hill (1; 16,950); Beaverlodge (1; 24,640); Bushe River (1; 22,020); Canyon Creek (1; 39,390); Chuchi Lake (3; 35,480); Clover Bar Pit (4; 31,220); Colorado Creek (2; 16,150); Consolidated Pit 46 (3; 39,960); Consolidated Pit 48 (7; 38,980); Crawford Knoll (1; 15,120); Dawson Loc. 10 (1; 37,990); Dawson Loc. 12 (2; 30,370); Dawson Loc. 29 (2; 35,610); Dawson Loc. 31 (1; 26,040); Dawson Loc. 37 (1; 24,850); Dawson Loc. 57 (1; 26,720); Dawson Loc. 60 (1; 37,220); Dawson Loc. 63 (2; 30,810); Dawson Loc. 77 (1; 20,250); Duhme Cave (1; 21,780); Eagle Cave (2; 34,860); Esther (2; 34,974); Harvard bison (1; 21,280); Ikpikpuk River (6; 27,190); Kangiguksuk (1; 34,820); Ketza River (1; 26,350); Lime Hills 1 (1; 27,950); Lost Chicken Creek (2; 31,390); Melville Island mammoth (1; 21,000); North Saskatchewan River (3; 29,380); Porcupine River Cave 1 (2; 38,260); Riverview Pit (1; 31,290); Schowalter (2; 28,000); Seward (2; 25,980); Simpson Point (2; 36,160); Sixtymile Loc. 3 (6; 39,560); Sixtymile Loc. 5 (2; 24,980); Sullivan Creek (2; 18,060); Whitestone mammoth CRH-43 (1; 30,380); Winter (1; 33,650).
 
 ## Lead: Iceland
 
-3 sites; labs: GRONINGEN, OXA, ST; material classes: charcoal/wood, short-lived plant. Oldest kept date per site shown; every kept date is in the JSON. 'Known?' is from general knowledge only, not checked against the literature.
+3 sites, 7 kept dates, 3 labs. Classes: short-lived plant 3, charcoal/wood 3, unknown 1. Compilations: RADON-B 7. Continents (kept / before filters): Europe 7/7. Sites with only animal-bone or unspecified dates: 1 of 3. 'Recognized' means from general knowledge; nothing about the leads was looked up.
 
-| Site | Country / province | Kept pre-limit dates (of all at site) | Oldest kept: lab no., 14C BP, ~cal BP (2σ), material | Labs | Known? |
-|---|---|---:|---|---|---|
-| Castro de Nossa Senhora da Guia | Iceland | 4 (4) | GRA-29095, 2,745 ± 45, 2,760–2,950, grain | GRONINGEN | not recognized |
-| Rangárbotnar | Iceland | 2 (2) | ST-813, 2,820 ± 70, 2,760–3,150, wood | ST | not recognized |
-| Svinavath | Iceland | 1 (1) | OXA-441, 2,740 ± 100, 2,720–3,140, not given | OXA | not recognized |
+*Note written after the scan, from the database fields only:* All 7 Icelandic rows in p3k14c come from RADON-B (a Bronze Age compilation) and fall between 2,650 and 2,820 14C BP, about 2,400–3,150 cal BP. One site name, Castro de Nossa Senhora da Guia, is Portuguese, which suggests a country-coding error in the compilation. Without that site, Iceland has 2 sites and no short-lived plant date, so it would not meet the lead rule. p3k14c does not record whether the other samples come from human activity at all. These observations come from the database fields only.
 
-Non-lead regions with some candidates: Remote Oceania, East Polynesia except New Zealand: Site 18-473G (BETA-199324, 1,110 ± 40).
+**Not recognized, with dates on charcoal, wood, plants, soil or other organics** (2; only those dates shown, the count includes any bone dates):
+- Castro de Nossa Senhora da Guia (Iceland; 4 of 4 dates kept; GRONINGEN): GRA-29095 2,745 ± 45 (~2.8–3.0 ka cal, grain); GRA-29097 2,680 ± 40 (~2.7–2.9 ka cal, grain); +2 more
+- Rangárbotnar (Iceland; 2 of 2 dates kept; ST): ST-813 2,820 ± 70 (~2.8–3.1 ka cal, wood); ST-814 2,660 ± 80 (~2.5–2.9 ka cal, wood)
+
+**Not recognized, dated only on animal bone or unspecified material** (1; kept dates, oldest 14C BP): Svinavath (1; 2,740).
+
+**Non-lead regions with candidates:** Remote Oceania (East Polynesia): Site 18-473G (Rapa Nui; 1 of 3 dates kept; BETA): BETA-199324 1,110 ± 40 (~0.9–1.2 ka cal, wood charcoal).
 
 ## Caveats
-- Coverage: p3k14c has no rows for the Caribbean islands, western Remote Oceania, New Zealand or Madagascar, and only Rapa Nui for East Polynesia; those results say nothing about the regions themselves.
-- Sahul cannot be tested with radiocarbon under R1's filters: 50,000 cal BP lies beyond the 40,000 14C BP cut-off.
-- One limit per region is applied everywhere in it; regions settled in stages (Beringia vs. the south, Hokkaido and the Ryukyus, the second Polynesian pulse) are tested conservatively.
-- p3k14c is a compilation: dates that excavators rejected may be missing, names and materials are as compiled, and a date's context (is it cultural at all?) is not recorded. A pre-limit date may be from a natural layer below the occupation.
-- Material classes come from keyword matching and the bone filter uses the earliest reference year as a proxy.
+- p3k14c has no rows for the Caribbean islands, western Remote Oceania, New Zealand or Madagascar, and only Rapa Nui for East Polynesia. Sahul cannot be tested by radiocarbon under R1's 40,000 14C BP filter. None of these are nulls.
+- p3k14c does not record whether a date is cultural. A date on fossil bone or natural wood below a site passes every R1 filter, and dates excavators rejected may be missing altogether.
+- One limit covers each whole region, so areas settled later (Hokkaido, the Ryukyus, the later Polynesian pulse) are tested conservatively. Materials were classed by keywords; the bone filter uses the reference year as a proxy.
 
 ## Next step
-Per R2 step 4, every lead goes to a researcher and a skeptic: is each site already debated, and is there a mundane cause? No literature on the leads was consulted for this run.
+Per R2 step 4, each lead goes to a researcher and a skeptic: is each site already debated, and is there a mundane cause (non-cultural sample, miscoded country, contamination)? No literature on the leads was consulted for this run.

@@ -47,9 +47,46 @@ SE_MULT = 2.0                          # older than the limit by more than 2 sta
 MIN_SITES, MIN_LABS, MIN_CLASSES = 3, 2, 2   # lead rule
 BONE, UNKNOWN, MAX_AGE, BONE_YEAR = r1.BONE, r1.UNKNOWN, r1.MAX_AGE, r1.BONE_YEAR
 
-# Annotation added AFTER the scan, from general knowledge only (no literature was searched).
-# It labels sites in the report and changes no count. Keys are R1-normalised site names.
-RECOGNIZED = {}
+# Annotations added AFTER the scan, from general knowledge and the database's own fields only
+# (no literature was searched). They label sites in the report and change no count or status.
+# Keys are R1-normalised site names.
+FAMOUS, KNOWN = "famous early-arrival controversy", "known site, but not known to me for a claim this old"
+RECOGNIZED = {
+    "bluefish cave 3": FAMOUS + " (Bluefish Caves, Yukon)",
+    "cactus hill": FAMOUS + " (pre-Clovis claim, Virginia)",
+    "meadowcroft rockshelter": FAMOUS + " (pre-Clovis claim, Pennsylvania)",
+    **{f"old crow loc {s}": FAMOUS + " (Old Crow Basin bone-tool debate, Yukon)"
+       for s in ("crh 4", "crh 12", "crh 13", "crh 22", "crh 47", "crh 70", "crh 71", "crh 87", "rem78 1")},
+    "manis mastodon": KNOWN + " (pre-Clovis mastodon site, about 13,800 years)",
+    "on your knees cave": KNOWN + " (Alaska; early Holocene human remains)",
+    "cape krusenstern": KNOWN + " (Alaska; beach-ridge archaeological sequence)",
+    "smiling dan": KNOWN + " (Illinois)",
+    "gerstle river": KNOWN + " (Alaska; late-glacial site)",
+    "mead": KNOWN + " (Alaska; late-glacial site)",
+    "jim pitts": KNOWN + " (South Dakota; Paleoindian site)",
+    "paw paw cove": KNOWN + " (Maryland; Paleoindian site)",
+    "bechan cave": KNOWN + " (Utah; a palaeontological dung cave)",
+    "the forks": KNOWN + " (Manitoba)",
+    "ugashik narrows": KNOWN + " (Alaska Peninsula)",
+    "trail creek cave 9": KNOWN + " (Alaska; I recall debated early bone dates, unverified)",
+}
+SHORT = {"americas": "Americas", "sahul": "Sahul", "japan": "Japan", "remote_oceania_west": "Remote Oceania (west)",
+         "remote_oceania_east_polynesia": "Remote Oceania (East Polynesia)", "new_zealand": "New Zealand",
+         "iceland": "Iceland", "madagascar": "Madagascar", "caribbean": "Caribbean"}
+LEAD_NOTES = {
+    "americas": "Most sites are Alaskan, Yukon and Alberta localities whose kept dates are on bones of named Pleistocene "
+                "animals (mammoth, horse, bison, bear and others), compiled in CARD and often citing fauna compilations "
+                "(FAUNMAP, Harington 2003, Guthrie). A date on a fossil bone gives the animal's age, not evidence of people, "
+                "unless the bone is shown to be modified by humans. p3k14c does not record that, and R1's filters were not "
+                "built to remove it, so the registered rule flags the region on the strength of fossil localities. The "
+                "useful parts of this lead are the famous cases and the smaller set of unrecognized sites dated on charcoal, "
+                "wood or plants. No Central or South American date passed the threshold, even before the filters.",
+    "iceland": "All 7 Icelandic rows in p3k14c come from RADON-B (a Bronze Age compilation) and fall between 2,650 and "
+               "2,820 14C BP, about 2,400–3,150 cal BP. One site name, Castro de Nossa Senhora da Guia, is Portuguese, "
+               "which suggests a country-coding error in the compilation. Without that site, Iceland has 2 sites and no "
+               "short-lived plant date, so it would not meet the lead rule. p3k14c does not record whether the other "
+               "samples come from human activity at all. These observations come from the database fields only.",
+}
 
 
 def key(s):
@@ -238,7 +275,13 @@ def main():
                               "material_classes": sorted({d["material_class"] for d in dates}),
                               "recognized": RECOGNIZED.get(r1.norm_name(name)), "dates": dates})
         row = {"id": gid, "name": g["name"], **thr[gid], "funnel": funnel, "n_sites": len(skeys),
-               "labs": labs, "known_material_classes": classes, "status": status, "sites": site_list}
+               "labs": labs, "known_material_classes": classes, "status": status,
+               "pre_limit_dates_by_continent_before_filters": dict(Counter(rows[i]["Continent"] for i in pre if rows[i]["region"] == gid)),
+               "kept_dates_by_continent": dict(Counter(rows[i]["Continent"] for i in js)),
+               "kept_dates_by_class": dict(Counter(rows[i]["cls"] for i in js)),
+               "kept_dates_by_p3k14c_source": dict(Counter(rows[i]["Source"] for i in js)),
+               "annotation_after_scan": LEAD_NOTES.get(gid), "source_short": short_source(g["source"]["citation"]),
+               "source_doi": g["source"]["doi"], "sites": site_list}
         region_rows.append(row)
         if is_lead:
             leads.append(gid)
@@ -279,76 +322,125 @@ def fmt(n):
     return f"{int(round(n)):,}"
 
 
+def short_source(citation):
+    authors = citation.split(" (")[0]
+    parts = [p for p in re.split(r"\.,\s*", authors) if p.strip()]
+    names = [p.split(",")[0].strip() for p in parts]
+    year = re.search(r"\((\d{4})", citation).group(1)
+    who = names[0] if len(names) == 1 else f"{names[0]} & {names[1]}" if len(names) == 2 else f"{names[0]} et al."
+    return f"{who} {year}"
+
+
 def report(s):
-    f, regs = s["funnel"], s["regions"]
+    f, regs, rm = s["funnel"], s["regions"], s["removed_by_filter"]
     lead_regs = [r for r in regs if r["status"] == "LEAD"]
     L = ["# R2 · Frontier scan: dates older than the accepted first arrival", "",
-         "*Run 2026-09-23 with `scripts/frontier/scan.py`. Method pre-registered in `findings/log.md` (R2); regions, "
-         f"limits and the conversion rule were fixed in `limits.json` and pushed first (commit {s['limits_file']['commit'].split()[0]}). "
-         "Full detail: `r2_summary.json`. No coordinates were read; sites are named only.*", ""]
+         "*Run 2026-09-23 with `scripts/frontier/scan.py`. Pre-registered in `findings/log.md` (R2); regions, limits and the "
+         f"conversion rule were fixed in `limits.json` and pushed before the scan (commit {s['limits_file']['commit'].split()[0]}). "
+         "Detail: `r2_summary.json`. No coordinates were read; sites are named only.*", ""]
     if lead_regs:
-        L.append(f"**Result: {len(lead_regs)} lead region(s): {', '.join(r['name'].split(' (')[0] for r in lead_regs)}.** "
-                 "A lead means pre-limit dates recur at ≥ 3 sites with ≥ 2 labs and ≥ 2 material classes after R1's "
-                 "mundane filters. It is a list for the researcher and skeptic, not a finding.")
+        L.append(f"**Result: {len(lead_regs)} region(s) meet the lead rule: {' and '.join(SHORT[r['id']] for r in lead_regs)}.** "
+                 "A lead is a list for the researcher and skeptic, not a finding; read the note under each.")
     else:
-        L.append("**Result: null.** No region has pre-limit dates at ≥ 3 sites with ≥ 2 labs and ≥ 2 material classes "
-                 "after R1's mundane filters.")
-    L += ["", "## Method in brief",
-          "Each region's limit (calendar years BP) was turned into a radiocarbon threshold: the oldest age the IntCal20 "
-          "mean curve reaches at or after the limit, with the curve's own error. A date counts if it is older than that "
-          "threshold by more than 2 combined standard errors. Then R1's filters removed reservoir-prone materials, bone "
-          "without a post-1990 reference, ages over 40,000 14C BP, and split or duplicate samples. IntCal20 is used "
-          "everywhere, which is slightly permissive in the Southern Hemisphere.", "",
-          "## Funnel (all regions)", "", "| Stage | Dates | Sites |", "|---|---:|---:|"]
+        L.append("**Result: null.** No region has pre-limit dates at ≥ 3 sites with ≥ 2 labs and ≥ 2 material classes.")
+    L += ["", "**Method.** Each limit (calendar years BP) became a radiocarbon threshold: the oldest age the IntCal20 mean "
+          "curve reaches at or after the limit, with the curve's own error (IntCal20 everywhere, slightly permissive in the "
+          "south). A date counts if it is older than that by more than 2 combined standard errors and survives R1's filters. "
+          "Lead = at least 3 sites, 2 labs and 2 known material classes between them.",
+          "", "## Funnel", "", "| Stage | Dates | Sites |", "|---|---:|---:|"]
     L += [f"| {x['stage']} | {x['dates']:,} | {x['sites']:,} |" for x in f]
-    rm = s["removed_by_filter"]
-    L += ["", f"Pre-limit dates with no usable site name (not countable as sites): {rm['pre_limit_dates_without_usable_site_name']}. "
-          "Removed as reservoir-prone: " + (", ".join(f"{k} {v}" for k, v in sorted(rm['a_reservoir_prone'].items(), key=lambda kv: -kv[1])) or "none") +
-          f". Bone: {rm['b_bone']['reference_year_before_1990']} pre-1990, {rm['b_bone']['no_reference_year']} no year. "
-          f"Over 40,000: {rm['c_over_40000']}. Split/duplicate or no lab number: "
-          f"{rm['d_split_or_duplicate']['lab_number_shared_or_missing'] + rm['d_split_or_duplicate']['same_lab_age_error_elsewhere']}.",
+    rsv = rm["a_reservoir_prone"]
+    L += ["", f"Pre-limit dates with no usable site name: {rm['pre_limit_dates_without_usable_site_name']}. Removed: "
+          f"reservoir-prone {sum(rsv.values())} (" + ", ".join(f"{k} {v}" for k, v in sorted(rsv.items(), key=lambda kv: -kv[1])) +
+          f"); bone {rm['b_bone']['reference_year_before_1990']} pre-1990 + {rm['b_bone']['no_reference_year']} no year; "
+          f"over 40,000: {rm['c_over_40000']}; split/duplicate or no lab number: "
+          f"{sum(rm['d_split_or_duplicate'].values())}.",
           "", "## Regions", "",
-          "| Region | Limit (cal BP) | 14C threshold | Dates in region | Pre-limit (> 2 SE) | Candidates | Sites | Labs | Classes | Result |",
-          "|---|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
+          "| Region | Limit, cal BP (source) | 14C threshold | Dates | Pre-limit | Kept | Sites | Labs | Classes | Result |",
+          "|---|---|---:|---:|---:|---:|---:|---:|---:|---|"]
+    status_short = {"LEAD": "**lead**", "not a lead": "no",
+                    "untestable: no p3k14c rows": "untestable: no rows",
+                    "untestable by design: limit is beyond R1's 40,000 14C BP filter": "untestable: beyond 40k filter"}
     for r in regs:
         fu = list(r["funnel"].values())
-        L.append(f"| {r['name'].split(' (')[0]} | {r['limit_cal_bp']:,} | {fmt(r['threshold_14C_BP'])} ± {fmt(r['curve_sigma'])} | "
-                 f"{fu[0]:,} | {fu[2]:,} | {fu[-1]:,} | {r['n_sites']} | {len(r['labs'])} | {len(r['known_material_classes'])} | {r['status']} |")
+        L.append(f"| {SHORT[r['id']]} | {r['limit_cal_bp']:,} ({r['source_short']}) | {fmt(r['threshold_14C_BP'])} ± "
+                 f"{fmt(r['curve_sigma'])} | {fu[0]:,} | {fu[2]:,} | {fu[-1]:,} | {r['n_sites']} | {len(r['labs'])} | "
+                 f"{len(r['known_material_classes'])} | {status_short.get(r['status'], r['status'])} |")
+
+    def ka(d):
+        c = d["approx_cal_BP_2sigma"]
+        if not c:
+            return "beyond curve"
+        lo, hi = f"{c[0] / 1000:.1f}", f"{c[1] / 1000:.1f}"
+        return f"~{lo} ka cal" if lo == hi else f"~{lo}–{hi} ka cal"
+
+    def one(d):
+        mat = (d["material"] or "material not given").split(";")[0].strip().lower()
+        return f"{d['LabID']} {fmt(d['age_14C_BP'])} ± {fmt(d['error'])} ({ka(d)}, {mat})"
+
+    def line(x, ds, cap):
+        more = f"; +{len(ds) - cap} more" if len(ds) > cap else ""
+        return (f"{x['site']} ({x['province'] or x['country']}; {x['candidate_dates']} of {x['dates_at_site']} dates kept; "
+                f"{', '.join(x['labs'])}): " + "; ".join(one(d) for d in ds[:cap]) + more)
+
+    tag = lambda x: x["recognized"].split(" (", 1)[1].rstrip(")") if "(" in x["recognized"] else x["recognized"]
+    nonbone = lambda x: [d for d in x["dates"] if d["material_class"] not in (BONE, UNKNOWN)]
     for r in lead_regs:
-        L += ["", f"## Lead: {r['name']}", "",
-              f"{r['n_sites']} sites; labs: {', '.join(r['labs'])}; material classes: {', '.join(r['known_material_classes'])}. "
-              "Oldest kept date per site shown; every kept date is in the JSON. 'Known?' is from general knowledge only, "
-              "not checked against the literature.", "",
-              "| Site | Country / province | Kept pre-limit dates (of all at site) | Oldest kept: lab no., 14C BP, ~cal BP (2σ), material | Labs | Known? |",
-              "|---|---|---:|---|---|---|"]
-        for x in r["sites"]:
-            d = x["dates"][0]
-            cal = f"{fmt(d['approx_cal_BP_2sigma'][0])}–{fmt(d['approx_cal_BP_2sigma'][1])}" if d["approx_cal_BP_2sigma"] else "beyond curve"
-            known = x["recognized"] or "not recognized"
-            L.append(f"| {x['site']} | {x['country']}{' / ' + x['province'] if x['province'] else ''} | "
-                     f"{x['candidate_dates']} ({x['dates_at_site']}) | {d['LabID']}, {fmt(d['age_14C_BP'])} ± {fmt(d['error'])}, "
-                     f"{cal}, {d['material'] or 'not given'} | {', '.join(x['labs'])} | {known} |")
+        xs_all = r["sites"]
+        famous = [x for x in xs_all if (x["recognized"] or "").startswith(FAMOUS)]
+        known = [x for x in xs_all if (x["recognized"] or "").startswith(KNOWN)]
+        unk_other = [x for x in xs_all if not x["recognized"] and nonbone(x)]
+        unk_bone = [x for x in xs_all if not x["recognized"] and not nonbone(x)]
+        L += ["", f"## Lead: {SHORT[r['id']]}", "",
+              f"{r['n_sites']} sites, {sum(x['candidate_dates'] for x in xs_all)} kept dates, {len(r['labs'])} labs. Classes: " +
+              ", ".join(f"{k} {v}" for k, v in sorted(r["kept_dates_by_class"].items(), key=lambda kv: -kv[1])) +
+              ". Compilations: " + ", ".join(f"{k} {v}" for k, v in sorted(r["kept_dates_by_p3k14c_source"].items(), key=lambda kv: -kv[1])) +
+              ". Continents (kept / before filters): " + ", ".join(
+                  f"{k} {r['kept_dates_by_continent'].get(k, 0)}/{v}" for k, v in sorted(r["pre_limit_dates_by_continent_before_filters"].items(), key=lambda kv: -kv[1])) +
+              f". Sites with only animal-bone or unspecified dates: {len([x for x in xs_all if not nonbone(x)])} of {r['n_sites']}. "
+              "'Recognized' means from general knowledge; nothing about the leads was looked up."]
+        if r.get("annotation_after_scan"):
+            L += ["", "*Note written after the scan, from the database fields only:* " + r["annotation_after_scan"]]
+        if famous:
+            L += ["", f"**Recognized as famous early-arrival controversies** ({len(famous)} sites):"]
+            by_tag = defaultdict(list)
+            for x in famous:
+                by_tag[tag(x)].append(x)
+            for t, xs in by_tag.items():
+                if len(xs) == 1:
+                    L.append(f"- {t}: " + line(xs[0], xs[0]["dates"], 3))
+                else:
+                    ds = [d for x in xs for d in x["dates"]]
+                    mats = Counter((d["material"] or "not given").split(";")[0].strip().lower() for d in ds)
+                    L.append(f"- {t}: {len(xs)} localities ({', '.join(x['site'] for x in xs)}); {len(ds)} dates, "
+                             f"{fmt(min(d['age_14C_BP'] for d in ds))}–{fmt(max(d['age_14C_BP'] for d in ds))} 14C BP; "
+                             + ", ".join(f"{m} {n}" for m, n in mats.most_common()) + f"; labs {', '.join(sorted({d['lab'] for d in ds}))}")
+        if known:
+            L += ["", f"**Recognized sites, but not (to my knowledge) for a claim this old** ({len(known)}):"]
+            L += [f"- {line(x, x['dates'], 1)} — {tag(x)}" for x in known]
+        if unk_other:
+            L += ["", f"**Not recognized, with dates on charcoal, wood, plants, soil or other organics** ({len(unk_other)}; "
+                  "only those dates shown, the count includes any bone dates):"]
+            L += [f"- {line(x, nonbone(x), 2)}" for x in unk_other]
+        if unk_bone:
+            L += ["", f"**Not recognized, dated only on animal bone or unspecified material** ({len(unk_bone)}; kept dates, oldest 14C BP): "
+                  + "; ".join(f"{x['site']} ({x['candidate_dates']}; {fmt(x['dates'][0]['age_14C_BP'])})" for x in unk_bone) + "."]
     others = [r for r in regs if r["status"] == "not a lead" and r["n_sites"]]
     if others:
-        L += ["", "Non-lead regions with some candidates: " + "; ".join(
-            f"{r['name'].split(' (')[0]}: " + ", ".join(f"{x['site']} ({x['dates'][0]['LabID']}, {fmt(x['dates'][0]['age_14C_BP'])} ± {fmt(x['dates'][0]['error'])})"
-                                                         for x in r["sites"]) for r in others) + "."]
+        L += ["", "**Non-lead regions with candidates:** " + "; ".join(
+            f"{SHORT[r['id']]}: " + ", ".join(line(x, x["dates"], 1) for x in r["sites"]) for r in others) + "."]
     L += ["", "## Caveats",
-          "- Coverage: p3k14c has no rows for the Caribbean islands, western Remote Oceania, New Zealand or Madagascar, and "
-          "only Rapa Nui for East Polynesia; those results say nothing about the regions themselves.",
-          "- Sahul cannot be tested with radiocarbon under R1's filters: 50,000 cal BP lies beyond the 40,000 14C BP cut-off.",
-          "- One limit per region is applied everywhere in it; regions settled in stages (Beringia vs. the south, "
-          "Hokkaido and the Ryukyus, the second Polynesian pulse) are tested conservatively.",
-          "- p3k14c is a compilation: dates that excavators rejected may be missing, names and materials are as compiled, "
-          "and a date's context (is it cultural at all?) is not recorded. A pre-limit date may be from a natural layer below "
-          "the occupation.",
-          "- Material classes come from keyword matching and the bone filter uses the earliest reference year as a proxy.",
+          "- p3k14c has no rows for the Caribbean islands, western Remote Oceania, New Zealand or Madagascar, and only Rapa Nui "
+          "for East Polynesia. Sahul cannot be tested by radiocarbon under R1's 40,000 14C BP filter. None of these are nulls.",
+          "- p3k14c does not record whether a date is cultural. A date on fossil bone or natural wood below a site passes every "
+          "R1 filter, and dates excavators rejected may be missing altogether.",
+          "- One limit covers each whole region, so areas settled later (Hokkaido, the Ryukyus, the later Polynesian pulse) are "
+          "tested conservatively. Materials were classed by keywords; the bone filter uses the reference year as a proxy.",
           "", "## Next step",
-          "Per R2 step 4, every lead goes to a researcher and a skeptic: is each site already debated, and is there a mundane "
-          "cause? No literature on the leads was consulted for this run." if lead_regs else
-          "Record the null in `findings/log.md` under R2."]
+          "Per R2 step 4, each lead goes to a researcher and a skeptic: is each site already debated, and is there a mundane "
+          "cause (non-cultural sample, miscoded country, contamination)? No literature on the leads was consulted for this run."
+          if lead_regs else "Record the null in `findings/log.md` under R2."]
     return "\n".join(L) + "\n"
-
 
 if __name__ == "__main__":
     main()
