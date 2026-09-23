@@ -168,6 +168,9 @@ system in `docs/DESIGN.md`.
   the SQLite database, runs the analysis, and writes the static site to `_site/`. Pushing to
   `main` runs `.github/workflows/pages.yml`, which builds and deploys to GitHub Pages. The
   build fails on any invalid record.
+- **Keep the top current.** The home page opens with "What we’ve found so far"
+  (`findings/summary.json`), updated after every batch or result; big results also get a
+  dated lab bulletin (`findings/bulletins/`). Never overstate: leads are leads.
 - **Pages** (each answers one question): Home (the record at a glance), Cases (the catalog),
   a page per case, Findings (hypotheses and patterns), Leads (open cases and the tests that
   would settle them), Method (how the lab works, and its costs).

@@ -356,6 +356,18 @@ def home(cases, summary, latest=None):
 </section>"""
     else:
         main = '<section class="section"><p class="empty">The first ten records are being researched now: drafted by researcher agents, checked against Crossref, then attacked by skeptic agents. This page fills in as they land.</p></section>'
+    found = ""
+    sp = ROOT / "findings" / "summary.json"
+    if sp.exists():
+        sm = json.loads(sp.read_text())
+        tagcls = {"Lead": "lead", "News": "news", "Pattern": "pattern", "Tentative": "early", "Null": "null"}
+        lis = "".join(
+            f'<li><span class="ftag {tagcls.get(i["tag"], "")}">{e(i["tag"])}</span><div><b>{e(i["head"])}</b> '
+            f'<span class="ftext">{e(i["text"])}</span> <a class="flink" href="{{root}}{e(i["link"])}">{e(i["link_text"])} →</a></div></li>'
+            for i in sm.get("items", []))
+        found = (f'<section class="found"><div class="found-head"><h2>What we’ve found so far</h2>'
+                 f'<span class="mono muted">Updated {e(sm.get("updated", ""))} · <a href="{{root}}findings/">All findings →</a></span></div>'
+                 f'<ol class="found-list">{lis}</ol></section>')
     notes = notebook()
     notes_html = ('<table class="data"><tbody>' + "".join(
         f'<tr><td class="m">{e(d)}</td><td>{e(msg)}</td><td class="m"><a href="{REPO}/commit/{e(h)}">{e(h)}</a></td></tr>'
@@ -363,11 +375,12 @@ def home(cases, summary, latest=None):
     banner = (f'<a class="bulletin-banner" href="{{root}}bulletin/{latest["number"]}/"><span class="eyebrow">Lab bulletin {latest["number"]} · {e(latest["date"])}</span>'
               f'<b>{e(latest["title"])}</b><span class="go">Read →</span></a>') if latest else ""
     body = f"""<div class="wrap">{banner}
-<section class="head"><div>
+<section class="head home-head">
 <div class="eyebrow">An AI lab for archaeology’s anomalies</div>
 <h1>Some anomalies rewrite history. Most don’t.</h1>
-<p class="lede">Claims that challenged the accepted story · how each fared · what separated the real from the false · which open cases deserve a test.</p>
-</div>{stats}</section>
+<div class="head-row"><p class="lede">Claims that challenged the accepted story · how each fared · what separated the real from the false · which open cases deserve a test.</p>{stats}</div>
+</section>
+{found}
 {main}
 <section class="section grid2">
 <div class="panel"><h2>Lab notebook <small>latest activity</small></h2>{notes_html}</div>

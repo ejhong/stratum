@@ -1,5 +1,6 @@
 """Inline SVG charts, generated from the catalog at build time. No chart libraries."""
 import math
+import re
 from html import escape
 
 from stratum_data import FEATURES, STATUS_LABEL, THIS_YEAR, fmt_age, fmt_leap
@@ -18,6 +19,12 @@ EPOCHS = [  # years before 1950, top to bottom
 
 def a(s):
     return escape(str(s), quote=True)
+
+
+def short(name, n=26):
+    """Chart label: drop parentheticals, keep it short."""
+    s = re.sub(r"\s*\(.*?\)", "", name).strip()
+    return s if len(s) <= n else s[:n - 1].rstrip() + "…"
 
 
 def glyph(status, cx, cy, r=6.5, stroke=PAPER):
@@ -122,6 +129,9 @@ def section(cases, root):
     def free(x, y, w, h):
         return all(x + w < px or px + pw < x or y + h < py or py + ph < y for px, py, pw, ph in placed) and L < x and x + w < W - R + 6
 
+    for r in rows:  # markers are obstacles for every label
+        mx, my = X(r["year_claimed"]), Y(r["_age"])
+        placed.append((mx - 9, my - 9, 18, 18))
     marks = []
     for r in sorted(rows, key=lambda r: -r["_age"]):
         x, y = X(r["year_claimed"]), Y(r["_age"])
@@ -137,12 +147,13 @@ def section(cases, root):
                      f'<circle cx="{x:.1f}" cy="{ya:.1f}" r="3.2" fill="{PAPER}" stroke="{INK2}" stroke-width="1.2"/></g>')
         g.append(f'<circle class="hit" cx="{x:.1f}" cy="{y:.1f}" r="11" fill="transparent"/>')
         g.append(glyph(r["status"], x, y, 7))
-        w = len(r["name"]) * 7.1 + 4
-        for lx, ly, anchor in ((x + 12, y - 7, "start"), (x - 12 - w, y - 7, "end"), (x - w / 2, y - 26, "middle"), (x - w / 2, y + 12, "middle")):
+        label = short(r["name"])
+        w = len(label) * 7.1 + 4
+        for lx, ly, anchor in ((x + 12, y - 7, "start"), (x - 12 - w, y - 7, "end"), (x - w / 2, y - 27, "middle"), (x - w / 2, y + 13, "middle")):
             if free(lx, ly, w, 14):
                 placed.append((lx, ly, w, 14))
                 tx = lx if anchor == "start" else (lx + w if anchor == "end" else lx + w / 2)
-                g.append(f'<text x="{tx:.1f}" y="{ly + 11:.1f}" font-size="12" fill="{INK2}" text-anchor="{anchor}">{a(r["name"])}</text>')
+                g.append(f'<text x="{tx:.1f}" y="{ly + 11:.1f}" font-size="12" fill="{INK2}" text-anchor="{anchor}">{a(label)}</text>')
                 break
         g.append("</a>")
         marks.append("".join(g))
@@ -183,7 +194,7 @@ def lifelines(cases, root, W=660):
         g = [mark_open(r, f"{root}cases/{r['id']}/")]
         g.append(f'<rect class="hit" x="0" y="{y - RH / 2:.1f}" width="{W}" height="{RH}" fill="transparent"/>')
         g.append(f'<rect class="row-bg" x="0" y="{y - RH / 2 + 1:.1f}" width="{W}" height="{RH - 2}" rx="3" fill="transparent"/>')
-        nm = r["name"] if len(r["name"]) <= 24 else r["name"][:23].rstrip() + "…"
+        nm = short(r["name"], 24)
         g.append(f'<text x="{LBL - 12}" y="{y + 4:.1f}" font-size="12.5" fill="{INK}" text-anchor="end" style="font-family:var(--sans)">{a(nm)}</text>')
         if r["status"] == "open":
             g.append(f'<line x1="{xs:.1f}" x2="{xe:.1f}" y1="{y:.1f}" y2="{y:.1f}" stroke="{c}" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 6" />'

@@ -4,7 +4,7 @@
   --paper-2: #f1ece3;
   --paper-3: #e6dfd3;
   --card: #fffdf9;
-  --rule: #e0d8ca;
+  --rule: #e6dfd3;
   --rule-2: #cfc5b4;
   --ink: #1c1915;
   --ink-2: #474036;
@@ -60,7 +60,7 @@ ul.dots li::marker { color: var(--accent); }
 .site-header { border-bottom: 1px solid var(--rule); background: color-mix(in srgb, var(--paper) 94%, transparent); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 5; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 8px 24px; min-height: 52px; flex-wrap: wrap; padding-block: 6px; }
 .brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
-.brand b { font: 500 1.3rem/1 var(--serif); letter-spacing: -0.015em; }
+.brand b { font: 500 1.5rem/1 var(--serif); letter-spacing: -0.02em; }
 .brand span { font: 11.5px var(--mono); color: var(--ink-3); }
 .brand:hover b { color: var(--accent); }
 .nav { display: flex; gap: 4px 22px; flex-wrap: wrap; }
@@ -73,7 +73,7 @@ ul.dots li::marker { color: var(--accent); }
 .head { padding-block: 26px 18px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px 40px; align-items: end; border-bottom: 1px solid var(--rule); }
 .head h1 { margin-top: 6px; }
 @media (max-width: 860px) { .head { grid-template-columns: minmax(0, 1fr); } }
-.section { padding-block: 26px; border-bottom: 1px solid var(--rule); }
+.section { padding-block: 32px; border-bottom: 1px solid var(--rule); }
 .section:last-child { border-bottom: 0; }
 .sh { display: flex; align-items: baseline; justify-content: space-between; gap: 6px 24px; flex-wrap: wrap; margin-bottom: 12px; }
 .sh h2 { font-size: 1.2rem; }
@@ -303,3 +303,32 @@ table.leads .test b { font: 500 10px var(--mono); letter-spacing: .08em; text-tr
 ol.bulletin { margin: 0; padding-left: 1.2em; display: grid; gap: 14px; font-size: 15.5px; }
 ol.bulletin li::marker { font: 500 14px var(--mono); color: var(--accent); }
 ol.bulletin b { font-weight: 600; }
+
+/* What we've found so far — the living summary at the top of the home page */
+.found { margin: 18px 0 4px; padding: 16px 20px 18px; background: var(--card); border: 1px solid var(--rule); border-radius: var(--r); }
+.found-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 20px; margin-bottom: 10px; }
+.found-head h2 { font-size: 1.2rem; }
+.found-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 32px; }
+.found-list li { display: grid; align-items: start; grid-template-columns: 100px minmax(0, 1fr); gap: 10px; font-size: 14px; line-height: 1.45; padding-top: 10px; border-top: 1px solid var(--rule); }
+.found-list b { font-weight: 600; }
+.found-list .ftext { color: var(--ink-2); }
+.found-list .flink { font: 500 12px var(--mono); white-space: nowrap; }
+.ftag { justify-self: start; align-self: start; font: 500 10.5px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; padding: 5px 7px; border-radius: 99px; border: 1px solid var(--rule-2); color: var(--ink-3); white-space: nowrap; margin-top: 1px; }
+.ftag.lead { background: var(--accent); border-color: var(--accent); color: #fff; }
+.ftag.news { border-color: var(--ink); color: var(--ink); }
+.ftag.pattern { border-color: var(--vindicated); color: var(--vindicated); }
+.ftag.early { border-color: var(--partial); color: var(--partial); }
+.ftag.null { border-style: dashed; }
+@media (max-width: 900px) { .found-list { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .found-list li { grid-template-columns: 1fr; gap: 4px; } }
+
+/* Signature: a thin band of soil layers under the header */
+.site-header { border-bottom: 0; }
+.site-header::after { content: ""; display: block; height: 7px;
+  background: linear-gradient(to bottom, #efe7da 0 2px, #e2d5bf 2px 4px, #cdb996 4px 6px, #9a3e1c 6px 7px); }
+/* Home: headline on one line, description and counts below */
+.home-head { display: block; padding-top: 30px; }
+.home-head h1 { max-width: none; font-size: clamp(1.8rem, 3.6vw, 2.6rem); margin-top: 8px; }
+.home-head .head-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 18px 40px; flex-wrap: wrap; margin-top: 12px; }
+.home-head .lede { margin: 0; max-width: 60ch; }
+.chart svg text { letter-spacing: .01em; }

@@ -37,10 +37,14 @@ docs/DECISIONS.md, check the state of the catalog, and run the next batch."*
    python3 scripts/build.py             # validate → database → analysis → site
    python3 -m http.server -d _site 8000 # look at it: http://localhost:8000
    ```
-7. **Log and push.** Add a row to `logs/usage.md` (tokens and tool calls from the agents'
+7. **Update the summary.** Edit `findings/summary.json` — the "What we’ve found so far"
+   panel at the top of the home page: at most 7 items, most important first, plain numbers,
+   each with a link and a tag (Lead, News, Pattern, Tentative, Null). Change `updated`. A big
+   result also gets a dated bulletin in `findings/bulletins/` (then run `make_og.py`).
+8. **Log and push.** Add a row to `logs/usage.md` (tokens and tool calls from the agents'
    completion notes), commit, `git push`. GitHub Actions rebuilds and deploys within a
    minute; check with `gh run list --limit 3`.
-8. **Analyse.** After every ~10 reviewed records, spawn the `analyst` to update
+9. **Analyse.** After every ~10 reviewed records, spawn the `analyst` to update
    `findings/log.md`.
 
 ## Keep costs down

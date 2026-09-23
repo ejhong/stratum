@@ -1,0 +1,48 @@
+{
+ "about": "The living 'What we've found so far' panel at the top of the home page. Update after every batch or result: at most 7 items, most important first, plain numbers, each with a link. Bulletins (findings/bulletins/) are dated announcements; this file is the current state.",
+ "updated": "2026-09-23",
+ "items": [
+  {
+   "tag": "Lead",
+   "head": "35 of 40 famous megaliths are dated only by association.",
+   "text": "Only Nan Madol has a direct date on its stones; the ages of the Great Sphinx, Carnac, Sacsayhuamán and others rest on nearby material, texts or style. We rank the 10 where a first direct date would matter most.",
+   "link": "leads/",
+   "link_text": "Megalith leads"
+  },
+  {
+   "tag": "Lead",
+   "head": "The Great Sphinx enclosure has never been dated directly.",
+   "text": "A paired chlorine-36 test against Khafre-era quarry faces could show an older age, or confirm the accepted one.",
+   "link": "cases/sphinx-weathering/",
+   "link_text": "Sphinx case"
+  },
+  {
+   "tag": "News",
+   "head": "Monte Verde, the textbook vindication, was reopened in 2026.",
+   "text": "The challenger's own radiocarbon dates match the older age, and the key layer was destroyed decades ago.",
+   "link": "cases/monte-verde/",
+   "link_text": "Monte Verde"
+  },
+  {
+   "tag": "Pattern",
+   "head": "Vindications are messy; refutations are clean.",
+   "text": "Of 10 celebrated vindications, 3 held cleanly, 5 were partly right and 2 are still open. All 7 refutations held.",
+   "link": "findings/",
+   "link_text": "Observation O1"
+  },
+  {
+   "tag": "Tentative",
+   "head": "“It can't be that old” objections fail more often.",
+   "text": "25% of objections that proved wrong vs 8% of those that held: the predicted direction, not yet significant (p = 0.18). Four other hypotheses need more resolved cases.",
+   "link": "findings/",
+   "link_text": "Hypothesis H4"
+  },
+  {
+   "tag": "Null",
+   "head": "Two database scans found nothing new.",
+   "text": "No clustering among 173,946 radiocarbon dates. The 10 early-Americas candidates were contamination, miscoded samples or database errors; 4 remain unexplained only because their site reports were never published.",
+   "link": "findings/",
+   "link_text": "Discovery track"
+  }
+ ]
+}
