@@ -82,3 +82,11 @@ worded here.
 - **Test:** (1) Data: open radiocarbon databases, p3k14c first. (2) Outliers: at sites with ≥ 5 dates, a date older than every other date at the site by > 3 combined standard errors, with no other date at that site within 2σ of it (an isolated old date, the kind excavators dismiss). (3) Mundane filters, applied before any clustering: marine shell and other reservoir-prone materials; bone dated before 1990 without stated collagen quality control; dates beyond 40,000 radiocarbon years; duplicate or split samples. (4) Coherence: per region, the largest number of independent sites whose outliers overlap in one 2σ age window, compared with a permutation null that shuffles outlier ages across regions within the same continent (10,000 permutations). (5) Threshold: p < 0.01 after Bonferroni correction across regions. (6) Every surviving cluster goes to a researcher and a skeptic: is it already known, and is there a mundane cause?
 - **Would disprove it:** (the method's value) no cluster survives, or every survivor is already known or mundanely explained — a publishable null for this approach on this database.
 - **Status:** pre-registered; pilot pending
+
+## H7 · Many megaliths are dated by association, not directly
+- **Date:** 2026-09-23
+- **Type:** pre-registered hypothesis (megalith dating audit), written before the audit gathered any dating information
+- **Claim:** For most major megalithic monuments, the construction age rests on material found with the monument (charcoal, bone, pottery, inscriptions, style, historical texts) rather than a direct date of the stonework (e.g. rock-surface luminescence, cosmogenic exposure, U-series on carbonate formed after construction). That leaves room for large errors in either direction.
+- **Test:** an audit of 40 monuments whose list is fixed and committed before any dating research: widely cited megalithic sites across all inhabited continents. For each: stated construction date, dating basis (direct / associated organic / historical-contextual / stylistic / none), number of independent dates and their spread, and whether a direct method is feasible.
+- **Would disprove it:** fewer than half of the 40 depend on association alone.
+- **Status:** pre-registered; audit pending. Output also includes a ranked list of monuments where a direct date would be decisive — the leads.

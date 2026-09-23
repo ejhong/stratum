@@ -97,3 +97,12 @@ could see. The method was pre-registered before any data was examined. Scripts d
 (no model tokens); agents judge only the survivors. Raw data with site coordinates stays out
 of git; outputs are region-level only. Planned next: a `synthesist` agent that proposes new
 hypotheses across the catalog and the scans, each pre-registered before testing.
+
+## 2026-09-23 · D16 · Aim the lab at megalith dating and at "lost civilization" claims
+The owner's central question is whether our history is wrong — including megalith ages and
+some of Graham Hancock's claims. Two fair tests: (1) a megalith dating audit (H7), which asks
+how each major monument is actually dated and ranks those resting on association alone where a
+direct date (rock-surface luminescence, cosmogenic exposure, U-series) would be decisive —
+leads, whichever way they come out; (2) Hancock's key evidential claims enter the catalog
+under the same rules as everything else, each with a decisive test (Sphinx weathering and
+Gunung Padang first). The audit's monument list is committed before any dating research.
