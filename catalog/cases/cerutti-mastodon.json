@@ -18,7 +18,7 @@
   },
   "accepted_age": null,
   "orthodoxy_at_claim": {
-    "label": "People entered the Americas after ~16,000 years ago; the earliest securely dated sites are under ~15,000 years old.",
+    "label": "Population expansion into the Americas occurred after ~16,000 years ago; the earliest securely dated sites are under ~15,000 years old.",
     "limit_bp": 15000,
     "source": "S17"
   },
@@ -52,8 +52,8 @@
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "no",
-      "note": "Broken bone and battered cobbles only: no knapped tools, cut marks or hominin remains. Natural and machine breakage were argued from the start.",
-      "source": "S5"
+      "note": "Broken bone and battered cobbles only: no knapped tools or hominin remains found. Natural and machine breakage were argued from the start.",
+      "source": "S18"
     },
     "documented_context": {
       "value": "partial",
@@ -61,13 +61,13 @@
       "source": "S2"
     },
     "multiple_dating_methods": {
-      "value": "partial",
-      "note": "Only U-series gave ~130 ka. OSL gave 69–99 ka or saturated minimum ages (read as >60–70 ka); radiocarbon failed for lack of collagen.",
+      "value": "no",
+      "note": "U-series alone gave ~130 ka. OSL gave finite ages well short of that (73.3±4.1 ka, CM bed; 99±12 ka, Bed C) and most 2011 aliquots saturated; radiocarbon failed for lack of collagen.",
       "source": "S2"
     },
     "multiple_labs": {
       "value": "partial",
-      "note": "The ~130 ka bone ages come from one lab (USGS). OSL ran at two other labs; two radiocarbon labs found no collagen.",
+      "note": "The ~130 ka bone age comes from one lab (USGS); no second lab confirmed it. OSL ran at UIC and Nebraska, neither matching ~130 ka; two radiocarbon labs found no collagen.",
       "source": "S2"
     },
     "professional_recovery": {
@@ -82,8 +82,8 @@
     },
     "material_accessible": {
       "value": "yes",
-      "note": "3D models and videos were published (Magnani et al. 2019); Gruhn (2018) and Sutton et al. (2019) examined the collection.",
-      "source": "S10"
+      "note": "Holen et al. released videos and 3D models, acknowledged by Magnani et al. (2019); Gruhn (2018) and Sutton et al. (2019) independently examined the collection.",
+      "source": "S13"
     },
     "independent_teams": {
       "value": "partial",
@@ -98,21 +98,21 @@
   },
   "objections": [
     {
-      "text": "Heavy earth-moving equipment during the freeway work, not people, may have broken the bones.",
+      "text": "Heavy construction or excavation machinery during the 1992–93 salvage, not people, may have broken the bones.",
       "kind": "context",
       "raised_by": "Gary Haynes (2017); Patrick M. Ferrell (2019)",
       "year": 2017,
       "outcome": "unresolved",
-      "outcome_note": "Proponents and Gruhn (2018), who examined the bones, report old soil carbonate on break surfaces. Haynes (2018) says machine damage is still not ruled out; Ferrell (2019) blames construction.",
+      "outcome_note": "Proponents (2018 reply) and Gruhn report thick old carbonate on most breaks; Sutton et al. favour ancient breakage. Ferrell used plans and photos, not the bones. No thin sections published.",
       "source": "S3"
     },
     {
-      "text": "The bones may have broken naturally, for example when other mastodons trampled the carcass, with no human involvement.",
+      "text": "The assemblage may be a natural deposit disturbed by other mastodons soon after death (e.g. by trampling), with no human involvement.",
       "kind": "identification",
       "raised_by": "Mark Q. Sutton and colleagues",
       "year": 2019,
       "outcome": "unresolved",
-      "outcome_note": "Proponents cite low-energy burial, impact notches, cone flakes and refits against natural breakage. No controlled comparison has tested it.",
+      "outcome_note": "Proponents cite low-energy burial, notches, cone flakes and refits against natural breakage. Haynes et al. (2021) found similar notches and curved outlines also arise naturally; the CM bones themselves are untested.",
       "source": "S12"
     },
     {
@@ -125,7 +125,7 @@
       "source": "S7"
     },
     {
-      "text": "No knapped stone tools, cut marks or hominin bones were found, so nothing at the site is unambiguously human-made.",
+      "text": "No knapped stone tools or hominin bones were found, so nothing at the site is unambiguously human-made.",
       "kind": "identification",
       "raised_by": "Gary Haynes",
       "year": 2017,
@@ -139,7 +139,7 @@
       "raised_by": "Gary Haynes",
       "year": 2017,
       "outcome": "unresolved",
-      "outcome_note": "No independent re-dating yet. Proponents cite regular uranium profiles in three bones; OSL gave only >60–70 ka minimums and radiocarbon failed.",
+      "outcome_note": "No independent re-dating yet. Proponents cite regular uranium profiles in three bones; finite OSL ages (73.3±4.1 ka; 99±12 ka) fell well short of 130 ka, and radiocarbon failed.",
       "source": "S3"
     },
     {
@@ -157,12 +157,12 @@
       "raised_by": "Matthew Magnani and colleagues",
       "year": 2019,
       "outcome": "unresolved",
-      "outcome_note": "Holen, Fullagar and Holen replied (2019). A 2026 review of 12 proboscidean breakage experiments found most inconsistent and lacking quantitative data.",
+      "outcome_note": "Holen, Fullagar and Holen replied (2019). A 2026 review, led by a principal CM critic, found the 12 experiments methodologically inconsistent, most with little or no quantitative data.",
       "source": "S13"
     }
   ],
   "status": "open",
-  "status_note": "Not widely accepted: critics favor natural or construction breakage and doubt the age, while the authors and some supporters (e.g. Gruhn) hold that people broke the bones. No independent re-dating or re-analysis has settled it.",
+  "status_note": "Not widely accepted: critics favor natural or construction breakage and doubt the age, while the authors hold that people broke the bones. Gruhn (2018) ruled out machine breakage and called the site an unresolved anomaly.",
   "year_resolved": null,
   "what_settled_it": null,
   "settled_by": [
@@ -182,7 +182,7 @@
     },
     {
       "year": 2009,
-      "event": "A second radiocarbon attempt finds no collagen; OSL work (2008–2011) gives 69–99 ka or saturated minimum ages.",
+      "event": "A second radiocarbon attempt finds no collagen; OSL (UIC 2008, Nebraska 2011) gives 73.3±4.1 ka and 99±12 ka; most 2011 aliquots saturated.",
       "source": "S2"
     },
     {
@@ -253,7 +253,7 @@
       "cost": "medium"
     }
   ],
-  "falsifier": "Refuted if break faces cut through old carbonate crusts, or if controlled natural or machine breakage reproduces the CM notches, cone flakes and cobble wear. Closer to vindicated if independent labs confirm the age and a similar-age site yields unambiguous artifacts.",
+  "falsifier": "Refuted if the key impact-notched or refitting fractures cut through old crusts, or if controlled natural or machine breakage reproduces the CM notches, flakes and wear. Closer to vindicated if independent labs confirm the age and a similar-age site yields unambiguous artifacts.",
   "sources": [
     {
       "id": "S1",
@@ -273,7 +273,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Read: setting, sediments, construction losses, taphonomy, radiocarbon, OSL and U-series sections."
+      "note": "Read: setting, sediments, construction losses, taphonomy, radiocarbon, OSL and U-series sections, incl. exact OSL figures (73.3±4.1 ka; 99±12 ka; saturated 2011 aliquots)."
     },
     {
       "id": "S3",
@@ -353,7 +353,7 @@
       "kind": "other",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read via OpenAlex. Independent examination of the collection; supports ancient breakage."
+      "note": "Abstract read via OpenAlex. Independent examination of the collection; rules out machine breakage but calls the site an unresolved anomaly, not evidence of human agency."
     },
     {
       "id": "S11",
@@ -402,8 +402,8 @@
       "url": null,
       "kind": "other",
       "access": "paywalled",
-      "verification": "exists",
-      "note": "Paywalled; abstract seen only in a search-engine summary. Not used for key fields."
+      "verification": "checked",
+      "note": "Abstract read on the Springer page: notched edges, smooth fracture surfaces and curvilinear outlines also form on non-green or non-anthropogenically broken bone. Lead author is a principal CM critic."
     },
     {
       "id": "S16",
@@ -413,7 +413,7 @@
       "kind": "review",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read from the SSRN preprint record (10.2139/ssrn.6293278); its reference list includes Holen et al. 2017. Full text paywalled."
+      "note": "Abstract read from the SSRN preprint record (10.2139/ssrn.6293278); reference list includes Holen et al. 2017. Lead author is a principal CM critic. Full text paywalled."
     },
     {
       "id": "S17",
@@ -444,18 +444,28 @@
       "access": "paywalled",
       "verification": "exists",
       "note": "Metadata confirmed via Crossref; no abstract available and content not read."
+    },
+    {
+      "id": "S20",
+      "citation": "Boëda, E., Griggo, C. & Lahaye, C. (2017). The Cerutti Mastodon site: archaeological or paleontological? PaleoAmerica 3(3): 193–195.",
+      "doi": "10.1080/20555563.2017.1338006",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex/lookup): calls the find 'possibly altered by humans' and 'potentially transformational'; calls for a search for comparable sites."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Supplementary data and Magnani et al. read in full; most critiques and replies read only as abstracts (paywalled). S15 and S19 could not be read.",
+  "confidence_note": "Supplementary data, Magnani et al. and the Haynes et al. (2021) abstract read in full; most critiques and replies read only as abstracts (paywalled). S19 and S21 could not be read.",
   "corrections": [
     "Not a skeleton: fragmentary, disarticulated remains of one mastodon. Construction destroyed an unknown, probably significant part of the bonebed before excavation (S2).",
     "Found in November 1992 by museum paleontologists monitoring freeway work and excavated over about five months. The claim was first published in 2017, 24 years later (S18, S1).",
-    "The ~130 ka age rests on one method, U-series on bone (130.7 ± 9.4 ka, 2σ). Radiocarbon failed for lack of collagen, and OSL gave only 69–99 ka or saturated minimum ages (S2).",
-    "Responses were not all critical: Boëda et al. (2017) and Gruhn (2018) backed the authors, and Gruhn, after examining the bones, rejected the machinery explanation (S13, S10).",
+    "The ~130 ka age rests on one method, U-series on bone (130.7 ± 9.4 ka, 2σ). Radiocarbon failed for lack of collagen, and OSL gave only finite ages of 73.3±4.1 ka and 99±12 ka, well short of 130 ka (S2).",
+    "Responses were not all critical: Boëda et al. (2017) called the find potentially transformational, and Gruhn (2018) rejected machine breakage after examining the bones (S20, S10).",
     "Critiques also appeared in Nature (Ferraro et al. 2018) and Antiquity (Magnani et al. 2019), not only in PaleoAmerica."
   ],
-  "notes": "Named for museum paleontologist Richard Cerutti, who found it. The OSL analyst (S. Forman) later co-authored the Ferraro et al. critique. The authors also suggest a vertically buried tusk may have been placed by people (S2). Haynes et al. 2021 (S15, not read) reportedly show that fracture features thought diagnostic of percussion also arise naturally. independent_methods_count counts bone fractures, cobble wear, refits and clustering, sedimentology and U-series. Even the OSL minimum (>60–70 ka) is far older than accepted sites, so a younger bed would not remove the anomaly.",
+  "notes": "Named for museum paleontologist Richard Cerutti, who found it. The OSL analyst (S. Forman) later co-authored the Ferraro et al. critique. The authors suggest a vertically buried tusk may have been placed by people (S2). Haynes et al. (2021) (S15) show percussion-like fractures also arise naturally on non-green or non-anthropogenic bone, though the CM bones themselves were untested; its lead author is a principal CM critic. independent_methods_count counts bone fractures, cobble wear, refits, sedimentology and U-series as separate evidence lines, not agreeing dating methods. Finite OSL ages (73.3±4.1–99±12 ka) are far older than accepted sites, so a younger bed would not remove the anomaly.",
   "plates": [
     {
       "commons_file": "File:Cerutti mastodon femur heads.jpg",
@@ -463,12 +473,19 @@
     },
     {
       "commons_file": "File:Cerutti mastodon tusk - full.jpg",
-      "caption": "A Cerutti mastodon tusk displayed in the upright position recorded at excavation, San Diego Natural History Museum, 2024."
+      "caption": "A Cerutti mastodon tusk displayed upright at the San Diego Natural History Museum, 2024."
     }
   ],
   "review": {
     "drafted_by": "researcher agent (Claude Opus 5.5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (Claude Opus 5.5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Kept features_at_claim.multiple_labs as 'partial' rather than 'no' (skeptic offered either): OSL and radiocarbon did run at additional labs even though none confirmed the ~130 ka U-series age; the note now says so explicitly.",
+      "Did not add Eren & Bebber (2019), a minor suggestion: sources is capped at 20 and already full; Crossref confirms the citation but no abstract is indexed, so it would add little over existing S13/S19 coverage of the same debate."
+    ]
   }
 }

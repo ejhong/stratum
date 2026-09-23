@@ -80,3 +80,10 @@ Resuming the original researcher reloads its whole context (≈300k tokens in wa
 step. Instead: mechanical fixes from a review (a label, a year, a wording) are applied
 directly by the main session; substantive ones go to a *fresh* researcher that reads only the
 record and its review. Resume the original only when the fix needs its unwritten notes.
+
+## 2026-09-23 · D14 · The main session delegates anything longer than a couple of steps
+Every tool call re-reads the caller's whole context, and the main session's context grows
+largest (hundreds of thousands of tokens by mid-session). So a fix needing more than about
+two steps is cheaper in a fresh agent with a small context than in the main session. Records
+that *pass* review are marked `skeptic-passed` at once, with minor issues listed in
+`review.open_issues` for a later batched clean-up pass.

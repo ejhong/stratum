@@ -97,11 +97,13 @@ def check(value, schema, path, errs):
 
 
 def strings(node):
+    """Every text value, except identifiers (DOIs, URLs), which can look like coordinates."""
     if isinstance(node, str):
         yield node
     elif isinstance(node, dict):
-        for v in node.values():
-            yield from strings(v)
+        for k, v in node.items():
+            if k not in ("doi", "url", "commons_file"):
+                yield from strings(v)
     elif isinstance(node, list):
         for v in node:
             yield from strings(v)

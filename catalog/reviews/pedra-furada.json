@@ -1,0 +1,115 @@
+{
+  "id": "pedra-furada",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "pass",
+  "summary": "Careful, well-sourced record; 'open' status is right and all 20 sources exist. No critical or major issues. Minor fixes: cite S19 for the 1994 critique, fix the '≥31,500' label and the 53,000 cal BP value, check an earlier Guidon CLIO paper, and expand the stake and capuchin notes.",
+  "issues": [
+    {
+      "severity": "minor",
+      "field": "objections[0], objections[1]",
+      "problem": "The points credited to Meltzer, Adovasio & Dillehay 1994 are right, but no source the record read backs them up. objections[0] cites S6 (1995) with year 1994. objections[1] cites S3, whose abstract names neither Pedra Furada nor MAD. The 'wildfires' wording was not confirmed in any text read.",
+      "fix": "Cite S19 for MAD's arguments; it summarises them with page references. Keep S4 listed with its body marked unread. Keep Lynch on objections[1] only as a general critique of the Brazilian sites. Soften 'wildfires' to 'natural fires / no well-defined hearths' unless S4 or S19 confirms it.",
+      "evidence": "S19 full text (hal.science/hal-03483162/document): MAD 1994 cited 'crude-looking tools, absence of exogenous raw materials, absence of well-defined hearths, presence of nearby chutes of quartz/quartzite cobbles'; 'alleged artefacts were selected from amidst countless broken cobbles' (MAD 1994: 705); possible water transport."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[0].year; corrections[2]",
+      "problem": "Doubts began before Lynch 1990. S19 dates the first concerns to Schmitz 1987 and Bednarik 1989. If Bednarik already made the rockfall-geofact point, objections[0] is dated 5 years too late.",
+      "fix": "Read Bednarik 1989. If it raises natural fracture from falling cobbles, set objections[0].year to 1989 and add Bednarik to raised_by. Change corrections[2] to say doubts date from 1987. Consider a timeline entry.",
+      "evidence": "S19: 'Soon, researchers began to express concerns (Schmitz 1987; Bednarik 1989; Fagan 1990; Lynch 1990)'. Crossref: Bednarik 1989 Antiquity 10.1017/S0003598X0007561X; Schmitz 1987 J. World Prehistory 10.1007/BF00974817."
+    },
+    {
+      "severity": "minor",
+      "field": "year_claimed",
+      "problem": "1984 is the earliest year verified, and S1 does publish 31,500±950 BP. But S1 also gives ≥25,000 BP (GIF-5398, GIF-5648) and 17,000±400 BP (GIF-5397) dates from the 1980 season. A Guidon paper, 'Datações pelo C 14 de sítios arqueológicos em São Raimundo Nonato, Sudeste do Piauí (Brasil)', exists in CLIO (UFPE). I could not read its year or content because the host was unreachable.",
+      "fix": "Check the CLIO paper. If it published pre-Clovis Pedra Furada dates before 1984, move year_claimed to that year and reword corrections[0] and the features_at_claim window. If not, note that it was checked.",
+      "evidence": "periodicos.ufpe.br/revistas/revistaclio/article/view/24613; S1 full text (Wayback copy of revista.sabnet.com.br .../download/34/30)."
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age.label",
+      "problem": "'≥31,500 14C BP (1984)' presents a finite date as a minimum. S1 gives 31,500±950 BP (GIF-6041); only the 25,000 dates carry the '≥'.",
+      "fix": "Use '31,500±950 14C BP (1984); ~50,000 14C BP by 1996'.",
+      "evidence": "S1: 'As datações da camada XIX/82 ... 31.500 ± 950 anos BP (GIF 6.041)'."
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age.bp_max; sources",
+      "problem": "Conversions: the 36,000 (31,500±950 on SHCal20) and 13,100 cal BP (11,200 on IntCal20) values are plausible and labelled as conversions. The 53,000 is not. SHCal20 gives 50,009 14C at 54,860 cal BP and 50,132 at 55,000 cal BP, where the curve ends. A 53,000 'median' appears only when an error is assumed and the probability is cut off at 55 ka. The ~50,000 figure is also a rounded minimum (S5: beyond 48,000 BP). The curves are named in notes but not listed as sources.",
+      "fix": "Set bp_max to 55000, or null, with basis 'at/beyond SHCal20 limit; minimum age'. Add Hogg et al. 2020 SHCal20 (doi 10.1017/RDC.2020.59) and Reimer et al. 2020 IntCal20 (doi 10.1017/RDC.2020.41) as sources.",
+      "evidence": "https://intcal.org/curves/shcal20.14c and intcal20.14c: curve rows and header citations."
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.proponent_stake.note",
+      "problem": "'no' is defensible, but 'no motive found' overstates a search based mostly on abstracts. S19 records critics' objection that Guidon promoted the claim through media and newspapers rather than scientific venues. Later fieldwork was funded by FUMDHAM, the team's own foundation. Neither is a documented commercial, religious or nationalist motive.",
+      "fix": "Keep 'no', or use 'partial' if that is the project's convention for institutional or media stakes. Record both points and that they were weighed. Source any FUMDHAM or park founding dates before adding them.",
+      "evidence": "S19 (citing Carandell Baruzzi 2016); S15 acknowledgments: 'funded by Fundação Museu do Homem Americano'."
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.unambiguous_signal.note",
+      "problem": "The red-painted hearth stone at 17,000±400 BP would itself be pre-Clovis. The note mentions it but does not say why it fails to make the signal unambiguous.",
+      "fix": "Say why: the pigment and its association were not independently confirmed, and S19 reports critics objected to using rock paintings to argue for early presence. Or code the feature 'partial'.",
+      "evidence": "S1: '17.000±400 anos BP (GIF 5.397). Uma das pedras deste fogão possuía ... vestígios de pintura vermelha'; S19."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[2].outcome_note; notes",
+      "problem": "The capuchin explanation is legitimate, well sourced (S13, S14) and correctly left unresolved, but it can be strengthened. S16's dated capuchin tool site lies in the Pedra Furada valley itself. The proponents' own S15 reports technical similarities between monkey by-products and the old excavated lithics. S19 notes Parenti (2001: 43) recorded monkeys throwing cobbles from the cliff top.",
+      "fix": "Add these points. Keep the conclusion that capuchin stone use is dated back only ~3,000 years here.",
+      "evidence": "S16 (Glasgow eprint): capuchin site in the Baixão da Pedra Furada valley; S15 abstract; S19 §3."
+    },
+    {
+      "severity": "minor",
+      "field": "notes (evenhandedness)",
+      "problem": "The record does not say that the 1994 critics included leading pre-Clovis excavators: Adovasio at Meadowcroft and Dillehay at Monte Verde. That matters for the 'objections that were bias' question. It also omits that proponents describe skeptics as 'doxa' or having a 'psychological barrier'.",
+      "fix": "Add one sentence on each.",
+      "evidence": "S4 abstract; S19 abstract and introduction (quoting Boëda et al.)."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[3].outcome_note; sources.S17",
+      "problem": "'Clovis-first has since collapsed' rests only on S18, a proponent paper. S17, a mainstream review, is listed but no field cites it.",
+      "fix": "Cite S17 for mainstream acceptance of pre-Clovis sites at ~15.5–14 ka and for its statement that the data do not support occupation before 17.5 ka.",
+      "evidence": "S17 abstract."
+    },
+    {
+      "severity": "minor",
+      "field": "sources (S1, S19, new)",
+      "problem": "Citation hygiene. S1 has a null url and the DOI's open-access host does not resolve. S19 lacks volume and pages. Borrero 1995 is cited only indirectly, through S12.",
+      "fix": "S1 url: https://revista.sabnet.org/ojs/index.php/sab/article/view/34. S19: PaleoAmerica 8(1): 29–52. Add Borrero, L.A. 1995, 'Human and natural agency: some comments on Pedra Furada', Antiquity, doi 10.1017/S0003598X00082028, and cite it on objections[4].",
+      "evidence": "lookup.py doi/search (Crossref); WebSearch listing of the SAB journal's new host."
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests[0], decisive_tests[2]; independent_methods_count",
+      "problem": "S15 has already compared cobbles broken below the waterfall with the artifacts statistically, and it sampled a preserved block of the original fill. The tests do not use either. independent_methods_count = 4 does not say which four lines of evidence.",
+      "fix": "Frame test 1 as an independent, blind replication of S15's comparison. Aim test 3 at the preserved block, which may make it cheaper. List the four lines in notes; TL (2003) and OSL (2014) came after the 1996 claim.",
+      "evidence": "S15 §§1–4."
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Full text read via a Wayback copy: 31,500±950 BP (GIF-6041), ≥25,000 BP (GIF-5398/5648), red paint on a 17,000±400 BP hearth stone (GIF-5397), CNPq/CNRS funding. The DOI's open-access host does not resolve."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Abstract on nature.com: 6,160±130 to 32,160±100 BP as printed; 17,000±400 BP level with fallen pictograph fragments."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "Abstract questions 'recently discovered sites in Brazil and Chile' and calls for unambiguous, replicated cases. It does not name Pedra Furada or hearths in the text seen."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract: Clovis ~11,200; invited visit the previous December; Adovasio and Dillehay presented as pre-Clovis excavators. The body, which holds the objections, is unread."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Not re-checked; Crossref match."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Abstract: artifacts vs natural fractures on falling stone. Does not document MAD's own points."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Abstract: dated layers 'from 50,000 years b.p.'; critics visited at the end of 1993."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "No abstract in OpenAlex and Crossref rate-limited. The researcher's figures (7 of 9 samples beyond 50 ka) are internally consistent."},
+    {"id": "S9", "exists": true, "supports_citation": "could-not-read", "note": "Correctly labelled 'exists' and not used for key fields."},
+    {"id": "S10", "exists": true, "supports_citation": "could-not-read", "note": "Not re-checked."},
+    {"id": "S11", "exists": true, "supports_citation": "could-not-read", "note": "Not re-checked."},
+    {"id": "S12", "exists": true, "supports_citation": "could-not-read", "note": "Only the CONICET handle landing page was reachable."},
+    {"id": "S13", "exists": true, "supports_citation": "yes", "note": "Wild bearded capuchins break stones, producing flakes and cores with the morphology of hominin tools; Fig. 1 is in Serra da Capivara NP."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Abstract: monkeys flake pebbles near the shelters. The 'tools' may be geofacts, the work of conservative humans, or made by ancestral capuchins."},
+    {"id": "S15", "exists": true, "supports_citation": "yes", "note": "Full text: no causal link between the waterfall talus and the tools; human selection of hearth quartz; technical similarities between monkey by-products and the old lithics."},
+    {"id": "S16", "exists": true, "supports_citation": "partial", "note": "Four dated phases of capuchin tool use at a site in the Pedra Furada valley. The exact age range was not re-read; the title gives 3,000 years."},
+    {"id": "S17", "exists": true, "supports_citation": "yes", "note": "Quoted abstract confirmed, but no field cites this source."},
+    {"id": "S18", "exists": true, "supports_citation": "yes", "note": "Full text: LGM occupation is the 'current consensus'; 'already collapsed Clovis-First paradigm'; Piauí occupation to 41 cal kyr BP."},
+    {"id": "S19", "exists": true, "supports_citation": "yes", "note": "Abstract and full text (HAL) confirmed; also documents MAD 1994's arguments. Citation needs 8(1): 29–52."},
+    {"id": "S20", "exists": true, "supports_citation": "could-not-read", "note": "Exists (Crossref); correctly not used for any field."}
+  ]
+}

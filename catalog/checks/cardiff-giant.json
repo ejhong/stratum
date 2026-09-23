@@ -1,0 +1,34 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Cardiff Giant",
+  "crossref_year": 1921,
+  "crossref_venue": "The Palimpsest",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A Colossal Hoax",
+  "crossref_year": 2008,
+  "crossref_venue": "",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Cardiff Giant Hoax",
+  "crossref_year": 2006,
+  "crossref_venue": "Encyclopedia of Anthropology",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Cardiff Giant",
+  "crossref_year": 2014,
+  "crossref_venue": "Encyclopedia of Deception",
+  "checked_on": "2026-09-23"
+ }
+}

@@ -1,0 +1,285 @@
+{
+  "id": "paisley-caves",
+  "name": "Paisley Caves",
+  "hook": "Human DNA in ancient Oregon cave feces, doubted for a decade, then confirmed by fat chemistry.",
+  "location": {
+    "country": "United States",
+    "region": "Oregon",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "Researchers recovered human coprolites, and later Western Stemmed points, from Paisley Five Mile Point Caves, Oregon. mtDNA and direct AMS dates on the coprolites indicated human presence by about 14,300 cal BP (12,300 14C yr BP), before or alongside Clovis.",
+  "claimed_age": {
+    "label": "~14,300 cal BP (12,300 14C yr BP, AMS on coprolite)",
+    "bp_min": 14000,
+    "bp_max": 14500,
+    "basis": "Direct AMS 14C on a coprolite yielding human mtDNA: 12,300 14C yr BP (Gilbert et al. 2008), commonly calibrated to ~14,300 cal BP. Further coprolites and a basketry fragment later dated to a similar range.",
+    "source": "S1"
+  },
+  "accepted_age": {
+    "label": "~14,000-14,300 cal BP, reaffirmed since 2008",
+    "bp_min": 14000,
+    "bp_max": 14500,
+    "basis": "Essentially unchanged from the original claim; replicated by blind DNA re-testing (Jenkins 2012) and corroborated by lipid biomarkers and a newly dated basketry fragment (Shillito 2020).",
+    "source": "S9"
+  },
+  "orthodoxy_at_claim": {
+    "label": "Clovis-first: no securely dated human presence earlier than Clovis, then dated to ~11,050-10,800 14C yr BP (~13,000-12,700 cal BP).",
+    "limit_bp": 13000,
+    "source": "S11"
+  },
+  "year_claimed": 2008,
+  "key_proponents": ["Dennis L. Jenkins", "M. Thomas P. Gilbert", "Loren G. Davis", "Thomas W. Stafford Jr."],
+  "key_critics": ["Hendrik N. Poinar", "Stuart J. Fiedel", "Paul Goldberg", "Francesco Berna"],
+  "evidence_types": ["radiocarbon", "dna", "coprolites", "lithics", "artifacts", "stratigraphy", "chemistry", "plant-remains"],
+  "independent_methods_count": 4,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "partial",
+      "note": "mtDNA indicated human origin, but Goldberg et al. (2009) found micromorphology/FTIR analysis of one dated coprolite hard to reconcile with a human source.",
+      "source": "S2"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Excavated in situ by a university field school with recorded stratigraphy, but Poinar et al. (2009) argued the deposits lacked demonstrated stratigraphic integrity at claim time.",
+      "source": "S3"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "Only AMS radiocarbon dating was used to directly date the coprolites at claim; no second independent dating method was applied yet.",
+      "source": "S1"
+    },
+    "multiple_labs": {
+      "value": "yes",
+      "note": "By 2012 (four years after the claim), an independent laboratory blind-tested coprolite samples and confirmed human DNA in pre-Clovis specimens.",
+      "source": "S6"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "University of Oregon archaeological field school directed by Dennis Jenkins recovered and recorded the material.",
+      "source": "S1"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Published as a Report in Science (2008), a leading peer-reviewed journal.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "yes",
+      "note": "Critics Goldberg, Berna and Macphail obtained and independently analyzed one of the actual dated coprolites.",
+      "source": "S2"
+    },
+    "independent_teams": {
+      "value": "yes",
+      "note": "Within about five years: the original Copenhagen-Oregon team, an independent critique team (Goldberg, Berna, Macphail), and a second blind-tested DNA lab all examined the material.",
+      "source": "S6"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "Ordinary university field-school research; no commercial, religious or nationalist motive documented.",
+      "source": "S1"
+    }
+  },
+  "objections": [
+    {
+      "text": "Micromorphological and FTIR analysis of one directly dated coprolite were difficult to reconcile with a human source, suggesting a carnivore/omnivore origin instead.",
+      "kind": "identification",
+      "raised_by": "Paul Goldberg, Francesco Berna, Richard I. Macphail",
+      "year": 2009,
+      "outcome": "unresolved",
+      "outcome_note": "Gilbert's team disputed the diagnostic power of those methods. Shillito et al. (2020) confirmed human origin for three other pre-Clovis coprolites by lipid biomarkers; that specimen was not independently re-tested.",
+      "source": "S2"
+    },
+    {
+      "text": "DNA authenticity was questioned, and in the absence of demonstrated intact stratigraphy and diagnostic artifacts, anomalous carbon-isotope values were said to make the oldest coprolites' radiocarbon dates unreliable.",
+      "kind": "dating",
+      "raised_by": "Hendrik Poinar, Stuart Fiedel, et al.",
+      "year": 2009,
+      "outcome": "wrong",
+      "outcome_note": "Jenkins et al. (2012) reported 100+ stratigraphically controlled AMS dates, blind independent-lab replication of human DNA, and diagnostic Western Stemmed points in the same well-stratified deposits.",
+      "source": "S6"
+    },
+    {
+      "text": "The 2008 claim rested on very few directly dated coprolites from one research team, raising concern about sample size and single-team dependence.",
+      "kind": "context",
+      "raised_by": "critics, summarized in Poinar et al. 2009",
+      "year": 2009,
+      "outcome": "wrong",
+      "outcome_note": "Subsequent excavation expanded the dated record to 100+ AMS radiocarbon dates on many coprolites and artifacts, with independent blind DNA re-testing and later lipid-biomarker confirmation.",
+      "source": "S6"
+    },
+    {
+      "text": "A steroid-biomarker re-analysis of a 'putative human coprolite', by the same team as the 2009 morphology critique, raised further doubt about coprolite identification.",
+      "kind": "identification",
+      "raised_by": "Ana Sistiaga, Francesco Berna, Paul Goldberg",
+      "year": 2014,
+      "outcome": "unresolved",
+      "outcome_note": "Paywalled; we could not confirm its specific conclusion. Shillito et al. (2020) later applied improved lipid-biomarker methods to three other pre-Clovis coprolites and confirmed human origin.",
+      "source": "S7"
+    }
+  ],
+  "status": "vindicated",
+  "status_note": "The core claim - human presence before or alongside Clovis - is now broadly accepted: replicated DNA, Western Stemmed points in a well-dated sequence, and fecal lipid biomarkers agree. A few coprolite identifications stayed contested.",
+  "year_resolved": 2020,
+  "what_settled_it": "No single event; convergent, independently replicated evidence: blind DNA re-testing by an outside lab, a 100+-date stratigraphic sequence, Western Stemmed points in pre-Clovis-age deposits, and fecal lipid biomarkers confirming three pre-Clovis coprolites as human (Shillito et al. 2020).",
+  "settled_by": ["replication", "dna", "forensic-analysis"],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 2008,
+      "event": "Gilbert et al. report human mtDNA (haplogroups A2, B2) from coprolites directly AMS-dated to 12,300 14C yr BP (~14,300 cal BP), predating Clovis.",
+      "source": "S1"
+    },
+    {
+      "year": 2009,
+      "event": "Goldberg et al. and Poinar et al. publish comments questioning coprolite identification and dating reliability; Gilbert/Rasmussen teams rebut with new data.",
+      "source": "S2"
+    },
+    {
+      "year": 2012,
+      "event": "Jenkins et al. report Western Stemmed points in pre-Clovis deposits, 100+ AMS dates, and blind independent-lab confirmation of human DNA in coprolites.",
+      "source": "S6"
+    },
+    {
+      "year": 2014,
+      "event": "Sistiaga et al. (Goldberg's team) apply steroid-biomarker analysis to a Paisley coprolite; Fiedel publishes continued skepticism about the pre-Clovis claim.",
+      "source": "S8"
+    },
+    {
+      "year": 2020,
+      "event": "Shillito et al. use fecal lipid biomarkers to confirm three pre-Clovis coprolites are human and add a new radiocarbon date on associated basketry.",
+      "source": "S9"
+    },
+    {
+      "year": 2023,
+      "event": "Saban et al. publish a pollen study describing Paisley Caves' well-dated sequence from 13,000-6,000 cal BP, with no challenge to the pre-Clovis chronology.",
+      "source": "S10"
+    }
+  ],
+  "falsifier": "An independently replicated finding that the directly AMS-dated pre-Clovis coprolites and basketry are stratigraphically intrusive, or that the human lipid-biomarker signal cannot be reproduced by an independent lab on split samples, would overturn this status.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Gilbert, M.T.P.; Jenkins, D.L.; Götherstrom, A.; Naveran, N. et al. (2008). DNA from Pre-Clovis Human Coprolites in Oregon, North America. Science 320(5877): 786-789.",
+      "doi": "10.1126/science.1154116",
+      "url": "https://doi.org/10.1126/science.1154116",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read; reports 12,300 14C yr BP direct AMS date on coprolite with human mtDNA haplogroups A2/B2."
+    },
+    {
+      "id": "S2",
+      "citation": "Goldberg, P.; Berna, F.; Macphail, R.I. (2009). Comment on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”. Science 325(5937): 148.",
+      "doi": "10.1126/science.1167531",
+      "url": "https://doi.org/10.1126/science.1167531",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract confirms micromorphology/FTIR results conflicted with human identification of one coprolite."
+    },
+    {
+      "id": "S3",
+      "citation": "Poinar, H.; Fiedel, S.; King, C.E.; Devault, A.M. et al. (2009). Comment on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”. Science 325(5937): 148.",
+      "doi": "10.1126/science.1168182",
+      "url": "https://doi.org/10.1126/science.1168182",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract confirms objections to DNA authenticity, stratigraphic integrity, and carbon-isotope-based dating reliability."
+    },
+    {
+      "id": "S4",
+      "citation": "Rasmussen, M.; Cummings, L.S.; Gilbert, M.T.P.; Bryant, V. et al. (2009). Response to Comment by Goldberg et al. on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”. Science 325(5937): 148.",
+      "doi": "10.1126/science.1167672",
+      "url": "https://doi.org/10.1126/science.1167672",
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract confirms rebuttal of Goldberg et al.'s micromorphology/FTIR diagnosis and presentation of new genetic data."
+    },
+    {
+      "id": "S5",
+      "citation": "Gilbert, M.T.P.; Jenkins, D.L.; Higham, T.F.G.; Rasmussen, M. et al. (2009). Response to Comment by Poinar et al. on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”. Science 325(5937): 148.",
+      "doi": "10.1126/science.1168457",
+      "url": "https://doi.org/10.1126/science.1168457",
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract confirms the authors stand by their DNA and radiocarbon conclusions."
+    },
+    {
+      "id": "S6",
+      "citation": "Jenkins, D.L.; Davis, L.G.; Stafford, T.W.; Campos, P.F. et al. (2012). Clovis Age Western Stemmed Projectile Points and Human Coprolites at the Paisley Caves. Science 337(6091): 223-228.",
+      "doi": "10.1126/science.1218443",
+      "url": "https://doi.org/10.1126/science.1218443",
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; reports 100+ AMS dates, Western Stemmed points at 11,070-11,340 14C BP, and blind independent-lab DNA confirmation."
+    },
+    {
+      "id": "S7",
+      "citation": "Sistiaga, A.; Berna, F.; Laursen, R.; Goldberg, P. (2014). Steroidal biomarker analysis of a 14,000 years old putative human coprolite from Paisley Cave, Oregon. Journal of Archaeological Science 41: 813-817.",
+      "doi": "10.1016/j.jas.2013.10.016",
+      "url": "https://doi.org/10.1016/j.jas.2013.10.016",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed via Crossref/Semantic Scholar; full text and specific conclusions not accessible (paywalled, abstract elided by publisher)."
+    },
+    {
+      "id": "S8",
+      "citation": "Fiedel, S.J. (2014). Did Pre-Clovis People Inhabit the Paisley Caves (and Why Does It Matter)? Human Biology 86(1): 69-73.",
+      "doi": "10.1353/hub.2014.a554776",
+      "url": "https://doi.org/10.1353/hub.2014.a554776",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract confirms topic (Paisley Caves, pre-Clovis, Western Stemmed, ancient DNA) and Fiedel's continued critical framing; full text not accessible to confirm his final verdict."
+    },
+    {
+      "id": "S9",
+      "citation": "Shillito, L.; Whelton, H.L.; Blong, J.C.; Jenkins, D.L. et al. (2020). Pre-Clovis occupation of the Americas identified by human fecal biomarkers in coprolites from Paisley Caves, Oregon. Science Advances 6(29).",
+      "doi": "10.1126/sciadv.aba6404",
+      "url": "https://doi.org/10.1126/sciadv.aba6404",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read in full; confirms lipid biomarkers show three pre-Clovis coprolites are human, plus a new basketry date."
+    },
+    {
+      "id": "S10",
+      "citation": "Saban, C.V.; Herring, E.M.; Jenkins, D.L.; Gavin, D.G. (2023). Late glacial through Early Holocene environments inferred using pollen from coprolites and sediments recovered from Paisley Caves, Oregon. Quaternary Research 116: 78-95.",
+      "doi": "10.1017/qua.2023.44",
+      "url": "https://doi.org/10.1017/qua.2023.44",
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; describes a 'well-dated stratigraphy' spanning 13,000-6,000 cal BP, with no dispute of the pre-Clovis chronology."
+    },
+    {
+      "id": "S11",
+      "citation": "Waters, M.R.; Stafford, T.W. (2007). Redefining the Age of Clovis: Implications for the Peopling of the Americas. Science 315(5815): 1122-1126.",
+      "doi": "10.1126/science.1137166",
+      "url": "https://doi.org/10.1126/science.1137166",
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; establishes the accepted Clovis range near claim time (11,050-10,800 14C yr BP), used here for orthodoxy_at_claim."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "High confidence in the core DNA/lithic/stratigraphic record (S1, S6, S9 all checked in full). Lower confidence in two secondary sources (S7, S8), which were paywalled or blocked from direct reading.",
+  "corrections": [
+    "Starter notes gave the original date as '~14,300 cal BP'; Gilbert et al. (2008) report 12,300 14C yr BP (uncalibrated) - ~14,300 cal BP is the commonly used calibrated equivalent, not the paper's own figure.",
+    "The 2020 lipid-biomarker paper (Shillito et al.) appeared in Science Advances, not Science.",
+    "An earlier steroid-biomarker study of a Paisley coprolite (Sistiaga et al. 2014, by the same team as the 2009 Goldberg critique) preceded Shillito et al. 2020; the starter notes did not mention it."
+  ],
+  "notes": "Paisley Caves is unusual in that its strongest current support does not rest on the original, most-publicized evidence (coprolite mtDNA) alone: diagnostic Western Stemmed points and a directly dated basketry fragment are unambiguously human-made and sit in the same well-stratified, 100+-date sequence, which is independent of the coprolite-species debate. That debate itself had a real back-and-forth (Goldberg 2009 and Sistiaga 2014 on one side; Rasmussen 2009 and Shillito 2020 on the other) and Fiedel's 2014 skepticism could not be fully checked here (source blocked). No precise site coordinates are recorded here, consistent with project heritage-ethics guidance.",
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

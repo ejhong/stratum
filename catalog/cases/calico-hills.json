@@ -10,11 +10,11 @@
   "anomaly_type": "chronology",
   "claim": "Flaked chert and chalcedony dug from deep alluvial-fan deposits in the Calico Hills were presented as human-made tools, putting people in the Americas tens of thousands of years before Clovis. Proponents now argue the tools are over 200,000 years old.",
   "claimed_age": {
-    "label": "30,000–120,000 yr (1969 est.); later >200,000 yr",
-    "bp_min": 30000,
-    "bp_max": 120000,
-    "basis": "1969: geomorphic estimate for the Yermo fan (>30,000, <120,000 yr) plus infinite 14C (>34,000 yr) on carbonate cement in artifact levels. The >200,000-yr claim rests on 1981 U-series dates.",
-    "source": "S3"
+    "label": "100,000-500,000 yr (1970); >200,000 yr since 1981",
+    "bp_min": 100000,
+    "bp_max": 500000,
+    "basis": "1970 international conference: proponents discussed 100,000-500,000 yr for the fan deposits (S12). From 1981, proponents cite U-series ~200,000 yr; current proponents claim >200,000 yr (S6, S15).",
+    "source": "S12"
   },
   "accepted_age": {
     "label": "Natural geofacts in fan deposits ~200 ka or older",
@@ -162,7 +162,7 @@
   "status": "refuted",
   "status_note": "Most archaeologists regard the specimens as geofacts broken by natural processes in the fan, and the 'hearth' failed a heating test. A small group (Friends of Calico; Budinger 2024) still argues they are tools over 200,000 years old.",
   "year_resolved": 1973,
-  "what_settled_it": "No single test. Haynes (1973) showed natural fracturing in the fan could produce the specimens; edge-angle studies (1979, 1982) and a 1984 TL/ESR test finding no heating in the 'hearth' reinforced the natural reading.",
+  "what_settled_it": "No single test. Haynes (1973) argued natural fracturing in the fan could produce the specimens; edge-angle studies (1979, 1982) and a 1984 TL/ESR test finding no heating in the 'hearth' reinforced the natural reading.",
   "settled_by": [
     "expert-review",
     "geology",
@@ -351,7 +351,7 @@
       "kind": "reply",
       "access": "open",
       "verification": "checked",
-      "note": "Read: proponent review of ~73,000 specimens; quotes Haynes 1973 directly; argues fracture densities and bipolar flaking favour artifacts."
+      "note": "Read: proponent review of over 70,000 specimens; reports 100,000-500,000 yr discussed at the 1970 conference; quotes Haynes 1973; argues fracture densities and bipolar flaking favour artifacts."
     },
     {
       "id": "S13",
@@ -371,7 +371,7 @@
       "kind": "news",
       "access": "open",
       "verification": "checked",
-      "note": "Read: digging began 1 Nov 1964; 1970 conference; site closed since 2016 vandalism; reports unpublished TL dates on 15 artifacts (oldest ~11,000 yr)."
+      "note": "Read: digging began 1 Nov 1964; 1970 conference; site closed since 2016 vandalism; reports an unpublished date (method not named) on the oldest of 15 artifacts, ~11,000 yr."
     },
     {
       "id": "S15",
@@ -381,7 +381,7 @@
       "kind": "reply",
       "access": "open",
       "verification": "checked",
-      "note": "Read (file linked from the SCA proceedings index): proponent synthesis claiming tools >200 ka; reports a 2007 U-series date of ~205 ka on a rind over flake scars."
+      "note": "Read (file linked from the SCA proceedings index): proponent synthesis claiming tools >200 ka; reports a U-series date of ~205 ka on a rind over flake scars."
     },
     {
       "id": "S16",
@@ -397,11 +397,11 @@
   "confidence": "medium",
   "confidence_note": "Dating and critique details verified from abstracts and open sources; the 1968 report and Haynes 1973 were paywalled and are known only through quotations.",
   "corrections": [
-    "Leakey did more than back the project: he directed the excavations with Simpson and geologist Thomas Clements from their start on 1 November 1964 until his death in 1972 (S3, S14, S15).",
+    "Brief calls Leakey a 'backer'; formally co-director with Simpson and Clements, 1964-1972 (S3, S15), and secured NGS funding, but Simpson ran on-site fieldwork while Leakey was 'a regular visitor' (S14).",
     "Common accounts say the tools were dated to 200,000 years. The dates are on carbonate cement and fan surfaces, so they date the deposits, not any human act; Budinger (S15) agrees U-series dates groundwater events.",
     "Dating the deposits did not show the stones were natural; the ~200,000-yr ages mainly made a human origin harder to accept. Fracture and edge-angle studies addressed origin directly."
   ],
-  "notes": "Haynes (1973, quoted in S12) found natural processes 'adequate to explain' the finds but was not 'convinced that all of the specimens are geofacts'. The verdict rests on that, edge-angle tests and the great age, not proof that each piece is natural. Proponents report far higher fracture densities in the master pits (S12). S11 says Leakey cited ~200,000-yr U-series ages before 1972; S14 dates that work to c. 1979–81 (unresolved). TL dates on 15 artifacts (S14) are unpublished: UNVERIFIED. Site closed since 2016; BLM planned in 2021 to fill most pits. year_claimed = first report (digging began 1964). limit_bp: 11,500 14C BP via IntCal20 (S16).",
+  "notes": "Haynes (1973, quoted in S12) found natural processes 'adequate to explain' the finds but was not 'convinced that all of the specimens are geofacts'. The verdict rests on that, edge-angle tests and the great age, not proof that each piece is natural. Proponents report far higher fracture densities in the master pits (S12). S11 says Leakey cited ~200,000-yr U-series ages before 1972; S14 dates that work to c. 1979–81 (unresolved). Dates (method not named) on 15 artifacts (S14) are unpublished: UNVERIFIED. Site closed since 2016; BLM planned in 2021 to fill most pits. year_claimed = first report (digging began 1964). limit_bp: 11,500 14C BP via IntCal20 (S16).",
   "plates": [
     {
       "commons_file": "File:Calico Early Man Site (52720096308).jpg",
@@ -415,6 +415,17 @@
   "review": {
     "drafted_by": "researcher agent (claude-opus-5-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Declined: reclassify objections[1] (age/'prior') outcome from 'held' to 'unresolved'. No test settled it independently; outcome_note already notes this. Left as-is; flagged for analyst review.",
+      "Declined: reword objections[3].outcome_note to 'no independent, peer-reviewed comparison' (S12's control-pit tabulation is a proponent count, not peer-reviewed). Minor wording nuance, out of this revision's named scope.",
+      "Declined: objections[5].raised_by wrongly credits testers (Bischoff/Ikeya/Budinger) with raising the hearth objection. Fixing needs paywalled S4 to find who first questioned it; not read this pass.",
+      "Declined: recode features_at_claim.multiple_labs/professional_recovery as 'partial' (Berger-Bucha magnetic study; volunteer diggers per S14). Needs re-reading S11/S14 in full; deferred.",
+      "Declined: add ~135 ka and ~14.4 ka TL dates (S12, S15) and Schuiling 1972 / Taylor & Payen 1979 as new sources on stratigraphic mixing. Requires acquiring and verifying new sources; out of scope here.",
+      "Declined: downgrade S6/S10/S13 verification from 'checked' to 'exists' and record read URLs. Would need re-fetching abstracts; flagged for a future pass, not fixed now."
+    ]
   }
 }

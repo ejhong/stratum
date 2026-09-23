@@ -1,18 +1,18 @@
 {
   "id": "jebel-irhoud",
   "name": "Jebel Irhoud",
-  "hook": "Skulls first called Neanderthals, redated in 2017 to ~315,000 years and proposed as the earliest Homo sapiens.",
+  "hook": "Skulls once read as Neanderthal; dated in 2017 to ~315,000 years and proposed as earliest H. sapiens.",
   "location": {
     "country": "Morocco",
     "continent": "Africa"
   },
   "anomaly_type": "chronology",
-  "claim": "Fossils from Jebel Irhoud are about 315,000 years old and represent an early stage of the Homo sapiens lineage, placing our species' origin about 100,000 years earlier than accepted, and outside East Africa.",
+  "claim": "Fossils from Jebel Irhoud are about 315,000 years old and represent an early stage of the Homo sapiens lineage, placing our species' origin about 100,000 years earlier than accepted and implying the lineage had already spread across Africa rather than arising only in East Africa.",
   "claimed_age": {
     "label": "315 ± 34 ka (TL)",
     "bp_min": 281000,
     "bp_max": 349000,
-    "basis": "Weighted mean TL age of heated flints found with the new fossils; U-series/ESR on an Irhoud 3 tooth gave 286 ± 32 ka. Ages are before measurement; the offset from 1950 is negligible.",
+    "basis": "Weighted mean TL age of heated flints with the new fossils; U-series/ESR gave 286±32 ka for the Irhoud 3 tooth, a recalculated 1960s find (previously 160±16 ka). Ages predate 1950 measurement; BP offset negligible.",
     "source": "S2"
   },
   "accepted_age": {
@@ -66,12 +66,12 @@
     },
     "multiple_dating_methods": {
       "value": "yes",
-      "note": "TL on heated flints (315 ± 34 ka) and U-series/ESR on an Irhoud 3 tooth (286 ± 32 ka) agreed; fauna and microfauna were consistent.",
+      "note": "TL on heated flints (315±34 ka) and recalculated U-series/ESR on the Irhoud 3 tooth (286±32 ka) broadly agreed; fauna and microfauna were consistent. Overlap with TL's dose-rate data: UNVERIFIED.",
       "source": "S2"
     },
     "multiple_labs": {
       "value": "yes",
-      "note": "TL was run by D. Richter (Max Planck, Leipzig); ESR by R. Grün and R. Joannes-Boyau (Australian National University).",
+      "note": "TL was run by D. Richter (Max Planck, Leipzig); ESR by R. Grün and R. Joannes-Boyau (Griffith, ANU and Southern Cross universities, Australia).",
       "source": "S2"
     },
     "professional_recovery": {
@@ -86,12 +86,12 @@
     },
     "material_accessible": {
       "value": "partial",
-      "note": "An independent team studied a cast of Irhoud 1 (Mounier & Mirazón Lahr 2019). No independent study of the new originals within five years was found.",
+      "note": "An independent team re-analysed Irhoud 1 morphologically (Mounier & Mirazón Lahr 2019); specimen access (cast vs. original) unconfirmed. No independent study of new originals within five years found.",
       "source": "S9"
     },
     "independent_teams": {
       "value": "partial",
-      "note": "Fossils and dates came from one INSAP–Max Planck project. Independent genetic work supported a similarly deep origin but did not test Irhoud.",
+      "note": "Fossils and dates came from one INSAP–Max Planck project. The only independent re-analysis within five years (S9, 2019) disagreed with the H. sapiens attribution.",
       "source": "S11"
     },
     "proponent_stake": {
@@ -116,7 +116,7 @@
       "raised_by": "Marta Mirazón Lahr (Cambridge)",
       "year": 2017,
       "outcome": "unresolved",
-      "outcome_note": "Scerri et al. (2018) include Irhoud in the H. sapiens clade; Vidal et al. (2022) still call most such fossils' H. sapiens traits debatable.",
+      "outcome_note": "Scerri et al. (2018) include Irhoud in the H. sapiens clade. Vidal et al. (2022) note most late Middle Pleistocene candidates have uncertain ages or debatable H. sapiens traits generally, not specific to Irhoud.",
       "source": "S7"
     },
     {
@@ -125,7 +125,7 @@
       "raised_by": "John Hawks (Wisconsin–Madison)",
       "year": 2017,
       "outcome": "unresolved",
-      "outcome_note": "No study settling this comparison was found among the sources reviewed.",
+      "outcome_note": "No study directly compares Irhoud with H. antecessor. Hublin's team's 2026 Casablanca-fossil study (S15) argues an African lineage ancestral to H. sapiens, distinct from antecessor — the proponents' answer, unresolved.",
       "source": "S7"
     },
     {
@@ -138,13 +138,12 @@
       "source": "S9"
     }
   ],
-  "status": "vindicated",
-  "status_note": "The ~315 ka age is accepted, and major syntheses place Irhoud early in the H. sapiens lineage. A minority still reserve H. sapiens for globular skulls and read Irhoud as a cousin population.",
-  "year_resolved": 2018,
-  "what_settled_it": "TL and U-series/ESR ages from separate labs agreed on excavated finds. By 2018 a 23-author synthesis called Irhoud the oldest recognized members of the H. sapiens clade; genetic split estimates of 350–260 ka fit.",
+  "status": "partial",
+  "status_note": "The ~315 ka age is accepted and unchallenged. Whether the fossils belong to the H. sapiens lineage stays disputed: the only independent re-analyses place them closer to Neanderthals, against the original team's view.",
+  "year_resolved": 2017,
+  "what_settled_it": "The ~315 ka age (TL; recalculated U-series/ESR) is unchallenged by any published re-dating. H. sapiens-lineage membership stays contested: the only independent re-analyses (S9, S14) place Irhoud closer to Neanderthals; proponents (S10, S15) maintain the attribution. Genetic estimates vary.",
   "settled_by": [
-    "new-excavation",
-    "expert-review"
+    "new-excavation"
   ],
   "failure_mode": "none",
   "timeline": [
@@ -211,14 +210,19 @@
   ],
   "decisive_tests": [
     {
-      "test": "Attempt enamel protein sequencing on an Irhoud tooth, as done for Homo antecessor (Welker et al. 2020), to place Irhoud relative to Neanderthals and H. sapiens.",
-      "would_show": "Whether Irhoud sits on the H. sapiens branch or on a lineage tied to Neanderthals, the main open dispute.",
+      "test": "Attempt enamel protein sequencing on an Irhoud tooth, as done for Homo antecessor (Welker et al. 2020), to help place Irhoud relative to Neanderthals and H. sapiens.",
+      "would_show": "May help indicate whether Irhoud sits nearer H. sapiens or Neanderthals; proteomes may carry too few informative sites among close Middle Pleistocene Homo to be conclusive.",
       "cost": "medium"
     },
     {
       "test": "Re-date archived heated flints or sediment from the fossil layer at a second, independent luminescence laboratory.",
       "would_show": "Whether the ~315 ka age reproduces outside the original team's laboratories.",
       "cost": "low"
+    },
+    {
+      "test": "Directly date the newly excavated in-situ fossil teeth (e.g. Irhoud 10/11) by U-series/ESR at a second, independent laboratory.",
+      "would_show": "Whether the only direct fossil age (286 ka, a recalculation of a 1960s find) reproduces on material excavated and dated as a unit.",
+      "cost": "medium"
     }
   ],
   "falsifier": "Independent re-dating that puts the fossil layer well below ~250 ka, or protein or fuller morphological evidence placing Irhoud outside the H. sapiens lineage (for example, closer to Neanderthals).",
@@ -227,11 +231,11 @@
       "id": "S1",
       "citation": "Hublin, J.-J., Ben-Ncer, A., Bailey, S.E., Freidline, S.E. et al. (2017). New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens. Nature 546(7657): 289–292.",
       "doi": "10.1038/nature22336",
-      "url": null,
+      "url": "https://kar.kent.ac.uk/62267/",
       "kind": "primary",
-      "access": "paywalled",
+      "access": "open",
       "verification": "checked",
-      "note": "Abstract, author contributions and figure legends read; full text paywalled. Supports 315 ± 34 ka, mosaic morphology, H. sapiens clade, pan-African inference."
+      "note": "Open accepted manuscript (Kent) read: 300–350 ka; 'early stages of the H. sapiens clade'; mosaic morphology; 1961 find; ~40 ka Neanderthal reading; reviewers R.G. Klein, C. Stringer."
     },
     {
       "id": "S2",
@@ -295,7 +299,7 @@
     },
     {
       "id": "S8",
-      "citation": "Joyce, C. (2017, 7 June). Morocco fossils are 100,000 years older than earliest recorded modern humans. NPR, Shots.",
+      "citation": "Joyce, C. (2017, 7 June). 315,000-Year-Old Fossils From Morocco Could Be Earliest Recorded Homo Sapiens. NPR, Shots.",
       "doi": null,
       "url": "https://www.npr.org/sections/health-shots/2017/06/07/531804528/315-000-year-old-fossils-from-morocco-could-be-earliest-recorded-homo-sapiens",
       "kind": "news",
@@ -321,7 +325,7 @@
       "kind": "review",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: 'oldest currently recognized members of the H. sapiens clade'; notes some assign Irhoud and Florisbad to 'H. helmei'."
+      "note": "Full text read: 'oldest currently recognized members of the H. sapiens clade'; notes some assign Irhoud and Florisbad to 'H. helmei'. Co-author P. Gunz is a key proponent."
     },
     {
       "id": "S11",
@@ -341,17 +345,17 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: Omo I minimum age 233 ± 22 ka; most late Middle Pleistocene candidates have debatable H. sapiens apomorphy."
+      "note": "Full text read: Omo I minimum age 233 ± 22 ka; most late Middle Pleistocene candidates have age uncertainty or debatable H. sapiens apomorphy, not specific to Irhoud."
     },
     {
       "id": "S13",
       "citation": "Neubauer, S., Hublin, J.-J., Gunz, P. (2018). The evolution of modern human brain shape. Science Advances 4(1): eaao5961.",
       "doi": "10.1126/sciadv.aao5961",
       "url": null,
-      "kind": "reply",
+      "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read: brain size modern by 300 ka; globular shape evolved gradually within the H. sapiens lineage."
+      "note": "Abstract read: brain size modern by 300 ka; globular shape evolved gradually within the H. sapiens lineage. Proponents' own study, not a reply."
     },
     {
       "id": "S14",
@@ -402,33 +406,35 @@
       "access": "paywalled",
       "verification": "exists",
       "note": "Metadata confirmed via Crossref only. Cited only to show enamel proteomics has been done on older Homo teeth (decisive test)."
+    },
+    {
+      "id": "S19",
+      "citation": "Ragsdale, A.P., Weaver, T.D., Atkinson, E.G., Hoal, E.G. et al. (2023). A weakly structured stem for human origins in Africa. Nature 617(7962): 755–763.",
+      "doi": "10.1038/s41586-023-06055-y",
+      "url": "https://www.nature.com/articles/s41586-023-06055-y.pdf",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read: a weakly structured African stem model puts the earliest split among living human populations at 120,000-135,000 years, younger than S11's 350-260 ka. Does not study Irhoud directly."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Facts are well sourced. The status and 2018 resolution year are judgments on a live taxonomic debate, and the two 2017 Nature papers were read only via abstracts and public page sections.",
+  "confidence_note": "Facts are well sourced. 'Partial' reflects a live taxonomic dispute; the 286 ka ESR date's independence from TL dose-rate data is unverified. S2 read via abstract only.",
   "corrections": [
-    "Starter notes imply the H. sapiens attribution was new in 2017. Hublin (1992) had already rejected the Neanderthal reading, and Smith et al. (2007) called Irhoud early H. sapiens at ~160 ka. The 2017 novelty was the age.",
-    "'Long treated as Neanderthal-like' overstates it: the Neanderthal reading (Ennouchi 1962) was abandoned by the early 1990s (Hublin 1992).",
-    "TL did not date the fossils themselves. It dated heated flints found with the new fossils; the only direct fossil date is U-series/ESR on an Irhoud 3 tooth (286 ± 32 ka).",
-    "Common accounts call Irhoud simply 'the oldest Homo sapiens'. The ~315 ka age is accepted, but whether the fossils belong to H. sapiens is still debated."
+    "Brief: fossils 'long treated as Neanderthal-like' until 2017. Actually Hublin (1992) rejected that reading, and Smith et al. (2007) already called Irhoud 'early Homo sapiens' at ~160 ka; 2017's novelty was the age.",
+    "Brief: the 2017 papers 'dated them to ~300,000 years (thermoluminescence on heated flints)'. TL dated the flints, not the fossils; the only direct fossil date (U-series/ESR, 286±32 ka) recalculates a 1960s find once dated 160±16 ka.",
+    "Brief's 'Expected status: vindicated' overstates consensus: the brief and common accounts call Irhoud simply the oldest H. sapiens, but the only independent re-analyses (S9, S14) dispute the species attribution; recorded as partial."
   ],
-  "notes": "The claim coded here is the 2017 one; finds date from 1961. Earlier ages: first thought ~40 ka (S7), then ESR 130–190 ka (Grün & Stringer 1991, per S9) and 160 ± 16 ka (S4). The authors' wider inference, a pan-African origin, is influential (S10; S17 finds no single birthplace) but debated (S9). Omo I was later redated to at least 233 ka (S12), narrowing the leap. Mundane checks: no published challenge to the dates, their association or specimen integrity was found; a 2018 correction (S16) fixed figure labels and sample counts without changing conclusions. The live dispute is taxonomic.",
-  "plates": [
-    {
-      "commons_file": "File:Irhoud 10 in situ.jpg",
-      "caption": "The crushed top of the Irhoud 10 skull (centre) and part of a femur, Irhoud 13, in the excavation wall; scale in centimetres."
-    },
-    {
-      "commons_file": "File:Stone tools from Jebel Irhoud.png",
-      "caption": "Middle Stone Age stone tools from Jebel Irhoud, including pointed forms and Levallois flakes."
-    }
-  ],
+  "notes": "The claim coded here is the 2017 one; finds date from 1961. Earlier ages: ~40 ka (S7), then ESR 130–190 ka (Grün & Stringer 1991, per S9), then 160 ± 16 ka (S4). A pan-African origin (S10; cf. S17, no single birthplace) is debated (S9). Omo I was later redated to at least 233 ka (S12), narrowing the leap. Mundane checks: no published challenge to the dates, association or specimen integrity was found; whether the recalculated 286 ka ESR/U-series date shares dose-rate inputs with the TL work is UNVERIFIED; a 2018 correction (S16) fixed figure labels and sample counts without changing conclusions. The live dispute is taxonomic, not chronological.",
   "review": {
     "drafted_by": "researcher agent (Claude Opus 5.5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft",
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (Claude Opus 5.5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
     "open_issues": [
-      "Plates: Commons lists CC BY 4.0 for both MPI EVA photos, but the 2017 MPI EVA presskit states CC BY-SA 2.0. Check the credit display before publishing."
+      "Plates removed: Commons lists CC BY 4.0 for both MPI EVA photos, but the archived 2017 press kit labels both CC-BY-SA 2.0 (matching credits: Schatz; Kamal). Unresolved without a Commons correction, so no plates are recorded."
     ]
   }
 }

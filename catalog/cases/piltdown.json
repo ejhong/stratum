@@ -17,16 +17,16 @@
     "source": "S1"
   },
   "accepted_age": {
-    "label": "Modern forgery; skull possibly medieval, jaw recent",
+    "label": "Modern forgery; human remains possibly medieval, jaw recent",
     "bp_min": null,
     "bp_max": null,
-    "basis": "Uncalibrated radiocarbon: skull 620±100 and 970±140 yr; orangutan jaw 500±100 and 90±120 yr. A 2016 attempt to re-date failed, so these ages need caution.",
+    "basis": "Uncalibrated radiocarbon: Piltdown I parietal 620±100 (1959); Piltdown II frontal 970±140 (Oxford AMS; different individual, 2σ overlap only); orangutan jaw 500±100, 90±120. 2016 re-dating failed; caution urged.",
     "source": "S10"
   },
   "orthodoxy_at_claim": {
-    "label": "Known early humans (Java's Pithecanthropus, Neanderthals) had low, flat foreheads and heavy brows; no human-shaped braincase this old was known.",
+    "label": "Known fossils (Java, Neanderthal) were low-browed, but British anatomists expected a large-brained, ape-jawed missing link, which Piltdown matched.",
     "limit_bp": null,
-    "source": "S2"
+    "source": "S10"
   },
   "year_claimed": 1912,
   "key_proponents": ["Charles Dawson", "Arthur Smith Woodward", "Grafton Elliot Smith", "Arthur Keith"],
@@ -76,7 +76,7 @@
     },
     "proponent_stake": {
       "value": "no",
-      "note": "Contemporaries saw a respected amateur and a museum keeper. Dawson's 1909 letters seeking a 'big find' and honours were read as motive only in later studies.",
+      "note": "Seen then as a respected amateur. Private 1909 letters (his big-find note to Woodward; his wife's plea to H. Gladstone for recognition) read as motive later; FRS nomination 1913. Hindsight: yes.",
       "source": "S10"
     }
   },
@@ -111,10 +111,10 @@
     {
       "text": "The canine is a chimpanzee's upper canine, not the lower canine Dawson and Woodward described.",
       "kind": "identification",
-      "raised_by": "Gerrit S. Miller",
+      "raised_by": "Gerrit S. Miller (after W. K. Gregory)",
       "year": 1915,
       "outcome": "wrong",
-      "outcome_note": "Crown-base measurements place it among lower canines, as Dawson and Woodward said; it is a subadult orangutan's (De Groote et al. 2016).",
+      "outcome_note": "One 2016 morphometric study (not replicated) places it among lower canines, as Woodward said; it is a subadult orangutan's.",
       "source": "S5"
     },
     {
@@ -155,7 +155,7 @@
     }
   ],
   "status": "refuted",
-  "status_note": "Every Piltdown find was shown in 1953-55 to be forged or planted, and recent studies accept this. Debate remains only over who was involved: Dawson alone (De Groote et al. 2016) or with others' knowledge (Thackeray 2016).",
+  "status_note": "Every Piltdown find was shown in 1953-55 to be forged or planted, and recent studies accept this. Debate remains over who was involved: Dawson alone (De Groote et al. 2016) or others too, perhaps Teilhard de Chardin (Thackeray 2016).",
   "year_resolved": 1953,
   "what_settled_it": "Weiner, Oakley and Le Gros Clark (1953) showed the jaw and canine were a modern ape's: teeth filed flat, surfaces stained, fluorine and nitrogen levels unlike fossil bone. Their 1955 report showed the skull was stained too and the fauna, flints and bone tool were planted.",
   "settled_by": ["forensic-analysis", "independent-redating", "morphology"],
@@ -164,8 +164,8 @@
     { "year": 1911, "event": "Dawson says he found a larger skull piece in the pit's spoil heaps; a workman had handed him the first piece years before.", "source": "S1" },
     { "year": 1912, "event": "Dawson and Woodward sift the pit; Dawson reports finding the right half of a jaw in undisturbed gravel.", "source": "S1" },
     { "year": 1912, "event": "Announced to the Geological Society on 18 December. Waterston and Lankester doubt that jaw and skull belong together.", "source": "S3" },
-    { "year": 1913, "event": "Teilhard de Chardin finds a canine on 30 August, 18 days after Keith ridiculed Woodward's reconstruction; it quiets many critics.", "source": "S10" },
-    { "year": 1915, "event": "Dawson reports 'Piltdown II' finds from an unrecorded second site. Miller names the jaw a fossil chimpanzee, Pan vetus.", "source": "S8" },
+    { "year": 1913, "event": "Teilhard de Chardin finds a canine on 30 August, 18 days after Keith ridiculed Woodward's reconstruction; it matches the model canine Woodward had inserted.", "source": "S10" },
+    { "year": 1915, "event": "Dawson tells Woodward by postcard of 'Piltdown II' finds at a second site. Miller names the jaw a fossil chimpanzee, Pan vetus.", "source": "S8" },
     { "year": 1916, "event": "Dawson dies. Woodward's dig at the pit that year finds nothing.", "source": "S8" },
     { "year": 1925, "event": "Dart announces the small-brained Taung child; Piltdown's big-brain, ape-jaw pattern weighs against its acceptance.", "source": "S12" },
     { "year": 1950, "event": "Oakley and Hoskins report fluorine tests: neither skull nor jaw is Lower Pleistocene.", "source": "S7" },
@@ -300,14 +300,14 @@
   "confidence": "high",
   "confidence_note": "Core facts rest on primary reports read in full (1913, 1915, 1953, 1955, 2016). Feature coding is judgment; the radiocarbon ages are flagged as unreliable by later re-daters.",
   "corrections": [
-    "Starter notes credit fluorine testing. The 1949-50 fluorine test only showed the bones were not Lower Pleistocene; the 1953 exposure rested on filing marks and stains plus improved fluorine and nitrogen tests (S7).",
+    "Starter brief says the 1953 exposure was '...using fluorine testing among other evidence.' More precisely: the 1949-50 test only showed non-Lower-Pleistocene age; 1953 added filing marks, staining and improved fluorine/nitrogen tests (S7).",
     "The 1953 paper exposed only the jaw and teeth and still allowed the skull might be Upper Pleistocene. The skull's staining and the planted fauna, flints and bone tool were shown in 1955 (S7, S8).",
     "Doubts began at once, not decades later: at the first meeting (18 Dec 1912) Waterston and Lankester doubted the jaw and skull belonged together, and Reid disputed the Early Pleistocene age (S3).",
     "Early critics called the jaw a chimpanzee's (Waterston; Miller's Pan vetus). It is a modern orangutan's, probably from Borneo (S8, S10). Miller was also wrong that the canine was an upper tooth.",
     "The human pieces are not one medieval skull: 2016 work found at least two, perhaps three, 'possibly medieval' people; new radiocarbon attempts failed, so older dates need caution (S10).",
     "De Groote et al. (2016) name Dawson as the likely single forger but say it is uncertain whether he acted alone; Thackeray (2016) argues Teilhard de Chardin knew (S10, S11)."
   ],
-  "notes": "Why ~40 years: originals were locked away and critics mostly used casts (S10, S5); the jaw and canine were reported in situ by experienced diggers, the faking was skilful, and a reported layer of secondary dentine on the canine implied natural wear (S8); WWI and Dawson's death in 1916 disrupted work (S10); the 1949 fluorine test could not separate recent from Upper Pleistocene bone (S7). The find matched expectations of a big-brained ancestor and weighed against the 1925 Taung child (S12). Dawson is now known to have faked other specimens (S10). Methods count 3: anatomy, fauna, flints, all from one source.",
+  "notes": "Resolution came in stages: Early Pleistocene age refuted 1950 (38 yr); jaw and canine shown modern 1953 (41 yr); full hoax (skull, fauna, flints, tool) 1955 (43 yr). Support was eroding by 1950 (S8). Why so slow: originals were locked away, critics mostly used casts (S10, S5); faking was skilful, with secondary dentine implying natural wear (S8); WWI and Dawson's 1916 death disrupted work (S10); the 1949 fluorine test could not separate recent from Upper Pleistocene bone. The find matched hopes for a big-brained ancestor and weighed against the 1925 Taung child (S12). Dawson is now known to have faked other specimens (S10). Methods count 3: anatomy, fauna, flints, all one source.",
   "plates": [
     {
       "commons_file": "File:\"Piltdown Man\" jaw fragment on display at Melbourne Museum.jpg",
@@ -315,12 +315,20 @@
     },
     {
       "commons_file": "File:Skull of the \"Eoanthropus Dawsoni\" (Piltdown Man) Wellcome M0013579.jpg",
-      "caption": "A photograph of the Piltdown skull as reconstructed, with dark fragments and pale filled-in areas."
+      "caption": "A reconstruction model of the Piltdown skull, very probably a cast: dark areas are fragments or copies, pale areas are filled in."
     }
   ],
   "review": {
     "drafted_by": "researcher agent (claude-opus-5-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "proponent_stake is coded 'no' under the contemporaries'-eyes rule; re-coding with hindsight (1909 letters, 1913 FRS nomination) would flip it to 'yes' -- worth testing both codings in the analyst's cross-tabs.",
+      "objections[3] ('wrong') rests on one unreplicated 2016 morphometric study; don't read it as evidence the critics were broadly biased -- Miller's main jaw/skull objection (objections[0]) held.",
+      "Did not add a specific year for the Piltdown II announcement in timeline[4]; skeptic flagged 1917 as needing verification in S8 and I did not spend a lookup confirming it, so left unstated."
+    ]
   }
 }

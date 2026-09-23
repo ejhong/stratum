@@ -13,7 +13,7 @@
   },
   {
    "file": "plates/cerutti-mastodon/cerutti-mastodon-tusk-full.jpg",
-   "caption": "A Cerutti mastodon tusk displayed in the upright position recorded at excavation, San Diego Natural History Museum, 2024.",
+   "caption": "A Cerutti mastodon tusk displayed upright at the San Diego Natural History Museum, 2024.",
    "commons_file": "File:Cerutti mastodon tusk - full.jpg",
    "license": "CC0",
    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -21,30 +21,6 @@
    "source_url": "https://commons.wikimedia.org/wiki/File:Cerutti_mastodon_tusk_-_full.jpg",
    "width": 1400,
    "height": 1867
-  }
- ],
- "jebel-irhoud": [
-  {
-   "file": "plates/jebel-irhoud/irhoud-10-in-situ.jpg",
-   "caption": "The crushed top of the Irhoud 10 skull (centre) and part of a femur, Irhoud 13, in the excavation wall; scale in centimetres.",
-   "commons_file": "File:Irhoud 10 in situ.jpg",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0",
-   "credit": "Steffen Schatz, MPI EVA Leipzig",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Irhoud_10_in_situ.jpg",
-   "width": 1400,
-   "height": 1055
-  },
-  {
-   "file": "plates/jebel-irhoud/stone-tools-from-jebel-irhoud.jpg",
-   "caption": "Middle Stone Age stone tools from Jebel Irhoud, including pointed forms and Levallois flakes.",
-   "commons_file": "File:Stone tools from Jebel Irhoud.png",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0",
-   "credit": "Mohammed Kamal, MPI EVA Leipzig",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Stone_tools_from_Jebel_Irhoud.png",
-   "width": 1400,
-   "height": 1779
   }
  ],
  "piltdown": [
@@ -61,7 +37,7 @@
   },
   {
    "file": "plates/piltdown/skull-of-the-eoanthropus-dawsoni-piltdown-man-wellcome-m0013.jpg",
-   "caption": "A photograph of the Piltdown skull as reconstructed, with dark fragments and pale filled-in areas.",
+   "caption": "A reconstruction model of the Piltdown skull, very probably a cast: dark areas are fragments or copies, pale areas are filled in.",
    "commons_file": "File:Skull of the \"Eoanthropus Dawsoni\" (Piltdown Man) Wellcome M0013579.jpg",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0",
@@ -93,6 +69,43 @@
    "source_url": "https://commons.wikimedia.org/wiki/File:CalicoVisitorCenter_8521.jpg",
    "width": 1400,
    "height": 933
+  }
+ ],
+ "gobekli-tepe": [
+  {
+   "file": "plates/gobekli-tepe/g-bekli-tepe-urfa.jpg",
+   "caption": "Overview of the main excavation area at Göbekli Tepe, showing stone enclosures with upright T-shaped pillars.",
+   "commons_file": "File:Göbekli Tepe, Urfa.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "credit": "Teomancimit",
+   "source_url": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
+   "width": 1400,
+   "height": 930
+  }
+ ],
+ "troy-hisarlik": [
+  {
+   "file": "plates/troy-hisarlik/hisarl-k-ancient-city-of-troy.jpg",
+   "caption": "The mound of Hisarlık in Çanakkale Province, Turkey, identified as the site of ancient Troy.",
+   "commons_file": "File:Hisarlık (Ancient City of Troy).jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "credit": "Barrowbob",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hisarl%C4%B1k_(Ancient_City_of_Troy).jpg",
+   "width": 1400,
+   "height": 1050
+  },
+  {
+   "file": "plates/troy-hisarlik/trojan-walls-from-level-vi.jpg",
+   "caption": "Fortification walls of Troy VI, the Late Bronze Age layer now linked to Hittite Wilusa.",
+   "commons_file": "File:Trojan walls from level VI.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "credit": "Ertly",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Trojan_walls_from_level_VI.jpg",
+   "width": 1400,
+   "height": 412
   }
  ]
 }

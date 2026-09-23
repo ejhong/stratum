@@ -1,0 +1,120 @@
+{
+  "id": "bluefish-caves",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Status 'open' is right for 2026. Revise: the record mixes claim moments (1979 year/features, later pre-LGM age, 2017 limit), misreads Potter 2018 (S10), omits the Nelson 1986 bone-dating precedent, and has several unsupported details. Sources all exist; trustworthy after fixes.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "year_claimed / claimed_age / claim",
+      "problem": "The record mixes three claim moments. year_claimed 1979 is the claim of use 13,000–10,000 BP (S2 abstract). claimed_age (~24,800 14C BP, pre-LGM) is a later claim that S1 attributes to refs 24–27 (Morlan & Cinq-Mars 1982; Cinq-Mars 1990; Cinq-Mars & Morlan 1999; Harington & Cinq-Mars 2008). status judges the 2017 claim of ~24,000 cal BP. As a result, the leap factor, time-to-resolution and feature coding all compare mismatched claims.",
+      "fix": "Anchor the record on the pre-LGM claim. Read Cinq-Mars 1990 (Revista de Arqueología Americana 1:9–32; S1 ref 24) and S3 to find the first print of the ≥23,500 BP bone dates, set year_claimed to that year, and keep 1979 as a timeline event. If the first print cannot be confirmed, keep 1979 but say so explicitly in claim and notes, and code the features for the later claim as 'unknown'.",
+      "evidence": "S1 full text: 'initial suggestion that human occupation of Eastern Beringia occurred before the LGM, as early as 24,800 14C BP [24–27]'; S2 abstract: 'between 13,000 and 10,000 B.P.'"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim",
+      "problem": "The features are coded for 1979–84, i.e. for the 1979 claim, not the LGM claim. peer_reviewed_report 'yes' credits the 1979 CJA paper, which claimed only 13,000–10,000 BP. It is unverified whether the LGM dates had a full peer-reviewed report within five years: S1 cites a 1990 journal article, a 1999 edited volume and a 2008 research note (S4). multiple_labs may be 'yes' for a ~1990 claim, since S1 Table 1 includes earlier dates from more than one lab (e.g. RIDDL-278). Two statements are not supported by S1's readable text, which cites four publications for the 24,800 BP date: the multiple_labs note ('later AMS dates ... listed only in a database') and notes ('never formally published').",
+      "fix": "Recode all nine features for the chosen claim year ±5 using period sources, and mark 'unknown' where Cinq-Mars 1990 is unread. Drop the database and never-published statements unless a source says so.",
+      "evidence": "S1 (refs 24–27; RIDDL-278 described as an 'old date' obtained earlier); S4 (2008 Beringian Research Note)."
+    },
+    {
+      "severity": "major",
+      "field": "objections[2] / timeline[7] / key_critics",
+      "problem": "S10 is misrepresented. Its only Bluefish sentence is: 'The enigmatic record at Bluefish Cave raises the possibility of population pulses into eastern Beringia as early as 24,000 years ago.' Greps of the full text found no argument that an LGM settlement 'should have left more sites' and nothing on a 'lack of later LGM-age sites'. S10's related caution is to 'distinguish potential failed migrations versus the direct ancestors of Clovis'. The objection therefore attributes to Potter et al. an argument they did not make there, and it hides a mildly supportive statement.",
+      "fix": "Source 'no other sites of similar age' to S1 (abstract: controversial 'in the absence of other sites of similar age'). Set raised_by to the works in S1 refs 36–38 (Dixon 1999; Hoffecker & Elias 2007; Goebel, Waters & O'Rourke 2008) and year to 1999. Keep the site-density argument only with a source that makes it: Potter et al. 2017, Quaternary International, doi 10.1016/j.quaint.2017.02.034, is a candidate but was not checked. Rewrite the 2018 timeline entry in S10's actual words, and source Potter as a critic to S11.",
+      "evidence": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6082647/fullTextXML (S10 full text)"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim",
+      "problem": "The label 'No accepted sites in eastern Beringia or the Americas older than ~14,000 cal BP' goes beyond S1, which says only that the weight of evidence placed the first peopling of North America at ca. 14,000 cal BP. It is also 2017 orthodoxy attached to a 1979 claim. For 2017, 'the Americas' is wrong: Monte Verde (~14,500 cal BP) had been accepted since 1997.",
+      "fix": "Use the orthodoxy of the chosen claim year. For the Americas, that is Clovis-first (~11,500 14C BP, about 13,400 cal BP). For eastern Beringia, it is Nenana at 11,500–12,000 14C BP (S6; about 13,400–13,900 cal BP; calibrate formally). limit_bp stays near 13,500–14,000, so the leap factor barely moves; the label and source are what need fixing.",
+      "evidence": "S1 abstract; S6 abstract; Meltzer DJ, Grayson DK et al. 1997, On the Pleistocene antiquity of Monte Verde, American Antiquity, doi 10.2307/281884."
+    },
+    {
+      "severity": "major",
+      "field": "objections (no 'dating' objection)",
+      "problem": "Contamination and dating error are not considered, yet the maximum claimed age rests on 1980s bone dates. These are 24,800 BP on a split caribou tibia that S4 says only 'could be a broken fleshing tool', and ~23,500 BP on a mammoth bone core and flake. The regional precedent is Nelson et al. 1986 (Morlan a co-author): four northern Yukon bone 'artifacts' thought to be Upper Pleistocene proved late Holocene, and the Old Crow caribou-tibia flesher's first date 'was in error by almost 26,000 years'. Also, a date on flaked mammoth bone gives the animal's death, not the flaking, because old or frozen bone could have been worked later.",
+      "fix": "Add a 'dating' objection (outcome unresolved) citing Nelson DE et al. 1986, Science 232(4751):749–751, doi 10.1126/science.232.4751.749. For balance, add to its outcome_note that the one cut-marked bone dated by two labs gave concordant results (RIDDL-278: 17,440 ± 220; OxA-33774/33775: 17,660 ± 100 and 17,610 ± 100 14C BP; S1), but that the pre-LGM specimens have not been re-dated.",
+      "evidence": "Nelson et al. 1986 abstract (OpenAlex); S4 archived PDF; S1 full text."
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age",
+      "problem": "bp_max 30000 ('about 30,000 cal BP') passes on a rounding that I could not find in S1's readable text; S1 gives only 'as early as 24,800 14C BP'. Under IntCal20, 24,800 14C BP is roughly 29,000 cal BP (approximate), so the maximum is overstated by about 1,000 years. The number also rests on a tibia whose artifact status is uncertain.",
+      "fix": "Calibrate 24,800 BP with IntCal20 (Reimer et al. 2020, Radiocarbon 62(4):725–757) in OxCal or CALIB and use the upper 95% bound for bp_max. Name the calibration curve in the label, and note in basis that S4 calls the tibia only a possible tool.",
+      "evidence": "S1 full text; S4 archived PDF."
+    },
+    {
+      "severity": "minor",
+      "field": "status_note / timeline[6] / timeline[11]",
+      "problem": "Status 'open' is correct and should stay; 'vindicated' and 'partial' do not fit. Against 'vindicated': S9 and S11 are unanswered in anything read, and the site's own 2026 team says the evidence 'spurs controversy' (S15). For the claim: S10, S14, S15 and the 2023 rockfall experiment (S13). 'Partial' does not fit because nothing is settled: the original pre-LGM figure (24,800 14C BP) has not been reproduced by any direct date since 2017, but it is unconfirmed, not refuted. The status_note has these problems: calibrations are mixed, since the record uses ~24,000 cal BP (IntCal13) while the team's 2024 and 2026 abstracts give ~23,500 cal BP. S15 is called a 'review' but is a primary sedaDNA study. It is quoted only for 'spurs controversy', yet the same paper says the cut marks 'indicate human presence in eastern Beringia during the LGM'. S11, the clearest recent dissent, is unused.",
+      "fix": "Use ~23,500 cal BP (IntCal20) throughout and note the IntCal13 figure once. Quote both halves of S15, and call it a 2026 site study. Cite S11 for residual dissent, and mention the 2023 rockfall experiment (S13) as support.",
+      "evidence": "S15 full text; S16 abstract; Bourgeon & Mandel 2024 abstract (doi 10.14430/arctic78984); S11 abstract."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[0]",
+      "problem": "Two facts relevant to the mixing objection are missing. S1 says the depth of most dated specimens 'could not be established from the archival records', which is a provenience and recording gap. S15 reports that Cave III radiocarbon ages show 'no linear relationship' with depth, which fits reworking of the loess fill. The objection is also older than 2020 (S1 refs 36–38).",
+      "fix": "Add both findings to outcome_note, and set year to the first documented raising of the objection.",
+      "evidence": "S1 full text; S15 full text."
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1] / key_critics",
+      "problem": "raised_by says 'Unnamed critics', although S1 names the works that doubted the bones' human origin (refs 36–38). The outcome_note's claim that rockfall marks are 'distinguishable from cut marks' goes beyond S13's title, which is all that was read. key_critics lists Dixon without any source in the record.",
+      "fix": "Name the critics and cite S1, or add Dixon 1999. Restate S13 in its title's terms: rockfall is 'an improbable cause for bone surface modification'. Also consider a findings-log entry: Hoffecker and O'Rourke co-authored works that S1 cites for doubts (2007, 2008) and later co-authored S14 and S15, which treat the evidence as suggestive or indicative. Check the 2007 and 2008 texts first.",
+      "evidence": "S1 passage citing [29, 36–38] and its reference list."
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.documented_context",
+      "problem": "The note cites S2 for '5 cm spits' and for carnivore-accumulated bone and rockfall debris. S2's abstract, which is all that was read, supports only 'primary (or nearly so)' context. The carnivore point comes from the 1998 and 2017 studies (S7, S1), which is hindsight outside the five-year window.",
+      "fix": "Cite S2 only for near-primary context, and source the excavation method to a text that states it. Move the carnivore point to objections.",
+      "evidence": "S2 abstract (canadianarchaeology.com)."
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[0]",
+      "problem": "S4's full text, read from the raw archived PDF, does not mention 1975 or a University of Toronto aerial survey.",
+      "fix": "Find a source for the event (e.g. S2 full text) or remove it. The freed slot could hold the first print of the pre-LGM claim or the 2022 Cave IV test; stay within 12 timeline entries.",
+      "evidence": "https://web.archive.org/web/20220115094903id_/https://yukon.ca/sites/yukon.ca/files/tc/tc-research-note-bluefish-caves-2008.pdf"
+    },
+    {
+      "severity": "minor",
+      "field": "sources (completeness)",
+      "problem": "Several key publications are missing: Cinq-Mars 1990 and Cinq-Mars & Morlan 1999, the original statements of the pre-LGM claim (S1 refs 24–25); Bourgeon & Burke 2021, the proponents' main post-2017 study; and Bourgeon & Mandel 2024 (open access), which describes visits 'as early as 23,500 calibrated years BP'. The White Sands context for the prior objection is also absent.",
+      "fix": "Add these sources. S12, S13 and Bourgeon & Burke 2021 have no public abstracts, so try institutional copies. In objections[2].outcome_note, add that LGM-age footprints south of the ice weaken the general 'no LGM sites' prior, but not the Beringian site-density argument.",
+      "evidence": "Crossref: 10.1016/j.quascirev.2021.107140 (QSR 269:107140); 10.14430/arctic78984; Pigati et al. 2023, Science, 10.1126/science.adh5007."
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests[3]",
+      "problem": "Test excavation at Cave IV began in 2022: two 1 × 1 m units reached about 1 m without hitting bedrock (S17). Neither the test nor the timeline says so. The test also does not mention permits or First Nation involvement; S18 quotes a Vuntut Gwitchin official on the site.",
+      "fix": "Reframe the test as completing the 2022 Cave IV testing to bedrock, carried out by the permitted team with community partners.",
+      "evidence": "https://kgs.ku.edu/bluefish-caves (S17); S18."
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Abstract and full-text greps confirm: 1977–1987 excavations; ca. 14,000 cal BP (North America, 2017); 36,000 bones; 15 cut-marked plus 20 probable (<1%); wolves, lions and foxes; OxA-33778 horse mandible 19,650 ± 130; OxA-33777 caribou pelvis; 24,800 14C BP. Not found in readable text: 'or the Americas', 30,000 cal BP, GSC-only/database claims, 5 cm spits."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Abstract confirms the 1978 test excavation, '13,000 and 10,000 B.P.' and 'primary (or nearly so)' context. It does not mention 5 cm spits or carnivore/rockfall content."},
+    {"id": "S3", "exists": true, "supports_citation": "could-not-read", "note": "Crossref match. Not read. S1 lists it among the works cited for the 24,800 BP suggestion."},
+    {"id": "S4", "exists": true, "supports_citation": "partial", "note": "Raw archived PDF read. It confirms ~23,500 BP on the mammoth core and flake (Cave II, AMS average), 24,800 BP on a split caribou tibia that 'could be a broken fleshing tool', and activity 'about 25,000 to 12,000 BP'. It does not mention 1975 or the University of Toronto."},
+    {"id": "S5", "exists": true, "supports_citation": "could-not-read", "note": "Only the abstract was reachable, and it gives no dates. The 23,500/24,800 dates and the personal-communication detail were not re-verified."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "check_sources got HTTP 429, but lookup confirmed the metadata. Abstract supports the 2003 timeline entry verbatim."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Abstract: predators were the likely primary accumulators in Cave I, and Caves II–III collected natural deaths 'monitored by humans and other predator/scavengers'. Not cited in any field."},
+    {"id": "S8", "exists": true, "supports_citation": "yes", "note": "Abstract: most remains are non-human in origin; a small component may be human-modified."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Abstract supports disturbed contexts, lithic/date association, natural bone alteration, and 'provocative but unconvincing'."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "Full text (Europe PMC PMC6082647) confirms 'enigmatic'. The site-density argument and the lack of later LGM sites are not in the text; S10 says the record 'raises the possibility of population pulses ... as early as 24,000 years ago'."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "Abstract: all purported Pre-Paleoindian (>16,000 cal BP) sites are 'equivocal'. Bluefish is not named. Not cited in any field."},
+    {"id": "S12", "exists": true, "supports_citation": "could-not-read", "note": "No abstract in OpenAlex or Semantic Scholar. 'exists' is the correct label."},
+    {"id": "S13", "exists": true, "supports_citation": "partial", "note": "Title only (no public abstract). It supports the 2023 timeline wording, but not 'distinguishable from cut marks'."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Full text (PMC9832545): marks 'suggest that humans occupied the site during the LGM, although their interpretation has been disputed'."},
+    {"id": "S15", "exists": true, "supports_citation": "yes", "note": "Full text: 'spurs controversy as site formation processes and bone taphonomy remain unclear'; Caves I–II sediments removed to bedrock. The same paper says the cut marks 'indicate human presence ... during the LGM'."},
+    {"id": "S16", "exists": true, "supports_citation": "yes", "note": "Abstract: carnivores were the principal agent in Cave III, with no signs of human activity. It frames use of Caves I–II 'as early as 23,500 years ago'."},
+    {"id": "S17", "exists": true, "supports_citation": "yes", "note": "2019 Cave III test found no lithics; Cave IV was found and tested in 2022; the context 'has been challenged'."},
+    {"id": "S18", "exists": true, "supports_citation": "yes", "note": "Critics proposed rockfall or carnivores; funding 'trickled to a stop'. Journalism."}
+  ]
+}

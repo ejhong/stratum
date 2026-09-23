@@ -1,454 +1,467 @@
 {
-  "id": "pedra-furada",
-  "name": "Boqueirão da Pedra Furada",
-  "hook": "A Brazilian rock shelter where charcoal and flaked pebbles may place people 30,000+ years ago.",
-  "location": {
-    "country": "Brazil",
-    "region": "Piauí",
-    "continent": "South America"
+ "id": "pedra-furada",
+ "name": "Boqueirão da Pedra Furada",
+ "hook": "A Brazilian rock shelter where charcoal and flaked pebbles may place people 30,000+ years ago.",
+ "location": {
+  "country": "Brazil",
+  "region": "Piauí",
+  "continent": "South America"
+ },
+ "anomaly_type": "chronology",
+ "claim": "Niède Guidon's team argued that hearths and flaked quartz and quartzite pebbles, in layers radiocarbon-dated to about 31,500 BP (1984) and later to about 50,000 BP, show people lived in the shelter long before Clovis.",
+ "claimed_age": {
+  "label": "≥31,500 14C BP (1984); ~50,000 b.p. by 1996",
+  "bp_min": 36000,
+  "bp_max": 53000,
+  "basis": "14C on hearth charcoal (31,500±950 BP in S1; 50,000 in S7). Calendar values are this record's SHCal20 medians; the older one nears the curve's 55 ka limit.",
+  "source": "S1"
+ },
+ "accepted_age": null,
+ "orthodoxy_at_claim": {
+  "label": "Clovis-first: people reached the Americas near the end of the last glaciation, marked by Clovis at ~11,200 14C BP (≈13,100 cal BP, IntCal20).",
+  "limit_bp": 13100,
+  "source": "S4"
+ },
+ "year_claimed": 1984,
+ "key_proponents": [
+  "Niède Guidon",
+  "Georgette Delibrias",
+  "Fabio Parenti",
+  "Anne-Marie Pessis",
+  "Eric Boëda"
+ ],
+ "key_critics": [
+  "David J. Meltzer",
+  "James M. Adovasio",
+  "Tom D. Dillehay",
+  "Thomas F. Lynch",
+  "Luis A. Borrero",
+  "Yan Axel Gómez Coutouly"
+ ],
+ "evidence_types": [
+  "radiocarbon",
+  "tl",
+  "stratigraphy",
+  "lithics",
+  "features",
+  "art"
+ ],
+ "independent_methods_count": 4,
+ "features_at_claim": {
+  "unambiguous_signal": {
+   "value": "no",
+   "note": "Evidence was flaked pebbles and charcoal in hearths, which natural processes can mimic (S3); the one painted hearth stone lay in a 17,000 BP level (S1).",
+   "source": "S3"
   },
-  "anomaly_type": "chronology",
-  "claim": "Niède Guidon's team argued that hearths and flaked quartz and quartzite pebbles, in layers radiocarbon-dated to about 31,500 BP (1984) and later to about 50,000 BP, show people lived in the shelter long before Clovis.",
-  "claimed_age": {
-    "label": "≥31,500 14C BP (1984); ~50,000 b.p. by 1996",
-    "bp_min": 36000,
-    "bp_max": 53000,
-    "basis": "14C on hearth charcoal (31,500±950 BP in S1; 50,000 in S7). Calendar values are this record's SHCal20 medians; the older one nears the curve's 55 ka limit.",
-    "source": "S1"
+  "documented_context": {
+   "value": "partial",
+   "note": "Excavated from 1978 in recorded, dated layers, but the fill came from wall decay and valley runoff, leaving the link between stones, charcoal and people open (S1).",
+   "source": "S1"
   },
-  "accepted_age": null,
-  "orthodoxy_at_claim": {
-    "label": "Clovis-first: people reached the Americas near the end of the last glaciation, marked by Clovis at ~11,200 14C BP (≈13,100 cal BP, IntCal20).",
-    "limit_bp": 13100,
-    "source": "S4"
+  "multiple_dating_methods": {
+   "value": "no",
+   "note": "Only radiocarbon on charcoal was reported in 1984–86 (S1, S2).",
+   "source": "S2"
   },
-  "year_claimed": 1984,
-  "key_proponents": [
-    "Niède Guidon",
-    "Georgette Delibrias",
-    "Fabio Parenti",
-    "Anne-Marie Pessis",
-    "Eric Boëda"
-  ],
-  "key_critics": [
-    "David J. Meltzer",
-    "James M. Adovasio",
-    "Tom D. Dillehay",
-    "Thomas F. Lynch",
-    "Luis A. Borrero",
-    "Yan Axel Gómez Coutouly"
-  ],
-  "evidence_types": [
-    "radiocarbon",
-    "tl",
-    "stratigraphy",
-    "lithics",
-    "features",
-    "art"
-  ],
-  "independent_methods_count": 4,
-  "features_at_claim": {
-    "unambiguous_signal": {
-      "value": "no",
-      "note": "Evidence was flaked pebbles and charcoal in hearths, which natural processes can mimic (S3); the one painted hearth stone lay in a 17,000 BP level (S1).",
-      "source": "S3"
-    },
-    "documented_context": {
-      "value": "partial",
-      "note": "Excavated from 1978 in recorded, dated layers, but the fill came from wall decay and valley runoff, leaving the link between stones, charcoal and people open (S1).",
-      "source": "S1"
-    },
-    "multiple_dating_methods": {
-      "value": "no",
-      "note": "Only radiocarbon on charcoal was reported in 1984–86 (S1, S2).",
-      "source": "S2"
-    },
-    "multiple_labs": {
-      "value": "no",
-      "note": "All Pedra Furada dates in 1984 carry Gif lab codes (S1); dates from three labs are reported only by 1994 (S5).",
-      "source": "S1"
-    },
-    "professional_recovery": {
-      "value": "yes",
-      "note": "Excavated by Guidon's Franco-Brazilian mission (EHESS, CNRS) from 1978 (S1).",
-      "source": "S1"
-    },
-    "peer_reviewed_report": {
-      "value": "partial",
-      "note": "Short reports in 1984 and in Nature (1986); the site was published in detail only in 2001 and 2003 (S11).",
-      "source": "S11"
-    },
-    "material_accessible": {
-      "value": "unknown",
-      "note": "No record found for 1984–89. In 1993 the team invited Meltzer, Adovasio and Dillehay to see the site and evidence (S4).",
-      "source": "S4"
-    },
-    "independent_teams": {
-      "value": "no",
-      "note": "Data in 1984–86 came from Guidon's mission and its Gif dating laboratory (S1, S2).",
-      "source": "S2"
-    },
-    "proponent_stake": {
-      "value": "no",
-      "note": "Academic research funded by CNPq and CNRS (S1); no commercial, religious or nationalist motive found in the sources read.",
-      "source": "S1"
-    }
+  "multiple_labs": {
+   "value": "no",
+   "note": "All Pedra Furada dates in 1984 carry Gif lab codes (S1); dates from three labs are reported only by 1994 (S5).",
+   "source": "S1"
   },
-  "objections": [
-    {
-      "text": "Flaked pebbles may be geofacts: cobbles falling from the cliff or moved by waterfall runoff break naturally and can mimic simple tools.",
-      "kind": "identification",
-      "raised_by": "Meltzer, Adovasio & Dillehay; Dennell & Hurcombe",
-      "year": 1994,
-      "outcome": "unresolved",
-      "outcome_note": "Proponents cite flaking features and site taphonomy (S15); a 2022 review finds human origin still undemonstrated (S19).",
-      "source": "S6"
-    },
-    {
-      "text": "The 'hearths' may be natural: wildfires make charcoal, and stone clusters can form without people.",
-      "kind": "identification",
-      "raised_by": "Lynch; Meltzer, Adovasio & Dillehay",
-      "year": 1990,
-      "outcome": "unresolved",
-      "outcome_note": "Proponents say hearth pebbles were chosen by people (S15); reviews still judge the Pleistocene evidence ambiguous (S12).",
-      "source": "S3"
-    },
-    {
-      "text": "Wild capuchins in the same park break quartzite cobbles, leaving flakes and cores like simple human tools; ancestral monkeys could explain the finds.",
-      "kind": "identification",
-      "raised_by": "Fiedel",
-      "year": 2017,
-      "outcome": "unresolved",
-      "outcome_note": "Dated capuchin tool sites in the park reach only ~3,000 years (S16); how far back monkeys used stone here is unknown.",
-      "source": "S14"
-    },
-    {
-      "text": "The claim conflicts with the well-dated Paleoindian horizon; only unambiguous, replicated cases should overturn it.",
-      "kind": "prior",
-      "raised_by": "Lynch",
-      "year": 1990,
-      "outcome": "unresolved",
-      "outcome_note": "Clovis-first has since collapsed (S18), but claims older than the LGM remain contested, so this site is not settled either way.",
-      "source": "S3"
-    },
-    {
-      "text": "A simple pebble industry that barely changes over tens of thousands of years is unlike known human behaviour.",
-      "kind": "prior",
-      "raised_by": "Borrero",
-      "year": 1995,
-      "outcome": "unresolved",
-      "outcome_note": "Proponents describe a long-lived tool tradition; Borrero says no mechanism for such stasis has been offered (S12).",
-      "source": "S12"
-    }
-  ],
-  "status": "open",
-  "status_note": "The deposits' great age is broadly accepted; whether people made the Pleistocene 'tools' and 'hearths' is not. Proponents cite nearby Piauí sites to ~41 ka; critics say human origin is undemonstrated.",
-  "year_resolved": null,
-  "what_settled_it": null,
-  "settled_by": [
-    "not-settled"
-  ],
-  "failure_mode": "none",
-  "timeline": [
-    {
-      "year": 1978,
-      "event": "Guidon's Franco-Brazilian mission begins excavating the painted shelter.",
-      "source": "S1"
-    },
-    {
-      "year": 1984,
-      "event": "Guidon reports hearth charcoal dated ≥25,000 to 31,500 BP, with flaked quartz and quartzite pebbles.",
-      "source": "S1"
-    },
-    {
-      "year": 1986,
-      "event": "Nature paper: 14C dates to 32,160 BP; fallen painted fragments in a 17,000 BP level.",
-      "source": "S2"
-    },
-    {
-      "year": 1990,
-      "event": "Lynch's review questions the newly reported Brazilian and Chilean sites.",
-      "source": "S3"
-    },
-    {
-      "year": 1994,
-      "event": "After a 1993 visit, Meltzer, Adovasio and Dillehay question the evidence in Antiquity.",
-      "source": "S7"
-    },
-    {
-      "year": 1996,
-      "event": "Guidon's team replies, describing dated layers from 50,000 years b.p.",
-      "source": "S7"
-    },
-    {
-      "year": 2003,
-      "event": "Improved AMS dating of basal hearth charcoal gives ages beyond 50,000 14C years for seven of nine samples.",
-      "source": "S8"
-    },
-    {
-      "year": 2014,
-      "event": "Boëda's team reports new work at the shelter and a nearby open-air site, dated by 14C and OSL to >20,000 years.",
-      "source": "S10"
-    },
-    {
-      "year": 2016,
-      "event": "Capuchin monkeys in the park are shown to flake stone, making tool-like flakes and cores.",
-      "source": "S13"
-    },
-    {
-      "year": 2017,
-      "event": "Fiedel suggests water, gravity or ancestral capuchins could explain the 'tools'.",
-      "source": "S14"
-    },
-    {
-      "year": 2021,
-      "event": "Boëda et al. describe a shaped stone artefact from the nearby open-air site dated ~24,000 cal BP.",
-      "source": "S18"
-    },
-    {
-      "year": 2022,
-      "event": "Gómez Coutouly finds the human origin of the region's pre-LGM artifacts undemonstrated.",
-      "source": "S19"
-    }
-  ],
-  "decisive_tests": [
-    {
-      "test": "Blind test: independent lithic analysts sort archived Pleistocene pieces mixed with cobbles broken by rockfall and runoff below the same cliff and by capuchins in the park.",
-      "would_show": "Whether the Pleistocene pieces can be told from natural and monkey breakage better than chance.",
-      "cost": "medium"
-    },
-    {
-      "test": "Re-map archived piece-plots: test whether Pleistocene flaked pieces cluster around hearths or track distance to the waterfall talus and drip line.",
-      "would_show": "Clustering at hearths favours people; a gradient tied to the talus favours natural breakage.",
-      "cost": "low"
-    },
-    {
-      "test": "Analyse archived Pleistocene hearth sediments and stones for heating temperature, fire structure (micromorphology) and faecal biomarkers, with local wildfire layers as controls.",
-      "would_show": "Repeated, contained fires or human faecal stanols would support hearths; wildfire-like signals would not.",
-      "cost": "medium"
-    },
-    {
-      "test": "A permitted team samples a nearby cliff-foot deposit of the same age without archaeology to measure the natural rate of flaked cobbles and burnt stone clusters.",
-      "would_show": "If such 'tools' and 'hearths' are as common off-site, the claim fails; if rare, human agency gains weight.",
-      "cost": "high"
-    }
-  ],
-  "falsifier": "Refuted if blind tests show the Pleistocene pieces match rockfall or capuchin breakage and matched off-site deposits hold similar 'hearths'. Vindicated by human remains, refitted knapping sequences or human biomarkers in sealed Pleistocene layers.",
-  "sources": [
-    {
-      "id": "S1",
-      "citation": "Guidon, N. 1984. As primeiras ocupações humanas da área Arqueológica de São Raimundo Nonato - Piauí. Revista de Arqueologia 2(1): 38–46.",
-      "doi": "10.24885/sab.v2i1.34",
-      "url": null,
-      "kind": "primary",
-      "access": "open",
-      "verification": "checked",
-      "note": "Full text read: shelter charcoal ≥25,000 to 31,500±950 BP (Gif codes) with flaked quartz/quartzite pebbles; red paint on a 17,000 BP hearth stone; CNPq/CNRS funding."
-    },
-    {
-      "id": "S2",
-      "citation": "Guidon, N. & Delibrias, G. 1986. Carbon-14 dates point to man in the Americas 32,000 years ago. Nature 321(6072): 769–771.",
-      "doi": "10.1038/321769a0",
-      "url": null,
-      "kind": "primary",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: charcoal 14C from 6,160±130 to 32,160±100 BP (as printed); 17,000±400 BP level with fallen pictograph fragments. Authors at EHESS and CNRS-CEA Gif."
-    },
-    {
-      "id": "S3",
-      "citation": "Lynch, T.F. 1990. Glacial-age man in South America? A critical review. American Antiquity 55(1): 12–36.",
-      "doi": "10.2307/281490",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: questions recently found Brazilian and Chilean sites; natural processes mimic informal hearths and simple artifacts. Abstract does not name Pedra Furada; body not read."
-    },
-    {
-      "id": "S4",
-      "citation": "Meltzer, D.J., Adovasio, J.M. & Dillehay, T.D. 1994. On a Pleistocene human occupation at Pedra Furada, Brazil. Antiquity 68(261): 695–714.",
-      "doi": "10.1017/S0003598X00047414",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Opening paragraph read: long-held view of settlement at Clovis ~11,200 years ago; authors visited at the team's invitation. Body paywalled, not read."
-    },
-    {
-      "id": "S5",
-      "citation": "Guidon, N., Parenti, F., Da Luz, M. de F., Guérin, C. & Faure, M. 1994. Le plus ancien peuplement de l'Amérique : le Paléolithique du Nordeste brésilien. Bulletin de la Société préhistorique française 91(4–5): 246–250.",
-      "doi": "10.3406/bspf.1994.9732",
-      "url": null,
-      "kind": "primary",
-      "access": "open",
-      "verification": "checked",
-      "note": "First page read on Persée: charcoal dates, the oldest beyond 48,000 BP, obtained by three laboratories; fill mainly rockfall from the shelter wall."
-    },
-    {
-      "id": "S6",
-      "citation": "Dennell, R. & Hurcombe, L. 1995. Comment on Pedra Furada. Antiquity 69(264): 604.",
-      "doi": "10.1017/S0003598X0008203X",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: the issue is whether the flaked stones are artefacts or natural fractures made on falling stone."
-    },
-    {
-      "id": "S7",
-      "citation": "Guidon, N., Pessis, A.-M., Parenti, F., Fontugue, M. & Guérin, C. 1996. Nature and age of the deposits in Pedra Furada, Brazil: reply to Meltzer, Adovasio & Dillehay. Antiquity 70(268): 408ff.",
-      "doi": "10.1017/S0003598X00083356",
-      "url": null,
-      "kind": "reply",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: dated layers 'from 50,000 years b.p.'; critics visited end of 1993 and questioned the evidence in 1994. 'Fontugue' as spelled in Crossref (Fontugne)."
-    },
-    {
-      "id": "S8",
-      "citation": "Santos, G.M., Bird, M.I., Parenti, F., Fifield, L.K., Guidon, N. & Hausladen, P.A. 2003. A revised chronology of the lowest occupation layer of Pedra Furada Rock Shelter, Piauí, Brazil: the Pleistocene peopling of the Americas. Quaternary Science Reviews 22(21–22): 2303–2310.",
-      "doi": "10.1016/S0277-3791(03)00205-1",
-      "url": null,
-      "kind": "primary",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read (St Andrews portal): ABOX-SC AMS on nine hearth charcoals: five >56 ka BP, two >50 ka, two minimum ages of 41.3 and 47.2 ka."
-    },
-    {
-      "id": "S9",
-      "citation": "Valladas, H., Mercier, N., Michab, M., Joron, J.L., Reyss, J.L. & Guidon, N. 2003. TL age-estimates of burnt quartz pebbles from the Toca do Boqueirão da Pedra Furada (Piaui, Northeastern Brazil). Quaternary Science Reviews 22(10–13): 1257–1263.",
-      "doi": "10.1016/S0277-3791(03)00029-5",
-      "url": null,
-      "kind": "primary",
-      "access": "paywalled",
-      "verification": "exists",
-      "note": "Paywalled; metadata confirmed (Crossref, HAL). Abstract seen only via a search summary, so not used for any key field."
-    },
-    {
-      "id": "S10",
-      "citation": "Boëda, E., Clemente-Conte, I., Fontugne, M., Lahaye, C., Pino, M., Felice, G.D., Guidon, N. et al. 2014. A new late Pleistocene archaeological sequence in South America: the Vale da Pedra Furada (Piauí, Brazil). Antiquity 88(341): 927–941.",
-      "doi": "10.1017/S0003598X00050845",
-      "url": null,
-      "kind": "primary",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: new work at the shelter and a nearby open-air site; occupation >20,000 years argued from 14C and OSL dates and stone-tool analysis."
-    },
-    {
-      "id": "S11",
-      "citation": "Aimola, G., Andrade, C., Mota, L. & Parenti, F. 2014. Final Pleistocene and Early Holocene at Sitio do Meio, Piauí - Brazil: stratigraphy and comparison with Pedra Furada. Journal of Lithic Studies 1(2): 5–24.",
-      "doi": "10.2218/jls.v1i2.1125",
-      "url": null,
-      "kind": "other",
-      "access": "open",
-      "verification": "checked",
-      "note": "Full text read: the shelter was published in detail (Parenti 2001; Santos et al. 2003) after the debate; waterfalls feeding a cobble talus are key stone-breaking agents there."
-    },
-    {
-      "id": "S12",
-      "citation": "Borrero, L.A. 2016. Ambiguity and debates on the early peopling of South America. PaleoAmerica 2(1): 11–21.",
-      "doi": "10.1080/20555563.2015.1136498",
-      "url": null,
-      "kind": "review",
-      "access": "open",
-      "verification": "checked",
-      "note": "Full text read (CONICET copy): Piauí sites lack major chronological problems but show 'archaeological insufficiencies'; questions 50,000-year tool stasis (Borrero 1995)."
-    },
-    {
-      "id": "S13",
-      "citation": "Proffitt, T., Luncz, L.V., Falótico, T., Ottoni, E.B., de la Torre, I. & Haslam, M. 2016. Wild monkeys flake stone tools. Nature 539(7627): 85–88.",
-      "doi": "10.1038/nature20112",
-      "url": null,
-      "kind": "other",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: wild capuchins in Serra da Capivara break stones, making flakes and cores with the morphology of intentional hominin tools."
-    },
-    {
-      "id": "S14",
-      "citation": "Fiedel, S. 2017. Did monkeys make the pre-Clovis pebble tools of northeastern Brazil? PaleoAmerica 3(1): 6–12.",
-      "doi": "10.1080/20555563.2016.1273000",
-      "url": null,
-      "kind": "critique",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: monkeys flake pebbles near the shelters; the 'tools' may be geofacts from water and gravity, human work, or made by ancestral capuchins."
-    },
-    {
-      "id": "S15",
-      "citation": "Parenti, F., Cannell, A., Debard, E., Faure, M. & Okumura, M. 2018. Genesis and taphonomy of the archaeological layers of Pedra Furada rock-shelter, Brazil [Genèse et taphonomie des niveaux archéologiques de l'abri de la Pedra Furada, Brésil]. Quaternaire 29(3): 255–269.",
-      "doi": "10.4000/quaternaire.10313",
-      "url": null,
-      "kind": "reply",
-      "access": "open",
-      "verification": "checked",
-      "note": "French abstract read (HAL): no causal link between waterfall talus and tools or structures; hearth pebbles show human selection; monkey flaking resembles old finds."
-    },
-    {
-      "id": "S16",
-      "citation": "Falótico, T., Proffitt, T., Ottoni, E.B., Staff, R.A. & Haslam, M. 2019. Three thousand years of wild capuchin stone tool use. Nature Ecology & Evolution 3(7): 1034–1038.",
-      "doi": "10.1038/s41559-019-0904-4",
-      "url": null,
-      "kind": "other",
-      "access": "open",
-      "verification": "checked",
-      "note": "Accepted manuscript read (Glasgow eprint): capuchin stone-tool deposits in the park dated ~2,400–3,000 years."
-    },
-    {
-      "id": "S17",
-      "citation": "Waters, M.R. 2019. Late Pleistocene exploration and settlement of the Americas by modern humans. Science 365(6449): eaat5447.",
-      "doi": "10.1126/science.aat5447",
-      "url": null,
-      "kind": "review",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: 'Current genetic and archaeological data do not support an earlier (pre-17.5 ka ago) occupation of the Americas.'"
-    },
-    {
-      "id": "S18",
-      "citation": "Boëda, E., Ramos, M., Pérez, A., Hatté, C., Lahaye, C., Pino, M. et al. 2021. 24.0 kyr cal BP stone artefact from Vale da Pedra Furada, Piauí, Brazil: Techno-functional analysis. PLOS ONE 16(3): e0247965.",
-      "doi": "10.1371/journal.pone.0247965",
-      "url": null,
-      "kind": "primary",
-      "access": "open",
-      "verification": "checked",
-      "note": "Full text read: calls LGM-age occupation the current consensus and Clovis-first collapsed; claims Piauí occupation 41–14 cal kyr BP; artefact at 24 cal kyr BP."
-    },
-    {
-      "id": "S19",
-      "citation": "Gómez Coutouly, Y.A. 2022. Questioning the anthropic nature of Pedra Furada and the Piauí sites. PaleoAmerica (published online 2021).",
-      "doi": "10.1080/20555563.2021.1943181",
-      "url": null,
-      "kind": "critique",
-      "access": "open",
-      "verification": "checked",
-      "note": "Abstract read (HAL): after reviewing the Piauí publications, concludes the anthropic nature of LGM/pre-LGM artifacts has not been demonstrated."
-    },
-    {
-      "id": "S20",
-      "citation": "Parenti, F. 2023. Pedra Furada: A reappraisal of its artifacts, structures and stratigraphy. L'Anthropologie 127(2): 103138.",
-      "doi": "10.1016/j.anthro.2023.103138",
-      "url": null,
-      "kind": "review",
-      "access": "paywalled",
-      "verification": "exists",
-      "note": "Paywalled; Crossref metadata confirmed. Latest proponent reappraisal; content not read, so not used for any field."
-    }
-  ],
-  "confidence": "medium",
-  "confidence_note": "Key dates and positions checked in primary texts. The 1994 critique's body and the 2003 TL and 2023 papers were not read, so some objection detail rests on abstracts and replies.",
-  "corrections": [
-    "The claim began before Nature 1986: Guidon (1984) already published Pedra Furada dates of ≥25,000 to 31,500±950 BP with flaked pebbles, so year_claimed is 1984.",
-    "The dispute is mainly about human agency, not dates: a review notes the Piauí sites have no major chronological problems (Borrero 2016).",
-    "Doubts predate the 1994 critique: Lynch (1990) questioned the newly reported Brazilian sites.",
-    "A mundane explanation missing from the starter notes: capuchin monkeys in the same park flake stone (Proffitt et al. 2016; Fiedel 2017).",
-    "The critics visited in December 1993 at the team's invitation; their Antiquity critique appeared in 1994 and the team's replies in 1996."
-  ],
-  "notes": "Not read: the body of Meltzer et al. 1994 (paywalled); its arguments are described from replies and later abstracts (S6, S7, S14). Valladas et al. 2003 reportedly found the pebbles burnt 30 to >100 ka ago with no evidence the heating was human; this was seen only in a search summary and is unverified. The Nature abstract prints 32,160±100 BP; other accounts give ±1,000. Calendar ages were computed for this record with SHCal20 (Hogg et al. 2020) for Brazil and IntCal20 (Reimer et al. 2020) for Clovis.",
-  "review": {
-    "drafted_by": "researcher agent (claude-opus-5-5)",
-    "drafted_on": "2026-09-23",
-    "stage": "draft"
+  "professional_recovery": {
+   "value": "yes",
+   "note": "Excavated by Guidon's Franco-Brazilian mission (EHESS, CNRS) from 1978 (S1).",
+   "source": "S1"
+  },
+  "peer_reviewed_report": {
+   "value": "partial",
+   "note": "Short reports in 1984 and in Nature (1986); the site was published in detail only in 2001 and 2003 (S11).",
+   "source": "S11"
+  },
+  "material_accessible": {
+   "value": "unknown",
+   "note": "No record found for 1984–89. In 1993 the team invited Meltzer, Adovasio and Dillehay to see the site and evidence (S4).",
+   "source": "S4"
+  },
+  "independent_teams": {
+   "value": "no",
+   "note": "Data in 1984–86 came from Guidon's mission and its Gif dating laboratory (S1, S2).",
+   "source": "S2"
+  },
+  "proponent_stake": {
+   "value": "no",
+   "note": "Academic research funded by CNPq and CNRS (S1); no commercial, religious or nationalist motive found in the sources read.",
+   "source": "S1"
   }
+ },
+ "objections": [
+  {
+   "text": "Flaked pebbles may be geofacts: cobbles falling from the cliff or moved by waterfall runoff break naturally and can mimic simple tools.",
+   "kind": "identification",
+   "raised_by": "Meltzer, Adovasio & Dillehay; Dennell & Hurcombe",
+   "year": 1994,
+   "outcome": "unresolved",
+   "outcome_note": "Proponents cite flaking features and site taphonomy (S15); a 2022 review finds human origin still undemonstrated (S19).",
+   "source": "S6"
+  },
+  {
+   "text": "The 'hearths' may be natural: wildfires make charcoal, and stone clusters can form without people.",
+   "kind": "identification",
+   "raised_by": "Lynch; Meltzer, Adovasio & Dillehay",
+   "year": 1990,
+   "outcome": "unresolved",
+   "outcome_note": "Proponents say hearth pebbles were chosen by people (S15); reviews still judge the Pleistocene evidence ambiguous (S12).",
+   "source": "S3"
+  },
+  {
+   "text": "Wild capuchins in the same park break quartzite cobbles, leaving flakes and cores like simple human tools; ancestral monkeys could explain the finds.",
+   "kind": "identification",
+   "raised_by": "Fiedel",
+   "year": 2017,
+   "outcome": "unresolved",
+   "outcome_note": "Dated capuchin tool sites in the park reach only ~3,000 years (S16); how far back monkeys used stone here is unknown.",
+   "source": "S14"
+  },
+  {
+   "text": "The claim conflicts with the well-dated Paleoindian horizon; only unambiguous, replicated cases should overturn it.",
+   "kind": "prior",
+   "raised_by": "Lynch",
+   "year": 1990,
+   "outcome": "unresolved",
+   "outcome_note": "Clovis-first has since collapsed (S18), but claims older than the LGM remain contested, so this site is not settled either way.",
+   "source": "S3"
+  },
+  {
+   "text": "A simple pebble industry that barely changes over tens of thousands of years is unlike known human behaviour.",
+   "kind": "prior",
+   "raised_by": "Borrero",
+   "year": 1995,
+   "outcome": "unresolved",
+   "outcome_note": "Proponents describe a long-lived tool tradition; Borrero says no mechanism for such stasis has been offered (S12).",
+   "source": "S12"
+  }
+ ],
+ "status": "open",
+ "status_note": "The deposits' great age is broadly accepted; whether people made the Pleistocene 'tools' and 'hearths' is not. Proponents cite nearby Piauí sites to ~41 ka; critics say human origin is undemonstrated.",
+ "year_resolved": null,
+ "what_settled_it": null,
+ "settled_by": [
+  "not-settled"
+ ],
+ "failure_mode": "none",
+ "timeline": [
+  {
+   "year": 1978,
+   "event": "Guidon's Franco-Brazilian mission begins excavating the painted shelter.",
+   "source": "S1"
+  },
+  {
+   "year": 1984,
+   "event": "Guidon reports hearth charcoal dated ≥25,000 to 31,500 BP, with flaked quartz and quartzite pebbles.",
+   "source": "S1"
+  },
+  {
+   "year": 1986,
+   "event": "Nature paper: 14C dates to 32,160 BP; fallen painted fragments in a 17,000 BP level.",
+   "source": "S2"
+  },
+  {
+   "year": 1990,
+   "event": "Lynch's review questions the newly reported Brazilian and Chilean sites.",
+   "source": "S3"
+  },
+  {
+   "year": 1994,
+   "event": "After a 1993 visit, Meltzer, Adovasio and Dillehay question the evidence in Antiquity.",
+   "source": "S7"
+  },
+  {
+   "year": 1996,
+   "event": "Guidon's team replies, describing dated layers from 50,000 years b.p.",
+   "source": "S7"
+  },
+  {
+   "year": 2003,
+   "event": "Improved AMS dating of basal hearth charcoal gives ages beyond 50,000 14C years for seven of nine samples.",
+   "source": "S8"
+  },
+  {
+   "year": 2014,
+   "event": "Boëda's team reports new work at the shelter and a nearby open-air site, dated by 14C and OSL to >20,000 years.",
+   "source": "S10"
+  },
+  {
+   "year": 2016,
+   "event": "Capuchin monkeys in the park are shown to flake stone, making tool-like flakes and cores.",
+   "source": "S13"
+  },
+  {
+   "year": 2017,
+   "event": "Fiedel suggests water, gravity or ancestral capuchins could explain the 'tools'.",
+   "source": "S14"
+  },
+  {
+   "year": 2021,
+   "event": "Boëda et al. describe a shaped stone artefact from the nearby open-air site dated ~24,000 cal BP.",
+   "source": "S18"
+  },
+  {
+   "year": 2022,
+   "event": "Gómez Coutouly finds the human origin of the region's pre-LGM artifacts undemonstrated.",
+   "source": "S19"
+  }
+ ],
+ "decisive_tests": [
+  {
+   "test": "Blind test: independent lithic analysts sort archived Pleistocene pieces mixed with cobbles broken by rockfall and runoff below the same cliff and by capuchins in the park.",
+   "would_show": "Whether the Pleistocene pieces can be told from natural and monkey breakage better than chance.",
+   "cost": "medium"
+  },
+  {
+   "test": "Re-map archived piece-plots: test whether Pleistocene flaked pieces cluster around hearths or track distance to the waterfall talus and drip line.",
+   "would_show": "Clustering at hearths favours people; a gradient tied to the talus favours natural breakage.",
+   "cost": "low"
+  },
+  {
+   "test": "Analyse archived Pleistocene hearth sediments and stones for heating temperature, fire structure (micromorphology) and faecal biomarkers, with local wildfire layers as controls.",
+   "would_show": "Repeated, contained fires or human faecal stanols would support hearths; wildfire-like signals would not.",
+   "cost": "medium"
+  },
+  {
+   "test": "A permitted team samples a nearby cliff-foot deposit of the same age without archaeology to measure the natural rate of flaked cobbles and burnt stone clusters.",
+   "would_show": "If such 'tools' and 'hearths' are as common off-site, the claim fails; if rare, human agency gains weight.",
+   "cost": "high"
+  }
+ ],
+ "falsifier": "Refuted if blind tests show the Pleistocene pieces match rockfall or capuchin breakage and matched off-site deposits hold similar 'hearths'. Vindicated by human remains, refitted knapping sequences or human biomarkers in sealed Pleistocene layers.",
+ "sources": [
+  {
+   "id": "S1",
+   "citation": "Guidon, N. 1984. As primeiras ocupações humanas da área Arqueológica de São Raimundo Nonato - Piauí. Revista de Arqueologia 2(1): 38–46.",
+   "doi": "10.24885/sab.v2i1.34",
+   "url": null,
+   "kind": "primary",
+   "access": "open",
+   "verification": "checked",
+   "note": "Full text read: shelter charcoal ≥25,000 to 31,500±950 BP (Gif codes) with flaked quartz/quartzite pebbles; red paint on a 17,000 BP hearth stone; CNPq/CNRS funding."
+  },
+  {
+   "id": "S2",
+   "citation": "Guidon, N. & Delibrias, G. 1986. Carbon-14 dates point to man in the Americas 32,000 years ago. Nature 321(6072): 769–771.",
+   "doi": "10.1038/321769a0",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: charcoal 14C from 6,160±130 to 32,160±100 BP (as printed); 17,000±400 BP level with fallen pictograph fragments. Authors at EHESS and CNRS-CEA Gif."
+  },
+  {
+   "id": "S3",
+   "citation": "Lynch, T.F. 1990. Glacial-age man in South America? A critical review. American Antiquity 55(1): 12–36.",
+   "doi": "10.2307/281490",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: questions recently found Brazilian and Chilean sites; natural processes mimic informal hearths and simple artifacts. Abstract does not name Pedra Furada; body not read."
+  },
+  {
+   "id": "S4",
+   "citation": "Meltzer, D.J., Adovasio, J.M. & Dillehay, T.D. 1994. On a Pleistocene human occupation at Pedra Furada, Brazil. Antiquity 68(261): 695–714.",
+   "doi": "10.1017/S0003598X00047414",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Opening paragraph read: long-held view of settlement at Clovis ~11,200 years ago; authors visited at the team's invitation. Body paywalled, not read."
+  },
+  {
+   "id": "S5",
+   "citation": "Guidon, N., Parenti, F., Da Luz, M. de F., Guérin, C. & Faure, M. 1994. Le plus ancien peuplement de l'Amérique : le Paléolithique du Nordeste brésilien. Bulletin de la Société préhistorique française 91(4–5): 246–250.",
+   "doi": "10.3406/bspf.1994.9732",
+   "url": null,
+   "kind": "primary",
+   "access": "open",
+   "verification": "checked",
+   "note": "First page read on Persée: charcoal dates, the oldest beyond 48,000 BP, obtained by three laboratories; fill mainly rockfall from the shelter wall."
+  },
+  {
+   "id": "S6",
+   "citation": "Dennell, R. & Hurcombe, L. 1995. Comment on Pedra Furada. Antiquity 69(264): 604.",
+   "doi": "10.1017/S0003598X0008203X",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: the issue is whether the flaked stones are artefacts or natural fractures made on falling stone."
+  },
+  {
+   "id": "S7",
+   "citation": "Guidon, N., Pessis, A.-M., Parenti, F., Fontugue, M. & Guérin, C. 1996. Nature and age of the deposits in Pedra Furada, Brazil: reply to Meltzer, Adovasio & Dillehay. Antiquity 70(268): 408ff.",
+   "doi": "10.1017/S0003598X00083356",
+   "url": null,
+   "kind": "reply",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: dated layers 'from 50,000 years b.p.'; critics visited end of 1993 and questioned the evidence in 1994. 'Fontugue' as spelled in Crossref (Fontugne)."
+  },
+  {
+   "id": "S8",
+   "citation": "Santos, G.M., Bird, M.I., Parenti, F., Fifield, L.K., Guidon, N. & Hausladen, P.A. 2003. A revised chronology of the lowest occupation layer of Pedra Furada Rock Shelter, Piauí, Brazil: the Pleistocene peopling of the Americas. Quaternary Science Reviews 22(21–22): 2303–2310.",
+   "doi": "10.1016/S0277-3791(03)00205-1",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read (St Andrews portal): ABOX-SC AMS on nine hearth charcoals: five >56 ka BP, two >50 ka, two minimum ages of 41.3 and 47.2 ka."
+  },
+  {
+   "id": "S9",
+   "citation": "Valladas, H., Mercier, N., Michab, M., Joron, J.L., Reyss, J.L. & Guidon, N. 2003. TL age-estimates of burnt quartz pebbles from the Toca do Boqueirão da Pedra Furada (Piaui, Northeastern Brazil). Quaternary Science Reviews 22(10–13): 1257–1263.",
+   "doi": "10.1016/S0277-3791(03)00029-5",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Paywalled; metadata confirmed (Crossref, HAL). Abstract seen only via a search summary, so not used for any key field."
+  },
+  {
+   "id": "S10",
+   "citation": "Boëda, E., Clemente-Conte, I., Fontugne, M., Lahaye, C., Pino, M., Felice, G.D., Guidon, N. et al. 2014. A new late Pleistocene archaeological sequence in South America: the Vale da Pedra Furada (Piauí, Brazil). Antiquity 88(341): 927–941.",
+   "doi": "10.1017/S0003598X00050845",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: new work at the shelter and a nearby open-air site; occupation >20,000 years argued from 14C and OSL dates and stone-tool analysis."
+  },
+  {
+   "id": "S11",
+   "citation": "Aimola, G., Andrade, C., Mota, L. & Parenti, F. 2014. Final Pleistocene and Early Holocene at Sitio do Meio, Piauí - Brazil: stratigraphy and comparison with Pedra Furada. Journal of Lithic Studies 1(2): 5–24.",
+   "doi": "10.2218/jls.v1i2.1125",
+   "url": null,
+   "kind": "other",
+   "access": "open",
+   "verification": "checked",
+   "note": "Full text read: the shelter was published in detail (Parenti 2001; Santos et al. 2003) after the debate; waterfalls feeding a cobble talus are key stone-breaking agents there."
+  },
+  {
+   "id": "S12",
+   "citation": "Borrero, L.A. 2016. Ambiguity and debates on the early peopling of South America. PaleoAmerica 2(1): 11–21.",
+   "doi": "10.1080/20555563.2015.1136498",
+   "url": null,
+   "kind": "review",
+   "access": "open",
+   "verification": "checked",
+   "note": "Full text read (CONICET copy): Piauí sites lack major chronological problems but show 'archaeological insufficiencies'; questions 50,000-year tool stasis (Borrero 1995)."
+  },
+  {
+   "id": "S13",
+   "citation": "Proffitt, T., Luncz, L.V., Falótico, T., Ottoni, E.B., de la Torre, I. & Haslam, M. 2016. Wild monkeys flake stone tools. Nature 539(7627): 85–88.",
+   "doi": "10.1038/nature20112",
+   "url": null,
+   "kind": "other",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: wild capuchins in Serra da Capivara break stones, making flakes and cores with the morphology of intentional hominin tools."
+  },
+  {
+   "id": "S14",
+   "citation": "Fiedel, S. 2017. Did monkeys make the pre-Clovis pebble tools of northeastern Brazil? PaleoAmerica 3(1): 6–12.",
+   "doi": "10.1080/20555563.2016.1273000",
+   "url": null,
+   "kind": "critique",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: monkeys flake pebbles near the shelters; the 'tools' may be geofacts from water and gravity, human work, or made by ancestral capuchins."
+  },
+  {
+   "id": "S15",
+   "citation": "Parenti, F., Cannell, A., Debard, E., Faure, M. & Okumura, M. 2018. Genesis and taphonomy of the archaeological layers of Pedra Furada rock-shelter, Brazil [Genèse et taphonomie des niveaux archéologiques de l'abri de la Pedra Furada, Brésil]. Quaternaire 29(3): 255–269.",
+   "doi": "10.4000/quaternaire.10313",
+   "url": null,
+   "kind": "reply",
+   "access": "open",
+   "verification": "checked",
+   "note": "French abstract read (HAL): no causal link between waterfall talus and tools or structures; hearth pebbles show human selection; monkey flaking resembles old finds."
+  },
+  {
+   "id": "S16",
+   "citation": "Falótico, T., Proffitt, T., Ottoni, E.B., Staff, R.A. & Haslam, M. 2019. Three thousand years of wild capuchin stone tool use. Nature Ecology & Evolution 3(7): 1034–1038.",
+   "doi": "10.1038/s41559-019-0904-4",
+   "url": null,
+   "kind": "other",
+   "access": "open",
+   "verification": "checked",
+   "note": "Accepted manuscript read (Glasgow eprint): capuchin stone-tool deposits in the park dated ~2,400–3,000 years."
+  },
+  {
+   "id": "S17",
+   "citation": "Waters, M.R. 2019. Late Pleistocene exploration and settlement of the Americas by modern humans. Science 365(6449): eaat5447.",
+   "doi": "10.1126/science.aat5447",
+   "url": null,
+   "kind": "review",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: 'Current genetic and archaeological data do not support an earlier (pre-17.5 ka ago) occupation of the Americas.'"
+  },
+  {
+   "id": "S18",
+   "citation": "Boëda, E., Ramos, M., Pérez, A., Hatté, C., Lahaye, C., Pino, M. et al. 2021. 24.0 kyr cal BP stone artefact from Vale da Pedra Furada, Piauí, Brazil: Techno-functional analysis. PLOS ONE 16(3): e0247965.",
+   "doi": "10.1371/journal.pone.0247965",
+   "url": null,
+   "kind": "primary",
+   "access": "open",
+   "verification": "checked",
+   "note": "Full text read: calls LGM-age occupation the current consensus and Clovis-first collapsed; claims Piauí occupation 41–14 cal kyr BP; artefact at 24 cal kyr BP."
+  },
+  {
+   "id": "S19",
+   "citation": "Gómez Coutouly, Y.A. 2022. Questioning the anthropic nature of Pedra Furada and the Piauí sites. PaleoAmerica (published online 2021).",
+   "doi": "10.1080/20555563.2021.1943181",
+   "url": null,
+   "kind": "critique",
+   "access": "open",
+   "verification": "checked",
+   "note": "Abstract read (HAL): after reviewing the Piauí publications, concludes the anthropic nature of LGM/pre-LGM artifacts has not been demonstrated."
+  },
+  {
+   "id": "S20",
+   "citation": "Parenti, F. 2023. Pedra Furada: A reappraisal of its artifacts, structures and stratigraphy. L'Anthropologie 127(2): 103138.",
+   "doi": "10.1016/j.anthro.2023.103138",
+   "url": null,
+   "kind": "review",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Paywalled; Crossref metadata confirmed. Latest proponent reappraisal; content not read, so not used for any field."
+  }
+ ],
+ "confidence": "medium",
+ "confidence_note": "Key dates and positions checked in primary texts. The 1994 critique's body and the 2003 TL and 2023 papers were not read, so some objection detail rests on abstracts and replies.",
+ "corrections": [
+  "The claim began before Nature 1986: Guidon (1984) already published Pedra Furada dates of ≥25,000 to 31,500±950 BP with flaked pebbles, so year_claimed is 1984.",
+  "The dispute is mainly about human agency, not dates: a review notes the Piauí sites have no major chronological problems (Borrero 2016).",
+  "Doubts predate the 1994 critique: Lynch (1990) questioned the newly reported Brazilian sites.",
+  "A mundane explanation missing from the starter notes: capuchin monkeys in the same park flake stone (Proffitt et al. 2016; Fiedel 2017).",
+  "The critics visited in December 1993 at the team's invitation; their Antiquity critique appeared in 1994 and the team's replies in 1996."
+ ],
+ "notes": "Not read: the body of Meltzer et al. 1994 (paywalled); its arguments are described from replies and later abstracts (S6, S7, S14). Valladas et al. 2003 reportedly found the pebbles burnt 30 to >100 ka ago with no evidence the heating was human; this was seen only in a search summary and is unverified. The Nature abstract prints 32,160±100 BP; other accounts give ±1,000. Calendar ages were computed for this record with SHCal20 (Hogg et al. 2020) for Brazil and IntCal20 (Reimer et al. 2020) for Clovis.",
+ "review": {
+  "drafted_by": "researcher agent (claude-opus-5-5)",
+  "drafted_on": "2026-09-23",
+  "stage": "skeptic-passed",
+  "skeptic_by": "skeptic agent (claude-opus-5-5)",
+  "skeptic_on": "2026-09-23",
+  "skeptic_verdict": "pass",
+  "open_issues": [
+   "Minor, pending clean-up: The points credited to Meltzer, Adovasio & Dillehay 1994 are right, but no source the record read backs them up. objections[0] cites S6 (1995) with year 1994. objections[1] cites S3, whose abstract names neither Ped",
+   "Minor, pending clean-up: Doubts began before Lynch 1990. S19 dates the first concerns to Schmitz 1987 and Bednarik 1989. If Bednarik already made the rockfall-geofact point, objections[0] is dated 5 years too late.",
+   "Minor, pending clean-up: 1984 is the earliest year verified, and S1 does publish 31,500±950 BP. But S1 also gives ≥25,000 BP (GIF-5398, GIF-5648) and 17,000±400 BP (GIF-5397) dates from the 1980 season. A Guidon paper, 'Datações pelo C 14 d",
+   "Minor, pending clean-up: '≥31,500 14C BP (1984)' presents a finite date as a minimum. S1 gives 31,500±950 BP (GIF-6041); only the 25,000 dates carry the '≥'.",
+   "Minor, pending clean-up: Conversions: the 36,000 (31,500±950 on SHCal20) and 13,100 cal BP (11,200 on IntCal20) values are plausible and labelled as conversions. The 53,000 is not. SHCal20 gives 50,009 14C at 54,860 cal BP and 50,132 at 55,",
+   "Minor, pending clean-up: 'no' is defensible, but 'no motive found' overstates a search based mostly on abstracts. S19 records critics' objection that Guidon promoted the claim through media and newspapers rather than scientific venues. Late",
+   "Minor, pending clean-up: The red-painted hearth stone at 17,000±400 BP would itself be pre-Clovis. The note mentions it but does not say why it fails to make the signal unambiguous.",
+   "Minor, pending clean-up: The capuchin explanation is legitimate, well sourced (S13, S14) and correctly left unresolved, but it can be strengthened. S16's dated capuchin tool site lies in the Pedra Furada valley itself. The proponents' own S"
+  ]
+ }
 }

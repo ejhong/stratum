@@ -97,6 +97,14 @@ def main(argv):
             del manifest[f.stem]
     PLATES.mkdir(parents=True, exist_ok=True)
     MANIFEST.write_text(json.dumps(manifest, indent=1, ensure_ascii=False) + "\n")
+    keep = {e["file"] for v in manifest.values() for e in v}
+    for f in PLATES.glob("*/*"):
+        if f"plates/{f.parent.name}/{f.name}" not in keep:
+            f.unlink()
+            print(f"− removed unreferenced {f.parent.name}/{f.name}")
+    for d in PLATES.glob("*/"):
+        if d.is_dir() and not any(d.iterdir()):
+            d.rmdir()
     print(f"manifest: {sum(len(v) for v in manifest.values())} plates for {len(manifest)} cases")
 
 

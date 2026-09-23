@@ -1,0 +1,324 @@
+{
+  "id": "bosnian-pyramids",
+  "name": "Bosnian Pyramids",
+  "hook": "Natural Miocene hills at Visoko, carved and marketed as pyramids tens of thousands of years old.",
+  "location": {
+    "country": "Bosnia and Herzegovina",
+    "region": "Visoko, central Bosnia",
+    "continent": "Europe"
+  },
+  "anomaly_type": "capability",
+  "claim": "In 2005 Bosnian-American businessman Semir Osmanagić announced that Visočica hill and neighbouring hills near Visoko, plus a connected underground 'Ravne tunnel' network, were structures built by an unknown prehistoric civilization tens of thousands of years ago.",
+  "claimed_age": {
+    "label": "~12,000 yr (2005-06 claim); revised to ~33,800 BP (2025)",
+    "bp_min": 12000,
+    "bp_max": 33800,
+    "basis": "Initial claim of 12,000 years ago (2006); revised in a 2025 preprint to ~33,800 BP via radiocarbon, U-series and soil-pedogenesis analysis by the foundation's own team, not independently replicated.",
+    "source": "S2"
+  },
+  "accepted_age": {
+    "label": "Natural landform: Late Miocene lacustrine/fluvial sediment",
+    "bp_min": null,
+    "bp_max": null,
+    "basis": "Identified on site as Late Miocene lacustrine/fluvial deposits (Schoch 2006); the Sarajevo-Zenica Basin is independently documented as a Miocene freshwater lake system with the same facies (Sant et al. 2018).",
+    "source": "S3"
+  },
+  "orthodoxy_at_claim": {
+    "label": "No monumental construction or complex society is documented in the Balkans during the Late Pleistocene; the record is of small, mobile hunter-gatherer groups.",
+    "limit_bp": null
+  },
+  "year_claimed": 2005,
+  "key_proponents": [
+    "Semir Osmanagić",
+    "Bosnian Pyramid of the Sun Foundation",
+    "A. Šabanija-Softić"
+  ],
+  "key_critics": [
+    "European Association of Archaeologists",
+    "Robert M. Schoch",
+    "Richard Carlton"
+  ],
+  "evidence_types": [
+    "geology",
+    "stratigraphy",
+    "architecture",
+    "features",
+    "radiocarbon",
+    "u-series"
+  ],
+  "independent_methods_count": 1,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "no",
+      "note": "The hills are natural sedimentary landforms; the 'blocks' are natural breccia/sandstone. Even a 2025 proponent paper describes the block material as breccia, clay binder and sandstone.",
+      "source": "S8"
+    },
+    "documented_context": {
+      "value": "no",
+      "note": "Excavation was run by the foundation without standard stratigraphic recording; Schoch (2006) reports undocumented fossils being destroyed as crews shaped the hills.",
+      "source": "S3"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "No numeric dating of the formations had been published by outside scientists within five years of the 2005 claim; Schoch's 2006 account is sedimentological/paleontological observation, not dating.",
+      "source": "S3"
+    },
+    "multiple_labs": {
+      "value": "no",
+      "note": "Dating and material analyses supporting the claim (radiocarbon, U-series, pedogenesis) come from the foundation's own project, not cross-checked by outside laboratories.",
+      "source": "S9"
+    },
+    "professional_recovery": {
+      "value": "no",
+      "note": "Led by a businessman without archaeological/geological credentials via a private foundation; a 2026 foundation paper calls its 2025 Ravne 6 dig the first 'formally authorized' excavation there.",
+      "source": "S10"
+    },
+    "peer_reviewed_report": {
+      "value": "no",
+      "note": "The original claim appeared in a self-published Sarajevo book (Bosanska Piramida Sunca, 2005), not a peer-reviewed venue.",
+      "source": "S4"
+    },
+    "material_accessible": {
+      "value": "partial",
+      "note": "Osmanagić invited outside specialists (e.g. Schoch) to visit and the site is a public park, but excavation control and sample custody stayed with the foundation.",
+      "source": "S3"
+    },
+    "independent_teams": {
+      "value": "no",
+      "note": "By 2010 no independent research group had corroborated artificial construction; the European Association of Archaeologists and Bosnian heritage professionals opposed the project instead.",
+      "source": "S2"
+    },
+    "proponent_stake": {
+      "value": "yes",
+      "note": "Osmanagić's foundation runs a fee-charging tourist park and has kept self-publishing the claim via preprints and non-mainstream journals for two decades.",
+      "source": "S6"
+    }
+  },
+  "objections": [
+    {
+      "text": "The 'pyramid' hills are natural Late Miocene lacustrine and fluvial sediments of the Sarajevo-Zenica Basin, not human-built structures.",
+      "kind": "identification",
+      "raised_by": "Robert M. Schoch",
+      "year": 2006,
+      "outcome": "held",
+      "outcome_note": "Confirmed by on-site inspection and matches independent regional basin stratigraphy (Sant et al. 2018).",
+      "source": "S3"
+    },
+    {
+      "text": "Excavation was directed by a businessman's private foundation, not an accredited team; the European Association of Archaeologists called it 'a cruel hoax on an unsuspecting public' with no place in genuine science.",
+      "kind": "context",
+      "raised_by": "European Association of Archaeologists",
+      "year": 2006,
+      "outcome": "held",
+      "outcome_note": "No accredited academic institution has endorsed the excavation; the foundation still runs it two decades on.",
+      "source": "S2"
+    },
+    {
+      "text": "Fossiliferous Late Miocene strata (undocumented plant and animal remains) are being damaged or destroyed as crews carve the hills into stepped pyramid form, with no paleontological recording.",
+      "kind": "context",
+      "raised_by": "Robert M. Schoch",
+      "year": 2006,
+      "outcome": "held",
+      "outcome_note": "Firsthand account by an invited geologist; no published rebuttal or counter-survey was found.",
+      "source": "S3"
+    },
+    {
+      "text": "The claimed 'megalithic blocks' are natural clastic breccia, clay-bound sediment and sandstone, rock types typical of the surrounding Miocene basin, not poured concrete.",
+      "kind": "identification",
+      "raised_by": "Geologists",
+      "year": 2006,
+      "outcome": "held",
+      "outcome_note": "Even Osmanagić's own 2025 paper describes the blocks as breccia, clay binder and sandstone; only the arrangement and strength are disputed, not the material itself.",
+      "source": "S8"
+    },
+    {
+      "text": "No independent, non-foundation laboratory has replicated the radiocarbon, uranium-series or soil-pedogenesis dates behind the current ~33,800 BP claim.",
+      "kind": "dating",
+      "year": 2025,
+      "outcome": "unresolved",
+      "outcome_note": "All numeric dating so far comes from the foundation's own 2025 project; not yet checked by an outside lab or published in a mainstream geology journal.",
+      "source": "S9"
+    },
+    {
+      "text": "Accredited AMS radiocarbon dating (Vilnius Radiocarbon Laboratory) of wood from the Ravne 6 tunnel, run by the foundation's own 2025 excavation, calibrates to the late 15th-early 16th century CE.",
+      "kind": "dating",
+      "raised_by": "Šabanija-Softić & Osmanagić (2026)",
+      "year": 2026,
+      "outcome": "held",
+      "outcome_note": "Reported in the excavators' own paper; shows at least this tunnel section holds recent, not prehistoric, material.",
+      "source": "S10"
+    }
+  ],
+  "status": "refuted",
+  "status_note": "Geologists and professional bodies regard the hills as natural Miocene sediment, not construction; no part of the claim has passed peer review in a mainstream venue. The foundation still publishes it independently, two decades on.",
+  "year_resolved": 2006,
+  "what_settled_it": "Geologist Robert Schoch's 2006 site inspection identified the hills as natural Late Miocene lacustrine/fluvial deposits matching documented basin geology; the European Association of Archaeologists rejected the project the same year, and no peer-reviewed report has overturned this since.",
+  "settled_by": [
+    "geology",
+    "expert-review"
+  ],
+  "failure_mode": "natural",
+  "timeline": [
+    {
+      "year": 2005,
+      "event": "Semir Osmanagić announces Visočica and neighbouring hills near Visoko are ancient pyramids; publishes 'Bosanska Piramida Sunca'.",
+      "source": "S4"
+    },
+    {
+      "year": 2006,
+      "event": "Osmanagić sets up a foundation to excavate and promote the site, per Science's news coverage.",
+      "source": "S2"
+    },
+    {
+      "year": 2006,
+      "event": "Geologist Robert Schoch visits at Osmanagić's invitation and identifies the hills as natural Late Miocene sediments.",
+      "source": "S3"
+    },
+    {
+      "year": 2006,
+      "event": "Science publishes Bohannon's 'Mad About Pyramids' news feature on the controversy.",
+      "source": "S1"
+    },
+    {
+      "year": 2006,
+      "event": "European Association of Archaeologists issues an open letter calling the project a hoax; Science reports it.",
+      "source": "S2"
+    },
+    {
+      "year": 2018,
+      "event": "Independent stratigraphic study documents the Sarajevo-Zenica Basin's Miocene freshwater sediments, matching the 'pyramid' hills' geology.",
+      "source": "S7"
+    },
+    {
+      "year": 2020,
+      "event": "Academic study in Nova Religio analyzes Visoko as a commodified New Age pilgrimage site built on the pyramid and tunnel claims.",
+      "source": "S6"
+    },
+    {
+      "year": 2025,
+      "event": "Osmanagić publishes a revised age claim (~33,800 BP) and describes the 'blocks' as breccia, clay and sandstone, via preprints and non-geology journals.",
+      "source": "S9"
+    },
+    {
+      "year": 2026,
+      "event": "The foundation's own AMS radiocarbon dating of Ravne 6 tunnel wood returns a late 15th-16th century CE age.",
+      "source": "S10"
+    }
+  ],
+  "falsifier": "Independent, peer-reviewed petrographic or geochemical analysis by geologists with no foundation ties, replicated at a second lab, showing the 'blocks' have an artificial fabric or cementation inconsistent with the surrounding Miocene bedrock.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Bohannon, J. (2006). Mad About Pyramids. Science 313(5794): 1718-1720.",
+      "doi": "10.1126/science.313.5794.1718",
+      "url": null,
+      "kind": "news",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Only a one-sentence teaser was readable (paywalled); cited for the piece's existence/date, not for specific facts."
+    },
+    {
+      "id": "S2",
+      "citation": "Bohannon, J. (2006). Researchers Helpless as Bosnian Pyramid Bandwagon Gathers Pace. Science 314(5807): 1862.",
+      "doi": "10.1126/science.314.5807.1862a",
+      "url": null,
+      "kind": "news",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "OpenAlex abstract of the News piece read in full: 12,000-yr 'supercivilization' claim, the EAA's open-letter quote, and Richard Carlton's comment."
+    },
+    {
+      "id": "S3",
+      "citation": "Schoch, R.M. (2006). The Dangers of Pyramid-Mania. Science 314(5801): 925.",
+      "doi": "10.1126/science.314.5801.925b",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full abstract read: Schoch's firsthand account of his site visit, identifying Late Miocene lacustrine/fluvial deposits and undocumented fossil loss."
+    },
+    {
+      "id": "S4",
+      "citation": "Osmanagić, S. (2005). Bosanska Piramida Sunca [The Bosnian Pyramid of the Sun]. Klepsidra, Sarajevo.",
+      "doi": null,
+      "url": null,
+      "kind": "book",
+      "access": "unknown",
+      "verification": "exists",
+      "note": "Original announcement of the pyramid claim; existence and publisher/year known via citation in S3, not read directly (Bosnian-language)."
+    },
+    {
+      "id": "S5",
+      "citation": "Osmanagich, S. (2005). The World of the Maya. Gorgias Press, Piscataway, NJ.",
+      "doi": null,
+      "url": null,
+      "kind": "book",
+      "access": "unknown",
+      "verification": "exists",
+      "note": "Osmanagić's earlier book on Maya pyramids, cited alongside the claim in S3; shows a pre-existing interest in ancient pyramids. Not read directly."
+    },
+    {
+      "id": "S6",
+      "citation": "Hammer, O., Swartz, K. (2020). The Bosnian Pyramid Phenomenon. Nova Religio 23(4): 94-110.",
+      "doi": "10.1525/nr.2020.23.4.94",
+      "url": "https://online.ucpress.edu/nr/article-pdf/23/4/94/385414/nr.2020.23.4.94.pdf",
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: peer-reviewed analysis of Visoko as a New Age pilgrimage/tourism site built on 'healing energy' claims. Full PDF blocked (HTTP 403) at publisher."
+    },
+    {
+      "id": "S7",
+      "citation": "Sant, K., Andrić, N., Mandic, O., Demir, V. et al. (2018). Magneto-biostratigraphy and paleoenvironments of the Miocene freshwater sediments of the Sarajevo-Zenica Basin. Palaeogeography, Palaeoclimatology, Palaeoecology 506: 48-69.",
+      "doi": "10.1016/j.palaeo.2018.06.009",
+      "url": "https://dspace.library.uu.nl/handle/1874/366646",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read via open repository: confirms the Sarajevo-Zenica Basin as a Miocene freshwater lake system with lacustrine/fluvial/siliciclastic facies, independent of the pyramid claim."
+    },
+    {
+      "id": "S8",
+      "citation": "Osmanagich, S. (2025). Multidisciplinary Evaluation of the Pyramid-Shaped Formation near Visoko, Bosnia-Herzegovina: A Case for Anthropogenic Construction. EarthArXiv preprint.",
+      "doi": "10.31223/x5hq7z",
+      "url": "https://eartharxiv.org/repository/object/9112/download/17001/",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: describes blocks as breccia/clay/sandstone with high claimed compressive strength, true-north orientation, EM emissions, Fibonacci geometry."
+    },
+    {
+      "id": "S9",
+      "citation": "Osmanagich, S. (2025). Establishing Deep Time: Multi-Method Dating of Archaeological and Speleological Features in the Bosnian Valley of the Pyramids. EarthArXiv preprint.",
+      "doi": "10.31223/x5jq78",
+      "url": "https://eartharxiv.org/repository/object/9099/download/16973/",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: reports radiocarbon, U-Th and soil-pedogenesis results giving ~33,800 BP, run by the foundation's own project."
+    },
+    {
+      "id": "S10",
+      "citation": "Šabanija-Softić, A., Osmanagić, S. (2026). Archaeological Excavation of the Ravne 6 Tunnel (Visoko, Bosnia and Herzegovina): Results from the 2025 Field Season. Archaeological Discovery 14(2): 171-188.",
+      "doi": "10.4236/ad.2026.142009",
+      "url": "https://www.scirp.org/pdf/ad_1140261.pdf",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: three wood samples AMS-dated at Vilnius Radiocarbon Laboratory (415±29, 433±28, 402±29 BP) calibrate to the late 15th-early 16th century CE, not the Palaeolithic."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Schoch (2006) and the EAA response (via Bohannon) were read in full via abstracts. The 2005 Osmanagić books and Nova Religio full text were paywalled/blocked; known only via citation or abstract.",
+  "corrections": [
+    "Starter notes call the formations 'flatirons'; Schoch (2006) instead describes natural Late Miocene hills whose stepped pyramid look was partly carved by Osmanagić's own excavation crews, not a purely natural illusion.",
+    "The claimed age is not fixed at 'tens of thousands of years': it began at ~12,000 years (2005-06) and was only revised to ~33,800 BP in a 2025 preprint.",
+    "Science's coverage was not one 2006 article: Bohannon wrote two News pieces (Sept. and Dec. 2006), and Science also published a letter from geologist Robert Schoch describing his own site visit."
+  ],
+  "notes": "The EAA's full 2006 quote (via Bohannon, S2): the project is 'a cruel hoax on an unsuspecting public [which] has no place in the world of genuine science.' Osmanagić's 2025 'Multidisciplinary Evaluation' preprint (S8) was also published verbatim in the Journal of Biomedical Research & Environmental Sciences, a journal outside normal geology/archaeology peer review. The foundation's own 2026 excavation report (S10) AMS-dated wood from the Ravne 6 tunnel to the late 15th-early 16th century CE. No component of the claim has appeared in a mainstream geology or archaeology journal as of 2026. Plates omitted: no matching Commons image found.",
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

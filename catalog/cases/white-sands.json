@@ -49,17 +49,17 @@
     },
     "documented_context": {
       "value": "yes",
-      "note": "In situ prints on seven excavated surfaces plus a track-bearing package, in a trenched sequence interbedded with seed layers.",
+      "note": "In situ prints on several excavated surfaces plus a track-bearing package, in a trenched sequence interbedded with seed layers; context of the dated seeds is contested (obj. 3).",
       "source": "S1"
     },
     "multiple_dating_methods": {
       "value": "partial",
-      "note": "2021: 14C on aquatic seeds only. 2023: terrestrial-pollen 14C (errors ±2.3–2.5 ka) and a one-level OSL minimum age (>21.5 ka) agreed with the seeds.",
+      "note": "2021: 14C on aquatic seeds only (2021 alone: no). 2023: pollen 14C and a one-level OSL minimum (>21.5 ka) agreed with the seeds — partial, since the OSL covers one level only.",
       "source": "S8"
     },
     "multiple_labs": {
       "value": "yes",
-      "note": "2021 seed dates came from one lab. Labs outside the original dating (LLNL in 2023; Univ. of Arizona and NAU in 2025) gave concordant dates.",
+      "note": "2021 seed dates came from one lab (2021 alone: no). By 2023 (LLNL) and 2025 (Univ. of Arizona, NAU), labs outside the original dating gave concordant results, within the 5-year window used here.",
       "source": "S12"
     },
     "professional_recovery": {
@@ -113,7 +113,7 @@
       "raised_by": "Haynes; Rachal, Mead, Dello-Russo & Cuba",
       "year": 2022,
       "outcome": "unresolved",
-      "outcome_note": "Proponents report seeds in thin layers, often on their stems; Holliday et al. (2025) found no sign of storm transport in nearby beds.",
+      "outcome_note": "Proponents report seeds in thin layers, often on their stems; Holliday et al. (2025) saw no evidence of turbulent water at dated lenses, though undated seed balls occur in one nearby trench.",
       "source": "S7"
     },
     {
@@ -122,7 +122,7 @@
       "raised_by": "C. Vance Haynes Jr.",
       "year": 2022,
       "outcome": "wrong",
-      "outcome_note": "Mammoth and other megafauna tracks occur with the human prints at all levels, so the surfaces predate the extinctions; later critics argue for Pleistocene ages.",
+      "outcome_note": "Pleistocene megafauna tracks are interspersed with the human prints; later critics, including Haynes, argue for Pleistocene rather than Holocene ages.",
       "source": "S5"
     },
     {
@@ -149,7 +149,7 @@
       "raised_by": "Michael Waters",
       "year": 2025,
       "outcome": "unresolved",
-      "outcome_note": "Holliday et al. report mud δ13C unlike the seeds, and 55 dates consistent across ~2 km of strata.",
+      "outcome_note": "Holliday et al. (2025) report mud δ13C unlike the seeds and 55 dates consistent across both teams' work; no published reply yet on where the mud carbon originates.",
       "source": "S15"
     },
     {
@@ -163,7 +163,7 @@
     }
   ],
   "status": "open",
-  "status_note": "Pollen 14C, OSL and lake-mud 14C from other labs agree with ~23–21 ka and many now build on it, but Waters, Davis, Rhode, Rachal and others still disputed the dates in 2024–25. No consensus yet.",
+  "status_note": "All direct dates (seeds, pollen, OSL, mud; several labs) fit ~23-21 ka and later work builds on it, but two critic groups and M. Waters argued in 2024-25 that each method could read too old. An OSL test on more track layers remains undone.",
   "year_resolved": null,
   "what_settled_it": null,
   "settled_by": ["not-settled"],
@@ -204,7 +204,7 @@
       "cost": "medium"
     }
   ],
-  "falsifier": "OSL or terrestrial-carbon dates from several track horizons, run by labs outside the original team, falling well below ~16,000 years would refute the LGM age; concordant ~21,000–23,000-year results would move the case to vindicated.",
+  "falsifier": "OSL or terrestrial-carbon dates from several track horizons, run by labs outside the original team: ages below ~20,000 years would refute the LGM age (below ~16,000 would remove it entirely); concordant ~21,000–23,000-year results would move the case to vindicated.",
   "sources": [
     {
       "id": "S1",
@@ -285,9 +285,9 @@
       "citation": "Rachal, D.M., Dello-Russo, R., Cuba, M. (2024). The Pleistocene footprints are younger than we thought: correcting the radiocarbon dates of Ruppia seeds, Tularosa Basin, New Mexico. Quaternary Research 117: 67–78.",
       "doi": "10.1017/qua.2023.74",
       "kind": "critique",
-      "access": "paywalled",
+      "access": "open",
       "verification": "checked",
-      "note": "Abstract read (Crossref); full text paywalled."
+      "note": "Open access (Cambridge/OpenAlex, per lookup); abstract read: 'at least ~7,500 yr younger.'"
     },
     {
       "id": "S10",
@@ -379,20 +379,38 @@
       "access": "open",
       "verification": "checked",
       "note": "Opinion essay by a nature writer; quotes Rachal & Dello-Russo's 2025 conclusion that the LGM claim is flawed."
+    },
+    {
+      "id": "S20",
+      "citation": "Steffen, M.L. (2026). Comment on North American Pacific Coastal Migration Theory and the Last Glacial Maximum Age of Human Tracks at White Sands, New Mexico. PaleoAmerica 12(1): 1–4.",
+      "doi": "10.1080/20555563.2025.2600141",
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract: the LGM age 'has redefined the peopling of the Americas' and reopens the timing of an unglaciated Pacific coastal route."
     }
   ],
   "confidence": "medium",
   "confidence_note": "Facts are well sourced (key papers read in full or as abstracts), but open vs vindicated is a judgment call, and several critiques were read only as abstracts.",
   "corrections": [
-    "Starter notes say the 2023 pollen/OSL dating is widely seen as settling the age. Critics published rebuttals in 2024–25 and M. Waters remained concerned in 2025, so the case is recorded as open, not vindicated.",
-    "The 2023 OSL result is a single minimum age (>21.5 ± 1.9 ka) from one level below most prints, not an age for each track horizon.",
-    "The 2023 'independent' study came from the same core USGS–NPS–Bournemouth team with new materials and labs; the partly independent study is Holliday et al. 2025.",
+    "The starter brief (catalog/briefs.json) says the 2023 pollen/OSL dating 'is widely seen as settling the age' and expected status 'vindicated.' 2024–25 critiques (Rachal, Rhode, Waters) mean the case is recorded as open, not vindicated.",
+    "CLAUDE.md's starter list calls this 'largely vindicated'; project chat said it overturned 'Clovis-first.' But pre-Clovis sites to ~16,500 years were accepted by 2021; this claim challenges a later, LGM-era limit, not Clovis-first itself.",
+    "The 2023 OSL result is a single minimum age (>21.5 ± 1.9 ka) from a single level within the footprint sequence (critics say below most trackways), not an age for each track horizon.",
+    "Pigati et al. 2023 used independent methods, materials and an outside AMS lab, but came from the same core team. The partly independent study is Holliday et al. 2025, led by a 2021 co-author who did not take part in the excavation.",
     "Critiques go beyond the hard-water effect: storm transport of seeds (2022), OSL bleaching and pollen reworking (2024), bulk-mud carbon (2025), and the lack of artifacts."
   ],
-  "notes": "Independent-methods count = seed 14C, terrestrial-pollen 14C, OSL, and lake-mud 14C. The 2021 data release also lists 14 U-series ages on gypsum sand (24.8–100.6 ka, ±9–23 ka) that the age model did not use. Loren Davis said OSL ages from more footprint layers would 'very likely' resolve the dispute; the team says most layers are too thin to sample. The exact site location is withheld under US law. Features are coded for 2021–26 because the new dating fell within five years of the claim.",
+  "notes": "Independent-methods count = seed 14C, terrestrial-pollen 14C, OSL, and lake-mud 14C. The 2021 data release also lists 14 U-series ages on gypsum sand (24.8–100.6 ka, ±9–23 ka) that the age model did not use. Loren Davis said OSL ages from more footprint layers would 'very likely' resolve the dispute; the team says most layers are too thin to sample. The exact site location is withheld under US law. Features are coded for 2021–26 because the new dating fell within five years of the claim. Seed and mud 14C both date aquatic carbon and share the hard-water bias Waters raises; in 2025 only 21 of 26 new dates were on mud, 5 again on seeds, so the four methods are not fully independent here.",
   "review": {
     "drafted_by": "researcher agent (claude-opus-5-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Declined skeptic's corrections[0] rewrite: briefs.json (corrections' real source per _about) already says the 2023 dating 'is widely seen as settling the age,' expected 'vindicated.' Added a separate item on 'Clovis-first' framing instead.",
+      "Kept independent_methods_count at 4 rather than 3: seed and mud 14C share the hard-water bias, but come from different sediment packages and (in 2025) different labs; added a notes clarification instead of renumbering.",
+      "Did not add Philippsen's 2023 Science commentary (quoted secondhand in S14): could not locate and verify its DOI within budget."
+    ]
   }
 }

@@ -1,0 +1,90 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "DNA from Pre-Clovis Human Coprolites in Oregon, North America",
+  "crossref_year": 2008,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Comment on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”",
+  "crossref_year": 2009,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Comment on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”",
+  "crossref_year": 2009,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Response to Comment by Goldberg\n            <i>et al.</i>\n            on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”",
+  "crossref_year": 2009,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Response to Comment by Poinar\n            <i>et al</i>\n            . on “DNA from Pre-Clovis Human Coprolites in Oregon, North America”",
+  "crossref_year": 2009,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Clovis Age Western Stemmed Projectile Points and Human Coprolites at the Paisley Caves",
+  "crossref_year": 2012,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Steroidal biomarker analysis of a 14,000 years old putative human coprolite from Paisley Cave, Oregon",
+  "crossref_year": 2014,
+  "crossref_venue": "Journal of Archaeological Science",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Did Pre-Clovis People Inhabit the Paisley Caves (and Why Does It Matter)?",
+  "crossref_year": 2014,
+  "crossref_venue": "Human Biology",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Pre-Clovis occupation of the Americas identified by human fecal biomarkers in coprolites from Paisley Caves, Oregon",
+  "crossref_year": 2020,
+  "crossref_venue": "Science Advances",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Late glacial through Early Holocene environments inferred using pollen from coprolites and sediments recovered from Paisley Caves, Oregon",
+  "crossref_year": 2023,
+  "crossref_venue": "Quaternary Research",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Redefining the Age of Clovis: Implications for the Peopling of the Americas",
+  "crossref_year": 2007,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ }
+}

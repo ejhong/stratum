@@ -107,5 +107,21 @@
   "crossref_year": 2026,
   "crossref_venue": "Nature",
   "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The process, biotic impact, and global implications of the human colonization of Sahul about 47,000 years ago",
+  "crossref_year": 2015,
+  "crossref_venue": "Journal of Archaeological Science",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Single-aliquot and single-grain optical dating confirm thermoluminescence age estimates from Malakunanja II rock shelter in northern Australia",
+  "crossref_year": 1998,
+  "crossref_venue": "Ancient TL",
+  "checked_on": "2026-09-23"
  }
 }

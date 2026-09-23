@@ -144,5 +144,13 @@
   "crossref_year": 2019,
   "crossref_venue": "Antiquity",
   "checked_on": "2026-09-23"
+ },
+ "S20": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Cerutti Mastodon Site: Archaeological or Paleontological?",
+  "crossref_year": 2017,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
  }
 }

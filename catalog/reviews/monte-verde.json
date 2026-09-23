@@ -1,0 +1,152 @@
+{
+  "id": "monte-verde",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Sources are real. 'Vindicated' is defensible for Sept 2026 but is justified by counting replies, not evidence. Lynch's secondary-deposition objection can't be 'wrong' while Surovell's is unresolved. Taylor objection unsupported; multiple_labs and OSL unearned; MV-II's destruction omitted.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "status_note",
+      "problem": "Keeping 'vindicated' is defensible for Sept 2026, but the stated reasons are not. (a) 'Every published reply... rejects' is false: S16 takes no side and calls S13 the first truly independent test, and a reply to S16 (Davis 2026) is missing. (b) 'Including former skeptics' has no source; the named signers (Meltzer; Grayson unconfirmed) were 1997 panelists defending their own verdict. (c) 'No independent redating of the occupation' contradicts the record's own 2005 entry (S8, an outside lab). (d) Counting replies is not the test the record applied to the original claim, which stayed contested despite peer-reviewed reports (1982, 1988) until outside specialists examined the evidence (S6).",
+      "fix": "Apply one standard both ways. A single-team, peer-reviewed challenge does not overturn consensus until an outside group confirms its key observation. Replies from the site team and the 1997 panelists are not independent tests either, and the eLetters are screened, not peer-reviewed. Justify the status on evidence, e.g. 'Re-contested since 2026 (S13). Kept vindicated: the challengers' own 14C dates are Pleistocene (S14) and their key tephra link is disputed on its geochemistry (S15, S17). No independent test of either side yet.' Add an open_issue telling the analyst to rerun results with MV-II coded 'open'. Move to 'open' if an outside lab confirms Lepué Tephra beneath MV-II-equivalent strata.",
+      "evidence": "S13 abstract; S14 (new dates 13,400-16,500 yr 'in line with previous studies'); S15 (Waters et al.: 'the tephra is not the Lepué Tephra'); S16 abstract; S6 abstract; Davis 2026, doi 10.1080/20555563.2026.2670166"
+    },
+    {
+      "severity": "major",
+      "field": "objections[2].outcome",
+      "problem": "Lynch's association objection is coded 'wrong', but his abstract names 'mixture and secondary deposition' (S4). That is the mechanism Surovell et al. argue in 2026 ('archaeological evidence at MV-II lies in a secondary context', S17 abstract), which the record codes 'unresolved' in objections[5]. The 1997 panel's acceptance shows the objection failed to persuade the field; no test disproved it. The direct seaweed dates (S9) weigh against it, but no outside group has re-tested them.",
+      "fix": "Set outcome 'unresolved', with a note like: 'Accepted by 1997 panel (S6); direct hearth dates (S9) fit; same secondary-deposition mechanism re-argued in 2026 (S13), untested independently.' Cite S4 (Lynch's own words) rather than S5.",
+      "evidence": "S4 abstract: 'More interpretive caution is needed, especially where there are possibilities of mixture and secondary deposition'; S17 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0]",
+      "problem": "Lynch's prior is bundled with his demand that archaeologists 'depend more on unambiguous and replicated cases' (S4), and both are coded 'wrong'. The replication demand was never shown mistaken: S13 and S16 call the 2026 study the first independent investigation in ~50 years. The note's 'widely accepted from other sites and genetics' has no source (S4 is Lynch himself). S12 also says the other pre-13,000 cal BP sites' 'chronology is still debated', and Lynch's review was about South America. Coding a demand for replication as 'wrong' would teach the analysis that asking for replication is bias.",
+      "fix": "Limit the text to the prior (a pre-Paleoindian occupation was improbable). Keep 'wrong' only with a source for early occupation independent of MV-II (e.g. the Meltzer et al. genetics eLetter in S15, or a published review); otherwise 'unresolved'. Do not code the replication demand as 'wrong'.",
+      "evidence": "S4 abstract; S13 abstract; S16 abstract; S12 ('their chronology is still debated')"
+    },
+    {
+      "severity": "major",
+      "field": "objections[4]",
+      "problem": "The cited source (S8) does not support the objection text. Its abstract gives the >5,000-yr bone discordance and 12,460 ± 30 BP, but says nothing of 'marine or volcanic carbon' or 'Clovis-age or younger'. Per S12, Taylor et al. 1999 argued the site is only 'slightly younger' than ~14,500 cal BP; S12 attributes the same view to Erlandson et al. 2008 and Politis & Prates 2018. Taylor et al. 1999 tested a 'postulated' local reservoir effect, found none in modern plants, and noted that Pleistocene offsets cannot be measured directly. The year field is null. The note's '43 core dates from two labs': 'two labs' was not found in S12.",
+      "fix": "Add source: Taylor RE, Haynes CV, Kirner DL, Southon JR. 1999. Radiocarbon Analyses of Modern Organics at Monte Verde, Chile: No Evidence for a Local Reservoir Effect. American Antiquity 64(3): 455-460, doi 10.2307/2694145. Set year 1999. Reword to the discordant bone plus the postulated reservoir effect. Keep 'wrong' for those two points: S12 presumes the bone discordance was a failed pretreatment at one lab. Drop 'Clovis-age or younger' and 'two labs' unless sourced.",
+      "evidence": "S8 abstract; S12 ('see Taylor et al. 1999'; 'one laboratory'); doi 10.2307/2694145 abstract"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_labs",
+      "problem": "'yes' is not earned. The cited S12 names neither Texas nor Beta Analytic in any passage I could extract, and gives no assay years. It says only that dates came from 'different laboratories over a period of four decades' and that 'one laboratory' produced the anomalous bone value. This feature must be coded as of ~1982-87, and the note admits the assay years are unconfirmed.",
+      "fix": "Code 'unknown'. Change it only if lab codes and assay years in S1, S3 or the 1989 volume show at least two labs by ~1987, and cite that source.",
+      "evidence": "S12 full text (grep for Beta/Texas/TX-: no lab names found; 'different laboratories over a period of four decades')"
+    },
+    {
+      "severity": "major",
+      "field": "notes",
+      "problem": "Uneven care. The notes stress that Surovell's team dated creek sections 'near, not at, MV-II' (S14). The site team's 43 new dates (S12) are also from a section 'approximately 50m north of MV-II', 'immediately adjacent to' it. S14 also reports that MV-II was 'destroyed more than three decades ago by logging activities and flooding'. The record never mentions this, though it explains why the dispute turns on correlation. It may also make decisive_tests[1] (ash 'below the MV-II surface'), decisive_tests[3] (trench 'to the MV-II area') and the falsifier unworkable as written.",
+      "fix": "State the off-site limitation for both dating programs, in the notes and in timeline[9]. Add the site's reported destruction and find out how much intact deposit remains. Rewrite tests 2 and 4 around archived samples and remnant sections, and make the falsifier's 'beneath the MV-II surface' testable.",
+      "evidence": "S12 ('43 new radiocarbon determinations obtained from a section located approximately 50m north of MV-II'); S14"
+    },
+    {
+      "severity": "major",
+      "field": "evidence_types",
+      "problem": "'osl' is listed, and the multiple_dating_methods note says 'OSL came in the 2010s', but no source shows OSL dating of MV-II. S10's luminescence work was on the 2013 test units south of the creek (MV-I/CH-I horizons); MV-II lies on the terrace north of the creek (S12). In 2026 luminescence dates were used by the challengers (S13). 'footprints' has no source. Both inflate independent_methods_count (6, with no breakdown), a key analysis variable.",
+      "fix": "Remove 'osl' unless a source shows OSL on MV-II. Source or remove 'footprints'. Say which lines of evidence make up independent_methods_count, then recount.",
+      "evidence": "S10 (2013 fieldwork 'on the south side of the present-day Chinchuapi Creek'; luminescence in S1 File); S12 (MV-II 'north of Chinchihuapi Creek'); S13 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[5].text",
+      "problem": "S13 says MV-II 'cannot be older than the Middle Holocene (8200 to 4200 years B.P.)'. That is a maximum age, not 'only 8,200-4,200 years old'. The same wording appears in timeline[10].",
+      "fix": "Write 'no older than the mid-Holocene (8,200-4,200 BP)' in both places.",
+      "evidence": "S13 abstract"
+    },
+    {
+      "severity": "minor",
+      "field": "claimed_age.label",
+      "problem": "'~13,000 radiocarbon yr BP (now ~14,500 cal BP)' implies that 13,000 14C years calibrates to ~14,500 cal BP. It does not: a 12,460 14C BP bone averages 14,585 cal BP (S12), so ~14,500 cal BP matches the later ~12,500 14C figure (S6), and 13,000 14C BP calibrates older. bp_min and bp_max give today's range, not the claimed age.",
+      "fix": "Relabel: '~13,000 14C yr BP (1982-88); revised ~12,500 14C yr BP, ~14,500 cal BP'. Say in basis that bp_min and bp_max are the current calibrated range.",
+      "evidence": "S12 (12,453/12,480 BP, mean calibrated 14,585 BP); S6"
+    },
+    {
+      "severity": "minor",
+      "field": "year_claimed",
+      "problem": "1982 is defensible as the earliest verifiable dated age claim: S3 cites the 13,000-yr date to it, and S2 (1986) gives the same age. But the team says MV-II was 'first reported in the late 1970s' (S12). The notes cite a '1981 congress paper (cited in S10)', but I found no such reference in S10 (no match for Congreso, Actas or (1981).",
+      "fix": "Keep 1982, labelled 'earliest verified'. Cite the 1981 paper exactly or delete the mention. Add an open_issue that time-to-resolution may be ~18-20 yr rather than 15.",
+      "evidence": "S12; S3 Nature page; S2 Persée summary; S10 grep"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.proponent_stake",
+      "problem": "'no' has no source, but the schema says each feature cites one. Absence of a motive cannot be shown directly, so the basis must be stated.",
+      "fix": "Cite a contemporaneous source for the academic, grant-funded context and note 'none documented in sources reviewed', or code 'unknown'. Present-day heritage interests (Historic Monument declaration, UNESCO bid, S19) postdate the window and should not change the at-claim coding; if mentioned in notes, treat both 2026 teams alike.",
+      "evidence": "schema.json features_at_claim description; S19"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.documented_context",
+      "problem": "Coded as of the claim (~1982-87) but sourced to a 2023 proponent paper (S12).",
+      "fix": "Cite contemporaneous reports (S2, S3). Consider noting that recording errors later surfaced (1999 and 2002 corrections, S11; a misattributed date, see sources issue).",
+      "evidence": "S2; S3; S11"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].outcome_note",
+      "problem": "'wrong' is the best supported of Lynch's three, but the note rests only on the 1997 panel's judgment.",
+      "fix": "Add that even the 2026 challengers call MV-II an 'archaeological component' (S13 abstract). Note that if S13 treats the Pleistocene-dated wood as natural redeposit, human modification of those specific dated items is again in question.",
+      "evidence": "S13 abstract; S6"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests[0]",
+      "problem": "Hearth charcoal is not a short-lived material. Pleistocene ages on charcoal are exactly what the old-wood model predicts, so they cannot 'rule out redeposited old wood'. Seaweed is marine algae and needs a local marine reservoir correction; that is hundreds of years, far too small to blur Pleistocene versus Holocene. 'low' cost ignores permits for destructive sampling of a national monument's collections.",
+      "fix": "Target identified short-lived terrestrial plants (reeds, potato, seeds) and seaweed with a stated reservoir correction. Keep charcoal only as evidence that could show a young age. Set cost 'medium' or note the permits.",
+      "evidence": "S9 (dated items are marine algae); S19 (Historic Monument)"
+    },
+    {
+      "severity": "minor",
+      "field": "sources",
+      "problem": "Missing sources: Taylor et al. 1999 (doi 10.2307/2694145); Davis LG 2026, 'Reevaluation Is Not Novel, and Not All Reevaluations Are Equal: A Response to Tune and Miller', PaleoAmerica (doi 10.1080/20555563.2026.2670166; publisher page returned 403, content not read); Dillehay TD 2023, 'Correction for a Monte Verde II Radiocarbon Date', PaleoAmerica 9(2): 165-166 (doi 10.1080/20555563.2023.2236889), which says a La Moderna (Argentina) date was published in 1989 as an MV-II assay, a documented recording error; Live Science's May 2026 follow-up (30 signers). Waters et al. (S17) cite 'Surovell et al. 2026a', which implies a second 2026 Surovell item.",
+      "fix": "Add these sources. Mention the 2023 correction in the objections[3] outcome note and in the mundane-explanations coverage. Search for the second 2026 Surovell item, which may be a formal reply.",
+      "evidence": "Crossref metadata via lookup.py; https://www.livescience.com/archaeology/americas/speculation-and-egregious-failure-30-researchers-publish-scathing-critiques-of-study-that-questioned-date-of-early-human-occupation-of-monte-verde-in-chile"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[14].note",
+      "problem": "'18 signers incl. Grayson' (S15 note) and 'signed by 1997 panelists Meltzer and Grayson' (notes): Grayson's name was not found in the S15 text. Meltzer is confirmed, as lead of the genetics letter with Moreno-Mayar, Pinotti, Heintzman, Pedersen and Willerslev.",
+      "fix": "Verify Grayson or remove him. Say the eLetters are screened, not peer-reviewed (S15 header).",
+      "evidence": "S15 grep"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence_note",
+      "problem": "Says 'the full Surovell paper and replies were not read', but S15 is labelled checked and 'Read'. Also, how S13 accounts for the direct seaweed dates (S9) is not known from its abstract.",
+      "fix": "Reconcile the note with S15's label, and add the S9 question as an open issue.",
+      "evidence": "record internal"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "could-not-read", "note": "JSTOR record resolves; paywalled; title is a placeholder. S3 cites the 13,000-yr date to this report."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Persée summary: cultural component of 13,000 years, possible older MV-I at 33,000."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Nature page: entry 'no earlier than 12,000 years ago'; MV-II 13,000 yr BP (ref 7); MV-I ~33,000 yr BP."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract confirms the replication demand, 'mixture and secondary deposition', and natural mimics."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract: Lynch questioned the association and the 'hand of humans' without visiting the site."},
+    {"id": "S6", "exists": true, "supports_citation": "yes", "note": "Collections study, January 1997 visit, consensus MV-II archaeological and 12,500 years old; MV-I unresolved."},
+    {"id": "S7", "exists": true, "supports_citation": "yes", "note": "Doubts 'provenience of virtually every compelling' artifact and of dated specimens."},
+    {"id": "S8", "exists": true, "supports_citation": "partial", "note": "Supports the >5,000-yr discordance and 12,460 ± 30 BP. Not 'marine or volcanic carbon' or 'Clovis-age or younger' (objections[4])."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Seaweed from hearths directly dated 14,220-13,980 cal BP (~12,310-12,290 14C BP)."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "Luminescence work was on 2013 south-side (MV-I/CH-I) units, not MV-II; no 1981 congress reference found."},
+    {"id": "S11", "exists": true, "supports_citation": "yes", "note": "More than seventy specialists; earlier corrections (1999, 2002); MV-II sealed by peat."},
+    {"id": "S12", "exists": true, "supports_citation": "partial", "note": "Supports: late-1970s first report; 43 dates from a section ~50 m north of MV-II; ~14,550 cal BP; Clovis-first c. 13,000 cal BP; Taylor et al. 1999; no marine component. No TX/Beta names, assay years or 'two labs' found."},
+    {"id": "S13", "exists": true, "supports_citation": "yes", "note": "Abstract: 'first independent investigation'; tephra dated 11,000 BP; 'cannot be older than the Middle Holocene (8200 to 4200 years B.P.)' is a maximum age."},
+    {"id": "S14", "exists": true, "supports_citation": "yes", "note": "Near-not-at sampling, new dates 13,400-16,500 yr, Lepué Tephra. Also reports MV-II destroyed >30 years ago (unused in record)."},
+    {"id": "S15", "exists": true, "supports_citation": "partial", "note": "Three eLetters (May 2026) confirmed; Meltzer genetics letter confirmed. Grayson not found; 'former skeptics' not supported."},
+    {"id": "S16", "exists": true, "supports_citation": "yes", "note": "Abstract: 'first truly independent geochronological investigation'; lack of replication is structural; no position on age."},
+    {"id": "S17", "exists": true, "supports_citation": "yes", "note": "Abstract: scenarios 'flawed and inadequate'; ~14.4 ka. Cites 'Surovell et al. 2026a'."},
+    {"id": "S18", "exists": true, "supports_citation": "yes", "note": "Two PaleoAmerica rebuttals; Surovell 'remain[s] confident' and calls for independent study."},
+    {"id": "S19", "exists": true, "supports_citation": "yes", "note": "1976 discovery by local farmers; start of excavations listed (year labels not captured by grep)."},
+    {"id": "NEW-Taylor1999", "exists": true, "supports_citation": "yes", "note": "Proposed addition. doi 10.2307/2694145; abstract read: no local reservoir offset in modern plants."},
+    {"id": "NEW-Davis2026", "exists": true, "supports_citation": "could-not-read", "note": "Proposed addition. doi 10.1080/20555563.2026.2670166; reply to Tune & Miller; HTTP 403."},
+    {"id": "NEW-Dillehay2023", "exists": true, "supports_citation": "yes", "note": "Proposed addition. doi 10.1080/20555563.2023.2236889; 1989 misattributed date corrected."}
+  ]
+}

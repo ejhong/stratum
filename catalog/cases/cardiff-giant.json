@@ -1,0 +1,182 @@
+{
+  "id": "cardiff-giant",
+  "name": "Cardiff Giant",
+  "hook": "A carved gypsum figure buried on a New York farm in 1868, dug up in 1869 and shown as a petrified giant.",
+  "location": {
+    "country": "United States",
+    "region": "Cardiff, Onondaga County, New York",
+    "continent": "North America"
+  },
+  "anomaly_type": "artifact",
+  "claim": "Laborers digging a well on William Newell's farm near Cardiff, New York, uncovered a 10-foot stone figure on 16 October 1869. Newell exhibited it as a petrified giant or an ancient statue; his cousin George Hull had secretly had it carved from gypsum and buried there about a year earlier.",
+  "claimed_age": {
+    "label": "No fixed figure; ancient statue or petrified giant",
+    "bp_min": null,
+    "bp_max": null,
+    "basis": "No scientific age was measured. Early examiners' theories ranged from a statue carved '200-300 years' earlier (Boynton, initially) to a petrified antediluvian giant of open-ended, Biblical antiquity.",
+    "source": "S1"
+  },
+  "accepted_age": {
+    "label": "AD 1868: carved and secretly buried as a hoax",
+    "bp_min": 81,
+    "bp_max": 82,
+    "basis": "Calendar date, not a lab-dated age: gypsum quarried and carved in 1868, buried on Newell's farm, and 'discovered' in October 1869. Consistent with Hull's confession and the traced Iowa quarry origin.",
+    "source": "S1"
+  },
+  "orthodoxy_at_claim": {
+    "label": "Human soft tissue does not petrify into stone, and no genuine giant-sized human remains were known; scientists mostly rejected literal petrification at once.",
+    "limit_bp": null,
+    "source": "S1"
+  },
+  "year_claimed": 1869,
+  "key_proponents": ["George Hull", "William Newell", "James Hall", "Amos Wescott"],
+  "key_critics": ["Othniel C. Marsh", "Andrew Dickson White"],
+  "evidence_types": ["geology", "chemistry", "morphology", "artifacts"],
+  "independent_methods_count": 1,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "no",
+      "note": "Even sympathetic early examiners disagreed sharply on what it was: a fossilized man, a buried Indian-prophet idol, or a European (Jesuit) statue, before any fraud was suspected.",
+      "source": "S1"
+    },
+    "documented_context": {
+      "value": "no",
+      "note": "Recovered by hired laborers digging a well on private land, with no archaeological oversight; the seemingly undisturbed find had itself been staged about a year earlier.",
+      "source": "S1"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "No scientific dating method was applied; antiquity rested only on individual examiners' visual and geological impressions of the gypsum surface.",
+      "source": "S1"
+    },
+    "multiple_labs": {
+      "value": "no",
+      "note": "No laboratory analysis is recorded. Opinions came from individual naturalists (Hall, Wescott, Boynton) examining the statue directly, not from lab tests.",
+      "source": "S1"
+    },
+    "professional_recovery": {
+      "value": "no",
+      "note": "Uncovered by hired farm laborers digging a well, not by trained excavators. The state geologist and other scientists only examined it after exhibition had begun.",
+      "source": "S1"
+    },
+    "peer_reviewed_report": {
+      "value": "no",
+      "note": "Opinions on origin and age circulated as newspaper reports and private letters (e.g., to Scientific American), not as a peer-reviewed technical report.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "yes",
+      "note": "The statue was exhibited to paying visitors from the first days, including scientists, journalists and skeptics such as Marsh and White.",
+      "source": "S1"
+    },
+    "independent_teams": {
+      "value": "partial",
+      "note": "Several naturalists (Hall, Wescott, Boynton, Marsh, White) examined the statue within weeks, but as individuals, not organized teams; verdicts split before resolving toward fraud.",
+      "source": "S1"
+    },
+    "proponent_stake": {
+      "value": "yes",
+      "note": "Hull spent heavily to manufacture the statue and profited from selling his interest; Newell charged 50-cent admission from the first days and reportedly took in large sums.",
+      "source": "S1"
+    }
+  },
+  "objections": [
+    {
+      "text": "The statue's material (soluble gypsum) still showed fresh-looking tool marks; if it had lain buried for centuries it could not look this way. Marsh called it 'a most decided humbug.'",
+      "kind": "integrity",
+      "raised_by": "Othniel C. Marsh",
+      "year": 1869,
+      "outcome": "held",
+      "outcome_note": "Hull confessed within weeks to manufacturing the statue; every account since treats it as a hoax.",
+      "source": "S1"
+    },
+    {
+      "text": "Local residents recalled a secretive, heavily loaded wagon delivering a large crated object to the Cardiff area about a year before the 'discovery,' suggesting a staged burial rather than a chance find.",
+      "kind": "context",
+      "raised_by": "Residents of Onondaga County",
+      "year": 1869,
+      "outcome": "held",
+      "outcome_note": "Matches Hull's later confession and the traced 1868 purchase, quarrying and shipment of the gypsum block from Iowa.",
+      "source": "S1"
+    },
+    {
+      "text": "A visiting Fort Dodge, Iowa lawyer recognized the statue's material as matching an unusually large gypsum block quarried and shipped from Fort Dodge under secretive circumstances the previous year.",
+      "kind": "integrity",
+      "raised_by": "Galusha Parsons",
+      "year": 1869,
+      "outcome": "held",
+      "outcome_note": "The quarry contract, quarryman Michael Foley, and shipment were confirmed as the statue's true origin, corroborating Hull's confession.",
+      "source": "S1"
+    }
+  ],
+  "status": "refuted",
+  "status_note": "Universally treated as a fabricated statue, not a genuine ancient object. Hull's 1869 confession, the traced gypsum origin, and Marsh's on-site verdict are mutually consistent; no scholarly source since has argued otherwise.",
+  "year_resolved": 1869,
+  "what_settled_it": "George Hull confessed to the press that he manufactured the statue, matching the independently traced origin of its gypsum (quarried near Fort Dodge, Iowa, and carved in Chicago in 1868) and Marsh's on-site judgment that the material and tool marks were of recent origin.",
+  "settled_by": ["confession", "provenance-research", "expert-review"],
+  "failure_mode": "hoax",
+  "timeline": [
+    { "year": 1868, "event": "Hull has a gypsum block quarried in Iowa, carved in Chicago into a giant figure, and buried on cousin William Newell's farm near Cardiff, NY.", "source": "S1" },
+    { "year": 1869, "event": "Newell's laborers 'discover' the figure while digging a well; Newell tents it and charges 50 cents admission.", "source": "S1" },
+    { "year": 1869, "event": "Examiners split: Boynton, Hall and Wescott argue for an ancient statue or petrified man; Marsh calls it 'a most decided humbug.'", "source": "S1" },
+    { "year": 1869, "event": "A Fort Dodge, Iowa lawyer recognizes the gypsum's likely source; the quarry contract and quarryman Michael Foley are traced.", "source": "S1" },
+    { "year": 1869, "event": "Hull sells his interest for exhibition; P. T. Barnum, refused a purchase, has a rival copy made and shown as the 'real' giant.", "source": "S1" },
+    { "year": 1869, "event": "Hull confesses publicly that he manufactured and buried the statue as a hoax.", "source": "S1" }
+  ],
+  "falsifier": "This record would be wrong if Hull's confession and the Fort Dodge quarry trail were themselves shown to be fabricated, and independent physical testing instead matched the statue's material and burial context to a genuinely ancient, undisturbed origin.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Gallaher, R.A. (1921). The Cardiff Giant. The Palimpsest 2(9).",
+      "doi": "10.17077/0031-0360.23878",
+      "url": "https://pubs.lib.uiowa.edu/palimpsest/article/id/23878/download/pdf/",
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read in full (open PDF). Direct quotes from Marsh ('a most decided humbug'), Hall, Wescott and Boynton; describes the Fort Dodge/Iowa quarrying, Galusha Parsons's tip, and Hull's confession."
+    },
+    {
+      "id": "S2",
+      "citation": "Tribble, S. (2008). A Colossal Hoax.",
+      "doi": "10.5771/9780742564725",
+      "url": null,
+      "kind": "book",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref confirms author/year/DOI; publisher abstract (via OpenAlex) read and consistent with S1, describing the case as an exposed hoax. Full text not accessed (paywalled)."
+    },
+    {
+      "id": "S3",
+      "citation": "(2006). Cardiff Giant Hoax. Encyclopedia of Anthropology.",
+      "doi": "10.4135/9781412952453.n144",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref confirms this reference-work entry exists on the exact topic; no abstract available and content not read, so not used to support any specific claim."
+    },
+    {
+      "id": "S4",
+      "citation": "(2014). Cardiff Giant. Encyclopedia of Deception.",
+      "doi": "10.4135/9781483306902.n46",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref confirms this reference-work entry exists on the exact topic; no abstract available and content not read, so not used to support any specific claim."
+    }
+  ],
+  "confidence": "high",
+  "confidence_note": "Core narrative rests on a 1921 history read in full and a modern monograph's abstract; both agree, and no scholarly dissent exists on the hoax verdict.",
+  "corrections": [
+    "Starter notes cite Marsh's exposure and Hull's admission but omit an independent evidentiary thread: a Fort Dodge, Iowa lawyer recognized the gypsum's likely quarry origin, which was traced and corroborated before Hull's confession.",
+    "The statue was quarried, carved and secretly buried around 1868, about a year before the widely cited October 1869 'discovery' date; the starter notes give only the later date.",
+    "This record could not verify some frequently repeated popular details (e.g., the names of the Chicago carvers, exact confession/court dates) against a checked source within budget, so they are omitted rather than asserted."
+  ],
+  "notes": "One of the most thoroughly documented hoaxes in American archaeology; no serious source disputes the verdict. Popular accounts (not independently checked here) name specific Chicago carvers, give exact confession and court dates in December 1869 and February 1870, and trace the object's later ownership and museum display; these are left out of the formal fields because this record could not confirm them against a checked or existing academic source within its research budget. Scholarly literature on this case is thinner than for academic hoaxes like Piltdown; the fullest modern treatment found (Tribble 2008) is a trade/academic-press monograph rather than a peer-reviewed journal article.",
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}
