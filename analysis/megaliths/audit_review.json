@@ -1,0 +1,209 @@
+{
+ "reviewer": "Stratum skeptic (Opus), independent of the audit_A/audit_B drafters",
+ "date": "2026-09-23",
+ "scope": "Checked all 2 'direct' and all 4 'none' classifications; spot-checked 18 others across Europe, Asia, Africa, North/Central America, South America and Oceania and across associated-organic, historical-contextual and stylistic bases; searched for missed direct-dating studies at Stonehenge, Newgrange, Giza, Baalbek, Sacsayhuaman, Tiwanaku, Carnac and Malta. All checks used scripts/lookup.py (doi / search / page --grep, incl. OpenAlex and arXiv queries). audit_A.json and audit_B.json were not edited; apply these corrections downstream.",
+ "classification_rule_applied": "Per H7: 'direct' = a date on the stonework itself or on carbonate formed after construction (rock-surface luminescence, cosmogenic exposure, U-series on post-construction carbonate, or U-series on the building material itself as at Nan Madol). Organic material inside mortar or fill, and OSL on sediment in sockets or beneath stones, are 'associated' even when construction-contemporaneous. This is the rule the audit already applied to the Great Pyramid; the review applies it consistently. 'none' = no stated dating basis at all; a date inferred from typology or culture-historical comparison is 'stylistic'.",
+ "corrections": [
+  {
+   "id": "gobekli-tepe",
+   "field": "dating_basis",
+   "from": "direct",
+   "to": "associated-organic",
+   "source": "Dietrich, L. et al. (2019). Cereal processing at Early Neolithic Gobekli Tepe. PLOS ONE 14(5): e0215214. https://doi.org/10.1371/journal.pone.0215214",
+   "note": "The audit misread the source. KIA-44149 (9984 +/- 42 BP) was measured on CLAY mortar from the ring wall between Pillars 41 and 42, not lime mortar. The paper uses that date as evidence that 'PPNA materials were part of the sediments used to repair and backfill the building', meaning reworked older organics. A radiocarbon date on organics in a clay mortar is associated, the same rule the audit applied to the Great Pyramid's mortar charcoal."
+  },
+  {
+   "id": "gobekli-tepe",
+   "field": "association_strength",
+   "from": null,
+   "to": "moderate",
+   "source": "Dietrich et al. 2019 (as above)",
+   "note": "There are many AMS dates, but the source itself says the dated mortar and fill contain reworked PPNA material, so they give maximum ages for construction events rather than construction dates."
+  },
+  {
+   "id": "gobekli-tepe",
+   "field": "direct_methods_applied",
+   "from": ["mortar/plaster radiocarbon (AMS on lime mortar and embedded organics, Kiel lab)"],
+   "to": ["14C on pedogenic carbonate coatings on the site's stones (minimum ages only)"],
+   "source": "Pustovoytov, K., Schmidt, K., Taubald, H. (2007). Evidence for Holocene environmental changes in the northern Fertile Crescent provided by pedogenic carbonate coatings. Quaternary Research 67(3): 315-327. https://doi.org/10.1016/j.yqres.2007.01.002 ; Pustovoytov, K., Schmidt, K., Parzinger, H. (2007). Radiocarbon dating of thin pedogenic carbonate laminae from Holocene archaeological sites. The Holocene 17(6): 835-843. https://doi.org/10.1177/0959683607080524",
+   "note": "The auditors missed this direct method. Carbonate coatings on stones at Gobekli Tepe began forming about 10,000 cal yr BP. That is carbonate formed after construction and burial, so it is a direct method, but it gives only minimum ages. The Holocene paper found such 14C ages were systematically 0.3 to 1.6 ka younger than the sites. It constrains the monument but does not set its construction date, so dating_basis stays associated-organic. For the H7 test ('association alone'), Gobekli Tepe is therefore NOT counted as association-alone."
+  },
+  {
+   "id": "gobekli-tepe",
+   "field": "construction_date",
+   "from": "... e.g. lime-mortar sample KIA-44149: 9984+/-42 BP = 9745-9314 cal BC ...",
+   "to": "... e.g. clay-mortar sample KIA-44149: 9984+/-42 BP = 9745-9314 cal BC (organics likely reworked PPNA sediment, per source) ...",
+   "source": "Dietrich et al. 2019 (as above)",
+   "note": "The material was misnamed."
+  },
+  {
+   "id": "menga",
+   "field": "association_strength",
+   "from": "moderate",
+   "to": "strong",
+   "source": "Garcia Sanjuan, L., Medialdea, A., Balsera Nieto, V., Athanassas, C. et al. (2023). A multimethod approach to the genesis of Menga, a World Heritage megalith. Quaternary Research 111: 1-20. https://doi.org/10.1017/qua.2022.33 (open access; full text grep-checked)",
+   "note": "The auditors missed the dedicated dating study. It reports 29 new numerical ages (14C, OSL, TL, U-Th). Construction at c. 3800-3600 BCE comes from Bayesian-modelled 14C on 8 samples from the mound's lower layer, plus 3 OSL ages on sediment filling the socket of Pillar 3 (5.8+/-0.3, 5.5+/-0.4, 5.5+/-0.8 ka). The basis is still associated: sediment and mound organics, not the orthostats. The U-Th dates are on cave speleothems (an earthquake test), not the monument. The source notes that as late as 2016 no radiocarbon date had been published for Menga."
+  },
+  {
+   "id": "menga",
+   "field": "n_dates",
+   "from": "not stated in the passages read; papers assert the date range without detailing the underlying radiocarbon dataset",
+   "to": "29 new numerical ages (incl. 8 14C on mound-layer samples and 3 OSL on Pillar 3 socket infill)",
+   "source": "Garcia Sanjuan et al. 2023 (as above)",
+   "note": ""
+  },
+  {
+   "id": "menga",
+   "field": "sources",
+   "from": ["10.1126/sciadv.adp1295", "10.1038/s41598-023-47423-y"],
+   "to": ["10.1017/qua.2022.33 (primary for the date)", "10.1126/sciadv.adp1295", "10.1038/s41598-023-47423-y"],
+   "source": "Garcia Sanjuan et al. 2023 (as above)",
+   "note": "Confidence should rise from low to high: the 3800-3600 BCE range is now traced to its data."
+  },
+  {
+   "id": "menga",
+   "field": "confidence",
+   "from": "low",
+   "to": "high",
+   "source": "Garcia Sanjuan et al. 2023 (as above)",
+   "note": ""
+  },
+  {
+   "id": "bada-valley",
+   "field": "dating_basis",
+   "from": "none",
+   "to": "stylistic",
+   "source": "Kirleis, W., Pillar, V.D., Behling, H. (2011). Human-environment interactions in mountain rainforests: archaeobotanical evidence from central Sulawesi, Indonesia. Vegetation History and Archaeobotany 20(3): 165-179. https://doi.org/10.1007/s00334-010-0272-0 (open access; grep-checked)",
+   "note": "The source calls these 'Metal Age megaliths ... mainly erected in the central Sulawesi Besoa and Bada valleys', citing Kaudern 1938 and Sukendar, and compares them with similar artefacts in Borneo and Laos. That is a culture-historical/typological (stylistic) basis, not an absence of any basis. There is still no chronometric date of the stones. The paper's radiocarbon-dated pollen cores record human impact over the last ~2,000 years but are not tied to the megaliths. association_strength stays weak."
+  },
+  {
+   "id": "carnac",
+   "field": "n_dates",
+   "from": "2,410 radiocarbon results compiled region-wide; count specific to the alignment rows not stated",
+   "to": "none identified for the alignment rows; the 2,410 results in S1 are Europe-wide (megalithic, partly pre-megalithic and non-megalithic contexts) and the model concerns megalithic graves",
+   "source": "Schulz Paulsson, B. (2019). PNAS 116(9): 3460-3465. https://doi.org/10.1073/pnas.1813268116 (abstract)",
+   "note": "Factual slip: the dataset is Europe-wide, not regional. This reinforces the audit's own 'weak' grading for the rows. In a nearby western French alignment (Gavre, Loire-Atlantique), direct OSL on the quartzite menhirs failed for lack of signal. Socket-fill OSL there dated one monolith's erection to 2040-1680 BC (1 sigma), Early Bronze Age (Cassen et al. 2013, https://doi.org/10.4000/archeosciences.4057). That shows alignments in this region cannot be assumed Neolithic."
+  },
+  {
+   "id": "olmec-heads",
+   "field": "association_strength",
+   "from": "strong",
+   "to": "moderate",
+   "source": "Coe, M.D., Diehl, R.A., Stuiver, M. (1967). Olmec civilization, Veracruz, Mexico: dating of the San Lorenzo phase. Science 155(3768): 1399-1401. https://doi.org/10.1126/science.155.3768.1399 (abstract)",
+   "note": "The abstract says the sculptures are 'associated with the San Lorenzo phase', placed in the Early Formative 'on the basis of ceramic comparisons', with six conventional 14C dates (five within 1200-900 B.C.). Each head is linked to the dated phase only by association, and the dated sample is small. That is moderate, not strong."
+  },
+  {
+   "id": "olmec-heads",
+   "field": "construction_date",
+   "from": "San Lorenzo phase, c. 1200-900 BCE by radiocarbon, within a broader Early Formative 1500-800 BCE ceramic sequence (S1).",
+   "to": "San Lorenzo phase, c. 1200-900 B.C. in conventional (uncalibrated) radiocarbon years as published in 1967 (5 of 6 dates), within a 1500-800 B.C. Early Formative placement based on ceramic comparisons (S1).",
+   "source": "Coe et al. 1967 (as above)",
+   "note": "CLAUDE.md requires calibration status to be stated. These are uncalibrated 1967 radiocarbon ages and should not be presented as calendar BCE."
+  },
+  {
+   "id": "rapa-nui",
+   "field": "association_strength",
+   "from": "strong",
+   "to": "moderate",
+   "source": "Hunt, T.L., Lipo, C.P. (2008). J. Island & Coastal Archaeology 3(1): 140-148. https://doi.org/10.1080/15564890801990797 (abstract); DiNapoli, R.J., Rieth, T.M., Lipo, C.P., Hunt, T.L. (2020). A model-based approach to the tempo of 'collapse': the case of Rapa Nui (Easter Island). Journal of Archaeological Science 116: 105094. https://doi.org/10.1016/j.jas.2020.105094 (abstract via repository page)",
+   "note": "The audit's only dating source (Hunt & Lipo 2008) dates COLONIZATION (~AD 1200), not ahu or moai construction. For the monuments it gives only a terminus post quem. The ahu construction chronology is modelled separately by DiNapoli et al. 2020, a Bayesian model integrating radiocarbon dates and relative architectural sequences. That paper disputes the narrative that ahu building ceased around AD 1600, so the audit's end date of 1650 CE is contested. The modelled ranges could not be read (repository abstract truncated)."
+  },
+  {
+   "id": "rapa-nui",
+   "field": "sources",
+   "from": ["10.1080/15564890801990797", "10.1371/journal.pone.0336251"],
+   "to": ["10.1016/j.jas.2020.105094 (ahu construction chronology)", "10.1080/15564890801990797 (colonization only)", "10.1371/journal.pone.0336251"],
+   "source": "DiNapoli et al. 2020 (as above)",
+   "note": ""
+  },
+  {
+   "id": "osireion",
+   "field": "spread_note",
+   "from": "No radiocarbon/OSL/U-series dates located for the structure; dated purely by proximity to Seti I's temple and later royal additions",
+   "to": "No radiocarbon/OSL/U-series dates located. Construction and decoration were ascribed to Seti I and Merenptah on the basis of mud bricks stamped with Seti I's seal and reliefs carrying Merenptah's name and titulary found in the building. The open question is whether these date the megalithic core or only the brick and decorated parts.",
+   "source": "Mendez-Rodriguez, D.M. (2020). Ofrendas en el Inframundo: el Libro de las Doce Cavernas en el Osireion de Abidos. Trabajos de Egiptologia 11: 189-214. https://doi.org/10.25145/j.tde.2020.11.12 (open access; grep-checked)",
+   "note": "The audit's 'purely by proximity' and 'no independent inscriptional date' understate the evidence: stamped and inscribed construction materials exist in the building. The basis stays historical-contextual."
+  },
+  {
+   "id": "osireion",
+   "field": "association_strength",
+   "from": "weak",
+   "to": "moderate",
+   "source": "Mendez-Rodriguez 2020 (as above)",
+   "note": "Royal-stamped bricks and named reliefs in the structure are a stronger link than proximity. They are not stronger than moderate because the stamped bricks need not be contemporaneous with the large-block core."
+  },
+  {
+   "id": "haamonga",
+   "field": "sources",
+   "from": "Clark, G., Parton, P. et al. (2017). Conflict and State Development in Ancient Tonga: The Lapaha Earth Fort. JICA.",
+   "to": "Clark, G., Parton, P., Reepmeyer, C., Melekiola, N. et al. (2018). JICA 13(3): 405-419. https://doi.org/10.1080/15564894.2017.1337658",
+   "source": "Crossref metadata and abstract",
+   "note": "The print year is 2018 (online 2017). More importantly, the paper dates the Lapaha earth fort (14th c. AD, by radiocarbon plus traditional history), not the Ha'amonga trilithon. The record's attribution to the 11th Tu'i Tonga therefore has no verified source (see unverifiable)."
+  },
+  {
+   "id": "gunung-padang",
+   "field": "association_strength",
+   "from": "weak",
+   "to": null,
+   "source": "Consistency with audit_A (almendres 'none' carries null)",
+   "note": "A 'none' record has no association to grade. The classification 'none' itself is CONFIRMED: the 2024 retraction notice (https://doi.org/10.1002/arp.1932) states the 14C dates were on soil 'not associated with any artifacts or features that could be reliably interpreted as anthropogenic'."
+  },
+  {
+   "id": "yonaguni",
+   "field": "association_strength",
+   "from": "weak",
+   "to": null,
+   "source": "Consistency with audit_A (almendres 'none' carries null)",
+   "note": "The classification 'none' is confirmed: there is no accepted construction event to date."
+  }
+ ],
+ "confirmed": [
+  {"id": "nan-madol", "check": "direct", "result": "CONFIRMED. 230Th/U on coral from the tomb of the first chief gives AD 1180-1200. The coral is architectural material (the site is 'built using columnar basalt and coral').", "source": "https://doi.org/10.1016/j.yqres.2016.08.002", "caveat": "A coral death age is a maximum for construction; if dead coral had been gathered, construction would be younger."},
+  {"id": "gunung-padang", "check": "none", "result": "CONFIRMED (retraction notice read).", "source": "https://doi.org/10.1002/arp.1932"},
+  {"id": "yonaguni", "check": "none", "result": "CONFIRMED as 'none', but sourcing stays weak. An OpenAlex title search for 'Yonaguni' (177 works) surfaced no peer-reviewed study of the formation in its first page.", "source": "audit S1 (New Scientist 2009) only"},
+  {"id": "stonehenge", "check": "associated-organic / strong", "result": "CONFIRMED. The stages are anchored by Bayesian radiocarbon modelling. No direct (rock-surface or exposure) study of the stones was found.", "source": "https://doi.org/10.1017/s0003598x00048225"},
+  {"id": "great-pyramid", "check": "associated-organic / strong", "result": "CONFIRMED. Samples were 'black specks of charcoal inside the mortar' from seams between blocks, given ABA pretreatment. No lime-carbonate mortar dating.", "source": "https://doi.org/10.1017/s0033822200038558"},
+  {"id": "baalbek", "check": "historical-contextual / weak", "result": "CONFIRMED. Magli states a stonemason's graffito carries the date 2 August AD 60. He also argues both podia were one project conceived under Herod the Great, so the debate is within the Roman period. Sketch engravings on a trilithon block are claimed as evidence of contemporaneity, which Magli disputes.", "source": "arXiv:1606.05888 (preprint of Magli 2019, https://doi.org/10.1007/978-3-319-97007-3_9)"},
+  {"id": "rujm-el-hiri", "check": "associated / weak", "result": "CONFIRMED. The abstract says there is 'still no consensus on its date'. The Chalcolithic attribution comes from landscape analysis and is 'further reinforced by an OSL study'.", "source": "https://doi.org/10.1080/03344355.2017.1280973"},
+  {"id": "aksum", "check": "stylistic / moderate", "result": "CONFIRMED. Charcoal 'unquestionably associated with the construction of the stela' could not be radiocarbon dated. Red Aksumite Ware from the foundation places it in the 3rd-4th c. AD.", "source": "https://doi.org/10.4000/palethnologie.5778"},
+  {"id": "nabta-playa", "check": "associated / moderate", "result": "CONFIRMED, with a refinement. The key constraint is a terminus ante quem: the area became hyperarid and uninhabitable about 4,800 radiocarbon years BP (uncalibrated). The megaliths sit next to Middle and Late Neolithic communities.", "source": "https://doi.org/10.1038/33131"},
+  {"id": "chavin", "check": "associated / strong", "result": "CONFIRMED. A critical evaluation of excavation radiocarbon gives 850-200 B.C. The abstract does not state calibration status, so label it as published.", "source": "https://doi.org/10.2307/280603"},
+  {"id": "great-sphinx", "check": "no direct date", "result": "CONFIRMED that no absolute date of the carved bedrock was found. Lehner (1992) treats it as 'originally carved in the 4th Dynasty' and 'remodelled and renovated during the 18th Dynasty'. That restoration history matters for any exposure-dating design.", "source": "https://doi.org/10.1017/s0959774300000445"}
+ ],
+ "unverifiable": [
+  {"id": "almendres", "issue": "The 'none' classification could be neither confirmed nor corrected. Crossref searches in English and Portuguese found no dating study. The record is internally inconsistent: its spread_note says the age 'rests on regional stylistic comparison', which would make it 'stylistic', but no source supports that attribution. Left as 'none'."},
+  {"id": "karahan-tepe", "issue": "Karul 2021 ('Buried Buildings at Pre-Pottery Neolithic Karahantepe', TAED 82; no DOI) has no dating statement in its abstract. A 2025 HAL paper on Karahantepe and Sayburç bone tools places the site in the PPNA/Early PPNB (title only). Whether published radiocarbon dates exist could not be verified. Left as 'stylistic'; if dates exist it becomes associated-organic, with no effect on H7."},
+  {"id": "ggantija / hagar-qim", "issue": "The FRAGSUS chapter 'Dating Maltese prehistory' (Temple places, 2020; DataCite DOI 10.17863/cam.62649, green open access in Cambridge Apollo; Crossref returns 404 because it is DataCite) was located but its full text could not be retrieved with the lookup tools. Temple-specific dates may exist there. Classifications left as associated-organic / weak."},
+  {"id": "great-pyramid / great-sphinx / osireion", "issue": "Possible missed direct studies. Liritzis & Vafiadou (2015), 'Surface luminescence dating of some Egyptian monuments', J. Cultural Heritage 16(2): 134-150 (https://doi.org/10.1016/j.culher.2014.05.007), applied direct surface luminescence to Egyptian monuments; a secondary citation confirms at least the Giza 'Osiris Shaft'. Also Vafiadou, Murray & Liritzis (2007), JAS 34: 1659-1669 (https://doi.org/10.1016/j.jas.2006.12.004), 'rock and underlying soil from three case studies'. Both are paywalled with no abstract available, so which monuments and results are included is unknown. If they include any sampled monument, that record gains a direct method."},
+  {"id": "great-sphinx", "issue": "The basis is arguably historical-contextual (integration with Khafre's dated complex) rather than stylistic. No accessible source states the basis in detail. Not changed; no effect on H7."},
+  {"id": "tiwanaku", "issue": "Yaeger & Vranich 2013 (https://doi.org/10.2307/j.ctvdjrqk5.17) exists but is paywalled. The record's 500-1000 CE range is the general framework, not the chapter's results, so 'strong' is unverified. No direct (luminescence or cosmogenic) study of the stones was found."},
+  {"id": "sacsayhuaman", "issue": "An OpenAlex full-text search ('Sacsayhuaman radiocarbon', 10 hits) found no dated construction context and no direct study. The historical-contextual classification stands, but absence of evidence rests on indexed English-language literature only."},
+  {"id": "san-agustin / diquis-spheres", "issue": "Crossref and OpenAlex searches found no chronometric source. The stylistic classifications are unverified; the Spanish-language literature needs a check."},
+  {"id": "chankillo", "issue": "The Science abstract gives a '4th-century B.C.E. ceremonial complex' but not the dating method or the number of dates. 'n: many' is unverified."},
+  {"id": "haamonga", "issue": "The attribution to Tu'itatui (13th c.) from oral king-lists has no verified source; the cited paper concerns a different monument."},
+  {"id": "callanish / ring-of-brodgar / nevali-cori / gochang-dolmens", "issue": "Sources were verified at citation level only by the auditors (paywalled or not indexed) and were not re-checked here. Classifications are plausible but unconfirmed."}
+ ],
+ "missed_direct_dating_search": {
+  "Stonehenge": "none found (OpenAlex full text 'Stonehenge rock surface luminescence')",
+  "Newgrange": "none found (OpenAlex full text 'Newgrange luminescence dating')",
+  "Giza (Great Pyramid, Sphinx)": "possible: Liritzis & Vafiadou 2015 surface luminescence (paywalled; see unverifiable)",
+  "Baalbek": "none found (OpenAlex 'Baalbek trilithon dating'; arXiv)",
+  "Sacsayhuaman": "none found",
+  "Tiwanaku / Pumapunku": "none found",
+  "Carnac": "none at Carnac itself; a regional precedent exists (Gavre alignment: direct OSL on quartzite failed, socket-fill OSL succeeded)",
+  "Malta": "no direct study found; FRAGSUS Bayesian 14C chapter located but unread",
+  "Gobekli Tepe": "FOUND and missed by auditors: 14C on pedogenic carbonate coatings on stones (minimum ages)",
+  "Menga": "FOUND and missed by auditors: multimethod study incl. OSL on socket infill (associated, but decisive)"
+ },
+ "counts_before_review": {"direct": 2, "associated_organic": 24, "historical_contextual": 5, "stylistic": 5, "none": 4},
+ "counts_after_review": {"direct": 1, "associated_organic": 25, "historical_contextual": 5, "stylistic": 6, "none": 3},
+ "h7_tally": {
+  "association_alone": 35,
+  "how_counted": "associated_organic (25) + historical_contextual (5) + stylistic (6) = 36 monuments dated by association, minus Gobekli Tepe, which has a direct minimum-age constraint (pedogenic carbonate 14C). Nan Madol is the only direct case; 3 have no basis at all.",
+  "disproof_threshold": "H7 is disproved if fewer than 20 of 40 depend on association alone",
+  "result": "35 of 40 depend on association alone. H7's prediction holds.",
+  "sensitivity": "Under the most generous reading, counting as direct the mortar-embedded charcoal (Great Pyramid), socket-fill or sub-stone OSL (Menga, Plain of Jars, Rujm el-Hiri) and any Egyptian monument possibly covered by Liritzis & Vafiadou 2015 (Sphinx, Osireion), association-alone is still at least 29 of 40. The verdict does not depend on the classification rule.",
+  "caveat": "The sample is of widely cited monuments, fixed in advance. It says nothing about less famous monuments, and 'association' ranges from strong (Stonehenge, Menga) to weak (Carnac rows, Callanish), so H7's 'room for large errors' clause is not tested by the count alone."
+ },
+ "tool_calls": "about 55 (lookup.py doi/search/page, including OpenAlex, Semantic Scholar and arXiv queries through page)"
+}

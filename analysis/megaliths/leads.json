@@ -1,0 +1,191 @@
+{
+ "about": "H7 leads: the 10 monuments in the fixed 40-monument sample where a direct date would be most informative, after the skeptic review (audit_review.json). A lead is valuable whichever way the answer falls; the likely outcome is stated for each so a confirming result is not mistaken for a failure. No coordinates or access details. All fieldwork must be done by credentialed archaeologists with permits.",
+ "date": "2026-09-23",
+ "scoring": {
+  "weakness_W": "5 = no dating basis; 4 = style, text or tradition only, no chronometric date; 3 = chronometric dates only for associated contexts, with a contested or indirect link; 2 = well-dated associated contexts, moderate link; 1 = strong multi-method dating",
+  "feasibility_F": "5 = the method has worked on the same monument type in the same region; 4 = it has worked on similar monuments or material elsewhere; 3 = plausible but the context or material is challenging; 2 = difficult; 1 = not currently feasible",
+  "importance_I": "5 = either result settles a prominent public or academic dispute of large chronological size; 4 = would revise a widely cited date or regional sequence; 3 = regional significance; 2 = local; 1 = marginal",
+  "score": "W x F x I (max 125). Ties are broken by I, then F. These are judgement calls, shown so they can be argued with.",
+  "method_notes": "'Direct' here means dating the stone surface itself (rock-surface luminescence burial dating of a face covered when the stone was set; cosmogenic exposure of a worked face) or material built into the structure (U-Th on construction coral). Single-grain OSL on sediment filling a stone's socket is technically associated, but it dates the erection event closely and is listed alongside, because it has the best track record (Menga; Cruz de Cepos). Direct OSL on quartzite menhirs has failed for lack of signal (Gavre), so the rock type must be checked before sampling."
+ },
+ "leads": [
+  {
+   "rank": 1,
+   "id": "gunung-padang",
+   "name": "Gunung Padang",
+   "current_basis": "none",
+   "current_date": "No accepted date for the megalithic terraces. A 2023 claim of construction from 9,000+ years ago was retracted in 2024 because the 14C dates were on soil not tied to any artifact or anthropogenic feature.",
+   "score": {"W": 5, "F": 3, "I": 5, "total": 75},
+   "direct_method": "Rock-surface luminescence burial dating of the underside of stone columns that are demonstrably set in place on the upper terraces (the face was covered at placement), plus single-grain OSL on sediment sealed immediately beneath the same stones. AMS 14C only on organics inside features shown in section to be built.",
+   "material_or_surface": "Lower faces of placed stone columns, and the sediment directly under them, on the surface terraces. The first requirement is a documented built interface, which is exactly the point the retraction turned on.",
+   "if_older": "An early-Holocene or older age from a demonstrably built context would be a genuine anomaly. It would need independent-laboratory replication and a hunt for mundane causes (inherited signal, incomplete bleaching, stones re-set onto older sediment).",
+   "if_younger": "A late-Holocene placement age would confirm the ordinary reading of a later prehistoric terraced site and close the buried-pyramid claim on evidence rather than on authority.",
+   "likely_outcome": "Younger. It is still worth doing because the retraction removed a date without supplying one.",
+   "key_sources": [
+    {"citation": "Retraction: Geo-archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia (2024). Archaeological Prospection 31(2): 199.", "doi": "10.1002/arp.1932", "verification": "retraction text read"},
+    {"citation": "Bailiff, I., Andrieux, E., Diaz-Guardamino, M., Alves, L. et al. (2024). Dating the setting of a late prehistoric statue-menhir at Cruz de Cepos, NE Portugal. Quaternary Geochronology 83: 101569.", "doi": "10.1016/j.quageo.2024.101569", "verification": "abstract read (method precedent: socket OSL agreed with 14C)"}
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "almendres",
+   "name": "Almendres Cromlech",
+   "current_basis": "none",
+   "current_date": "No absolute date found by the audit or this review. The conventional Neolithic attribution in secondary literature is unsourced here (UNVERIFIED).",
+   "score": {"W": 5, "F": 5, "I": 3, "total": 75},
+   "direct_method": "Single-grain OSL on sediment filling the sockets of monoliths confirmed to be in their original sockets, cross-checked with AMS 14C on any sealed organics. Rock-surface luminescence burial dating on buried base faces if the rock type gives a usable signal.",
+   "material_or_surface": "Socket-fill and packing sediments, and buried basal faces, of stones shown in section to be undisturbed. Which stones are undisturbed must be established first, because re-erected stones would give the date of re-erection.",
+   "if_older": "A 6th- or early-5th-millennium BC erection would put standing-stone enclosures at or before the emergence of megalithic graves in Atlantic Iberia, placed in the second half of the 5th millennium cal BC by Schulz Paulsson (2019). That would support an early, independent Iberian standing-stone tradition.",
+   "if_younger": "A 4th- or 3rd-millennium BC erection would show the conventional attribution is too old, as the Cruz de Cepos statue-menhir (Copper Age) and the Gavre alignment (Early Bronze Age) turned out.",
+   "likely_outcome": "Unknown, which is why it ranks high.",
+   "key_sources": [
+    {"citation": "Bailiff, I. et al. (2024). Dating the setting of a late prehistoric statue-menhir at Cruz de Cepos, NE Portugal. Quaternary Geochronology 83: 101569.", "doi": "10.1016/j.quageo.2024.101569", "verification": "abstract read"},
+    {"citation": "Garcia Sanjuan, L. et al. (2023). A multimethod approach to the genesis of Menga, a World Heritage megalith. Quaternary Research 111: 1-20.", "doi": "10.1017/qua.2022.33", "verification": "full text grep-checked (OSL on Pillar 3 socket infill 5.8-5.5 ka, concordant with Bayesian 14C)"}
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "great-sphinx",
+   "name": "Great Sphinx of Giza",
+   "current_basis": "stylistic/contextual (attribution to Khafre); no absolute date of the carved bedrock",
+   "current_date": "4th Dynasty, c. 2500 BC (conventional). A minority weathering-based argument proposes a much greater age. Both positions are interpretive, not chronometric.",
+   "score": {"W": 4, "F": 3, "I": 5, "total": 60},
+   "direct_method": "(a) Single-grain OSL on the earliest undisturbed sediment resting on the enclosure floor or against the carved body, giving a minimum age for the carving. (b) Luminescence burial dating of buried faces of masonry blocks in the adjacent temples, a technique already applied to Egyptian monuments (Liritzis & Vafiadou 2015; results not verified). (c) Cosmogenic-nuclide exposure dating of carved surfaces, only with great care: the monument was remodelled and renovated in the 18th Dynasty (Lehner 1992), and any episodes of burial or repair break the simple exposure assumptions.",
+   "material_or_surface": "Enclosure-floor sediments; buried block faces in the adjacent temples; unrestored carved bedrock surfaces for exposure dating, if any can be identified.",
+   "if_older": "A carving age clearly before the 4th Dynasty would support the older-age argument and would require a major revision of Giza's history. Such a result would need replication and exclusion of inherited or exposure-history artefacts before being accepted.",
+   "if_younger": "An Old Kingdom age (or a minimum age consistent with it) would confirm the Khafre attribution and settle the weathering dispute with a physical date rather than competing readings of erosion.",
+   "likely_outcome": "Old Kingdom. The value is that no physical date exists yet on either side of a long public dispute.",
+   "key_sources": [
+    {"citation": "Lehner, M. (1992). Reconstructing the Sphinx. Cambridge Archaeological Journal 2(1): 3-26.", "doi": "10.1017/s0959774300000445", "verification": "abstract read"},
+    {"citation": "Dobecki, T.L., Schoch, R.M. (1992). Seismic investigations in the vicinity of the Great Sphinx of Giza, Egypt. Geoarchaeology 7(6): 527-544.", "doi": "10.1002/gea.3340070603", "verification": "abstract read (non-uniform subsurface weathering of the enclosure floor)"}
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "carnac",
+   "name": "Carnac alignments",
+   "current_basis": "associated-organic (regional)",
+   "current_date": "Megalith building in the region is modelled from the second half of the 5th millennium cal BC (Europe-wide Bayesian model of megalithic graves). The alignment rows themselves have no site-specific date in the sources checked.",
+   "score": {"W": 3, "F": 5, "I": 4, "total": 60},
+   "direct_method": "Single-grain OSL on socket-fill sediment of in-situ menhirs, sampled in several rows. This worked at the Gavre alignment in the same wider region, where direct OSL on the quartzite blocks failed for lack of signal. Rock-surface luminescence burial dating on buried faces only if the Carnac stones' rock type gives a signal (to be tested first).",
+   "material_or_surface": "Sediment filling the sockets of undisturbed menhirs, with several stones per row so that rows can be compared.",
+   "if_older": "A 5th-millennium date would make the rows contemporary with the earliest regional megaliths and support the conventional Neolithic reading.",
+   "if_younger": "A 3rd- or 2nd-millennium date, like Gavre's 2040-1680 BC (1 sigma, Early Bronze Age), would show the famous rows are a later tradition than assumed. Mixed dates would show rows built or re-erected over millennia.",
+   "likely_outcome": "Genuinely open. The one regional precedent came out younger than expected.",
+   "key_sources": [
+    {"citation": "Cassen, S., Blain, S., Guibert, P., Querre, G. et al. (2013). Les pierres dressees de la foret du Gavre (Loire-Atlantique): nature et origine des materiaux, premiers elements de chronologie (14C, OSL). ArcheoSciences 37: 173-188.", "doi": "10.4000/archeosciences.4057", "verification": "abstract read"},
+    {"citation": "Schulz Paulsson, B. (2019). Radiocarbon dates and Bayesian modeling support maritime diffusion model for megaliths in Europe. PNAS 116(9): 3460-3465.", "doi": "10.1073/pnas.1813268116", "verification": "abstract read"}
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "sacsayhuaman",
+   "name": "Sacsayhuaman",
+   "current_basis": "historical-contextual (Spanish chronicles)",
+   "current_date": "15th century CE (reigns of Pachacuti and Topa Inca, per chronicles). No sealed radiocarbon date for the walls was located.",
+   "score": {"W": 4, "F": 3, "I": 4, "total": 48},
+   "direct_method": "AMS 14C on short-lived organics sealed inside the foundation or construction fill of the terrace walls, together with single-grain OSL on sediment sealed beneath the lowest course of large blocks. Rock-surface luminescence burial dating on block undersides if the rock type allows.",
+   "material_or_surface": "Construction fill and sub-foundation sediment at wall sections exposed in permitted excavation; lower faces of undisturbed blocks.",
+   "if_older": "An age centuries before the chronicles would support a pre-Inca (e.g. Killke-period) megalithic core, a major revision. An age only decades earlier would fit the pattern at Machu Picchu, where AMS dates put occupation from c. AD 1420, about two decades before the textual AD 1438 accession of Pachacuti.",
+   "if_younger": "A 15th-century age would confirm the chronicles and refute claims that the walls are the work of an earlier, lost culture.",
+   "likely_outcome": "15th century, possibly slightly earlier than the chronicles.",
+   "key_sources": [
+    {"citation": "Burger, R.L., Salazar, L.C., Nesbitt, J., Washburn, E. et al. (2021). New AMS dates for Machu Picchu: results and implications. Antiquity 95(383): 1265-1279.", "doi": "10.15184/aqy.2021.99", "verification": "abstract read"},
+    {"citation": "Bauer, B.S., Covey, R.A. (2002). Processes of state formation in the Inca heartland (Cuzco, Peru). American Anthropologist 104(3): 846-864.", "doi": "10.1525/aa.2002.104.3.846", "verification": "exists (Crossref); content not read"}
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "nabta-playa",
+   "name": "Nabta Playa stone circle and alignments",
+   "current_basis": "associated (nearby Middle/Late Neolithic occupation) plus a terminus ante quem",
+   "current_date": "Built before the area became hyperarid and uninhabitable at about 4,800 radiocarbon years BP (uncalibrated). The stones and sockets themselves are undated.",
+   "score": {"W": 3, "F": 4, "I": 4, "total": 48},
+   "direct_method": "Rock-surface luminescence burial dating on the buried faces of slabs still in their original sockets, plus single-grain OSL on the socket fill. The same pairing has been used to date a prehistoric cult site (Sohbati et al. 2015).",
+   "material_or_surface": "Buried lower faces of set slabs and their socket sediments. The rock type and in-situ status of each stone must be confirmed first.",
+   "if_older": "An age earlier than the Late Neolithic would push monumental alignment building in the eastern Sahara earlier than currently accepted.",
+   "if_younger": "Ages after the ~4,800 BP abandonment would mean some stones were set or re-set later. That would weaken astronomical interpretations that depend on the early date.",
+   "likely_outcome": "Late Neolithic, which would give the widely cited 'early astronomy' claim its first direct date.",
+   "key_sources": [
+    {"citation": "Malville, J.M., Wendorf, F., Mazar, A.A., Schild, R. (1998). Megaliths and Neolithic astronomy in southern Egypt. Nature 392: 488-491.", "doi": "10.1038/33131", "verification": "abstract read on publisher page"},
+    {"citation": "Sohbati, R., Murray, A. et al. (2015). Age of a prehistoric 'Rodedian' cult site constrained by sediment and rock surface luminescence dating techniques. Quaternary Geochronology.", "doi": "10.1016/j.quageo.2015.09.002", "verification": "exists (Crossref); used only as a method precedent"}
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "osireion",
+   "name": "Osireion, Abydos",
+   "current_basis": "historical-contextual (Seti I-stamped mud bricks and Merenptah-named reliefs in the building)",
+   "current_date": "19th Dynasty, c. 1290-1203 BC (construction ascribed to Seti I, decoration to Merenptah). No chronometric date of the large-block core.",
+   "score": {"W": 3, "F": 4, "I": 4, "total": 48},
+   "direct_method": "Luminescence burial dating of joint and bedding faces of the large blocks of the central hall (surfaces sealed when the blocks were laid), plus OSL on sediment sealed beneath the lowest courses. A matched sample from a securely Seti I-period wall should be dated as a known-age control.",
+   "material_or_surface": "Internal joint faces of core blocks and the pillar bases; the Seti I-period control wall.",
+   "if_older": "An Old Kingdom or earlier age for the core would mean the stamped bricks and decoration were added to an older structure, a significant revision that popular accounts often assert without data.",
+   "if_younger": "A 19th-Dynasty age would show the core and the stamped materials are contemporary and close the older-core reading.",
+   "likely_outcome": "19th Dynasty. The known-age control also tests the method on Egyptian building stone.",
+   "key_sources": [
+    {"citation": "Mendez-Rodriguez, D.M. (2020). Ofrendas en el Inframundo: el Libro de las Doce Cavernas en el Osireion de Abidos. Trabajos de Egiptologia 11: 189-214.", "doi": "10.25145/j.tde.2020.11.12", "verification": "full text grep-checked (Seti I brick stamps; Merenptah reliefs)"},
+    {"citation": "Liritzis, I., Vafiadou, A. (2015). Surface luminescence dating of some Egyptian monuments. Journal of Cultural Heritage 16(2): 134-150.", "doi": "10.1016/j.culher.2014.05.007", "verification": "exists (Crossref); paywalled; which monuments and results are included is UNVERIFIED. Check it before any new sampling."}
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "haamonga",
+   "name": "Ha'amonga 'a Maui",
+   "current_basis": "historical-contextual (oral king-list attribution; unsourced in the audit)",
+   "current_date": "Conventionally the reign of the 11th Tu'i Tonga, c. 13th century CE (UNVERIFIED). No chronometric date.",
+   "score": {"W": 4, "F": 4, "I": 3, "total": 48},
+   "direct_method": "230Th/U dating of any coral pieces built into the socket packing or fill of the uprights, as used at Nan Madol to date the first chief's tomb to AD 1180-1200. Single-grain OSL on the socket-fill sediment. U-Th on the trilithon stone itself is not useful: if it is reef limestone it would give the reef's geological age, not the construction date.",
+   "material_or_surface": "Coral inclusions and sediment in the sockets at the base of the uprights.",
+   "if_older": "An age well before the 13th century would mean the king-list chronology, or the attribution to Tu'itatui, is too young.",
+   "if_younger": "A 13th-century age would support the oral-historical chronology, as radiocarbon plus tradition did for the 14th-century Lapaha fort. A later age would shift monument building later in the Tongan state sequence.",
+   "likely_outcome": "Open. It is a clean test of an oral-historical date with a proven Pacific method.",
+   "key_sources": [
+    {"citation": "McCoy, M.D., Alderson, H.A., Hemi, R., Cheng, H. et al. (2016). Earliest direct evidence of monument building at the archaeological site of Nan Madol (Pohnpei, Micronesia) identified using 230Th/U coral dating and geochemical sourcing of megalithic architectural stone. Quaternary Research 86(3): 295-303.", "doi": "10.1016/j.yqres.2016.08.002", "verification": "abstract read"},
+    {"citation": "Clark, G., Parton, P., Reepmeyer, C., Melekiola, N. et al. (2018). Conflict and state development in ancient Tonga: the Lapaha earth fort. Journal of Island and Coastal Archaeology 13(3): 405-419.", "doi": "10.1080/15564894.2017.1337658", "verification": "abstract read (regional precedent; not about the trilithon)"}
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "bada-valley",
+   "name": "Bada Valley megaliths",
+   "current_basis": "stylistic (reclassified from 'none' in audit_review.json)",
+   "current_date": "'Metal Age', by comparison with similar megaliths in Borneo and Laos. No chronometric date of the statues or vats.",
+   "score": {"W": 4, "F": 3, "I": 3, "total": 36},
+   "direct_method": "Single-grain OSL on socket-fill sediment of in-situ statues and on sediment sealed beneath stone vats, with AMS 14C on organics in sealed vat fills. Rock-surface luminescence burial dating of buried faces if the rock type allows. Vat sediment has already been cored for pollen (Kirleis et al. 2011).",
+   "material_or_surface": "Socket and sub-vat sediments; basal faces of undisturbed statues; sealed vat contents.",
+   "if_older": "A Neolithic placement age would pre-date the Metal Age attribution and revise the Sulawesi sequence.",
+   "if_younger": "An age in the last millennium would make this a late tradition, and would argue against linking it to the Laos jars, where OSL beneath jars and 14C on burials already differ by up to about two millennia (Shewan et al. 2021).",
+   "likely_outcome": "Open. There is essentially no chronometric control today.",
+   "key_sources": [
+    {"citation": "Kirleis, W., Pillar, V.D., Behling, H. (2011). Human-environment interactions in mountain rainforests: archaeobotanical evidence from central Sulawesi, Indonesia. Vegetation History and Archaeobotany 20(3): 165-179.", "doi": "10.1007/s00334-010-0272-0", "verification": "full text grep-checked"},
+    {"citation": "Shewan, L., O'Reilly, D., Armstrong, R., Toms, P. et al. (2021). Dating the megalithic culture of Laos: radiocarbon, optically stimulated luminescence and U/Pb zircon results. PLOS ONE 16(3): e0247167.", "doi": "10.1371/journal.pone.0247167", "verification": "grep-checked by audit B; title confirmed here"}
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "tiwanaku",
+   "name": "Tiwanaku and Pumapunku",
+   "current_basis": "associated-organic",
+   "current_date": "Tiwanaku IV-V framework, c. AD 500-1000. A dedicated radiocarbon chronology of the Pumapunku complex exists (Yaeger & Vranich 2013), but its results were not read. The stones themselves are undated.",
+   "score": {"W": 3, "F": 3, "I": 4, "total": 36},
+   "direct_method": "Rock-surface luminescence burial dating of bedding faces of large platform blocks still in their original positions, plus single-grain OSL on the sediment sealed beneath them and AMS 14C on organics in construction fill sealed by the blocks. Blocks must first be shown to be in their original positions; displaced blocks would give meaningless ages.",
+   "material_or_surface": "Bedding faces of in-situ blocks and the sediment beneath them.",
+   "if_older": "Ages well before the first millennium AD would mean the platform stones pre-date the dated occupation contexts. That would revive the question of an earlier building phase.",
+   "if_younger": "First-millennium AD ages would tie the stonework itself to the radiocarbon chronology. They would refute popular claims of far greater antiquity with a physical date.",
+   "likely_outcome": "First millennium AD.",
+   "key_sources": [
+    {"citation": "Yaeger, J., Vranich, A. (2013). A radiocarbon chronology of the Pumapunku complex and a reassessment of the development of Tiwanaku, Bolivia. In Advances in Titicaca Basin Archaeology-2, pp. 127-146.", "doi": "10.2307/j.ctvdjrqk5.17", "verification": "exists (Crossref); paywalled, results not read"},
+    {"citation": "Liritzis, I. (2011). Surface dating by luminescence: an overview. Geochronometria 38: 292-302.", "doi": "10.2478/s13386-011-0032-7", "verification": "open access; method overview checked"}
+   ]
+  }
+ ],
+ "considered_not_ranked": [
+  {"id": "ring-of-brodgar", "score_estimate": "W3 x F5 x I3 = 45", "why_not_ranked": "It would rank 9th, but its weakness rests on sources verified only at citation level (paywalled). It should be promoted if a check of Downes et al. 2013 confirms the stones are undated."},
+  {"id": "aksum", "score_estimate": "W3 x F5 x I2 = 30", "why_not_ranked": "Cheapest test in the sample: charcoal 'unquestionably associated with the construction of the stela' was already excavated but could not be dated in the 1990s. Modern small-sample AMS may now work. The chronological stakes are modest."},
+  {"id": "baalbek", "score_estimate": "W2 x F3 x I5 = 30", "why_not_ranked": "A dated mason's graffito (2 August AD 60) and Roman sketch engravings already anchor the podium to the Roman period. The open question is Herodian versus Julio-Claudian. A socket or bedding-face date under the trilithon course would still answer pre-Roman claims directly."},
+  {"id": "rujm-el-hiri", "score_estimate": "W3 x F3 x I3 = 27", "why_not_ranked": "OSL has already been applied (Freikman & Porat 2017)."},
+  {"id": "yonaguni", "score_estimate": "W5 x F1 x I4 = 20", "why_not_ranked": "The open question is whether the formation is artificial at all. No dating method answers that. Submergence also greatly reduces cosmogenic production, and an exposure age of a natural surface would not show human working."},
+  {"id": "karahan-tepe", "score_estimate": "not scored", "why_not_ranked": "It could not be established whether radiocarbon dates have been published (see unverifiable)."}
+ ]
+}

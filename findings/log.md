@@ -105,6 +105,8 @@ worded here.
 - **Test:** an audit of 40 monuments whose list is fixed and committed before any dating research: widely cited megalithic sites across all inhabited continents. For each: stated construction date, dating basis (direct / associated organic / historical-contextual / stylistic / none), number of independent dates and their spread, and whether a direct method is feasible.
 - **Would disprove it:** fewer than half of the 40 depend on association alone.
 - **Status:** pre-registered; audit pending. Output also includes a ranked list of monuments where a direct date would be decisive — the leads.
+- **Result (2026-09-23):** consistent. After an independent Opus review of the Sonnet audit (19 corrections), dating bases for the 40: direct 1 (Nan Madol, U-Th on coral), associated organic 25, historical-contextual 5, stylistic 6, none 3 — about 35 of 40 rest on association alone (at least 29 even under the most generous definition of direct), far beyond the disproof line of 20. Unverifiable: Almendres, Karahan Tepe, Ġgantija, Ħaġar Qim, and a paywalled 2015 luminescence study of Egyptian monuments. Top leads for a first direct date: Gunung Padang, Almendres, the Great Sphinx, Carnac, Sacsayhuamán. Files: analysis/megaliths/audit_review.json, leads.json.
+- **Status:** consistent (n = 40)
 
 ## R2 · The frontier scan: dates older than the accepted first arrival
 - **Date:** 2026-09-23

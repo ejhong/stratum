@@ -1,0 +1,123 @@
+{
+  "id": "sphinx-weathering",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "All 10 sources exist; 'open' fits and no 36Cl/U-series/carbonate dating of the walls was found. But Schoch's age basis is misstated, Harrell's and Lehner's critiques are missing (both findable), two corrections are wrong, one objection is empty, and the tests need feasibility fixes.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "claimed_age",
+      "problem": "The basis paraphrases a critic (S2): rainfall in a humid phase 'at least 7000 years ago'. In Schoch's own 1992 text the figure is 'ca. 7000 to 5000 B.C.'. It comes from the seismic result that floor weathering is 50-100% deeper at the front and sides than at the rear, with the rear taken as Khafre-era. Schoch calls it a 'tentative estimate', 'probably a minimum', and possibly 'even earlier than 9,000 years' ago. Rainfall weathering is his qualitative argument; the number comes from the seismic depth ratio. With bp_max null, his stated upper figure is lost.",
+      "fix": "Label 'c. 7000-5000 BC (stated minimum)', bp_min 6950, bp_max 8950. Basis: the seismic depth ratio (front/sides vs rear) plus the precipitation-weathering argument, in Schoch's words. Add Schoch R.M. (1992) 'Redating the Great Sphinx of Giza', KMT 3(2), using the author's reprint URL, and cite it here and in the claim. Harrell 1994 paraphrases it as 'prior to 5000 B.C. (and possibly before 9000 B.C.)'.",
+      "evidence": "http://www.robertschoch.net/Redating%20the%20Great%20Sphinx%20of%20Giza.htm ; https://www.hallofmaat.com/sphinx/the-sphinx-controversy-another-look-at-the-geological-evidence-2/"
+    },
+    {
+      "severity": "major",
+      "field": "objections[2]",
+      "problem": "This entry says Schoch's original argument was 'direct, uniform rainfall'. S5's abstract does not mention Schoch. Harrell (1994) glosses Schoch's 'precipitation-induced weathering' as 'rainfall and surface runoff', and Harrell's reply reports that Schoch's 1994 KMT letter credits 'rain-runoff cascading over the walls' for the worn-back top beds. Outcome 'held' (later confirmed) has no source; no study has tested run-off against rainfall. Reader's paper revises the date (to the 1st-2nd Dynasty); it is not an objection that was later upheld.",
+      "fix": "Restate in Reader's own terms: the uneven erosion fits rainfall run-off, which was 'experienced at Giza until the late Fifth Dynasty', so the Sphinx 'may pre-date the reign of Khufu'. Drop the contrast with Schoch and set the outcome to 'unresolved'. Or move Reader to the timeline/notes and use this slot for Harrell (see below).",
+      "evidence": "https://doi.org/10.1111/1475-4754.00009 (abstract) ; https://www.hallofmaat.com/sphinx/more-sphinx-debate-he-said-i-say-james-harrell-responds-to-robert-schoch/"
+    },
+    {
+      "severity": "major",
+      "field": "objections[3]",
+      "problem": "This entry has no content: it says only that objections were published. It also cites S6 for Wilkinson, whose comment is S7. Wiley returns HTTP 403 (confirmed), but a secondary summary gives the arguments. Shortland & Doherty: heavier weathering of the west wall may be a thermal effect of the morning sun. They ask whether other flash-flood-exposed Giza rock shows the same vertical fissuring and whether post-5th-Dynasty buildings lack it. They also ask whether Khafre fully quarried the plateau west of the enclosure, and for data on run-off over backfilled quarries. Wilkinson: there are few pre-4th-Dynasty remains at Giza, and evidence argues against Early Dynastic royal sun worship. Reader replied that more comparative study is needed.",
+      "fix": "Split into two objections (identification: thermal/controls, Shortland & Doherty, S6; prior: missing Early Dynastic context, Wilkinson, S7), both 'unresolved'. State that the content comes from a secondary summary until the PDFs are read, and keep S6-S8 at 'exists'.",
+      "evidence": "https://www.davidpbillington.net/sphinx6.html (secondary; not a citable record source)"
+    },
+    {
+      "severity": "major",
+      "field": "objections / key_critics / sources",
+      "problem": "The two main critiques written in their authors' own terms are missing, though both can be found. Harrell (1994, KMT 5(2): 70-74): the enclosure was sand-filled most of its history, and the sand was kept wet by rain and Nile floods, causing 'clay expansion... and salt (halite and gypsum) precipitation'. Schoch's comparison tombs are 'higher and drier'. Seismic line S3's boundary pick is questionable. 'A pre-Old Kingdom age... is thus not required'. Lehner (1994, KMT 5(3): 40-48): the Debehen tomb and the eastern-escarpment tombs are cut in different beds from Member II in the ditch, and 'two-stage' temple building is normal Old Kingdom core-and-casing. The brief's 'archaeological context of the Khafre complex' objection is absent, and Lehner and Hawass are listed as critics with no sourced objection. Schoch's replies (1994 KMT letter) are also absent.",
+      "fix": "Add Harrell 1994, Harrell's 1994 reply (KMT 5(3): 3-4) and Lehner 1994 as sources. Add objections for wet sand and salt (identification), the incomparable control beds (context), the seismic interpretation (dating) and the archaeological context (prior), all 'unresolved'. Give Schoch's rebuttal in each outcome_note.",
+      "evidence": "https://www.hallofmaat.com/sphinx/the-sphinx-controversy-another-look-at-the-geological-evidence-2/ ; https://www.hallofmaat.com/sphinx/notes-and-photographs-on-the-west-schoch-sphinx-hypothesis/ ; http://www.eeescience.utoledo.edu/faculty/harrell/egypt/quarries/pubs_list.html"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[0], corrections[1]",
+      "problem": "[0] is wrong and contradicts itself ('Verified... unconfirmed'). Salt weathering was proposed (Harrell 1994: halite and gypsum), and S3's reference list centres on salt-crystallisation pressure. 'Differing rock quality' is exactly S2's argument (alternating hard and soft strata). Only 'flash floods' misfires: critics invoked Nile floodwater wetting the sand fill, while run-off erosion is Reader's pro-early mechanism. [1] is also wrong: Harrell's critique exists (KMT 1994), is on his University of Toledo publication list, and has been reprinted.",
+      "fix": "Rewrite: the brief was right on salt weathering and rock quality; 'flash floods' should be 'wet sand fill from rain and Nile floods' (Harrell). Cite Harrell 1994 as a source.",
+      "evidence": "http://www.eeescience.utoledo.edu/faculty/harrell/egypt/quarries/pubs_list.html ; https://link.springer.com/article/10.1007/BF01706413"
+    },
+    {
+      "severity": "major",
+      "field": "decisive_tests",
+      "problem": "The finding holds: no cosmogenic (36Cl), U-series or carbonate dating of the enclosure walls turned up in Crossref/OpenAlex or web searches, so direct dating is a genuine open lead. But the tests as written are not feasible or decisive. [0] 10Be needs quartz, not calcite. For 36Cl, walls that retreated decimetres reach erosional steady state (the result is a recession rate, not an age), long sand burial shields them, deep muogenic inheritance and halite-borne Cl add signal, and 'medium' cost understates permits. [1] Carbonate 14C carries a dead-carbon offset from Eocene limestone, and the crusts are mostly halite and gypsum. [2] This comparison was argued in 1992-94 and failed on incomparable beds and exposure. [3] The veneer idea concerns only the body, not the walls.",
+      "fix": "[0] 36Cl depth profiles with measured Cl, paired with bed-matched, securely Khafre-era quarry faces of similar shielding and burial; report relative exposure; cost medium-high. [1] First survey for closed-system calcite; else drop. [2] Correlate bed by bed, match burial and run-off position, scan recession quantitatively, and state predictions in advance. Replace [3] with a GPR/ERT/seismic re-survey of the floor calibrated by shallow cores (tests the 50-100% depth difference), or 14C on organics in mortar behind the earliest body repairs (method used at Giza: Bonani et al. 2001).",
+      "evidence": "Searches this session (lookup search; web). https://doi.org/10.1126/science.231.4733.41 ; https://doi.org/10.1017/s0033822200038558"
+    },
+    {
+      "severity": "major",
+      "field": "falsifier",
+      "problem": "A veneered body cannot refute the claim, because Schoch's main evidence is the enclosure walls ('to a greater degree' than the body, per Harrell's summary). 'Refuted as ordinary weathering' is unclear, and nothing says what would make the case 'vindicated' or 'partial'.",
+      "fix": "For example: 'Refuted if 36Cl profiles or bed-matched recession on the walls cannot be told apart from secure Khafre-era faces with similar burial; vindicated or partial if the walls show much longer exposure than sand burial and salt weathering can explain.'",
+      "evidence": "https://www.hallofmaat.com/sphinx/the-sphinx-controversy-another-look-at-the-geological-evidence-2/"
+    },
+    {
+      "severity": "major",
+      "field": "key_proponents",
+      "problem": "Reader does not support the recorded claim of 7,000 BP or more. In his own terms the Sphinx 'may pre-date the reign of Khufu', and he dates it to the 1st-2nd Dynasty (c. 3000-2800 BCE). S10 also misdescribes his position (Green Sahara, lost civilisation); the record should not repeat that.",
+      "fix": "Remove Reader from key_proponents and describe him in the notes as the proponent of a separate, modest pre-Khufu revision.",
+      "evidence": "https://doi.org/10.1111/1475-4754.00009 ; https://www.davidpbillington.net/sphinx6.html"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.independent_teams",
+      "problem": "Coded 'yes' because critics re-examined the features. Elsewhere the catalog codes critics' work 'no' or 'partial' (meadowcroft, madjedbebe, paisley-caves). By about 1996 no independent group had produced evidence for the claim or tested its dates; Dobecki co-authored with Schoch.",
+      "fix": "Code 'partial', with a note that Gauri's group did its own field and petrographic work against the claim and that there was no independent corroboration.",
+      "evidence": "catalog/cases/meadowcroft.json ; catalog/cases/madjedbebe.json"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.peer_reviewed_report ; sources[S1].note",
+      "problem": "S1's abstract reports seismic data only: floor weathering is non-uniform, 'varied periods of subaerial exposure'. It gives no age and does not say 'supporting an older date'. The weathering argument and the 7000-5000 BC estimate appeared in KMT, a popular magazine, and a 1991 GSA talk.",
+      "fix": "Code peer_reviewed_report 'partial' unless the full text of S1 is read and gives the age. Correct S1's note and set supports to partial.",
+      "evidence": "https://doi.org/10.1002/gea.3340070603"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[8] ; notes",
+      "problem": "S9 says 'at least seven centuries before the time of Khafre' and repeats that the Sphinx was 'remodeled from the much older monumental lioness Mehit'. It is a minimum, not a separate, smaller claim, so the notes' 'three claims' framing misreads it.",
+      "fix": "Change 'about 700 years' to 'at least 700 years', and say in the notes that S9 does not retreat from Schoch's earlier dating.",
+      "evidence": "https://doi.org/10.4236/ad.2019.74011"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[0] ; features_at_claim.unambiguous_signal.note ; status_note ; hook",
+      "problem": "The wording is uneven. Critics 'showed' or 'reproduce' the profile, though no one has reproduced it: S2 argues it can be produced. The hook calls the proponents' case 'proof', where Schoch said 'tentative'. 'Ink-bottle' comes from S3, not S2. S2 ties the rounded profile to the Sphinx thorax and the channels to the enclosure walls. The kind 'other' should be 'identification'.",
+      "fix": "Use 'argued' and 'can produce' for both sides, drop 'proof', cite S3 for pore structure, and set the kind to identification.",
+      "evidence": "https://doi.org/10.1002/gea.3340100203"
+    },
+    {
+      "severity": "minor",
+      "field": "year_claimed ; features_at_claim.proponent_stake ; independent_methods_count",
+      "problem": "Harrell says the idea 'was originally advocated by John Anthony West... who enlisted Dr. Schoch', so 1991 is the first claim backed by a geologist, not the first claim. The proponent_stake note could cite Lehner 1994 ('for West it is nothing less than the total revision of cultural history'). Schoch lists four lines of evidence (weathering, two-stage temples, ancient repairs, seismic). The record lists 'architecture' as evidence but counts 2.",
+      "fix": "Note West's earlier advocacy. Decide proponent_stake from sourced facts (Schoch: none documented). Set the count to 3 and name the temple and repair lines, with Lehner's counter.",
+      "evidence": "https://www.hallofmaat.com/sphinx/notes-and-photographs-on-the-west-schoch-sphinx-hypothesis/"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence_note ; notes ; sources[S5].citation",
+      "problem": "'Checked in full' is not accurate: only abstracts of the paywalled S1, S2, S4 and S5 were read. The 2026 book can be attributed: Crossref/OpenAlex give it to C.D. Reader (DOI 10.2307/jj.38271388). A 2026 evaluation by Savchuk also exists (DOI 10.32782/2663-5984.2026/1.35). S5's pages (149-165) overlap S6-S8; it is usually cited as 149-159.",
+      "fix": "Say 'abstracts read'. Add Reader 2026 as a 'book' source marked 'exists', or note it. Check the pages against Wiley's table of contents.",
+      "evidence": "https://doi.org/10.2307/jj.38271388 ; https://doi.org/10.32782/2663-5984.2026/1.35"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Abstract confirms the seismic survey, non-uniform floor weathering and cavities. It gives no age and no 'older date'. Harrell 1994 disputes the S3 line pick."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Abstract confirms 'Schoch and West (1991)', 'at least 7000 years ago', arid weathering of hard/soft strata, pre-Pliocene karst channels, and 'may still be regarded as of pharaonic origin'. This is the critics' paraphrase, not Schoch's own words."},
+    {"id": "S3", "exists": true, "supports_citation": "partial", "note": "Springer page abstract confirms stratum-specific 'ink-bottle' pores controlling weathering. The references centre on salt crystallisation (Winkler & Singer 1972)."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract confirms the 1979-83 ARCE study and a 4th-Dynasty carving with 18th-Dynasty remodelling. It does not address rainfall."},
+    {"id": "S5", "exists": true, "supports_citation": "partial", "note": "Abstract confirms run-off rather than 'rainfall per se', run-off until the late 5th Dynasty, and 'may pre-date... Khufu'. Nothing supports the outcome 'held'. The page range conflicts with S6-S8."},
+    {"id": "S6", "exists": true, "supports_citation": "could-not-read", "note": "Wiley HTTP 403 (reconfirmed); no abstract. Arguments known only from a secondary summary (thermal effects, missing controls, quarry history)."},
+    {"id": "S7", "exists": true, "supports_citation": "could-not-read", "note": "Paywalled. Secondary summary: few pre-4th-Dynasty remains at Giza; no Early Dynastic royal sun cult."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "Paywalled. Secondary summary: Reader agrees more comparative study is needed and argues run-off stopped once the quarries were cut."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "Open-access abstract says 'at least seven centuries before... Khafre' and restates the claim of a much older lioness monument (Mehit)."},
+    {"id": "S10", "exists": true, "supports_citation": "yes", "note": "GSA abstract read via DOI: 'very little erosion'; the body was pounded back and veneered, and looted veneer was 'misidentified as erosion'. It concerns the body only and misstates Reader's position."},
+    {"id": "new: Schoch 1992 KMT 3(2)", "exists": true, "supports_citation": "yes", "note": "Author's reprint: 'ca. 7000 to 5000 B.C.' from the seismic depth ratio, 'probably a minimum'. Lists four lines of evidence."},
+    {"id": "new: Harrell 1994 KMT 5(2): 70-74", "exists": true, "supports_citation": "yes", "note": "Hall of Maat reprint and Harrell's UToledo publication list. Wet sand from rain and Nile floods, clay and salt; seismic critique."},
+    {"id": "new: Lehner 1994 KMT 5(3): 40-48", "exists": true, "supports_citation": "yes", "note": "Reprint: Schoch's control tombs are in different beds; 'two-stage' building is normal core-and-casing."},
+    {"id": "new: Harrell 1994 reply, KMT 5(3): 3-4", "exists": true, "supports_citation": "yes", "note": "Reports Schoch's four counter-observations (runoff cascading over walls, among others) and Harrell's responses."}
+  ]
+}

@@ -273,6 +273,8 @@ def hyp_table(summary, compact=False):
         h = hyps.get(en["id"], {})
         status = h.get("status", "awaiting data")
         n, thr = h.get("n", 0), h.get("threshold", 1)
+        if not h and en.get("Status", "").startswith("consistent"):
+            status, n, thr = "consistent", 40, 20
         pct = min(100, round(100 * n / thr)) if thr else 0
         tag = f'<span class="tag {status.replace(" ", "-")}">{e(status)}</span>'
         meter = f'<div class="mono muted">{n} / {thr}</div><div class="meter"><i style="width:{pct}%"></i></div>'
@@ -281,7 +283,7 @@ def hyp_table(summary, compact=False):
         else:
             rows.append(f"""<tr><td class="id">{e(en['id'])}</td><td><div class="t">{e(en['title'])}</div><div class="c">{e(en.get('Claim', ''))}</div>
 <details><summary>Test · disproof</summary><p><b>Test.</b> {e(en.get('Test', ''))}</p><p><b>Would disprove it.</b> {e(en.get('Would disprove it', ''))}</p><p>Registered {e(en.get('Date', ''))}, before any data.</p></details></td>
-<td class="rd">{e(hyp_reading(en['id'], h))}</td><td>{meter}</td><td>{tag}</td></tr>""")
+<td class="rd">{e(hyp_reading(en['id'], h) or next((v for k, v in en.items() if k.startswith("Result")), ""))}</td><td>{meter}</td><td>{tag}</td></tr>""")
     head = "<tr><th></th><th>Hypothesis</th><th>n / needed</th><th>Status</th></tr>" if compact else "<tr><th></th><th>Hypothesis</th><th>Current reading</th><th>n / needed</th><th>Status</th></tr>"
     return f'<div class="table-scroll"><table class="data hyps"><thead>{head}</thead><tbody>{"".join(rows)}</tbody></table></div>'
 
@@ -568,6 +570,40 @@ def findings(cases, summary):
     page("findings/index.html", "Findings", body, active="findings/")
 
 
+def megalith_leads():
+    path = ROOT / "analysis" / "megaliths" / "leads.json"
+    review = ROOT / "analysis" / "megaliths" / "audit_review.json"
+    if not path.exists():
+        return ""
+    data = json.loads(path.read_text())
+    counts = json.loads(review.read_text()).get("counts_after_review", {}) if review.exists() else {}
+
+    def srcs(x):
+        out = []
+        for s in (x or [])[:2]:
+            if isinstance(s, dict):
+                label = s.get("citation") or s.get("title") or s.get("id") or "source"
+                link = f'https://doi.org/{s["doi"]}' if s.get("doi") else s.get("url")
+                out.append(f'<a href="{e(link)}">{e(label[:70])}</a>' if link else e(label[:70]))
+            else:
+                out.append(e(str(s)[:90]))
+        return "<br>".join(out)
+    rows = "".join(
+        f'<tr><td class="rank">{e(l.get("rank"))}</td><td class="name"><b>{e(l.get("name"))}</b><span class="sub">{e(l.get("current_date"))} · {e(l.get("current_basis"))}</span></td>'
+        f'<td class="small">{e(l.get("direct_method"))}<span class="sub muted" style="display:block;margin-top:4px">{e(l.get("material_or_surface"))}</span></td>'
+        f'<td class="small">If older: {e(l.get("if_older"))}<br>If younger: {e(l.get("if_younger"))}</td><td class="small">{srcs(l.get("key_sources"))}</td></tr>'
+        for l in data.get("leads", []))
+    stat = ""
+    if counts:
+        stat = stat_block([(counts.get("direct", 0), "", "Direct"), (counts.get("associated_organic", 0), "", "Associated"),
+                           (counts.get("historical_contextual", 0), "", "Texts"), (counts.get("stylistic", 0), "", "Style"), (counts.get("none", 0), "", "No date")])
+    return f"""<section class="section"><div class="sh"><h2>Megalith dating leads <small>hypothesis H7</small></h2>
+<p>Of 40 major megalithic monuments, only one has a direct date of its stonework; most ages are inferred from material found nearby, texts or style. These are the monuments where a first direct date would matter most — in either direction.</p></div>
+<div style="margin-bottom:14px">{stat}</div>
+<div class="table-scroll"><table class="data leads"><thead><tr><th></th><th>Monument · current dating</th><th>Direct method</th><th>What a result would mean</th><th>Sources</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="small muted" style="margin-top:10px">Audit of a sample fixed in advance (analysis/megaliths/sample.json), drafted by two auditors and corrected by an independent review. Leads are proposals for credentialed specialists with permits.</p></section>"""
+
+
 def leads(cases):
     ranked = ranked_leads(cases)
     stats = stat_block([(sum(r["status"] == "open" for r in ranked), charts.glyph_svg("open", 11), "Open"),
@@ -580,7 +616,7 @@ def leads(cases):
 <li>Rank = evidence profile (eight positive features; yes = 1, partly = ½), ties broken by the smaller leap. A validated model replaces it once the catalog is large enough.</li>
 <li>Leap = claimed age ÷ the accepted limit when the claim was made. Past vindications mostly stepped modestly (hypothesis H1).</li>
 <li>Stake = a documented commercial, religious, nationalist or fame motive (hypothesis H6).</li></ul>
-</section></div>"""
+</section>{megalith_leads()}</div>"""
     page("leads/index.html", "Leads", body, active="leads/")
 
 

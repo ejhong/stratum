@@ -1,0 +1,125 @@
+{
+  "id": "gunung-padang",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "fail",
+  "summary": "Wrong status: 'partial' counts the surface terraces, which were never the anomaly. No part of the deep-construction claim held and its only peer-reviewed evidence was retracted, so 'refuted', noting dissent. The authors' response is misstated; ages, labs and terrace age need fixing.",
+  "issues": [
+    {
+      "severity": "critical",
+      "field": "status",
+      "problem": "'partial' credits the surface terraces, but they were never the anomalous claim. The proponents' own preprint (S5) and paper (S1) treat the terraces (Unit 1) as the known site. Nothing in the anomalous claim held: no built layers below Unit 1, no Palaeolithic phase, no chambers, and even S1's Unit 1 date (2000-1100 BCE) disagrees with independent dates. The only peer-reviewed evidence was retracted as not supporting the claim ('interpretation ... is incorrect', S2).",
+      "fix": "status 'refuted' (keep year_resolved 2024, failure_mode 'misinterpretation', settled_by expert-review, confidence medium). Suggested status_note: 'Refuted as published: the only peer-reviewed evidence was retracted in 2024 because the dated soils had no demonstrated link to human work. The authors reject this and cite unpublished artifacts; no independent deep excavation exists.' Not 'open': no published evidence for the claim survives. Not 'partial': no part of the anomaly held.",
+      "evidence": "S2 retraction notice (https://doi.org/10.1002/arp.1932); S1 Unit 1 text; brief in catalog/briefs.json"
+    },
+    {
+      "severity": "major",
+      "field": "corrections[0]",
+      "problem": "This is not a correction. The brief's 'Expected status: refuted (as to ancient construction)' was right. The entry uses the corrections field to justify the wrong status.",
+      "fix": "Delete it.",
+      "evidence": "catalog/briefs.json; S2"
+    },
+    {
+      "severity": "major",
+      "field": "claimed_age; claim; corrections[1]",
+      "problem": "S1's full text is readable (an archived copy of the CC-BY PDF) and settles the ages. Unit 4, a 'natural lava hill', was 'sculpted and then architecturally enveloped during the last glacial period between 25 000 and 14 000 BCE'. Fig. 14 gives Unit 3 as 25 000-14 000 BCE; Unit 3 was 'deliberately buried' 7900-6100 BCE; Unit 2 was built 6000-5500 BCE; Unit 1 dates to 2000-1100 BCE. So ~27,000 is the upper bound of a ~27,000-16,000-year range for the oldest phase. It is not a date for 'the deepest layer'. The retraction's '9000 or more years' is a floor, not a conflicting figure. bp_min 9000 mixes the two numbers.",
+      "fix": "claimed_age: label 'Oldest phase 25,000–14,000 BCE (~27,000–16,000 cal BP)', bp_min 15950, bp_max 26950, basis 'OxCal-calibrated AMS 14C on 12 bulk organic-soil samples (6 cores, 6 trenches; Beta Analytic and BATAN). Also claimed: Unit 3 buried 7900–6100 BCE, Unit 2 built 6000–5500 BCE.' claim: 'Natawidjaja et al. (2023) claimed a deliberately built, pyramid-like structure with chambers lies 20–30 m deep inside Gunung Padang: a natural lava hill “sculpted” and encased 25,000–14,000 BCE (~27,000–16,000 years ago), with later buried phases to 5500 BCE.' corrections[1]: 'Brief's “~27,000 years ago” is the upper bound: S1 dates its oldest phase 25,000–14,000 BCE (~27,000–16,000 yr). The retraction's “9000 or more years” (S2) is a floor, not a conflicting figure.' Add the archived URL to S1.",
+      "evidence": "S1 full text, https://web.archive.org/web/2024id_/https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/arp.1912 (Results, Fig. 14, Conclusions)"
+    },
+    {
+      "severity": "major",
+      "field": "accepted_age",
+      "problem": "Sourced only to the proponents' own 2018 abstract (S5), and says no independent age exists. One does. Lutfi Yondri (BRIN archaeologist, studying the site since 1997, not a member of the proponents' team) had charcoal from beneath the terrace walls of Terraces 1-4 dated at BATAN: Terrace 1 ~117 BCE, Terrace 4 ~45 BCE. This conflicts with S1's 2000-1100 BCE for Unit 1.",
+      "fix": "label 'Terraces ~117–45 BCE (charcoal); deep layers not shown built', bp_min 1994, bp_max 2066, basis 'Yondri (BRIN, outside the team): 14C at BATAN on charcoal under terrace walls, Terrace 1 ~117 BCE, Terrace 4 ~45 BCE; calibration unreported. Proponents put the terraces at 2000–1100 BCE.' Cite Tempo 2024 as source. Say that the numbers appear only in interviews; the BRIN chapter confirms charcoal from terraces 1-4 was 14C-dated, but its figures could not be extracted.",
+      "evidence": "Tempo.co (2024) 'Penanggalan Karbon dan Kontroversi Situs Gunung Padang', https://www.tempo.co/sains/penanggalan-karbon-dan-kontroversi-situs-gunung-padang-74940; detik.com (2023) Yondri quote 'Penanggalan karbonnya antara 117 SM-45 SM', https://www.detik.com/edu/detikpedia/d-6562622/; Yondri 2024, doi 10.55981/brin.710.c1081"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].outcome_note",
+      "problem": "'The authors ... did not dispute this underlying fact' is false. The authors' published response says the dated soils came from 'rock-construction layers' (Units 1-3) that are man-made and 'accompanied by numerous small portable artifacts' (shown in enclosures to the journal, not in the paper). It asks critics for 'an alternative geological explanation'. Natawidjaja told Retraction Watch the journal gave no 'sufficient evidence and scientific rationale'.",
+      "fix": "'Upheld by the journal's investigation. The authors dispute it, saying the soils come from man-made rock layers with small artifacts, shown only in their correspondence.' Add the response and Retraction Watch as sources (kind reply / news).",
+      "evidence": "Natawidjaja et al. (2024) 'The Unjust Retraction of Groundbreaking Research: A Call for Academic Integrity', https://grahamhancock.com/natawidjajadh1/ (hosted by a proponent); Retraction Watch 2024-03-20, https://retractionwatch.com/2024/03/20/controversial-pyramid-paper-retracted-when-authors-turn-out-to-have-radiocarbon-dated-nearby-dirt"
+    },
+    {
+      "severity": "major",
+      "field": "notes; status_note (evenhandedness)",
+      "problem": "The record never states the authors' evidence, or their reply to the retraction, in their own terms. Evidence: trench exposures of columnar rocks set in 'fine-grained mortar' (Unit 2); cores matched to GPR, ERT and seismic layers; water lost during drilling, read as cavities; 14C on soils from the fills. Reply: all authors reject the retraction and cite small artifacts. Ali Akbar says no other team has dug to the disputed 6-11 m depth needed to test the claim.",
+      "fix": "Add one sentence on the evidence and one on the reply to notes, citing S1, the authors' response and Tempo 2024. Keep 'authors dispute; untested at depth' in status_note.",
+      "evidence": "S1; https://grahamhancock.com/natawidjajadh1/; Tempo 2024 (Ali Akbar quote)"
+    },
+    {
+      "severity": "major",
+      "field": "features_at_claim.multiple_labs",
+      "problem": "Coded 'unknown' because the full text was blocked. S1 says 12 organic-soil samples were taken, 6 from cores and 6 from trenches. Eight were AMS-dated at Beta Analytic; the others went to BATAN's geochronology lab.",
+      "fix": "value 'yes', source S1. Note that both labs dated bulk soil, so the second lab does not address the association problem.",
+      "evidence": "S1 archived full text (Methods: 'BETA Analytic Lab', 'Geochronology Lab in BATAN')"
+    },
+    {
+      "severity": "major",
+      "field": "year_claimed; features_at_claim",
+      "problem": "The schema defines year_claimed as the year the claim was first made public. The same team's claim of a buried, built structure more than 10,000 years old was public a decade before 2023. The Natawidjaja-led team (TTRM, working October 2011-2014) claimed 13,000-23,000 BCE. Ali Akbar's 2013 book puts Layer 3 (5-30 m) at ~14,000 years. IAAI archaeologists rebutted the team in July 2013. The 2018 AGU/ESSOAR abstract claimed 'predating 10,000 Year BP'. With 2023, the case reads as a peer-reviewed claim resolved in 1 year. In fact the claim ran ~11 years and had no peer-reviewed report until 2023, which skews the resolution-time and feature analysis.",
+      "fix": "Set year_claimed to 2013, the earliest date documented in these sources (use 2012 if a dated 2012 source is found). Recode the features as they stood about 2013-2018; for example, peer_reviewed_report becomes 'no'. Otherwise keep 2023 and explain the choice in notes.",
+      "evidence": "S9 (TTRM claims; IAAI July 2013); Tempo 2024 (TTRM Oct 2011-2014; Akbar 2013 book ages); S5"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[1].raised_by",
+      "problem": "The argument that GPR, ERT and seismic tomography cannot detect a 'cultural layer' is the S9 author's own conclusion ('saya berkesimpulan'), not 'critics cited in Indonesian science press'.",
+      "fix": "raised_by 'H. Sofian (The Conversation Indonesia)'.",
+      "evidence": "S9"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[4].text",
+      "problem": "'Predate all currently accepted monumental architecture by tens of thousands of years' overstates the gap. Göbekli Tepe is ~11,600 years old, so ~27,000 is about 15,000 years earlier. S4 says only that there is no evidence people then had the skills to build a pyramid.",
+      "fix": "Restate as in S4: 'Critics: no evidence people had the skills to build a pyramid 25,000–14,000 BCE.'",
+      "evidence": "S4"
+    },
+    {
+      "severity": "minor",
+      "field": "objections[5]",
+      "problem": "This is a note on the editorial process, not an objection to the claim. The main scientific critique is missing. The third-party critique that led to the retraction (Dec 2023, as reproduced by the authors) argues: the hill is a natural volcano with a site on top; the observations are 'imaginative and conjectural'; the soils hold no cultural material, so their 14C dates only natural soil organics. S1 itself calls Unit 4 a natural lava hill.",
+      "fix": "Replace it: text 'Third-party experts: the “pyramid” is a natural volcanic hill with a site on top; the soils hold no cultural material, so their 14C dates natural soil organics, not construction.' kind dating, year 2023, outcome held. outcome_note: natural origin not yet shown by a published geological study. Move the peer-review point to notes.",
+      "evidence": "https://grahamhancock.com/natawidjajadh1/ (critique document); Tempo 2024 (four expert points via Majalah Tempo, 28 Jan 2024)"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.proponent_stake.note",
+      "problem": "The 2011 'ancestral guidance' claim belongs to Yayasan Turangga Seta, not to the authors. Using it to argue the authors' stake is unfair. S8 documents a nationalist framing but not this lineage.",
+      "fix": "Keep 'yes', but rest it on the proponents themselves: Natawidjaja's book 'Plato Tidak Bohong: Atlantis di Indonesia', the team's sponsorship through the President's special staff (both S9), and S8's analysis of nationalism.",
+      "evidence": "S8 abstract; S9"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.material_accessible.note; timeline[1]; timeline[4]",
+      "problem": "S7's abstract says nothing about visitor access. S6 gives Krom 1914, but the 'ancestor veneration' description comes from S9. S9 gives no year for the '13,000-23,000 BCE' claim; TTRM worked from October 2011 to 2014. For material_accessible: Natawidjaja posted supporting materials in a Dropbox folder, which supports 'partial'.",
+      "fix": "Re-source: S9 for Krom's interpretation, Tempo 2024 for the TTRM dates, and Retraction Watch for the shared materials. Drop S7 from material_accessible.",
+      "evidence": "S6, S7, S9 abstracts/text; Retraction Watch 2024"
+    },
+    {
+      "severity": "minor",
+      "field": "location.region; plates[0].caption",
+      "problem": "'Cianjur Regency' is below province level, and the schema allows a province at most. Also, the Yondri 2024 BRIN chapter gives coordinates and access directions; none must be copied into the record.",
+      "fix": "region 'West Java'; drop 'Cianjur Regency' from the caption.",
+      "evidence": "catalog/schema.json; doi 10.55981/brin.710.c1081"
+    },
+    {
+      "severity": "minor",
+      "field": "decisive_tests; key_critics; orthodoxy_at_claim; hook",
+      "problem": "The tests leave out the cheapest one: examining the 'small portable artifacts' the authors say come from Units 1-3. Tests 1 and 4 overlap. key_critics omits Flint Dibble (Retraction Watch) and Lutfi Yondri (Tempo). orthodoxy_at_claim.label gives a critique, not the accepted view. The hook's '27,000-year-old' drops the range.",
+      "fix": "Merge tests 1 and 4. Add: 'Publish depth and context records and independently examine the small artifacts the authors say accompany Units 1–3' (cost low). Add the two critics. Orthodoxy: late-prehistoric terraced sanctuary on a natural volcanic hill. Hook: 'A claimed Ice Age pyramid inside a Javan megalith hill; the paper was retracted in 2024.'",
+      "evidence": "https://grahamhancock.com/natawidjajadh1/; Retraction Watch 2024; Tempo 2024"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "partial", "note": "Abstract read, plus the archived CC-BY PDF (web.archive.org). Supports the multi-layer construction claim, 20-30 m depth, chambers and a Palaeolithic phase. But the oldest phase is 25,000-14,000 BCE (Unit 4 sculpting / Unit 3), two labs are named, and Unit 1 is 2000-1100 BCE. The record misstates or omits these."},
+    {"id": "S2", "exists": true, "supports_citation": "yes", "note": "Full notice text read via metadata: 'ancient pyramid built 9000 or more years ago is incorrect'; all authors disagree. Says nothing to support the claim that the authors accepted the underlying finding."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Confirms 'built 27,000 years ago', letters of concern and the investigation, and the peer-review oversight."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Layers 'more likely' natural; no evidence of the skills needed; Wiley ethics investigation. Does not support 'tens of thousands of years'."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "AGU 2018 abstract posted on ESSOAR: 'first layer was built around Cal BP 3,000'; second layer 'previously misinterpreted as natural'. It is the proponents' work, so not independent for accepted_age."},
+    {"id": "S6", "exists": true, "supports_citation": "partial", "note": "Rediscovered 1979 by three farmers (Endi, Soma, Abidin); Krom 1914. The 'ancestor veneration' description is not in the abstract."},
+    {"id": "S7", "exists": true, "supports_citation": "partial", "note": "Terraces built by a prehistoric society for ancestor veneration; adapted to hazards. Says nothing about public access."},
+    {"id": "S8", "exists": true, "supports_citation": "partial", "note": "The abstract analyses nationalist and media dynamics. It does not support the 'ancestral guidance' lineage."},
+    {"id": "S9", "exists": true, "supports_citation": "yes", "note": "Confirms 1891, 1914, 1979, Turangga Seta 2011, TTRM and presidential staff, 13,000-23,000 BCE (no year given), IAAI July 2013, Netflix 2022, and the retraction on 18 March 2024. The geophysics critique is the author's own view. Says age and form are 'still debated'."}
+  ]
+}
