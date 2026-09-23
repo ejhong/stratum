@@ -239,6 +239,17 @@ def hyp_reading(hid, h):
     return ""
 
 
+def notebook(n=8):
+    """Recent lab activity from git history (commit subjects touching records, findings or docs)."""
+    import subprocess
+    try:
+        out = subprocess.run(["git", "-C", str(ROOT), "log", f"-n{n}", "--date=short", "--pretty=format:%ad|%h|%s",
+                              "--", "catalog", "findings", "docs", "scripts", "site"], capture_output=True, text=True, timeout=10).stdout
+    except Exception:
+        return []
+    return [line.split("|", 2) for line in out.splitlines() if line.count("|") >= 2]
+
+
 def parse_log():
     text = re.sub(r"<!--.*?-->", "", (ROOT / "findings" / "log.md").read_text(), flags=re.S)
     entries = []
@@ -322,6 +333,10 @@ def home(cases, summary):
 </section>"""
     else:
         main = '<section class="section"><p class="empty">The first ten records are being researched now: drafted by researcher agents, checked against Crossref, then attacked by skeptic agents. This page fills in as they land.</p></section>'
+    notes = notebook()
+    notes_html = ('<table class="data"><tbody>' + "".join(
+        f'<tr><td class="m">{e(d)}</td><td>{e(msg)}</td><td class="m"><a href="{REPO}/commit/{e(h)}">{e(h)}</a></td></tr>'
+        for d, h, msg in notes) + "</tbody></table>") if notes else '<p class="muted small">No activity yet.</p>'
     body = f"""<div class="wrap">
 <section class="head"><div>
 <div class="eyebrow">An AI lab for archaeology’s anomalies</div>
@@ -329,10 +344,14 @@ def home(cases, summary):
 <p class="lede">Claims that challenged the accepted story · how each fared · what separated the real from the false · which open cases deserve a test.</p>
 </div>{stats}</section>
 {main}
-<section class="section links3">
-<a href="{{root}}findings/"><b>Findings</b>Six hypotheses, registered before the data, tested as the catalog grows.</a>
-<a href="{{root}}leads/"><b>Leads</b>Open anomalies ranked by resemblance to past vindications, each with its decisive test.</a>
-<a href="{{root}}method/"><b>Method</b>Agents, checks, pre-registration, progress and costs. {reviewed} of {len(cases)} records reviewed.</a>
+<section class="section grid2">
+<div class="panel"><h2>Lab notebook <small>latest activity</small></h2>{notes_html}</div>
+<div class="panel"><h2>How to read this <small>{reviewed} of {len(cases)} records skeptic-reviewed</small></h2><ul class="dots small">
+<li><b>Fates.</b> ● vindicated · ◐ partly · ◎ still open · ✕ refuted — as of the 2026 literature, with dissent noted.</li>
+<li><b>Evidence then.</b> Eight features coded as they stood when the claim was made, not with hindsight.</li>
+<li><b>Leap.</b> Claimed age ÷ the accepted limit of its time.</li>
+<li><b>Drafts.</b> Records awaiting skeptic review are labelled and excluded from the findings.</li>
+<li><b>Sources.</b> Every claim cites a source; each DOI is matched against Crossref by script.</li></ul></div>
 </section>
 </div>"""
     page("index.html", "Stratum — what’s left after the boring explanations", body, full_title=True)

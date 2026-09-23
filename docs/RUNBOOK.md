@@ -24,8 +24,11 @@ docs/DECISIONS.md, check the state of the catalog, and run the next batch."*
    `python3 scripts/check_sources.py <id>`.
 4. **Review.** Spawn one `skeptic` per record: *"Review catalog/cases/<id>.json. The
    researcher flagged: <their 'check first' list>."*
-5. **Revise.** For `revise` verdicts, message the *same* researcher (SendMessage keeps its
-   context): *"Revise per catalog/reviews/<id>.json."* For `fail`, redraft from scratch.
+5. **Revise.** Triage each `revise` verdict: apply mechanical fixes (a label, a year, a
+   wording) directly; for substantive ones spawn a *fresh* researcher: *"Revise
+   catalog/cases/<id>.json per catalog/reviews/<id>.json."* A fresh agent reads only the
+   record and review; resuming the original reloads its whole large context (D13). For
+   `fail`, redraft from scratch.
 6. **Publish.** Set `review.stage` to `published` once issues are resolved (or recorded in
    `review.open_issues`), then:
    ```bash

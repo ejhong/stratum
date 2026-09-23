@@ -74,3 +74,9 @@ The first version of `check_sources.py` put the owner's email in its User-Agent 
 convention for scholarly APIs), and one agent reused it in a few OpenAlex queries. Removed;
 `scripts/net.py` now identifies the project by its repository URL only. The string remains in
 the first commit's history; the same address is already public as the git author email.
+
+## 2026-09-23 · D13 · Revise with small contexts, not by resuming big ones
+Resuming the original researcher reloads its whole context (≈300k tokens in wave 1) on every
+step. Instead: mechanical fixes from a review (a label, a year, a wording) are applied
+directly by the main session; substantive ones go to a *fresh* researcher that reads only the
+record and its review. Resume the original only when the fix needs its unwritten notes.
