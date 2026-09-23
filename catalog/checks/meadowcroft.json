@@ -86,5 +86,53 @@
   "crossref_year": 1964,
   "crossref_venue": "Science",
   "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Yes Virginia, It Really is That Old: A Reply to Haynes and Mead",
+  "crossref_year": 1980,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Never Say Never Again: Some Thoughts on Could Haves and Might Have Beens",
+  "crossref_year": 1992,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Characterizing the American Upper Paleolithic",
+  "crossref_year": 2025,
+  "crossref_venue": "Science Advances",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Current Understanding of the Earliest Human Occupations in the Americas: Evaluation of Becerra-Valdivia and Higham (2020)",
+  "crossref_year": 2022,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "PROGRESS REPORT ON THE MEADOWCROFT ROCKSHELTER—A 16,000 YEAR CHRONICLE*†",
+  "crossref_year": 1977,
+  "crossref_venue": "Annals of the New York Academy of Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Recognition of Bituminous Coal Contaminants in Radiocarbon Samples",
+  "crossref_year": 1987,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
  }
 }

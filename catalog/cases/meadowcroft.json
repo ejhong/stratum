@@ -1,34 +1,34 @@
 {
  "id": "meadowcroft",
  "name": "Meadowcroft Rockshelter",
- "hook": "A Pennsylvania rockshelter whose deepest charcoal dates could push people in the Americas back 19,000 years.",
+ "hook": "A Pennsylvania rockshelter with charcoal dates of up to 19,000 radiocarbon years, long before Clovis.",
  "location": {
   "country": "United States",
   "region": "Pennsylvania",
   "continent": "North America"
  },
  "anomaly_type": "chronology",
- "claim": "James Adovasio's team argued that stone tools, hearths and plant remains through 11 stratified layers at Meadowcroft Rockshelter show intermittent human use of the Cross Creek Valley spanning at least 16,000, and perhaps up to 19,000, years -- well before Clovis.",
+ "claim": "James Adovasio's team argued that 11 well-defined strata at Meadowcroft Rockshelter record intermittent human occupation spanning at least 16,000 and perhaps 19,000 radiocarbon years -- long before Clovis.",
  "claimed_age": {
-  "label": "16,000-19,000 yr BP (occupation span, as reported 1978)",
+  "label": "16,000-19,000 14C yr BP (uncalibrated)",
   "bp_min": null,
   "bp_max": null,
-  "basis": "Adovasio et al. 1978: 11 strata 'span at least 16,000 years and perhaps 19,000 years.' Presumed uncalibrated 14C yr BP per era convention; not stated explicitly; not calibrated here.",
+  "basis": "S1 (1978): the 11 strata 'span at least 16,000 years and perhaps 19,000 years.' Radiocarbon years (calibration did not then reach this range); not calibrated here. S16 (1977) already claimed 16,000.",
   "source": "S1"
  },
  "accepted_age": {
-  "label": "~14,000-16,000 BP widely accepted; oldest dates disputed",
+  "label": "Pre-Clovis by ~12,000-14,500 14C yr BP; older unconfirmed",
   "bp_min": null,
   "bp_max": null,
-  "basis": "Adovasio et al. 1990 (AMS-backed): presence in SW Pennsylvania 'by 14,000-14,500 years ago.' Widely but not universally accepted; dates beyond ~16,000-19,000 BP remain contested. Not recalibrated here.",
-  "source": "S5"
+  "basis": "Conservative view ~12,000 yr (S7, citing Fagan 1995; units unstated). An independent 2025 synthesis (S14) uses 13,955-14,555 14C yr BP for lower Stratum IIa, following the excavators (S5). Uncalibrated.",
+  "source": "S14"
  },
  "orthodoxy_at_claim": {
-  "label": "Clovis-first: no confirmed human presence in the Americas before about 11,500 radiocarbon years BP",
-  "limit_bp": 11500,
-  "source": "S11"
+  "label": "Clovis-first: no accepted human presence in the Americas before Clovis (11,000-11,500 14C yr BP in S11; calendar limit 13,050 cal BP from S15)",
+  "limit_bp": 13050,
+  "source": "S15"
  },
- "year_claimed": 1978,
+ "year_claimed": 1977,
  "key_proponents": [
   "James M. Adovasio",
   "Jack Donahue",
@@ -56,176 +56,191 @@
  "features_at_claim": {
   "unambiguous_signal": {
    "value": "partial",
-   "note": "Miller Complex lithics (point, blades, cores) in Stratum IIa are unambiguous artifacts, but the oldest dates (~19,000 BP) have weaker artifact ties and discordant fauna/flora.",
-   "source": "S3"
+   "note": "S1 reports occupation throughout the sequence, but critics questioned the 'character' of the earliest artifact assemblage (S7).",
+   "source": "S7"
   },
   "documented_context": {
    "value": "yes",
-   "note": "11 well-defined stratigraphic units recorded in place across multiple excavation seasons from 1973.",
+   "note": "11 well-defined strata in a deeply stratified site (S1); critics nonetheless questioned the stratigraphy (S7).",
    "source": "S1"
   },
   "multiple_dating_methods": {
    "value": "no",
-   "note": "Only radiocarbon dating (conventional counting) was used at claim time; no OSL, U-series or other independent chronometric method was applied to the Pleistocene strata.",
-   "source": "S1"
+   "note": "Radiocarbon was the only dating method reported (50+ dates, S5); no second method appears in any source read.",
+   "source": "S5"
   },
   "multiple_labs": {
-   "value": "no",
-   "note": "Early dates came from the Smithsonian Institution radiocarbon lab (co-author Stuckenrath); independent Oxford AMS cross-checks came later, by 1990.",
+   "value": "unknown",
+   "note": "No source read names the lab(s) behind the 1970s dates; the only second-lab (Oxford AMS) dates cited came by 1990 (S5).",
    "source": "S5"
   },
   "professional_recovery": {
    "value": "yes",
-   "note": "Excavated from 1973 by Adovasio's University of Pittsburgh Cultural Resource Management Program.",
+   "note": "Systematic excavation reported by professional archaeologists and specialists led by J.M. Adovasio (S1).",
    "source": "S1"
   },
   "peer_reviewed_report": {
    "value": "yes",
-   "note": "Published in American Antiquity in 1978, with companion 'Retrospect 1977' reports following in 1979-1980.",
+   "note": "Full overview in American Antiquity in 1978 (S1), a year after the first report (S16).",
    "source": "S1"
   },
   "material_accessible": {
    "value": "unknown",
-   "note": "No source read here confirms whether critics had direct access to samples or the site within about five years of the 1978 claim.",
-   "source": "S1"
+   "note": "No source read shows whether critics could examine samples or the site within about five years of the claim."
   },
   "independent_teams": {
    "value": "no",
-   "note": "Evidence through the early 1980s came from Adovasio's single excavation team; critics (Haynes, Mead) published commentary but did not independently excavate or re-date within the window.",
+   "note": "Within 1977-1982 the data came from the excavators (S1); critics' 1980 papers commented on those data (S3).",
    "source": "S1"
   },
   "proponent_stake": {
    "value": "no",
-   "note": "Standard university/CRM archaeology (University of Pittsburgh); no commercial, religious or nationalist motive found in the sources read.",
+   "note": "Academic research; no commercial, religious or nationalist motive found in the sources read.",
    "source": "S1"
   }
  },
  "objections": [
   {
-   "text": "Radiocarbon dates from the earliest strata may be inflated by contamination with ancient ('dead') carbon, possibly from coal-bearing sediment in the region, infiltrating charcoal samples.",
+   "text": "Charcoal dates from the lowest strata may be too old because of particulate or non-particulate contamination by older carbon.",
    "kind": "dating",
    "raised_by": "C. Vance Haynes Jr.",
    "year": 1980,
    "outcome": "unresolved",
-   "outcome_note": "Adovasio's team replied with Oxford AMS dates (1990) and later geoarchaeology found no groundwater contamination, but coal-derived old carbon has not been conclusively excluded for the oldest dates.",
+   "outcome_note": "Excavators rejected it using Oxford AMS dates (S5); S6 found no groundwater contamination. No source read reports a direct test for coal particles.",
    "source": "S2"
   },
   {
-   "text": "Fauna and flora recovered from the dated Stratum IIa are discordant with other well-documented full-glacial (Wisconsinan-age) assemblages known from the region, casting doubt on the ages.",
+   "text": "Fauna and flora from dated Stratum IIa are discordant with other local Wisconsinan-age (full-glacial) fossils, casting doubt on the dates.",
    "kind": "context",
    "raised_by": "Jeffrey I. Mead",
    "year": 1980,
    "outcome": "unresolved",
-   "outcome_note": "Proponents argue Cross Creek Valley was a sheltered local refugium; no independent re-analysis of the faunal/floral discordance was found in the sources reviewed here.",
+   "outcome_note": "Excavators replied that the dates are 'not discordant' with the associated fauna and flora (S12). No independent re-analysis was found.",
    "source": "S3"
   },
   {
-   "text": "Specific points of confusion remain about whether coal particles or dissolved 'dead carbon' from coal contaminated dated charcoal; specific comparative tests were recommended.",
+   "text": "Early and perhaps some later dates may be contaminated by coal or dissolved coal by-products; the critics recommended specific tests to detect this.",
    "kind": "dating",
    "raised_by": "Kenneth B. Tankersley; Cheryl Ann Munson",
    "year": 1992,
    "outcome": "unresolved",
-   "outcome_note": "No source reviewed here reports these specific recommended comparative coal-contaminant tests being completed and published.",
+   "outcome_note": "Excavators replied there is 'no evidence whatsoever' of contamination (S13). No source read reports the recommended tests being done.",
    "source": "S4"
   },
   {
-   "text": "A pre-Clovis date of up to 19,000 years contradicted the Clovis-first model, under which no confirmed human presence existed in the Americas before about 11,500 radiocarbon years BP.",
-   "kind": "prior",
-   "raised_by": "C. Vance Haynes Jr. and other Clovis-first proponents",
-   "year": 1980,
-   "outcome": "wrong",
-   "outcome_note": "Clovis-first was abandoned field-wide from the 1990s-2000s as other pre-Clovis sites gained acceptance and Clovis itself was redated younger (S10).",
-   "source": "S2"
-  },
-  {
-   "text": "Even researchers who accept some pre-Clovis presence at the site treat only a conservative ~12,000-year initial occupancy as solid; the oldest claimed dates are not broadly accepted.",
-   "kind": "dating",
-   "raised_by": "unnamed critics, per Adovasio et al. 1999",
+   "text": "Critics questioned the site's stratigraphy, on which the association of the earliest dates and artifacts depends (specific arguments not read here).",
+   "kind": "context",
+   "raised_by": "critics, as summarized by the excavators (S7)",
    "year": null,
    "outcome": "unresolved",
-   "outcome_note": "Adovasio's own 1999 review states this is the field's conservative position, implying dates beyond it remain contested today.",
+   "outcome_note": "An independent 2025 study reports the dates in stratigraphic order (S14), but historic maize intruded into strata IV-XI (S9). No independent re-study of the lowest strata found.",
+   "source": "S7"
+  },
+  {
+   "text": "Critics questioned the 'character' of the earliest artifact assemblage (specific arguments not read here).",
+   "kind": "identification",
+   "raised_by": "critics, as summarized by the excavators (S7)",
+   "year": null,
+   "outcome": "unresolved",
+   "outcome_note": "An independent 2025 study treats the lower Stratum IIa tools (26 tools, 298 debitage) as a coherent early blade-and-biface industry (S14); not yet a consensus.",
    "source": "S7"
   }
  ],
  "status": "partial",
- "status_note": "The core claim -- pre-Clovis human presence in the Cross Creek Valley -- is now widely accepted, fitting the modern view people reached the Americas by ~17.5-14.6 ka. The oldest claimed dates, near 19,000 years, remain more contested.",
+ "status_note": "Pre-Clovis use is accepted in an independent 2025 synthesis (S14); the excavators say even conservative views concede ~12,000 years (S7). The 16,000-19,000 14C-yr span is unconfirmed; S15 deems all pre-16 ka sites equivocal.",
  "year_resolved": null,
- "what_settled_it": "No single event. Oxford AMS dates (1990) and independent micromorphology (Goldberg & Arpin 1999) answered specific contamination questions; acceptance of the core claim grew as other pre-Clovis sites were vindicated from the 1990s-2000s. The oldest dates were never independently confirmed.",
+ "what_settled_it": "Not settled. Oxford AMS dates (1990, S5) and micromorphology (1999, S6) answered some contamination concerns; an independent 2025 synthesis counts the site among 10 sites underpinning pre-Clovis technology (S14). No source read reports a test for coal, the main alternative.",
  "settled_by": [
-  "independent-redating",
-  "geology"
+  "replication",
+  "geology",
+  "expert-review"
  ],
- "failure_mode": "contamination",
+ "failure_mode": "none",
  "timeline": [
   {
+   "year": 1977,
+   "event": "Adovasio and colleagues publish a progress report calling Meadowcroft 'a 16,000 year chronicle'.",
+   "source": "S16"
+  },
+  {
    "year": 1978,
-   "event": "Adovasio, Gunn, Donahue & Stuckenrath publish the first major overview, claiming occupation spanning 16,000-19,000 years.",
+   "event": "American Antiquity overview: the 11 strata span 'at least 16,000 years and perhaps 19,000 years' of occupation.",
    "source": "S1"
   },
   {
    "year": 1980,
-   "event": "Haynes raises the possibility that ancient-carbon contamination inflated the site's radiocarbon dates.",
+   "event": "Haynes asks whether contamination is a problem for the site's early charcoal dates.",
    "source": "S2"
   },
   {
    "year": 1980,
-   "event": "Mead argues Stratum IIa fauna and flora are discordant with other Wisconsinan-age (Ice Age) records in the region.",
+   "event": "Mead argues the Stratum IIa fauna and flora are discordant with other local full-glacial fossils.",
    "source": "S3"
   },
   {
+   "year": 1980,
+   "event": "The excavators reply to Haynes and Mead that the dates fit the fauna, flora, artifacts and geology.",
+   "source": "S12"
+  },
+  {
    "year": 1987,
-   "event": "Kelly publishes a further critique of the site's pre-Clovis deposits in Quaternary Research.",
-   "source": "S8"
+   "event": "Tankersley, Munson & Smith show coal can contaminate radiocarbon samples and that standard lab procedures cannot remove it.",
+   "source": "S17"
   },
   {
    "year": 1990,
-   "event": "Adovasio, Donahue & Stuckenrath reply with Oxford AMS dates, holding presence in SW Pennsylvania by 14,000-14,500 years ago.",
+   "event": "The excavators assess Oxford AMS dates and hold that people were present by 14,000-14,500 years ago.",
    "source": "S5"
   },
   {
    "year": 1992,
-   "event": "Tankersley & Munson detail how coal particles could contaminate and inflate radiocarbon dates, and recommend specific tests.",
-   "source": "S4"
+   "event": "Tankersley & Munson reiterate the coal-contamination concern; the excavators reject it for lack of evidence.",
+   "source": "S13"
   },
   {
    "year": 1999,
-   "event": "Goldberg & Arpin's independent micromorphological study finds no evidence of groundwater contamination in the early levels.",
+   "event": "Goldberg & Arpin's micromorphology finds no evidence of groundwater contamination of the early levels.",
    "source": "S6"
   },
   {
-   "year": 1999,
-   "event": "Adovasio, Pedler, Donahue & Stuckenrath review two decades of debate; note conservative critics concede only a ~12,000-year occupancy.",
-   "source": "S7"
+   "year": 2022,
+   "event": "Hart & Adovasio AMS-date maize from strata IV-XI to historic times (likely after AD 1800), showing intrusion in later strata.",
+   "source": "S9"
   },
   {
    "year": 2022,
-   "event": "Hart & Adovasio directly AMS-date maize remains once thought ancient by stratigraphic association, finding them post-AD 1800 intrusions.",
-   "source": "S9"
+   "event": "Potter et al. regard all purported sites older than 16,000 cal yr BP as equivocal.",
+   "source": "S15"
+  },
+  {
+   "year": 2025,
+   "event": "Madsen et al. (independent authors) count Meadowcroft among 10 sites underpinning pre-Clovis ('American Upper Paleolithic') technology.",
+   "source": "S14"
   }
  ],
  "decisive_tests": [
   {
-   "test": "AMS-date archived charcoal from Meadowcroft's basal Stratum I and lowest Stratum IIa at a second lab, using contamination-resistant (e.g. ABOX) pretreatment.",
-   "would_show": "Whether the oldest (~16,000-19,000 year) dates hold up once likely old-carbon contaminants are stripped out.",
+   "test": "Single-fragment AMS dates on botanically identified charcoal from lower Stratum IIa features, run at an independent lab, with reflectance checks for coal on the same samples.",
+   "would_show": "Whether the oldest dates hold once coal particles, which standard lab pretreatment cannot remove (S17), are excluded.",
    "cost": "medium"
   },
   {
-   "test": "Test archived charcoal and sediment from the deepest strata for coal-derived hydrocarbons or coal macerals, compared against local coal seams.",
-   "would_show": "Direct chemical or petrographic evidence of coal contamination in the oldest samples, or its absence.",
+   "test": "Screen archived charcoal and sediment from the deepest strata for coal particles by reflectance and paleobotanical analysis, compared with local coal seams.",
+   "would_show": "Direct evidence for or against coal contamination of the oldest dated samples.",
    "cost": "low"
   },
   {
-   "test": "Directly AMS-date any bone, antler, or other non-charcoal organic material associated with the earliest strata.",
+   "test": "AMS-date any bone, antler or other non-charcoal organic material from the earliest strata.",
    "would_show": "An independent material class to cross-check the charcoal-based chronology of the oldest levels.",
    "cost": "medium"
   },
   {
-   "test": "Permitted survey or coring nearby in Cross Creek Valley to test whether comparable old-carbon-bearing sediment occurs naturally without cultural material.",
-   "would_show": "Whether the local geology can produce anomalously old carbon dates without human presence, calibrating contamination risk.",
-   "cost": "high"
+   "test": "Desk study: compile all published Meadowcroft dates by stratum and lab number, calibrate them with IntCal20, and flag outliers and reversals.",
+   "would_show": "Calendar ages for the claimed and accepted occupations, and whether the basal dates are internally consistent.",
+   "cost": "low"
   }
  ],
- "falsifier": "Would move toward 'refuted' if contamination-resistant re-dating shows the basal dates inflated by old carbon; toward 'vindicated' if such tests confirm the ~16,000-19,000-year dates and clear artifacts are newly identified there.",
+ "falsifier": "Toward 'refuted' only if all lower Stratum IIa dates prove contaminated (e.g., coal in dated charcoal) or intrusive. Toward 'vindicated' if single-fragment AMS dates on identified charcoal at an independent lab replicate the basal dates.",
  "sources": [
   {
    "id": "S1",
@@ -235,7 +250,7 @@
    "kind": "primary",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Original claim. Abstract read: 11 strata in Washington Co., SW Pennsylvania span 'at least 16,000 years and perhaps 19,000 years' of intermittent occupation."
+   "note": "Original overview. Abstract read: 11 strata 'span at least 16,000 years and perhaps 19,000 years' of intermittent occupation."
   },
   {
    "id": "S2",
@@ -245,7 +260,7 @@
    "kind": "critique",
    "access": "paywalled",
    "verification": "exists",
-   "note": "Key early critique (title only available; paywalled, no indexed abstract). Characterized by later replies (S4, S5) as raising old-carbon/particulate contamination concerns."
+   "note": "Paywalled, no abstract; content not read. Title raises contamination; S5 and S7 summarize critics' claims as 'particulate or nonparticulate contamination'."
   },
   {
    "id": "S3",
@@ -265,7 +280,7 @@
    "kind": "critique",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Abstract read: clarifies open questions on coal contamination of dated charcoal and recommends specific comparative tests."
+   "note": "Abstract read: clarifies points of confusion about coal contamination of dated charcoal and recommends specific comparative tests."
   },
   {
    "id": "S5",
@@ -275,7 +290,7 @@
    "kind": "reply",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Abstract read: proponents' reply using Oxford AMS dates; concludes people present in SW Pennsylvania 'by 14,000-14,500 years ago.'"
+   "note": "Abstract read: critics assert 'particulate or nonparticulate contamination'; Oxford AMS dates assessed; people present 'by 14,000-14,500 years ago' (14C years)."
   },
   {
    "id": "S6",
@@ -285,7 +300,7 @@
    "kind": "primary",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Abstract read: independent micromorphological study finds deposition by attrition/roof fall/sheetwash and no evidence of groundwater contamination of early levels."
+   "note": "Abstract read: deposition by attrition, roof fall and sheetwash; no evidence of groundwater contamination of the early levels. Does not test coal particles."
   },
   {
    "id": "S7",
@@ -295,7 +310,7 @@
    "kind": "review",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Abstract read: reviews 20 years of debate; notes 'most conservative assessments concede a 12,000-year initial occupancy.'"
+   "note": "Excavators' review. Abstract read: critics questioned stratigraphy, flora/fauna, assemblage 'character' and dates; 'most conservative assessments concede a 12,000-year initial occupancy'."
   },
   {
    "id": "S8",
@@ -305,7 +320,7 @@
    "kind": "critique",
    "access": "paywalled",
    "verification": "exists",
-   "note": "Further published critique (title only; paywalled, no indexed abstract, not read in full)."
+   "note": "Further published critique (title only; paywalled, no indexed abstract, not read)."
   },
   {
    "id": "S9",
@@ -315,7 +330,7 @@
    "kind": "primary",
    "access": "open",
    "verification": "checked",
-   "note": "Full text read (open PDF). Confirms site is still 'best known for its pre-Clovis occupation' (2022); shows unrelated maize once thought ancient AMS-dates to post-AD 1800."
+   "note": "Full text read (open PDF). Site 'best known for its pre-Clovis occupation'; maize from strata IV-XI, once thought ancient, AMS-dates to historic times, most likely after AD 1800."
   },
   {
    "id": "S10",
@@ -325,7 +340,7 @@
    "kind": "review",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Abstract read: current synthesis states genetic/archaeological data do not support occupation before ~17.5 ka, bearing on Meadowcroft's oldest claimed dates."
+   "note": "Abstract read: Americas settled ~17.5-14.6 ka; data 'do not support' earlier occupation. Background synthesis only."
   },
   {
    "id": "S11",
@@ -335,25 +350,97 @@
    "kind": "primary",
    "access": "paywalled",
    "verification": "checked",
-   "note": "Abstract read: defines the Clovis-first orthodoxy Meadowcroft's claim challenged -- Clovis points restricted to 11,000-11,500 RCYBP; no evidence in older deposits."
+   "note": "Abstract read: Clovis points in sediments 'between 11,000 and 11,500 years old' (14C years); defines the Clovis-first view the claim challenged."
+  },
+  {
+   "id": "S12",
+   "citation": "Adovasio, J.M., Gunn, J.D., Donahue, J., Stuckenrath, R. et al. 1980. Yes Virginia, It Really is That Old: A Reply to Haynes and Mead. American Antiquity 45(3): 588-595.",
+   "doi": "10.2307/279879",
+   "url": null,
+   "kind": "reply",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: Stratum IIa dates 'not discordant' with fauna, flora, artifacts or local geology; calls a 'Clovis primacy syndrome' anachronistic."
+  },
+  {
+   "id": "S13",
+   "citation": "Adovasio, J.M., Donahue, J. & Stuckenrath, R. 1992. Never Say Never Again: Some Thoughts on Could Haves and Might Have Beens. American Antiquity 57(2): 327-331.",
+   "doi": "10.2307/280737",
+   "url": null,
+   "kind": "reply",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: says Tankersley & Munson 'reiterate' coal contamination; rejects it: 'no evidence whatsoever for particulate or nonparticulate contamination'."
+  },
+  {
+   "id": "S14",
+   "citation": "Madsen, D.B., Davis, L.G., Williams, T.J., Izuho, M. & Iizuka, F. 2025. Characterizing the American Upper Paleolithic. Science Advances 11(43).",
+   "doi": "10.1126/sciadv.ady9545",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12542946/",
+   "kind": "review",
+   "access": "open",
+   "verification": "checked",
+   "note": "Non-Adovasio authors. Passages read: Meadowcroft is one of 10 sites underpinning pre-Clovis technology; lower Stratum IIa 'between 13,955 and 14,555 radiocarbon years ago'."
+  },
+  {
+   "id": "S15",
+   "citation": "Potter, B.A., Chatters, J.C., Prentiss, A.M., Fiedel, S.J. et al. 2022. Current Understanding of the Earliest Human Occupations in the Americas: Evaluation of Becerra-Valdivia and Higham (2020). PaleoAmerica 8(1): 62-76.",
+   "doi": "10.1080/20555563.2021.1978721",
+   "url": null,
+   "kind": "review",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: Strict Clovis-First = 13,050 cal yr BP; all purported sites older than 16,000 cal yr BP 'equivocal'. Whether it discusses Meadowcroft is not known."
+  },
+  {
+   "id": "S16",
+   "citation": "Adovasio, J.M., Gunn, J.D., Donahue, J. & Stuckenrath, R. 1977. Progress Report on the Meadowcroft Rockshelter—A 16,000 Year Chronicle. Annals of the New York Academy of Sciences 288(1): 137-159.",
+   "doi": "10.1111/j.1749-6632.1977.tb33607.x",
+   "url": null,
+   "kind": "primary",
+   "access": "paywalled",
+   "verification": "exists",
+   "note": "Crossref metadata only (paywalled, no abstract). The title shows a 16,000-year chronology was public in 1977."
+  },
+  {
+   "id": "S17",
+   "citation": "Tankersley, K.B., Munson, C.A. & Smith, D. 1987. Recognition of Bituminous Coal Contaminants in Radiocarbon Samples. American Antiquity 52(2): 318-330.",
+   "doi": "10.2307/281783",
+   "url": null,
+   "kind": "other",
+   "access": "paywalled",
+   "verification": "checked",
+   "note": "Abstract read: coal is a demonstrated dating contaminant; standard lab procedures cannot remove it; paleobotanical and reflectance analyses detect it. Does not name Meadowcroft."
   }
  ],
  "confidence": "medium",
- "confidence_note": "Haynes (1980) and Kelly (1987) were confirmed to exist via Crossref but not read in full (paywalled, no indexed abstract); their arguments here are inferred from how S4, S5 and S7 characterize them.",
+ "confidence_note": "Haynes 1980 (S2), Kelly 1987 (S8) and the 1977 report (S16) were not read (paywalled, no abstract); Haynes' exact arguments, including any on coal, are unverified.",
  "corrections": [
-  "Brief credits Haynes 1980/Tankersley & Munson 1992 with questioning 'absence of Ice Age fauna.' That was actually J.I. Mead (1980), unnamed in the brief: fauna/flora are 'discordant' with regional fossils, not absent (S3).",
-  "Brief attributes coal-contamination jointly to Haynes (1980) and Tankersley & Munson (1992). Coal is explicit only in the latter's abstract (S4); Haynes (1980) was confirmed at title level only, so his wording on coal is unverified (S2)."
+  "Brief says critics 'questioned the absence of Ice Age fauna.' The documented source of the fauna/flora objection is Mead (1980), unnamed in the brief, who calls them 'discordant' (S3); whether Haynes (1980) also made it is unverified."
  ],
- "notes": "A Wikipedia summary cites a 2013 SAA survey reporting 38% of archaeologists accepting Meadowcroft's early dates and 20% rejecting them; this could not be verified via Crossref/OpenAlex, so it is not used here, though it is broadly consistent with 'partial' status. BP figures are as originally published (apparently uncalibrated radiocarbon years per era convention); no independent calibration attempted, per instructions to leave uncertain numbers null. Hart & Adovasio (2022) show unrelated 'ancient' maize AMS-dating to post-AD 1800 -- a reminder why directly dating, not just associating, early material matters. Adovasio & Carlisle (1988, Science) exists but was not read for this record.",
+ "notes": "Two lines counted: radiocarbon dates; artifacts and features in stratified context (AMS is the same method; S6 tests integrity, not age). The excavators' 1980 reply decried a 'Clovis primacy syndrome' (S12), but no critic's text read here argues from Clovis-first, so no prior objection is coded. limit_bp is S15's Strict Clovis-First date, not a calibration of S11's 11,500 14C yr BP. The excavators' 14,000-14,500 figure (S5) is in 14C years; calibrated, it likely exceeds 16,000 cal BP (unsourced rough estimate), inside S15's equivocal class. Kelly 1987 (S8) and the Wheat 2012 opinion survey were not read; no survey figures are used.",
  "plates": [
   {
    "commons_file": "File:MeadowcroftRockshelter.jpg",
-   "caption": "Meadowcroft Rockshelter near Avella, Washington County, Pennsylvania, 2010."
+   "caption": "Meadowcroft Rockshelter, Washington County, Pennsylvania, 2010."
   }
  ],
  "review": {
   "drafted_by": "researcher agent (claude-sonnet-5)",
   "drafted_on": "2026-09-23",
-  "stage": "draft"
+  "stage": "revised",
+  "skeptic_by": "skeptic agent (claude-opus-5-5)",
+  "skeptic_on": "2026-09-23",
+  "skeptic_verdict": "revise",
+  "open_issues": [
+   "Clovis-first prior removed, not re-sourced: only the excavators allege it (S12, 'Clovis primacy syndrome'). Re-add, coded from the critic's own words, if Haynes 1980 (S2) is read and argues from Clovis-first.",
+   "year_claimed 1977 (S16, title only). S5 and S7 imply dates were published from 1975; a 1975 progress report (Pennsylvania Archaeologist 45(3), per the review) was not read. Use 1975 if it reports pre-Clovis dates.",
+   "limit_bp 13050 is S15's Strict Clovis-First date, not a calibration of 11,500 14C yr BP; sibling records code this orthodoxy as 13000 or 13350. Analyst should harmonize.",
+   "Status 'partial' rests on one independent synthesis (S14); S15 (abstract only) may class the site as equivocal. Recode 'open' if later independent reviews reject it.",
+   "multiple_labs recoded from 'no' to 'unknown': no source read names the lab(s) behind the 1970s dates.",
+   "Coal objection dated 1992, though S13 says the critics 'reiterate' it; S17 (1987) may be the first statement, but its abstract does not name Meadowcroft.",
+   "'identification' is a loose fit for the assemblage-'character' objection (schema: natural vs human-made); used as the nearest kind.",
+   "bp values kept null: individual lab dates not read or calibrated (see decisive test 4)."
+  ]
  }
 }

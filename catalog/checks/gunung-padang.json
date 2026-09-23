@@ -1,0 +1,74 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "RETRACTED: Geo‐archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia",
+  "crossref_year": 2024,
+  "crossref_venue": "Archaeological Prospection",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Retraction: Geo‐Archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia",
+  "crossref_year": 2024,
+  "crossref_venue": "Archaeological Prospection",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Retraction and Reflection: The Gunung Padang Controversy and the Challenges of Peer Review in Archaeological Prospection",
+  "crossref_year": 2025,
+  "crossref_venue": "ArchéoSciences",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Daily briefing: Furore over ‘oldest pyramid’ claim",
+  "crossref_year": 2023,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 60%, year ok, author ok",
+  "crossref_title": "Evidences of Large pyramid-like structure predating 10,000 Year BP at Mount Padang, West Java, Indonesia: Applications of geological-geophysical methods to explore buried large archeological site",
+  "crossref_year": 2018,
+  "crossref_venue": "",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 62%, year ok, author ok",
+  "crossref_title": "KONSTRUKSI DAN POLA SUSUN BALOK BATU  PUNDEN BERUNDAK GUNUNG PADANG - CIANJUR   CONSTRUCTION AND STACKING PATTERNS OF STONE BLOCK  GUNUNG PADANG SITE – CIANJUR",
+  "crossref_year": 2016,
+  "crossref_venue": "PURBAWIDYA: Jurnal penelitian dan Pengembangan Arkeologi",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "STRATEGI ADAPTASI DARI KEBENCANAAN  STUDI KASUS STRUKTUR DAN LINGKUNGAN SITUS GUNUNG PADANG",
+  "crossref_year": 2021,
+  "crossref_venue": "Prosiding Balai Arkeologi Jawa Barat",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "INDONESIA’S OWN ‘PYRAMID’: THE IMAGINED PAST AND NATIONALISM OF GUNUNG PADANG",
+  "crossref_year": 2021,
+  "crossref_venue": "International Review of Humanities Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Teka-teki situs Gunung Padang: Bukan piramida, tapi punden berundak",
+  "crossref_year": 2024,
+  "crossref_venue": "",
+  "checked_on": "2026-09-23"
+ }
+}

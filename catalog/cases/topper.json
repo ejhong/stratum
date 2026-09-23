@@ -1,36 +1,35 @@
 {
   "id": "topper",
   "name": "Topper Site",
-  "hook": "A South Carolina quarry where 'tools' near 50,000 years old are still argued to be artifacts or natural chert.",
+  "hook": "A South Carolina chert quarry where pieces in sediment over 50,000 years old may be tools or natural breaks.",
   "location": {
     "country": "United States",
     "region": "South Carolina",
     "continent": "North America"
   },
   "anomaly_type": "chronology",
-  "claim": "In 2004 Albert Goodyear announced radiocarbon dates of about 50,000 years on carbonized plant remains from Topper's lowest excavated stratum, with associated chert pieces he interpreted as crude tools -- an escalation of pre-Clovis material he had reported from shallower levels since the late 1990s.",
+  "claim": "In November 2004 Albert Goodyear announced radiocarbon ages of at least 50,300 years on burnt plant remains from deep in a Pleistocene river terrace at Topper, where his team found stone pieces he considered tools -- an extension of pre-Clovis finds made there since 1998.",
   "claimed_age": {
-    "label": "~50,000 14C yr BP (near dating limit)",
+    "label": "≥50,300 14C BP (minimum age)",
     "bp_min": 50000,
     "bp_max": null,
-    "basis": "Uncalibrated radiocarbon age on carbonized plant remains from the lowest stratum; near the practical ceiling of the method, so critics treat it as a minimum/background age rather than a precise calendar date.",
-    "source": "S5"
+    "basis": "Two radiocarbon dates, 50,300 and 51,700 14C BP (uncalibrated), on burnt plant remains, UC Irvine lab; the dater said the absolute age is not known. bp_min is the proponents' 'at least 50,000 years'.",
+    "source": "S9"
   },
   "accepted_age": null,
   "orthodoxy_at_claim": {
-    "label": "By the mid-2000s, pre-Clovis presence around Monte Verde's ~14,500 cal BP was gaining acceptance, but no widely accepted site approached 50,000 years.",
+    "label": "Pre-Clovis Monte Verde (~14,500 cal BP) had been accepted in 1997 (S11); no New World claim over 40,000 years had survived professional scrutiny (S10).",
     "limit_bp": 14500,
-    "source": "S3"
+    "source": "S12"
   },
   "year_claimed": 2004,
   "key_proponents": [
     "Albert C. Goodyear",
-    "Douglas Sain"
+    "Douglas A. Sain"
   ],
   "key_critics": [
-    "Michael R. Waters",
-    "Steven L. Forman",
-    "Thomas W. Stafford"
+    "Michael Collins",
+    "Michael R. Waters"
   ],
   "evidence_types": [
     "radiocarbon",
@@ -42,90 +41,90 @@
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "no",
-      "note": "The chert pieces are simple flakes/cores at a chert quarry; critics argue they may be naturally fractured rather than human-made.",
-      "source": "S5"
+      "note": "Stone pieces at a chert quarry. Michael Collins, who had seen them, called them geofacts; specialists awaited study of human versus natural origin.",
+      "source": "S10"
     },
     "documented_context": {
       "value": "partial",
-      "note": "Professionally excavated with recorded stratigraphy, but whether the dated carbon and the chert pieces represent one associated human event is disputed.",
-      "source": "S5"
+      "note": "Dug ~4 m into the Pleistocene terrace by backhoe and hand. Of three samples from the dated level, one was modern and attributed to an intrusion, so the level was not sealed.",
+      "source": "S9"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "Only radiocarbon dated this specific deep stratum; OSL work covered the shallower pre-Clovis sediment package, not confirmed at this depth.",
-      "source": "S5"
+      "note": "Only radiocarbon dated the deep level; the OSL dates in S9's timeline are on soils above 'ice age strata' (pre-Clovis 'older than 14,000').",
+      "source": "S9"
     },
     "multiple_labs": {
-      "value": "yes",
-      "note": "Thomas W. Stafford's laboratory contributed independent radiocarbon work as part of the 2009 reassessment alongside the original dating program.",
-      "source": "S1"
+      "value": "no",
+      "note": "Both finite dates came from one lab (UC Irvine), on samples Stafford collected. The lab for the ≥3 earlier >50,000-year dates (S10) is not stated.",
+      "source": "S9"
     },
     "professional_recovery": {
       "value": "yes",
-      "note": "Excavated by Albert Goodyear's SCIAA-directed Allendale Paleoindian Expedition.",
-      "source": "S5"
+      "note": "Excavated by Goodyear's SCIAA team (Allendale PaleoIndian Expedition, with public volunteers), by backhoe and hand; Stafford collected the dated samples.",
+      "source": "S9"
     },
     "peer_reviewed_report": {
-      "value": "yes",
-      "note": "Goodyear (2005) presented the pre-Clovis evidence in the peer-reviewed volume Paleoamerican Origins: Beyond Clovis, one year after the announcement.",
+      "value": "no",
+      "note": "Announced by press release; Anderson awaited formal publication (S10). Goodyear's 2005 chapter covers only ~12,000-16,000 RCYBP evidence. S1 (2009) unread.",
       "source": "S8"
     },
     "material_accessible": {
       "value": "yes",
-      "note": "External geoarchaeologists (Waters, Forman, Stafford, Foss) conducted independent fieldwork and sampling at the site by 2009.",
-      "source": "S1"
+      "note": "Outside geologists led by Waters worked at the site from 1999 (S9), and critic Michael Collins had seen the pieces by 2004 (S10).",
+      "source": "S9"
     },
     "independent_teams": {
       "value": "yes",
-      "note": "The 2009 reassessment was carried out by a team external to Goodyear's excavation group.",
-      "source": "S1"
+      "note": "Outside geologists led by Waters (Texas A&M) studied and dated the site's soils from 1999, alongside the project; they published separately in 2009 (S1).",
+      "source": "S9"
     },
     "proponent_stake": {
       "value": "no",
-      "note": "No commercial, religious or nationalist motive is documented; Goodyear was South Carolina's state archaeologist with ordinary career interest.",
-      "source": "S5"
+      "note": "No commercial, religious or nationalist motive documented. Goodyear was a USC research archaeologist at SCIAA (since 1974) and founder of the Allendale PaleoIndian Expedition.",
+      "source": "S9"
     }
   },
   "objections": [
     {
-      "text": "The chert pieces recovered below the Clovis horizon, including at the ~50,000-year stratum, may be naturally fractured rather than human-made.",
+      "text": "The stone pieces from the dated level are natural fractures (geofacts), not human-made tools.",
       "kind": "identification",
-      "raised_by": "Waters, Forman, Stafford & Foss (2009)",
-      "year": 2009,
-      "outcome": "unresolved",
-      "outcome_note": "No consensus has been reached in the literature reviewed; the identification remains disputed.",
-      "source": "S5"
-    },
-    {
-      "text": "The purported tools show no stylistic change across the roughly 35,000 years separating the deepest stratum from the overlying pre-Clovis layer, unlike normal patterns of cultural change.",
-      "kind": "identification",
-      "raised_by": "Waters, Forman, Stafford & Foss (2009)",
-      "year": 2009,
-      "outcome": "unresolved",
-      "outcome_note": "No published rebuttal addressing this specific pattern was found in the sources reviewed.",
-      "source": "S5"
-    },
-    {
-      "text": "The carbon-rich stain that was dated may represent a natural wildfire rather than a human hearth or combustion feature.",
-      "kind": "context",
-      "raised_by": "critics, per Wikipedia synthesis",
+      "raised_by": "Michael Collins, Univ. of Texas (2004); Waters et al. 2009 UNVERIFIED",
       "year": 2004,
       "outcome": "unresolved",
-      "outcome_note": "Not resolved by feature-level or micromorphological analysis in the sources reviewed.",
-      "source": "S5"
+      "outcome_note": "Proponents still describe a core-and-flake industry in the terrace (S2, 2018); no study settling human versus natural origin was found in the sources read.",
+      "source": "S10"
     },
     {
-      "text": "At about 50,000 years the sample is near the practical ceiling of radiocarbon dating, so a background-level result gives only a minimum age, not a reliable calendar date.",
+      "text": "Earlier New World claims over 40,000 years had not survived professional examination, so the dates need careful verification and reporting in scientific journals.",
+      "kind": "prior",
+      "raised_by": "David Anderson, Univ. of Tennessee (2004)",
+      "year": 2004,
+      "outcome": "unresolved",
+      "outcome_note": "No proponents' journal report of the ≥50,300 dates was found in the sources read; Goodyear's 2005 chapter (S8) covers younger pre-Clovis evidence only.",
+      "source": "S10"
+    },
+    {
+      "text": "One of three samples from the dated level gave a modern age, attributed to an intrusion, so the level was not sealed and the pieces' association with the dated carbon is uncertain.",
+      "kind": "context",
+      "raised_by": "Intrusive date reported by T. Stafford (2004)",
+      "year": 2004,
+      "outcome": "unresolved",
+      "outcome_note": "ARCHAEOLOGY (S10) expected the context to face close scrutiny; no micromorphology or refit study of this level was found in the sources read.",
+      "source": "S9"
+    },
+    {
+      "text": "The dates show only that the material is at least 50,300 radiocarbon years old; its absolute age is not known.",
       "kind": "dating",
-      "raised_by": "critics, per Wikipedia synthesis",
+      "raised_by": "T. Stafford, the dater (2004 announcement)",
       "year": 2004,
       "outcome": "held",
-      "outcome_note": "A well-established limitation of the method near its detection ceiling; not disputed by proponents.",
-      "source": "S5"
+      "outcome_note": "The dater's own caveat; ≥3 earlier dates on the lower soils were also beyond 50,000 years (S10). Not disputed in the sources read.",
+      "source": "S9"
     }
   ],
   "status": "open",
-  "status_note": "No independent lab has replicated the ~50,000-year dates on new samples, and the associated chert pieces are still disputed as possible geofacts. A separate, less extreme pre-Clovis layer (~16,000 years) has wider but not universal support.",
+  "status_note": "Dates from the level are minimum ages only (≥50,300 14C BP). Collins (2004) judged the pieces geofacts; the proponents still present a pre-LGM occupation in the terrace (S2, 2018). Human origin remains unsettled.",
   "year_resolved": null,
   "what_settled_it": null,
   "settled_by": [
@@ -134,74 +133,89 @@
   "failure_mode": "none",
   "timeline": [
     {
-      "year": 1985,
-      "event": "SCIAA excavates Topper, finding material from the 15th-century Mississippian period down to presumed Paleoindian levels in the top 100 cm.",
-      "source": "S5"
+      "year": 1998,
+      "event": "Goodyear's team digs up to a meter below the Clovis level and finds unusual stone pieces up to two meters below the surface.",
+      "source": "S9"
     },
     {
-      "year": 1998,
-      "event": "Flooding redirects Goodyear's Allendale Paleoindian Expedition to Topper; excavation is extended below 100 cm in search of pre-Clovis material.",
-      "source": "S5"
+      "year": 1999,
+      "event": "Outside geologists led by Michael Waters (Texas A&M) visit and propose a full geological study of the site.",
+      "source": "S9"
+    },
+    {
+      "year": 2001,
+      "event": "Geologists take plant remains deep in the Pleistocene terrace; OSL on soils above 'ice age strata' puts pre-Clovis at over 14,000 years.",
+      "source": "S9"
     },
     {
       "year": 2004,
-      "event": "Goodyear announces radiocarbon dates of about 50,000 years on carbonized plant remains from the lowest excavated stratum.",
-      "source": "S5"
+      "event": "May: backhoe and hand excavation reaches ~4 m below the surface in the terrace; T. Stafford collects charcoal from a black stain where pieces lay.",
+      "source": "S9"
+    },
+    {
+      "year": 2004,
+      "event": "November: Goodyear announces dates of 50,300 and 51,700 14C BP (UC Irvine); a third sample is modern, attributed to an intrusion.",
+      "source": "S9"
+    },
+    {
+      "year": 2004,
+      "event": "Michael Collins, who had seen the pieces, calls them geofacts; David Anderson and others await formal publication.",
+      "source": "S10"
     },
     {
       "year": 2005,
-      "event": "Goodyear publishes the pre-Clovis evidence in the peer-reviewed volume Paleoamerican Origins: Beyond Clovis.",
+      "event": "Goodyear reviews four eastern pre-Clovis sites, Topper included, at ~12,000-16,000 RCYBP; the abstract does not mention the 50k dates.",
       "source": "S8"
     },
     {
       "year": 2009,
-      "event": "Waters, Forman, Stafford & Foss publish an independent geoarchaeological reassessment questioning the deep artifact identifications.",
+      "event": "Waters, Forman, Stafford & Foss publish a geoarchaeological study of Topper and Big Pine Tree; Waters' team had worked there since 1999.",
       "source": "S1"
     },
     {
       "year": 2018,
-      "event": "Goodyear & Sain describe the shallower pre-Clovis layer as pre-Last-Glacial-Maximum, among the oldest claimed sites in the Western Hemisphere.",
+      "event": "Goodyear & Sain maintain a pre-LGM pre-Clovis core-and-flake occupation (Clariant complex) in the Pleistocene terrace.",
       "source": "S2"
     },
     {
       "year": 2024,
-      "event": "Jennings et al. report a probable Clovis-age hearth and domestic structure at Topper, part of the site's separate, undisputed occupation.",
+      "event": "Jennings et al. report a probable Clovis hearth and domestic structure, part of Topper's separate Clovis occupation.",
       "source": "S7"
     }
   ],
   "decisive_tests": [
     {
-      "test": "Send new splits of the dated carbonized plant material, or freshly excavated equivalents from the same stratum, to a second independent AMS lab for blind replicate dating.",
-      "would_show": "Whether the ~50,000-year result is reproducible or an artifact of contamination or background at one lab.",
+      "test": "Date the sands of the artifact-bearing terrace level by luminescence (OSL/IRSL) for a finite burial age, after checking whether S1 already reports such ages.",
+      "would_show": "A finite age for the level, which the radiocarbon minimum ages (≥50,300 14C BP) cannot give.",
       "cost": "medium"
     },
     {
-      "test": "Run controlled experiments fracturing local Allendale chert by natural processes (fluvial transport, trampling, frost action) and compare the resulting flakes to the purported tools.",
-      "would_show": "Whether natural processes alone can reproduce the assemblage's forms, supporting or undermining the geofact hypothesis.",
+      "test": "Blind test: lithic specialists sort the terrace pieces mixed with chert fragments collected from sterile terrace sediment, without knowing which is which.",
+      "would_show": "Whether the claimed tools can be told apart from natural breakage in the same deposit.",
       "cost": "low"
     },
     {
-      "test": "Apply high-resolution micromorphology to the carbon-rich stain itself.",
-      "would_show": "Whether the stain has the internal structure of a hearth or combustion feature versus a natural wildfire horizon or root stain.",
+      "test": "Micromorphology on any archived sediment from the 2004 black stain, or on a newly exposed equivalent stain in the same terrace level.",
+      "would_show": "Whether the burnt layer is an in-place human combustion feature or natural burning or root staining, and whether intrusions cut it.",
       "cost": "medium"
     },
     {
-      "test": "Conduct use-wear and residue analysis on the purported deepest-level tools under high magnification.",
-      "would_show": "Diagnostic edge damage or organic residues that natural fracture would not produce.",
+      "test": "Use-wear and residue analysis at high magnification on pieces from the dated level, with naturally broken chert from the same terrace as controls.",
+      "would_show": "Edge wear or organic residues that natural fracture would not produce.",
       "cost": "low"
     }
   ],
-  "falsifier": "Independent replicate AMS dating giving a reproducible ancient age, plus use-wear or residue evidence ruling out natural fracture, would support the claim. Failure to reproduce the dates, or experiments matching natural processes to the 'tools', would refute it.",
+  "falsifier": "Refuted if blind analysis finds the terrace pieces indistinguishable from naturally broken chert in sterile terrace sediment. Supported if pieces sealed in the dated level show use-wear or residues natural breakage cannot make, and finite luminescence ages confirm its age.",
   "sources": [
     {
       "id": "S1",
       "citation": "Waters, M.R.; Forman, S.L.; Stafford, T.W.; Foss, J. (2009). Geoarchaeological investigations at the Topper and Big Pine Tree sites, Allendale County, South Carolina. Journal of Archaeological Science 36(7): 1300-1311.",
       "doi": "10.1016/j.jas.2008.12.020",
       "url": null,
-      "kind": "critique",
+      "kind": "report",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Citation and authorship confirmed via CrossRef/OpenAlex. Full text paywalled; specific content here relies on S5's paraphrase."
+      "note": "Metadata confirmed (Crossref/OpenAlex); no abstract available. Publisher, Academia and ResearchGate copies return HTTP 403. Content unread; cited only for the fact of publication."
     },
     {
       "id": "S2",
@@ -211,17 +225,7 @@
       "kind": "primary",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read and confirmed; supports the pre-LGM framing of the shallower pre-Clovis layer, kept separate from this record's claim."
-    },
-    {
-      "id": "S3",
-      "citation": "Waters, M.R.; Stafford, T.W. (2007). Redefining the Age of Clovis: Implications for the Peopling of the Americas. Science 315(5815): 1122-1126.",
-      "doi": "10.1126/science.1137166",
-      "url": null,
-      "kind": "review",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read; used only for general Clovis/pre-Clovis chronology context, not Topper-specific detail."
+      "note": "Abstract read: pre-Clovis 'Clariant complex' in the Pleistocene terrace, radiocarbon and OSL on its sediments, 'pre-LGM'. No age figure; used as the proponents' current position."
     },
     {
       "id": "S4",
@@ -231,27 +235,7 @@
       "kind": "report",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read; documents the site's separate, undisputed Clovis-age occupation."
-    },
-    {
-      "id": "S5",
-      "citation": "Wikipedia contributors. Topper site. Wikipedia, The Free Encyclopedia (version current 2026-09-23).",
-      "doi": null,
-      "url": "https://en.wikipedia.org/wiki/Topper_Site",
-      "kind": "other",
-      "access": "open",
-      "verification": "checked",
-      "note": "Used because primary sources (2004 press release; Waters et al. 2009 full text) were inaccessible; this article's account traces to both."
-    },
-    {
-      "id": "S6",
-      "citation": "Wikipedia contributors. Settlement of the Americas. Wikipedia, The Free Encyclopedia (version current 2026-09-23).",
-      "doi": null,
-      "url": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas",
-      "kind": "other",
-      "access": "open",
-      "verification": "checked",
-      "note": "Source for the ~16,000-year figure attributed to Topper's separate, shallower pre-Clovis layer, cited in notes only."
+      "note": "Abstract read; documents the site's separate Clovis-age occupation."
     },
     {
       "id": "S7",
@@ -261,29 +245,78 @@
       "kind": "report",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read; documents the site's separate, undisputed Clovis-age occupation."
+      "note": "Abstract read; documents the site's separate Clovis-age occupation. DOI carries a 2025 suffix; Crossref gives 2024, 43(4)."
     },
     {
       "id": "S8",
-      "citation": "Goodyear, A.C. (2005). Evidence of Pre-Clovis Sites in the Eastern United States. In Bonnichsen, R.; Lepper, B.T.; Stanford, D.; Waters, M.R. (eds.), Paleoamerican Origins: Beyond Clovis, pp. 103-112. Texas A&M University Press.",
+      "citation": "Goodyear, A.C. (2005). Evidence of Pre-Clovis Sites in the Eastern United States. In Bonnichsen, R.; Lepper, B.T.; Stanford, D.; Waters, M.R. (eds.), Paleoamerican Origins: Beyond Clovis, pp. 103-112. Center for the Study of the First Americans, Texas A&M University.",
       "doi": null,
+      "url": "https://scholarcommons.sc.edu/sciaa_staffpub/27",
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Landing page and abstract read: Meadowcroft, Cactus Hill, Saltville-2 and Topper at ~12,000-16,000 RCYBP; no mention of the 50k dates. PDF returns HTTP 403."
+    },
+    {
+      "id": "S9",
+      "citation": "University of South Carolina (2004, November 18). New Evidence Puts Man In North America 50,000 Years Ago. Press release, via ScienceDaily.",
+      "doi": null,
+      "url": "https://www.sciencedaily.com/releases/2004/11/041118104010.htm",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: dates of 50,300 and 51,700 (UC Irvine), Stafford's samples and caveat, a modern intrusive date, 1998-2004 timeline, ~16,000-year soils, Goodyear's SCIAA post. Not peer-reviewed."
+    },
+    {
+      "id": "S10",
+      "citation": "Archaeology (Archaeological Institute of America) (2004). Early Dates, Real Tools? Archaeology online news report.",
+      "doi": null,
+      "url": "https://archive.archaeology.org/online/news/topper.html",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: Collins 'They're geofacts--not man-made'; Anderson awaiting formal publication; ≥3 earlier >50,000-year dates on lower soils. No byline seen; written the day of the announcement."
+    },
+    {
+      "id": "S11",
+      "citation": "Meltzer, D.J.; Grayson, D.K.; Ardila, G.; Barker, A.W. et al. (1997). On the Pleistocene Antiquity of Monte Verde, Southern Chile. American Antiquity 62(4): 659-663.",
+      "doi": "10.2307/281884",
       "url": null,
-      "kind": "book",
-      "access": "unknown",
-      "verification": "exists",
-      "note": "Chapter title/pages per Wikipedia's reference list; the parent volume's existence, editors and year are confirmed via a 2008 American Antiquity book review. Chapter text not read directly."
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: after a January 1997 site visit, specialists agreed that MV-II is archaeological and 12,500 years old. Used for the orthodoxy at the time of the claim."
+    },
+    {
+      "id": "S12",
+      "citation": "Dillehay, T.D.; Ocampo, C.; Saavedra, J.; Sawakuchi, A.O. et al. (2015). New Archaeological Evidence for an Early Human Presence at Monte Verde, Chile. PLOS ONE 10(11): e0141923.",
+      "doi": "10.1371/journal.pone.0141923",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full-text passage read: 'one valid human site (MV-II) dated ~14,500 cal BP'. Source for the limit_bp value only."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "S1 and S8 exist and are correctly cited but are paywalled or print-only; their specific content here relies on a secondary paraphrase (Wikipedia, checked directly) rather than direct reading.",
-  "corrections": [
-    "Brief blended two strata: a shallower below-Clovis lithic layer (from 1998, later dated by S1 to the Late Pleistocene) and a deeper carbon stain dated to ~50,000 years (2004). This record's claim fields cover only the 2004 stratum.",
-    "The brief's \"charcoal...unassociated\" isn't verified in that wording. The documented critique (S5, paraphrasing S1) centers on a natural-fire origin, possible natural chert fracture, and the date being near radiocarbon's practical ceiling."
-  ],
-  "notes": "Topper has an undisputed Clovis-age occupation (SCIAA-excavated, including a probable hearth/structure reported in 2024) that is not part of this claim -- see S4 and S7. A separate, less extreme pre-Clovis claim (a core-and-flake lithic layer beneath the Clovis horizon, commonly cited at roughly 16,000 years and described by S2 as pre-Last-Glacial-Maximum) has wider, though not universal, support in the literature. Per project instructions, this record's claim, claimed_age, orthodoxy_at_claim and features_at_claim describe only the more extreme ~50,000-year stratum announced in 2004, kept separate from both the accepted Clovis occupation and the intermediate pre-Clovis layer.",
+  "confidence_note": "Key facts rest on two 2004 reports read directly (S9, S10) and abstracts (S2, S8, S11). S1, the main external study, is unread (paywalled), so none of its findings are used.",
+  "notes": "Scope: only the 2004 finds deep in the Pleistocene terrace. Pre-Clovis finds of 1998-2003 lay above the terrace, in soils outside geologists dated to ~16,000 years (S9, S10); the Clovis occupation (S4, S7) is separate. Stafford both collected the 2004 samples (S9) and co-authored S1. S1 could not be read (paywalled; open copies blocked), so reports that it doubts the human origin of the sub-Clovis pieces come only from search summaries: UNVERIFIED. Sources differ on Stafford's affiliation: Stafford Laboratories, Boulder (S9) vs University of Wisconsin (S10). The expedition includes public volunteers under professional direction (S9).",
   "review": {
-    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_by": "researcher agent (claude-sonnet-5); revised by claude-opus-5-5",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "S1 (Waters et al. 2009) still unread: no abstract in OpenAlex; publisher, Academia and ResearchGate copies return HTTP 403. Kept at 'exists'; the 'unchanged tools' objection was removed and Waters' critic role is marked UNVERIFIED.",
+      "Declined in part: Waters et al. (2009) not added to status_note or as a confirmed raiser of the geofact objection, since S1 could not be read; kept only as UNVERIFIED in raised_by and in key_critics.",
+      "peer_reviewed_report coded 'no' rather than 'partial': whether S1 reports the ≥50,300 dates is unknown. Recode to 'partial' if S1 is shown to treat them.",
+      "Declined: confidence 'low' until S1 is read. Set 'medium' because no field now relies on S1 or on Wikipedia; key facts rest on two contemporary reports read directly.",
+      "S3 (Waters & Stafford 2007) removed rather than downgraded: after re-sourcing orthodoxy_at_claim to S10, S11 and S12, nothing cited it. Source IDs kept stable, so S3, S5 and S6 are gaps.",
+      "Removed for lack of a readable source: the 1985 SCIAA excavation, the 1998 flood detail and the natural-fire objection (the Goodyear 2005 PDF returns HTTP 403).",
+      "S8 editors and publisher come from the prior draft (a 2008 American Antiquity review); this revision confirmed only title, author, venue, year and pages.",
+      "Objection [2] (intrusion) is framed from Stafford's own report of a modern intrusive date and ARCHAEOLOGY's call for context scrutiny; no named critic made this exact argument in the sources read."
+    ]
   }
 }

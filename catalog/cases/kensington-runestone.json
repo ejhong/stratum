@@ -1,161 +1,171 @@
 {
   "id": "kensington-runestone",
   "name": "Kensington Runestone",
-  "hook": "A Minnesota farmer's 1898 field find, runically dated 1362, judged modern within twelve years.",
+  "hook": "A Minnesota farm find of 1898, runically dated 1362, that two professors judged not medieval in 1899.",
   "location": {
     "country": "United States",
     "region": "Minnesota",
     "continent": "North America"
   },
   "anomaly_type": "contact",
-  "claim": "Olof Öhman reported unearthing a rune-inscribed stone on his farm near Kensington, Minnesota, in 1898. The runic text, dated 1362, describes a mixed Norwegian-Swedish party out of Vinland that camped nearby and lost ten men, read by proponents as proof of a Norse expedition deep inland.",
+  "claim": "Olof Öhman reported finding a rune-inscribed stone on his farm near Kensington, Minnesota, in 1898. Its text, dated 1362, tells of 30 Norwegians and Swedes out of Vinland who lost ten men, read by proponents as proof of Norse explorers deep inland.",
   "claimed_age": {
-    "label": "AD 1362 (date given in the runic text)",
+    "label": "AD 1362 (date carved in the text)",
     "bp_min": 588,
     "bp_max": 588,
-    "basis": "Single internal date carved into the inscription; not derived from any independent dating method.",
+    "basis": "The date written in the inscription itself; no independent dating method applies.",
     "source": "S1"
   },
   "accepted_age": {
-    "label": "Modern; carved shortly before its 1898 discovery",
+    "label": "19th century AD, before 1898; carver unknown",
     "bp_min": 52,
-    "bp_max": 130,
-    "basis": "No physical dating method applies to a carved inscription. Consensus rests on philological and runological analysis placing the text in the 19th century, not on any absolute date for the stone itself.",
-    "source": "S1"
+    "bp_max": 150,
+    "basis": "Weight of linguistic and runic evidence (Williams 2012). No physical method dates the carving; 150 BP (AD 1800) marks the start of the 19th century, not a measured limit.",
+    "source": "S9"
   },
   "orthodoxy_at_claim": {
-    "label": "Norse presence in North America was known only from sagas and Greenland; no evidence placed a 14th-century Norse party in the continental interior.",
+    "label": "Norse voyages to Vinland were known only from sagas and annals, the last recorded long before 1362; nothing placed Norse explorers in the interior.",
     "limit_bp": null,
     "source": "S1"
   },
   "year_claimed": 1898,
-  "key_proponents": ["Olof Öhman", "Hjalmar Holand", "S. N. Hagen", "Robert A. Hall Jr.", "Scott F. Wolter"],
-  "key_critics": ["George T. Flom", "George O. Curme", "Erik Wahlgren", "Theodore C. Blegen", "Michael G. Michlovic", "Henrik Williams"],
-  "evidence_types": ["inscription", "geology", "stratigraphy", "artifacts"],
-  "independent_methods_count": 4,
+  "key_proponents": ["Hjalmar Holand", "Newton H. Winchell", "William Thalbitzer", "Robert A. Hall Jr.", "Richard Nielsen", "Scott F. Wolter"],
+  "key_critics": ["Olaus J. Breda", "George O. Curme", "George T. Flom", "Erik Wahlgren", "Theodore C. Blegen", "Henrik Williams"],
+  "evidence_types": ["inscription", "stratigraphy", "geology"],
+  "independent_methods_count": 3,
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "yes",
-      "note": "The runes are clearly a deliberate, artificial carving; dispute from the outset was over its age and authorship, never over whether it was human-made.",
+      "note": "Clearly a deliberate carving; the dispute was over its age and author, not whether people made it.",
       "source": "S1"
     },
     "documented_context": {
       "value": "no",
-      "note": "No archaeologist or professional witnessed the find. Only Öhman, his son and neighbours attested afterward, and reported details of the enclosing tree grew with each retelling.",
-      "source": "S1"
+      "note": "No corroborating witness or tangible evidence fixes where or how it was found; only the finders' statements exist.",
+      "source": "S9"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "No absolute dating method applies to a carved inscription. Contemporaries had only a single, contested relative-weathering impression plus philological analysis, not concordant numeric dates.",
-      "source": "S1"
+      "note": "No dating method was applied; its age rested on the carved date and on readings of its runes and language.",
+      "source": "S9"
     },
     "multiple_labs": {
       "value": "no",
-      "note": "A single university examiner (Curme, Northwestern) and later one state geologist and one philologist assessed the stone; no coordinated multi-laboratory program existed.",
-      "source": "S1"
+      "note": "No laboratory work. The only 1899 examinations were Breda's reading of a drawing and Curme's inspection in Chicago.",
+      "source": "S9"
     },
     "professional_recovery": {
       "value": "no",
-      "note": "Found by a farmer clearing tree stumps on his own land, not by trained excavators; no controlled dig documented the discovery itself.",
+      "note": "The farmer found it partly under a young tree whose roots gripped it; no trained excavator saw it in place.",
       "source": "S1"
     },
     "peer_reviewed_report": {
-      "value": "partial",
-      "note": "Flom's address was printed by the Illinois State Historical Society (1910); Winchell reported to the Minnesota Historical Society. Vetted by learned societies, not modern referees.",
+      "value": "no",
+      "note": "No report by ~1903: after the 1899 verdicts the stone 'was not therefore submitted to a detailed examination' and became a door-step.",
       "source": "S1"
     },
     "material_accessible": {
       "value": "yes",
-      "note": "The stone was shown locally, then examined at Northwestern University and by the Minnesota Historical Society; any interested scholar could inspect it.",
+      "note": "Öhman let it go to Chicago for inspection in 1899; it then lay at his granary as a door-step. No refusal of access is recorded.",
       "source": "S1"
     },
     "independent_teams": {
       "value": "partial",
-      "note": "Within about a decade, a philologist (Flom, drawing on Gjessing's separate Norwegian critique) and university/state examiners (Curme, Winchell) independently assessed the same object.",
-      "source": "S1"
+      "note": "Breda (Minneapolis) and Curme (Chicago) assessed it separately in 1899 and both rejected a medieval date; no second group backed the claim.",
+      "source": "S9"
     },
     "proponent_stake": {
-      "value": "yes",
-      "note": "Holand acquired a financial interest (by his own account, a share purchased from Öhman) and spent decades promoting the stone, a documented stake beyond ordinary scholarly interest.",
-      "source": "S1"
+      "value": "unknown",
+      "note": "No stake is documented for 1898-1903. Holand's financial interest (a purchase, or a share per Flom) began in 1907.",
+      "source": "S9"
     }
   },
   "objections": [
     {
-      "text": "A party of about 30 Norse explorers could not plausibly have travelled inland from Vinland on the Atlantic coast to western Minnesota, or covered the stated distance in fourteen days.",
+      "text": "Thirty explorers could not plausibly have reached western Minnesota from Vinland on the Atlantic coast, and covering that distance in fourteen days would have been impossible.",
       "kind": "prior",
-      "raised_by": "Contemporary critics, per Flom (1910)",
+      "raised_by": "Skeptics, as summarized by George T. Flom",
       "year": 1910,
-      "outcome": "held",
-      "outcome_note": "No archaeological or historical trace of any Norse inland route has ever been found; the objection has never been overturned.",
+      "outcome": "unresolved",
+      "outcome_note": "No trace of a Norse inland route has been found, but Williams (2012) says 'nothing has been proven either way'; the medieval claim fell on the text, not the route.",
       "source": "S1"
     },
     {
-      "text": "The inscription's grammar and vocabulary (e.g. modern plural verb endings, dialectal spellings) match 19th-century Swedish-American dialect, not 14th-century Old Swedish or Norwegian.",
+      "text": "Plural subjects take singular verb forms (vi var, vi kom), where 14th-century Swedish had -um endings (vi varom, vi komom); the text reads as a modern dialect.",
       "kind": "dating",
-      "raised_by": "George T. Flom; Helge Gjessing",
-      "year": 1910,
-      "outcome": "held",
-      "outcome_note": "Independent philological review has repeated this finding since (Wahlgren 1958; Williams 2012); no runologist has published a peer-reviewed defense of a medieval date.",
-      "source": "S1"
-    },
-    {
-      "text": "Several runic letterforms match the 19th-century Dalarna folk-runic tradition carried by Swedish immigrants, not any documented 14th-century alphabet.",
-      "kind": "identification",
       "raised_by": "George T. Flom",
       "year": 1910,
       "outcome": "held",
-      "outcome_note": "This also answered the proponents' argument that no one locally could have known runes: folk-runic literacy existed within the immigrant community itself.",
+      "outcome_note": "Williams (2012): the weight of evidence still favors a 19th-century origin, though several forms once called impossible proved possible in Old Swedish.",
       "source": "S1"
     },
     {
-      "text": "The carved surfaces, including the softer calcite portion, look unusually crisp for an inscription claimed to be over 500 years old; contemporaries described the chisel marks as fresh.",
+      "text": "The text is written 'in modern runic characters'; runes were used in Dalarna long after the Middle Ages, so a 19th-century carver could have known them.",
       "kind": "dating",
-      "raised_by": "Newton H. Winchell; George T. Flom",
+      "raised_by": "George T. Flom",
       "year": 1910,
       "outcome": "held",
-      "outcome_note": "This 1910 freshness observation is the direct predecessor of today's unresolved dispute with later (Wolter-era) weathering claims; no independent study has reconciled the two.",
+      "outcome_note": "Rune-rows of 1883 and 1885 from Dalarna (Larsson papers, found 2004) are closely related to the stone's runes, though n, o, p, r and t differ (Williams 2012).",
       "source": "S1"
     },
     {
-      "text": "No professional or independent witness observed the stone's excavation; retellings of the enclosing tree's size and age grew inconsistently with each new account.",
+      "text": "Runes cut in the soft calcite part are as clear as those in the harder graywacke; long weathering would have blurred them.",
+      "kind": "dating",
+      "raised_by": "George T. Flom",
+      "year": 1910,
+      "outcome": "unresolved",
+      "outcome_note": "Winchell (MHS 1910) judged the weathering old, as Wolter's books (2006, 2009) do; none of this is peer-reviewed or replicated (Williams 2012).",
+      "source": "S1"
+    },
+    {
+      "text": "No independent witness saw the stone in place, and accounts of the enclosing tree's size and age varied from one telling to the next.",
       "kind": "context",
       "raised_by": "George T. Flom",
       "year": 1910,
-      "outcome": "held",
-      "outcome_note": "Flom documented the growing discrepancies directly; the find circumstances rest on testimony alone and were never independently fixed.",
+      "outcome": "unresolved",
+      "outcome_note": "Williams (2012): no corroborating witness or tangible evidence exists, but there is also 'no evidence to disprove the account'.",
       "source": "S1"
     },
     {
-      "text": "The numeral notation used in the inscription does not match any confirmed 14th-century Scandinavian system.",
+      "text": "The inscription's number system and historical setting do not fit the 14th century, so the stone is not authentic.",
       "kind": "dating",
-      "raised_by": "Helge Gjessing",
+      "raised_by": "Helge Gjessing (Symra V)",
       "year": 1909,
-      "outcome": "held",
-      "outcome_note": "Cited approvingly by Flom (1910) as part of the broader linguistic case; not subsequently overturned.",
+      "outcome": "unresolved",
+      "outcome_note": "Flom (1910) judged Gjessing's case sound; no later source read for this record re-tests the numerals.",
+      "source": "S1"
+    },
+    {
+      "text": "Öhman owned a grammar with a runic alphabet, given him by a defrocked minister, Fogelblad, pointing to a local maker.",
+      "kind": "integrity",
+      "raised_by": "George T. Flom",
+      "year": 1910,
+      "outcome": "unresolved",
+      "outcome_note": "Williams (2012) finds three medieval-looking words of the text in Rosander's Swedish encyclopedia, which Öhman owned, yet no evidence that he carved it; a reported confession fails scrutiny.",
       "source": "S1"
     }
   ],
   "status": "refuted",
-  "status_note": "Philology has treated the text as 19th-century since Flom (1910), reaffirmed by Wahlgren, Blegen and Williams. A minority, including geologist Scott Wolter, argue from stone weathering, in work unpublished in peer review.",
-  "year_resolved": 1910,
-  "what_settled_it": "Independent philological and runological analysis found the grammar, numerals and runic letterforms consistent with 19th-century Swedish-American dialect and the Dalarna folk-runic tradition, not 14th-century Old Swedish or Norwegian, with no medieval linguistic path to the text ever demonstrated.",
-  "settled_by": ["expert-review", "geology"],
+  "status_note": "Specialists have judged the text not medieval since 1899, despite a conditional 1910 MHS endorsement. Williams (2012) agrees on the weight of evidence but calls the 19th-century case incomplete; weathering claims of age lack peer review.",
+  "year_resolved": 1899,
+  "what_settled_it": "The text itself: Breda and Curme (1899) and later specialists judged its language and runes not medieval. In 2004, rune-rows from Dalarna dated 1883 and 1885 turned up that are closely related to its runes, though n, o, p, r and t differ (Williams 2012).",
+  "settled_by": ["expert-review"],
   "failure_mode": "hoax",
   "timeline": [
-    { "year": 1898, "event": "Olof Öhman reports finding the inscribed stone while clearing tree stumps on his farm; his ten-year-old son Edward is present.", "source": "S1" },
-    { "year": 1899, "event": "The stone goes to Northwestern University; Prof. Curme first leans toward authenticity, then reverses. It is returned and used for years as a doorstep.", "source": "S1" },
-    { "year": 1908, "event": "Hjalmar Holand acquires an interest in the stone from Öhman and begins publicly promoting it as genuine.", "source": "S1" },
-    { "year": 1909, "event": "Norwegian philologist Helge Gjessing publishes an early critique in Symra rejecting the inscription's authenticity.", "source": "S1" },
-    { "year": 1910, "event": "George T. Flom's address to the Illinois State Historical Society, alongside state geologists' observations, concludes the inscription is a modern production.", "source": "S1" },
-    { "year": 1934, "event": "Historian M. M. Quaife restates the modern-forgery consensus in the New England Quarterly.", "source": "S11" },
-    { "year": 1950, "event": "S. N. Hagen publishes a detailed scholarly defense of the inscription's authenticity in Speculum.", "source": "S2" },
-    { "year": 1958, "event": "Erik Wahlgren publishes The Kensington Stone: A Mystery Solved, a detailed linguistic case for a 19th-century origin.", "source": "S3" },
-    { "year": 1968, "event": "Theodore Blegen publishes The Kensington Rune Stone: New Light on an Old Riddle, the fullest historical investigation of the case.", "source": "S4" },
-    { "year": 2010, "event": "David Krueger's Myths of the Rune Stone traces the inscription's continued civic and cultural life in Minnesota despite the scholarly verdict.", "source": "S10" },
-    { "year": 2012, "event": "Henrik Williams (Uppsala University) publishes a comprehensive modern linguistic and runological review reaffirming the 19th-century verdict.", "source": "S9" }
+    { "year": 1898, "event": "Olof Öhman reports finding the stone on his farm, partly under a young tree whose roots gripped it; his son Edward, aged ten, is present.", "source": "S1" },
+    { "year": 1899, "event": "O. J. Breda (Minneapolis, from a drawing) and G. O. Curme (Chicago) both judge the inscription not medieval; the stone returns to Öhman.", "source": "S9" },
+    { "year": 1907, "event": "Öhman sells the stone (or, per Flom, a share in it) to Hjalmar Holand, who writes about it from 1908 until his death in 1963.", "source": "S9" },
+    { "year": 1910, "event": "MHS Museum Committee gives a favorable opinion (21 Apr), if a Scandinavian specialist agrees; member-geologist N. H. Winchell presents much of its report.", "source": "S12" },
+    { "year": 1910, "event": "George T. Flom tells the Illinois State Historical Society the text is a modern dialect in modern runes, building on Helge Gjessing's critique.", "source": "S1" },
+    { "year": 1958, "event": "Erik Wahlgren publishes The Kensington Stone: A Mystery Solved, a book-length rejection of a medieval origin.", "source": "S3" },
+    { "year": 1968, "event": "Theodore C. Blegen publishes The Kensington Rune Stone: New Light on an Old Riddle, which Williams (2012) groups with Wahlgren's critique.", "source": "S4" },
+    { "year": 1994, "event": "Linguist Robert A. Hall Jr. publishes The Kensington Rune-Stone: Authentic and Important, defending a 14th-century origin.", "source": "S8" },
+    { "year": 2004, "event": "Rune-rows dated 1883 (Carl Emil Larsson) and 1885 (his brother Edward, a Dalarna tailor) are found in the Umeå dialect archive.", "source": "S9" },
+    { "year": 2006, "event": "Richard Nielsen and geologist Scott F. Wolter publish The Kensington Rune Stone: Compelling New Evidence, a book-length case for authenticity.", "source": "S13" },
+    { "year": 2012, "event": "Henrik Williams (Uppsala) finds the weight of evidence favors a 19th-century origin but calls that case 'not complete'.", "source": "S9" },
+    { "year": 2015, "event": "David M. Krueger's Myths of the Rune Stone traces how faith in the stone shaped local Nordic identity after experts undermined it.", "source": "S10" }
   ],
-  "falsifier": "This verdict would be overturned by independent, peer-reviewed replication showing mica weathering in the carved grooves needs more time than has elapsed since 1898, or by a medieval parallel for the inscription's 19th-century dialect grammar and folk-runic letterforms.",
+  "falsifier": "Overturned by a peer-reviewed, replicated weathering study showing the grooves need centuries of exposure, by 14th-century examples of the stone's rune and verb forms, or by securely dated medieval Norse material from the find area.",
   "sources": [
     {
       "id": "S1",
@@ -165,17 +175,17 @@
       "kind": "critique",
       "access": "open",
       "verification": "checked",
-      "note": "Read in the full OCR text (public-domain scan). Discovery account, Curme's examination, Holand's role, Gjessing's critique, and the detailed grammatical/runological anachronism case."
+      "note": "Full OCR text grepped: find account, Breda footnote, door-step, Holand's 'share', verb-form and rune arguments, calcite freshness, Gjessing, Fogelblad grammar."
     },
     {
       "id": "S2",
       "citation": "Hagen, S. N. (1950). The Kensington Runic Inscription. Speculum 25(3): 321-356.",
       "doi": "10.2307/2854163",
       "url": null,
-      "kind": "reply",
+      "kind": "other",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Citation confirmed via Crossref/OpenAlex; a credentialed mid-century defense of authenticity in a serious medieval-studies journal. Full text not read (paywalled)."
+      "note": "Crossref-confirmed; paywalled and not read. Its stance was not confirmed, so it supports no field."
     },
     {
       "id": "S3",
@@ -185,17 +195,17 @@
       "kind": "book",
       "access": "unknown",
       "verification": "exists",
-      "note": "Existence, author and publisher confirmed via library catalog (archive.org). Item is lending-restricted; full text not read this session."
+      "note": "Library record confirmed (archive.org, lending-restricted); not read. Williams (2012, S9) places it in the stone's 'down period'."
     },
     {
       "id": "S4",
-      "citation": "Blegen, T. C. (1968). The Kensington Rune Stone: New Light on an Old Riddle. St. Paul: Minnesota Historical Society. viii + 212 pp.",
+      "citation": "Blegen, T. C. (1968). The Kensington Rune Stone: New Light on an Old Riddle. St. Paul: Minnesota Historical Society.",
       "doi": null,
       "url": "https://archive.org/details/kensingtonrunest0000bleg_w6i1",
       "kind": "book",
       "access": "unknown",
       "verification": "exists",
-      "note": "Citation confirmed via a contemporary book review (Scott, F. D. 1969, Journal of American History 56(1):118, doi:10.2307/1902068). Full text not read this session."
+      "note": "Confirmed via a 1969 review (Scott, Journal of American History 56(1), doi:10.2307/1902068); not read. Williams (S9) groups it with Wahlgren."
     },
     {
       "id": "S5",
@@ -205,7 +215,7 @@
       "kind": "critique",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Citation confirmed via Crossref; an anthropological critique of Kensington-type claims. Abstract unavailable; full text not read."
+      "note": "Crossref-confirmed; paywalled, not read. Supports no field."
     },
     {
       "id": "S6",
@@ -215,7 +225,7 @@
       "kind": "other",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Companion piece to Kehoe's 2005 book of the same title (Waveland Press), arguing archaeology dismissed the case without full investigation; not itself a claim of authenticity. Full text not read."
+      "note": "Crossref lists a 3-page item by Kehoe with the title of her 2005 book; not read. Supports no field."
     },
     {
       "id": "S7",
@@ -225,68 +235,107 @@
       "kind": "review",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Confirmed as Feder's review of Kehoe's 2005 book. Only the citation/framing was retrieved; the review's verdict text was not accessible (paywalled)."
+      "note": "Crossref-confirmed review of Kehoe's 2005 book; paywalled, not read. Supports no field."
     },
     {
       "id": "S8",
-      "citation": "[Review of] Hall, R. A., Jr. The Kensington Rune-Stone: Authentic and Important. Language 74(2): 437-438 (1998).",
-      "doi": "10.1353/lan.1998.0175",
+      "citation": "Hall, R. A., Jr. (1994). The Kensington Rune-Stone: Authentic and Important. Lake Bluff, IL: Jupiter Press. 136 pp.",
+      "doi": null,
       "url": null,
-      "kind": "reply",
-      "access": "paywalled",
+      "kind": "book",
+      "access": "unknown",
       "verification": "exists",
-      "note": "Confirms the existence and exact title of Hall's book (a linguist's published defense of authenticity). Review's own content not read; snippet returned was misaligned page content."
+      "note": "Metadata from Glosecki's review, Language 1998 (doi:10.2307/417935); not read. Williams (S9) names Hall as a supporter of authenticity."
     },
     {
       "id": "S9",
-      "citation": "Williams, H. (2012). The Kensington Runestone: Fact and Fiction. Swedish-American Studies 63(1): 3-22.",
+      "citation": "Williams, H. (2012). The Kensington Runestone: Fact and Fiction. The Swedish-American Historical Quarterly (now Swedish-American Studies) 63(1): 3-22.",
       "doi": "10.1353/swe.2012.a939408",
-      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-179079",
-      "kind": "critique",
+      "url": "https://collections.carli.illinois.edu/digital/api/collection/npu_sahq/id/6147/download",
+      "kind": "review",
       "access": "open",
-      "verification": "exists",
-      "note": "Reported open access via OpenAlex/DiVA; the DiVA and Project MUSE pages both timed out or returned empty content when fetched this session, so the full text could not be read directly."
+      "verification": "checked",
+      "note": "Open-access PDF grepped: Breda/Curme 1899, 1907 sale, 'facts' 1-4, Larsson papers, caveats on the 19th-century case, Rosander, supporters Hall, Thalbitzer, Wolter."
     },
     {
       "id": "S10",
-      "citation": "Krueger, D. M. (2010). Myths of the Rune Stone: Viking Martyrs and the Birthplace of America. Minneapolis: University of Minnesota Press. Chapter 3, 'In Defense of Main Street', pp. 69-92.",
-      "doi": "10.5749/9781452945422-005",
+      "citation": "Krueger, D. M. (2015). Myths of the Rune Stone: Viking Martyrs and the Birthplace of America. Minneapolis: University of Minnesota Press.",
+      "doi": "10.5749/9781452974729",
       "url": null,
-      "kind": "review",
-      "access": "paywalled",
+      "kind": "book",
+      "access": "open",
       "verification": "checked",
-      "note": "Abstract read: civic boosters made Öhman and the stone symbols of small-town identity vs outside criticism. Crossref dates this DOI 2010; book is widely dated 2015 (unverified) — flag for skeptic."
+      "note": "Abstract read. Crossref's chapter record 10.5749/9781452945422-005 misdates the book to 2010."
     },
     {
       "id": "S11",
-      "citation": "Quaife, M. M. (1934). The Myth of the Kensington Rune Stone: The Norse Discovery of Minnesota, 1362. The New England Quarterly 7(4): 613-645.",
+      "citation": "Quaife, M. M. (1934). The Myth of the Kensington Rune Stone: The Norse Discovery of Minnesota 1362. The New England Quarterly 7(4): 613ff.",
       "doi": "10.2307/359189",
       "url": null,
       "kind": "critique",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Citation (author, year, title, venue, volume, start page) confirmed via Crossref. Full text not read; end page inferred from standard article length and not independently confirmed."
+      "note": "Crossref-confirmed (start page 613 only); paywalled, not read. Supports no field."
+    },
+    {
+      "id": "S12",
+      "citation": "Minnesota Historical Society Museum Committee (1910). The Kensington Rune Stone: Preliminary Report to the Minnesota Historical Society by its Museum Committee. St. Paul: Minnesota Historical Society (Volkszeitung Co., December 1910).",
+      "doi": null,
+      "url": "https://archive.org/details/kensingtonrunest00minn",
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "OCR text grepped: resolution of 21 Apr 1910 (chair E. C. Mitchell; members incl. N. H. Winchell), Winchell's reading of the report, weathering estimates, Gunder Johnson."
+    },
+    {
+      "id": "S13",
+      "citation": "Nielsen, R. & Wolter, S. F. (2006). The Kensington Rune Stone: Compelling New Evidence. Chanhassen, MN.",
+      "doi": null,
+      "url": null,
+      "kind": "book",
+      "access": "unknown",
+      "verification": "exists",
+      "note": "Not peer-reviewed; not read. Details from Williams 2012 (fn 18), who presents it as the outcome of Nielsen's rune and language work and new geological study."
+    },
+    {
+      "id": "S14",
+      "citation": "Wolter, S. F. (2009). The Hooked X: Key to the Secret History of North America. St. Cloud, MN.",
+      "doi": null,
+      "url": null,
+      "kind": "book",
+      "access": "unknown",
+      "verification": "exists",
+      "note": "Not peer-reviewed; not read. Details from Williams 2012 (fn 5), who cites it for Wolter's support of authenticity as a 'forensic' geologist."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Core case rests on Flom's full 1910 text (checked). Other sources are confirmed to exist but summarized from citation metadata, not read directly. Wolter's weathering claims are unverified.",
+  "confidence_note": "S1, S9 and S12 were read for every passage used. Wahlgren, Blegen, Hagen, Hall and the Wolter books were not read; their stances come from titles and S9.",
   "corrections": [
-    "Starter notes say runologists judged it modern 'from 1899'; the earliest verified rejection is Northwestern's Prof. Curme (1899, reported secondhand in Flom 1910) plus Flom's own address (1910). No dated 1899 publication was found.",
-    "Wahlgren (1958) and Blegen (1968) are correctly attributed, as starter notes state; both are confirmed to exist, but full text could not be read (lending-restricted scans), so citation metadata and reviews were used instead.",
-    "Confirmed 'recent work by Henrik Williams': Williams (2012), 'The Kensington Runestone: Fact and Fiction,' Swedish-American Studies, reported open access, reaffirms the 19th-century verdict, though this session could not load its full text.",
-    "Starter notes attribute a geological weathering defense to Scott Wolter. No peer-reviewed publication of his specific data could be located, only its popular circulation, so the claim is flagged unverified.",
-    "Holand did not simply receive the stone as a gift, as sometimes stated; Flom (1910) reports Holand 'purchased the stone from Mr. Ohman or, as it now appears, a share in the stone.'"
+    "A reported deathbed confession by a neighbour who claimed to have helped Öhman 'does not stand up to scrutiny' (Williams 2012, S9); no evidence shows Öhman carved the stone.",
+    "Crossref's chapter record (10.5749/9781452945422-005) dates Krueger's Myths of the Rune Stone to 2010; the book is 2015 (10.5749/9781452974729)."
   ],
-  "notes": "Proponents' most recent argument is geologist Scott Wolter's claim (from the 2000s) that mica weathering inside the carved grooves needed far longer than 1898-present to develop. This is not published in a peer-reviewed geology journal or independently replicated, and stands against the 1910 observation (Winchell, Flom) that the carving looked fresh; this research could not verify Wolter's data and flags it UNVERIFIED. Kehoe (2005/2006) argued archaeology dismissed the stone without a full hearing, but did not conclude it is genuine. No forger confessed; the case rests on philological and circumstantial evidence, never forensic proof.",
+  "notes": "Carver and motive are unknown: Williams (2012) finds no evidence Öhman made it, so 'hoax' is the best-fitting code, and a 19th-century carving made without intent to deceive is not ruled out. Wolter's geological case (S13, S14) continues Winchell's 1910 view that the weathering is old; it is in books, not peer-reviewed journals, and its data (e.g. mica weathering in the grooves) are UNVERIFIED here. Thalbitzer (1951) also backed authenticity (S9). Hagen's 1950 Speculum study (S2) was not read. 'stratigraphy' here means only the tree-root testimony. The MHS report records hearsay (Gunder Johnson) that Öhman drew runes on a board around 1883.",
   "plates": [
     {
       "commons_file": "File:Kensington Runestone.jpg",
-      "caption": "The Kensington Runestone, a 202-pound greywacke slab inscribed with runes on its face and side."
+      "caption": "The Kensington Runestone, showing the runes carved on its face."
     }
   ],
   "review": {
-    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_by": "researcher agent (claude-sonnet-5); revised by claude-opus-5-5",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Winchell did not chair the MHS committee: its 1910 report names E. C. Mitchell as chairman. Winchell was the member-geologist who judged the weathering old and read much of the report (S12, S9); the record says so.",
+      "year_resolved set to 1899, when Breda and Curme rejected the stone; specialists never reversed. The MHS 1910 opinion was conditional, and Williams puts the broad academic verdict around 1950; status_note flags the 1910 endorsement.",
+      "Kept 'stratigraphy' as the nearest schema term for the tree-root find-context argument; it rests on testimony only (S9), as documented_context = no records. independent_methods_count = 3: text, find context, weathering.",
+      "Sköld (2003), DAUM-Katta 13, not added: its host was unreachable, so it is known only from Williams fn 36. Williams dates the Larsson find to 2004 yet cites this 2003 issue; the record follows Williams.",
+      "Hagen (1950, S2) dropped from key_proponents and the timeline: his stance could not be confirmed (paywalled) and Williams does not list him. Öhman dropped as finder, not advocate, to fit six names.",
+      "The find-context and numerals objections are coded 'unresolved', not 'held': Williams says the find account was never proven false, and no source read re-tests the numerals.",
+      "Not yet checked: Reassessing Alleged Runic Forgeries (De Gruyter, 2024; chapter doi:10.1515/9783111450889-005) may hold a newer Kensington assessment."
+    ]
   }
 }
