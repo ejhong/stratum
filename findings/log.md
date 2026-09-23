@@ -113,3 +113,11 @@ worded here.
 - **Test:** (1) Regions and their accepted first-arrival limits, each with a source, are fixed in analysis/frontier/limits.json and committed before any scan — at least the Americas, Sahul, Japan, Remote Oceania, New Zealand, Iceland, Madagascar and the Caribbean. (2) From p3k14c, select dates older than the limit by more than 2 standard errors (after converting between radiocarbon and calendar years consistently), applying R1's mundane filters. (3) A region is a lead if at least 3 independent sites, with at least 2 laboratories and 2 material classes between them, have pre-limit dates. (4) Every lead goes to a researcher and a skeptic: is the site already debated, and is there a mundane cause?
 - **Would disprove it:** (the method's value) no region qualifies, or every qualifying site is already known and debated — the scan adds nothing new.
 - **Status:** pre-registered; scan pending
+
+## O1 · Refutations stay clean; vindications mostly do not
+- **Date:** 2026-09-23
+- **Type:** observation (not pre-registered; from the first 24 reviewed or revised records)
+- **Claim:** All 7 refuted cases in the starter list were confirmed as refuted, but of the 10 starter cases described as "largely vindicated", only 3 held cleanly (Monte Verde, Denisovans, L'Anse aux Meadows); 5 are partial (Jebel Irhoud, Paisley Caves, Göbekli Tepe, *Homo floresiensis*, Troy) and 2 remain open (White Sands, Bluefish Caves). Anomalies that turn out real tend to be right about their core and wrong about details, and popular accounts round this up into clean vindications.
+- **Test:** register as a hypothesis and test it on vindicated cases sampled from review literature rather than from the starter list: share fully vindicated vs partial.
+- **Would disprove it:** in a sample not drawn from popular accounts, more than half of vindications are clean.
+- **Status:** observation (n = 17; starter-list sample, selection-biased)

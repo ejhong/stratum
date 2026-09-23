@@ -1,7 +1,7 @@
 {
- "n_total": 24,
- "n_reviewed": 13,
- "n_resolved": 5,
+ "n_total": 26,
+ "n_reviewed": 21,
+ "n_resolved": 9,
  "hypotheses": {
   "H1": {
    "n": 3,
@@ -22,6 +22,74 @@
    "multiple_dating_methods": {
     "vindicated": {
      "k": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0,
+      0.562
+     ]
+    },
+    "refuted": {
+     "k": 0,
+     "n": 6,
+     "rate": 0.0,
+     "ci": [
+      0,
+      0.39
+     ]
+    },
+    "fisher_p": 1.0
+   },
+   "multiple_labs": {
+    "vindicated": {
+     "k": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0,
+      0.793
+     ]
+    },
+    "refuted": {
+     "k": 1,
+     "n": 6,
+     "rate": 0.167,
+     "ci": [
+      0.03,
+      0.564
+     ]
+    },
+    "fisher_p": 1.0
+   },
+   "n": 9,
+   "threshold": 20,
+   "status": "awaiting data"
+  },
+  "H3": {
+   "independent_teams": {
+    "vindicated": {
+     "k": 2,
+     "n": 3,
+     "rate": 0.667,
+     "ci": [
+      0.208,
+      0.939
+     ]
+    },
+    "refuted": {
+     "k": 4,
+     "n": 6,
+     "rate": 0.667,
+     "ci": [
+      0.3,
+      0.903
+     ]
+    },
+    "fisher_p": 1.0
+   },
+   "material_accessible": {
+    "vindicated": {
+     "k": 0,
      "n": 1,
      "rate": 0.0,
      "ci": [
@@ -31,130 +99,81 @@
     },
     "refuted": {
      "k": 0,
-     "n": 4,
+     "n": 6,
      "rate": 0.0,
      "ci": [
       0,
-      0.49
+      0.39
      ]
     },
     "fisher_p": 1.0
    },
-   "multiple_labs": {
-    "vindicated": {
-     "k": 0,
-     "n": 0,
-     "rate": null,
-     "ci": null
-    },
-    "refuted": {
-     "k": 1,
-     "n": 4,
-     "rate": 0.25,
-     "ci": [
-      0.046,
-      0.699
-     ]
-    },
-    "fisher_p": null
-   },
-   "n": 5,
-   "threshold": 20,
-   "status": "awaiting data"
-  },
-  "H3": {
-   "independent_teams": {
-    "vindicated": {
-     "k": 1,
-     "n": 1,
-     "rate": 1.0,
-     "ci": [
-      0.207,
-      1
-     ]
-    },
-    "refuted": {
-     "k": 2,
-     "n": 4,
-     "rate": 0.5,
-     "ci": [
-      0.15,
-      0.85
-     ]
-    },
-    "fisher_p": 1.0
-   },
-   "material_accessible": {
-    "vindicated": {
-     "k": 0,
-     "n": 0,
-     "rate": null,
-     "ci": null
-    },
-    "refuted": {
-     "k": 0,
-     "n": 4,
-     "rate": 0.0,
-     "ci": [
-      0,
-      0.49
-     ]
-    },
-    "fisher_p": null
-   },
-   "n": 5,
+   "n": 9,
    "threshold": 20,
    "status": "awaiting data"
   },
   "H4": {
-   "n": 28,
+   "n": 53,
    "threshold": 30,
-   "prior_share_wrong": 0.286,
-   "prior_share_held": 0.143,
+   "fisher_p": 0.1794,
+   "prior_wrong": [
+    4,
+    16
+   ],
+   "prior_held": [
+    3,
+    37
+   ],
+   "prior_share_wrong": 0.25,
+   "prior_share_held": 0.081,
    "table": {
     "context": {
-     "held": 5,
+     "held": 9,
      "wrong": 2,
-     "unresolved": 10
+     "unresolved": 15
     },
     "dating": {
-     "held": 2,
+     "held": 6,
      "wrong": 1,
-     "unresolved": 10
+     "unresolved": 18
     },
     "identification": {
-     "held": 6,
-     "wrong": 2,
-     "unresolved": 14
+     "held": 9,
+     "wrong": 8,
+     "unresolved": 17
     },
     "integrity": {
-     "held": 4,
+     "held": 7,
      "wrong": 0,
-     "unresolved": 0
+     "unresolved": 3
     },
     "other": {
-     "held": 1,
-     "wrong": 0,
+     "held": 3,
+     "wrong": 1,
      "unresolved": 1
     },
     "prior": {
      "held": 3,
-     "wrong": 2,
-     "unresolved": 8
+     "wrong": 4,
+     "unresolved": 11
     }
    },
-   "status": "awaiting data"
+   "status": "consistent"
   },
   "H5": {
-   "n": 5,
+   "n": 9,
    "threshold": 20,
-   "vindicated_median": 15,
-   "refuted_median": 13.0,
+   "vindicated_median": 8,
+   "refuted_median": 3.5,
    "vindicated": [
+    0,
+    8,
     15
    ],
    "refuted": [
     0,
+    1,
+    2,
     5,
     21,
     41
@@ -162,18 +181,32 @@
    "status": "awaiting data"
   },
   "H6": {
-   "n": 5,
+   "n": 9,
    "threshold": 20,
    "vindicated": {
     "k": 0,
-    "n": 1,
+    "n": 3,
     "rate": 0.0,
     "ci": [
      0,
-     0.793
+     0.562
     ]
    },
    "refuted": {
+    "k": 2,
+    "n": 4,
+    "rate": 0.5,
+    "ci": [
+     0.15,
+     0.85
+    ]
+   },
+   "status": "awaiting data"
+  }
+ },
+ "feature_rates": {
+  "unambiguous_signal": {
+   "vindicated": {
     "k": 1,
     "n": 3,
     "rate": 0.333,
@@ -182,11 +215,111 @@
      0.792
     ]
    },
-   "status": "awaiting data"
-  }
- },
- "feature_rates": {
-  "unambiguous_signal": {
+   "partial": {
+    "k": 1,
+    "n": 5,
+    "rate": 0.2,
+    "ci": [
+     0.036,
+     0.624
+    ]
+   },
+   "open": {
+    "k": 3,
+    "n": 7,
+    "rate": 0.429,
+    "ci": [
+     0.158,
+     0.75
+    ]
+   },
+   "refuted": {
+    "k": 0,
+    "n": 6,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.39
+    ]
+   }
+  },
+  "documented_context": {
+   "vindicated": {
+    "k": 2,
+    "n": 3,
+    "rate": 0.667,
+    "ci": [
+     0.208,
+     0.939
+    ]
+   },
+   "partial": {
+    "k": 2,
+    "n": 5,
+    "rate": 0.4,
+    "ci": [
+     0.118,
+     0.769
+    ]
+   },
+   "open": {
+    "k": 1,
+    "n": 7,
+    "rate": 0.143,
+    "ci": [
+     0.026,
+     0.513
+    ]
+   },
+   "refuted": {
+    "k": 0,
+    "n": 6,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.39
+    ]
+   }
+  },
+  "multiple_dating_methods": {
+   "vindicated": {
+    "k": 0,
+    "n": 3,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.562
+    ]
+   },
+   "partial": {
+    "k": 2,
+    "n": 5,
+    "rate": 0.4,
+    "ci": [
+     0.118,
+     0.769
+    ]
+   },
+   "open": {
+    "k": 0,
+    "n": 7,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.354
+    ]
+   },
+   "refuted": {
+    "k": 0,
+    "n": 6,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.39
+    ]
+   }
+  },
+  "multiple_labs": {
    "vindicated": {
     "k": 0,
     "n": 1,
@@ -197,6 +330,73 @@
     ]
    },
    "partial": {
+    "k": 3,
+    "n": 5,
+    "rate": 0.6,
+    "ci": [
+     0.231,
+     0.882
+    ]
+   },
+   "open": {
+    "k": 2,
+    "n": 6,
+    "rate": 0.333,
+    "ci": [
+     0.097,
+     0.7
+    ]
+   },
+   "refuted": {
+    "k": 1,
+    "n": 6,
+    "rate": 0.167,
+    "ci": [
+     0.03,
+     0.564
+    ]
+   }
+  },
+  "professional_recovery": {
+   "vindicated": {
+    "k": 3,
+    "n": 3,
+    "rate": 1.0,
+    "ci": [
+     0.438,
+     1
+    ]
+   },
+   "partial": {
+    "k": 4,
+    "n": 5,
+    "rate": 0.8,
+    "ci": [
+     0.376,
+     0.964
+    ]
+   },
+   "open": {
+    "k": 6,
+    "n": 7,
+    "rate": 0.857,
+    "ci": [
+     0.487,
+     0.974
+    ]
+   },
+   "refuted": {
+    "k": 1,
+    "n": 6,
+    "rate": 0.167,
+    "ci": [
+     0.03,
+     0.564
+    ]
+   }
+  },
+  "peer_reviewed_report": {
+   "vindicated": {
     "k": 1,
     "n": 3,
     "rate": 0.333,
@@ -205,26 +405,35 @@
      0.792
     ]
    },
-   "open": {
-    "k": 2,
+   "partial": {
+    "k": 4,
     "n": 5,
-    "rate": 0.4,
+    "rate": 0.8,
     "ci": [
-     0.118,
-     0.769
+     0.376,
+     0.964
+    ]
+   },
+   "open": {
+    "k": 3,
+    "n": 6,
+    "rate": 0.5,
+    "ci": [
+     0.188,
+     0.812
     ]
    },
    "refuted": {
-    "k": 0,
-    "n": 4,
-    "rate": 0.0,
+    "k": 1,
+    "n": 6,
+    "rate": 0.167,
     "ci": [
-     0,
-     0.49
+     0.03,
+     0.564
     ]
    }
   },
-  "documented_context": {
+  "material_accessible": {
    "vindicated": {
     "k": 1,
     "n": 1,
@@ -236,11 +445,11 @@
    },
    "partial": {
     "k": 1,
-    "n": 3,
-    "rate": 0.333,
+    "n": 4,
+    "rate": 0.25,
     "ci": [
-     0.061,
-     0.792
+     0.046,
+     0.699
     ]
    },
    "open": {
@@ -253,210 +462,55 @@
     ]
    },
    "refuted": {
-    "k": 0,
-    "n": 4,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.49
-    ]
-   }
-  },
-  "multiple_dating_methods": {
-   "vindicated": {
-    "k": 0,
-    "n": 1,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.793
-    ]
-   },
-   "partial": {
-    "k": 1,
-    "n": 3,
-    "rate": 0.333,
-    "ci": [
-     0.061,
-     0.792
-    ]
-   },
-   "open": {
-    "k": 0,
-    "n": 5,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.434
-    ]
-   },
-   "refuted": {
-    "k": 0,
-    "n": 4,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.49
-    ]
-   }
-  },
-  "multiple_labs": {
-   "vindicated": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
-   },
-   "partial": {
-    "k": 2,
-    "n": 3,
+    "k": 4,
+    "n": 6,
     "rate": 0.667,
     "ci": [
-     0.208,
-     0.939
-    ]
-   },
-   "open": {
-    "k": 2,
-    "n": 4,
-    "rate": 0.5,
-    "ci": [
-     0.15,
-     0.85
-    ]
-   },
-   "refuted": {
-    "k": 1,
-    "n": 4,
-    "rate": 0.25,
-    "ci": [
-     0.046,
-     0.699
-    ]
-   }
-  },
-  "professional_recovery": {
-   "vindicated": {
-    "k": 1,
-    "n": 1,
-    "rate": 1.0,
-    "ci": [
-     0.207,
-     1
-    ]
-   },
-   "partial": {
-    "k": 3,
-    "n": 3,
-    "rate": 1.0,
-    "ci": [
-     0.438,
-     1
-    ]
-   },
-   "open": {
-    "k": 5,
-    "n": 5,
-    "rate": 1.0,
-    "ci": [
-     0.566,
-     1
-    ]
-   },
-   "refuted": {
-    "k": 1,
-    "n": 4,
-    "rate": 0.25,
-    "ci": [
-     0.046,
-     0.699
-    ]
-   }
-  },
-  "peer_reviewed_report": {
-   "vindicated": {
-    "k": 0,
-    "n": 1,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.793
-    ]
-   },
-   "partial": {
-    "k": 3,
-    "n": 3,
-    "rate": 1.0,
-    "ci": [
-     0.438,
-     1
-    ]
-   },
-   "open": {
-    "k": 3,
-    "n": 4,
-    "rate": 0.75,
-    "ci": [
-     0.301,
-     0.954
-    ]
-   },
-   "refuted": {
-    "k": 1,
-    "n": 4,
-    "rate": 0.25,
-    "ci": [
-     0.046,
-     0.699
-    ]
-   }
-  },
-  "material_accessible": {
-   "vindicated": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
-   },
-   "partial": {
-    "k": 1,
-    "n": 2,
-    "rate": 0.5,
-    "ci": [
-     0.095,
-     0.905
-    ]
-   },
-   "open": {
-    "k": 1,
-    "n": 3,
-    "rate": 0.333,
-    "ci": [
-     0.061,
-     0.792
-    ]
-   },
-   "refuted": {
-    "k": 3,
-    "n": 4,
-    "rate": 0.75,
-    "ci": [
-     0.301,
-     0.954
+     0.3,
+     0.903
     ]
    }
   },
   "independent_teams": {
    "vindicated": {
     "k": 0,
-    "n": 1,
+    "n": 3,
     "rate": 0.0,
     "ci": [
      0,
-     0.793
+     0.562
     ]
    },
    "partial": {
+    "k": 1,
+    "n": 5,
+    "rate": 0.2,
+    "ci": [
+     0.036,
+     0.624
+    ]
+   },
+   "open": {
+    "k": 0,
+    "n": 7,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.354
+    ]
+   },
+   "refuted": {
+    "k": 0,
+    "n": 6,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.39
+    ]
+   }
+  },
+  "proponent_stake": {
+   "vindicated": {
     "k": 0,
     "n": 3,
     "rate": 0.0,
@@ -465,16 +519,7 @@
      0.562
     ]
    },
-   "open": {
-    "k": 0,
-    "n": 5,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.434
-    ]
-   },
-   "refuted": {
+   "partial": {
     "k": 0,
     "n": 4,
     "rate": 0.0,
@@ -482,43 +527,23 @@
      0,
      0.49
     ]
-   }
-  },
-  "proponent_stake": {
-   "vindicated": {
-    "k": 0,
-    "n": 1,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.793
-    ]
-   },
-   "partial": {
-    "k": 0,
-    "n": 3,
-    "rate": 0.0,
-    "ci": [
-     0,
-     0.562
-    ]
    },
    "open": {
     "k": 0,
-    "n": 5,
+    "n": 6,
     "rate": 0.0,
     "ci": [
      0,
-     0.434
+     0.39
     ]
    },
    "refuted": {
-    "k": 1,
-    "n": 3,
-    "rate": 0.333,
+    "k": 2,
+    "n": 4,
+    "rate": 0.5,
     "ci": [
-     0.061,
-     0.792
+     0.15,
+     0.85
     ]
    }
   }

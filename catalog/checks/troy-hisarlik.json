@@ -78,5 +78,71 @@
   "crossref_year": 1995,
   "crossref_venue": "Antiquity",
   "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "5. Early excavators: Heinrich Schliemann and Wilhelm Dörpfeld",
+  "crossref_year": 2013,
+  "crossref_venue": "The Trojan War",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "6. Returning to Hisarlik: Carl Blegen and Manfred Korfmann",
+  "crossref_year": 2013,
+  "crossref_venue": "The Trojan War",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Schliemann's mendacity—a false trail?",
+  "crossref_year": 1984,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Troy VI: A Trading Center and Commercial City?",
+  "crossref_year": 2004,
+  "crossref_venue": "American Journal of Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Tarkasnawa King of Mira ‘Tarkondemos’, Boǧazköy sealings and Karabel",
+  "crossref_year": 1998,
+  "crossref_venue": "Anatolian Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Ancient Chronology, Eratosthenes and the Dating of the Fall of Troy",
+  "crossref_year": 2009,
+  "crossref_venue": "Ancient West &amp; East",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Trojan War",
+  "crossref_year": 1964,
+  "crossref_venue": "The Journal of Hellenic Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S19": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
  }
 }

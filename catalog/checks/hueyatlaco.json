@@ -86,5 +86,37 @@
   "crossref_year": 2007,
   "crossref_venue": "Science",
   "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Diatom evidence for autochthonous artifact deposition in the Valsequillo region, Puebla, Mexico during the Sangamonian (sensu lato = 80,000 to ca. 220,000 yr BP and Illinoian (220,000 to 430,000 yr BP",
+  "crossref_year": 2006,
+  "crossref_venue": "Journal of Paleolimnology",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Anatomy of an Anomaly",
+  "crossref_year": 1999,
+  "crossref_venue": "Disputatio",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A 130,000-year-old archaeological site in southern California, USA",
+  "crossref_year": 2017,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Were Hominins in California ∼130,000 Years Ago?",
+  "crossref_year": 2017,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
  }
 }

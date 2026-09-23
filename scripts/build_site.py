@@ -229,7 +229,10 @@ def hyp_reading(hid, h):
         if h["prior_share_wrong"] is None:
             return "No objections with known outcomes yet"
         ph = f"{h['prior_share_held']:.0%}" if h["prior_share_held"] is not None else "—"
-        return f"Model-based objections: {h['prior_share_wrong']:.0%} of those proved wrong vs {ph} of those that held"
+        extra = ""
+        if h.get("prior_wrong") and h.get("prior_held"):
+            extra = f" ({h['prior_wrong'][0]}/{h['prior_wrong'][1]} vs {h['prior_held'][0]}/{h['prior_held'][1]}; Fisher p = {h['fisher_p']:.2f}; weak — few cases)"
+        return f"Model-based objections: {h['prior_share_wrong']:.0%} of those proved wrong vs {ph} of those that held{extra}"
     if hid == "H5":
         if h["vindicated_median"] is None or h["refuted_median"] is None:
             return "Needs resolved cases of both kinds"

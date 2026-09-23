@@ -1,0 +1,523 @@
+{
+  "auditor": "Sonnet auditor",
+  "date": "2026-09-23",
+  "monuments": [
+    {
+      "id": "nabta-playa",
+      "name": "Nabta Playa stone circle and alignments",
+      "country": "Egypt",
+      "construction_date": "Megalithic stone circle and alignments built by Late Neolithic pastoralists during the site's ceremonial-complex phase, commonly placed within roughly the 5th-3rd millennium BCE per the Wendorf/Schild excavation chronology (S1, S2). Exact reported figures not re-confirmed from full text this session.",
+      "dating_basis": "associated-organic",
+      "association_strength": "moderate",
+      "direct_methods_applied": [],
+      "n_dates": "many (across the multi-decade Wendorf/Schild Nabta-Kiseiba program)",
+      "spread_note": "Many 14C dates from nearby Late Neolithic hearths/occupation; none run on the stones or their sockets",
+      "feasible_direct_methods": "OSL or cosmogenic exposure dating of buried faces of the stone sockets at the circle/alignments",
+      "decisive_if": "A direct socket/burial date would confirm the associated-occupation age or show the stones were re-set later than nearby hearths",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Malville, J.M., Wendorf, F., Mazar, A.A., Schild, R. (1998). Megaliths and Neolithic astronomy in southern Egypt. Nature 392(6675): 488-491.",
+          "doi": "10.1038/33131",
+          "verification": "exists"
+        },
+        {
+          "id": "S2",
+          "citation": "Wendorf, F., Malville, J.M. (2001). The Megalithic Alignments. In Holocene Settlement of the Egyptian Sahara.",
+          "doi": "10.1007/978-1-4615-0653-9_16",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Both sources are paywalled with no OpenAlex abstract, so exact BP/BCE figures could not be checked against primary text this session; existence and topic (radiocarbon from occupation, not the megaliths) confirmed via Crossref metadata and standard secondary literature."
+    },
+    {
+      "id": "senegambia",
+      "name": "Senegambian stone circles (Wassu)",
+      "country": "The Gambia",
+      "construction_date": "Megalith-building tradition spans roughly 200 BCE to 1600 CE across the Senegambian stone-circle/tumuli zone (S1, quoting Thilmans & Descamps' chronology); Wassu itself falls within that broad span.",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "many",
+      "spread_note": "Radiocarbon on grave goods/human remains across many circle/tumuli sites gives 200 BCE-1600 CE overall",
+      "feasible_direct_methods": "OSL of buried faces of laterite pillar bases; U-series if calcrete crusts are present on pillar surfaces",
+      "decisive_if": "Direct dates at Wassu specifically would pin down where in the ~1800-year regional span that circle falls",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Gokee, C., Athie, A.H., Thiaw, I., Ndiaye, A. (2025). Remapping the Senegambian megaliths: Beyond the culture area paradigm. Afriques 16.",
+          "doi": "10.4000/161vx",
+          "verification": "checked"
+        },
+        {
+          "id": "S2",
+          "citation": "Hill, M.H. (1978). Dating of Senegambian Megaliths: A Correction. Current Anthropology 19(3): 604-605.",
+          "doi": "10.1086/202143",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Full text of S1 (grep-checked) explicitly states the chronology comes from grave goods, human remains and radiocarbon samples extracted from tumuli/circle burials -- a clean case of dating by association, not of the stones themselves."
+    },
+    {
+      "id": "aksum",
+      "name": "Aksum stelae",
+      "country": "Ethiopia",
+      "construction_date": "Great stelae (Stela 2) erected 3rd-4th century CE, per Red Aksumite Ware ceramics recovered from the stela's own foundation trench (S1), agreeing with Phillipson's earlier excavations.",
+      "dating_basis": "stylistic",
+      "association_strength": "moderate",
+      "direct_methods_applied": [],
+      "n_dates": "0 successful radiocarbon dates; date rests on ceramic typology",
+      "spread_note": "Charcoal from the stela's own foundation was collected but could not be radiocarbon-dated; ceramic style used instead",
+      "feasible_direct_methods": "None on the granite stela; OSL of undisturbed foundation-trench sediment beneath the base is feasible and untried",
+      "decisive_if": "A successful associated radiocarbon date on foundation charcoal (attempted once, failed) would test the 3rd-4th c. CE ceramic date directly",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Poissonnier, B. (2012). The Giant Stelae of Aksum in the Light of the 1999 Excavations. Palethnologie 4.",
+          "doi": "10.4000/palethnologie.5778",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Striking H7 case: excavators explicitly recovered charcoal unambiguously tied to construction, but it failed to yield a 14C date; the accepted date is ceramic-typological (Red Aksumite Ware), not a direct or even a successful associated-organic date. A coin of King Gersem (c. 600 CE) found nearby dates the stela's later collapse, not its erection."
+    },
+    {
+      "id": "gunung-padang",
+      "name": "Gunung Padang",
+      "country": "Indonesia",
+      "construction_date": "No robust published chronology for the surface megalithic terraces. A 2023 claim that a buried 'pyramid' structure was built from as early as ~9000 BCE (up to 27,000 years ago) was RETRACTED in 2024 (S1, S2).",
+      "dating_basis": "none",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "several radiocarbon dates in the retracted paper, but run on soil not tied to any confirmed cultural feature",
+      "spread_note": "Retraction states 14C dating was applied to soil samples not associated with any artifact or anthropogenic feature",
+      "feasible_direct_methods": "OSL of fill only once material is shown to sit in a genuinely built, not colluvial, layer",
+      "decisive_if": "A date on material demonstrably inside a built layer would settle whether any deep layer here is anthropogenic at all, in either direction",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Natawidjaja, D.H., Bachtiar, A. et al. (2023, RETRACTED 2024). Geo-archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia. Archaeological Prospection.",
+          "doi": "10.1002/arp.1912",
+          "verification": "checked"
+        },
+        {
+          "id": "S2",
+          "citation": "Editors (2024). Retraction: Geo-Archaeological prospecting of Gunung Padang buried prehistoric pyramid in West Java, Indonesia. Archaeological Prospection 31(2): 199.",
+          "doi": "10.1002/arp.1932",
+          "verification": "checked"
+        },
+        {
+          "id": "S3",
+          "citation": "Ernenwein, E.G. (2025). Retraction and Reflection: The Gunung Padang Controversy and the Challenges of Peer Review in Archaeological Prospection. ArcheoSciences 49-1: 607-610.",
+          "doi": "10.4000/14nul",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "The single clearest H7 illustration in this batch: a peer-reviewed claim of extreme antiquity was retracted specifically because the dated material could not be shown to be anthropogenic. The surface terraces' actual construction date remains genuinely unresolved in the accessible literature (see also Yondri 2016, doi 10.24164/pw.v3i2.37, a structural-description paper with no absolute dates, checked)."
+    },
+    {
+      "id": "bada-valley",
+      "name": "Bada Valley megaliths",
+      "country": "Indonesia",
+      "construction_date": "Not established by any chronometric study located; the site is conventionally discussed in cultural/ethnographic rather than absolute-dating terms.",
+      "dating_basis": "none",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "0 located",
+      "spread_note": "No radiocarbon/OSL study of the Bada/Besoa/Napu valley statues was found in the sources searched",
+      "feasible_direct_methods": "OSL of buried statue-base/socket fill; cosmogenic exposure dating of carved surfaces vs. quarry surfaces",
+      "decisive_if": "Any first direct or sealed-context date would move this site from undated to dated in either direction",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Setyawan, A., Yudhanto, S.H. (2024). Langke Bulawa Statue in the perspective of review Bada valley site culture. Gelar: Jurnal Seni Budaya 22(1).",
+          "doi": "10.33153/glr.v22i1.5923",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "low",
+      "notes": "Search of Crossref/OpenAlex for this session found only cultural, ethnographic (Woensdregt 2023, LOBO series) or environmental (Rahim et al. 2023, Biosystems Diversity) papers on this valley, not a chronometric dating study; this data gap is itself notable for H7 and should be rechecked against Indonesian-language archaeology journals (e.g. Berkala Arkeologi, Kalpataru) not well indexed here."
+    },
+    {
+      "id": "gochang-dolmens",
+      "name": "Gochang, Hwasun and Ganghwa dolmens",
+      "country": "South Korea",
+      "construction_date": "Conventionally placed within Korea's Mumun Pottery Period, broadly c. 1500-300 BCE with dolmen-building concentrated in the mid-to-late Mumun, per the general regional chronology; no Gochang/Hwasun/Ganghwa-specific dating paper was confirmed this session.",
+      "dating_basis": "associated-organic",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "not confirmed for this site specifically; the wider Mumun-period framework rests on many radiocarbon dates from other sites (e.g. Songguk-ri)",
+      "spread_note": "Site-specific sealed-context dates not located; regional Mumun-period 14C framework used as proxy context only",
+      "feasible_direct_methods": "OSL of buried capstone-socket fill; direct 14C of any charcoal in the stone cist beneath a capstone",
+      "decisive_if": "A sealed cist-fill date at Gochang itself would test whether this UNESCO group falls early or late in the broad Mumun span",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Zoh, M., Shim, W., Ko, I. (2025). Digital Restoration of the Heritage Landscape through a GIS-Based Approach: Case Study of the Gochang Dolmen Site in South Korea. ISPRS Archives XLVIII-M-9-2025: 1729-1734.",
+          "doi": "10.5194/isprs-archives-xlviii-m-9-2025-1729-2025",
+          "verification": "checked"
+        },
+        {
+          "id": "S2",
+          "citation": "Ahn, J.H. (2021). On the Chronology and Social Communities of the Songguk-ri Settlement in the Korean Bronze Age. Pusan Archaeological Society 29.",
+          "doi": "10.47735/odia.2021.29.1",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "low",
+      "notes": "S1 (read in full) confirms UNESCO listing since 2000 but is a GIS/heritage-management study with no absolute dates; S2 covers the broader Mumun-period type-culture, not this site. A dedicated Gochang/Hwasun/Ganghwa radiocarbon paper was not located within this session's budget."
+    },
+    {
+      "id": "plain-of-jars",
+      "name": "Plain of Jars",
+      "country": "Laos",
+      "construction_date": "Jars positioned on the landscape potentially as early as the late 2nd millennium BCE (OSL on sediment sealed beneath jars); associated mortuary activity around the jars dates to the 9th-13th century CE (radiocarbon on skeletal remains and charcoal) (S1).",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "many (multiple OSL samples, radiocarbon dates, and U/Pb zircon quarry-sourcing analyses)",
+      "spread_note": "OSL under-jar sediment signal (late 2nd mill. BCE) far predates the 9th-13th c. CE burial-material radiocarbon cluster",
+      "feasible_direct_methods": "Rock-surface OSL of the jars' own stone (untried; current OSL dates sediment beneath them, not the stone)",
+      "decisive_if": "A direct rock-surface date on jar stone would test whether the OSL under-jar signal reflects jar emplacement or earlier sediment disturbance",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Shewan, L., O'Reilly, D., Armstrong, R., Toms, P. et al. (2021). Dating the megalithic culture of Laos: Radiocarbon, optically stimulated luminescence and U/Pb zircon results. PLOS ONE 16(3): e0247167.",
+          "doi": "10.1371/journal.pone.0247167",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "One of the best-dated sites in this batch (dedicated multi-method campaign), but still classified associated rather than direct: full text (grep-checked) confirms OSL samples were taken from sediment immediately beneath the jars, not from the jars' own stone."
+    },
+    {
+      "id": "yonaguni",
+      "name": "Yonaguni Monument",
+      "country": "Japan",
+      "human_made_status": "NOT widely accepted as human-made. The mainstream position among geologists who have examined the feature attributes its stepped, rectilinear appearance to natural fracturing along bedding/joint planes in the local sandstone-mudstone, a pattern documented elsewhere in the Ryukyus. A minority view (chiefly M. Kimura, Univ. of the Ryukyus) argues for significant human modification. This background is well known in the general literature on the controversy but is UNVERIFIED within this session -- no primary geological journal article adjudicating the question was successfully located via the lookup tool within budget.",
+      "construction_date": "Not established; no human construction event is accepted by the mainstream position, so there is no consensus 'construction date' to report.",
+      "dating_basis": "none",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "0 located",
+      "spread_note": "No accepted absolute dates exist; mainstream geology treats the feature as natural, not a monument",
+      "feasible_direct_methods": "Cosmogenic exposure dating comparing purportedly worked surfaces against adjacent natural fracture surfaces",
+      "decisive_if": "A study dating tool-marked vs. naturally fractured surfaces would resolve the man-made question itself, before any construction date",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "New Scientist (2009). Yonaguni, Japan. New Scientist 204(2736): 41.",
+          "doi": "10.1016/s0262-4079(09)63140-7",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "low",
+      "notes": "Weakest sourcing in this batch: a peer-reviewed geology/archaeology journal article on the man-made-vs-natural question was not found via Crossref/OpenAlex search within the session's tool budget (searches returned unrelated sandstone-geology and Ryukyu-ecology papers). The single located source is a short science-magazine item, not a chronology paper or review as the audit brief prefers. Should be rechecked directly against Kimura's and Schoch's published work before this record is relied on."
+    },
+    {
+      "id": "tiwanaku",
+      "name": "Tiwanaku and Pumapunku",
+      "country": "Bolivia",
+      "construction_date": "General Tiwanaku IV-V phase chronology of roughly 500-1000 CE is standard in the literature; Yaeger & Vranich (S1) specifically reassessed Pumapunku's sequence with a dedicated radiocarbon program, but exact reported ranges were not re-confirmed from full text this session.",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "many",
+      "spread_note": "Dedicated radiocarbon program for the Pumapunku complex (Yaeger & Vranich) reassessing Tiwanaku's development",
+      "feasible_direct_methods": "OSL of buried sandstone/andesite block-socket fill beneath in-situ Pumapunku foundation blocks",
+      "decisive_if": "A direct foundation-fill date would test whether Pumapunku's monumental core predates or postdates the radiocarbon-based sequence",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Yaeger, J., Vranich, A. (2013). A Radiocarbon Chronology of the Pumapunku Complex and a Reassessment of the Development of Tiwanaku, Bolivia. In Advances in Titicaca Basin Archaeology-2, pp. 127-146.",
+          "doi": "10.2307/j.ctvdjrqk5.17",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Title (Crossref-confirmed) establishes this as a dedicated radiocarbon study; the chapter itself was paywalled with no OpenAlex abstract, so specific date ranges here reflect the general Tiwanaku IV-V framework rather than this paper's own reported figures."
+    },
+    {
+      "id": "sacsayhuaman",
+      "name": "Sacsayhuaman",
+      "country": "Peru",
+      "construction_date": "Conventionally 15th century CE, reign of Pachacuti/Topa Inca Yupanqui, per Spanish ethnohistoric chronicles; no site-specific sealed radiocarbon date for the megalithic walls was located this session.",
+      "dating_basis": "historical-contextual",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "0 confirmed specific to this monument; regional Cuzco-basin dates exist as context (S1)",
+      "spread_note": "No sealed radiocarbon date tied to Sacsayhuaman's walls found; regional Cuzco chronology used as context only",
+      "feasible_direct_methods": "OSL of buried foundation-course sediment beneath the lowest megalithic course",
+      "decisive_if": "A direct foundation date would test the 15th-century chronicle-based attribution against an independent archaeological date",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Bauer, B.S., Covey, R.A. (2004). Appendix: Radiocarbon Dates from the Cuzco Region. In Ancient Cuzco, pp. 191-202.",
+          "doi": "10.7560/702431-015",
+          "verification": "exists"
+        },
+        {
+          "id": "S2",
+          "citation": "Bauer, B.S., Covey, R.A. (2002). Processes of State Formation in the Inca Heartland (Cuzco, Peru). American Anthropologist 104(3): 846-864.",
+          "doi": "10.1525/aa.2002.104.3.846",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Sacsayhuaman appears to lack a dedicated published sealed-context radiocarbon date among the sources located; its 15th-century date is substantially a chronicle attribution, reinforced by but not directly derived from regional Cuzco-basin radiocarbon work (S1, S2 titles confirmed via Crossref, full text not read this session)."
+    },
+    {
+      "id": "ollantaytambo",
+      "name": "Ollantaytambo",
+      "country": "Peru",
+      "construction_date": "Inca-period megalithic terraces/temple: 15th century CE (Pachacuti's reign) per ethnohistoric chronicles and comparative masonry analysis (S1); an earlier pre-Inca Killke-phase occupation is attested by ceramics at the site.",
+      "dating_basis": "historical-contextual",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "few",
+      "spread_note": "Standard source (Protzen) is architectural analysis, not radiocarbon; date rests on chronicles plus masonry style",
+      "feasible_direct_methods": "OSL of buried fill in retaining walls; U-series on calcite flowstone over worked quarry/ramp stone",
+      "decisive_if": "A direct terrace-fill date would test whether construction began before Pachacuti's chronicled reign, resolving the Killke-to-Inca transition",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Kendall, A. (1994). Review of J.-P. Protzen, Inca Architecture and Construction at Ollantaytambo (Oxford University Press, 1993, xii+303pp). Antiquity 68(260).",
+          "doi": "10.1017/s0003598x00046913",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Protzen's 1993 monograph is the standard architectural source, confirmed via an independent scholarly book review (S1) rather than the monograph itself (books of this era often lack their own DOI). A dedicated radiocarbon source for the Killke-phase occupation was not located within this session's budget."
+    },
+    {
+      "id": "chavin",
+      "name": "Chavin de Huantar",
+      "country": "Peru",
+      "construction_date": "Chavin culture/temple complex at Chavin de Huantar spans c. 850-200 BCE, per Burger's critical evaluation of excavation radiocarbon measurements (S1).",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "many",
+      "spread_note": "Burger (1981) evaluated excavation radiocarbon dates, establishing 850-200 BCE; later AMS work refined phases",
+      "feasible_direct_methods": "OSL of sealed fill directly beneath temple-platform additions or gallery construction",
+      "decisive_if": "A direct sealed-gallery-fill date would test the internal phase boundaries within the 850-200 BCE sequence",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Burger, R.L. (1981). The Radiocarbon Evidence for the Temporal Priority of Chavin de Huantar. American Antiquity 46(3): 592-602.",
+          "doi": "10.2307/280603",
+          "verification": "checked"
+        },
+        {
+          "id": "S2",
+          "citation": "Rick, J.W. (2005). The Evolution of Authority and Power at Chavin de Huantar, Peru. Archeological Papers of the American Anthropological Association 14(1): 71-89.",
+          "doi": "10.1525/ap3a.2005.14.071",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "high",
+      "notes": "One of the better-dated cases in this batch: a dedicated critical radiocarbon evaluation exists, though all dates come from excavated fill/occupation layers, not the carved stone architecture itself."
+    },
+    {
+      "id": "san-agustin",
+      "name": "San Agustin statues",
+      "country": "Colombia",
+      "construction_date": "Conventionally placed within the Alto Magdalena Formative-to-Regional-Classic periods, roughly 1st millennium BCE to 1st millennium CE, per Reichel-Dolmatoff's foundational culture-historical synthesis (S1).",
+      "dating_basis": "stylistic",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "not confirmed this session",
+      "spread_note": "Standard reference (Reichel-Dolmatoff) is a cultural/stylistic synthesis; volcanic-tuff statues are not directly datable",
+      "feasible_direct_methods": "Cosmogenic exposure or OSL dating of buried statue-socket or mound-fill surfaces at undisturbed barrows",
+      "decisive_if": "A direct mound-fill or socket date at a well-preserved barrow would test whether specific statue groups predate the broad Formative range",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Dwyer, E.B. (1974). Review of G. Reichel-Dolmatoff, San Agustin: A Culture of Colombia (Praeger, 1972). American Anthropologist 76(1).",
+          "doi": "10.1525/aa.1974.76.1.02a00590",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "low",
+      "notes": "Located via an independent scholarly review rather than the primary monograph or a recent radiocarbon-focused reassessment; a modern chronometric source (e.g. Drennan's regional survey work) was not accessed within this session's budget, so treat the date range as approximate."
+    },
+    {
+      "id": "olmec-heads",
+      "name": "Olmec colossal heads (San Lorenzo)",
+      "country": "Mexico",
+      "construction_date": "San Lorenzo phase, c. 1200-900 BCE by radiocarbon, within a broader Early Formative 1500-800 BCE ceramic sequence (S1).",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "6 in the original 1967 study (5 of 6 falling 1200-900 BCE); more added by later excavations",
+      "spread_note": "5 of 6 original radiocarbon dates cluster 1200-900 BCE; broader ceramic cross-dating gives 1500-800 BCE",
+      "feasible_direct_methods": "Cosmogenic exposure dating of quarry-extraction surfaces at the Cerro Cintepec basalt source",
+      "decisive_if": "A direct quarry-extraction date would test whether specific heads were carved earlier than their find-context phase (some were recarved/reburied)",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Coe, M.D., Diehl, R.A., Stuiver, M. (1967). Olmec Civilization, Veracruz, Mexico: Dating of the San Lorenzo Phase. Science 155(3768): 1399-1401.",
+          "doi": "10.1126/science.155.3768.1399",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Classic, foundational associated-organic dating case with multiple independent radiocarbon dates; the basalt heads themselves have never been directly dated, and some were deliberately buried/mutilated, complicating the link between a phase date and the actual carving event."
+    },
+    {
+      "id": "chankillo",
+      "name": "Chankillo",
+      "country": "Peru",
+      "construction_date": "4th century BCE, per radiocarbon dates from the ceremonial-complex architecture (S1).",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "many",
+      "spread_note": "Ghezzi & Ruggles (2007) place the Thirteen Towers in a 4th-c.-BCE complex via radiocarbon from architectural contexts",
+      "feasible_direct_methods": "OSL of buried tower-foundation fill",
+      "decisive_if": "A direct foundation date would test whether the astronomically-aligned towers were built in one campaign or added incrementally",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Ghezzi, I., Ruggles, C. (2007). Chankillo: A 2300-Year-Old Solar Observatory in Coastal Peru. Science 315(5816): 1239-1243.",
+          "doi": "10.1126/science.1136415",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Well-documented associated-organic case; interpretation of the towers as a solar observatory is itself built on the radiocarbon-anchored construction date, not the reverse."
+    },
+    {
+      "id": "diquis-spheres",
+      "name": "Diquis stone spheres",
+      "country": "Costa Rica",
+      "construction_date": "Usually attributed to the Aguas Buenas/Chiriqui-period cultures of the Diquis/Terraba delta, broadly mid-1st millennium CE into the early 2nd millennium CE, but no chronometric study was confirmed this session.",
+      "dating_basis": "stylistic",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "few to none confirmed",
+      "spread_note": "Most spheres were moved (plantation clearance, collecting) before study; few retain sealed context",
+      "feasible_direct_methods": "OSL of sediment/socket fill for the rare in-situ spheres (e.g. at the UNESCO-inscribed Finca 6 site)",
+      "decisive_if": "A direct socket/fill date at an undisturbed in-situ sphere would anchor the tradition's actual span, versus inference from moved spheres",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "De-Simone, A. (2014). Esferas precolombinas de la zona sur en Costa Rica: cultura y poder en la tecnologia de la piedra. Revista Tecnologia en Marcha, p.70.",
+          "doi": "10.18845/tm.v0i0.1657",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "low",
+      "notes": "The one open-access source located (grep-checked) is a cultural/heritage-politics essay, not a chronometric study. A dedicated recent dating paper on the UNESCO Finca 6 excavations was not accessed within this session's budget. Loss of original context for most spheres is itself the central dating problem here."
+    },
+    {
+      "id": "rapa-nui",
+      "name": "Rapa Nui moai and ahu",
+      "country": "Chile",
+      "construction_date": "Colonization c. 1200 CE; moai/ahu construction mainly follows within the subsequent centuries (conventionally c. 1200-1650 CE), per Hunt & Lipo's radiocarbon-based 'short chronology' (S1).",
+      "dating_basis": "associated-organic",
+      "association_strength": "strong",
+      "direct_methods_applied": [],
+      "n_dates": "many",
+      "spread_note": "New Anakena dates plus 'chronometric hygiene' re-screening of older dates support a shorter, later chronology",
+      "feasible_direct_methods": "OSL of buried ahu-core fill beneath facing stones; cosmogenic exposure dating of moai quarry surfaces",
+      "decisive_if": "A direct ahu-fill or quarry-face date would test if monument-building began near colonization or later, settling the chronology debate",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Hunt, T.L., Lipo, C.P. (2008). Evidence for a Shorter Chronology on Rapa Nui (Easter Island). The Journal of Island and Coastal Archaeology 3(1): 140-148.",
+          "doi": "10.1080/15564890801990797",
+          "verification": "checked"
+        },
+        {
+          "id": "S2",
+          "citation": "Lipo, C.P., Hunt, T.L., Pakarati, G., Pingel, T. et al. (2025). Megalithic statue (moai) production on Rapa Nui (Easter Island, Chile). PLOS One 20(11): e0336251.",
+          "doi": "10.1371/journal.pone.0336251",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "Good associated-organic case with explicit 'chronometric hygiene' (re-screening unreliable old dates) -- a methodological strength this project's H2/H3 hypotheses would flag positively."
+    },
+    {
+      "id": "nan-madol",
+      "name": "Nan Madol",
+      "country": "Micronesia",
+      "construction_date": "Earliest monument-building at AD 1180-1200 (first chief's tomb), by direct U-series (230Th/U) dating of coral building material; major expansion across Oceania AD 1300-1600 (S1).",
+      "dating_basis": "direct",
+      "association_strength": null,
+      "direct_methods_applied": [
+        "U-series (230Th/U) dating of coral architectural blocks"
+      ],
+      "n_dates": "several high-precision U-series dates, plus geochemical basalt sourcing",
+      "spread_note": "230Th/U dates on coral from the first chief's tomb converge tightly on AD 1180-1200 for earliest construction",
+      "feasible_direct_methods": "Already applied (U-series on coral); extending to other islets would broaden the chronology site-wide",
+      "decisive_if": "N/A -- already directly dated; further coral/basalt dates at other islets would test how fast the full site expanded",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "McCoy, M.D., Alderson, H.A., Hemi, R., Cheng, H. et al. (2016). Earliest direct evidence of monument building at the archaeological site of Nan Madol (Pohnpei, Micronesia) identified using 230Th/U coral dating and geochemical sourcing of megalithic architectural stone. Quaternary Research 86(3): 295-303.",
+          "doi": "10.1016/j.yqres.2016.08.002",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "high",
+      "notes": "The strongest direct-dating case in this batch -- a rare instance where the actual building material (coral) was dated by U-series rather than relying on adjacent organic debris. Useful positive control against H7."
+    },
+    {
+      "id": "haamonga",
+      "name": "Ha'amonga 'a Maui",
+      "country": "Tonga",
+      "construction_date": "Conventionally attributed to the reign of the 11th Tu'i Tonga, Tu'itatui (~13th century CE) per Tongan oral-historical king-lists; no independent chronometric date for the trilithon itself was located this session.",
+      "dating_basis": "historical-contextual",
+      "association_strength": "weak",
+      "direct_methods_applied": [],
+      "n_dates": "0 located for this monument specifically",
+      "spread_note": "No site-specific radiocarbon/OSL study found; nearby Lapaha royal-center chronology exists but isn't tied to it",
+      "feasible_direct_methods": "OSL of buried socket fill beneath the two upright coral-limestone pillars",
+      "decisive_if": "A direct socket-fill date would test the king-list-based 13th-century attribution against an independent archaeological date",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Clark, G., Parton, P. et al. (2017). Conflict and State Development in Ancient Tonga: The Lapaha Earth Fort. The Journal of Island and Coastal Archaeology.",
+          "doi": "10.1080/15564894.2017.1337658",
+          "verification": "exists"
+        }
+      ],
+      "confidence": "low",
+      "notes": "Weakest-sourced record in this batch alongside Yonaguni: no dedicated chronometric study of the trilithon itself was located within budget. The commonly cited 13th-century date is historical-contextual (king-list tradition), not from any excavation reported here. Should be rechecked directly against D. Burley's published Tongan chronology."
+    },
+    {
+      "id": "latte-stones",
+      "name": "Latte stones",
+      "country": "Guam / Northern Mariana Islands",
+      "construction_date": "Latte Period, conventionally c. 900/1000-1700 CE (some estimates extending to ~800 CE), per regional radiocarbon-dated occupation deposits associated with latte sets (S1, S2).",
+      "dating_basis": "associated-organic",
+      "association_strength": "moderate",
+      "direct_methods_applied": [],
+      "n_dates": "many",
+      "spread_note": "Marine-reservoir-corrected regional radiocarbon anchors the Latte Period via middens, not the stones",
+      "feasible_direct_methods": "U-series on coral-limestone capstones (tasa) where calcitic; OSL of buried shaft-socket fill for basalt haligi",
+      "decisive_if": "A direct capstone or socket date at a well-preserved latte set would test whether construction began earlier than midden-based estimates",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Carson, M.T. (2010). Radiocarbon Chronology with Marine Reservoir Correction for the Ritidian Archaeological Site, Northern Guam. Radiocarbon 52(2): 585-611.",
+          "doi": "10.1017/s0033822200056356",
+          "verification": "exists"
+        },
+        {
+          "id": "S2",
+          "citation": "Craib, J.L., Bonhomme, T. (2026). A Latte Period workshop on Rota: Implications for the contents and configuration of Latte villages. In The Mariana Islands: People, History and Archaeology, pp. 73-88.",
+          "doi": "10.22459/ta59.2026.05",
+          "verification": "checked"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "Carson's marine-reservoir-corrected radiocarbon program is the regional standard for this period. S2 (2025 open-access volume, abstract checked) confirms active ongoing Latte-period research; specific latte-set construction dates were not extracted from its full text within budget."
+    }
+  ]
+}

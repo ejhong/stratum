@@ -103,8 +103,11 @@ def run(cases):
     kinds = sorted({o["kind"] for o in objs})
     table = {k: {oc: sum(o["kind"] == k and o["outcome"] == oc for o in objs) for oc in ("held", "wrong", "unresolved")} for k in kinds}
     n4 = len(wrong) + len(held)
+    pw_k, ph_k = sum(o["kind"] == "prior" for o in wrong), sum(o["kind"] == "prior" for o in held)
+    fisher4 = fisher_two_sided(pw_k, len(wrong) - pw_k, ph_k, len(held) - ph_k) if wrong and held else None
     res["hypotheses"]["H4"] = {
-        "n": n4, "threshold": 30, "prior_share_wrong": round(pw, 3) if pw is not None else None,
+        "n": n4, "threshold": 30, "fisher_p": fisher4, "prior_wrong": [pw_k, len(wrong)], "prior_held": [ph_k, len(held)],
+        "prior_share_wrong": round(pw, 3) if pw is not None else None,
         "prior_share_held": round(ph, 3) if ph is not None else None, "table": table,
         "status": verdict(n4 >= 30 and pw is not None and ph is not None, (pw or 0) > (ph or 0)),
     }
