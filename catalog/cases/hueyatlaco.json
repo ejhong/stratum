@@ -1,0 +1,349 @@
+{
+  "id": "hueyatlaco",
+  "name": "Hueyatlaco",
+  "hook": "Stone tools near Puebla dated to 245,000+ years by two methods — a date even the excavator rejected.",
+  "location": {
+    "country": "Mexico",
+    "region": "Puebla",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "Bifacial and unifacial tools, including a Lerma-style point, were excavated with extinct fauna at Hueyatlaco. U-series dating of a camel pelvis and fission-track dating of nearby tephra placed the tool beds at ~245,000-600,000 years, far older than any accepted evidence of people in the Americas.",
+  "claimed_age": {
+    "label": "~245,000 yr (U-series); tephra to ~600,000 yr (FT)",
+    "bp_min": 205000,
+    "bp_max": 285000,
+    "basis": "230Th (245,000±40,000 yr) on a camel pelvis with bifacial tools (Szabo et al. 1969). Overlying tephra gave FT ages of 370,000±200,000 and 600,000±340,000 yr, deemed compatible (Steen-McIntyre 1981). Calendar years.",
+    "source": "S2"
+  },
+  "accepted_age": null,
+  "orthodoxy_at_claim": {
+    "label": "Clovis-first: no secure evidence of people in the Americas older than about 11,500 radiocarbon years (the 'Clovis barrier').",
+    "limit_bp": 11500,
+    "source": "S11"
+  },
+  "year_claimed": 1969,
+  "key_proponents": [
+    "Virginia Steen-McIntyre",
+    "Harold E. Malde",
+    "Roald Fryxell",
+    "Barney J. Szabo",
+    "Cynthia Irwin-Williams"
+  ],
+  "key_critics": [
+    "Cynthia Irwin-Williams",
+    "Mario Pichardo"
+  ],
+  "evidence_types": [
+    "u-series",
+    "geology",
+    "stratigraphy",
+    "lithics",
+    "fauna"
+  ],
+  "independent_methods_count": 2,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "yes",
+      "note": "Bifaces, unifacial scrapers and a Lerma-style point are accepted as genuine worked stone tools; the dispute is over their age, not their manufacture.",
+      "source": "S2"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Multi-year excavation mapped a detailed stratigraphic section, but later work flagged shifting channels and an unconformity in the tool-bearing unit that could indicate reworked material.",
+      "source": "S8"
+    },
+    "multiple_dating_methods": {
+      "value": "yes",
+      "note": "U-series on bone and zircon fission-track on tephra gave broadly compatible old ages, though critics say the two fission-track dates are in reverse stratigraphic order.",
+      "source": "S2"
+    },
+    "multiple_labs": {
+      "value": "unknown",
+      "note": "Sources reviewed do not specify whether U-series and fission-track work were run at separate laboratories."
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated by archaeologist Cynthia Irwin-Williams; the in situ artifact-fauna association was independently confirmed in print by three other named archaeologists in 1969.",
+      "source": "S5"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Initial dating paper appeared in Earth and Planetary Science Letters the same year as the claim; the full geological report followed 12 years later, in 1981.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "partial",
+      "note": "Independent biostratigraphers sampled sediment in the region for decades afterward, but accessibility of the original dated bone specimens to critics is not confirmed in sources reviewed.",
+      "source": "S7"
+    },
+    "independent_teams": {
+      "value": "partial",
+      "note": "Three outside archaeologists independently verified the field association within the claim year, but no independent lab replicated the dates within about five years.",
+      "source": "S5"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No commercial, religious or nationalist motive is documented in sources reviewed; all named researchers had ordinary academic or government-geologist affiliations."
+    }
+  },
+  "objections": [
+    {
+      "text": "The extreme ages are inconsistent with the tools' typology: bifaces and a Lerma-style point of this form are not otherwise known from anywhere near this age.",
+      "kind": "prior",
+      "raised_by": "Cynthia Irwin-Williams (1981)",
+      "year": 1981,
+      "outcome": "unresolved",
+      "outcome_note": "Malde and Steen-McIntyre replied in the same 1981 issue that typology cannot override concordant physical dates; no resolution followed.",
+      "source": "S8"
+    },
+    {
+      "text": "U-series dates on bone are vulnerable to contamination and open-system uranium behavior after burial, so the camel-pelvis date may not reflect true burial age.",
+      "kind": "dating",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "No independent re-dating of the specific specimen has been reported to confirm or rule out contamination.",
+      "source": "S8"
+    },
+    {
+      "text": "The two fission-track dates on zircon from the tephra units are in reverse stratigraphic order, undermining confidence in the dating sequence.",
+      "kind": "dating",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "The original authors' stratigraphic account addresses the section in detail, but the apparent reversal has not been independently re-examined since.",
+      "source": "S8"
+    },
+    {
+      "text": "Older fossils may have been reworked (redeposited) from earlier deposits into the younger archaeological levels, explaining old bone dates without requiring ancient tool use.",
+      "kind": "context",
+      "raised_by": "Mario Pichardo",
+      "year": 1997,
+      "outcome": "unresolved",
+      "outcome_note": "Pichardo proposes this mechanism and separately dates the Lerma-point level to about 14,000-16,000 BP on biostratigraphic and radiocarbon grounds, but it has not been tested directly on the dated specimens.",
+      "source": "S7"
+    },
+    {
+      "text": "A 250,000+ year human presence in the Americas has no corroborating fossil, archaeological or genetic trace elsewhere in the Americas or in northeast Asia.",
+      "kind": "prior",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "No site of comparable age has been reported anywhere in the Americas in the decades since; the controversy remains confined to Valsequillo.",
+      "source": "S6"
+    },
+    {
+      "text": "The old ages rest on very few dated specimens tied to the tool levels (essentially one camel pelvis and one mastodon molar), too small a sample to be conclusive.",
+      "kind": "context",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "Pichardo notes the same small-sample criticism, often leveled at younger dates nearby at Caulapan, applies symmetrically to the old Hueyatlaco and El Horno dates.",
+      "source": "S8"
+    }
+  ],
+  "status": "open",
+  "status_note": "No consensus age exists. The U-series and fission-track dates are neither replicated nor refuted, and no mundane cause (contamination, reworking) is confirmed. Most archaeologists reject the extreme ages; the case is not formally settled.",
+  "year_resolved": null,
+  "what_settled_it": null,
+  "settled_by": [
+    "not-settled"
+  ],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 1969,
+      "event": "Szabo, Malde and Irwin-Williams report U-series dates of ~245,000 years on a camel pelvis found with bifacial tools, calling it a 'dilemma'.",
+      "source": "S1"
+    },
+    {
+      "year": 1969,
+      "event": "Independent archaeologists MacNeish, Petersen and Wormington confirm the in situ artifact-fauna association in print.",
+      "source": "S5"
+    },
+    {
+      "year": 1973,
+      "event": "Field team retraces the stratigraphic section at Hueyatlaco during further excavation to confirm bed relationships.",
+      "source": "S2"
+    },
+    {
+      "year": 1981,
+      "event": "Steen-McIntyre, Fryxell and Malde publish the full geological case, adding fission-track dates up to ~600,000 years on overlying tephra.",
+      "source": "S2"
+    },
+    {
+      "year": 1981,
+      "event": "Irwin-Williams publishes a commentary in the same journal rejecting the ages as incompatible with tool typology; Malde and Steen-McIntyre reply.",
+      "source": "S3"
+    },
+    {
+      "year": 1997,
+      "event": "Pichardo proposes, from independent biostratigraphy, that redeposited older fossils explain the anomalous dates and that the tools are much younger.",
+      "source": "S7"
+    },
+    {
+      "year": 2000,
+      "event": "Pichardo argues from regional radiocarbon and tephra work that the tool horizon dates to ~14,000-16,000 BP, far younger than the U-series/fission-track figures.",
+      "source": "S8"
+    },
+    {
+      "year": 2004,
+      "event": "VanLandingham argues from diatom biostratigraphy for a Sangamonian-age (roughly 130,000-80,000 yr) correlation for Valsequillo artifacts.",
+      "source": "S9"
+    },
+    {
+      "year": 2006,
+      "event": "Gonzalez, Huddart and Bennett review the Valsequillo dating disputes, including Hueyatlaco, and describe the age question as still unresolved.",
+      "source": "S6"
+    },
+    {
+      "year": 2010,
+      "event": "VanLandingham instead argues for an older, Yarmouthian correlation (~430,000-500,000 yr), diverging from the 2004 estimate for the same site.",
+      "source": "S10"
+    }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Independently re-date the original camel-pelvis and mastodon-molar specimens (if still curated) by U-series at a second laboratory, cross-checked by a second method such as ESR on the same bone.",
+      "would_show": "Whether the ~245,000-280,000-year bone ages replicate outside the original USGS work, or reflect post-burial uranium uptake.",
+      "cost": "medium"
+    },
+    {
+      "test": "Re-examine in the field whether the tool-bearing beds and dated tephra are in clean primary position or are cut by channels and unconformities suggesting redeposition.",
+      "would_show": "Whether the association between tools and 245,000+-year sediments is primary context or a mixed, reworked one.",
+      "cost": "medium"
+    },
+    {
+      "test": "Apply modern single-crystal 40Ar/39Ar or (U-Th)/He dating to the tephra units, independent of the 1970s zircon fission-track work.",
+      "would_show": "Whether modern geochronology reproduces fission-track ages of 370,000-600,000 years for the same tephra.",
+      "cost": "medium"
+    },
+    {
+      "test": "Commission a blind, independent diatom biostratigraphy study of the same beds to test VanLandingham's conflicting 2004 and 2010 age estimates.",
+      "would_show": "Whether an independent analyst reproduces either VanLandingham estimate, or neither.",
+      "cost": "low"
+    }
+  ],
+  "falsifier": "Refuted as an ancient site if re-dating finds contamination or open-system uranium behavior inflating the U-series ages, or if re-examination shows the tools lie in redeposited sediment. Strengthened if independent labs replicate the ages and rule out redeposition.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Szabo, B.J., Malde, H.E. & Irwin-Williams, C. (1969). Dilemma posed by uranium-series dates on archaeologically significant bones from Valsequillo, Puebla, Mexico. Earth and Planetary Science Letters 6(4): 237-244.",
+      "doi": "10.1016/0012-821x(69)90163-0",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "No abstract in OpenAlex; ScienceDirect blocked (403) for related papers this session. Its central figure (245,000 ± 40,000 yr U-series on M-B-3) is corroborated via S2 and S8, which both quote it."
+    },
+    {
+      "id": "S2",
+      "citation": "Steen-McIntyre, V., Fryxell, R. & Malde, H.E. (1981). Geologic Evidence for Age of Deposits at Hueyatlaco Archeological Site, Valsequillo, Mexico. Quaternary Research 16(1): 1-17.",
+      "doi": "10.1016/0033-5894(81)90124-1",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full abstract read (OpenAlex): stratigraphic section, fission-track and U-series figures, tephra hydration and mineral etching support."
+    },
+    {
+      "id": "S3",
+      "citation": "Irwin-Williams, C. (1981). Commentary on Geologic Evidence for Age of Deposits at Hueyatlaco Archaeological Site, Valsequillo, Mexico. Quaternary Research 16(2): 258.",
+      "doi": "10.1016/0033-5894(81)90048-x",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "One-page commentary; no abstract available and full text not accessed. Content characterized via S8, which quotes it as rejecting the dates as inconsistent with tool typology."
+    },
+    {
+      "id": "S4",
+      "citation": "Malde, H.E. & Steen-McIntyre, V. (1981). Reply to Comments by C. Irwin-Williams: Archeological site, Valsequillo, Mexico. Quaternary Research 16(3): 418-421.",
+      "doi": "10.1016/0033-5894(81)90020-x",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed via Crossref; no abstract available, content not read. Used only to establish that a reply exists."
+    },
+    {
+      "id": "S5",
+      "citation": "Irwin-Williams, C., MacNeish, R.S., Petersen, F.A. & Wormington, H.M. (1969). Comments on the Associations of Archaeological Materials and Extinct Fauna in the Valsequillo Region, Puebla, Mexico. American Antiquity 34(1): 82-83.",
+      "doi": "10.2307/278319",
+      "url": null,
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: three independent scientists (MacNeish, Petersen, Wormington) quoted confirming the in situ association."
+    },
+    {
+      "id": "S6",
+      "citation": "Gonzalez, S., Huddart, D. & Bennett, M. (2006). Valsequillo Pleistocene archaeology and dating: ongoing controversy in Central Mexico. World Archaeology 38(4): 611-627.",
+      "doi": "10.1080/00438240600963155",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; full text blocked (403). Also covers the separate Xalnene Tuff footprints; only its Hueyatlaco content (U-series/FT dating, diatom and bone-assemblage work) is used here."
+    },
+    {
+      "id": "S7",
+      "citation": "Pichardo, M. (1997). Valsequillo biostratigraphy: New evidence for Pre-Clovis date. Anthropologischer Anzeiger 55(3-4): 233-246.",
+      "doi": "10.1127/anthranz/55/1997/233",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: proposes redeposited, heavily mineralized fossils explain the anomalous U-series dates on camel and mastodon specimens."
+    },
+    {
+      "id": "S8",
+      "citation": "Pichardo, M. (2000). Redating Iztapan and Valsequillo, Mexico. Radiocarbon 42(2): 305-310.",
+      "doi": "10.1017/s0033822200059117",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C4A3FAF8561E9D5D50C218D114A953F0/S0033822200059117a.pdf/div-class-title-redating-iztapan-and-valsequillo-mexico-div.pdf",
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read in full (open PDF). Source of most objection details: reverse-order fission-track dates, contamination argument, redeposition, small sample size."
+    },
+    {
+      "id": "S9",
+      "citation": "VanLandingham, S.L. (2004). Corroboration of Sangamonian age of artifacts from the Valsequillo region, Puebla, Mexico by means of diatom biostratigraphy. Micropaleontology 50(4): 313-342.",
+      "doi": "10.2113/50.4.313",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Title and metadata confirmed via Crossref/publisher page; abstract text was truncated on the page fetched and not fully readable."
+    },
+    {
+      "id": "S10",
+      "citation": "VanLandingham, S.L. (2010). Use of diatoms in determining age and paleoenvironment of the Valsequillo (Hueyatlaco) early man site, Puebla, Mexico, with corroboration by Chrysophyta cysts for a maximum Yarmouthian (430,000-500,000 yr BP) age of the artifacts. Nova Hedwigia, Beihefte 136: 127-138.",
+      "doi": "10.1127/1438-9134/2010/0136-0127",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata only, confirmed via Crossref; no abstract available. Cited by 0 in OpenAlex; conflicts with the same author's 2004 estimate (S9)."
+    },
+    {
+      "id": "S11",
+      "citation": "Waters, M.R. & Stafford, T.W. (2007). Redefining the Age of Clovis: Implications for the Peopling of the Americas. Science 315(5815): 1122-1126.",
+      "doi": "10.1126/science.1137166",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read. Cited only for the Clovis-first paradigm (~11,500-10,900 14C yr BP) as the orthodoxy the 1969 claim challenged; does not discuss Hueyatlaco."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "The 1969-1981 exchange is only partly readable: S2, S5 checked via abstracts, S8 checked in full, but S1, S3, S4 are metadata-only (blocked). Later work (S9, S10) is thin and self-inconsistent.",
+  "corrections": [
+    "Brief: dates '~250,000 years from uranium-series ... and tephra/geology'. Confirmed for U-series, but the 1981 paper also reports FT ages to 600,000±340,000 years, called compatible -- wider than '~250,000 years' alone (S2).",
+    "Brief: dates 'far older than excavator expected ... conflict ... never resolved'. Undersells Irwin-Williams: co-authored the 1969 paper, then in 1981 rejected the ages as incompatible with tool typology -- proponent and critic (S3, via S8)."
+  ],
+  "notes": "Distinct from the Valsequillo footprints in the Xalnene Tuff at Cerro Toluquilla, a separate find and dispute (S6 reviews both, not conflated here; Renne 2005 and Feinberg 2009 on footprints were located but excluded as out of scope). independent_methods_count (2) counts U-series and fission-track as independent quantitative methods; hydration and mineral etching are qualitative support only. Juan Armenta Camacho is credited in popular accounts with finding Valsequillo material before Irwin-Williams's dig: UNVERIFIED this session. Popular accounts (Cremo & Thompson 1993) say Steen-McIntyre's insistence on the dates cost her academic positions: UNVERIFIED this session.",
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

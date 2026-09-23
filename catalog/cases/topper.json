@@ -1,0 +1,289 @@
+{
+  "id": "topper",
+  "name": "Topper Site",
+  "hook": "A South Carolina quarry where 'tools' near 50,000 years old are still argued to be artifacts or natural chert.",
+  "location": {
+    "country": "United States",
+    "region": "South Carolina",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "In 2004 Albert Goodyear announced radiocarbon dates of about 50,000 years on carbonized plant remains from Topper's lowest excavated stratum, with associated chert pieces he interpreted as crude tools -- an escalation of pre-Clovis material he had reported from shallower levels since the late 1990s.",
+  "claimed_age": {
+    "label": "~50,000 14C yr BP (near dating limit)",
+    "bp_min": 50000,
+    "bp_max": null,
+    "basis": "Uncalibrated radiocarbon age on carbonized plant remains from the lowest stratum; near the practical ceiling of the method, so critics treat it as a minimum/background age rather than a precise calendar date.",
+    "source": "S5"
+  },
+  "accepted_age": null,
+  "orthodoxy_at_claim": {
+    "label": "By the mid-2000s, pre-Clovis presence around Monte Verde's ~14,500 cal BP was gaining acceptance, but no widely accepted site approached 50,000 years.",
+    "limit_bp": 14500,
+    "source": "S3"
+  },
+  "year_claimed": 2004,
+  "key_proponents": [
+    "Albert C. Goodyear",
+    "Douglas Sain"
+  ],
+  "key_critics": [
+    "Michael R. Waters",
+    "Steven L. Forman",
+    "Thomas W. Stafford"
+  ],
+  "evidence_types": [
+    "radiocarbon",
+    "stratigraphy",
+    "geology",
+    "lithics"
+  ],
+  "independent_methods_count": 2,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "no",
+      "note": "The chert pieces are simple flakes/cores at a chert quarry; critics argue they may be naturally fractured rather than human-made.",
+      "source": "S5"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Professionally excavated with recorded stratigraphy, but whether the dated carbon and the chert pieces represent one associated human event is disputed.",
+      "source": "S5"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "Only radiocarbon dated this specific deep stratum; OSL work covered the shallower pre-Clovis sediment package, not confirmed at this depth.",
+      "source": "S5"
+    },
+    "multiple_labs": {
+      "value": "yes",
+      "note": "Thomas W. Stafford's laboratory contributed independent radiocarbon work as part of the 2009 reassessment alongside the original dating program.",
+      "source": "S1"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated by Albert Goodyear's SCIAA-directed Allendale Paleoindian Expedition.",
+      "source": "S5"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Goodyear (2005) presented the pre-Clovis evidence in the peer-reviewed volume Paleoamerican Origins: Beyond Clovis, one year after the announcement.",
+      "source": "S8"
+    },
+    "material_accessible": {
+      "value": "yes",
+      "note": "External geoarchaeologists (Waters, Forman, Stafford, Foss) conducted independent fieldwork and sampling at the site by 2009.",
+      "source": "S1"
+    },
+    "independent_teams": {
+      "value": "yes",
+      "note": "The 2009 reassessment was carried out by a team external to Goodyear's excavation group.",
+      "source": "S1"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No commercial, religious or nationalist motive is documented; Goodyear was South Carolina's state archaeologist with ordinary career interest.",
+      "source": "S5"
+    }
+  },
+  "objections": [
+    {
+      "text": "The chert pieces recovered below the Clovis horizon, including at the ~50,000-year stratum, may be naturally fractured rather than human-made.",
+      "kind": "identification",
+      "raised_by": "Waters, Forman, Stafford & Foss (2009)",
+      "year": 2009,
+      "outcome": "unresolved",
+      "outcome_note": "No consensus has been reached in the literature reviewed; the identification remains disputed.",
+      "source": "S5"
+    },
+    {
+      "text": "The purported tools show no stylistic change across the roughly 35,000 years separating the deepest stratum from the overlying pre-Clovis layer, unlike normal patterns of cultural change.",
+      "kind": "identification",
+      "raised_by": "Waters, Forman, Stafford & Foss (2009)",
+      "year": 2009,
+      "outcome": "unresolved",
+      "outcome_note": "No published rebuttal addressing this specific pattern was found in the sources reviewed.",
+      "source": "S5"
+    },
+    {
+      "text": "The carbon-rich stain that was dated may represent a natural wildfire rather than a human hearth or combustion feature.",
+      "kind": "context",
+      "raised_by": "critics, per Wikipedia synthesis",
+      "year": 2004,
+      "outcome": "unresolved",
+      "outcome_note": "Not resolved by feature-level or micromorphological analysis in the sources reviewed.",
+      "source": "S5"
+    },
+    {
+      "text": "At about 50,000 years the sample is near the practical ceiling of radiocarbon dating, so a background-level result gives only a minimum age, not a reliable calendar date.",
+      "kind": "dating",
+      "raised_by": "critics, per Wikipedia synthesis",
+      "year": 2004,
+      "outcome": "held",
+      "outcome_note": "A well-established limitation of the method near its detection ceiling; not disputed by proponents.",
+      "source": "S5"
+    }
+  ],
+  "status": "open",
+  "status_note": "No independent lab has replicated the ~50,000-year dates on new samples, and the associated chert pieces are still disputed as possible geofacts. A separate, less extreme pre-Clovis layer (~16,000 years) has wider but not universal support.",
+  "year_resolved": null,
+  "what_settled_it": null,
+  "settled_by": [
+    "not-settled"
+  ],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 1985,
+      "event": "SCIAA excavates Topper, finding material from the 15th-century Mississippian period down to presumed Paleoindian levels in the top 100 cm.",
+      "source": "S5"
+    },
+    {
+      "year": 1998,
+      "event": "Flooding redirects Goodyear's Allendale Paleoindian Expedition to Topper; excavation is extended below 100 cm in search of pre-Clovis material.",
+      "source": "S5"
+    },
+    {
+      "year": 2004,
+      "event": "Goodyear announces radiocarbon dates of about 50,000 years on carbonized plant remains from the lowest excavated stratum.",
+      "source": "S5"
+    },
+    {
+      "year": 2005,
+      "event": "Goodyear publishes the pre-Clovis evidence in the peer-reviewed volume Paleoamerican Origins: Beyond Clovis.",
+      "source": "S8"
+    },
+    {
+      "year": 2009,
+      "event": "Waters, Forman, Stafford & Foss publish an independent geoarchaeological reassessment questioning the deep artifact identifications.",
+      "source": "S1"
+    },
+    {
+      "year": 2018,
+      "event": "Goodyear & Sain describe the shallower pre-Clovis layer as pre-Last-Glacial-Maximum, among the oldest claimed sites in the Western Hemisphere.",
+      "source": "S2"
+    },
+    {
+      "year": 2024,
+      "event": "Jennings et al. report a probable Clovis-age hearth and domestic structure at Topper, part of the site's separate, undisputed occupation.",
+      "source": "S7"
+    }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Send new splits of the dated carbonized plant material, or freshly excavated equivalents from the same stratum, to a second independent AMS lab for blind replicate dating.",
+      "would_show": "Whether the ~50,000-year result is reproducible or an artifact of contamination or background at one lab.",
+      "cost": "medium"
+    },
+    {
+      "test": "Run controlled experiments fracturing local Allendale chert by natural processes (fluvial transport, trampling, frost action) and compare the resulting flakes to the purported tools.",
+      "would_show": "Whether natural processes alone can reproduce the assemblage's forms, supporting or undermining the geofact hypothesis.",
+      "cost": "low"
+    },
+    {
+      "test": "Apply high-resolution micromorphology to the carbon-rich stain itself.",
+      "would_show": "Whether the stain has the internal structure of a hearth or combustion feature versus a natural wildfire horizon or root stain.",
+      "cost": "medium"
+    },
+    {
+      "test": "Conduct use-wear and residue analysis on the purported deepest-level tools under high magnification.",
+      "would_show": "Diagnostic edge damage or organic residues that natural fracture would not produce.",
+      "cost": "low"
+    }
+  ],
+  "falsifier": "Independent replicate AMS dating giving a reproducible ancient age, plus use-wear or residue evidence ruling out natural fracture, would support the claim. Failure to reproduce the dates, or experiments matching natural processes to the 'tools', would refute it.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Waters, M.R.; Forman, S.L.; Stafford, T.W.; Foss, J. (2009). Geoarchaeological investigations at the Topper and Big Pine Tree sites, Allendale County, South Carolina. Journal of Archaeological Science 36(7): 1300-1311.",
+      "doi": "10.1016/j.jas.2008.12.020",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Citation and authorship confirmed via CrossRef/OpenAlex. Full text paywalled; specific content here relies on S5's paraphrase."
+    },
+    {
+      "id": "S2",
+      "citation": "Goodyear, A.C.; Sain, D.A. (2018). The Pre-Clovis Occupation of the Topper Site, Allendale County, South Carolina. In Early Human Life on the Southeastern Coastal Plain, pp. 8-31. University Press of Florida.",
+      "doi": "10.5744/florida/9781683400349.003.0002",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read and confirmed; supports the pre-LGM framing of the shallower pre-Clovis layer, kept separate from this record's claim."
+    },
+    {
+      "id": "S3",
+      "citation": "Waters, M.R.; Stafford, T.W. (2007). Redefining the Age of Clovis: Implications for the Peopling of the Americas. Science 315(5815): 1122-1126.",
+      "doi": "10.1126/science.1137166",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; used only for general Clovis/pre-Clovis chronology context, not Topper-specific detail."
+    },
+    {
+      "id": "S4",
+      "citation": "Smallwood, A.M.; Goodyear, A.C.; Miller, D.S.; Plummer, J. et al. (2023). Topper Site Revisited: Exploring Spatial Organization of Clovis Life at the Quarry. PaleoAmerica 9(4): 326-345.",
+      "doi": "10.1080/20555563.2023.2270296",
+      "url": null,
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; documents the site's separate, undisputed Clovis-age occupation."
+    },
+    {
+      "id": "S5",
+      "citation": "Wikipedia contributors. Topper site. Wikipedia, The Free Encyclopedia (version current 2026-09-23).",
+      "doi": null,
+      "url": "https://en.wikipedia.org/wiki/Topper_Site",
+      "kind": "other",
+      "access": "open",
+      "verification": "checked",
+      "note": "Used because primary sources (2004 press release; Waters et al. 2009 full text) were inaccessible; this article's account traces to both."
+    },
+    {
+      "id": "S6",
+      "citation": "Wikipedia contributors. Settlement of the Americas. Wikipedia, The Free Encyclopedia (version current 2026-09-23).",
+      "doi": null,
+      "url": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas",
+      "kind": "other",
+      "access": "open",
+      "verification": "checked",
+      "note": "Source for the ~16,000-year figure attributed to Topper's separate, shallower pre-Clovis layer, cited in notes only."
+    },
+    {
+      "id": "S7",
+      "citation": "Jennings, T.A.; Anderson, D.T.; Smallwood, A.M.; Plummer, J. et al. (2024). The oldest house in the Southeast? Identifying a probable Clovis domestic structure at the Topper site, South Carolina. Southeastern Archaeology 43(4): 189-210.",
+      "doi": "10.1080/0734578x.2025.2496857",
+      "url": null,
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read; documents the site's separate, undisputed Clovis-age occupation."
+    },
+    {
+      "id": "S8",
+      "citation": "Goodyear, A.C. (2005). Evidence of Pre-Clovis Sites in the Eastern United States. In Bonnichsen, R.; Lepper, B.T.; Stanford, D.; Waters, M.R. (eds.), Paleoamerican Origins: Beyond Clovis, pp. 103-112. Texas A&M University Press.",
+      "doi": null,
+      "url": null,
+      "kind": "book",
+      "access": "unknown",
+      "verification": "exists",
+      "note": "Chapter title/pages per Wikipedia's reference list; the parent volume's existence, editors and year are confirmed via a 2008 American Antiquity book review. Chapter text not read directly."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "S1 and S8 exist and are correctly cited but are paywalled or print-only; their specific content here relies on a secondary paraphrase (Wikipedia, checked directly) rather than direct reading.",
+  "corrections": [
+    "Brief blended two strata: a shallower below-Clovis lithic layer (from 1998, later dated by S1 to the Late Pleistocene) and a deeper carbon stain dated to ~50,000 years (2004). This record's claim fields cover only the 2004 stratum.",
+    "The brief's \"charcoal...unassociated\" isn't verified in that wording. The documented critique (S5, paraphrasing S1) centers on a natural-fire origin, possible natural chert fracture, and the date being near radiocarbon's practical ceiling."
+  ],
+  "notes": "Topper has an undisputed Clovis-age occupation (SCIAA-excavated, including a probable hearth/structure reported in 2024) that is not part of this claim -- see S4 and S7. A separate, less extreme pre-Clovis claim (a core-and-flake lithic layer beneath the Clovis horizon, commonly cited at roughly 16,000 years and described by S2 as pre-Last-Glacial-Maximum) has wider, though not universal, support in the literature. Per project instructions, this record's claim, claimed_age, orthodoxy_at_claim and features_at_claim describe only the more extreme ~50,000-year stratum announced in 2004, kept separate from both the accepted Clovis occupation and the intermediate pre-Clovis layer.",
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

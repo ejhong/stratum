@@ -1,0 +1,57 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Geoarchaeological investigations at the Topper and Big Pine Tree sites, Allendale County, South Carolina",
+  "crossref_year": 2009,
+  "crossref_venue": "Journal of Archaeological Science",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Pre-Clovis Occupation of the Topper Site, Allendale County, South Carolina",
+  "crossref_year": 2018,
+  "crossref_venue": "Early Human Life on the Southeastern Coastal Plain",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Redefining the Age of Clovis: Implications for the Peopling of the Americas",
+  "crossref_year": 2007,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Topper Site Revisited: Exploring Spatial Organization of Clovis Life at the Quarry",
+  "crossref_year": 2023,
+  "crossref_venue": "PaleoAmerica",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The oldest house in the Southeast? Identifying a probable Clovis domestic structure at the Topper site, South Carolina",
+  "crossref_year": 2024,
+  "crossref_venue": "Southeastern Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "no-identifier",
+  "detail": "book or report without DOI/URL; check by hand",
+  "checked_on": "2026-09-23"
+ }
+}

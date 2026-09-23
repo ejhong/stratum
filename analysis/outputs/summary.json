@@ -1,15 +1,18 @@
 {
- "n_total": 10,
- "n_reviewed": 0,
- "n_resolved": 0,
+ "n_total": 13,
+ "n_reviewed": 8,
+ "n_resolved": 3,
  "hypotheses": {
   "H1": {
-   "n": 0,
+   "n": 2,
    "threshold": 12,
    "vindicated_median": null,
-   "refuted_median": null,
+   "refuted_median": 10.79,
    "vindicated": [],
-   "refuted": [],
+   "refuted": [
+    4.83,
+    16.75
+   ],
    "status": "awaiting data",
    "reading": "Not enough chronology cases with a sourced accepted limit yet"
   },
@@ -23,9 +26,12 @@
     },
     "refuted": {
      "k": 0,
-     "n": 0,
-     "rate": null,
-     "ci": null
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0,
+      0.562
+     ]
     },
     "fisher_p": null
    },
@@ -37,14 +43,17 @@
      "ci": null
     },
     "refuted": {
-     "k": 0,
-     "n": 0,
-     "rate": null,
-     "ci": null
+     "k": 1,
+     "n": 3,
+     "rate": 0.333,
+     "ci": [
+      0.061,
+      0.792
+     ]
     },
     "fisher_p": null
    },
-   "n": 0,
+   "n": 3,
    "threshold": 20,
    "status": "awaiting data"
   },
@@ -57,10 +66,13 @@
      "ci": null
     },
     "refuted": {
-     "k": 0,
-     "n": 0,
-     "rate": null,
-     "ci": null
+     "k": 2,
+     "n": 3,
+     "rate": 0.667,
+     "ci": [
+      0.208,
+      0.939
+     ]
     },
     "fisher_p": null
    },
@@ -73,35 +85,68 @@
     },
     "refuted": {
      "k": 0,
-     "n": 0,
-     "rate": null,
-     "ci": null
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0,
+      0.562
+     ]
     },
     "fisher_p": null
    },
-   "n": 0,
+   "n": 3,
    "threshold": 20,
    "status": "awaiting data"
   },
   "H4": {
-   "n": 0,
+   "n": 16,
    "threshold": 30,
-   "prior_share_wrong": null,
-   "prior_share_held": null,
-   "table": {},
+   "prior_share_wrong": 0.0,
+   "prior_share_held": 0.214,
+   "table": {
+    "context": {
+     "held": 3,
+     "wrong": 1,
+     "unresolved": 6
+    },
+    "dating": {
+     "held": 1,
+     "wrong": 0,
+     "unresolved": 9
+    },
+    "identification": {
+     "held": 5,
+     "wrong": 1,
+     "unresolved": 13
+    },
+    "integrity": {
+     "held": 2,
+     "wrong": 0,
+     "unresolved": 0
+    },
+    "prior": {
+     "held": 3,
+     "wrong": 0,
+     "unresolved": 6
+    }
+   },
    "status": "awaiting data"
   },
   "H5": {
-   "n": 0,
+   "n": 3,
    "threshold": 20,
    "vindicated_median": null,
-   "refuted_median": null,
+   "refuted_median": 21,
    "vindicated": [],
-   "refuted": [],
+   "refuted": [
+    5,
+    21,
+    41
+   ],
    "status": "awaiting data"
   },
   "H6": {
-   "n": 0,
+   "n": 3,
    "threshold": 20,
    "vindicated": {
     "k": 0,
@@ -111,9 +156,12 @@
    },
    "refuted": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 2,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.658
+    ]
    },
    "status": "awaiting data"
   }
@@ -128,21 +176,30 @@
    },
    "partial": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 1,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.793
+    ]
    },
    "open": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 2,
+    "n": 4,
+    "rate": 0.5,
+    "ci": [
+     0.15,
+     0.85
+    ]
    },
    "refuted": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 3,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.562
+    ]
    }
   },
   "documented_context": {
@@ -154,21 +211,30 @@
    },
    "partial": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 1,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.793
+    ]
    },
    "open": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 4,
+    "rate": 0.25,
+    "ci": [
+     0.046,
+     0.699
+    ]
    },
    "refuted": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 3,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.562
+    ]
    }
   },
   "multiple_dating_methods": {
@@ -179,22 +245,31 @@
     "ci": null
    },
    "partial": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 1,
+    "rate": 1.0,
+    "ci": [
+     0.207,
+     1
+    ]
    },
    "open": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 4,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.49
+    ]
    },
    "refuted": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 3,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.562
+    ]
    }
   },
   "multiple_labs": {
@@ -205,22 +280,31 @@
     "ci": null
    },
    "partial": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 1,
+    "rate": 1.0,
+    "ci": [
+     0.207,
+     1
+    ]
    },
    "open": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 2,
+    "n": 4,
+    "rate": 0.5,
+    "ci": [
+     0.15,
+     0.85
+    ]
    },
    "refuted": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 3,
+    "rate": 0.333,
+    "ci": [
+     0.061,
+     0.792
+    ]
    }
   },
   "professional_recovery": {
@@ -231,22 +315,31 @@
     "ci": null
    },
    "partial": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 1,
+    "rate": 1.0,
+    "ci": [
+     0.207,
+     1
+    ]
    },
    "open": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 4,
+    "n": 4,
+    "rate": 1.0,
+    "ci": [
+     0.51,
+     1
+    ]
    },
    "refuted": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 3,
+    "rate": 0.333,
+    "ci": [
+     0.061,
+     0.792
+    ]
    }
   },
   "peer_reviewed_report": {
@@ -257,22 +350,31 @@
     "ci": null
    },
    "partial": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 1,
+    "rate": 1.0,
+    "ci": [
+     0.207,
+     1
+    ]
    },
    "open": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 3,
+    "n": 4,
+    "rate": 0.75,
+    "ci": [
+     0.301,
+     0.954
+    ]
    },
    "refuted": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 3,
+    "rate": 0.333,
+    "ci": [
+     0.061,
+     0.792
+    ]
    }
   },
   "material_accessible": {
@@ -284,21 +386,30 @@
    },
    "partial": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 1,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.793
+    ]
    },
    "open": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 1,
+    "n": 3,
+    "rate": 0.333,
+    "ci": [
+     0.061,
+     0.792
+    ]
    },
    "refuted": {
-    "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "k": 2,
+    "n": 3,
+    "rate": 0.667,
+    "ci": [
+     0.208,
+     0.939
+    ]
    }
   },
   "independent_teams": {
@@ -310,21 +421,30 @@
    },
    "partial": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 1,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.793
+    ]
    },
    "open": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 4,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.49
+    ]
    },
    "refuted": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 3,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.562
+    ]
    }
   },
   "proponent_stake": {
@@ -336,21 +456,30 @@
    },
    "partial": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 1,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.793
+    ]
    },
    "open": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 4,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.49
+    ]
    },
    "refuted": {
     "k": 0,
-    "n": 0,
-    "rate": null,
-    "ci": null
+    "n": 2,
+    "rate": 0.0,
+    "ci": [
+     0,
+     0.658
+    ]
    }
   }
  }

@@ -1,0 +1,90 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The complete mitochondrial DNA genome of an unknown hominin from southern Siberia",
+  "crossref_year": 2010,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Genetic history of an archaic hominin group from Denisova Cave in Siberia",
+  "crossref_year": 2010,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A late Middle Pleistocene Denisovan mandible from the Tibetan Plateau",
+  "crossref_year": 2019,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Denisovan DNA in Late Pleistocene sediments from Baishiya Karst Cave on the Tibetan Plateau",
+  "crossref_year": 2020,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Denisovan mitochondrial DNA from dental calculus of the &gt;146,000-year-old Harbin cranium",
+  "crossref_year": 2025,
+  "crossref_venue": "Cell",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Late Middle Pleistocene Harbin cranium represents a new Homo species",
+  "crossref_year": 2021,
+  "crossref_venue": "The Innovation",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "More than a decade of genetic research on the Denisovans",
+  "crossref_year": 2024,
+  "crossref_venue": "Nature Reviews Genetics",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The genome of the offspring of a Neanderthal mother and a Denisovan father",
+  "crossref_year": 2018,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Age estimates for hominin fossils and the onset of the Upper Palaeolithic at Denisova Cave",
+  "crossref_year": 2019,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Timing of archaic hominin occupation of Denisova Cave in southern Siberia",
+  "crossref_year": 2019,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Dating of hominin discoveries at Denisova",
+  "crossref_year": 2019,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ }
+}

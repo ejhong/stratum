@@ -1,0 +1,106 @@
+{
+  "id": "paisley-caves",
+  "reviewer": "skeptic agent (claude-opus-5-5)",
+  "date": "2026-09-23",
+  "verdict": "revise",
+  "summary": "Sources real; chronology right. But S9's full text contradicts key coding: mtDNA misclassed 6 coprolites and the critics' specimen tested herbivore, so DNA objections did not prove 'wrong'. WST points are Clovis-age, and the orthodoxy label ignores Monte Verde. Recommend 'partial'.",
+  "issues": [
+    {
+      "severity": "major",
+      "field": "objections[1].outcome",
+      "problem": "The Poinar et al. objection (DNA authenticity plus date reliability) is coded 'wrong', but the DNA half partly held. S9 full text: 'Six of the coprolites classified as human using mtDNA contain fecal biomarkers indicative of carnivores'; 'the ambiguity remains that DNA is potentially mobile in sediments'. The abstract says S9 'raise[s] questions over the reliance on DNA methods'. S9 also reports that Jenkins et al.'s dates on one camelid coprolite differed between macrofossils (12,125 ± 30) and water-soluble extract (11,315 ± 25 14C BP), which points to mobile solutes. Shillito et al. 2018, abstract: 'Questions remain over whether the coprolites themselves are human, or whether the DNA is mobile in the sediments.' Leaching is the critique the brief names, and the record never states it explicitly.",
+      "fix": "Split this into two objections. (a) DNA contamination or leaching: outcome 'held' (in part), citing S9 and Shillito et al. 2018. (b) Unreliable oldest dates and no intact stratigraphy: outcome 'wrong', because there are now 285 dates and a basketry element dated 12,273 ± 56 14C BP lies above coprolite 185, 'confirming the pre-Clovis age and stratigraphic integrity' (S9).",
+      "evidence": "S9 full text, https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7363456/fullTextXML ; Shillito et al. 2018 PaleoAmerica 4(1):82-86, doi:10.1080/20555563.2017.1396167"
+    },
+    {
+      "severity": "major",
+      "field": "objections[0].text, objections[0].outcome_note, objections[3]",
+      "problem": "Goldberg et al. argued that the specimen came from a herbivore, not a 'carnivore/omnivore'. The S4 abstract says they 'argue that Paisley Cave pre-Clovis coprolite 1374-5/5D-31-2 is of herbivore, rather than human, origin'. The outcome note says the specimen 'was not independently re-tested', yet Sistiaga et al. 2014 (S7) re-tested it with steroid biomarkers and found 'predominant presence of 5β-stigmastanol, the biomarker of herbivore fecal matter, supporting micromorphological identification of the coprolite as herbivore' (Semantic Scholar summary of the abstract). Objection 4 says S7's conclusion could not be found, but it was retrievable.",
+      "fix": "Change 'carnivore/omnivore' to 'herbivore'. Merge objections 1 and 4, which concern the same specimen and the same critics' team, into one objection with outcome 'held' for that specimen: two non-DNA methods agree, and S9 shows that human mtDNA does occur in non-human coprolites. Note that the biomarker test was run by the critics' own group, and that this result does not overturn human presence at the site.",
+      "evidence": "S4 abstract (doi:10.1126/science.1167672); https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.jas.2013.10.016?fields=tldr"
+    },
+    {
+      "severity": "major",
+      "field": "what_settled_it, status_note, timeline[2].event, objections[1].outcome_note, notes, accepted_age.basis, settled_by",
+      "problem": "The record presents the Western Stemmed points as pre-Clovis evidence, e.g. 'Western Stemmed points in pre-Clovis-age deposits'. S6 dates them to 11,070-11,340 14C BP, 'contemporaneous with or preceding' Clovis, and its title calls them 'Clovis Age'. They are not evidence for the ~14.3 ka occupation. The record also lists 'replicated DNA' and blind DNA re-testing as settling evidence, although S9 questions reliance on the DNA.",
+      "fix": "Base the pre-Clovis case on three lines: the biomarker-confirmed coprolites (the oldest is 12,260 ± 60 14C BP), the bulrush twined-basketry element dated 12,273 ± 56 14C BP (S9), and two cut-marked bones directly dated to before ca. 13,100 cal BP (Hockett & Jenkins 2013). Describe the WST points as Clovis-age. Remove 'dna' from settled_by and remove the DNA re-test from accepted_age.basis.",
+      "evidence": "S6 abstract; S9 full text; Hockett & Jenkins 2013 American Antiquity 78(4):762-778, doi:10.7183/0002-7316.78.4.762"
+    },
+    {
+      "severity": "major",
+      "field": "status, failure_mode, status_note, hook",
+      "problem": "'vindicated' overstates the case. The date held, but the 2008 headline method, identifying human coprolites by mtDNA, partly failed. Six of 21 re-tested coprolites that mtDNA classed as human gave carnivore biomarkers. The critics' specimen tested as herbivore by two methods. The two oldest coprolites (12,345 ± 55 and 12,125 ± 30 14C BP) had too little lipid to test (S9). Pre-Clovis presence now rests on 3 coprolites, 2 cut bones and 1 basketry element, all from one research program, and no independent team has excavated. The catalog uses 'partial' for this pattern, where the core holds and part of the claim fails (gobekli-tepe, jebel-irhoud). The hook's 'Human DNA ... then confirmed by fat chemistry' misstates S9. No reviewed source supports 'broadly accepted'.",
+      "fix": "Set status to 'partial', set failure_mode to 'contamination' (DNA mobility or leaching), and keep year_resolved 2020. Add decisive_tests, which the schema requires for 'partial'. Suggested tests: an independent-lab biomarker analysis of split samples from the 3 pre-Clovis coprolites (medium); a low-lipid method on coprolites 185 and 283 (medium); second-lab AMS dates on further pre-Clovis perishables or cut bones (low). Rewrite status_note and hook to say that the date held but the DNA did not, and cite a post-2020 synthesis for current acceptance.",
+      "evidence": "S9 full text (PMC7363456); catalog/cases/gobekli-tepe.json, catalog/cases/jebel-irhoud.json"
+    },
+    {
+      "severity": "major",
+      "field": "orthodoxy_at_claim",
+      "problem": "The label 'Clovis-first: no securely dated human presence earlier than Clovis' is contradicted by its own source. S11's abstract ends: 'This and other evidence imply that humans already lived in the Americas before Clovis.' The catalog codes Monte Verde (~14,500 cal BP) as vindicated in 1997, and it uses post-Monte-Verde limits for later claims (cerutti-mastodon 15000, white-sands 16500). With limit_bp 13000 the leap factor is inflated. The '~13,000-12,700 cal BP' conversion is not in S11's abstract. Hockett & Jenkins 2013 place the start of Clovis at ca. 13,100 cal BP.",
+      "fix": "Relabel along these lines: 'Clovis (11,050-10,800 14C BP) was the oldest widely accepted North American culture; Monte Verde (~14.5 ka) had been accepted for South America since 1997.' Set limit_bp to 14500 for consistency, or adopt a documented North-America-only limit of about 13100. Cite S11 plus the Monte Verde acceptance source.",
+      "evidence": "S11 abstract (doi:10.1126/science.1137166); catalog/cases/monte-verde.json; catalog/cases/cerutti-mastodon.json; catalog/cases/white-sands.json"
+    },
+    {
+      "severity": "major",
+      "field": "objections[2]",
+      "problem": "The objection about small sample size and dependence on one team is attributed to 'critics, summarized in Poinar et al. 2009'. S3's abstract does not contain it, and neither does the abstract of S6, which the objection cites. Its 'wrong' outcome is also doubtful: all corroborating evidence (2012 dates, 2013 cut marks, 2020 biomarkers and basketry) still comes from the Jenkins program, and only 3 coprolites are biomarker-confirmed. An unsourced objection coded 'wrong' would bias the analysis of which objections proved wrong.",
+      "fix": "Remove it, or cite the text that actually raised it and code the outcome 'unresolved'.",
+      "evidence": "S3 and S6 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "features_at_claim.independent_teams",
+      "problem": "Coded 'yes' by counting the critics' team and the blind-test lab, which the proponents commissioned and which is already counted under multiple_labs. No independent group produced corroborating evidence within ~5 years. The other features are coded as things stood in 2008-2013, with no hindsight problem.",
+      "fix": "Change to 'partial', with a note that only the blind-test lab was independent.",
+      "evidence": "S2, S6 abstracts"
+    },
+    {
+      "severity": "minor",
+      "field": "sources[S8].verification, timeline[3].source",
+      "problem": "S8 is marked 'checked', but its own note says Fiedel's verdict could not be confirmed. Only the first page is readable; it calls Monte Verde 'purported' evidence. The 2014 timeline event combines Sistiaga (S7) and Fiedel but cites only S8.",
+      "fix": "Downgrade S8 to 'exists'. Cite S7 for the Sistiaga part of the event. An open preprint exists (doi:10.3378/027.086.0104, Wayne State humbiol_preprints article 1046), but it returned HTTP 403 to us.",
+      "evidence": "python3 scripts/lookup.py doi 10.3378/027.086.0104"
+    },
+    {
+      "severity": "minor",
+      "field": "timeline[5]",
+      "problem": "The S10 abstract gives Paisley's archaeological record as 13,000-6000 cal BP. It does not address the ~14.3 ka levels, so 'no challenge to the pre-Clovis chronology' is an argument from silence.",
+      "fix": "Remove that phrase or remove the event.",
+      "evidence": "S10 abstract (doi:10.1017/qua.2023.44)"
+    },
+    {
+      "severity": "minor",
+      "field": "corrections",
+      "problem": "None of the three entries corrects the brief. The brief's '~14,300 cal BP' is the calibrated equivalent, as the draft itself accepts. The brief never says Shillito 2020 appeared in Science; it says only 'e.g. Shillito et al. 2020'. Leaving out Sistiaga 2014 is not an error.",
+      "fix": "Delete all three entries and move the Sistiaga point to notes.",
+      "evidence": "catalog/briefs.json (paisley-caves)"
+    },
+    {
+      "severity": "minor",
+      "field": "confidence, confidence_note",
+      "problem": "The confidence note says S1, S6 and S9 were 'checked in full', but the source notes say only abstracts were read. S9's full text contradicts several fields.",
+      "fix": "Set confidence to 'low' until the record is revised, then 'medium'. State accurately how deeply each source was read.",
+      "evidence": "S1/S6/S9 notes vs S9 full text"
+    },
+    {
+      "severity": "minor",
+      "field": "sources, timeline, evidence_types, claim, notes",
+      "problem": "Several items are missing or unclear. Hockett & Jenkins 2013 (cut-marked pre-Clovis bones) and Shillito et al. 2018 are absent. 'fauna' is missing from evidence_types. Coprophagy (S9) and bioturbation or site formation are not listed as mundane explanations. In the claim, 'before or alongside Clovis' mixes the 2008 pre-Clovis claim with the 2012 Clovis-age WST claim, and 'recovered human coprolites' assumes the disputed identification.",
+      "fix": "Add both sources, 2013 and 2014 timeline events, and 'fauna'. Reword the claim as: coprolites containing human mtDNA, directly dated to 12,300 14C BP (~14.3 ka), i.e. before Clovis.",
+      "evidence": "doi:10.7183/0002-7316.78.4.762; doi:10.1080/20555563.2017.1396167"
+    }
+  ],
+  "sources_checked": [
+    {"id": "S1", "exists": true, "supports_citation": "yes", "note": "Abstract: 12,300 14C BP, direct AMS dates, haplogroups A2/B2. The field-school detail is not in the abstract, but it is uncontroversial."},
+    {"id": "S2", "exists": true, "supports_citation": "partial", "note": "Abstract supports the micromorphology/FTIR conflict with the DNA, but not 'carnivore/omnivore'. S4 shows the critics argued herbivore."},
+    {"id": "S3", "exists": true, "supports_citation": "yes", "note": "Abstract: DNA authenticity questioned, no intact stratigraphy or diagnostic artifacts, carbon-isotope anomalies. It does not contain the sample-size objection attributed to it."},
+    {"id": "S4", "exists": true, "supports_citation": "yes", "note": "Abstract confirms the rebuttal and new genetic data, and names specimen 1374-5/5D-31-2 as argued 'herbivore'."},
+    {"id": "S5", "exists": true, "supports_citation": "yes", "note": "Abstract: the authors stand by their DNA and radiocarbon conclusions."},
+    {"id": "S6", "exists": true, "supports_citation": "partial", "note": "Abstract: >100 dates, WST points at 11,070-11,340 14C BP ('Clovis Age', not pre-Clovis), independent blind DNA test. It does not support 'WST in pre-Clovis deposits' or objection 3."},
+    {"id": "S7", "exists": true, "supports_citation": "partial", "note": "Paywalled. The Semantic Scholar summary says the steroid biomarkers show a herbivore source; this is retrievable, contrary to the draft's note."},
+    {"id": "S8", "exists": true, "supports_citation": "could-not-read", "note": "Only the first page is readable. The skeptical framing is plausible but the verdict is unconfirmed, so 'exists', not 'checked'."},
+    {"id": "S9", "exists": true, "supports_citation": "partial", "note": "Full text read. It supports 3 human pre-Clovis coprolites and the basketry date of 12,273 ± 56 14C BP. It contradicts the DNA-based vindication: 6 'human' mtDNA coprolites are carnivore, and the 2 oldest coprolites could not be tested."},
+    {"id": "S10", "exists": true, "supports_citation": "partial", "note": "Abstract: 'well-dated stratigraphy', but the record covers 13,000-6000 cal BP, so 'no challenge' is from silence."},
+    {"id": "S11", "exists": true, "supports_citation": "partial", "note": "Abstract supports the Clovis range 11,050-10,800 14C BP, but says pre-Clovis occupation is implied, which contradicts the orthodoxy label. The cal range is not in the abstract."}
+  ]
+}

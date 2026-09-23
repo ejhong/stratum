@@ -1,0 +1,68 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Evidence for European presence in the Americas in ad 1021",
+  "crossref_year": 2022,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "A Critical Review of Radiocarbon Dating of a Norse Settlement at L'Anse Aux Meadows, Newfoundland Canada",
+  "crossref_year": 1989,
+  "crossref_venue": "Radiocarbon",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "L'Anse Aux Meadows, Leif Eriksson's Home in Vinland",
+  "crossref_year": 2009,
+  "crossref_venue": "Journal of the North Atlantic",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Norse in Newfoundland: A critical examination of archaeological research at the Norse site at L’Anse aux Meadows, Newfoundland",
+  "crossref_year": 2012,
+  "crossref_venue": "",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "L’Anse aux Meadows and Vinland: An Abandoned Experiment",
+  "crossref_year": 2003,
+  "crossref_venue": "Studies in the Early Middle Ages Contact, Continuity, and Collapse",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Discovery of a Norse Settlement in America. Excavations at L’anse Aux Meadows, Newfoundland 1961–1968 by Anne Stine Ingstad (review)",
+  "crossref_year": 1980,
+  "crossref_venue": "Swedish-American Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Discovery of a Norse Settlement in America: Excavations at L'Anse aux Meadows, Newfoundland, 1961-1968",
+  "crossref_year": 1979,
+  "crossref_venue": "Journal of Interdisciplinary History",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ }
+}

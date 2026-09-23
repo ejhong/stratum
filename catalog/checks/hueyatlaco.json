@@ -1,0 +1,90 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Dilemma posed by uranium-series dates on archaeologically significant bones from Valsequillo, Puebla, Mexico",
+  "crossref_year": 1969,
+  "crossref_venue": "Earth and Planetary Science Letters",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Geologic Evidence for Age of Deposits at Hueyatlaco Archeological Site, Valsequillo, Mexico",
+  "crossref_year": 1981,
+  "crossref_venue": "Quaternary Research",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Commentary on Geologic Evidence for Age of Deposits at Hueyatlaco Archaeological Site, Valsequillo, Mexico",
+  "crossref_year": 1981,
+  "crossref_venue": "Quaternary Research",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Reply to Comments by C. Irwin-Williams: Archeological site, Valsequillo, Mexico",
+  "crossref_year": 1981,
+  "crossref_venue": "Quaternary Research",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Comments on the Associations of Archaeological Materials and Extinct Fauna in the Valsequillo Region, Puebla, Mexico",
+  "crossref_year": 1969,
+  "crossref_venue": "American Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Valsequillo Pleistocene archaeology and dating: ongoing controversy in Central Mexico",
+  "crossref_year": 2006,
+  "crossref_venue": "World Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Valsequillo biostratigraphy: New evidence for Pre-Clovis date",
+  "crossref_year": 1997,
+  "crossref_venue": "Anthropologischer Anzeiger",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Redating Iztapan and Valsequillo, Mexico",
+  "crossref_year": 2000,
+  "crossref_venue": "Radiocarbon",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Corroboration of Sangamonian age of artifacts from the Valsequillo region, Puebla, Mexico by means of diatom biostratigraphy",
+  "crossref_year": 2004,
+  "crossref_venue": "Micropaleontology",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Use of diatoms in determining age and paleoenvironment of the Valsequillo (Hueyatlaco) early man site, Puebla, Mexico, with corroboration by Chrysophyta cysts for a maximum Yarmouthian (430,000–500,00",
+  "crossref_year": 2010,
+  "crossref_venue": "Nova Hedwigia, Beihefte",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Redefining the Age of Clovis: Implications for the Peopling of the Americas",
+  "crossref_year": 2007,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ }
+}

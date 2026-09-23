@@ -107,5 +107,55 @@
    "width": 1400,
    "height": 412
   }
+ ],
+ "glozel": [
+  {
+   "file": "plates/glozel/glozel-commission-internationale.jpg",
+   "caption": "The International Commission excavating at Glozel, November 1927.",
+   "commons_file": "File:Glozel-commission internationale.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "credit": "Agence de presse Meurisse",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Glozel-commission_internationale.jpg",
+   "width": 1400,
+   "height": 911
+  },
+  {
+   "file": "plates/glozel/glozel-mus-e-2008.jpg",
+   "caption": "Entrance to the Glozel site museum, Ferrieres-sur-Sichon, Allier, photographed in 2008.",
+   "commons_file": "File:Glozel-musée-2008.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "credit": "V. Mourre / 120",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Glozel-mus%C3%A9e-2008.jpg",
+   "width": 1400,
+   "height": 963
+  }
+ ],
+ "homo-floresiensis": [
+  {
+   "file": "plates/homo-floresiensis/homo-floresiensis.jpg",
+   "caption": "A reconstructed Homo floresiensis skull cast, showing the small braincase central to the microcephaly debate.",
+   "commons_file": "File:Homo floresiensis.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "credit": "Ryan Somma",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Homo_floresiensis.jpg",
+   "width": 1400,
+   "height": 1556
+  }
+ ],
+ "kensington-runestone": [
+  {
+   "file": "plates/kensington-runestone/kensington-runestone.jpg",
+   "caption": "The Kensington Runestone, a 202-pound greywacke slab inscribed with runes on its face and side.",
+   "commons_file": "File:Kensington Runestone.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "credit": "Mauricio Valle",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kensington_Runestone.jpg",
+   "width": 1400,
+   "height": 1867
+  }
  ]
 }

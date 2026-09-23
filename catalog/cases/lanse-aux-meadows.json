@@ -1,0 +1,318 @@
+{
+  "id": "lanse-aux-meadows",
+  "name": "L'Anse aux Meadows",
+  "hook": "A Newfoundland hamlet's 'old Indian camp' turned out to be the Vinland sagas' confirmed Norse site.",
+  "location": {
+    "country": "Canada",
+    "region": "Newfoundland and Labrador",
+    "continent": "North America"
+  },
+  "anomaly_type": "legend",
+  "claim": "Explorer Helge Ingstad and archaeologist Anne Stine Ingstad proposed that mounds at L'Anse aux Meadows, Newfoundland were a genuine Norse settlement, confirming that the Vinland sagas' account of Leif Erikson-era voyages to North America was real, not legend.",
+  "claimed_age": {
+    "label": "c. AD 1000 (assumed historical age, per saga chronology)",
+    "bp_min": 900,
+    "bp_max": 1000,
+    "basis": "Not a measured date: the 'assumed historical age of ca AD 1000' from the sagas' Leif Erikson chronology, adopted by Ingstad as the working estimate before precise dating existed.",
+    "source": "S2"
+  },
+  "accepted_age": {
+    "label": "AD 1021 (tree-ring); site range c. AD 975-1050",
+    "bp_min": 900,
+    "bp_max": 975,
+    "basis": "Kuitems 2022: wiggle-matching the AD 993 cosmic-ray spike in 3 Norse-worked wood items (127 AMS dates, 2 labs) dates felling to AD 1021. Nydal 1989: the wider series calibrates to AD 975-1020.",
+    "source": "S1"
+  },
+  "orthodoxy_at_claim": {
+    "label": "Columbus (1492) was credited with discovering America; the sagas were saga tradition of disputed historicity with no confirmed Norse trace in North America.",
+    "source": "S3"
+  },
+  "year_claimed": 1837,
+  "key_proponents": [
+    "Helge Ingstad",
+    "Anne Stine Ingstad",
+    "Birgitta Linderoth Wallace",
+    "Margot Kuitems"
+  ],
+  "key_critics": [
+    "Reidar Nydal",
+    "J. E. Kay"
+  ],
+  "evidence_types": [
+    "radiocarbon",
+    "stratigraphy",
+    "architecture",
+    "artifacts",
+    "features",
+    "written-sources",
+    "plant-remains"
+  ],
+  "independent_methods_count": 5,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "partial",
+      "note": "Turf-wall foundations resembling Norse longhouses were suggestive at first; a bronze pin, spindle whorl and iron boat rivets (no Indigenous parallel), recovered 1961-1968, became decisive.",
+      "source": "S8"
+    },
+    "documented_context": {
+      "value": "yes",
+      "note": "Excavated in place by the Ingstads' team 1961-1968; sod building foundations, an iron smithy with slag, and a boat-repair area with worn rivets were recorded in situ.",
+      "source": "S8"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "Radiocarbon only through the 1960s-80s; a second independent technique (AMS plus dendrochronological wiggle-matching to a cosmic-ray event) was not applied until Kuitems et al. 2022.",
+      "source": "S2"
+    },
+    "multiple_labs": {
+      "value": "unknown",
+      "note": "Nydal (1989) reviews the site's full radiocarbon series but does not break out how many labs contributed within the first five years specifically.",
+      "source": "S2"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Led by trained archaeologist Anne Stine Ingstad with an international, multi-specialist team.",
+      "source": "S6"
+    },
+    "peer_reviewed_report": {
+      "value": "partial",
+      "note": "Preliminary and short scholarly notices appeared soon after 1960; the full peer-reviewed excavation volume followed only later in the 1970s (reviewed independently at S6 and S7).",
+      "source": "S6"
+    },
+    "material_accessible": {
+      "value": "unknown",
+      "note": "No source found this session on critics' access to the site or collections in the 1960s."
+    },
+    "independent_teams": {
+      "value": "no",
+      "note": "The 1961-1968 fieldwork was conducted by the Ingstads' own international team; Parks Canada's independently led follow-up work came somewhat later.",
+      "source": "S8"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No commercial, religious, nationalist or fame-seeking motive beyond ordinary explorer/scholarly interest is documented for the Ingstads in the sources reviewed."
+    }
+  },
+  "objections": [
+    {
+      "text": "Before 1960 the Vinland sagas were widely treated as embellished tradition; many doubted a Norse site would ever be confirmed, and 19th-century attempts to pinpoint 'Vinland' (Rafn, Massachusetts) had failed.",
+      "kind": "prior",
+      "raised_by": "general historiographical consensus pre-1960",
+      "year": null,
+      "outcome": "wrong",
+      "outcome_note": "The Ingstads' 1960-1968 excavations and later independent work established a genuine 11th-century Norse settlement in Newfoundland.",
+      "source": "S3"
+    },
+    {
+      "text": "Early radiocarbon dates on site wood and charcoal risked being skewed old by the 'old wood'/driftwood effect (reused, long-dead wood), undermining confidence in the chronology.",
+      "kind": "dating",
+      "raised_by": "radiocarbon specialists (reviewed by Reidar Nydal)",
+      "year": 1989,
+      "outcome": "wrong",
+      "outcome_note": "Nydal's 1989 review found no excess error in the site's charcoal dates and calibrated the range to AD 975-1020; Kuitems et al. (2022) independently reached AD 1021 with a different technique and different labs.",
+      "source": "S2"
+    },
+    {
+      "text": "Even granting a genuine Norse camp, its identity with a specific named saga place (e.g. Leif Erikson's 'Leifsbudir') is unproven; the grape-bearing 'Vinland' proper was probably farther south.",
+      "kind": "identification",
+      "raised_by": "Birgitta L. Wallace and saga scholars",
+      "year": null,
+      "outcome": "unresolved",
+      "outcome_note": "Accepted as a genuine, short-lived Norse base or 'gateway' further south; correspondence to specific saga place-names stays interpretive, per Wallace's own 'abandoned experiment' framing.",
+      "source": "S5"
+    },
+    {
+      "text": "Reassessment of the excavation reports raises open questions about the settlement's population size, length of occupation and primary function (exploration/ship-repair base versus fuller settlement).",
+      "kind": "context",
+      "raised_by": "J. E. Kay",
+      "year": 2012,
+      "outcome": "unresolved",
+      "outcome_note": "Norse identity and approximate date are not disputed; functional and demographic interpretation continues to be refined.",
+      "source": "S4"
+    },
+    {
+      "text": "A comparable claim of a second Norse site in Newfoundland (Point Rosee, proposed from satellite imagery) shows that new 'Norse' claims are not automatically accepted.",
+      "kind": "other",
+      "raised_by": "Sarah Parcak and colleagues (2015-2016 test excavation)",
+      "year": 2016,
+      "outcome": "held",
+      "outcome_note": "Test excavations at Point Rosee found no evidence of Norse or any pre-modern human activity there, unlike the well-documented evidence at L'Anse aux Meadows.",
+      "source": "S8"
+    }
+  ],
+  "status": "vindicated",
+  "status_note": "Norse presence at the site is accepted without serious dissent; open questions are interpretive only (settlement's function/duration; whether it matches a specific named saga place like 'Leifsbudir'), not whether it is genuinely Norse.",
+  "year_resolved": 1978,
+  "what_settled_it": "Independent Parks Canada re-excavation after 1968 recovered further Norse artifacts (bronze cloak pin, spindle whorl, iron boat rivets) and an iron smithy; National Historic Site (1968) and UNESCO World Heritage (1978) status confirmed settled scholarly consensus.",
+  "settled_by": [
+    "new-excavation",
+    "expert-review",
+    "independent-redating"
+  ],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 1837,
+      "event": "Rafn's Antiquitates Americanae argues from the sagas that Norse voyagers reached North America; his proposed sites lie far south, in Massachusetts.",
+      "source": "S9"
+    },
+    {
+      "year": 1960,
+      "event": "Local resident George Decker leads explorer Helge Ingstad to grassy mounds near L'Anse aux Meadows, locally known as an 'old Indian camp.'",
+      "source": "S8"
+    },
+    {
+      "year": 1961,
+      "event": "Helge and Anne Stine Ingstad begin an international team's excavation of the mounds.",
+      "source": "S8"
+    },
+    {
+      "year": 1968,
+      "event": "Excavations conclude, having uncovered eight or nine sod buildings including an iron smithy; the site is designated a National Historic Site of Canada.",
+      "source": "S8"
+    },
+    {
+      "year": 1978,
+      "event": "L'Anse aux Meadows is inscribed as Canada's first UNESCO World Heritage Site.",
+      "source": "S8"
+    },
+    {
+      "year": 1989,
+      "event": "Nydal's critical review of the site's radiocarbon series calibrates the occupation to about AD 975-1020, matching the sagas' assumed historical age.",
+      "source": "S2"
+    },
+    {
+      "year": 2012,
+      "event": "Kay's critical reassessment of the excavation reports questions aspects of the settlement's function and duration.",
+      "source": "S4"
+    },
+    {
+      "year": 2016,
+      "event": "Test excavations at Point Rosee, a proposed second Newfoundland Norse site, find no evidence of Norse presence.",
+      "source": "S8"
+    },
+    {
+      "year": 2021,
+      "event": "Kuitems et al. use the AD 993 cosmic-ray radiocarbon spike to precisely date Norse-cut wood at L'Anse aux Meadows to AD 1021.",
+      "source": "S1"
+    }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Systematic survey of candidate 'gateway' routes along the Gulf of St Lawrence and New Brunswick coast for further short-term Norse camps.",
+      "would_show": "Whether L'Anse aux Meadows was one stop among several, supporting its 'base camp/gateway' interpretation over a single isolated visit.",
+      "cost": "high"
+    },
+    {
+      "test": "Renewed archaeobotanical and micromorphological study of the peat/turf stratigraphy for occupation-duration markers.",
+      "would_show": "How long and how many times the site was occupied, addressing the population/duration debate raised by Kay (2012).",
+      "cost": "medium"
+    }
+  ],
+  "falsifier": "Independent re-analysis showing the diagnostic artifacts (bronze pin, spindle whorl, iron rivets, smithy slag) are not Norse-made, or that the AD 1021 wood dates were misidentified or contaminated, would overturn this record's status or precise dating.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Kuitems, M.; Wallace, B.L.; Lindsay, C.; Scifo, A. et al. (2022). Evidence for European presence in the Americas in ad 1021. Nature 601(7893): 388-391.",
+      "doi": "10.1038/s41586-021-03972-8",
+      "url": "https://www.nature.com/articles/s41586-021-03972-8",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read full text: 127 AMS 14C dates (115 Groningen, 12 Mannheim) on 3 Norse-worked wood items from different trees, each with the AD 993 cosmic-ray spike; wiggle-matching gives AD 1021."
+    },
+    {
+      "id": "S2",
+      "citation": "Nydal, R. (1989). A Critical Review of Radiocarbon Dating of a Norse Settlement at L'Anse Aux Meadows, Newfoundland Canada. Radiocarbon 31(3): 976-985.",
+      "doi": "10.1017/s0033822200012613",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2278148D033FEB9E42DD0A78B742CE13/S0033822200012613a.pdf/div-class-title-a-critical-review-of-radiocarbon-dating-of-a-norse-settlement-at-l-anse-aux-meadows-newfoundland-canada-div.pdf",
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read abstract: driftwood/old-wood contamination was the main worry; charcoal shows no excess error; calibrated range AD 975-1020, matching the assumed historical age and later AMS dates."
+    },
+    {
+      "id": "S3",
+      "citation": "Wallace, B. (2009). L'Anse Aux Meadows, Leif Eriksson's Home in Vinland. Journal of the North Atlantic 201: 114-125.",
+      "doi": "10.3721/037.002.s212",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: historicity of Vinland sagas long debated; literary historians see most content as fictional; historians grant partial validity but could not fix a location before 1960."
+    },
+    {
+      "id": "S4",
+      "citation": "Kay, J.E. (2012). Norse in Newfoundland: A critical examination of archaeological research at the Norse site at L'Anse aux Meadows, Newfoundland. BAR International Series, Archaeopress.",
+      "doi": "10.30861/9781407309224",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: Ingstad sought the 'much hypothesized and mythical' Vinland; re-examines Ingstad and Wallace excavation reports on diet and site function, not on Norse identity."
+    },
+    {
+      "id": "S5",
+      "citation": "Wallace, B.L. (2003). L'Anse aux Meadows and Vinland: An Abandoned Experiment. In Studies in the Early Middle Ages: Contact, Continuity, and Collapse, pp. 207-238.",
+      "doi": "10.1484/m.sem-eb.3.3837",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref confirms title, venue and pages; only the edited volume's overview abstract was available, not Wallace's chapter text, so used only for the chapter's title/thesis."
+    },
+    {
+      "id": "S6",
+      "citation": "Wahlgren, E. (1980). The Discovery of a Norse Settlement in America. Excavations at L'Anse Aux Meadows, Newfoundland 1961-1968 by Anne Stine Ingstad (review). Swedish-American Studies 31(1): 71-73.",
+      "doi": "10.1353/swe.1980.a948277",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref confirms this reviews Anne Stine Ingstad's official excavation report (title, 1961-1968 dates); review text itself not read."
+    },
+    {
+      "id": "S7",
+      "citation": "Haugen, E. (1979). Review of The Discovery of a Norse Settlement in America: Excavations at L'Anse aux Meadows, Newfoundland, 1961-1968, by Anne Stine Ingstad. Journal of Interdisciplinary History 10(1): 176.",
+      "doi": "10.2307/203319",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref/JSTOR author field conflates the reviewer (Haugen) with the reviewed book's author (Ingstad); a second independent review of the same 1977 report. Content not read."
+    },
+    {
+      "id": "S8",
+      "citation": "Wikipedia contributors. L'Anse aux Meadows. Wikipedia, The Free Encyclopedia (accessed 23 September 2026).",
+      "doi": null,
+      "url": "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows",
+      "kind": "other",
+      "access": "open",
+      "verification": "checked",
+      "note": "Tertiary source read for factual scaffolding: 1960 discovery via George Decker, 1961-1968 excavation, 1968 National Historic Site and 1978 UNESCO status, artifact list, Point Rosee (2016)."
+    },
+    {
+      "id": "S9",
+      "citation": "Wikipedia contributors. Vinland. Wikipedia, The Free Encyclopedia (accessed 23 September 2026).",
+      "doi": null,
+      "url": "https://en.wikipedia.org/wiki/Vinland",
+      "kind": "other",
+      "access": "open",
+      "verification": "checked",
+      "note": "Tertiary source read for Carl Christian Rafn's Antiquitates Americanae (1837), the first detailed scholarly case for real Norse voyages to North America, which placed Vinland in Massachusetts."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Core dating (S1) and radiocarbon history (S2) read in full. S5-S7 are exists-level only. Two Wikipedia articles fill factual scaffolding pending direct primary checks.",
+  "corrections": [
+    "Starter notes implied year_claimed might default to 1960; set to 1837 (Rafn's Antiquitates Americanae) instead, the first detailed modern claim that the sagas reflect real voyages, though Rafn's own sites were wrong.",
+    "Ingstad did not find the site unaided: local resident George Decker led him to the mounds in 1960 (S8).",
+    "Kuitems et al.'s AD 1021 is a precise felling/cutting date for specific worked-wood samples, not a claim that the whole site was occupied in exactly one year; the wider radiocarbon series calibrates to about AD 975-1020 (S2)."
+  ],
+  "notes": "year_claimed (1837) marks Rafn's first detailed case that the sagas describe real voyages; his sites were wrong and no physical evidence existed until 1960, so features_at_claim is coded for the Ingstads' 1960-1968 discovery/excavation instead, the episode actually vindicated. independent_methods_count (5): radiocarbon; AMS/dendro cosmic-ray wiggle-matching; artifact/architectural typology vs. Greenland-Iceland; archaeobotany (butternuts implying voyages south); iron-smithing archaeometallurgy. Parks Canada follow-up excavation years (reportedly Wallace, 1970s) unconfirmed this session; flagged for the skeptic. No Commons plates added; none confirmed with a reusable license this session.",
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

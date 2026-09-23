@@ -1,0 +1,402 @@
+{
+  "id": "homo-floresiensis",
+  "name": "Homo floresiensis (\"the Hobbit\")",
+  "hook": "A 1-metre skeleton in a Flores cave, dismissed as a sick modern human, is now a distinct hominin species.",
+  "location": {
+    "country": "Indonesia",
+    "region": "Flores Island, East Nusa Tenggara",
+    "continent": "Asia"
+  },
+  "anomaly_type": "hominin",
+  "claim": "Skeletal remains from Liang Bua cave on Flores belong to a new, very small-bodied and small-brained hominin species, Homo floresiensis, that made stone tools and survived far later than any other archaic hominin known in Asia.",
+  "claimed_age": {
+    "label": "Present from before ~38,000 to at least ~18,000 years ago",
+    "bp_min": 18000,
+    "bp_max": 38000,
+    "basis": "Radiocarbon, luminescence, uranium-series and ESR dating of the Liang Bua sequence (Morwood et al. 2004); the wider H. floresiensis-bearing deposits were bracketed at about 95,000-12,000 years.",
+    "source": "S2"
+  },
+  "accepted_age": {
+    "label": "~100,000-60,000 years (skeleton); tools to ~50,000 years",
+    "bp_min": 60000,
+    "bp_max": 100000,
+    "basis": "2016 redating (TL, IRSL/pIRIR, 40Ar/39Ar, radiocarbon) in a sequence spanning ~190,000 years to the present; stone tools linked to the taxon continue to ~50,000 years ago.",
+    "source": "S14"
+  },
+  "orthodoxy_at_claim": {
+    "label": "Late Pleistocene Island Southeast Asia was assumed occupied only by modern Homo sapiens; no other hominin was expected to survive there almost to the present.",
+    "limit_bp": null,
+    "source": "S2"
+  },
+  "year_claimed": 2004,
+  "key_proponents": [
+    "Michael J. Morwood",
+    "Peter Brown",
+    "R.P. Soejono",
+    "Thomas Sutikna",
+    "Matthew Tocheri",
+    "Dean Falk"
+  ],
+  "key_critics": [
+    "Teuku Jacob",
+    "Maciej Henneberg",
+    "Robert B. Eckhardt",
+    "Israel Hershkovitz"
+  ],
+  "evidence_types": [
+    "radiocarbon",
+    "tl",
+    "osl",
+    "u-series",
+    "esr",
+    "ar-ar",
+    "stratigraphy",
+    "lithics",
+    "fauna",
+    "human-remains",
+    "morphology"
+  ],
+  "independent_methods_count": 4,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "partial",
+      "note": "The bones are unambiguously a small-bodied hominin skeleton; whether they represent a new species rather than a pathological modern human was disputed from the outset.",
+      "source": "S5"
+    },
+    "documented_context": {
+      "value": "yes",
+      "note": "LB1 and later individuals were excavated in situ over controlled seasons by the joint Indonesian-Australian team under an official research permit.",
+      "source": "S2"
+    },
+    "multiple_dating_methods": {
+      "value": "yes",
+      "note": "The original 2004 chronology combined radiocarbon, luminescence, uranium-series and ESR dating of the same sequence.",
+      "source": "S2"
+    },
+    "multiple_labs": {
+      "value": "yes",
+      "note": "Co-author affiliations include University of New England (Morwood) and University of Wollongong (Roberts, a luminescence specialist), among others.",
+      "source": "S2"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated by the joint Indonesian Centre for Archaeology / University of New England team under Indonesian government permit (2003 season).",
+      "source": "S2"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Two companion papers in Nature, October 2004, describing the skeleton and its archaeological and dating context.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "partial",
+      "note": "For about three months in 2005 the type specimen was held and studied by a rival Indonesian researcher rather than the describing team, before being returned.",
+      "source": "S4"
+    },
+    "independent_teams": {
+      "value": "yes",
+      "note": "Within five years, groups distinct from the excavators (Jacob et al. 2006; Hershkovitz et al. 2007) published independent pathology-based reinterpretations.",
+      "source": "S5"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "An academic Indonesian-Australian excavation project; no commercial, religious or nationalist motive documented for the describing team.",
+      "source": "S2"
+    }
+  },
+  "objections": [
+    {
+      "text": "LB1 is not a new species but comes from a small-bodied ('pygmy') Australomelanesian modern human population; LB1 itself also shows microcephaly and other developmental abnormalities.",
+      "kind": "identification",
+      "raised_by": "Teuku Jacob and colleagues",
+      "year": 2006,
+      "outcome": "wrong",
+      "outcome_note": "LB1's virtual endocast is not microcephalic or pygmy in shape (Falk et al. 2005); 2013 geometric morphometrics grouped LB1 with archaic Homo, not modern humans (Baab et al. 2013).",
+      "source": "S5"
+    },
+    {
+      "text": "The small stature and small head are explained by Laron syndrome, a growth-hormone-insensitivity disorder documented in modern human populations of the region.",
+      "kind": "identification",
+      "raised_by": "Israel Hershkovitz, Liora Kornreich, Zvi Laron",
+      "year": 2007,
+      "outcome": "wrong",
+      "outcome_note": "A 2013 geometric-morphometric comparison found LB1's cranial shape clearly distinct from Laron-syndrome and healthy modern humans alike, grouping instead with fossil Homo, closest to H. erectus.",
+      "source": "S8"
+    },
+    {
+      "text": "LB1's brain size and limb proportions match Down syndrome in a small-bodied modern human population, not diagnostic traits of a new species.",
+      "kind": "identification",
+      "raised_by": "Maciej Henneberg, Robert B. Eckhardt and colleagues",
+      "year": 2014,
+      "outcome": "wrong",
+      "outcome_note": "A 2016 re-evaluation, co-authored by original describer Peter Brown and endocast specialist Dean Falk, compared LB1 to clinical Down-syndrome samples and found it does not match the Down-syndrome pattern.",
+      "source": "S10"
+    },
+    {
+      "text": "It is unclear whether H. floresiensis is a dwarfed descendant of Asian Homo erectus or instead descends from an earlier, already small-brained hominin lineage that left Africa before H. erectus.",
+      "kind": "prior",
+      "raised_by": "Framed as an open question by van den Bergh et al. 2016",
+      "year": 2016,
+      "outcome": "unresolved",
+      "outcome_note": "Mata Menge fossils (700 ka) are as small as Liang Bua H. floresiensis and closest to early Asian H. erectus, favouring dwarfing from H. erectus; deep phylogeny still debated.",
+      "source": "S13"
+    }
+  ],
+  "status": "vindicated",
+  "status_note": "The new-species view is now accepted, supported by primitive wrist and brain anatomy, at least nine individuals, and ~700,000-year-old small-bodied ancestors at Mata Menge. A small minority still argue for pathology.",
+  "year_resolved": 2016,
+  "what_settled_it": "Comparative-morphology studies (2005-2016) repeatedly distinguished the Flores skeletons from microcephalic, Laron-syndrome and Down-syndrome humans, grouping them with archaic Homo; ~700,000-year-old Mata Menge fossils showed the lineage was ancient, not one pathological individual.",
+  "settled_by": [
+    "morphology",
+    "independent-redating",
+    "new-excavation",
+    "expert-review"
+  ],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 2003,
+      "event": "A joint Indonesian-Australian team excavates the LB1 skeleton at Liang Bua cave, Flores.",
+      "source": "S2"
+    },
+    {
+      "year": 2004,
+      "event": "Brown et al. and Morwood et al. name Homo floresiensis in Nature, dating LB1 to ~18,000 years within a ~95,000-12,000 year sequence.",
+      "source": "S1"
+    },
+    {
+      "year": 2005,
+      "event": "Teuku Jacob takes the type specimen to his own laboratory for about three months, restricting the describing team's access.",
+      "source": "S4"
+    },
+    {
+      "year": 2005,
+      "event": "Falk et al. publish a virtual endocast study finding LB1's brain shape is not microcephalic or pygmy.",
+      "source": "S3"
+    },
+    {
+      "year": 2006,
+      "event": "Jacob et al. argue in PNAS that the remains are a small-bodied modern human population, with LB1 individually microcephalic.",
+      "source": "S5"
+    },
+    {
+      "year": 2007,
+      "event": "Tocheri et al. report LB1's wrist bones retain a primitive, pre-modern-human form.",
+      "source": "S7"
+    },
+    {
+      "year": 2007,
+      "event": "Hershkovitz et al. propose LB1 represents Laron syndrome in a local inbred population.",
+      "source": "S8"
+    },
+    {
+      "year": 2014,
+      "event": "Henneberg, Eckhardt and colleagues argue in PNAS that LB1 shows the skeletal signature of Down syndrome.",
+      "source": "S10"
+    },
+    {
+      "year": 2016,
+      "event": "Sutikna et al. revise the Liang Bua chronology: skeletal remains ~100,000-60,000 years old, stone tools to ~50,000 years.",
+      "source": "S11"
+    },
+    {
+      "year": 2016,
+      "event": "Baab, Brown, Falk and Richtsmeier publish a critical evaluation rejecting the Down-syndrome diagnosis for LB1.",
+      "source": "S12"
+    },
+    {
+      "year": 2016,
+      "event": "Van den Bergh et al. report ~700,000-year-old small-bodied hominin fossils at Mata Menge, resembling early Asian H. erectus.",
+      "source": "S13"
+    },
+    {
+      "year": 2024,
+      "event": "Kaifu et al. describe an even smaller humerus and teeth from Mata Menge, confirming a diminutive lineage since at least ~700,000 years ago.",
+      "source": "S15"
+    }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Attempt ancient-DNA or palaeoproteomic extraction from Liang Bua or Mata Menge skeletal material using current tropical-preservation protocols.",
+      "would_show": "Direct genetic or protein-based placement of H. floresiensis relative to H. erectus and other hominins, and whether it falls within modern human variation.",
+      "cost": "medium"
+    },
+    {
+      "test": "Compare LB1's skeleton and endocast to enlarged clinical reference samples of Down syndrome and Laron syndrome using the same geometric-morphometric protocol used in 2013-2016.",
+      "would_show": "Whether the pathology diagnoses hold up against a larger comparative clinical sample than previously available.",
+      "cost": "low"
+    }
+  ],
+  "falsifier": "Ancient DNA or proteomics placing the Liang Bua skeletons within normal Homo sapiens variation, or a larger clinical comparison showing LB1 falls within the Down-syndrome or Laron-syndrome range rather than with archaic Homo, would overturn the new-species interpretation.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Brown, P., Sutikna, T., Morwood, M.J., Soejono, R.P. et al. (2004). A new small-bodied hominin from the Late Pleistocene of Flores, Indonesia. Nature 431(7012): 1055-1061.",
+      "doi": "10.1038/nature02999",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref metadata confirmed; no OpenAlex abstract, full text paywalled. LB1's description is corroborated by later checked sources (S3, S11) that cite and recap its findings."
+    },
+    {
+      "id": "S2",
+      "citation": "Morwood, M.J., Soejono, R.P., Roberts, R.G., Sutikna, T. et al. (2004). Archaeology and age of a new hominin from Flores in eastern Indonesia. Nature 431(7012): 1087-1091.",
+      "doi": "10.1038/nature02956",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via page fetch: 4 dating methods (14C, luminescence, U-series, ESR); species dated before ~38 to at least ~18 kyr; H. erectus-origin hypothesis; multi-institution author list."
+    },
+    {
+      "id": "S3",
+      "citation": "Falk, D., Hildebolt, C., Smith, K., Morwood, M.J. et al. (2005). The Brain of LB1, Homo floresiensis. Science 308(5719): 242-245.",
+      "doi": "10.1126/science.1109727",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full abstract read: LB1 is not a microcephalic or pygmy; brain/body ratio scales like an australopithecine but endocast shape resembles H. erectus."
+    },
+    {
+      "id": "S4",
+      "citation": "Culotta, E. (2005). Battle Erupts Over the 'Hobbit' Bones. Science 307(5713): 1179.",
+      "doi": "10.1126/science.307.5713.1179",
+      "url": null,
+      "kind": "news",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Teaser text read: for three months a rival researcher held the skeleton, invited other researchers to examine it, and removed a rib sample for DNA analysis."
+    },
+    {
+      "id": "S5",
+      "citation": "Jacob, T., Indriati, E., Soejono, R.P., Hsu, K. et al. (2006). Pygmoid Australomelanesian Homo sapiens skeletal remains from Liang Bua, Flores: Population affinities and pathological abnormalities. Proceedings of the National Academy of Sciences 103(36): 13421-13426.",
+      "doi": "10.1073/pnas.0605563103",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full abstract read: proposes LB1 from an earlier pygmy H. sapiens population with individual microcephaly; other remains share small body size but not microcephaly."
+    },
+    {
+      "id": "S6",
+      "citation": "Argue, D., Donlon, D., Groves, C., Wright, R. (2006). Homo floresiensis: Microcephalic, pygmoid, Australopithecus, or Homo?. Journal of Human Evolution 51(4): 360-374.",
+      "doi": "10.1016/j.jhevol.2006.04.013",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Crossref metadata confirmed; publisher page returned no readable text (paywalled). Widely cited as an early rebuttal of the pygmy/microcephaly hypotheses; not used alone to support a key field."
+    },
+    {
+      "id": "S7",
+      "citation": "Tocheri, M.W., Orr, C.M., Larson, S.G., Sutikna, T. et al. (2007). The Primitive Wrist of Homo floresiensis and Its Implications for Hominin Evolution. Science 317(5845): 1743-1745.",
+      "doi": "10.1126/science.1147143",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full abstract read: LB1 wrist bones retain morphology primitive for the African ape-human clade, unlike derived Neandertal/modern-human wrists; argues against an undiagnosed-pathology explanation."
+    },
+    {
+      "id": "S8",
+      "citation": "Hershkovitz, I., Kornreich, L., Laron, Z. (2007). Comparative skeletal features between Homo floresiensis and patients with primary growth hormone insensitivity (Laron syndrome). American Journal of Physical Anthropology 134(2): 198-208.",
+      "doi": "10.1002/ajpa.20655",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Full abstract read: proposes the Flores remains are a local, highly inbred H. sapiens population with a growth-hormone-receptor mutation (Laron syndrome), not a new species."
+    },
+    {
+      "id": "S9",
+      "citation": "Baab, K.L., McNulty, K.P., Harvati, K. (2013). Homo floresiensis Contextualized: A Geometric Morphometric Comparative Analysis of Fossil and Pathological Human Samples. PLoS ONE 8(7): e69119.",
+      "doi": "10.1371/journal.pone.0069119",
+      "url": null,
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: geometric morphometrics show LB1 distinct from healthy, hypothyroid and Laron-syndrome modern humans; LB1 groups with archaic Homo, closest to H. erectus."
+    },
+    {
+      "id": "S10",
+      "citation": "Henneberg, M., Eckhardt, R.B., Chavanaves, S., Hsu, K.J. (2014). Evolved developmental homeostasis disturbed in LB1 from Flores, Indonesia, denotes Down syndrome and not diagnostic traits of the invalid species Homo floresiensis. Proceedings of the National Academy of Sciences 111(33): 11967-11972.",
+      "doi": "10.1073/pnas.1407382111",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4143021",
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: LB1's endocranial volume and femur/foot proportions argued to fall in the range predicted for Down syndrome in a normal small-bodied regional population."
+    },
+    {
+      "id": "S11",
+      "citation": "Sutikna, T., Tocheri, M.W., Morwood, M.J., Saptomo, E.W. et al. (2016). Revised stratigraphy and chronology for Homo floresiensis at Liang Bua in Indonesia. Nature 532(7599): 366-369.",
+      "doi": "10.1038/nature17179",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract and Nature editor summary read via page fetch: skeleton-bearing strata older than first thought; the previous ~18 kyr age for LB1 and ~95-12 kyr deposit range are not supported."
+    },
+    {
+      "id": "S12",
+      "citation": "Baab, K.L., Brown, P., Falk, D., Richtsmeier, J.T. et al. (2016). A Critical Evaluation of the Down Syndrome Diagnosis for LB1, Type Specimen of Homo floresiensis. PLOS ONE 11(6): e0155731.",
+      "doi": "10.1371/journal.pone.0155731",
+      "url": null,
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: re-evaluated Down-syndrome features against clinical Down-syndrome and euploid samples via morphometrics; co-authored by describer P. Brown and endocast expert D. Falk."
+    },
+    {
+      "id": "S13",
+      "citation": "van den Bergh, G.D., Kaifu, Y., Kurniawan, I., Kono, R.T. et al. (2016). Homo floresiensis-like fossils from the early Middle Pleistocene of Flores. Nature 534(7606): 245-248.",
+      "doi": "10.1038/nature17999",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Nature editor summary read via page fetch: Mata Menge mandible/teeth, as small as or smaller than Liang Bua H. floresiensis, dated ~700,000 years; morphology supports derivation from Asian H. erectus."
+    },
+    {
+      "id": "S14",
+      "citation": "Sutikna, T., Tocheri, M.W., Faith, J.T., Jatmiko et al. (2018). The spatio-temporal distribution of archaeological and faunal finds at Liang Bua (Flores, Indonesia) in light of the revised chronology for Homo floresiensis. Journal of Human Evolution 124: 52-74.",
+      "doi": "10.1016/j.jhevol.2018.07.001",
+      "url": null,
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: skeletal remains ~100-60 ka; cultural (stone-tool) evidence to ~50 ka; H. floresiensis, Stegodon, marabou stork and vulture likely extinct by ~50 ka; sequence spans ~190 ka."
+    },
+    {
+      "id": "S15",
+      "citation": "Kaifu, Y., Kurniawan, I., Mizushima, S., Sawada, J. et al. (2024). Early evolution of small body size in Homo floresiensis. Nature Communications 15(1).",
+      "doi": "10.1038/s41467-024-50649-7",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full abstract read: Mata Menge adult humerus 9-16% shorter/thinner than the Liang Bua type specimen; diminutive body size on Flores since at least ~700,000 years, likely from early Asian H. erectus."
+    }
+  ],
+  "confidence": "high",
+  "confidence_note": "Nearly every objection and rebuttal is grounded in a directly read abstract or excerpt. The gap is Brown et al. (2004), confirmed via Crossref metadata and content described in later checked sources.",
+  "corrections": [
+    "Starter notes give the original age simply as '~18,000 years'. Morwood et al. (2004) claimed H. floresiensis existed from before ~38,000 to at least ~18,000 years ago, within deposits bracketed at ~95,000-12,000 years.",
+    "The 2016 revision is not one number: Sutikna et al. (2016, 2018) date the skeletal remains to ~100,000-60,000 years, while stone-tool evidence for the taxon persists to ~50,000 years, in a sequence spanning ~190,000 years.",
+    "Starter notes list three pathology hypotheses as if concurrent; they were proposed in sequence by separate groups (Jacob et al. 2006; Hershkovitz et al. 2007; Henneberg/Eckhardt et al. 2014), each later addressed by its own rebuttal study."
+  ],
+  "notes": "No ancient DNA or protein sequence from H. floresiensis is published as of 2026; a rib taken during the 2005 custody dispute does not appear to have yielded reported results. 'Hobbit' is a press nickname, not a formal designation. At least nine individuals are now attributed to the species, one reason a single-individual pathology reading is now a minority view. Mundane checks: excavation was by a credentialed team under permit; stratigraphic complexity, not fraud, explains the original age mismatch. Henneberg and Eckhardt's group still defends the Down-syndrome reading; this record treats that as unresolved dissent, not disproof of the rebuttal.",
+  "plates": [
+    {
+      "commons_file": "File:Homo floresiensis.jpg",
+      "caption": "A reconstructed Homo floresiensis skull cast, showing the small braincase central to the microcephaly debate."
+    }
+  ],
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

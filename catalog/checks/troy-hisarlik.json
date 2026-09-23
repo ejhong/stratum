@@ -1,0 +1,82 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "\"Finding the Walls of Troy\": Frank Calvert, Excavator",
+  "crossref_year": 1995,
+  "crossref_venue": "American Journal of Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Schliemann's ‘discovery’ of ‘Priam's Treasure’",
+  "crossref_year": 1983,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Troy in recent perspective",
+  "crossref_year": 2002,
+  "crossref_venue": "Anatolian Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Troy in clearer perspective",
+  "crossref_year": 2003,
+  "crossref_venue": "Anatolian Studies",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Late Bronze Age Troy: A Response to Frank Kolb",
+  "crossref_year": 2004,
+  "crossref_venue": "American Journal of Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Late Bronze Age Troy: A Response to P. Jablonka and C.B. Rose",
+  "crossref_year": 2005,
+  "crossref_venue": "American Journal of Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "4. The Hittite texts: Assuwa, Ahhiyawa, and Alaksandu of Wilusa",
+  "crossref_year": 2013,
+  "crossref_venue": "The Trojan War",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 61%, year ok, author ok",
+  "crossref_title": "Ist Troja das Wilusa der Hethiter? Über Namensassoziationen und ihre fatale Rolle bei der Historisierung Hisarlıks Is Troy the Hittite Wilusa? About name associations and their role in the historizati",
+  "crossref_year": 2019,
+  "crossref_venue": "Gephyra",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Harbor areas at ancient Troy: Sedimentology and geomorphology complement Homer's Iliad",
+  "crossref_year": 2003,
+  "crossref_venue": "Geology",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Troy treasures in Russia",
+  "crossref_year": 1995,
+  "crossref_venue": "Antiquity",
+  "checked_on": "2026-09-23"
+ }
+}

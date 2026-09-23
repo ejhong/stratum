@@ -10,17 +10,17 @@
   "anomaly_type": "chronology",
   "claim": "Tom Dillehay's team reported that Monte Verde II, a campsite with wooden structures, hearths, tools, plant foods and gomphothere remains sealed under peat, was occupied about 13,000 radiocarbon years ago, before the accepted Clovis-first limit.",
   "claimed_age": {
-    "label": "~13,000 radiocarbon yr BP (now ~14,500 cal BP)",
+    "label": "~13,000 14C yr BP; revised ~12,500 (~14,500 cal BP)",
     "bp_min": 14200,
     "bp_max": 14900,
-    "basis": "First reports: ~13,000 radiocarbon yr BP (S3). Numbers are the team's current calibrated range for MV-II, from 14C on wood, bone, charcoal and short-lived plants.",
-    "source": "S12"
+    "basis": "First reports (1982-88): ~13,000 14C yr BP (S3); the 1997 panel accepted ~12,500 (S6). bp_min/bp_max are the team's current calibrated MV-II range (S12), not a calibration of 13,000.",
+    "source": "S3"
   },
   "accepted_age": {
     "label": "~14,500 cal BP (majority view; disputed since 2026)",
     "bp_min": 14200,
     "bp_max": 14900,
-    "basis": "Calibrated 14C on occupation materials (S12); hearth seaweed 14,220-13,980 cal BP (S9). Surovell et al. (S13) argue 8,200-4,200 years instead.",
+    "basis": "Calibrated 14C on occupation materials (S12); hearth seaweed 14,220-13,980 cal BP (S9). Surovell et al. (S13) argue MV-II is no older than the mid-Holocene (8,200-4,200 BP).",
     "source": "S12"
   },
   "orthodoxy_at_claim": {
@@ -41,7 +41,6 @@
   ],
   "evidence_types": [
     "radiocarbon",
-    "osl",
     "stratigraphy",
     "lithics",
     "artifacts",
@@ -55,22 +54,22 @@
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "partial",
-      "note": "Wooden structures, knotted reeds and a few bifaces, but most stone tools were simple edge-trimmed pebbles (S10); Lynch doubted the 'hand of humans'.",
-      "source": "S5"
+      "note": "Wooden structures, knotted reeds and a few bifaces, but most stone tools were simple edge-trimmed pebbles (S10); Lynch warned that natural processes can mimic hearths and tools.",
+      "source": "S4"
     },
     "documented_context": {
       "value": "yes",
-      "note": "Thin occupation surface excavated in place and sealed by a peat layer.",
-      "source": "S12"
+      "note": "A 1986 report called MV-II a small, well-preserved residential settlement (S2); later reports describe a thin layer sealed by peat (S12). Recording errors surfaced later (S11, S21).",
+      "source": "S2"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "Radiocarbon only in the 1980s (wood, bone, charcoal); OSL came in the 2010s.",
+      "note": "Radiocarbon only (wood, bone, charcoal). Later luminescence dates came from other parts of the site (S10) and nearby creek exposures (S13), not MV-II.",
       "source": "S3"
     },
     "multiple_labs": {
-      "value": "yes",
-      "note": "Texas (TX) and Beta Analytic labs both dated site samples, including splits of one bone; exact assay years not confirmed.",
+      "value": "unknown",
+      "note": "Lab names and assay years for the 1982-88 dates were not confirmed; S12 says only that dates came from different labs over four decades.",
       "source": "S12"
     },
     "professional_recovery": {
@@ -80,8 +79,8 @@
     },
     "peer_reviewed_report": {
       "value": "partial",
-      "note": "Short peer-reviewed reports in 1982, 1986 and 1988; the full site reports came in 1989 and 1997.",
-      "source": "S2"
+      "note": "Short reports in 1982, 1986 and 1988 (S1, S2, S3); the full site volumes came in 1989 and 1997 (S12).",
+      "source": "S3"
     },
     "material_accessible": {
       "value": "unknown",
@@ -90,22 +89,32 @@
     },
     "independent_teams": {
       "value": "no",
-      "note": "Many specialists, all within Dillehay's project; Surovell et al. call theirs the first independent investigation in nearly 50 years.",
+      "note": "Many specialists, all within Dillehay's project. Outside checks came later (1997 panel, S6; Taylor's lab, S20); S13 calls itself the first independent investigation.",
       "source": "S13"
     },
     "proponent_stake": {
       "value": "no",
-      "note": "No commercial, religious, nationalist or fame motive is documented in any source reviewed."
+      "note": "None documented in the sources reviewed (an absence of evidence, not proof); results went to scholarly journals (S2, S3).",
+      "source": "S2"
     }
   },
   "objections": [
     {
-      "text": "With the Clovis horizon ever better defined and earlier claims failing, a glacial-age occupation was improbable; prehistory should rest on unambiguous, replicated cases, not regional exceptions.",
+      "text": "With the Clovis horizon ever better defined and earlier claims failing, a glacial-age (pre-Clovis) occupation of South America was improbable.",
       "kind": "prior",
       "raised_by": "Thomas F. Lynch",
       "year": 1990,
       "outcome": "wrong",
-      "outcome_note": "MV-II was accepted in 1997 and pre-Clovis presence is now widely accepted from other sites and genetics, though Surovell et al. (2026) argue for later arrival.",
+      "outcome_note": "A 2019 review: genetics puts people south of the ice sheets between ~17.5 and ~14.6 ka, and sites show them in multiple places at ~15.5-14 ka (S22). Surovell et al. (2026) argue for later arrival.",
+      "source": "S4"
+    },
+    {
+      "text": "Archaeologists should depend more on unambiguous and replicated cases before accepting glacial-age occupation.",
+      "kind": "other",
+      "raised_by": "Thomas F. Lynch",
+      "year": 1990,
+      "outcome": "unresolved",
+      "outcome_note": "Outside checks came from the 1997 panel (S6) and Taylor's lab (S8); the first independent field dating study came only in 2026 (S13, S16) and is itself untested.",
       "source": "S4"
     },
     {
@@ -114,7 +123,7 @@
       "raised_by": "Thomas F. Lynch",
       "year": 1990,
       "outcome": "wrong",
-      "outcome_note": "The 1997 panel judged MV-II archaeological after examining the collections; later critics dispute dating or association, not human manufacture.",
+      "outcome_note": "The 1997 panel judged MV-II archaeological (S6); the 2026 challengers also call it an 'archaeological component' (S13). If its dated wood was redeposited, whether those pieces were worked is open again.",
       "source": "S4"
     },
     {
@@ -122,9 +131,9 @@
       "kind": "context",
       "raised_by": "Thomas F. Lynch",
       "year": 1990,
-      "outcome": "wrong",
-      "outcome_note": "The 1997 panel accepted the association; direct dates on hearth seaweed (2008) and a modified bone (2005) fit. A new redeposition argument appeared in 2026 (below).",
-      "source": "S5"
+      "outcome": "unresolved",
+      "outcome_note": "Accepted by the 1997 panel (S6), and direct hearth-seaweed dates fit (S9). The same secondary-deposition mechanism was re-argued in 2026 (S13) and has no outside test yet.",
+      "source": "S4"
     },
     {
       "text": "Published provenience records were inconsistent and key artifacts poorly documented, so their association with the dated surface was not demonstrated.",
@@ -132,32 +141,32 @@
       "raised_by": "Stuart J. Fiedel",
       "year": 1999,
       "outcome": "unresolved",
-      "outcome_note": "Real errors in the 1997 volume led to a 2002 errata booklet; the team says all finds are documented. Fiedel repeated the charge in 2022.",
+      "outcome_note": "Errors in the 1997 volume led to a 2002 errata booklet (S11), and a 1989 date was misattributed to MV-II (corrected 2023, S21). The team says all finds are documented; Fiedel renewed the charge in 2022.",
       "source": "S7"
     },
     {
-      "text": "Two pieces of one gomphothere bone gave dates 5,000 years apart, and marine or volcanic carbon might skew dates; the site could be Clovis-age or younger.",
+      "text": "Two dates on one gomphothere bone disagreed by over 5,000 years, and a postulated local 14C reservoir effect could have made the site's dates too old.",
       "kind": "dating",
-      "raised_by": "R. E. Taylor",
-      "year": null,
+      "raised_by": "R. E. Taylor et al. (tested the concerns)",
+      "year": 1999,
       "outcome": "wrong",
-      "outcome_note": "Taylor's own AMS redates gave 12,460 ± 30 radiocarbon years, and 43 core dates from two labs matched ~14,500 cal BP; no marine offset was found.",
-      "source": "S8"
+      "outcome_note": "No offset in modern site plants (S20), though Pleistocene offsets cannot be measured directly; AMS redates of the bone gave 12,460 ± 30 BP (S8); S12 traces the outlier to one lab.",
+      "source": "S20"
     },
     {
-      "text": "A ~11,000-year-old tephra lies beneath the occupation surface and dated Ice Age wood was redeposited onto it, so MV-II is only 8,200-4,200 years old.",
+      "text": "Ash dated ~11,000 years lies stratigraphically below the archaeological component, and the Pleistocene-dated wood was redeposited, so MV-II is no older than the mid-Holocene (8,200-4,200 BP).",
       "kind": "context",
       "raised_by": "Todd A. Surovell et al.",
       "year": 2026,
       "outcome": "unresolved",
-      "outcome_note": "Rebutted in 2026 by the site team, Waters et al. and Meltzer et al. (layers miscorrelated, tephra misidentified); Surovell's team stands by its result.",
+      "outcome_note": "Disputed by geoarchaeologists outside the site team (tephra not Lepué; correlation unproven; S15, S17), by the site team and by Meltzer et al. Surovell remains confident (S18). No outside test yet.",
       "source": "S13"
     }
   ],
   "status": "vindicated",
-  "status_note": "Re-contested since 2026: Surovell et al. argue MV-II is mid-Holocene. Kept 'vindicated' because every published reply so far, including former skeptics, rejects that; no independent redating of the occupation exists yet.",
+  "status_note": "Re-contested since 2026 (S13). Kept vindicated: the challengers' own 14C dates (13,400-16,500 yr) match earlier ones (S14), and their key evidence, a tephra link, is disputed on its geochemistry (S15, S17) and untested by an outside lab.",
   "year_resolved": 1997,
-  "what_settled_it": "In January 1997 a group of Paleoindian specialists examined the collections and visited the site, and agreed MV-II was archaeological and ~12,500 radiocarbon years old. Later direct dates on hearth seaweed and a modified gomphothere bone agreed.",
+  "what_settled_it": "In January 1997 a group of Paleoindian specialists examined the collections and visited the site, and agreed MV-II was archaeological and ~12,500 radiocarbon years old. Later direct dates on hearth seaweed (S9) and outside-lab redating of a gomphothere bone (S8) agreed.",
   "settled_by": [
     "site-visit",
     "expert-review"
@@ -166,13 +175,8 @@
   "timeline": [
     {
       "year": 1976,
-      "event": "Local farmers find the site and notify Tom Dillehay.",
-      "source": "S19"
-    },
-    {
-      "year": 1977,
-      "event": "Dillehay's team begins excavations, which continue into the mid-1980s.",
-      "source": "S19"
+      "event": "The site is discovered in southern Chile.",
+      "source": "S14"
     },
     {
       "year": 1982,
@@ -186,7 +190,7 @@
     },
     {
       "year": 1990,
-      "event": "Lynch's review questions the finds' human origin and their Pleistocene association.",
+      "event": "Lynch's review questions the finds' human origin and Pleistocene association, and asks for replicated cases.",
       "source": "S4"
     },
     {
@@ -200,8 +204,13 @@
       "source": "S7"
     },
     {
+      "year": 1999,
+      "event": "Taylor et al. find no local 14C reservoir offset in modern plants at the site.",
+      "source": "S20"
+    },
+    {
       "year": 2005,
-      "event": "Independent AMS redating of a discordant bone gives 12,460 ± 30 radiocarbon years.",
+      "event": "Outside-lab AMS redating of a discordant gomphothere bone gives 12,460 ± 30 radiocarbon years.",
       "source": "S8"
     },
     {
@@ -211,43 +220,43 @@
     },
     {
       "year": 2023,
-      "event": "Forty-three new dates on the sealing peat place its base near 14,500-14,600 cal BP.",
+      "event": "Forty-three dates on the sealing peat, from a section ~50 m north of MV-II, place its base near 14,500-14,600 cal BP.",
       "source": "S12"
     },
     {
       "year": 2026,
-      "event": "Surovell et al. argue MV-II is only 8,200-4,200 years old, citing tephra and redeposited wood.",
+      "event": "Surovell et al. argue MV-II is no older than the mid-Holocene (8,200-4,200 BP), citing an underlying tephra and redeposited wood.",
       "source": "S13"
     },
     {
       "year": 2026,
-      "event": "Replies in Science eLetters and PaleoAmerica (site team, Waters et al., Meltzer et al.) reject it; Surovell's team stands by its result.",
-      "source": "S17"
+      "event": "Replies in Science eLetters and PaleoAmerica (Waters et al., site team, Meltzer et al.) reject it; Surovell remains confident.",
+      "source": "S18"
     }
   ],
   "decisive_tests": [
     {
-      "test": "Independent AMS redating, by a third laboratory unaffiliated with either team, of short-lived remains from the archived MV-II occupation surface (seaweed quids, potato, hearth charcoal), with blind splits.",
-      "would_show": "Pleistocene ages on food remains rule out redeposited old wood; mid-Holocene ages would support Surovell et al.",
-      "cost": "low"
-    },
-    {
-      "test": "Blind geochemical fingerprinting (glass chemistry) of the ash beds Surovell et al. sampled and of any ash below the MV-II surface, by a lab outside both teams.",
-      "would_show": "Whether ~11,000-year-old Lepué Tephra truly lies below the occupation, the core of the mid-Holocene argument.",
+      "test": "At a lab outside both teams, AMS-date blind splits of identified short-lived plants (reed cordage, food plants) and seaweed from archived MV-II collections; apply a local marine reservoir correction to seaweed.",
+      "would_show": "Pleistocene ages on short-lived remains rule out redeposited old wood; mid-Holocene ages support Surovell et al. (Charcoal can only show a young age.) Needs sampling permits.",
       "cost": "medium"
     },
     {
-      "test": "Micromorphology and wood and bone taphonomy (abrasion, rounding, decay) on archived MV-II samples, compared with wood deposited by the creek.",
-      "would_show": "Whether the MV-II wood and bone were carried in by water or used in place.",
+      "test": "Blind glass-chemistry fingerprinting, at a lab outside both teams, of the ash Surovell et al. call Lepué Tephra, against reference Lepué samples and any ash in the site team's section ~50 m north of MV-II.",
+      "would_show": "Whether the ash is the ~11,000-year Lepué Tephra and whether it lies below MV-II-equivalent peat, the core of the mid-Holocene argument.",
       "cost": "medium"
     },
     {
-      "test": "A permitted joint trench, logged by both teams, tracing the peat and ash layers continuously from the high terrace to the MV-II area.",
-      "would_show": "Whether the creek sections Surovell et al. dated are the same layers as the site's, settling the correlation dispute.",
+      "test": "Wood and bone taphonomy (abrasion, rounding, decay) on archived MV-II material, plus micromorphology of any archived MV-II sediment, compared with wood the creek deposits today.",
+      "would_show": "Whether MV-II wood and bone were carried in by water or used in place.",
+      "cost": "medium"
+    },
+    {
+      "test": "Permitted joint fieldwork, logged by both teams and an outside geologist, tracing the peat and ash beds continuously from Surovell et al.'s creek exposures to the site team's section ~50 m north of MV-II.",
+      "would_show": "Whether the dated creek exposures and the site-team section are the same beds; MV-II itself was destroyed decades ago, so the correlation must be traced nearby.",
       "cost": "high"
     }
   ],
-  "falsifier": "Blind tephra fingerprinting showing the ~11,000-year-old Lepué Tephra beneath the MV-II surface, or mid-Holocene AMS ages on short-lived occupation remains (seaweed, potato, hearth charcoal) from the archived collections.",
+  "falsifier": "An outside lab confirming the ~11,000-year Lepué Tephra beneath MV-II-equivalent peat (e.g. in the section ~50 m north) would move this record to 'open'; mid-Holocene AMS ages on short-lived plant remains from archived MV-II collections would point to 'refuted'.",
   "sources": [
     {
       "id": "S1",
@@ -267,7 +276,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Summary page read: MV-II ~13,000 years, possible MV-I ~33,000; calls itself a brief report on MV-II only."
+      "note": "Summary page read: MV-II a 13,000-year component, a small well-preserved residential settlement; possible MV-I ~33,000; a brief report on MV-II only."
     },
     {
       "id": "S3",
@@ -288,16 +297,6 @@
       "access": "paywalled",
       "verification": "checked",
       "note": "Abstract read: doubts glacial-age sites; urges unambiguous, replicated cases; warns of mixture, secondary deposition and natural mimics of hearths and tools."
-    },
-    {
-      "id": "S5",
-      "citation": "Dillehay TD, Collins MB. 1991. Monte Verde, Chile: A Comment on Lynch. American Antiquity 56(2): 333-341.",
-      "doi": "10.2307/281422",
-      "url": null,
-      "kind": "reply",
-      "access": "paywalled",
-      "verification": "checked",
-      "note": "Abstract read: Lynch questioned the Pleistocene association and the 'hand of humans' without visiting the site."
     },
     {
       "id": "S6",
@@ -347,7 +346,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: MV-II ~14,500 cal BP; MV-I (~33,000 BP) evidence too meager to verify; possible horizons ~18,500-14,500 cal BP."
+      "note": "Full text read: MV-II ~14,500 cal BP; MV-I (~33,000 BP) too meager to verify; possible horizons ~18,500-14,500 cal BP; luminescence dates are from units south of the creek, not MV-II."
     },
     {
       "id": "S11",
@@ -367,7 +366,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: 43 new AMS dates; MV-II 14,200-14,900 cal BP; two-lab bone discrepancy and Taylor's redating; Clovis-first entry 'no earlier than c. 13 000 cal BP'."
+      "note": "Full text read: 43 new AMS dates from a section ~50 m north of MV-II; MV-II 14,200-14,900 cal BP; bone outlier from one lab, Taylor's redating; Clovis-first entry 'no earlier than c. 13 000 cal BP'."
     },
     {
       "id": "S13",
@@ -377,7 +376,7 @@
       "kind": "critique",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read: first independent investigation in ~50 years; ~11,000-yr tephra below the component implies MV-II is no older than 8,200-4,200 BP."
+      "note": "Abstract read: 'first independent investigation' in ~50 years; 14C and luminescence dates on alluvial exposures and an 11,000-yr tephra below the component: MV-II no older than 8,200-4,200 BP."
     },
     {
       "id": "S14",
@@ -387,7 +386,7 @@
       "kind": "news",
       "access": "open",
       "verification": "checked",
-      "note": "Read: Surovell's team sampled creek sections near, not at, MV-II; new dates 13,400-16,500 years; critiques by Meltzer, Waters, Dillehay; Surovell invites replication."
+      "note": "Read: MV-II destroyed >30 years ago by logging and flooding; Surovell's team sampled nearby; new dates 13,400-16,500 yr 'in line with previous studies'; lists a human footprint."
     },
     {
       "id": "S15",
@@ -397,7 +396,7 @@
       "kind": "reply",
       "access": "open",
       "verification": "checked",
-      "note": "Read: geology (Waters et al.), site evidence (Dillehay et al., 18 signers incl. Grayson) and genetics (Meltzer et al.) all reject the mid-Holocene age."
+      "note": "Read: screened eLetters, not peer-reviewed. Geology (Waters et al.: tephra 'not the Lepué Tephra'), site evidence (Dillehay et al.) and genetics (Meltzer et al.) reject the mid-Holocene age."
     },
     {
       "id": "S16",
@@ -430,30 +429,63 @@
       "note": "Read (Reuters via Yahoo): two groups defend the older age in PaleoAmerica; Surovell 'remains confident' and calls for independent study."
     },
     {
-      "id": "S19",
-      "citation": "Fundación Monte Verde. Cronología. Official website of the Monte Verde archaeological site (accessed 23 September 2026).",
-      "doi": null,
-      "url": "https://fundacionmonteverde.cl/en/cronologia/",
-      "kind": "other",
-      "access": "open",
+      "id": "S20",
+      "citation": "Taylor RE, Haynes CV, Kirner DL, Southon JR. 1999. Radiocarbon Analyses of Modern Organics at Monte Verde, Chile: No Evidence for a Local Reservoir Effect. American Antiquity 64(3): 455-460.",
+      "doi": "10.2307/2694145",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
       "verification": "checked",
-      "note": "Read: discovery by local farmers who notified Dillehay (1976); excavations began 1977; campaigns 1983-1987."
+      "note": "Abstract read: modern plants at the site show no 14C offset, so no support for a postulated reservoir effect; late-Pleistocene offsets cannot be measured directly."
+    },
+    {
+      "id": "S21",
+      "citation": "Dillehay TD. 2023. Correction for a Monte Verde II Radiocarbon Date. PaleoAmerica 9(2): 165-166.",
+      "doi": "10.1080/20555563.2023.2236889",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: a La Moderna (Argentina) date was published in 1989 as an MV-II assay in error; corrected here."
+    },
+    {
+      "id": "S22",
+      "citation": "Waters MR. 2019. Late Pleistocene exploration and settlement of the Americas by modern humans. Science 365(6449).",
+      "doi": "10.1126/science.aat5447",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: genetics puts people south of the ice sheets ~17.5-14.6 ka; sites in North and South America ~15.5-14 ka. The author also leads the 2026 rebuttal (S17)."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Key sources read (abstracts only for paywalled ones). Status judged 'vindicated' but re-contested in 2026; the full Surovell paper and replies were not read.",
+  "confidence_note": "Paywalled sources read as abstracts; full texts of S13 and S17 not read, the eLetters (S15) were. The 2026 re-contest is live, and an outside test could change the status.",
   "corrections": [
-    "Age: first reports (1982-1988) gave ~13,000 radiocarbon years; the 1997 panel accepted ~12,500 radiocarbon years, now calibrated to ~14,500 cal BP. The starter's ~14,500 is the calibrated figure.",
-    "'Dismissed for about twenty years': ~15 years from the first radiocarbon report (1982) to the 1997 panel; ~20 years from the 1976 discovery.",
-    "The 1997 panel studied the collections as well as visiting the site (S6).",
-    "'Vindicated' is the majority view, not unanimous: Fiedel (1999, 2022) disputed the provenience records, and in 2026 Surovell et al. argued MV-II is only 8,200-4,200 years old.",
-    "MV-I: the team now calls the ~33,000-year levels inconclusive and reports possible, unconfirmed occupation at ~18,500-15,000 cal BP at MV-I and CH-I (S10, S12).",
-    "The site team says MV-II was first reported in the late 1970s (S12); the earliest dated report found is the 1982 radiocarbon note, used here as year_claimed."
+    "Brief: 'Pre-Clovis occupation at ~14,500 years'. First reports (1982-88) gave ~13,000 14C yr BP (S3); the 1997 panel accepted ~12,500 14C yr BP (S6), which calibrates to ~14,500 cal BP (S12).",
+    "Brief: 'dismissed for about twenty years before acceptance'. About 15 years passed from the first dated report (1982, S3) to the 1997 panel (S6); about 20 from the 1976 discovery (S14).",
+    "Brief: 'a 1997 site visit by skeptics is often credited with the shift'. The panel also studied the collections, not only the site (S6).",
+    "Brief: 'Expected status: vindicated'. That is the majority view, not unanimous: Fiedel (1999, 2022) disputed the provenience records (S7), and Surovell et al. (2026) argue MV-II is no older than 8,200-4,200 BP (S13).",
+    "Brief: 'The older Monte Verde I claim (~33,000 years) is separate and still disputed'. The team now calls those levels inconclusive and reports possible, unconfirmed horizons of ~18,500-14,500 cal BP (S10).",
+    "Published accounts: a date printed in 1989 as an MV-II assay came from La Moderna, Argentina; the site team corrected it in 2023 (S21)."
   ],
-  "notes": "Covers MV-II only. MV-I: a 1988 report gave ~33,000 radiocarbon years for a possible older layer; the 1997 panel left it unresolved (S6). R. E. Taylor doubted the chronology, but his own AMS dates matched ~14,500 cal BP (S8, S12). In 2026 Surovell's team dated creek sections near, not at, MV-II (S14). Replies are signed by 1997 panelists Meltzer and Grayson (S15). Tune and Miller (S16) call it the first truly independent test and say replication is not an attack. Dillehay says it aims to revive Clovis-first (S14). A 1981 congress paper (cited in S10) may predate the 1982 report; not seen.",
+  "notes": "Covers MV-II only; MV-I (~33,000 14C yr, 1988) was left unresolved by the 1997 panel (S6). MV-II itself was destroyed over 30 years ago by logging and flooding (S14), so both new dating programs used nearby deposits: the site team a section ~50 m north (S12), Surovell's team alluvial exposures (S13, S14). The 2026 eLetters are screened, not peer-reviewed; 1997 panelist Meltzer leads one (S15). Tune and Miller (S16) take no side on the age. Methods count (6): 14C, peat-sealed stratigraphy, artifacts, structures and hearths, plant remains, fauna; the one reported footprint (S14) is not counted separately.",
   "review": {
     "drafted_by": "researcher agent (claude-opus-5-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Analyst: rerun outcome analyses with MV-II coded 'open' as a sensitivity check. Move it to 'open' if an outside lab confirms Lepué Tephra beneath MV-II-equivalent strata.",
+      "S13 full text not read: how it accounts for the direct seaweed dates (S9) and the 2005 bone redating (S8) is unknown.",
+      "year_claimed 1982 is the earliest verified dated report (S1, S3); the team says MV-II was first reported in the late 1970s (S12), so time to resolution may be ~18-20 yr, not 15. The unfound 1981 congress paper is dropped.",
+      "How much intact MV-II deposit survives is not stated in sources read (S14 reports its destruction); the decisive tests rely on archived collections and nearby sections.",
+      "multiple_labs is 'unknown': lab codes and assay years in S1, S3 or the 1989 volume were not read.",
+      "Declined: Davis 2026, a reply to Tune and Miller (doi 10.1080/20555563.2026.2670166): no abstract, publisher page 403, and the record is at the 20-source cap.",
+      "Declined: Live Science's May 2026 follow-up (S15 gives the eLetters directly). Dropped S5 (1991 reply to Lynch) and S19 (site foundation page) for the 20-source cap; S4 and S14 now cover their uses.",
+      "A second 2026 Surovell item ('Surovell et al. 2026a' in S17) was not found by search; it may be a reply worth adding."
+    ]
   }
 }

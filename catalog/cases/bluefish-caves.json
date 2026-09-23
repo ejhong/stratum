@@ -8,21 +8,21 @@
     "continent": "North America"
   },
   "anomaly_type": "chronology",
-  "claim": "In 1979 Cinq-Mars dated human use of Bluefish Cave I to 13,000–10,000 radiocarbon years ago. Later bone dates led him to argue that flaked and butchered bone showed people there as early as ~24,800 radiocarbon years ago, before the Last Glacial Maximum.",
+  "claim": "In 1979 Cinq-Mars dated human use of Bluefish Cave I to 13,000–10,000 radiocarbon years ago. By 1982, working with Morlan, he argued that flaked and butchered bone showed people there as early as ~24,800 radiocarbon years ago, before the Last Glacial Maximum.",
   "claimed_age": {
-    "label": "~24,800 14C BP (about 30,000 cal BP)",
+    "label": "~24,800 14C BP (about 29,000 cal BP, IntCal20)",
     "bp_min": null,
-    "bp_max": 30000,
-    "basis": "Oldest proponent dates: AMS 24,800 14C BP on a split caribou tibia; ~23,500 on a mammoth bone core and flake. Calendar figure is S1's rounding of 25,000 14C BP.",
+    "bp_max": 29000,
+    "basis": "Oldest proponent dates (Morlan & Cinq-Mars 1982): 24,800 14C BP on a caribou tibia (possibly a fleshing tool, S4); ~23,500 on a mammoth bone core/flake. Calendar figure approximates IntCal20 (S20).",
     "source": "S4"
   },
   "accepted_age": null,
   "orthodoxy_at_claim": {
-    "label": "No accepted sites in eastern Beringia or the Americas older than ~14,000 cal BP; people were thought to arrive after the LGM.",
-    "limit_bp": 14000,
-    "source": "S1"
+    "label": "Eastern Beringian summaries began the record at the Nenana complex, ~11,500–12,000 14C BP (~13,400–13,900 cal BP), the limit for accepted sites.",
+    "limit_bp": 13500,
+    "source": "S6"
   },
-  "year_claimed": 1979,
+  "year_claimed": 1982,
   "key_proponents": [
     "Jacques Cinq-Mars",
     "Richard E. Morlan",
@@ -48,43 +48,43 @@
   "features_at_claim": {
     "unambiguous_signal": {
       "value": "partial",
-      "note": "Stone tools are clearly human-made but were not directly dated; the older evidence is broken and marked bone, which natural processes can mimic.",
+      "note": "Stone tools are clearly human-made; the pre-LGM bones (tibia, mammoth core/flake) are broken and marked bone, whose human origin S1 calls controversial from the start.",
       "source": "S1"
     },
     "documented_context": {
       "value": "partial",
-      "note": "Excavated in 5 cm spits and described in 1979 as near-primary, but the cave fills also held carnivore-accumulated bone and rockfall debris.",
+      "note": "Excavated in stratified loess and described as primary or near-primary context (1978 season); later study found the cave fills also include carnivore-accumulated bone (see objections).",
       "source": "S2"
     },
     "multiple_dating_methods": {
       "value": "no",
-      "note": "Radiocarbon dates on bone only; pollen and fauna fit the dates but are not independent dating methods.",
+      "note": "Radiocarbon dates on bone are the only dating method behind the pre-LGM ages; pollen and fauna are consistent with them but are not independent dating methods.",
       "source": "S1"
     },
     "multiple_labs": {
-      "value": "no",
-      "note": "Dates published by 1982 came from the Geological Survey of Canada; later AMS dates from other labs were listed only in a database.",
+      "value": "unknown",
+      "note": "The 24,800 and ~23,500 14C BP dates appear only as figures (S4; per S5, personal communication), no lab named. A younger bone (RIDDL-278) shows multi-lab dates existed by the 1980s.",
       "source": "S1"
     },
     "professional_recovery": {
       "value": "yes",
-      "note": "Excavated 1977–1987 by the Archaeological Survey of Canada under Jacques Cinq-Mars.",
+      "note": "Excavated 1977–1987 under Jacques Cinq-Mars, Archaeological Survey of Canada.",
       "source": "S1"
     },
     "peer_reviewed_report": {
-      "value": "yes",
-      "note": "The 1979 claim appeared as a 32-page article in the Canadian Journal of Archaeology.",
-      "source": "S2"
+      "value": "unknown",
+      "note": "The earliest print of the pre-LGM suggestion (Morlan & Cinq-Mars 1982) is an edited-volume chapter; whether it had journal-style peer review is unconfirmed, and it is paywalled and unread.",
+      "source": "S3"
     },
     "material_accessible": {
       "value": "unknown",
-      "note": "Collections are kept at the Canadian Museum of History and were re-studied from 2015; access for critics in the 1980s is not documented.",
+      "note": "Collections are kept at the Canadian Museum of History; access for critics in the 1980s is not documented in sources read.",
       "source": "S1"
     },
     "independent_teams": {
       "value": "no",
-      "note": "Reports into the early 1980s came from Cinq-Mars and co-authors (Morlan; Ritchie and Cwynar on pollen).",
-      "source": "S4"
+      "note": "Through the 1980s, reports came from Cinq-Mars and co-authors (Morlan; Ritchie and Cwynar on pollen).",
+      "source": "S1"
     },
     "proponent_stake": {
       "value": "no",
@@ -94,35 +94,44 @@
   },
   "objections": [
     {
-      "text": "Archaeological contexts were significantly disturbed, so the stone tools and the LGM-age dated bones may not be associated.",
+      "text": "Archaeological contexts were significantly disturbed, so the stone tools and the LGM-age dated bones may not be reliably associated with each other or their reported depths.",
       "kind": "context",
-      "raised_by": "Krasinski & Blong (and earlier critics)",
-      "year": 2020,
+      "raised_by": "Dixon et al. (1999–2008); developed by Krasinski & Blong (2020)",
+      "year": 1999,
       "outcome": "unresolved",
-      "outcome_note": "Direct dates on cut bones avoid the association problem for those bones, but lithic ages and provenience are still disputed (S14, S15).",
+      "outcome_note": "Direct dates on cut bones avoid association problems for those bones, but S1 says depth 'could not be established' for most dated specimens, and a 2026 study found no depth–age relationship in Cave III (S9, S15).",
       "source": "S9"
     },
     {
       "text": "Breaks and grooves on the bones could come from rockfall or carnivore chewing rather than human butchery and toolmaking.",
       "kind": "identification",
-      "raised_by": "Unnamed critics of Cinq-Mars",
-      "year": null,
+      "raised_by": "Dixon (1999); Hoffecker & Elias (2007); Goebel et al. (2008)",
+      "year": 1999,
       "outcome": "unresolved",
-      "outcome_note": "A 2023 experiment found rockfall marks distinguishable from cut marks (S13, title only); natural bone damage is still argued (S9).",
-      "source": "S18"
+      "outcome_note": "A 2023 experiment found rockfall 'an improbable cause' for marks on the dated bone (title only, S13); natural damage from carnivores or trampling is still argued for the wider assemblage (S9).",
+      "source": "S1"
     },
     {
-      "text": "No other eastern Beringian sites of similar age exist; a successful LGM settlement should have left more sites in later millennia.",
+      "text": "No other eastern Beringian sites of similar age were known, making the pre-LGM signal hard to corroborate independently.",
       "kind": "prior",
-      "raised_by": "Potter et al.",
-      "year": 2018,
+      "raised_by": "Dixon (1999); Hoffecker & Elias (2007); Goebel et al. (2008)",
+      "year": 1999,
       "outcome": "unresolved",
-      "outcome_note": "Proponents reply that LGM visits were brief and the population small (S1); no second LGM site in eastern Beringia appears in sources read.",
-      "source": "S10"
+      "outcome_note": "S1 calls the claim 'controversial in the absence of other sites of similar age.' Potter et al. (2018, S10) instead read it as possible evidence of early population pulses; no second site is confirmed.",
+      "source": "S1"
+    },
+    {
+      "text": "The oldest ages rest on 1980s bone dates whose specimens' artifact status is uncertain; a comparable regional bone date was later shown wrong by tens of thousands of years.",
+      "kind": "dating",
+      "raised_by": "Regional dating precedent (Nelson et al. 1986)",
+      "year": 1986,
+      "outcome": "unresolved",
+      "outcome_note": "Nelson et al. (1986) redated four Yukon bone 'artifacts' to the late Holocene; one (Old Crow flesher) was off by almost 26,000 years. The Bluefish tibia and mammoth bone remain undated since the 1980s.",
+      "source": "S19"
     }
   ],
   "status": "open",
-  "status_note": "Cut-marked bones directly dated to ~24,000 cal BP support LGM visits, but critics cite disturbed deposits and natural bone damage; reviews in 2023 and 2026 still describe the evidence as disputed.",
+  "status_note": "Cut-marked bones date to ~23,500 cal BP (IntCal20), supporting LGM visits; a 2023 test finds rockfall unlikely (S13). Critics (S9, S11) cite disturbed deposits, call early sites 'equivocal'; 2026 work still 'spurs controversy' (S15).",
   "year_resolved": null,
   "what_settled_it": null,
   "settled_by": [
@@ -130,11 +139,6 @@
   ],
   "failure_mode": "none",
   "timeline": [
-    {
-      "year": 1975,
-      "event": "The caves are spotted from the air during a University of Toronto survey of the northern Yukon.",
-      "source": "S4"
-    },
     {
       "year": 1977,
       "event": "Jacques Cinq-Mars begins excavations for the Archaeological Survey of Canada; work continues to 1987.",
@@ -144,6 +148,11 @@
       "year": 1979,
       "event": "Cinq-Mars reports stone tools and Ice Age bones in Cave I and dates human use to 13,000–10,000 radiocarbon years ago.",
       "source": "S2"
+    },
+    {
+      "year": 1982,
+      "event": "Morlan and Cinq-Mars publish the earliest suggestion that Bluefish bone dates could indicate use before the Last Glacial Maximum.",
+      "source": "S1"
     },
     {
       "year": 2003,
@@ -162,12 +171,12 @@
     },
     {
       "year": 2017,
-      "event": "Bourgeon, Burke and Higham report 15 cut-marked bones; the oldest, a horse jaw, dates to 19,650 ± 130 14C BP (~24,000 cal BP).",
+      "event": "Bourgeon, Burke and Higham report 15 cut-marked bones; the oldest, a horse jaw, dates to 19,650 ± 130 14C BP (~23,500 cal BP, IntCal20).",
       "source": "S1"
     },
     {
       "year": 2018,
-      "event": "Potter et al. call the Bluefish record 'enigmatic' and note the lack of later LGM-age sites.",
+      "event": "Potter et al. call the Bluefish record 'enigmatic,' reading it as possible evidence of population pulses into eastern Beringia as early as 24,000 years ago.",
       "source": "S10"
     },
     {
@@ -208,12 +217,12 @@
       "cost": "low"
     },
     {
-      "test": "Excavate intact fill in Cave IV with piece-plotting, micromorphology and direct dates on any cut bone or stone tools (Caves I and II were dug out to bedrock).",
+      "test": "Complete excavation of Cave IV to bedrock (2022 units reached ~1 m short) with piece-plotting, micromorphology and direct dates on cut bone or stone tools, done by the permitted team with community partners.",
       "would_show": "Whether undisturbed LGM-age cultural layers exist at the site.",
       "cost": "high"
     }
   ],
-  "falsifier": "An independent re-study showing the dated marks are carnivore, trampling or rockfall damage, or re-dates placing the cut bones after the LGM, would refute LGM use. Intact cultural layers dated to ~24,000 cal BP in Cave IV or a nearby site would confirm it.",
+  "falsifier": "An independent re-study showing the dated marks are carnivore, trampling or rockfall damage, or re-dates placing the cut bones after the LGM, would refute LGM use. Intact cultural layers dated to ~23,500 cal BP in Cave IV or nearby would confirm it.",
   "sources": [
     {
       "id": "S1",
@@ -223,7 +232,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: 36,000 bones, 15 cut-marked, six AMS dates, prior date table, history of doubts, ~14,000 cal BP accepted limit."
+      "note": "Full text read: 36,000 bones, 15 cut-marked, six AMS dates, history of doubts, ~14,000 cal BP limit, 1977–1987 excavation, RIDDL-278 (horse metatarsal, 17,440 14C BP)."
     },
     {
       "id": "S2",
@@ -243,7 +252,7 @@
       "kind": "primary",
       "access": "paywalled",
       "verification": "exists",
-      "note": "Metadata confirmed in Crossref; chapter not read (paywalled). Not used for any key field."
+      "note": "Metadata confirmed in Crossref; chapter paywalled, unread. S1 credits it (refs 24–27) as earliest print of the pre-LGM suggestion; used for year_claimed and peer_reviewed_report (unknown)."
     },
     {
       "id": "S4",
@@ -313,7 +322,7 @@
       "kind": "review",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: calls the Bluefish record 'enigmatic'; LGM settlement should have left more later sites, which are absent."
+      "note": "Full text read: calls Bluefish 'enigmatic' and reads it as possible evidence of population pulses as early as 24,000 years ago. Does not argue a lack of later LGM-age sites."
     },
     {
       "id": "S11",
@@ -323,7 +332,7 @@
       "kind": "critique",
       "access": "paywalled",
       "verification": "checked",
-      "note": "Abstract read: all claimed sites older than 16,000 cal BP judged equivocal. The abstract does not name Bluefish."
+      "note": "Abstract read: all claimed sites older than 16,000 cal BP judged equivocal. The abstract does not name Bluefish specifically; cited for residual dissent in status_note."
     },
     {
       "id": "S12",
@@ -363,7 +372,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Full text read: Caves I–II evidence 'spurs controversy'; Caves I–II dug to bedrock; no human traces in Cave III."
+      "note": "Full text read: Caves I–II evidence 'spurs controversy'; same paper also reads the cut marks as indicating human presence during the LGM; Caves I–II dug to bedrock; no human traces in Cave III."
     },
     {
       "id": "S16",
@@ -373,7 +382,7 @@
       "kind": "primary",
       "access": "open",
       "verification": "checked",
-      "note": "Abstract read (full text blocked to bots): carnivores built the Cave III assemblage; no signs of human activity there."
+      "note": "Abstract read (full text blocked to bots): carnivores built the Cave III assemblage; no signs of human activity there; frames Caves I-II use 'as early as 23,500 years ago'."
     },
     {
       "id": "S17",
@@ -383,7 +392,7 @@
       "kind": "report",
       "access": "open",
       "verification": "checked",
-      "note": "Read: 2019 Cave III test found no lithics; Caves I–II deposits removed; Cave IV found and tested in 2022; context 'has been challenged'."
+      "note": "Read: 2019 Cave III test found no lithics; Caves I–II deposits removed; Cave IV found and tested in 2022 (~1 m, no bedrock); context 'has been challenged'."
     },
     {
       "id": "S18",
@@ -394,21 +403,54 @@
       "access": "open",
       "verification": "checked",
       "note": "Journalism. Read: critics proposed rockfall or carnivores; funding grew scarce and fieldwork ended; some stayed skeptical after 2017."
+    },
+    {
+      "id": "S19",
+      "citation": "Nelson DE, Morlan RE, Vogel JS, Southon JR, Harington CR. 1986. New dates on northern Yukon artifacts: Holocene not upper Pleistocene. Science 232(4751): 749–751.",
+      "doi": "10.1126/science.232.4751.749",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: four supposed Pleistocene Yukon bone artifacts redated to late Holocene; the Old Crow flesher's date was wrong by almost 26,000 years. Regional precedent; not about Bluefish."
+    },
+    {
+      "id": "S20",
+      "citation": "Reimer PJ, Austin WEN, Bard E, et al. 2020. The IntCal20 Northern Hemisphere radiocarbon age calibration curve (0–55 cal kBP). Radiocarbon 62(4): 725–757.",
+      "doi": "10.1017/RDC.2020.41",
+      "url": null,
+      "kind": "other",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read: defines the IntCal20 calibration curve. Used to approximate calendar-year figures for claimed_age; not a formal OxCal/CALIB run."
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Dates, cut-mark findings and critiques come from sources read. The first print date of the ~24,800 BP claim is unconfirmed, and 2021–2023 papers were paywalled.",
+  "confidence_note": "The pre-LGM claim's 1982 first-print is inferred from S1's reference list; S3, Cinq-Mars 1990 and Cinq-Mars & Morlan 1999 are unread. Calendar-year figures are approximate, not OxCal-run.",
   "corrections": [
-    "Starter notes imply a ~25,000-year claim from the late 1970s. The 1979 paper claimed use 13,000–10,000 radiocarbon years ago; the ~24,800 BP claim came later and is in radiocarbon, not calendar, years.",
+    "The brief says Cinq-Mars argued for ~25,000 years 'from the late 1970s.' The 1979 paper claimed only 13,000–10,000 BP; the pre-LGM figure is credited by S1 to Morlan & Cinq-Mars (1982) and later works, not the 1970s.",
     "Excavations ran from 1977 to 1987, not only in the late 1970s.",
-    "The oldest 2017 cut-marked bone is a horse jaw at 19,650 ± 130 14C BP (~24,000 cal BP, IntCal13); the same team later gives ~23,500 cal BP. It is younger than the 24,800 14C BP tibia claim.",
-    "Status is open, not vindicated: critics call the evidence 'provocative but unconvincing' (2020), and a 2023 review co-authored by Bourgeon says its interpretation 'has been disputed'.",
+    "The oldest 2017 directly-dated cut-marked bone is a horse jaw at 19,650 ± 130 14C BP (~23,500 cal BP, IntCal20; ~24,000 under IntCal13). It is younger than the undated 1980s tibia/mammoth claims (23,500–24,800 14C BP).",
+    "Status is open, not vindicated: critics call the evidence 'provocative but unconvincing' (2020) and judge all comparably old sites 'equivocal' (2022); a 2023 paper co-authored by Bourgeon says interpretation 'has been disputed'.",
     "The 2017 re-study found wolves, lions and foxes were the main bone collectors; under 1% of the 36,000 bones studied show human or probable human marks."
   ],
-  "notes": "year_claimed is 1979, the first published claim of Pleistocene use; the ~24,800 14C BP claim came later (works of 1982–2008, per S1 and S4) and its first print date is unconfirmed. The 1980s AMS dates behind it were never formally published (S1 Table 1; S5 cites them as personal communication). limit_bp uses the ~14,000 cal BP limit stated in 2017 (S1); 2003 summaries began the regional record at 11,500–12,000 14C BP (S6). Proponents' 2021 re-studies (S12) and the rockfall experiment (S13) were paywalled and not read. S14 and S16 include Bourgeon as an author, so they are not independent of the 2017 study.",
+  "notes": "year_claimed (1982) anchors the record on the pre-LGM claim, credited by S1 to refs 24–27 (Morlan & Cinq-Mars 1982; Cinq-Mars 1990; Cinq-Mars & Morlan 1999; Harington & Cinq-Mars 2008); the earliest is S3, paywalled and unread beyond Crossref metadata, so peer_reviewed_report and some other features are marked unknown. The 1979 claim (13,000–10,000 BP, S2) stays in the timeline as the first public claim. orthodoxy_at_claim cites S6 (2003), the best available description of the persistent Nenana/Clovis-first framework; no 1982-specific orthodoxy source was found. RIDDL-278 (S1) dated a different, younger bone (17,440 14C BP), not the 23,500–24,800 BP specimens in claimed_age.",
   "review": {
     "drafted_by": "researcher agent (claude-opus-5-5)",
     "drafted_on": "2026-09-23",
-    "stage": "draft"
+    "stage": "revised",
+    "skeptic_by": "skeptic agent (claude-opus-5-5)",
+    "skeptic_on": "2026-09-23",
+    "skeptic_verdict": "revise",
+    "open_issues": [
+      "Did not read Cinq-Mars 1990 or Cinq-Mars & Morlan 1999, and declined to add them as formal sources (no confirmed title or accessible text within budget); year_claimed=1982 relies on S1's reference list rather than a direct read of S3.",
+      "Declined to verify or add Bourgeon & Burke 2021 (QSR, doi 10.1016/j.quascirev.2021.107140) or Bourgeon & Mandel 2024 (doi 10.14430/arctic78984) as sources; out of tool budget this pass.",
+      "Declined to add Potter et al. 2017 (Quaternary International, doi 10.1016/j.quaint.2017.02.034) for the site-density objection; used S1's own wording instead, already verified.",
+      "claimed_age bp_max (~29,000 cal BP) and other IntCal20 figures are approximate conversions per the skeptic's estimate, not a formal OxCal/CALIB run.",
+      "status_note could not fit both quoted halves of S15 ('spurs controversy' and 'indicate human presence during the LGM') within 240 chars; kept only the former (both given in S15's source note).",
+      "Did not create the findings/log.md entry a reviewer suggested (Hoffecker/O'Rourke's shifting co-authorship); out of scope - this task edits only catalog/cases/bluefish-caves.json.",
+      "multiple_labs is marked 'unknown' rather than resolved: RIDDL-278 shows the site had multi-lab dates by the 1980s, but not confirmably for the specific 23,500–24,800 BP bones.",
+      "peer_reviewed_report for the 1982 claim is marked 'unknown': Morlan & Cinq-Mars 1982 (S3) is a paywalled book chapter of uncertain peer-review status."
+    ]
   }
 }

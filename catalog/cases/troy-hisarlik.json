@@ -1,0 +1,326 @@
+{
+  "id": "troy-hisarlik",
+  "name": "Troy / Hisarlık",
+  "hook": "A mound in Turkey confirmed as Troy; whether Homer's war really happened is still unsettled.",
+  "location": {
+    "country": "Turkey",
+    "region": "Çanakkale Province",
+    "continent": "Asia"
+  },
+  "anomaly_type": "legend",
+  "claim": "Frank Calvert (from 1865) and Heinrich Schliemann (from 1870) identified the mound of Hisarlık as the site of Homer's Troy. Schliemann further claimed his excavations, including 'Priam's Treasure,' proved the Iliad's Trojan War was a real historical event.",
+  "claimed_age": {
+    "label": "Troy VI–VIIa, ~1750–1180 BCE (Late Bronze Age)",
+    "bp_min": 3130,
+    "bp_max": 3700,
+    "basis": "Phase dates cross-dated via imported Mycenaean pottery. Ancient chronographers (Eratosthenes) placed Troy's fall at 1184 BCE. Schliemann first (wrongly) pointed to the older Troy II 'Burnt City' instead.",
+    "source": "S3"
+  },
+  "accepted_age": {
+    "label": "Troy VI–VIIa, ~1750–1180 BCE (= Wilusa)",
+    "bp_min": 3130,
+    "bp_max": 3700,
+    "basis": "Stratigraphy established by Dörpfeld (1893-94) and Blegen (1932-38); this phase is now generally equated with Wilusa. Hisarlık overall was occupied ~3000 BCE into the Byzantine period, well beyond this claim's scope.",
+    "source": "S3"
+  },
+  "orthodoxy_at_claim": {
+    "label": "Troy and the Trojan War were widely treated as literary legend, not a real place or event with a confirmed archaeological location.",
+    "limit_bp": null
+  },
+  "year_claimed": 1865,
+  "key_proponents": [
+    "Frank Calvert",
+    "Heinrich Schliemann",
+    "Wilhelm Dörpfeld",
+    "Carl Blegen",
+    "Manfred Korfmann",
+    "C. Brian Rose"
+  ],
+  "key_critics": [
+    "Frank Kolb",
+    "Dieter Hertel",
+    "David A. Traill",
+    "Diether Schürr"
+  ],
+  "evidence_types": [
+    "stratigraphy",
+    "architecture",
+    "artifacts",
+    "inscription",
+    "written-sources",
+    "geology"
+  ],
+  "independent_methods_count": 5,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "yes",
+      "note": "Calvert's trial trenches exposed clearly artificial Bronze Age masonry, walls and pottery, not a natural landform. The dispute was over which ancient city this was, not whether it was archaeological.",
+      "source": "S1"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Calvert recorded his 1863-65 trial trenches in his own publications, but not to modern stratigraphic standards; no full excavation had yet been conducted by 1870.",
+      "source": "S1"
+    },
+    "multiple_dating_methods": {
+      "value": "no",
+      "note": "No scientific dating method existed in the 1860s. The identification rested on topography, ancient testimonia (Homer, Strabo) and comparison of exposed masonry and pottery to known ancient styles.",
+      "source": "S1"
+    },
+    "multiple_labs": {
+      "value": "no",
+      "note": "Not applicable in the 1860s; no laboratory analysis was involved in the original identification."
+    },
+    "professional_recovery": {
+      "value": "partial",
+      "note": "Calvert was an experienced excavator and had dug elsewhere in the Troad for years, but archaeology was not yet a formal profession and no trained team accompanied him.",
+      "source": "S1"
+    },
+    "peer_reviewed_report": {
+      "value": "partial",
+      "note": "Calvert announced the identification to London's scholarly community in 1865, the norm for the period, but not peer review in the modern sense.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "partial",
+      "note": "Calvert owned part of the mound and hosted visiting scholars, including Schliemann from 1868, but no independent excavation by another party had yet occurred.",
+      "source": "S1"
+    },
+    "independent_teams": {
+      "value": "no",
+      "note": "Only Calvert had dug the site by 1870. Schliemann's own campaigns, adopting Calvert's identification, began in 1871.",
+      "source": "S1"
+    },
+    "proponent_stake": {
+      "value": "yes",
+      "note": "Calvert owned and hoped to profit from part of the site. Schliemann, involved from 1868, was already self-promoting; his autobiographical writings are separately documented as containing fabrications.",
+      "source": "S2"
+    }
+  },
+  "objections": [
+    {
+      "text": "Hisarlık is too small and too close to the coast to match Homer's description of Troy; Bunarbashi (Pınarbaşı), further inland, fits the Iliad's topography better.",
+      "kind": "identification",
+      "raised_by": "supporters of the Bunarbashi identification",
+      "year": 1865,
+      "outcome": "wrong",
+      "outcome_note": "Subsequent excavation found dense Bronze Age fortification and occupation at Hisarlık and none at Bunarbashi; Hisarlık is now the unanimous scholarly identification."
+    },
+    {
+      "text": "Schliemann gave at least a dozen inconsistent accounts of discovering 'Priam's Treasure,' and his autobiographical writings elsewhere contain demonstrably false claims.",
+      "kind": "integrity",
+      "raised_by": "William M. Calder III (1972); David A. Traill (1983)",
+      "year": 1983,
+      "outcome": "held",
+      "outcome_note": "Comparing Schliemann's early reports shows contradictions in date, location and who was present. The discovery story, not the objects' Bronze Age authenticity, is considered largely fabricated.",
+      "source": "S2"
+    },
+    {
+      "text": "Schliemann identified the 'Burnt City' (Troy II) and its gold treasure as Priam's Homeric Troy, but this layer considerably predates the Late Bronze Age setting of the Iliad.",
+      "kind": "identification",
+      "raised_by": "Wilhelm Dörpfeld (from 1893)",
+      "year": 1893,
+      "outcome": "held",
+      "outcome_note": "Dörpfeld's and later Blegen's stratigraphy showed Troy VI and VIIa, not Troy II, belong to the Late Bronze Age; the 'Treasure' layer is now dated far earlier."
+    },
+    {
+      "text": "Korfmann's claim of a large lower city beyond the citadel, making Troy VI/VIIa a major Anatolian trading hub or 'Bronze Age federation of cities,' is unsupported by the excavated evidence.",
+      "kind": "context",
+      "raised_by": "Frank Kolb; Dieter Hertel",
+      "year": 2002,
+      "outcome": "unresolved",
+      "outcome_note": "A ditch and some lower-town structures were excavated, but the scale, population and economic importance of the lower settlement remain disputed among specialists.",
+      "source": "S4"
+    },
+    {
+      "text": "The identification of Hittite Wilusa with Troy/Ilios rests on a chain of contested name associations (Alaksandu-Alexandros, Wilusa-Ilios, Appaliunas-Apollo) rather than direct proof.",
+      "kind": "identification",
+      "raised_by": "Diether Schürr (2019)",
+      "year": 2019,
+      "outcome": "unresolved",
+      "outcome_note": "Most Hittitologists regard the convergence of geography and texts as strong, but a minority of philologists still consider the specific name equations unproven.",
+      "source": "S8"
+    },
+    {
+      "text": "Even granting Hisarlık is Wilusa, no text names a specific war matching the Iliad's cast and events; Bronze Age Wilusa saw several documented conflicts over centuries.",
+      "kind": "prior",
+      "raised_by": "Eric H. Cline and others",
+      "year": 2013,
+      "outcome": "unresolved",
+      "outcome_note": "Hittite records mention repeated Wilusa-related conflicts from the 15th-13th centuries BCE; which, if any, Homer's poem reflects (or whether it conflates several) is unresolved.",
+      "source": "S7"
+    }
+  ],
+  "status": "partial",
+  "status_note": "Hisarlık's identification as Bronze Age Troy/Wilusa is accepted by nearly all archaeologists and Hittitologists. Whether a Trojan War resembling the Iliad happened as one historical event is unresolved, and may be unanswerable.",
+  "year_resolved": 2002,
+  "what_settled_it": "No single event: Dörpfeld's 1893-94 dig showed a fortified Bronze Age city (Troy VI) beneath Schliemann's mistaken 'Burnt City,' and Hittite philology converged on equating it with Wilusa. By the 2002 Tübingen symposium the identification itself was no longer contested.",
+  "settled_by": [
+    "new-excavation",
+    "expert-review",
+    "geology"
+  ],
+  "failure_mode": "misidentification",
+  "timeline": [
+    { "year": 1863, "event": "Frank Calvert, who owns part of the Hisarlık mound, begins trial excavations there.", "source": "S1" },
+    { "year": 1865, "event": "Calvert publicly identifies Hisarlık as the site of Troy to London's scholarly community.", "source": "S1" },
+    { "year": 1868, "event": "Heinrich Schliemann visits Hisarlık, meets Calvert, and adopts his identification.", "source": "S1" },
+    { "year": 1871, "event": "Schliemann begins large-scale excavation, cutting a deep trench through the mound." },
+    { "year": 1873, "event": "Schliemann announces finding 'Priam's Treasure' in the Troy II layer and removes it from Ottoman territory without authorization." },
+    { "year": 1890, "event": "Schliemann dies; his architect Wilhelm Dörpfeld takes over the excavation." },
+    { "year": 1893, "event": "Dörpfeld's excavations reveal Troy VI, a substantial fortified Late Bronze Age city, showing Schliemann's 'Priam's Troy' layer was far too early." },
+    { "year": 1932, "event": "Carl Blegen (Cincinnati) begins re-excavation (to 1938); Troy VIIa's fire destruction becomes the leading 'Trojan War' candidate." },
+    { "year": 1983, "event": "David Traill shows Schliemann's own accounts of the 1873 treasure discovery are inconsistent and substantially fabricated.", "source": "S2" },
+    { "year": 1988, "event": "Manfred Korfmann (Tübingen) begins new excavations and later argues for a large lower city beyond the citadel.", "source": "S3" },
+    { "year": 2002, "event": "After 2001 press criticism of Korfmann's 'large city' claims and a Tübingen symposium, Easton et al. defend the broad picture as against exaggerated criticism.", "source": "S3" },
+    { "year": 2005, "event": "Exchange over the lower city's size continues (2003-05); Troy/Wilusa's identity is uncontested but its scale stays disputed.", "source": "S6" }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Apply Bayesian radiocarbon modelling to archived samples from the Troy VIIa destruction deposits at an independent laboratory.",
+      "would_show": "A precise calendar date for the destruction, testable against Hittite-recorded conflicts and the wider Late Bronze Age collapse.",
+      "cost": "medium"
+    },
+    {
+      "test": "Study skeletal remains and destruction debris from Troy VIIa for trauma or weapons damage versus earthquake or accidental-fire indicators.",
+      "would_show": "Whether the destruction looks like warfare specifically, rather than an earthquake, accidental fire, or other mundane cause.",
+      "cost": "medium"
+    },
+    {
+      "test": "Extend geophysical survey and targeted excavation of the proposed lower-city ditch and wall circuit.",
+      "would_show": "The true extent and defensive function of the Late Bronze Age settlement, resolving the Korfmann-Kolb size dispute.",
+      "cost": "high"
+    },
+    {
+      "test": "Systematically re-examine Hisarlık's Late Bronze Age finds for local Luwian/Hittite-script material and compare naming formulae to the Alaksandu treaty and Ahhiyawa texts.",
+      "would_show": "Stronger direct (not just geographic) textual anchoring of Hisarlık to the Hittite toponym Wilusa.",
+      "cost": "low"
+    }
+  ],
+  "falsifier": "A Hittite or other Bronze Age text unambiguously placing Wilusa somewhere other than Hisarlık would overturn the place identification. A text or artifact directly naming a Wilusa-Ahhiyawa war matching Homer's participants and timeframe would move the war claim toward vindicated.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Allen, S.H. (1995). 'Finding the Walls of Troy': Frank Calvert, Excavator. American Journal of Archaeology 99(3): 379-407.",
+      "doi": "10.2307/506941",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: Calvert began trial excavations in 1863, seven years before Schliemann's 1870 start, and announced the Hisarlık identification in 1865."
+    },
+    {
+      "id": "S2",
+      "citation": "Traill, D.A. (1983). Schliemann's 'discovery' of 'Priam's Treasure'. Antiquity 57(221): 181-186.",
+      "doi": "10.1017/s0003598x00055599",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: Schliemann gave at least four (of about a dozen) inconsistent early accounts of the 1873 find; cites Calder (1972) on fabrications in his autobiography."
+    },
+    {
+      "id": "S3",
+      "citation": "Easton, D.F.; Hawkins, J.D.; Sherratt, A.G.; Sherratt, E.S. (2002). Troy in recent perspective. Anatolian Studies 52: 75-109.",
+      "doi": "10.2307/3643078",
+      "url": "https://soas-repository.worktribe.com/output/446111",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read: written after 2001 press criticism of Korfmann and a Feb. 2002 Tübingen symposium; reviews Hittite textual evidence; calls the criticism 'considerably exaggerated.'"
+    },
+    {
+      "id": "S4",
+      "citation": "Hertel, D.; Kolb, F. (2003). Troy in clearer perspective. Anatolian Studies 53: 71-88.",
+      "doi": "10.2307/3643087",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: disputes Korfmann's characterization of Troy VI as palatial city/trade hub/'Bronze Age federation'; responds directly to Easton et al. 2002."
+    },
+    {
+      "id": "S5",
+      "citation": "Jablonka, P.; Rose, C.B. (2004). Late Bronze Age Troy: A Response to Frank Kolb. American Journal of Archaeology 108(4): 615-630.",
+      "doi": "10.3764/aja.108.4.615",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed via Crossref; no abstract available in OpenAlex and full text not accessed this session."
+    },
+    {
+      "id": "S6",
+      "citation": "Kolb, F. (2005). Late Bronze Age Troy: A Response to P. Jablonka and C.B. Rose. American Journal of Archaeology 109(1).",
+      "doi": "10.3764/ajaonline1091.kolb",
+      "url": "https://www.ajaonline.org/sites/default/files/1091_Kolb.pdf",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read: Kolb maintains the Troy excavation's publications mingle findings with 'assumptions and wishful thinking.' Direct PDF link 404'd on re-fetch; DOI resolves."
+    },
+    {
+      "id": "S7",
+      "citation": "Cline, E.H. (2013). The Hittite Texts: Assuwa, Ahhiyawa, and Alaksandu of Wilusa. In The Trojan War: A Very Short Introduction. Oxford University Press, pp. 54-68.",
+      "doi": "10.1093/actrade/9780199760275.003.0004",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: Wilusa likely = Troy, Ahhiyawa likely = Mycenaeans; four possible 15th-13th century BCE conflicts; unclear which, if any, Homer reflects."
+    },
+    {
+      "id": "S8",
+      "citation": "Schürr, D. (2019). Ist Troja das Wilusa der Hethiter? Über Namensassoziationen und ihre fatale Rolle bei der Historisierung Hisarlıks / Is Troy the Hittite Wilusa? About name associations and their role in the historization of Hisarlık. Gephyra 18: 33-57.",
+      "doi": "10.37095/gephyra.623455",
+      "url": "https://dergipark.org.tr/en/download/article-file/865134",
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read in full: argues the Wilusa=Ilios and Alaksandu=Alexandros name-equations are not cogent and that no lower-town wall confirming a city has been excavated."
+    },
+    {
+      "id": "S9",
+      "citation": "Kraft, J.C.; Rapp, G.; Kayan, I.; Luce, J.V. (2003). Harbor areas at ancient Troy: Sedimentology and geomorphology complement Homer's Iliad. Geology 31(2): 163-166.",
+      "doi": "10.1130/0091-7613(2003)031<0163:haaats>2.0.co;2",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Publisher header/metadata confirmed; abstract text not accessible this session. Cited only as the source of the coastal-geomorphology evidence, not for unread specifics."
+    },
+    {
+      "id": "S10",
+      "citation": "Easton, D.F. (1995). The Troy treasures in Russia. Antiquity 69(262): 11-14.",
+      "doi": "10.1017/s0003598x00064243",
+      "url": null,
+      "kind": "report",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: confirms the Schliemann-excavated treasures were moved from Berlin and held quietly in Moscow and St Petersburg for about 50 years."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Core dates and the Korfmann-Kolb debate are well sourced. Phase-boundary calendar dates (Troy VI/VIIa) rely on standard site chronology, not a directly read source this session.",
+  "corrections": [
+    "Starter notes date Calvert only to 'the 1860s'; Allen (1995) documents his trial excavations from 1863 and a public identification of Hisarlık as Troy in 1865, years before Schliemann.",
+    "Starter notes place the Korfmann-Kolb debate 'c. 2001'; the public controversy broke in 2001, but the substantive peer-reviewed exchange ran 2002-2005 across four articles (S3, S4, S5, S6).",
+    "Schliemann's own account of finding 'Priam's Treasure' (1873) is documented as substantially inconsistent in its details (Traill 1983); this is separate from the genuineness of the Bronze Age objects, which is not disputed."
+  ],
+  "notes": "The claim splits cleanly: (1) Hisarlık = the place called Troy/Ilios/Wilusa, now essentially unanimous; (2) a Trojan War as Homer describes it, still unresolved. Mundane check: no hoax affects site genuineness; Schliemann's unreliability (S2) is about his own narration and self-promotion, not the remains' authenticity. Treasures removed in 1873 passed to Berlin, then Moscow/St Petersburg (S10). A rival Bunarbashi identification was abandoned once excavation found no Bronze Age fortification there. Independent-methods count (5): stratigraphy/architecture, artifact typology, Hittite texts, classical tradition, coastal geomorphology (S9) matching the Iliad's plain.",
+  "plates": [
+    {
+      "commons_file": "File:Hisarlık (Ancient City of Troy).jpg",
+      "caption": "The mound of Hisarlık in Çanakkale Province, Turkey, identified as the site of ancient Troy."
+    },
+    {
+      "commons_file": "File:Trojan walls from level VI.jpg",
+      "caption": "Fortification walls of Troy VI, the Late Bronze Age layer now linked to Hittite Wilusa."
+    }
+  ],
+  "review": {
+    "drafted_by": "researcher agent (claude-sonnet-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}
