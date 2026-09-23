@@ -1,0 +1,8 @@
+_site/
+catalog/stratum.db
+__pycache__/
+*.pyc
+.DS_Store
+sources/**/*.pdf
+sources/**/*.PDF
+.claude/settings.local.json

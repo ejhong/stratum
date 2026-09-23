@@ -1,0 +1,87 @@
+so claude just duiscovered somethung new ab out biology today.  i've been thinking how could this be done for history/archaeo/anthropology - i think we have something major off and wrong (like graham hancock says) - how build a lab to make new discoveries by ai here.  what would it look like - same kind of discoveries like is being made in that wet lab.
+
+Searched the web
+Worth looking at how the biology discovery actually worked, because that recipe is the blueprint. Anthropic gave Claude a prompt to search a massive database of DNA sequences, and human involvement was limited to the initial prompt and the lab work. After 21 hours, roughly 950 agents using 210 million tokens, one agent spotted a repeating DNA pattern next to the gene for an odd-looking enzyme. So the formula is: a huge, underexamined dataset, many AI agents combing it and flagging oddities, and humans physically testing the best leads. Archaeology fits that formula surprisingly well. 
+Anthropic
+
+What the lab would look like
+
+The data layer is where archaeology is rich and underexploited. There are LiDAR scans of forests and deserts, decades of satellite imagery, tens of thousands of radiocarbon dates, ancient DNA from thousands of individuals, museum collections nobody has fully catalogued, and hundreds of thousands of cuneiform tablets that have never been translated. There's also a mountain of "grey literature," excavation reports sitting in regional archives that no human has cross-referenced.
+
+The agent layer would do what the biology agents did: scan everything for anomalies. That could mean a date that doesn't fit its layer, a shape in LiDAR that looks built rather than natural, a genetic signal implying a migration nobody has proposed, or two excavation reports on different continents describing the same unusual technique.
+
+The "wet lab" equivalent is the field team: people who go dig a test trench, get a new radiocarbon date, or have a specialist translate a flagged tablet. That's the part that turns a pattern into a discovery.
+
+This isn't hypothetical. AI-assisted surveys have already turned up hundreds of new Nazca geoglyphs, LiDAR revealed entire lost Maya cities, and machine learning is reading carbonized Herculaneum scrolls that were unreadable for 2,000 years.
+
+On Hancock
+
+You're partly right that something has been off. The mainstream has been badly wrong about timelines before. Göbekli Tepe pushed monumental building back to around 9500 BCE, and the White Sands footprints put humans in North America 21,000+ years ago, overturning the "Clovis first" consensus. An AI lab would likely find more surprises like that, because timelines keep getting older as evidence improves.
+
+But Hancock's specific claim, an advanced global civilization wiped out in the Ice Age, is different, and a real lab would have to test it rather than assume it. The useful move is to ask what such a civilization would have left behind that's hard to erase: metal-smelting pollution in Greenland ice cores (Roman mining shows up clearly, so older industry should too), genetic traces of domesticated crops and animals, quarry and mining scars, and garbage (every human society leaves trash). So far those signatures aren't there, which is why most archaeologists reject the idea. An AI lab could run those checks far more exhaustively than anyone has. If it found something, that would be huge. If it didn't, that would be an answer too.
+
+The key design rule is what separates a discovery lab from a belief machine. You write down in advance what evidence would confirm or kill a hypothesis, and you include "skeptic" agents whose job is to attack every finding before it goes to the field team. That's what made the biology result credible: the pattern was real before anyone got excited about it.
+
+If you wanted to start small, the most promising first projects are probably mass-scanning open LiDAR and satellite data for unrecorded sites, and cross-referencing global radiocarbon databases for dates that don't fit the current story. Those are exactly the places where "we've got the timeline wrong" discoveries tend to come from.
+
+Examining claims about controversial human origins evidence.
+Examining claims about controversial human origins evidence.
+Yes, I think there's a genuinely good idea in there, though not quite the one the book intended.
+
+A bit of context on the book first. Forbidden Archaeology (Cremo and Thompson, 1993) argued that anatomically modern humans existed millions of years ago, and that archaeologists had filtered out the evidence. The authors were open about their motivation: they were affiliated with a Hare Krishna institute and were looking for support for Vedic accounts of extreme human antiquity. Most of their anomalies are 19th and early 20th century finds with poor records, like a skull reported in a mine shaft or a tool supposedly found in ancient rock, where you can no longer check how it got there. So the catalog itself is weak data.
+
+But their central observation has something to it. Science does filter anomalies, sometimes wrongly. Monte Verde in Chile was dismissed for about twenty years before being accepted as a 14,500-year-old site that broke the "Clovis first" model. Jebel Irhoud in Morocco pushed Homo sapiens back to around 300,000 years. Denisovans were discovered from a finger bone's DNA, and nobody had predicted them. Other anomalies rightly died: the Calico Hills "tools" in California, for instance, are now widely accepted as naturally broken rocks.
+
+That points to the project I'd actually start with: study the anomalies themselves as a dataset.
+
+Step one is to build a catalog of historical archaeological anomalies whose fate is now known, both the ones that turned out real (Monte Verde, White Sands, Jebel Irhoud) and the ones that fell apart (Calico, Piltdown, various contamination cases). Agents can assemble this from published literature, noting for each: what was claimed, what the objections were, what evidence settled it, and how long that took.
+
+Step two is to look for patterns in what separates the real anomalies from the false ones. Was it multiple independent dating methods agreeing? Clean stratigraphy? Replication at a second site? Specific types of objection that turned out to be bias rather than evidence? This would be a genuinely new contribution. As far as I know, nobody has done this systematically, and it would interest both mainstream archaeologists and philosophers of science.
+
+Step three is to apply those lessons to anomalies that are open right now. There are plenty: the Cerutti Mastodon site in California (claimed at 130,000 years, heavily disputed), Pedra Furada in Brazil, various early dates in the Americas and Australia. The lab could score each on how closely it resembles past anomalies that turned out real. That gives you a ranked list of "these deserve a serious second look," which is exactly the kind of lead a field archaeologist would want.
+
+The radiocarbon version fits in neatly as a parallel track. In the big date databases, agents flag every date that disagrees with its site's accepted chronology, then work through the boring explanations first: contamination, "old wood" (burning a centuries-old tree), marine reservoir effects, lab errors, layers getting mixed. Most anomalies will get explained away, and that's fine. Whatever's left after the mundane causes are ruled out is the interesting residue.
+
+The key difference from Forbidden Archaeology is that the lab checks the anomalies as hard as the mainstream checks the orthodoxy. Cremo collected anomalies that supported his view. Your lab would test all of them evenhandedly, and that's what would make its findings hard to dismiss if something real turns up.
+
+The anomaly-fates catalog is also a nice first project because it's pure literature work: no special data access, no GIS skills, and it's the kind of thing agents do well. If you want, I could sketch the catalog's structure, meaning the fields each entry would have and a starter list of 20–30 well-documented cases on both sides.
+
+ooo this is sounding pretty cool.  what should we name the project - I'm going to feed this to a claude cli project so give me a good response to seed it so it knows what it should do.
+
+Compiling real archaeological cases for a starter catalog.
+Here's a name, and a seed file to go with it. I'd call it Residue, after the idea at the heart of the project: rule out the boring explanations first, and whatever's left over is what's interesting. Some alternatives if that doesn't grab you: Second Look, Outlier Atlas, or Palimpsest (a manuscript scraped and rewritten, with older text still showing through).
+
+The file is written as a CLAUDE.md, which Claude Code reads automatically at the start of every session in that folder, so it will always know the mission and rules.
+
+Created a file, shared files
+To get going, make a folder called residue, put this file in it, open a terminal there and run claude. A good first message would be: "Read CLAUDE.md, set up the directory structure and schema, then research and draft records for Monte Verde and Piltdown Man as a test." Starting with one vindicated and one refuted case lets you check the records are accurate and useful before scaling up.
+
+One note: I wrote the starter case list from memory, so the file tells Claude Code to verify every detail against real sources rather than trusting it. That rule matters most for the whole project, since the lab is only as credible as its citations.
+
+
+Claude
+Document·MD 
+what are other names that sound good
+
+Here are some more, grouped by the feeling they give off:
+
+Rooted in archaeology
+
+Stratum: the layers archaeologists dig through; suggests going deeper.
+Palimpsest: a manuscript scraped clean and rewritten, with older text still bleeding through. Very fitting for "history that's been overwritten."
+Trowel: the archaeologist's basic tool; humble, hands-on, memorable.
+Midden: an ancient trash heap, where archaeologists often find the best evidence. Quirky and a bit of an in-joke.
+Sherd: a broken piece of pottery; small fragments that reveal whole stories.
+About anomalies and rethinking
+
+Outlier: plain and clear about what the project hunts for.
+Second Look: friendly, and signals fairness rather than conspiracy.
+Reopened: like a cold case file.
+Dissent: bolder, maybe too combative for winning over academics.
+Evocative and a bit mythic
+
+Deep Time: the geologist's term for vast stretches of the past.
+Lodestone: a natural magnet that points the way.
+Rosetta: after the stone that unlocked Egyptian hieroglyphs, though it's used by a lot of other projects already.
+Cold Case: frames the whole thing as detective work on the past.
+My favorites alongside Residue would be Palimpsest (the most poetic and exactly on theme) and Second Look (the most approachable, and the one least likely to make a skeptical archaeologist roll their eyes when you email them). If you pick a different name, just swap it into the title line of the CLAUDE.md; nothing else depends on it.
