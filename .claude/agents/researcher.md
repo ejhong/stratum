@@ -22,14 +22,25 @@ At minimum:
 - what settled it, or the latest state of play if still open;
 - one recent review or synthesis.
 
-Prefer primary, peer-reviewed, open-access work. Use WebSearch and WebFetch. Crossref
-search is fast and exact: `curl -s "https://api.crossref.org/works?query.bibliographic=<words>&rows=5"`.
-Starter notes you are given may be wrong — check them, and record corrections.
+Prefer primary, peer-reviewed, open-access work. Starter notes you are given may be wrong —
+check them, and record corrections.
+
+**Token discipline** (every character you read is re-read on each later step, so waste
+compounds):
+- Use `python3 scripts/lookup.py` for all lookups — it prints only what a record needs:
+  `search "<words>"` finds papers; `doi <doi>` gives the exact citation, the abstract and
+  open-access status; `page <url> --grep "word|word"` returns only matching passages of
+  a web page or PDF; `commons "File:<name>"` checks an image's license.
+- Never `curl` raw API JSON, never Read a whole PDF or HTML page, never print full text.
+- Do not write helper scripts; `scripts/lookup.py` covers it. Temporary files go only in a
+  folder named after your case id, because other agents run in parallel.
+  Abstract first; then `page --grep` for the specific passage you need.
+- Budget: about 40 tool calls and 6–10 sources. Stop when every key field is sourced.
 
 ## 2. Verify every source before citing it
 
-- **DOI**: `curl -s https://api.crossref.org/works/<doi>` and copy authors, year, title and
-  venue from that metadata, not from memory.
+- **DOI**: `python3 scripts/lookup.py doi <doi>` and copy authors, year, title and venue
+  from its CITATION line, not from memory.
 - **Content**: open the abstract or full text. Label `checked` only if you read text that
   supports what you cite it for; `exists` if metadata is confirmed but you could not read
   the content (say "paywalled" in the note); `unverified` if you could not confirm it —
@@ -59,8 +70,8 @@ Starter notes you are given may be wrong — check them, and record corrections.
 - **falsifier**: what evidence would overturn the status.
 - **plates**: up to two Wikimedia Commons photographs of the actual site or object. Confirm
   the exact title and a reusable license (public domain, CC0, CC BY, CC BY-SA) with
-  `curl -s "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata&titles=File:<name>"`.
-  Never AI-generated images. Skip plates rather than guess.
+  `python3 scripts/lookup.py commons "File:<name>"`. Never AI-generated images. Skip plates
+  rather than guess.
 - **review**: `{"drafted_by": "researcher agent (<your model>)", "drafted_on": "<today>", "stage": "draft"}`.
 
 ## 4. Check your work

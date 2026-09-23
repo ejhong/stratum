@@ -1,0 +1,137 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+  "crossref_year": 2017,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The age of the hominin fossils from Jebel Irhoud, Morocco, and the origins of the Middle Stone Age",
+  "crossref_year": 2017,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Earliest evidence of modern human life history in North African early\n                    <i>Homo sapiens</i>",
+  "crossref_year": 2007,
+  "crossref_venue": "Proceedings of the National Academy of Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Recent human evolution in northwestern Africa",
+  "crossref_year": 1992,
+  "crossref_venue": "Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Neurocranial evolution in modern humans: the case of Jebel Irhoud 1",
+  "crossref_year": 2013,
+  "crossref_venue": "Anthropological Science",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Deciphering African late middle Pleistocene hominin diversity and the origin of our species",
+  "crossref_year": 2019,
+  "crossref_venue": "Nature Communications",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Did Our Species Evolve in Subdivided Populations across Africa, and Why Does It Matter?",
+  "crossref_year": 2018,
+  "crossref_venue": "Trends in Ecology &amp; Evolution",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Southern African ancient genomes estimate modern human divergence to 350,000 to 260,000 years ago",
+  "crossref_year": 2017,
+  "crossref_venue": "Science",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Age of the oldest known Homo sapiens from eastern Africa",
+  "crossref_year": 2022,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The evolution of modern human brain shape",
+  "crossref_year": 2018,
+  "crossref_venue": "Science Advances",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Évolution du calvarium des hominines de la fin du Pléistocène moyen à l’apparition d’Homo sapiens : étude de morphométrie géométrique",
+  "crossref_year": 2023,
+  "crossref_venue": "Bulletins et mémoires de la société d'anthropologie de Paris",
+  "checked_on": "2026-09-23"
+ },
+ "S15": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Early hominins from Morocco basal to the Homo sapiens lineage",
+  "crossref_year": 2026,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S16": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Author Correction: New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+  "crossref_year": 2018,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S17": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Origins of modern human ancestry",
+  "crossref_year": 2021,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S18": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The dental proteome of Homo antecessor",
+  "crossref_year": 2020,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ }
+}

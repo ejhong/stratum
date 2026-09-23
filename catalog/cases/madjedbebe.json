@@ -1,0 +1,341 @@
+{
+  "id": "madjedbebe",
+  "name": "Madjedbebe (Malakunanja II)",
+  "hook": "Tools in a northern Australian rock shelter that may put people in Australia 65,000 years ago.",
+  "location": {
+    "country": "Australia",
+    "region": "Northern Territory",
+    "continent": "Oceania"
+  },
+  "anomaly_type": "chronology",
+  "claim": "People used the shelter from about 65,000 years ago. Stone tools, grinding stones and ground ochre in the lowest dense artefact band are dated by single-grain OSL, earlier than the roughly 50,000-year arrival many accepted for Australia.",
+  "claimed_age": {
+    "label": "~65,000 years ago (OSL)",
+    "bp_min": 59300,
+    "bp_max": 70700,
+    "basis": "Bayesian model of single-grain OSL ages: start of the lowest dense artefact band 65.0 ± 5.7 ka (95.4%, incl. systematic error). Calendar years; OSL counts from ~2015, not 1950.",
+    "source": "S4"
+  },
+  "accepted_age": null,
+  "orthodoxy_at_claim": {
+    "label": "Sahul first settled about 48,000–50,000 years ago; no securely dated site older than ~50,000 years (earlier TL claims disputed).",
+    "limit_bp": 50000,
+    "source": "S7"
+  },
+  "year_claimed": 2017,
+  "key_proponents": ["Chris Clarkson", "Zenobia Jacobs", "Richard G. Roberts", "Ben Marwick", "Mike A. Smith", "Richard Fullagar"],
+  "key_critics": ["James F. O'Connell", "Jim Allen", "Martin A. J. Williams", "Nigel A. Spooner"],
+  "evidence_types": ["osl", "tl", "radiocarbon", "stratigraphy", "geology", "lithics", "artifacts", "features", "plant-remains"],
+  "independent_methods_count": 3,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "yes",
+      "note": "Over 10,000 flaked tools plus grinding stones, ground ochre and edge-ground axe pieces; critics treat them as artefacts and dispute only their age.",
+      "source": "S7"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Finds plotted in 3D; refits (median vertical gap 0.10 m) and micromorphology show small-scale mixing, but the sand is bioturbated: frequent small moves, rare large ones.",
+      "source": "S4"
+    },
+    "multiple_dating_methods": {
+      "value": "partial",
+      "note": "The Phase 2 age rests on single-grain OSL (older TL ages agree); radiocarbon matches OSL only in the upper ~1.6 m, as Phase 2 lies beyond its range.",
+      "source": "S4"
+    },
+    "multiple_labs": {
+      "value": "yes",
+      "note": "A blind OSL study at Adelaide matched Wollongong results on four samples; radiocarbon ages came from two laboratories.",
+      "source": "S4"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated in 2012 and 2015 by university archaeologists and dating specialists, with the Gundjeihmi Aboriginal Corporation as research partner.",
+      "source": "S4"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Full report in Nature (2017) with a 10-section supplement; the 1989 assemblage had been described in J. Hum. Evol. (2015).",
+      "source": "S4"
+    },
+    "material_accessible": {
+      "value": "partial",
+      "note": "Raw data and R code posted openly on OSF in 2018. Research at the site is by permission of the Mirarr Traditional Owners; critics worked from published data.",
+      "source": "S6"
+    },
+    "independent_teams": {
+      "value": "no",
+      "note": "All site evidence in 2017–2022 came from one collaboration; critics reinterpreted published data and called the site 'the single data point' for >50 ka.",
+      "source": "S7"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No documented outside motive; authors declared no competing financial interests; funded by Australian Research Council grants.",
+      "source": "S4"
+    }
+  },
+  "objections": [
+    {
+      "text": "Termites, rain-splash, creep and dripline erosion in the sand could have moved artefacts down into older sand, so OSL dates the sand, not the tools; such disturbance can leave little trace.",
+      "kind": "context",
+      "raised_by": "James O'Connell, Jim Allen et al.",
+      "year": 2018,
+      "outcome": "unresolved",
+      "outcome_note": "Excavators cite refits, tight single-grain OSL spreads, micromorphology and a trampling test as showing only small-scale mixing; no direct test has settled it.",
+      "source": "S7"
+    },
+    {
+      "text": "Phase 2 has no radiocarbon date, and fine charcoal from Phase 2 depth in the 1989 dig gave about 13,000 years, at odds with the OSL ages.",
+      "kind": "dating",
+      "raised_by": "James O'Connell, Jim Allen et al.",
+      "year": 2018,
+      "outcome": "unresolved",
+      "outcome_note": "Excavators: Phase 2 hearth charcoal failed pretreatment (16 of 40 samples did) and fine charcoal is mobile; radiocarbon and OSL agree higher up.",
+      "source": "S7"
+    },
+    {
+      "text": "Artefacts below the dense band (Phase 1, OSL-dated 65–87 ka) are treated as displaced while Phase 2 finds are treated as in place, which is inconsistent.",
+      "kind": "context",
+      "raised_by": "James O'Connell, Jim Allen et al.",
+      "year": 2018,
+      "outcome": "unresolved",
+      "outcome_note": "Excavators (2018): Phase 1 finds are sparse and probably displaced from Phase 2, though an earlier occupation pulse is possible; analysis ongoing.",
+      "source": "S7"
+    },
+    {
+      "text": "The age is 15–20 kyr older than the next-oldest secure Sahul sites, puts axes, seed grinding and ochre use far earlier than elsewhere, and rests on a single site.",
+      "kind": "prior",
+      "raised_by": "James O'Connell, Jim Allen et al.",
+      "year": 2018,
+      "outcome": "unresolved",
+      "outcome_note": "Critics (2025) still place every other Sahul site at 43–54 ka; a Sulawesi hand stencil at least 67,800 years old (2026) is consistent with early arrival.",
+      "source": "S7"
+    },
+    {
+      "text": "Neanderthal DNA entered all non-African populations after ~50 ka, so Sahul's ancestors must have arrived later; genetics gives no support for a 65 ka presence.",
+      "kind": "prior",
+      "raised_by": "Jim Allen, James O'Connell",
+      "year": 2025,
+      "outcome": "unresolved",
+      "outcome_note": "Veth et al. (2025) question the molecular-clock assumptions; a 2,456-mitogenome study (2025) supports settlement of Sahul by ~60 ka.",
+      "source": "S10"
+    },
+    {
+      "text": "A conservative reading takes the band's modelled end age (53 ± 4 ka), not its start (65 ± 6 ka), as the safe age for Phase 2 artefacts.",
+      "kind": "dating",
+      "raised_by": "Joe Dortch, Anna-Sapfo Malaspinas",
+      "year": 2017,
+      "outcome": "unresolved",
+      "outcome_note": "Excavators: no statistical basis to reject the start age (59–71 ka at 95.4%). A 2025 genetic study still judged 53–60 ka likely for the site.",
+      "source": "S6"
+    },
+    {
+      "text": "The criteria used to rule out termite stone lines at the site are invalid, and its radiocarbon and luminescence data fit termite disruption; the early dates should be rejected.",
+      "kind": "context",
+      "raised_by": "Martin Williams, Nigel Spooner et al.",
+      "year": 2021,
+      "outcome": "unresolved",
+      "outcome_note": "Smith et al. (2020), including an excavation co-author, found no termite stone lines at Madjedbebe; the two sides exchanged letters in 2021.",
+      "source": "S9"
+    }
+  ],
+  "status": "open",
+  "status_note": "Unresolved. Critics argue the lowest tools sank into older sand and that Neanderthal-DNA timing puts arrival after ~50 ka; the excavators reject both, and a 2025 mitogenome study supports arrival by ~60 ka.",
+  "year_resolved": null,
+  "what_settled_it": null,
+  "settled_by": ["not-settled"],
+  "failure_mode": "none",
+  "timeline": [
+    { "year": 1973, "event": "J. Kamminga and H. Allen test-excavate the shelter, then called Malakunanja II.", "source": "S4" },
+    { "year": 1990, "event": "Roberts, Jones and Smith report TL dates suggesting people arrived 50,000–60,000 years ago, beyond the then-oldest 40,000-year date.", "source": "S1" },
+    { "year": 1990, "event": "Hiscock publishes 'How old are the artefacts in Malakunanja II?'; the excavators reply.", "source": "S2" },
+    { "year": 2015, "event": "Re-analysis of the 1989 finds supports occupation 50,000–60,000 years ago and argues disturbance claims were overstated.", "source": "S3" },
+    { "year": 2017, "event": "After 2012 and 2015 excavations, Clarkson et al. date the start of the lowest dense artefact band to ~65,000 years (Nature).", "source": "S4" },
+    { "year": 2018, "event": "The excavators answer forum critics, correct a supplementary table and post raw data and code openly.", "source": "S6" },
+    { "year": 2018, "event": "O'Connell et al. argue that an age over 50,000 years for the site is 'unlikely to be valid' (PNAS).", "source": "S7" },
+    { "year": 2020, "event": "Smith, Ward and Moffat find no termite stone lines at Madjedbebe or Nauwalabila.", "source": "S8" },
+    { "year": 2021, "event": "Williams et al. reject those criteria and say the early dates must be rejected; letters follow.", "source": "S9" },
+    { "year": 2025, "event": "Allen and O'Connell argue Neanderthal-DNA timing rules out 65,000-year ancestors; Veth and colleagues dispute the clock assumptions.", "source": "S12" },
+    { "year": 2025, "event": "A study of 2,456 mitogenomes supports settlement of Sahul by ~60,000 years ago, via two routes.", "source": "S13" },
+    { "year": 2026, "event": "A Sulawesi hand stencil with a minimum age of 67,800 years is read as consistent with arrival in Sahul ~65,000 years ago.", "source": "S14" }
+  ],
+  "decisive_tests": [
+    {
+      "test": "AMS-radiocarbon-date charred Pandanus nutshell or charcoal from the Phase 2 hearths (ABOx-SC pretreatment) at two laboratories.",
+      "would_show": "Results at radiocarbon background (>~50 ka) would support an old deposit; finite ages well under 50 ka would point to intrusion or mixing.",
+      "cost": "low"
+    },
+    {
+      "test": "Refit and raw-material study linking the sparse Phase 1 artefacts (below 2.6 m) to Phase 2 pieces in the archived 2012–2015 collections.",
+      "would_show": "Many cross-phase refits would show downward artefact movement; none, with distinct technology, would support an earlier occupation pulse.",
+      "cost": "low"
+    },
+    {
+      "test": "With Traditional Owners' consent, blind single-grain OSL by a lab outside the original team on a fresh Phase 2 section, plus micromorphology targeting termite reworking, protocol agreed with critics.",
+      "would_show": "Matching ages and no reworking fabrics would strengthen the 65 ka reading; mixed grain-age populations or termite fabrics would support displacement.",
+      "cost": "medium"
+    },
+    {
+      "test": "Excavate and independently date a second northern Australian site with a dense lower artefact band (e.g. the planned Nauwalabila I re-investigation).",
+      "would_show": "A second site at 60 ka or more would support early arrival; repeated absence of pre-55 ka occupation would weaken it.",
+      "cost": "high"
+    }
+  ],
+  "falsifier": "Radiocarbon ages well under 50 ka on in-place Phase 2 organics, or clear evidence of large-scale downward artefact movement, would refute the 65 ka reading. A second, independently dated Sahul site with dense artefacts at 60 ka or more would favour it.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Roberts, R.G., Jones, R. & Smith, M.A. 1990. Thermoluminescence dating of a 50,000-year-old human occupation site in northern Australia. Nature 345(6271): 153–156.",
+      "doi": "10.1038/345153a0",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: TL dates suggest arrival 50–60 kyr; oldest secure date then 40 kyr. Full text paywalled."
+    },
+    {
+      "id": "S2",
+      "citation": "Hiscock, P. 1990. How old are the artefacts in Malakunanja II? Archaeology in Oceania 25(3): 122–124.",
+      "doi": "10.1002/j.1834-4453.1990.tb00242.x",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Paywalled; publisher page blocked automated access. Metadata confirmed via Crossref; content not read. Cited only for its existence and title."
+    },
+    {
+      "id": "S3",
+      "citation": "Clarkson, C., Smith, M., Marwick, B., Fullagar, R., Wallis, L.A., et al. 2015. The archaeology, chronology and stratigraphy of Madjedbebe (Malakunanja II): A site in northern Australia with early occupation. Journal of Human Evolution 83: 46–64.",
+      "doi": "10.1016/j.jhevol.2015.03.014",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (Europe PMC): re-analysis of the 1989 finds supports 50–60 ka and says displacement claims may have been overstated. Paywalled."
+    },
+    {
+      "id": "S4",
+      "citation": "Clarkson, C., Jacobs, Z., Marwick, B., Fullagar, R., Wallis, L., Smith, M., Roberts, R.G., et al. 2017. Human occupation of northern Australia by 65,000 years ago. Nature 547(7663): 306–310.",
+      "doi": "10.1038/nature22968",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract, open Supplementary Information and Extended Data legends read (Phase 2 start 65.0 ± 5.7 ka; blind inter-lab OSL). Main text paywalled."
+    },
+    {
+      "id": "S5",
+      "citation": "Marwick, B., Hayes, E., Clarkson, C. & Fullagar, R. 2017. Movement of lithics by trampling: An experiment in the Madjedbebe sediments, northern Australia. Journal of Archaeological Science 79: 73–85.",
+      "doi": "10.1016/j.jas.2017.01.008",
+      "url": "https://doi.org/10.31235/osf.io/7a6h6",
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via the open OSF preprint (url): trampling did not cause extensive downward displacement. Journal version paywalled."
+    },
+    {
+      "id": "S6",
+      "citation": "Clarkson, C., Roberts, R.G., Jacobs, Z., Marwick, B., Fullagar, R., Arnold, L.J. & Hua, Q. 2018. Reply to comments on Clarkson et al. (2017) 'Human occupation of northern Australia by 65,000 years ago'. Australian Archaeology 84(1): 84–89.",
+      "doi": "10.1080/03122417.2018.1462884",
+      "url": "http://faculty.washington.edu/bmarwick/PDFs/Clarkson-Roberts-Jacobs-Marwick-et-al-2018-AA-reply.pdf",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read (author's open copy): hearth charcoal failed pretreatment; Phase 1 likely displaced; start age 65 ± 6 ka; data and code on OSF."
+    },
+    {
+      "id": "S7",
+      "citation": "O'Connell, J.F., Allen, J., Williams, M.A.J., Williams, A.N., Turney, C.S.M., Spooner, N.A., Kamminga, J., Brown, G. & Cooper, A. 2018. When did Homo sapiens first reach Southeast Asia and Sahul? PNAS 115(34): 8482–8490.",
+      "doi": "10.1073/pnas.1808385115",
+      "url": null,
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read (PMC). Disturbance, radiocarbon conflict, Phase 1 finds, regional anomaly, genetics; Sahul settlement put at ~48–50 ka."
+    },
+    {
+      "id": "S8",
+      "citation": "Smith, M.A., Ward, I. & Moffat, I. 2020. How do we distinguish termite stone lines from artefact horizons? A challenge for geoarchaeology in tropical Australia. Geoarchaeology 35(2): 232–242.",
+      "doi": "10.1002/gea.21766",
+      "url": "https://doi.org/10.31219/osf.io/ybjv7",
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: no termite stone lines at Madjedbebe or Nauwalabila, though both may have complex histories. Preprint on OSF (url)."
+    },
+    {
+      "id": "S9",
+      "citation": "Williams, M.A.J., Spooner, N.A., McDonnell, K. & O'Connell, J.F. 2021. Identifying disturbance in archaeological sites in tropical northern Australia: Implications for previously proposed 65,000-year continental occupation date. Geoarchaeology 36(1): 92–108.",
+      "doi": "10.1002/gea.21822",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: rejects Smith et al.'s criteria; radiocarbon and luminescence data fit termite disruption; early dates must be rejected. Paywalled."
+    },
+    {
+      "id": "S10",
+      "citation": "Allen, J. & O'Connell, J.F. 2025. Recent DNA studies question a 65 kya arrival of humans in Sahul. Archaeology in Oceania 60(2): 187–190.",
+      "doi": "10.1002/arco.70002",
+      "url": null,
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract read (via OpenAlex). Open access, but the publisher blocked automated reading of the full text."
+    },
+    {
+      "id": "S11",
+      "citation": "Veth, P., Matisoo-Smith, L., Brumm, A., Groucutt, H.S. & Scerri, E.M.L. 2025. Do recent DNA studies refute a 65 kya arrival of humans in Sahul? Archaeology in Oceania 60(2): 191–194.",
+      "doi": "10.1002/arco.70005",
+      "url": null,
+      "kind": "reply",
+      "access": "open",
+      "verification": "exists",
+      "note": "Metadata confirmed via Crossref. Open access, but the publisher blocked automated reading; content known only from the S12 news report."
+    },
+    {
+      "id": "S12",
+      "citation": "Killgrove, K. 2025. Neanderthal DNA may refute 65,000-year-old date for human occupation in Australia, but not all experts are convinced. Live Science, 3 July 2025.",
+      "doi": null,
+      "url": "https://www.livescience.com/archaeology/human-evolution/neanderthal-dna-may-refute-65-000-year-old-date-for-human-occupation-in-australia-but-not-all-experts-are-convinced",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Reports both 2025 papers with quotes from O'Connell, Veth and Brumm; gives the 50,500–43,500-year admixture pulse."
+    },
+    {
+      "id": "S13",
+      "citation": "Gandini, F., Almeida, M., Foody, M.G.B., Nagle, N., Bergström, A., et al. 2025. Genomic evidence supports the \"long chronology\" for the peopling of Sahul. Science Advances 11(48): eady9493.",
+      "doi": "10.1126/sciadv.ady9493",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read (PMC). Supports ~60 ka arrival; its synthesis judges 53–60 ka likely for Madjedbebe given signs of artefact displacement."
+    },
+    {
+      "id": "S14",
+      "citation": "Oktaviana, A.A., Joannes-Boyau, R., Hakim, B., Burhan, B., Sardi, R., et al. 2026. Rock art from at least 67,800 years ago in Sulawesi. Nature 650(8102): 652–656.",
+      "doi": "10.1038/s41586-025-09968-y",
+      "url": null,
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Abstract and text read (open access). Hand stencil minimum age 67.8 ka; authors link it to arrival in Sahul about 65 ka."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Key figures checked in the 2017 supplement and 2018 reply; several critiques read only as abstracts or via news; treating 2017 as the claim year is a judgment call.",
+  "corrections": [
+    "Starter notes call the 1990 claim 'TL/OSL'; the 1990 Nature paper used thermoluminescence only. OSL on two of the 1989 samples was published in 1998.",
+    "'Artifacts dating to ~65,000 years' is the modelled start of the lowest dense artefact band (65.0 ± 5.7 ka at 95.4%); the same band continues to ~53 ka.",
+    "Trampling was tested by the excavation team itself (Marwick et al. 2017). The critics' main mechanism is termite bioturbation, with rain-splash, creep and dripline erosion.",
+    "Allen and O'Connell's latest critique (2025) is genetic (Neanderthal-admixture timing), not about sediment movement."
+  ],
+  "notes": "Claim-year choice: this record catalogues the 2017 claim of ~65 ka. The site's first early-age claim, TL dates of 50–60 ka for Malakunanja II (Roberts, Jones & Smith 1990), was never resolved either; it is kept as the precursor in the timeline, and features are coded for 2017–2022. It could become a separate record. The 2025 mitogenome study that favours a ~60 ka arrival still judged 53–60 ka more likely for Madjedbebe. Research at the site is by permission of the Mirarr Traditional Owners through the Gundjeihmi Aboriginal Corporation. No Wikimedia Commons photographs of the site were found, so no plates.",
+  "review": {
+    "drafted_by": "researcher agent (claude-opus-5-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

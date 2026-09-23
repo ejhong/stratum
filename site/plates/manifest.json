@@ -1,0 +1,74 @@
+{
+ "cerutti-mastodon": [
+  {
+   "file": "plates/cerutti-mastodon/cerutti-mastodon-femur-heads.jpg",
+   "caption": "Two mastodon femur heads from the Cerutti site, one numbered 252, in a San Diego Natural History Museum display.",
+   "commons_file": "File:Cerutti mastodon femur heads.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "credit": "Owen Allen",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cerutti_mastodon_femur_heads.jpg",
+   "width": 1400,
+   "height": 931
+  },
+  {
+   "file": "plates/cerutti-mastodon/cerutti-mastodon-tusk-full.jpg",
+   "caption": "A Cerutti mastodon tusk displayed in the upright position recorded at excavation, San Diego Natural History Museum, 2024.",
+   "commons_file": "File:Cerutti mastodon tusk - full.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "credit": "Blervis",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cerutti_mastodon_tusk_-_full.jpg",
+   "width": 1400,
+   "height": 1867
+  }
+ ],
+ "jebel-irhoud": [
+  {
+   "file": "plates/jebel-irhoud/irhoud-10-in-situ.jpg",
+   "caption": "The crushed top of the Irhoud 10 skull (centre) and part of a femur, Irhoud 13, in the excavation wall; scale in centimetres.",
+   "commons_file": "File:Irhoud 10 in situ.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "credit": "Steffen Schatz, MPI EVA Leipzig",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Irhoud_10_in_situ.jpg",
+   "width": 1400,
+   "height": 1055
+  },
+  {
+   "file": "plates/jebel-irhoud/stone-tools-from-jebel-irhoud.jpg",
+   "caption": "Middle Stone Age stone tools from Jebel Irhoud, including pointed forms and Levallois flakes.",
+   "commons_file": "File:Stone tools from Jebel Irhoud.png",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "credit": "Mohammed Kamal, MPI EVA Leipzig",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Stone_tools_from_Jebel_Irhoud.png",
+   "width": 1400,
+   "height": 1779
+  }
+ ],
+ "piltdown": [
+  {
+   "file": "plates/piltdown/piltdown-man-jaw-fragment-on-display-at-melbourne-museum.jpg",
+   "caption": "The brown-stained Piltdown jaw, with two molars and a '1912' label, shown at Melbourne Museum in 2021.",
+   "commons_file": "File:\"Piltdown Man\" jaw fragment on display at Melbourne Museum.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "credit": "Ethmostigmus",
+   "source_url": "https://commons.wikimedia.org/wiki/File:%22Piltdown_Man%22_jaw_fragment_on_display_at_Melbourne_Museum.jpg",
+   "width": 1400,
+   "height": 1120
+  },
+  {
+   "file": "plates/piltdown/skull-of-the-eoanthropus-dawsoni-piltdown-man-wellcome-m0013.jpg",
+   "caption": "A photograph of the Piltdown skull as reconstructed, with dark fragments and pale filled-in areas.",
+   "commons_file": "File:Skull of the \"Eoanthropus Dawsoni\" (Piltdown Man) Wellcome M0013579.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "credit": "Unknown author",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Skull_of_the_%22Eoanthropus_Dawsoni%22_(Piltdown_Man)_Wellcome_M0013579.jpg",
+   "width": 1400,
+   "height": 1225
+  }
+ ]
+}

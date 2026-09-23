@@ -15,22 +15,21 @@ import json
 import re
 import sys
 import time
-import urllib.error
 import urllib.parse
-import urllib.request
 from datetime import date
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from net import HTTPError, fetch  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CASES = ROOT / "catalog" / "cases"
 OUT = ROOT / "catalog" / "checks"
-UA = "StratumCitationCheck/1.0 (https://github.com/ejhong/stratum; mailto:ejhong@gmail.com)"
 
 
 def get(url, accept="application/json"):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.status, r.read()
+    _, body = fetch(url, accept=accept, timeout=25)
+    return 200, body
 
 
 def words(s):
@@ -53,7 +52,7 @@ def crossref(doi):
             "authors": [a.get("family", "") for a in m.get("author", [])][:8],
             "venue": " ".join(m.get("container-title") or [""]),
         }
-    except urllib.error.HTTPError as e:
+    except HTTPError as e:
         if e.code == 404:
             return None
         raise
@@ -61,10 +60,9 @@ def crossref(doi):
 
 def doi_resolves(doi):
     try:
-        req = urllib.request.Request("https://doi.org/" + doi, method="HEAD", headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=25) as r:
-            return r.status < 400
-    except urllib.error.HTTPError as e:
+        fetch("https://doi.org/" + doi, accept="text/html", timeout=25, method="HEAD")
+        return True
+    except HTTPError as e:
         return e.code in (401, 403, 405, 429)  # publisher blocks bots but the DOI resolved
     except Exception:
         return False
@@ -95,7 +93,7 @@ def check_source(src):
         try:
             status, _ = get(url, accept="text/html,*/*")
             return {"result": "url-ok", "detail": f"HTTP {status}"}
-        except urllib.error.HTTPError as e:
+        except HTTPError as e:
             if e.code in (401, 403, 405, 429):
                 return {"result": "url-blocked", "detail": f"HTTP {e.code} (site blocks bots; check by hand)"}
             return {"result": "url-broken", "detail": f"HTTP {e.code}"}

@@ -1,0 +1,357 @@
+{
+ "n_total": 7,
+ "n_reviewed": 0,
+ "n_resolved": 0,
+ "hypotheses": {
+  "H1": {
+   "n": 0,
+   "threshold": 12,
+   "vindicated_median": null,
+   "refuted_median": null,
+   "vindicated": [],
+   "refuted": [],
+   "status": "awaiting data",
+   "reading": "Not enough chronology cases with a sourced accepted limit yet"
+  },
+  "H2": {
+   "multiple_dating_methods": {
+    "vindicated": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "refuted": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "fisher_p": null
+   },
+   "multiple_labs": {
+    "vindicated": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "refuted": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "fisher_p": null
+   },
+   "n": 0,
+   "threshold": 20,
+   "status": "awaiting data"
+  },
+  "H3": {
+   "independent_teams": {
+    "vindicated": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "refuted": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "fisher_p": null
+   },
+   "material_accessible": {
+    "vindicated": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "refuted": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": null
+    },
+    "fisher_p": null
+   },
+   "n": 0,
+   "threshold": 20,
+   "status": "awaiting data"
+  },
+  "H4": {
+   "n": 0,
+   "threshold": 30,
+   "prior_share_wrong": null,
+   "prior_share_held": null,
+   "table": {},
+   "status": "awaiting data"
+  },
+  "H5": {
+   "n": 0,
+   "threshold": 20,
+   "vindicated_median": null,
+   "refuted_median": null,
+   "vindicated": [],
+   "refuted": [],
+   "status": "awaiting data"
+  },
+  "H6": {
+   "n": 0,
+   "threshold": 20,
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "status": "awaiting data"
+  }
+ },
+ "feature_rates": {
+  "unambiguous_signal": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "documented_context": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "multiple_dating_methods": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "multiple_labs": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "professional_recovery": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "peer_reviewed_report": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "material_accessible": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "independent_teams": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  },
+  "proponent_stake": {
+   "vindicated": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "partial": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "open": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   },
+   "refuted": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "ci": null
+   }
+  }
+ }
+}

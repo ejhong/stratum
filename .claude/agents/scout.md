@@ -21,8 +21,8 @@ For each candidate, append to `catalog/candidates.json` (a JSON array):
 ```
 
 Rules:
-- Both sources must be real and checked (`curl -s https://api.crossref.org/works/<doi>` for
-  DOIs). Never invent a reference.
+- Both sources must be real and checked with `python3 scripts/lookup.py doi <doi>` (or
+  `search "<words>"` to find them). Never invent a reference; never dump raw API output.
 - Balance matters more than volume: the catalog needs refuted and quietly-abandoned claims
   as much as famous vindications, or the analysis will be biased. Actively look for obscure
   failures, claims that were never resolved, and vindications that took decades.

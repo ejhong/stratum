@@ -1,0 +1,420 @@
+{
+  "id": "calico-hills",
+  "name": "Calico Early Man Site",
+  "hook": "Chipped chert from a Mojave alluvial fan that Louis Leakey took for tools; most now see natural breakage.",
+  "location": {
+    "country": "United States",
+    "region": "California (Mojave Desert)",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "Flaked chert and chalcedony dug from deep alluvial-fan deposits in the Calico Hills were presented as human-made tools, putting people in the Americas tens of thousands of years before Clovis. Proponents now argue the tools are over 200,000 years old.",
+  "claimed_age": {
+    "label": "30,000–120,000 yr (1969 est.); later >200,000 yr",
+    "bp_min": 30000,
+    "bp_max": 120000,
+    "basis": "1969: geomorphic estimate for the Yermo fan (>30,000, <120,000 yr) plus infinite 14C (>34,000 yr) on carbonate cement in artifact levels. The >200,000-yr claim rests on 1981 U-series dates.",
+    "source": "S3"
+  },
+  "accepted_age": {
+    "label": "Natural geofacts in fan deposits ~200 ka or older",
+    "bp_min": 200000,
+    "bp_max": null,
+    "basis": "U-series on basal carbonate cement ~200,000 yr (1981); 10Be boulder ages give a minimum of 197 ± 20 ka (Owen et al. 2011). The flaked stones are widely judged natural.",
+    "source": "S6"
+  },
+  "orthodoxy_at_claim": {
+    "label": "People reached the Americas late in the last glaciation; Clovis (~11,500 radiocarbon yr BP) was the oldest accepted culture.",
+    "limit_bp": 13350,
+    "source": "S1"
+  },
+  "year_claimed": 1968,
+  "key_proponents": [
+    "Louis S. B. Leakey",
+    "Ruth DeEtte Simpson",
+    "Thomas Clements",
+    "Fred E. Budinger Jr.",
+    "Leland W. Patterson",
+    "Christopher Hardaker"
+  ],
+  "key_critics": [
+    "C. Vance Haynes Jr.",
+    "J. G. Duvall & W. T. Venner",
+    "Louis A. Payen",
+    "R. E. Taylor",
+    "Mary D. Leakey"
+  ],
+  "evidence_types": [
+    "lithics",
+    "features",
+    "stratigraphy",
+    "geology",
+    "radiocarbon",
+    "u-series",
+    "tl",
+    "esr",
+    "paleomagnetism"
+  ],
+  "independent_methods_count": 3,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "no",
+      "note": "Flaked chert in a high-energy alluvial fan; critics argued from the start that such pieces can break naturally, and the 1970 conference did not settle it.",
+      "source": "S14"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Excavated in measured levels from cemented Yermo fan deposits, but an alluvial fan is a transported context that cannot by itself show human activity.",
+      "source": "S3"
+    },
+    "multiple_dating_methods": {
+      "value": "partial",
+      "note": "Only a geomorphic estimate (>30,000, <120,000 yr) and an infinite radiocarbon result on carbonate cement (>34,000 yr); no numeric date until U-series in 1981.",
+      "source": "S3"
+    },
+    "multiple_labs": {
+      "value": "no",
+      "note": "The only laboratory dates (radiocarbon on carbonate cement and roots) came from UCLA.",
+      "source": "S3"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Directed by L. S. B. Leakey and R. D. Simpson (San Bernardino County Museum) with USC geologist T. Clements.",
+      "source": "S3"
+    },
+    "peer_reviewed_report": {
+      "value": "partial",
+      "note": "Only a two-page preliminary report in Science (1968); the fuller account appeared in a 1972 museum-association conference volume.",
+      "source": "S11"
+    },
+    "material_accessible": {
+      "value": "yes",
+      "note": "Finds were stored at the San Bernardino County Museum; site and specimens were shown to visiting specialists, including at a 1970 international conference.",
+      "source": "S14"
+    },
+    "independent_teams": {
+      "value": "no",
+      "note": "Evidence came from the Leakey–Simpson project and specialists it recruited (e.g. UCLA radiocarbon); no independent group confirmed artifacts within five years.",
+      "source": "S11"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No documented commercial, religious or nationalist motive; Leakey's scientific reputation was heavily invested in the site.",
+      "source": "S11"
+    }
+  },
+  "objections": [
+    {
+      "text": "The flaked stones could be natural: tectonic stress, weathering, rock-on-rock blows in streams and mudflows, pressure on buried cobbles, and repeated erosion and redeposition in the fan.",
+      "kind": "identification",
+      "raised_by": "C. Vance Haynes",
+      "year": 1973,
+      "outcome": "held",
+      "outcome_note": "Reviews accept a natural origin (S11); proponents reply that no one has shown this fracturing actually happened at the site.",
+      "source": "S12"
+    },
+    {
+      "text": "The claimed age would require pre-Neanderthal humans in the Americas during the Middle Pleistocene.",
+      "kind": "prior",
+      "raised_by": "C. Vance Haynes",
+      "year": 1973,
+      "outcome": "held",
+      "outcome_note": "Still stands: no hominin fossils at Calico and no accepted evidence of people in the Americas nearly this old. Proponents call this an age bias (S10).",
+      "source": "S11"
+    },
+    {
+      "text": "Excavators picked out, from masses of naturally broken chert, the pieces that happened to look like tools; 'artifacts' grade smoothly into non-artifacts.",
+      "kind": "identification",
+      "raised_by": "Haynes (1973); Duvall & Venner (1979)",
+      "year": 1973,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents say Leakey applied consistent criteria; a later curator discarded over half of ~70,000 pieces as lacking data or 'just rocks' (S14).",
+      "source": "S12"
+    },
+    {
+      "text": "Only two control pits (1967) sampled the fan outside the master pits, too few to show whether similar broken stones occur throughout it.",
+      "kind": "context",
+      "raised_by": "C. Vance Haynes",
+      "year": 1973,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents report far lower fracture densities outside the master pits, but no systematic comparison has been published.",
+      "source": "S12"
+    },
+    {
+      "text": "Edge and flake-scar angles of the Calico pieces match natural fracture rather than known human flaking.",
+      "kind": "identification",
+      "raised_by": "Duvall & Venner (1979); Payen (1982)",
+      "year": 1979,
+      "outcome": "unresolved",
+      "outcome_note": "Reviews treat these tests as strong evidence (S11); proponents say they ignore bipolar flaking and misuse statistics. No modern re-test.",
+      "source": "S5"
+    },
+    {
+      "text": "The ring of cobbles called a hearth has not been shown to have held a fire.",
+      "kind": "identification",
+      "raised_by": "TL/ESR test by Bischoff, Ikeya & Budinger",
+      "year": 1984,
+      "outcome": "held",
+      "outcome_note": "TL/ESR found no difference between cobble interiors and exteriors, despite an earlier magnetic study suggesting heating.",
+      "source": "S8"
+    }
+  ],
+  "status": "refuted",
+  "status_note": "Most archaeologists regard the specimens as geofacts broken by natural processes in the fan, and the 'hearth' failed a heating test. A small group (Friends of Calico; Budinger 2024) still argues they are tools over 200,000 years old.",
+  "year_resolved": 1973,
+  "what_settled_it": "No single test. Haynes (1973) showed natural fracturing in the fan could produce the specimens; edge-angle studies (1979, 1982) and a 1984 TL/ESR test finding no heating in the 'hearth' reinforced the natural reading.",
+  "settled_by": [
+    "expert-review",
+    "geology",
+    "morphology"
+  ],
+  "failure_mode": "natural",
+  "timeline": [
+    {
+      "year": 1964,
+      "event": "Excavation begins on 1 November under Louis Leakey and Ruth DeEtte Simpson, funded by the National Geographic Society.",
+      "source": "S14"
+    },
+    {
+      "year": 1968,
+      "event": "Leakey, Simpson and Clements publish a two-page preliminary report in Science.",
+      "source": "S2"
+    },
+    {
+      "year": 1969,
+      "event": "UCLA lab finds carbonate cement in the artifact levels beyond radiocarbon range (>34,000 yr); fan estimated at 30,000–120,000 yr.",
+      "source": "S3"
+    },
+    {
+      "year": 1970,
+      "event": "An international conference in San Bernardino draws specialists from around the world but leaves the question open.",
+      "source": "S14"
+    },
+    {
+      "year": 1973,
+      "event": "Haynes argues in Science that natural processes in the fan could have produced all the specimens.",
+      "source": "S4"
+    },
+    {
+      "year": 1979,
+      "event": "Duvall and Venner's statistical analysis concludes the lithics were formed naturally.",
+      "source": "S5"
+    },
+    {
+      "year": 1981,
+      "event": "U-series dating of carbonate cement puts the basal artifact-bearing deposits at about 200,000 years.",
+      "source": "S6"
+    },
+    {
+      "year": 1982,
+      "event": "Payen applies the Barnes edge-angle test and finds no significant difference from uncontrolled (natural) fracture.",
+      "source": "S7"
+    },
+    {
+      "year": 1984,
+      "event": "TL/ESR measurements find no sign that the 'hearth' cobbles were heated.",
+      "source": "S8"
+    },
+    {
+      "year": 1987,
+      "event": "Patterson and colleagues publish flake-attribute data that they argue show human manufacture.",
+      "source": "S9"
+    },
+    {
+      "year": 2011,
+      "event": "Cosmogenic 10Be dating gives a minimum age of about 197,000 years for the Yermo deposits.",
+      "source": "S13"
+    },
+    {
+      "year": 2024,
+      "event": "Budinger restates the case that the site holds tools more than 200,000 years old.",
+      "source": "S15"
+    }
+  ],
+  "falsifier": "A blind comparison of archived master-pit specimens with a systematic sample of broken chert from the same Yermo deposits, finding human-only traits (knapping refits, use-wear, patterned reduction) absent from the natural sample; or hominin remains in the deposits.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Haynes, C. Vance (1964). Fluted projectile points: their age and dispersion. Science 145(3639): 1408–1413.",
+      "doi": "10.1126/science.145.3639.1408",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (via OpenAlex): Clovis points appear abruptly about 11,500 radiocarbon years ago. Used for orthodoxy_at_claim."
+    },
+    {
+      "id": "S2",
+      "citation": "Leakey, L. S. B., Simpson, Ruth De Ette, Clements, Thomas (1968). Archaeological excavations in the Calico Mountains, California: preliminary report. Science 160(3831): 1022–1023.",
+      "doi": "10.1126/science.160.3831.1022",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Paywalled; metadata confirmed via Crossref, content not read. The claimed age is taken from S3, not from this report."
+    },
+    {
+      "id": "S3",
+      "citation": "Berger, Rainer, Libby, W. F. (1969). UCLA radiocarbon dates IX. Radiocarbon 11(1): 194–209.",
+      "doi": "10.1017/S0033822200064547",
+      "url": null,
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read the Calico Hills series: carbonate cement at 400–480 cm has no measurable 14C (>34,000 yr); cites Butzer & Hansen's fan estimate of >30,000 and <120,000 yr."
+    },
+    {
+      "id": "S4",
+      "citation": "Haynes, Vance (1973). The Calico site: artifacts or geofacts? Science 181(4097): 305–310.",
+      "doi": "10.1126/science.181.4097.305",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Paywalled; not read. Its arguments are taken from direct quotations in S12 and summaries in S11 and S15."
+    },
+    {
+      "id": "S5",
+      "citation": "Duvall, James G., Venner, William T. (1979). A statistical analysis of the lithics from the Calico site (SBCM 1500A), California. Journal of Field Archaeology 6(4): 455–462.",
+      "doi": "10.1179/009346979791488952",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: statistical analysis indicates the lithics were not made by people but created naturally."
+    },
+    {
+      "id": "S6",
+      "citation": "Bischoff, James L., Shlemon, Roy J., Ku, T. L., Simpson, Ruth D., Rosenbauer, Robert J., Budinger, Fred E., Jr. (1981). Uranium-series and soil-geomorphic dating of the Calico archaeological site, California. Geology 9(12): 576–582.",
+      "doi": "10.1130/0091-7613(1981)9<576:UASDOT>2.0.CO;2",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: fan-surface soil about 80,000–125,000 yr old; U-Th on carbonate cementing basal clasts indicates about 200,000 yr."
+    },
+    {
+      "id": "S7",
+      "citation": "Payen, Louis A. (1982). Artifacts or geofacts at Calico: application of the Barnes test. In Ericson, J. E., Taylor, R. E., Berger, R. (eds.), Peopling of the New World, pp. 193–201. Ballena Press Anthropological Papers 23, Los Altos, California.",
+      "doi": null,
+      "url": "https://openlibrary.org/books/OL3782592M",
+      "kind": "critique",
+      "access": "unknown",
+      "verification": "exists",
+      "note": "Volume confirmed in Open Library; chapter not read. Its result is known from a quotation in S15 and a description in S12."
+    },
+    {
+      "id": "S8",
+      "citation": "Bischoff, James L., Ikeya, Motoji, Budinger, Fred E. (1984). A TL/ESR study of the hearth feature at the Calico archaeological site, California. American Antiquity 49(4): 764–774.",
+      "doi": "10.2307/279741",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: inner and outer parts of hearth cobbles show no TL/ESR difference; all saturated, implying no heating for at least 400,000 yr."
+    },
+    {
+      "id": "S9",
+      "citation": "Patterson, Leland W., Hoffman, Louis V., Higginbotham, Rose Marie, Simpson, Ruth D. (1987). Analysis of lithic flakes at the Calico site, California. Journal of Field Archaeology 14(1): 91–106.",
+      "doi": "10.1179/jfa.1987.14.1.91",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read: flake attributes compared with experimental knapping of local stone support the view that the collection contains man-made specimens."
+    },
+    {
+      "id": "S10",
+      "citation": "Shlemon, Roy J., Budinger, Fred E., Jr. (1990). The archaeological geology of the Calico site, Mojave Desert, California. In Archaeological Geology of North America, Geological Society of America Centennial Special Volume 4, pp. 301–313.",
+      "doi": "10.1130/DNAG-CENT-v4.301",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Opening text read via OpenAlex: debate centres on authenticity and age; proponents say acceptance would be easier if deposits were 20,000–30,000 yr old."
+    },
+    {
+      "id": "S11",
+      "citation": "Taylor, R. E. (2009). Six decades of radiocarbon dating in New World archaeology. Radiocarbon 51(1): 173–212.",
+      "doi": "10.1017/S0033822200033774",
+      "url": null,
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: Haynes 1973 questioned and Payen 1982 rejected the artifacts; TL/ESR ruled out fire in the 'hearth'; notes Friends of Calico still advocate the site."
+    },
+    {
+      "id": "S12",
+      "citation": "Hardaker, Christopher (2009). Calico redux: artifacts or geofacts? Proceedings of the Society for California Archaeology 22 (18 pp.).",
+      "doi": null,
+      "url": "https://www.californiaprehistory.com/publications/proceedings/Proceedings.22Hardaker.pdf",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: proponent review of ~73,000 specimens; quotes Haynes 1973 directly; argues fracture densities and bipolar flaking favour artifacts."
+    },
+    {
+      "id": "S13",
+      "citation": "Owen, Lewis A., Davis, Teresa, Caffee, Marc W., Budinger, Fred, Nash, David (2011). Surface ages and rates of erosion at the Calico Archaeological Site in the Mojave Desert, Southern California. Geomorphology 125(1): 40–50.",
+      "doi": "10.1016/j.geomorph.2010.08.013",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (Purdue repository): 10Be boulder ages 27–198 ka; the oldest, 197 ± 20 ka, is a minimum age for the Yermo deposits."
+    },
+    {
+      "id": "S14",
+      "citation": "Curwen, Thomas (2021, 14 July). Column One: A riddle in the California desert, and one man's fight to solve it and save himself. Los Angeles Times.",
+      "doi": null,
+      "url": "https://www.latimes.com/california/story/2021-07-14/a-riddle-in-the-california-desert-and-one-mans-fight-to-save-it",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: digging began 1 Nov 1964; 1970 conference; site closed since 2016 vandalism; reports unpublished TL dates on 15 artifacts (oldest ~11,000 yr)."
+    },
+    {
+      "id": "S15",
+      "citation": "Budinger, Fred E., Jr. (2024). Legacy of Calico Early Man Archaeological Project. Proceedings of the Society for California Archaeology 37: 110–127.",
+      "doi": null,
+      "url": "https://drive.google.com/file/d/1dlgyuMS_Q4ooJuntTmm19s-IG6bn7qhX/view",
+      "kind": "reply",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read (file linked from the SCA proceedings index): proponent synthesis claiming tools >200 ka; reports a 2007 U-series date of ~205 ka on a rind over flake scars."
+    },
+    {
+      "id": "S16",
+      "citation": "Reimer, Paula J., Austin, William E. N., Bard, Edouard, et al. (2020). The IntCal20 Northern Hemisphere radiocarbon age calibration curve (0–55 cal kBP). Radiocarbon 62(4): 725–757.",
+      "doi": "10.1017/RDC.2020.41",
+      "url": null,
+      "kind": "database",
+      "access": "open",
+      "verification": "checked",
+      "note": "Curve file from intcal.org used only to convert 11,500 radiocarbon yr BP to about 13,350 cal BP for limit_bp."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Dating and critique details verified from abstracts and open sources; the 1968 report and Haynes 1973 were paywalled and are known only through quotations.",
+  "corrections": [
+    "Leakey did more than back the project: he directed the excavations with Simpson and geologist Thomas Clements from their start on 1 November 1964 until his death in 1972 (S3, S14, S15).",
+    "Common accounts say the tools were dated to 200,000 years. The dates are on carbonate cement and fan surfaces, so they date the deposits, not any human act; Budinger (S15) agrees U-series dates groundwater events.",
+    "Dating the deposits did not show the stones were natural; the ~200,000-yr ages mainly made a human origin harder to accept. Fracture and edge-angle studies addressed origin directly."
+  ],
+  "notes": "Haynes (1973, quoted in S12) found natural processes 'adequate to explain' the finds but was not 'convinced that all of the specimens are geofacts'. The verdict rests on that, edge-angle tests and the great age, not proof that each piece is natural. Proponents report far higher fracture densities in the master pits (S12). S11 says Leakey cited ~200,000-yr U-series ages before 1972; S14 dates that work to c. 1979–81 (unresolved). TL dates on 15 artifacts (S14) are unpublished: UNVERIFIED. Site closed since 2016; BLM planned in 2021 to fill most pits. year_claimed = first report (digging began 1964). limit_bp: 11,500 14C BP via IntCal20 (S16).",
+  "plates": [
+    {
+      "commons_file": "File:Calico Early Man Site (52720096308).jpg",
+      "caption": "Signpost listing distances to other archaeological sites, on the gravelly desert surface at the site (BLM photo, 2023)."
+    },
+    {
+      "commons_file": "File:CalicoVisitorCenter 8521.jpg",
+      "caption": "Visitor center with a BLM sign reading 'Calico Early Man Archeological Site', eroded hills behind (2010)."
+    }
+  ],
+  "review": {
+    "drafted_by": "researcher agent (claude-opus-5-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

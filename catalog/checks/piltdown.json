@@ -1,0 +1,95 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 93%, year ok, author ok",
+  "crossref_title": "On the Discovery of a Palæolithic Human Skull and Mandible in a Flint-bearing Gravel overlying the Wealden (Hastings Beds) at Piltdown, Fletching (Sussex)",
+  "crossref_year": 1913,
+  "crossref_venue": "Quarterly Journal of the Geological Society of London",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "II. Description of the Human Skull and Mandible and the Associated Mammalian Remains. [A. S. W.]",
+  "crossref_year": 1913,
+  "crossref_venue": "Quarterly Journal of the Geological Society of London",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Preliminary Report on the Cranial Cast [of the Piltdown Skull]",
+  "crossref_year": 1913,
+  "crossref_venue": "Quarterly Journal of the Geological Society of London",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The Piltdown Mandible",
+  "crossref_year": 1913,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "New Evidence on the Antiquity of Piltdown Man",
+  "crossref_year": 1950,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The solution of the Piltdown problem",
+  "crossref_year": 1953,
+  "crossref_venue": "Bulletin of the British Museum (Natural History) Geology",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Further contributions to the solution of the Piltdown problem",
+  "crossref_year": 1955,
+  "crossref_venue": "Bulletin of the British Museum (Natural History) Geology",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Radiocarbon Dating of the Piltdown Skull and Jaw",
+  "crossref_year": 1959,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "New genetic and morphological evidence suggests a single hoaxer created ‘Piltdown man’",
+  "crossref_year": 2016,
+  "crossref_venue": "Royal Society Open Science",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Piltdown case: Further questions",
+  "crossref_year": 2016,
+  "crossref_venue": "South African Journal of Science",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Dart and the Taung juvenile: making sense of a century-old record of hominin evolution in Africa",
+  "crossref_year": 2024,
+  "crossref_venue": "Biology Letters",
+  "checked_on": "2026-09-23"
+ }
+}

@@ -1,0 +1,474 @@
+{
+  "id": "cerutti-mastodon",
+  "name": "Cerutti Mastodon site",
+  "hook": "Broken mastodon bones beside heavy cobbles in a San Diego freeway cut, dated to about 130,000 years ago.",
+  "location": {
+    "country": "United States",
+    "region": "California",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "Holen and colleagues argued that an unidentified Homo species broke a mastodon's limb bones and molars with stone hammers on stone anvils about 130,000 years ago, for marrow or tool material. That is over 100,000 years before the oldest accepted American sites.",
+  "claimed_age": {
+    "label": "~130,700 ± 9,400 years ago (U-series)",
+    "bp_min": 121300,
+    "bp_max": 140100,
+    "basis": "230Th/U on cortical bone of three mastodon bones, diffusion–adsorption–decay model (USGS); 2σ range. Not radiocarbon; ka taken as calendar years before present.",
+    "source": "S1"
+  },
+  "accepted_age": null,
+  "orthodoxy_at_claim": {
+    "label": "People entered the Americas after ~16,000 years ago; the earliest securely dated sites are under ~15,000 years old.",
+    "limit_bp": 15000,
+    "source": "S17"
+  },
+  "year_claimed": 2017,
+  "key_proponents": [
+    "Steven R. Holen",
+    "Thomas A. Deméré",
+    "Daniel C. Fisher",
+    "Richard Fullagar",
+    "James B. Paces",
+    "Kathleen A. Holen"
+  ],
+  "key_critics": [
+    "Gary Haynes",
+    "Todd J. Braje and nine co-authors",
+    "Joseph V. Ferraro and colleagues",
+    "Patrick M. Ferrell",
+    "Mark Q. Sutton and colleagues",
+    "Matthew Magnani and colleagues"
+  ],
+  "evidence_types": [
+    "u-series",
+    "osl",
+    "stratigraphy",
+    "geology",
+    "fauna",
+    "lithics",
+    "chemistry"
+  ],
+  "independent_methods_count": 5,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "no",
+      "note": "Broken bone and battered cobbles only: no knapped tools, cut marks or hominin remains. Natural and machine breakage were argued from the start.",
+      "source": "S5"
+    },
+    "documented_context": {
+      "value": "partial",
+      "note": "Grid-mapped excavation with sediment and soil study, but found during freeway construction, which destroyed an unknown, probably significant part of the bonebed.",
+      "source": "S2"
+    },
+    "multiple_dating_methods": {
+      "value": "partial",
+      "note": "Only U-series gave ~130 ka. OSL gave 69–99 ka or saturated minimum ages (read as >60–70 ka); radiocarbon failed for lack of collagen.",
+      "source": "S2"
+    },
+    "multiple_labs": {
+      "value": "partial",
+      "note": "The ~130 ka bone ages come from one lab (USGS). OSL ran at two other labs; two radiocarbon labs found no collagen.",
+      "source": "S2"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated over about five months from November 1992 by San Diego Natural History Museum paleontologists.",
+      "source": "S18"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Full report with extensive supplementary data in Nature, 2017.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "yes",
+      "note": "3D models and videos were published (Magnani et al. 2019); Gruhn (2018) and Sutton et al. (2019) examined the collection.",
+      "source": "S10"
+    },
+    "independent_teams": {
+      "value": "partial",
+      "note": "No independent dating or excavation. Outside researchers made brief re-examinations: Gruhn (2018), supportive on break age; Sutton et al. (2019), critical.",
+      "source": "S12"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No commercial, religious or nationalist motive documented; the authors declared no competing financial interests.",
+      "source": "S1"
+    }
+  },
+  "objections": [
+    {
+      "text": "Heavy earth-moving equipment during the freeway work, not people, may have broken the bones.",
+      "kind": "context",
+      "raised_by": "Gary Haynes (2017); Patrick M. Ferrell (2019)",
+      "year": 2017,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents and Gruhn (2018), who examined the bones, report old soil carbonate on break surfaces. Haynes (2018) says machine damage is still not ruled out; Ferrell (2019) blames construction.",
+      "source": "S3"
+    },
+    {
+      "text": "The bones may have broken naturally, for example when other mastodons trampled the carcass, with no human involvement.",
+      "kind": "identification",
+      "raised_by": "Mark Q. Sutton and colleagues",
+      "year": 2019,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents cite low-energy burial, impact notches, cone flakes and refits against natural breakage. No controlled comparison has tested it.",
+      "source": "S12"
+    },
+    {
+      "text": "Common geological and taphonomic processes explain the site better; the cobbles need not be tools.",
+      "kind": "identification",
+      "raised_by": "Joseph V. Ferraro and colleagues",
+      "year": 2018,
+      "outcome": "unresolved",
+      "outcome_note": "Holen et al. (2018) find no trace of the alluvial fan Ferraro et al. propose. Bordes et al. (2020, same team) found bone residue on the worn faces of two cobbles, not their other faces.",
+      "source": "S7"
+    },
+    {
+      "text": "No knapped stone tools, cut marks or hominin bones were found, so nothing at the site is unambiguously human-made.",
+      "kind": "identification",
+      "raised_by": "Gary Haynes",
+      "year": 2017,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents reply that knapped tools are not required at bone-processing sites. No unambiguous artifact is reported in the later work reviewed here.",
+      "source": "S5"
+    },
+    {
+      "text": "The 230Th/U bone age may be unreliable: bone takes up uranium after burial, and no strictly local uranium source was sampled.",
+      "kind": "dating",
+      "raised_by": "Gary Haynes",
+      "year": 2017,
+      "outcome": "unresolved",
+      "outcome_note": "No independent re-dating yet. Proponents cite regular uranium profiles in three bones; OSL gave only >60–70 ka minimums and radiocarbon failed.",
+      "source": "S3"
+    },
+    {
+      "text": "A 130,000-year-old site implies an unknown hominin in the Americas, with no fossil, archaeological or genomic trace in northeast Asia or the Americas.",
+      "kind": "prior",
+      "raised_by": "Todd J. Braje and nine co-authors",
+      "year": 2017,
+      "outcome": "unresolved",
+      "outcome_note": "Holen et al. (2018) reply that critics misuse 'extraordinary claims require extraordinary evidence'. A prior alone cannot settle the site.",
+      "source": "S4"
+    },
+    {
+      "text": "The breakage experiments were few, qualitative and uncontrolled, and did not test natural alternatives.",
+      "kind": "identification",
+      "raised_by": "Matthew Magnani and colleagues",
+      "year": 2019,
+      "outcome": "unresolved",
+      "outcome_note": "Holen, Fullagar and Holen replied (2019). A 2026 review of 12 proboscidean breakage experiments found most inconsistent and lacking quantitative data.",
+      "source": "S13"
+    }
+  ],
+  "status": "open",
+  "status_note": "Not widely accepted: critics favor natural or construction breakage and doubt the age, while the authors and some supporters (e.g. Gruhn) hold that people broke the bones. No independent re-dating or re-analysis has settled it.",
+  "year_resolved": null,
+  "what_settled_it": null,
+  "settled_by": [
+    "not-settled"
+  ],
+  "failure_mode": "none",
+  "timeline": [
+    {
+      "year": 1992,
+      "event": "Museum paleontologists monitoring freeway work find the mastodon in November and excavate it over about five months.",
+      "source": "S18"
+    },
+    {
+      "year": 2008,
+      "event": "Archaeologist Steven Holen first examines the specimens.",
+      "source": "S18"
+    },
+    {
+      "year": 2009,
+      "event": "A second radiocarbon attempt finds no collagen; OSL work (2008–2011) gives 69–99 ka or saturated minimum ages.",
+      "source": "S2"
+    },
+    {
+      "year": 2015,
+      "event": "USGS uranium-series work on the bones (2012–2015) yields 130.7 ± 9.4 ka.",
+      "source": "S2"
+    },
+    {
+      "year": 2017,
+      "event": "Holen et al. publish the claim in Nature.",
+      "source": "S1"
+    },
+    {
+      "year": 2017,
+      "event": "Critiques by Haynes and by Braje and nine co-authors appear in PaleoAmerica; the authors reply.",
+      "source": "S4"
+    },
+    {
+      "year": 2018,
+      "event": "Ferraro et al. contest the site in Nature, favoring geological and taphonomic causes; the authors reply.",
+      "source": "S7"
+    },
+    {
+      "year": 2018,
+      "event": "Gruhn examines the collection and reports soil carbonate on break surfaces, implying ancient breakage.",
+      "source": "S10"
+    },
+    {
+      "year": 2019,
+      "event": "Ferrell attributes the damage to freeway construction; Sutton et al. favor a natural deposit disturbed by mastodons.",
+      "source": "S11"
+    },
+    {
+      "year": 2019,
+      "event": "Magnani et al. fault the design of the breakage experiments in an Antiquity debate.",
+      "source": "S13"
+    },
+    {
+      "year": 2020,
+      "event": "Bordes et al., with two original authors, report bone micro-residue on the worn faces of two cobbles.",
+      "source": "S14"
+    },
+    {
+      "year": 2026,
+      "event": "Haynes and Krasinski review 12 proboscidean bone-breaking experiments and call for more rigorous design.",
+      "source": "S16"
+    }
+  ],
+  "decisive_tests": [
+    {
+      "test": "Thin-section the carbonate crusts on CM fracture surfaces, and U-series date them where feasible, to see whether the crusts grew over the breaks.",
+      "would_show": "Crusts grown over break faces would rule out machine breakage for those bones; fresh breaks cutting through crusts would support it.",
+      "cost": "low"
+    },
+    {
+      "test": "Blind, quantitative comparison of CM notches, cone flakes and fracture outlines with controlled sets: hammerstone-on-anvil, trampling, sediment loading and heavy-equipment loading of proboscidean bone.",
+      "would_show": "Whether the CM breakage matches human percussion better than natural or machine breakage.",
+      "cost": "medium"
+    },
+    {
+      "test": "Repeat the bone U-series at a second laboratory, and date archived Bed E sediment by feldspar post-IR IRSL, which saturates at higher doses than quartz OSL.",
+      "would_show": "Whether the ~130 ka age holds by independent methods, or the bed is younger.",
+      "cost": "medium"
+    },
+    {
+      "test": "Independent blind use-wear and residue study of all CM cobbles, with control cobbles and sediment from outside the bone clusters.",
+      "would_show": "Whether bone residue and impact wear are confined to the claimed tool surfaces, as Bordes et al. (2020) report for two cobbles.",
+      "cost": "medium"
+    }
+  ],
+  "falsifier": "Refuted if break faces cut through old carbonate crusts, or if controlled natural or machine breakage reproduces the CM notches, cone flakes and cobble wear. Closer to vindicated if independent labs confirm the age and a similar-age site yields unambiguous artifacts.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Holen, S.R., Deméré, T.A., Fisher, D.C., Fullagar, R., Paces, J.B., Jefferson, G.T., Beeton, J.M., Cerutti, R.A., Rountrey, A.N., Vescera, L. & Holen, K.A. (2017). A 130,000-year-old archaeological site in southern California, USA. Nature 544(7651): 479–483.",
+      "doi": "10.1038/nature22065",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract, Extended Data legends and declarations read; main text paywalled."
+    },
+    {
+      "id": "S2",
+      "citation": "Holen, S.R. et al. (2017). Supplementary Information for 'A 130,000-year-old archaeological site in southern California, USA'. Nature 544: 479–483.",
+      "doi": null,
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature22065/MediaObjects/41586_2017_BFnature22065_MOESM79_ESM.pdf",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read: setting, sediments, construction losses, taphonomy, radiocarbon, OSL and U-series sections."
+    },
+    {
+      "id": "S3",
+      "citation": "Haynes, G. (2017). The Cerutti Mastodon. PaleoAmerica 3(3): 196–199.",
+      "doi": "10.1080/20555563.2017.1330103",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex; matches the publisher listing); full text paywalled."
+    },
+    {
+      "id": "S4",
+      "citation": "Braje, T.J., Dillehay, T.D., Erlandson, J.M., Fitzpatrick, S.M., Grayson, D.K., Holliday, V.T., Kelly, R.L., Klein, R.G., Meltzer, D.J. & Rick, T.C. (2017). Were hominins in California ∼130,000 years ago? PaleoAmerica 3(3): 200–202.",
+      "doi": "10.1080/20555563.2017.1348091",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via OpenAlex; full text paywalled."
+    },
+    {
+      "id": "S5",
+      "citation": "Holen, S.R., Deméré, T.A., Fisher, D.C., Fullagar, R., Paces, J.B., Jefferson, G.T., Beeton, J.M., Rountrey, A.N. & Holen, K.A. (2018). Broken bones and hammerstones at the Cerutti Mastodon site: a reply to Haynes. PaleoAmerica 4(1): 8–11.",
+      "doi": "10.1080/20555563.2017.1396835",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via OpenAlex (online November 2017); full text paywalled."
+    },
+    {
+      "id": "S6",
+      "citation": "Holen, S.R., Deméré, T.A., Fisher, D.C., Fullagar, R., Paces, J.B., Jefferson, G.T., Beeton, J.M., Rountrey, A.N. & Holen, K.A. (2018). Disparate perspectives on evidence from the Cerutti Mastodon site: a reply to Braje et al. PaleoAmerica 4(1): 12–15.",
+      "doi": "10.1080/20555563.2017.1396836",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via OpenAlex; full text paywalled."
+    },
+    {
+      "id": "S7",
+      "citation": "Ferraro, J.V., Binetti, K.M., Wiest, L.A., Esker, D., Baker, L.E. & Forman, S.L. (2018). Contesting early archaeology in California. Nature 554(7691): E1–E2.",
+      "doi": "10.1038/nature25165",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Opening summary, references and author contributions read; full text paywalled."
+    },
+    {
+      "id": "S8",
+      "citation": "Holen, S.R., Deméré, T.A., Fisher, D.C., Fullagar, R., Paces, J.B., Jefferson, G.T., Beeton, J.M., Cerutti, R.A., Rountrey, A.N., Vescera, L. & Holen, K.A. (2018). Holen et al. reply. Nature 554(7691): E3.",
+      "doi": "10.1038/nature25166",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Opening summary read (rejects the proposed alluvial-fan source); full text paywalled."
+    },
+    {
+      "id": "S9",
+      "citation": "Haynes, G. (2018). Reply to Holen et al. regarding the Cerutti Mastodon. PaleoAmerica 4(2): 99–100.",
+      "doi": "10.1080/20555563.2018.1460562",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via OpenAlex; full text paywalled."
+    },
+    {
+      "id": "S10",
+      "citation": "Gruhn, R. (2018). Observations concerning the Cerutti Mastodon site. PaleoAmerica 4(2): 101–102.",
+      "doi": "10.1080/20555563.2018.1467192",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via OpenAlex. Independent examination of the collection; supports ancient breakage."
+    },
+    {
+      "id": "S11",
+      "citation": "Ferrell, P.M. (2019). The Cerutti Mastodon site reinterpreted with reference to freeway construction plans and methods. PaleoAmerica 5(1): 1–7.",
+      "doi": "10.1080/20555563.2019.1589663",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex and Semantic Scholar agree); full text paywalled."
+    },
+    {
+      "id": "S12",
+      "citation": "Sutton, M.Q., Parkinson, J. & Rosen, M.D. (2019). Observations regarding the Cerutti Mastodon. PaleoAmerica 5(1): 8–15.",
+      "doi": "10.1080/20555563.2019.1589409",
+      "url": null,
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex and Semantic Scholar agree); full text paywalled."
+    },
+    {
+      "id": "S13",
+      "citation": "Magnani, M., Grindle, D., Loomis, S., Kim, A.M., Egbers, V., Clindaniel, J., Hartford, A., Johnson, E., Weber, S. & Campbell, W. (2019). Evaluating claims for an early peopling of the Americas: experimental design and the Cerutti Mastodon site. Antiquity 93(369): 789–795.",
+      "doi": "10.15184/aqy.2019.14",
+      "url": null,
+      "kind": "critique",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read in full (free PDF from the publisher)."
+    },
+    {
+      "id": "S14",
+      "citation": "Bordes, L., Hayes, E., Fullagar, R. & Deméré, T. (2020). Raman and optical microscopy of bone micro-residues on cobbles from the Cerutti mastodon site. Journal of Archaeological Science: Reports 34: 102656.",
+      "doi": "10.1016/j.jasrep.2020.102656",
+      "url": null,
+      "kind": "primary",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read via Semantic Scholar. Fullagar and Deméré co-wrote the 2017 paper, so this is not independent."
+    },
+    {
+      "id": "S15",
+      "citation": "Haynes, G., Krasinski, K. & Wojtal, P. (2021). A study of fractured proboscidean bones in recent and fossil assemblages. Journal of Archaeological Method and Theory 28(3): 956–1025.",
+      "doi": "10.1007/s10816-020-09486-3",
+      "url": null,
+      "kind": "other",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Paywalled; abstract seen only in a search-engine summary. Not used for key fields."
+    },
+    {
+      "id": "S16",
+      "citation": "Haynes, G. & Krasinski, K.E. (2026). Experimental fracturing and knapping of proboscidean long bones: observed outcomes and interpretive challenges. Journal of Archaeological Science: Reports 74: 105888.",
+      "doi": "10.1016/j.jasrep.2026.105888",
+      "url": null,
+      "kind": "review",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read from the SSRN preprint record (10.2139/ssrn.6293278); its reference list includes Holen et al. 2017. Full text paywalled."
+    },
+    {
+      "id": "S17",
+      "citation": "Potter, B.A., Baichtal, J.F., Beaudoin, A.B., Fehren-Schmitz, L., Haynes, C.V., Holliday, V.T., Holmes, C.E., Ives, J.W., Kelly, R.L., Llamas, B., Malhi, R.S., Miller, D.S., Reich, D., Reuther, J.D., Schiffels, S. & Surovell, T.A. (2018). Current evidence allows multiple models for the peopling of the Americas. Science Advances 4(8): eaat5473.",
+      "doi": "10.1126/sciadv.aat5473",
+      "url": null,
+      "kind": "review",
+      "access": "open",
+      "verification": "checked",
+      "note": "Open access; abstract read. Cited only for the accepted chronology near the time of the claim; it does not discuss Cerutti."
+    },
+    {
+      "id": "S18",
+      "citation": "San Diego Natural History Museum (n.d., c. 2018). The Cerutti Mastodon Site: One Year Later. The Nat's Science & Research Blog.",
+      "doi": null,
+      "url": "https://www.sdnhm.org/blog/blog_details/the-cerutti-mastodon-site-one-year-later/96/",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Account by the proponents' museum: discovery date, excavation, Holen's first look in 2008. Undated; year inferred from title."
+    },
+    {
+      "id": "S19",
+      "citation": "Holen, K., Fullagar, R. & Holen, S.R. (2019). Archaeological site interpretation using experimental quantitative and qualitative data: a response to Magnani et al. (2019). Antiquity 93(369): 798–801.",
+      "doi": "10.15184/aqy.2019.51",
+      "url": null,
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed via Crossref; no abstract available and content not read."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Supplementary data and Magnani et al. read in full; most critiques and replies read only as abstracts (paywalled). S15 and S19 could not be read.",
+  "corrections": [
+    "Not a skeleton: fragmentary, disarticulated remains of one mastodon. Construction destroyed an unknown, probably significant part of the bonebed before excavation (S2).",
+    "Found in November 1992 by museum paleontologists monitoring freeway work and excavated over about five months. The claim was first published in 2017, 24 years later (S18, S1).",
+    "The ~130 ka age rests on one method, U-series on bone (130.7 ± 9.4 ka, 2σ). Radiocarbon failed for lack of collagen, and OSL gave only 69–99 ka or saturated minimum ages (S2).",
+    "Responses were not all critical: Boëda et al. (2017) and Gruhn (2018) backed the authors, and Gruhn, after examining the bones, rejected the machinery explanation (S13, S10).",
+    "Critiques also appeared in Nature (Ferraro et al. 2018) and Antiquity (Magnani et al. 2019), not only in PaleoAmerica."
+  ],
+  "notes": "Named for museum paleontologist Richard Cerutti, who found it. The OSL analyst (S. Forman) later co-authored the Ferraro et al. critique. The authors also suggest a vertically buried tusk may have been placed by people (S2). Haynes et al. 2021 (S15, not read) reportedly show that fracture features thought diagnostic of percussion also arise naturally. independent_methods_count counts bone fractures, cobble wear, refits and clustering, sedimentology and U-series. Even the OSL minimum (>60–70 ka) is far older than accepted sites, so a younger bed would not remove the anomaly.",
+  "plates": [
+    {
+      "commons_file": "File:Cerutti mastodon femur heads.jpg",
+      "caption": "Two mastodon femur heads from the Cerutti site, one numbered 252, in a San Diego Natural History Museum display."
+    },
+    {
+      "commons_file": "File:Cerutti mastodon tusk - full.jpg",
+      "caption": "A Cerutti mastodon tusk displayed in the upright position recorded at excavation, San Diego Natural History Museum, 2024."
+    }
+  ],
+  "review": {
+    "drafted_by": "researcher agent (Claude Opus 5.5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

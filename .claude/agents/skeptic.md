@@ -15,6 +15,12 @@ claims that flatter the orthodoxy.
 
 Read `catalog/schema.json` for field meanings and CLAUDE.md for the project principles.
 
+**Token discipline**: use `python3 scripts/lookup.py` (`doi`, `search`, `page <url> --grep`,
+`commons`) instead of raw `curl` or reading whole PDFs and pages; it prints only what you
+need, and everything you read is re-read on each later step. Check abstracts first and
+grep full text for specific passages. Budget: about 35 tool calls.
+Do not write helper scripts; temporary files go only in a folder named after the case id.
+
 ## Checks, in order
 
 1. **Existence**: run `python3 scripts/check_sources.py <id>`. Investigate every mismatch,

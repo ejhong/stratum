@@ -1,0 +1,398 @@
+{
+  "id": "white-sands",
+  "name": "White Sands footprints",
+  "hook": "Human footprints in an ice-age New Mexico lakebed, dated to ~23,000–21,000 years ago; the dates are disputed.",
+  "location": {
+    "country": "United States",
+    "region": "New Mexico",
+    "continent": "North America"
+  },
+  "anomaly_type": "chronology",
+  "claim": "Human footprints on several buried surfaces at the edge of ice-age Lake Otero show people were in North America ~23,000–21,000 years ago, during the Last Glacial Maximum. The age rests on radiocarbon dates of aquatic Ruppia seeds in layers above and below the prints.",
+  "claimed_age": {
+    "label": "~23,000–21,000 cal BP",
+    "bp_min": 21000,
+    "bp_max": 23000,
+    "basis": "AMS 14C on 11 aliquots of aquatic Ruppia cirrhosa seeds bracketing the track horizons, calibrated with IntCal20: 22.86 ± 0.32 to 21.13 ± 0.25 ka.",
+    "source": "S1"
+  },
+  "accepted_age": null,
+  "orthodoxy_at_claim": {
+    "label": "People reached the Americas after the LGM: pre-Clovis sites of up to ~16,500 years were argued, and early post-LGM or older sites were questioned.",
+    "limit_bp": 16500,
+    "source": "S1"
+  },
+  "year_claimed": 2021,
+  "key_proponents": [
+    "Matthew R. Bennett (Bournemouth University)",
+    "David Bustos (National Park Service)",
+    "Jeffrey S. Pigati (US Geological Survey)",
+    "Kathleen B. Springer (US Geological Survey)",
+    "Daniel Odess (National Park Service)",
+    "Vance T. Holliday (University of Arizona)"
+  ],
+  "key_critics": [
+    "David B. Madsen",
+    "Loren G. Davis (Oregon State University)",
+    "David Rhode",
+    "David M. Rachal",
+    "C. Vance Haynes Jr.",
+    "Michael Waters (Texas A&M University)"
+  ],
+  "evidence_types": ["footprints", "radiocarbon", "osl", "stratigraphy", "plant-remains", "geology"],
+  "independent_methods_count": 4,
+  "features_at_claim": {
+    "unambiguous_signal": {
+      "value": "yes",
+      "note": "Prints show heel impressions, arches and toe pads consistent with modern humans; the critiques target the age, not the human origin.",
+      "source": "S1"
+    },
+    "documented_context": {
+      "value": "yes",
+      "note": "In situ prints on seven excavated surfaces plus a track-bearing package, in a trenched sequence interbedded with seed layers.",
+      "source": "S1"
+    },
+    "multiple_dating_methods": {
+      "value": "partial",
+      "note": "2021: 14C on aquatic seeds only. 2023: terrestrial-pollen 14C (errors ±2.3–2.5 ka) and a one-level OSL minimum age (>21.5 ka) agreed with the seeds.",
+      "source": "S8"
+    },
+    "multiple_labs": {
+      "value": "yes",
+      "note": "2021 seed dates came from one lab. Labs outside the original dating (LLNL in 2023; Univ. of Arizona and NAU in 2025) gave concordant dates.",
+      "source": "S12"
+    },
+    "professional_recovery": {
+      "value": "yes",
+      "note": "Excavated by NPS, USGS and university scientists under an NPS permit.",
+      "source": "S1"
+    },
+    "peer_reviewed_report": {
+      "value": "yes",
+      "note": "Science, 2021, with a USGS data release of the dates.",
+      "source": "S1"
+    },
+    "material_accessible": {
+      "value": "partial",
+      "note": "Dating data and 3D print models released; exact location withheld by law but available from NPS to legitimate researchers.",
+      "source": "S1"
+    },
+    "independent_teams": {
+      "value": "partial",
+      "note": "Print dates came from one NPS–USGS–Bournemouth team (2021, 2023). A 2025 group led by original co-author Holliday added independent lake-bed dates.",
+      "source": "S12"
+    },
+    "proponent_stake": {
+      "value": "no",
+      "note": "No commercial, religious or nationalist motive documented; the authors declared no competing interests.",
+      "source": "S1"
+    }
+  },
+  "objections": [
+    {
+      "text": "Hard-water (reservoir) effect: the aquatic Ruppia seeds may have taken up old carbon, making the dates thousands of years too old.",
+      "kind": "dating",
+      "raised_by": "Madsen, Davis, Rhode & Oviatt",
+      "year": 2022,
+      "outcome": "unresolved",
+      "outcome_note": "Pollen 14C and OSL (2023) and mud 14C from other labs (2025) agree with the seed dates; critics still argued for large offsets in 2024–25.",
+      "source": "S2"
+    },
+    {
+      "text": "A 1947 Ruppia specimen from a nearby spring dated to ~7,400 cal BP, showing local reservoir offsets can be very large.",
+      "kind": "dating",
+      "raised_by": "Oviatt, Madsen, Rhode & Davis",
+      "year": 2022,
+      "outcome": "unresolved",
+      "outcome_note": "Holliday et al. (2025) argue spring-fed modern water is a poor analog for the runoff-fed Pleistocene lake margin.",
+      "source": "S6"
+    },
+    {
+      "text": "The seeds may have been reworked from older deposits or driven ashore from deeper water by storm seiches, so they give only maximum ages.",
+      "kind": "context",
+      "raised_by": "Haynes; Rachal, Mead, Dello-Russo & Cuba",
+      "year": 2022,
+      "outcome": "unresolved",
+      "outcome_note": "Proponents report seeds in thin layers, often on their stems; Holliday et al. (2025) found no sign of storm transport in nearby beds.",
+      "source": "S7"
+    },
+    {
+      "text": "The prints could be Holocene tracks made by people crossing much older sediment.",
+      "kind": "context",
+      "raised_by": "C. Vance Haynes Jr.",
+      "year": 2022,
+      "outcome": "wrong",
+      "outcome_note": "Mammoth and other megafauna tracks occur with the human prints at all levels, so the surfaces predate the extinctions; later critics argue for Pleistocene ages.",
+      "source": "S5"
+    },
+    {
+      "text": "Modern Ruppia from Salt Creek shows a δ13C–age offset that implies the prints could be at least ~7,500 years younger.",
+      "kind": "dating",
+      "raised_by": "Rachal, Dello-Russo & Cuba",
+      "year": 2024,
+      "outcome": "unresolved",
+      "outcome_note": "Holliday et al. (2025) reply that the hard-water effect tracks alkalinity, not salinity, and that spring-fed analogs do not fit the runoff-fed margin.",
+      "source": "S9"
+    },
+    {
+      "text": "The OSL ages are likely maximum ages (partial bleaching, water content) from one level below most prints; the pollen may be older reworked grains.",
+      "kind": "dating",
+      "raised_by": "Rhode, Neudorf, Rachal, Davis, Madsen & Dello-Russo",
+      "year": 2024,
+      "outcome": "unresolved",
+      "outcome_note": "Pigati et al. (2024) reject each point; the 2023 OSL came from one level, and critics want OSL from more track layers.",
+      "source": "S10"
+    },
+    {
+      "text": "The 2025 bulk-mud dates may share the old-carbon problem; the origin of the dated carbon is unclear.",
+      "kind": "dating",
+      "raised_by": "Michael Waters",
+      "year": 2025,
+      "outcome": "unresolved",
+      "outcome_note": "Holliday et al. report mud δ13C unlike the seeds, and 55 dates consistent across ~2 km of strata.",
+      "source": "S15"
+    },
+    {
+      "text": "No artifacts or settlements left by the track-makers have been found.",
+      "kind": "prior",
+      "raised_by": "Critics since 2021, as reported by Holliday",
+      "year": 2021,
+      "outcome": "unresolved",
+      "outcome_note": "Holliday calls it a fair question without a peer-reviewed answer; he argues brief crossings need not leave artifacts.",
+      "source": "S16"
+    }
+  ],
+  "status": "open",
+  "status_note": "Pollen 14C, OSL and lake-mud 14C from other labs agree with ~23–21 ka and many now build on it, but Waters, Davis, Rhode, Rachal and others still disputed the dates in 2024–25. No consensus yet.",
+  "year_resolved": null,
+  "what_settled_it": null,
+  "settled_by": ["not-settled"],
+  "failure_mode": "none",
+  "timeline": [
+    { "year": 2019, "event": "NPS and Bournemouth University researchers excavate human footprints on several buried surfaces at Locality 2.", "source": "S16" },
+    { "year": 2021, "event": "Bennett et al. (Science) report 61 human prints bracketed by Ruppia seed layers dated ~23,000–21,000 cal BP.", "source": "S1" },
+    { "year": 2022, "event": "Madsen et al. warn that hard-water effects may make the seed dates thousands of years too old; the team replies in Science.", "source": "S2" },
+    { "year": 2022, "event": "Haynes proposes the prints may be Clovis-age (~13,000 years); the team replies that this is highly unlikely.", "source": "S4" },
+    { "year": 2022, "event": "Oviatt et al. report a 1947 spring-grown Ruppia specimen that dates to ~7,400 cal BP.", "source": "S6" },
+    { "year": 2022, "event": "Rachal et al. propose that storm seiches carried the seeds in from deeper water.", "source": "S7" },
+    { "year": 2023, "event": "Pigati et al. report terrestrial-pollen 14C and OSL ages that agree with the seed dates.", "source": "S8" },
+    { "year": 2024, "event": "Rachal et al. use modern Ruppia to argue the prints may be at least ~7,500 years younger.", "source": "S9" },
+    { "year": 2024, "event": "Rhode et al. ('Unresolved') and Pigati et al. ('…is Resolved') trade critiques in PaleoAmerica.", "source": "S10" },
+    { "year": 2025, "event": "Holliday et al. publish 26 dates from two outside labs on linked lake and wetland beds that fit the LGM age.", "source": "S12" },
+    { "year": 2025, "event": "Michael Waters (Texas A&M) says he remains concerned about the White Sands radiocarbon ages.", "source": "S15" },
+    { "year": 2025, "event": "Rachal and Dello-Russo (J. Archaeol. Sci.) argue the LGM claim is flawed and call for more dating.", "source": "S19" }
+  ],
+  "decisive_tests": [
+    {
+      "test": "OSL-date sediment directly above and below several track horizons (single-grain quartz or feldspar), blind, at a lab outside both camps, with water-content history modelled.",
+      "would_show": "Ages of ~21,000–23,000 years above the upper prints would confirm the LGM age; ages near or below 16,000 would support a younger chronology.",
+      "cost": "medium"
+    },
+    {
+      "test": "Re-date conifer pollen from the seed layers with larger samples and a site-specific procedural blank at a second AMS lab, to cut the ±2,300–2,500-year errors.",
+      "would_show": "Precise pollen ages matching the seeds would rule out a multi-millennial offset; clearly younger pollen ages would confirm one.",
+      "cost": "medium"
+    },
+    {
+      "test": "Thin-section micromorphology of archived seed-layer blocks to test whether the dated seeds grew in place or arrived as storm-carried seed balls.",
+      "would_show": "In-place growth in very shallow water would weaken the transport model; transported seed balls would support reading the dates as maximum ages.",
+      "cost": "low"
+    },
+    {
+      "test": "Under an NPS permit, sample a fresh cut through the track horizons jointly with critics, splitting seed, pollen and OSL samples between labs chosen by each side.",
+      "would_show": "Concordant results from both sides' labs would settle the age question either way.",
+      "cost": "medium"
+    }
+  ],
+  "falsifier": "OSL or terrestrial-carbon dates from several track horizons, run by labs outside the original team, falling well below ~16,000 years would refute the LGM age; concordant ~21,000–23,000-year results would move the case to vindicated.",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Bennett, M.R., Bustos, D., Pigati, J.S., Springer, K.B., Urban, T.M., Holliday, V.T., Reynolds, S.C., Budka, M., Honke, J.S., Hudson, A.M., Fenerty, B., Connelly, C., Martinez, P.J., Santucci, V.L., Odess, D. (2021). Evidence of humans in North America during the Last Glacial Maximum. Science 373(6562): 1528–1531.",
+      "doi": "10.1126/science.abg7586",
+      "url": "https://repository.arizona.edu/handle/10150/662081",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Read the accepted manuscript (Univ. of Arizona repository); publisher version paywalled."
+    },
+    {
+      "id": "S2",
+      "citation": "Madsen, D.B., Davis, L.G., Rhode, D., Oviatt, C.G. (2022). Comment on \"Evidence of humans in North America during the Last Glacial Maximum\". Science 375(6577): eabm4678.",
+      "doi": "10.1126/science.abm4678",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (Crossref); full text paywalled."
+    },
+    {
+      "id": "S3",
+      "citation": "Pigati, J.S., Springer, K.B., Bennett, M.R., Bustos, D., Urban, T.M., Holliday, V.T., Reynolds, S.C., Odess, D. (2022). Response to Comment on \"Evidence of humans in North America during the Last Glacial Maximum\". Science 375(6577): eabm6987.",
+      "doi": "10.1126/science.abm6987",
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract and opening paragraph read (Crossref); full text paywalled."
+    },
+    {
+      "id": "S4",
+      "citation": "Haynes, C.V., Jr. (2022). Evidence for Humans at White Sands National Park during the Last Glacial Maximum Could Actually be for Clovis People ∼13,000 Years Ago. PaleoAmerica 8(2): 95–98.",
+      "doi": "10.1080/20555563.2022.2039861",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex); full text paywalled."
+    },
+    {
+      "id": "S5",
+      "citation": "Pigati, J.S., Springer, K.B., Holliday, V.T., Bennett, M.R., Bustos, D., Urban, T.M., Reynolds, S.C., Odess, D. (2022). Reply to \"Evidence for Humans at White Sands National Park during the Last Glacial Maximum Could Actually be for Clovis People ∼13,000 Years Ago\" by C. Vance Haynes, Jr. PaleoAmerica 8: 99–101.",
+      "doi": "10.1080/20555563.2022.2039863",
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex); full text paywalled."
+    },
+    {
+      "id": "S6",
+      "citation": "Oviatt, C.G., Madsen, D.B., Rhode, D., Davis, L.G. (2023; online 2022). A critical assessment of claims that human footprints in the Lake Otero basin, New Mexico date to the Last Glacial Maximum. Quaternary Research 111: 138–147.",
+      "doi": "10.1017/qua.2022.38",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (Crossref); full text paywalled."
+    },
+    {
+      "id": "S7",
+      "citation": "Rachal, D.M., Mead, J.I., Dello-Russo, R., Cuba, M.T. (2022). Deep-water delivery model of Ruppia seeds to a nearshore/terrestrial setting and its chronological implications for Late Pleistocene footprints, Tularosa Basin, New Mexico. Geoarchaeology 37(6): 923–933.",
+      "doi": "10.1002/gea.21937",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (Crossref); full text paywalled."
+    },
+    {
+      "id": "S8",
+      "citation": "Pigati, J.S., Springer, K.B., Honke, J.S., Wahl, D., Champagne, M.R., Zimmerman, S.R.H., Gray, H.J., Santucci, V.L., Odess, D., Bustos, D., Bennett, M.R. (2023). Independent age estimates resolve the controversy of ancient human footprints at White Sands. Science 382(6666): 73–75.",
+      "doi": "10.1126/science.adh5007",
+      "url": "https://geography.berkeley.edu/sites/default/files/science.adh5007.pdf",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read (open copy at UC Berkeley); publisher version paywalled."
+    },
+    {
+      "id": "S9",
+      "citation": "Rachal, D.M., Dello-Russo, R., Cuba, M. (2024). The Pleistocene footprints are younger than we thought: correcting the radiocarbon dates of Ruppia seeds, Tularosa Basin, New Mexico. Quaternary Research 117: 67–78.",
+      "doi": "10.1017/qua.2023.74",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (Crossref); full text paywalled."
+    },
+    {
+      "id": "S10",
+      "citation": "Rhode, D., Neudorf, C.M., Rachal, D., Davis, L.G., Madsen, D.B., Dello-Russo, R. (2024). Unresolved: Persistent Problems with the White Sands Locality 2 Geochronology. PaleoAmerica 10(1): 10–27.",
+      "doi": "10.1080/20555563.2024.2345979",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (OpenAlex); full text paywalled."
+    },
+    {
+      "id": "S11",
+      "citation": "Pigati, J.S., Springer, K.B., Gray, H.J., Bennett, M.R., Bustos, D. (2024). The Geochronology of White Sands Locality 2 is Resolved. PaleoAmerica 10(1): 28–44.",
+      "doi": "10.1080/20555563.2024.2376298",
+      "url": "https://pubs.usgs.gov/publication/70256997",
+      "kind": "reply",
+      "access": "paywalled",
+      "verification": "checked",
+      "note": "Abstract read (USGS Publications Warehouse); full text paywalled."
+    },
+    {
+      "id": "S12",
+      "citation": "Holliday, V.T., Windingstad, J.D., Bright, J., Phillips, B.G., Butler, J.B., Breslawski, R., Bowman, J.E. (2025). Paleolake geochronology supports Last Glacial Maximum (LGM) age for human tracks at White Sands, New Mexico. Science Advances 11(25): eadv4951.",
+      "doi": "10.1126/sciadv.adv4951",
+      "kind": "primary",
+      "access": "open",
+      "verification": "checked",
+      "note": "Full text read (PubMed Central PMC12175891; CC BY-NC)."
+    },
+    {
+      "id": "S13",
+      "citation": "Rachal, D., Dello-Russo, R. (2025). Seeds of controversy: Ecology, depositional context, and radiocarbon dating of Ruppia cirrhosa at the White Sands trackway. Journal of Archaeological Science 179: 106232.",
+      "doi": "10.1016/j.jas.2025.106232",
+      "kind": "critique",
+      "access": "paywalled",
+      "verification": "exists",
+      "note": "Metadata confirmed (Crossref); paywalled, not read. Its conclusion is quoted verbatim in S19."
+    },
+    {
+      "id": "S14",
+      "citation": "Prillaman, M. (2023, 5 October). Human footprints in New Mexico really may be surprisingly ancient, new dating shows. Science News.",
+      "url": "https://www.sciencenews.org/article/human-footprints-new-mexico-ancient-dating",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Quotes critic Loren Davis asking for OSL ages from more footprint layers, and B. Philippsen's Science commentary."
+    },
+    {
+      "id": "S15",
+      "citation": "Geggel, L. (2025, 18 June). Evidence is building that people were in the Americas 23,000 years ago. Live Science.",
+      "url": "https://www.livescience.com/archaeology/evidence-is-building-that-people-were-in-the-americas-23-000-years-ago",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Quotes Michael Waters (Texas A&M): 'Even with these new data, I remain concerned about the radiocarbon ages'."
+    },
+    {
+      "id": "S16",
+      "citation": "Mittan, K. (2025, 18 June). Earliest evidence of humans in the Americas confirmed in new U of A study. University of Arizona News.",
+      "url": "https://news.arizona.edu/news/earliest-evidence-humans-americas-confirmed-new-u-study",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Press release from a proponent's university; gives the 2019 excavation and the critics' 'no artifacts' question."
+    },
+    {
+      "id": "S17",
+      "citation": "Springer, K.B., Pigati, J.S., Bustos, D., Urban, T.M., Bennett, M.R. (2026). Fossil footprints and Ice Age ecosystems of White Sands National Park. U.S. Geological Survey Fact Sheet 2025-3046, 4 p.",
+      "doi": "10.3133/fs20253046",
+      "kind": "report",
+      "access": "open",
+      "verification": "checked",
+      "note": "Synthesis by the proponent team; calls the field's response 'predominantly positive' with 'a few' critics."
+    },
+    {
+      "id": "S18",
+      "citation": "Bennett, M.R., Bustos, D., Pigati, J.S., Springer, K.B., et al. (2021). Data release for Evidence of humans in North America during the Last Glacial Maximum. U.S. Geological Survey data release.",
+      "doi": "10.5066/P9ABZEM9",
+      "kind": "database",
+      "access": "open",
+      "verification": "checked",
+      "note": "Lists the 11 Ruppia 14C dates (USGS Radiocarbon Lab, Denver) and 14 U-series ages on gypsum sand (24.8–100.6 ka)."
+    },
+    {
+      "id": "S19",
+      "citation": "Peacock, D. (2025, 19 December). Incomplete Science at White Sands National Park. Alta Journal.",
+      "url": "https://www.altaonline.com/dispatches/a69500706/white-sands-footprint-debate/",
+      "kind": "news",
+      "access": "open",
+      "verification": "checked",
+      "note": "Opinion essay by a nature writer; quotes Rachal & Dello-Russo's 2025 conclusion that the LGM claim is flawed."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_note": "Facts are well sourced (key papers read in full or as abstracts), but open vs vindicated is a judgment call, and several critiques were read only as abstracts.",
+  "corrections": [
+    "Starter notes say the 2023 pollen/OSL dating is widely seen as settling the age. Critics published rebuttals in 2024–25 and M. Waters remained concerned in 2025, so the case is recorded as open, not vindicated.",
+    "The 2023 OSL result is a single minimum age (>21.5 ± 1.9 ka) from one level below most prints, not an age for each track horizon.",
+    "The 2023 'independent' study came from the same core USGS–NPS–Bournemouth team with new materials and labs; the partly independent study is Holliday et al. 2025.",
+    "Critiques go beyond the hard-water effect: storm transport of seeds (2022), OSL bleaching and pollen reworking (2024), bulk-mud carbon (2025), and the lack of artifacts."
+  ],
+  "notes": "Independent-methods count = seed 14C, terrestrial-pollen 14C, OSL, and lake-mud 14C. The 2021 data release also lists 14 U-series ages on gypsum sand (24.8–100.6 ka, ±9–23 ka) that the age model did not use. Loren Davis said OSL ages from more footprint layers would 'very likely' resolve the dispute; the team says most layers are too thin to sample. The exact site location is withheld under US law. Features are coded for 2021–26 because the new dating fell within five years of the claim.",
+  "review": {
+    "drafted_by": "researcher agent (claude-opus-5-5)",
+    "drafted_on": "2026-09-23",
+    "stage": "draft"
+  }
+}

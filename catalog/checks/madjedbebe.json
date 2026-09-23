@@ -1,0 +1,111 @@
+{
+ "S1": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Thermoluminescence dating of a 50,000-year-old human occupation site in northern Australia",
+  "crossref_year": 1990,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S2": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "How old are the artefacts in Malakunanja II?",
+  "crossref_year": 1990,
+  "crossref_venue": "Archaeology in Oceania",
+  "checked_on": "2026-09-23"
+ },
+ "S3": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "The archaeology, chronology and stratigraphy of Madjedbebe (Malakunanja II): A site in northern Australia with early occupation",
+  "crossref_year": 2015,
+  "crossref_venue": "Journal of Human Evolution",
+  "checked_on": "2026-09-23"
+ },
+ "S4": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Human occupation of northern Australia by 65,000 years ago",
+  "crossref_year": 2017,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ },
+ "S5": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Movement of lithics by trampling: An experiment in the Madjedbebe sediments, northern Australia",
+  "crossref_year": 2017,
+  "crossref_venue": "Journal of Archaeological Science",
+  "checked_on": "2026-09-23"
+ },
+ "S6": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Reply to comments on Clarkson et al. (2017) ‘Human occupation of northern Australia by 65,000 years ago’",
+  "crossref_year": 2018,
+  "crossref_venue": "Australian Archaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S7": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "When did\n                    <i>Homo sapiens</i>\n                    first reach Southeast Asia and Sahul?",
+  "crossref_year": 2018,
+  "crossref_venue": "Proceedings of the National Academy of Sciences",
+  "checked_on": "2026-09-23"
+ },
+ "S8": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "How do we distinguish termite stone lines from artefact horizons? A challenge for geoarchaeology in tropical Australia",
+  "crossref_year": 2020,
+  "crossref_venue": "Geoarchaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S9": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Identifying disturbance in archaeological sites in tropical northern Australia: Implications for previously proposed 65,000‐year continental occupation date",
+  "crossref_year": 2021,
+  "crossref_venue": "Geoarchaeology",
+  "checked_on": "2026-09-23"
+ },
+ "S10": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Recent DNA Studies Question a 65 kya Arrival of Humans in Sahul",
+  "crossref_year": 2025,
+  "crossref_venue": "Archaeology in Oceania",
+  "checked_on": "2026-09-23"
+ },
+ "S11": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Do Recent DNA Studies Refute a 65 kya Arrival of Humans in Sahul?",
+  "crossref_year": 2025,
+  "crossref_venue": "Archaeology in Oceania",
+  "checked_on": "2026-09-23"
+ },
+ "S12": {
+  "result": "url-ok",
+  "detail": "HTTP 200",
+  "checked_on": "2026-09-23"
+ },
+ "S13": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Genomic evidence supports the “long chronology” for the peopling of Sahul",
+  "crossref_year": 2025,
+  "crossref_venue": "Science Advances",
+  "checked_on": "2026-09-23"
+ },
+ "S14": {
+  "result": "match",
+  "detail": "title overlap 100%, year ok, author ok",
+  "crossref_title": "Rock art from at least 67,800 years ago in Sulawesi",
+  "crossref_year": 2026,
+  "crossref_venue": "Nature",
+  "checked_on": "2026-09-23"
+ }
+}
