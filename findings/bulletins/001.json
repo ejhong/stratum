@@ -1,0 +1,27 @@
+{
+ "number": 1,
+ "date": "2026-09-23",
+ "title": "Most of the world's great megaliths have never been dated directly",
+ "dek": "First results from Stratum: what 26 checked cases and three data studies show — and the tests that could rewrite the dates, or confirm them.",
+ "points": [
+  {"head": "35 of 40 famous megaliths are dated only by association.",
+   "text": "Only one — Nan Madol — has a direct date on its building stones; three have no date at all. The ages of the Great Sphinx, Carnac, Sacsayhuamán, Tiwanaku and others rest on material found near them, on texts, or on style. Pre-registered as H7; confirmed after an independent review.",
+   "link": "leads/", "link_text": "The ten monuments where a first direct date would matter most"},
+  {"head": "The Great Sphinx enclosure has never been dated directly.",
+   "text": "No chlorine-36, U-series or carbonate dating of its walls has been published. A paired chlorine-36 comparison against Khafre-era quarry faces could test whether the enclosure is older than the conventional date — or confirm it.",
+   "link": "cases/sphinx-weathering/", "link_text": "The Sphinx weathering case"},
+  {"head": "Monte Verde, the textbook vindication, was reopened in 2026.",
+   "text": "A Science paper argues for a mid-Holocene age. The challenger's own radiocarbon dates match the older age, and the key occupation layer was destroyed decades ago — so settling it now depends on archived material.",
+   "link": "cases/monte-verde/", "link_text": "Monte Verde"},
+  {"head": "Real anomalies are usually partly right.",
+   "text": "Of ten celebrated vindications, only three held cleanly; five were partly right and two are still open. All seven refuted cases stayed refuted.",
+   "link": "findings/", "link_text": "Observation O1"},
+  {"head": "\"It can't be that old\" objections fail more often.",
+   "text": "25% of objections that proved wrong argued from the accepted model, vs 8% of those that held — the predicted direction, but weak so far (p = 0.18).",
+   "link": "findings/", "link_text": "Hypothesis H4"},
+  {"head": "The first data scans.",
+   "text": "Dismissed old radiocarbon dates in a 173,946-date global database do not line up by region (a null). A second scan for dates older than each region's accepted first arrival flagged ten unfamiliar early-Americas sites.",
+   "link": "findings/", "link_text": "Discovery track"}
+ ],
+ "caveat": "These are leads, not discoveries. Each rests on published sources checked by a separate skeptic agent, and each names the test that would settle it — to be run by credentialed specialists with permits."
+}

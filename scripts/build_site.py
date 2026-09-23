@@ -311,7 +311,7 @@ def leads_table(cases, limit=None):
 
 # ---------------------------------------------------------------- pages
 
-def home(cases, summary):
+def home(cases, summary, latest=None):
     c = {s: sum(r["status"] == s for r in cases) for s in STATUSES}
     reviewed = sum(r["_reviewed"] for r in cases)
     stats = stat_block([(len(cases), "", "Cases")] + [
@@ -342,7 +342,9 @@ def home(cases, summary):
     notes_html = ('<table class="data"><tbody>' + "".join(
         f'<tr><td class="m">{e(d)}</td><td>{e(msg)}</td><td class="m"><a href="{REPO}/commit/{e(h)}">{e(h)}</a></td></tr>'
         for d, h, msg in notes) + "</tbody></table>") if notes else '<p class="muted small">No activity yet.</p>'
-    body = f"""<div class="wrap">
+    banner = (f'<a class="bulletin-banner" href="{{root}}bulletin/{latest["number"]}/"><span class="eyebrow">Lab bulletin {latest["number"]} · {e(latest["date"])}</span>'
+              f'<b>{e(latest["title"])}</b><span class="go">Read →</span></a>') if latest else ""
+    body = f"""<div class="wrap">{banner}
 <section class="head"><div>
 <div class="eyebrow">An AI lab for archaeology’s anomalies</div>
 <h1>Some anomalies rewrite history. Most don’t.</h1>
@@ -703,6 +705,24 @@ def method(cases):
     page("method/index.html", "Method", body, active="method/")
 
 
+def bulletins():
+    """Dated lab bulletins: the announcement channel. Latest is linked from the home page."""
+    items = sorted((ROOT / "findings" / "bulletins").glob("*.json"))
+    out = []
+    for f in items:
+        bl = json.loads(f.read_text())
+        pts = "".join(
+            f'<li><b>{e(p["head"])}</b> {e(p["text"])} <a class="small" href="{{root}}{e(p["link"])}">{e(p["link_text"])} →</a></li>' for p in bl["points"])
+        body = f"""<div class="wrap">
+<section class="head"><div><div class="eyebrow">Lab bulletin {bl['number']} · {e(bl['date'])}</div><h1>{e(bl['title'])}</h1>
+<p class="lede">{e(bl['dek'])}</p></div></section>
+<section class="section" style="max-width:860px"><ol class="bulletin">{pts}</ol>
+<p class="falsifier" style="margin-top:22px">{e(bl['caveat'])}</p></section></div>"""
+        page(f"bulletin/{bl['number']}/index.html", bl["title"], body, desc=bl["dek"])
+        out.append(bl)
+    return out[-1] if out else None
+
+
 def not_found():
     page("404.html", "Not found", '<div class="wrap"><section class="head"><div><div class="eyebrow">404</div><h1>Nothing at this depth.</h1><p class="lede"><a href="/stratum/">Back to the surface →</a></p></div></section></div>', root="/stratum/")
 
@@ -737,7 +757,8 @@ def main(argv):
     if (SITE / "plates").exists():
         shutil.copytree(SITE / "plates", OUT / "plates")
     (OUT / ".nojekyll").write_text("")
-    home(cases, summary)
+    latest = bulletins()
+    home(cases, summary, latest)
     cases_index(cases)
     for r in cases:
         case_page(r)

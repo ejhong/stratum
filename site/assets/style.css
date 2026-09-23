@@ -293,3 +293,13 @@ table.leads .test b { font: 500 10px var(--mono); letter-spacing: .08em; text-tr
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media print { .site-header, .site-footer, .filters { display: none; } body { background: #fff; } }
+
+/* Bulletins */
+.bulletin-banner { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 14px; margin-top: 16px; padding: 12px 16px; border-radius: var(--r); background: var(--dark); color: var(--dark-text); text-decoration: none; }
+.bulletin-banner .eyebrow { color: var(--dark-accent); }
+.bulletin-banner b { font: 500 1.05rem var(--serif); }
+.bulletin-banner .go { margin-left: auto; font: 500 12px var(--mono); color: var(--dark-accent); }
+.bulletin-banner:hover { color: var(--dark-text); background: #2a2621; }
+ol.bulletin { margin: 0; padding-left: 1.2em; display: grid; gap: 14px; font-size: 15.5px; }
+ol.bulletin li::marker { font: 500 14px var(--mono); color: var(--accent); }
+ol.bulletin b { font-weight: 600; }
