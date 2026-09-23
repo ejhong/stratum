@@ -1,0 +1,206 @@
+{
+ "about": "H7 audit sample: 40 widely cited megalithic monuments across all inhabited continents, fixed before any dating research. Includes monuments central to 'lost civilization' arguments and mainstream ones alike. Do not add, drop or swap entries after research begins.",
+ "fixed_on": "2026-09-23",
+ "monuments": [
+  {
+   "id": "stonehenge",
+   "name": "Stonehenge",
+   "country": "United Kingdom"
+  },
+  {
+   "id": "avebury",
+   "name": "Avebury",
+   "country": "United Kingdom"
+  },
+  {
+   "id": "newgrange",
+   "name": "Newgrange",
+   "country": "Ireland"
+  },
+  {
+   "id": "carrowmore",
+   "name": "Carrowmore",
+   "country": "Ireland"
+  },
+  {
+   "id": "callanish",
+   "name": "Callanish Stones",
+   "country": "United Kingdom"
+  },
+  {
+   "id": "ring-of-brodgar",
+   "name": "Ring of Brodgar",
+   "country": "United Kingdom"
+  },
+  {
+   "id": "carnac",
+   "name": "Carnac alignments",
+   "country": "France"
+  },
+  {
+   "id": "barnenez",
+   "name": "Barnenez cairn",
+   "country": "France"
+  },
+  {
+   "id": "menga",
+   "name": "Dolmen of Menga",
+   "country": "Spain"
+  },
+  {
+   "id": "almendres",
+   "name": "Almendres Cromlech",
+   "country": "Portugal"
+  },
+  {
+   "id": "ggantija",
+   "name": "Ġgantija",
+   "country": "Malta"
+  },
+  {
+   "id": "hagar-qim",
+   "name": "Ħaġar Qim",
+   "country": "Malta"
+  },
+  {
+   "id": "gobekli-tepe",
+   "name": "Göbekli Tepe",
+   "country": "Turkey"
+  },
+  {
+   "id": "karahan-tepe",
+   "name": "Karahan Tepe",
+   "country": "Turkey"
+  },
+  {
+   "id": "nevali-cori",
+   "name": "Nevalı Çori",
+   "country": "Turkey"
+  },
+  {
+   "id": "rujm-el-hiri",
+   "name": "Rujm el-Hiri",
+   "country": "Golan Heights"
+  },
+  {
+   "id": "baalbek",
+   "name": "Baalbek (Temple of Jupiter podium and trilithon)",
+   "country": "Lebanon"
+  },
+  {
+   "id": "great-sphinx",
+   "name": "Great Sphinx of Giza",
+   "country": "Egypt"
+  },
+  {
+   "id": "great-pyramid",
+   "name": "Great Pyramid of Giza",
+   "country": "Egypt"
+  },
+  {
+   "id": "osireion",
+   "name": "Osireion, Abydos",
+   "country": "Egypt"
+  },
+  {
+   "id": "nabta-playa",
+   "name": "Nabta Playa stone circle and alignments",
+   "country": "Egypt"
+  },
+  {
+   "id": "senegambia",
+   "name": "Senegambian stone circles (Wassu)",
+   "country": "The Gambia"
+  },
+  {
+   "id": "aksum",
+   "name": "Aksum stelae",
+   "country": "Ethiopia"
+  },
+  {
+   "id": "gunung-padang",
+   "name": "Gunung Padang",
+   "country": "Indonesia"
+  },
+  {
+   "id": "bada-valley",
+   "name": "Bada Valley megaliths",
+   "country": "Indonesia"
+  },
+  {
+   "id": "gochang-dolmens",
+   "name": "Gochang, Hwasun and Ganghwa dolmens",
+   "country": "South Korea"
+  },
+  {
+   "id": "plain-of-jars",
+   "name": "Plain of Jars",
+   "country": "Laos"
+  },
+  {
+   "id": "yonaguni",
+   "name": "Yonaguni Monument",
+   "country": "Japan"
+  },
+  {
+   "id": "tiwanaku",
+   "name": "Tiwanaku and Pumapunku",
+   "country": "Bolivia"
+  },
+  {
+   "id": "sacsayhuaman",
+   "name": "Sacsayhuamán",
+   "country": "Peru"
+  },
+  {
+   "id": "ollantaytambo",
+   "name": "Ollantaytambo",
+   "country": "Peru"
+  },
+  {
+   "id": "chavin",
+   "name": "Chavín de Huántar",
+   "country": "Peru"
+  },
+  {
+   "id": "san-agustin",
+   "name": "San Agustín statues",
+   "country": "Colombia"
+  },
+  {
+   "id": "olmec-heads",
+   "name": "Olmec colossal heads (San Lorenzo)",
+   "country": "Mexico"
+  },
+  {
+   "id": "chankillo",
+   "name": "Chankillo",
+   "country": "Peru"
+  },
+  {
+   "id": "diquis-spheres",
+   "name": "Diquís stone spheres",
+   "country": "Costa Rica"
+  },
+  {
+   "id": "rapa-nui",
+   "name": "Rapa Nui moai and ahu",
+   "country": "Chile"
+  },
+  {
+   "id": "nan-madol",
+   "name": "Nan Madol",
+   "country": "Micronesia"
+  },
+  {
+   "id": "haamonga",
+   "name": "Haʻamonga ʻa Maui",
+   "country": "Tonga"
+  },
+  {
+   "id": "latte-stones",
+   "name": "Latte stones",
+   "country": "Guam / Northern Mariana Islands"
+  }
+ ]
+}
