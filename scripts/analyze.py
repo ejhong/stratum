@@ -133,7 +133,7 @@ def run(cases):
 
     # Feature rates by status, for the matrix
     res["feature_rates"] = {
-        f: {s: share([r for r in reviewed if r["status"] == s], f) for s in ("vindicated", "partial", "open", "refuted")}
+        f: {s: share([r for r in reviewed if r["status"] == s], f) for s in ("vindicated", "partial", "open", "unsupported", "refuted")}
         for f, _, _ in FEATURES
     }
     return res

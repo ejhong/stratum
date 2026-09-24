@@ -3,7 +3,7 @@ import math
 import re
 from html import escape
 
-from stratum_data import FEATURES, STATUS_LABEL, THIS_YEAR, fmt_age, fmt_leap
+from stratum_data import FEATURES, STATUS_LABEL, STATUSES, THIS_YEAR, fmt_age, fmt_leap
 
 COLOR = {"vindicated": "#2b6858", "partial": "#86661a", "open": "#a4461f", "unsupported": "#7d766b", "refuted": "#6f6a62"}
 INK, INK2, INK3, RULE, PAPER = "#1c1915", "#474036", "#6c6356", "#ddd5c7", "#f8f5ef"
@@ -214,7 +214,7 @@ def lifelines(cases, root, W=660):
 
 
 def feature_matrix(cases, root):
-    order = ["vindicated", "partial", "open", "refuted"]
+    order = list(STATUSES)
     rows = sorted(cases, key=lambda r: (order.index(r["status"]), r["name"]))
     if not rows:
         return ""
@@ -343,8 +343,8 @@ def ruler(r):
 
 def leap_strip(cases, root):
     rows = []
-    for s, label in (("vindicated", "Vindicated"), ("partial", "Partly vindicated"), ("refuted", "Refuted"), ("open", "Still open")):
-        pts = [(r["_leap"], r, s == "open") for r in cases if r["status"] == s and r["_leap"]]
+    for s, label in (("vindicated", "Vindicated"), ("partial", "Partly vindicated"), ("refuted", "Refuted"), ("open", "Still open"), ("unsupported", "Unsupported")):
+        pts = [(r["_leap"], r, s in ("open", "unsupported")) for r in cases if r["status"] == s and r["_leap"]]
         if pts:
             rows.append((label, s, pts))
     if not rows:
@@ -357,8 +357,8 @@ def leap_strip(cases, root):
 
 def years_strip(cases, root):
     rows = []
-    for s, label in (("vindicated", "Vindicated"), ("partial", "Partly vindicated"), ("refuted", "Refuted"), ("open", "Still open")):
-        pts = [(r["_years"], r, s == "open") for r in cases if r["status"] == s]
+    for s, label in (("vindicated", "Vindicated"), ("partial", "Partly vindicated"), ("refuted", "Refuted"), ("open", "Still open"), ("unsupported", "Unsupported")):
+        pts = [(r["_years"], r, s in ("open", "unsupported")) for r in cases if r["status"] == s]
         if pts:
             rows.append((label, s, pts))
     if not rows:
