@@ -8,7 +8,7 @@
     "continent": "Asia"
   },
   "anomaly_type": "legend",
-  "claim": "In 1865 Frank Calvert, who had trial-trenched at Hisarlık since 1863, publicly identified the mound as the site of Homer's Troy. Schliemann adopted this from 1868 and, excavating from 1871, claimed his finds ('Priam's Treasure' included) proved the Iliad's Trojan War really happened.",
+  "claim": "In 1865 Frank Calvert, who had trial-trenched at Hisarlık since 1863, publicly identified the mound as the site of Homer's Troy. Schliemann adopted this from 1868 and excavated from 1871. His further claim, that the finds proved the Iliad's war happened, is tracked as a separate candidate.",
   "claimed_age": {
     "label": "Homer's Troy; traditional fall c. 1184 BCE (Eratosthenes)",
     "bp_min": 3133,
@@ -164,15 +164,21 @@
       "source": "S12"
     }
   ],
-  "status": "partial",
-  "status_note": "Hisarlık's identification as Bronze Age Troy/Wilusa is accepted by nearly all archaeologists and Hittitologists. Whether a Trojan War resembling the Iliad happened as one historical event is unresolved, and may be unanswerable.",
+  "status": "vindicated",
+  "status_note": "Core claim vindicated: nearly all archaeologists and Hittitologists accept Hisarlık as Bronze Age Troy (Wilusa); Schürr (2019) disputes the Wilusa link. Whether the Iliad's war happened is a separate, unresolved claim.",
+  "refinements": [
+    "Schliemann's 'Priam's' city was the wrong layer: Troy II predates the Iliad's setting by about 1,000 years; Dörpfeld (1893-94) and Blegen (1932-38) placed Late Bronze Age Troy in Troy VI-VIIa.",
+    "Schliemann's accounts of finding 'Priam's Treasure' conflict (Traill 1983; Easton 1984 disputes how much was invented); the objects' Bronze Age authenticity is generally accepted.",
+    "Hittite geography now anchors the site: Hawkins's 1998 Karabel reading placed Wilusa in the Troad, and most Hittitologists equate Wilusa with Troy; Schürr (2019) disputes the name equations.",
+    "Korfmann (from 1988) argued for a large lower city and trade hub; its scale and role are disputed (Kolb 2004 vs Jablonka & Rose 2004), though a ditch and some lower-town structures were excavated."
+  ],
   "year_resolved": 1894,
-  "what_settled_it": "Dörpfeld's 1893-94 campaigns exposed Troy VI, a fortified Late Bronze Age city lying above (later than) Schliemann's 'Burnt City' (Troy II), which predates the traditional war by roughly 1,000 years. This corrected Schliemann's mistaken layer; the place identification has stood since.",
+  "what_settled_it": "Dörpfeld's 1893-94 campaigns exposed Troy VI, a fortified Late Bronze Age citadel of the Iliad's era above Schliemann's older 'Burnt City' (Troy II), confirming the site while correcting the layer. Blegen (1932-38) and Korfmann (from 1988) built on it; the identification has stood since.",
   "settled_by": [
     "new-excavation",
     "expert-review"
   ],
-  "failure_mode": "misinterpretation",
+  "failure_mode": "none",
   "timeline": [
     { "year": 1863, "event": "Frank Calvert, who owns part of the Hisarlık mound, begins trial excavations there.", "source": "S1" },
     { "year": 1865, "event": "Calvert publicly identifies Hisarlık as the site of Troy to London's scholarly community.", "source": "S1" },
@@ -209,7 +215,7 @@
       "cost": "low"
     }
   ],
-  "falsifier": "A Hittite text placing Wilusa elsewhere would overturn that equation, not the Troy/Hisarlık identification (which rests on tradition and excavation). A text or artifact naming a Wilusa-Ahhiyawa war matching Homer's cast would move the war claim toward vindicated.",
+  "falsifier": "Discovery elsewhere in the Troad of a larger Late Bronze Age fortified city with a stronger claim (e.g. texts naming it Ilios or Wilusa) would overturn the identification. A Hittite text placing Wilusa elsewhere would undo only the Wilusa equation.",
   "sources": [
     {
       "id": "S1",
@@ -430,7 +436,8 @@
     "open_issues": [
       "Declined moving year_claimed to Maclaren 1822 (review's preferred option). Kept Calvert/1865: best-sourced, fieldwork-tied (Allen 1995). Maclaren's book exists (Internet Archive) but content unread this session; priority noted separately.",
       "Declined: adding the Bötticher/Zavadil 1880s necropolis objection (minor). Zavadil 2009 is a German-language monograph not directly verifiable via lookup.py within this session's budget.",
-      "Declined adding a fully separate falsifier per sub-claim (Troy/Wilusa/war); shortened instead to distinguish the Wilusa equation from the Troy/Hisarlık identification within the 280-char budget."
+      "Declined adding a fully separate falsifier per sub-claim (Troy/Wilusa/war); shortened instead to distinguish the Wilusa equation from the Troy/Hisarlık identification within the 280-char budget.",
+      "D19 re-rating 2026-09-23: partial → vindicated — core claim (Hisarlık is Homer's Troy) is accepted; Schliemann's Troy II layer error is a refinement; the Trojan War's historicity is split out as candidate trojan-war-historicity."
     ]
   }
 }

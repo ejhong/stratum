@@ -13,6 +13,7 @@
   --vindicated: #2b6858;
   --partial: #86661a;
   --open: #a4461f;
+  --unsupported: #6e675d;
   --refuted: #6f6a62;
   --dark: #1c1a17;
   --dark-2: #27231e;
@@ -94,7 +95,7 @@ ul.dots li::marker { color: var(--accent); }
 
 /* Fate glyphs and chips */
 .fate { display: inline-flex; align-items: center; gap: 6px; font: 500 11px/1 var(--mono); letter-spacing: .09em; text-transform: uppercase; white-space: nowrap; }
-.fate.vindicated { color: var(--vindicated); } .fate.partial { color: var(--partial); } .fate.open { color: var(--open); } .fate.refuted { color: var(--refuted); }
+.fate.vindicated { color: var(--vindicated); } .fate.partial { color: var(--partial); } .fate.open { color: var(--open); } .fate.unsupported { color: var(--unsupported); } .fate.refuted { color: var(--refuted); }
 .g { flex: none; vertical-align: -2px; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .tag { display: inline-block; font: 500 10.5px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; padding: 4px 7px; border-radius: 99px; border: 1px solid var(--rule-2); color: var(--ink-3); white-space: nowrap; }

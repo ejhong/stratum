@@ -126,3 +126,5 @@ worded here.
 - **Test:** register as a hypothesis and test it on vindicated cases sampled from review literature rather than from the starter list: share fully vindicated vs partial.
 - **Would disprove it:** in a sample not drawn from popular accounts, more than half of vindications are clean.
 - **Status:** observation (n = 17; starter-list sample, selection-biased)
+- **Re-evaluated (2026-09-23, after D19):** largely an artifact of the old rating rule, which treated later refinement as partial failure. Rating the core claim, 7 of the 10 starter vindications hold (Monte Verde, Denisovans, L'Anse aux Meadows, Troy, Göbekli Tepe, *Homo floresiensis*, Paisley Caves) and 3 remain contested (White Sands, Bluefish Caves, Jebel Irhoud); all 7 refutations held. What survives: vindications usually arrive with refinements, and a minority stay contested for decades. See analysis/rerating_d19.md.
+- **Status:** revised — mostly withdrawn

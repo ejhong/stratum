@@ -313,10 +313,10 @@
       "Declined in part: Waters et al. (2009) not added to status_note or as a confirmed raiser of the geofact objection, since S1 could not be read; kept only as UNVERIFIED in raised_by and in key_critics.",
       "peer_reviewed_report coded 'no' rather than 'partial': whether S1 reports the ≥50,300 dates is unknown. Recode to 'partial' if S1 is shown to treat them.",
       "Declined: confidence 'low' until S1 is read. Set 'medium' because no field now relies on S1 or on Wikipedia; key facts rest on two contemporary reports read directly.",
-      "S3 (Waters & Stafford 2007) removed rather than downgraded: after re-sourcing orthodoxy_at_claim to S10, S11 and S12, nothing cited it. Source IDs kept stable, so S3, S5 and S6 are gaps.",
       "Removed for lack of a readable source: the 1985 SCIAA excavation, the 1998 flood detail and the natural-fire objection (the Goodyear 2005 PDF returns HTTP 403).",
       "S8 editors and publisher come from the prior draft (a 2008 American Antiquity review); this revision confirmed only title, author, venue, year and pages.",
-      "Objection [2] (intrusion) is framed from Stafford's own report of a modern intrusive date and ARCHAEOLOGY's call for context scrutiny; no named critic made this exact argument in the sources read."
+      "Objection [2] (intrusion) is framed from Stafford's own report of a modern intrusive date and ARCHAEOLOGY's call for context scrutiny; no named critic made this exact argument in the sources read.",
+      "D19 re-rating 2026-09-23: unchanged — open fits, borderline unsupported: tool-vs-geofact is argued both ways (2004, 2018) and nothing was withdrawn, but the ≥50,300 14C BP dates are minimum ages and no journal report of them was found."
     ]
   }
 }

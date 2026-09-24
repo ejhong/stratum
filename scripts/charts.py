@@ -5,7 +5,7 @@ from html import escape
 
 from stratum_data import FEATURES, STATUS_LABEL, THIS_YEAR, fmt_age, fmt_leap
 
-COLOR = {"vindicated": "#2b6858", "partial": "#86661a", "open": "#a4461f", "refuted": "#6f6a62"}
+COLOR = {"vindicated": "#2b6858", "partial": "#86661a", "open": "#a4461f", "unsupported": "#7d766b", "refuted": "#6f6a62"}
 INK, INK2, INK3, RULE, PAPER = "#1c1915", "#474036", "#6c6356", "#ddd5c7", "#f8f5ef"
 EPOCHS = [  # years before 1950, top to bottom
     (0, 4200, "Late Holocene", "#f3ede3", "silt"),
@@ -34,6 +34,8 @@ def glyph(status, cx, cy, r=6.5, stroke=PAPER):
     if status == "partial":
         return (f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r}" fill="{PAPER}" stroke="{c}" stroke-width="1.8"/>'
                 f'<path d="M{cx:.1f},{cy - r:.1f} A{r},{r} 0 0 0 {cx:.1f},{cy + r:.1f} Z" fill="{c}"/>')
+    if status == "unsupported":
+        return f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r}" fill="{PAPER}" stroke="{c}" stroke-width="1.8" stroke-dasharray="2.2 2"/>'
     if status == "open":
         return (f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r}" fill="{PAPER}" stroke="{c}" stroke-width="2"/>'
                 f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r * 0.36:.1f}" fill="{c}"/>')

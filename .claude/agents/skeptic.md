@@ -33,7 +33,8 @@ Do not write helper scripts; temporary files go only in a folder named after the
 4. **Mundane explanations**: was each considered — contamination, dating error,
    stratigraphic mixing or intrusion, misidentification (geofacts, natural formations),
    hoax, recording error? Name anything missed, with a source.
-5. **Verdict calibration**: is `status` right for the 2026 literature? Is `vindicated` used
+5. **Verdict calibration** (rate the core claim, not every detail; refinements are not partial
+   failures; withdrawn evidence without disproof is `unsupported`): is `status` right for the 2026 literature? Is `vindicated` used
    where `partial` is more honest, or `refuted` where the case is still genuinely open? Is
    residual dissent acknowledged? Is `confidence` justified?
 6. **Hindsight**: are `features_at_claim` coded as things stood within about five years of

@@ -307,7 +307,7 @@ def hyp_table(summary, compact=False):
 
 
 def ranked_leads(cases):
-    open_cases = [r for r in cases if r["status"] in ("open", "partial")]
+    open_cases = [r for r in cases if r["status"] in ("open", "partial", "unsupported")]
     return sorted(open_cases, key=lambda r: (-r["_profile"], r["_leap"] or 99, r["name"]))
 
 
@@ -432,8 +432,8 @@ def case_page(r):
     orth = r.get("orthodoxy_at_claim") or {}
     nsrc = len(r["sources"])
     nchk = sum(s["verification"] == "checked" for s in r["sources"])
-    if st == "open":
-        verdict = f'Open<small>{THIS_YEAR - r["year_claimed"]} years and counting</small>'
+    if st in ("open", "unsupported"):
+        verdict = f'{e(STATUS_LABEL[st])}<small>{THIS_YEAR - r["year_claimed"]} years and counting</small>'
     else:
         verdict = f'{e(STATUS_LABEL[st])} · {r.get("year_resolved") or "—"}<small>{r["_years"]} years after the claim</small>'
     facts = [
@@ -491,6 +491,8 @@ def case_page(r):
         notes.append(f'<li><b>Now understood.</b> {e(r["accepted_age"]["label"])}</li>')
     if r["claimed_age"].get("basis"):
         notes.append(f'<li><b>Dating basis.</b> {e(r["claimed_age"]["basis"])}</li>')
+    for ref in r.get("refinements", []):
+        notes.append(f"<li><b>Refined since.</b> {e(ref)}</li>")
     for cor in r.get("corrections", []):
         notes.append(f"<li><b>Correction.</b> {e(cor)}</li>")
     if r.get("notes"):
@@ -755,7 +757,7 @@ def bulletins():
 <section class="head"><div><div class="eyebrow">Lab bulletin {bl['number']} · {e(bl['date'])}</div><h1>{e(bl['title'])}</h1>
 <p class="lede">{e(bl['dek'])}</p></div></section>
 <section class="section" style="max-width:860px"><ol class="bulletin">{pts}</ol>
-<p class="falsifier" style="margin-top:22px">{e(bl['caveat'])}</p></section></div>"""
+<p class="falsifier" style="margin-top:22px">{e(bl['caveat'])}</p>{"".join(f'<p class="small" style="margin-top:16px;padding:10px 14px;background:var(--paper-2);border-radius:8px"><b>Update {e(u["date"])}.</b> {e(u["text"])}</p>' for u in bl.get("updates", []))}</section></div>"""
         card = ROOT / "site" / "assets" / f"og-bulletin-{bl['number']}.png"
         og = {"image": f"{URL}assets/og-bulletin-{bl['number']}.png", "width": 1200, "height": 630,
               "alt": f"Lab bulletin {bl['number']}: {bl['title']}"} if card.exists() else None

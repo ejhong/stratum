@@ -12,8 +12,8 @@ PLATES = ROOT / "site" / "plates" / "manifest.json"
 THIS_YEAR = date.today().year
 
 TAGLINE = "Strange finds, fair tests"  # the byline everywhere (header, titles, preview cards)
-STATUSES = ["vindicated", "partial", "open", "refuted"]
-STATUS_LABEL = {"vindicated": "Vindicated", "partial": "Partly vindicated", "open": "Open", "refuted": "Refuted"}
+STATUSES = ["vindicated", "partial", "open", "unsupported", "refuted"]
+STATUS_LABEL = {"vindicated": "Vindicated", "partial": "Partly vindicated", "open": "Open", "unsupported": "Unsupported", "refuted": "Refuted"}
 TYPE_LABEL = {
     "chronology": "Earlier than accepted", "hominin": "New human lineage", "capability": "Unexpected capability",
     "contact": "Long-distance contact", "legend": "Legend made real", "artifact": "Out-of-place object",
@@ -72,7 +72,7 @@ def load_cases(cases_dir=CASES):
         r["_leap"] = (r["_age"] / lim) if (r.get("anomaly_type") == "chronology" and r["_age"] and lim) else None
         yc, yr = r.get("year_claimed"), r.get("year_resolved")
         r["_years"] = (yr - yc) if isinstance(yr, int) else (THIS_YEAR - yc)
-        r["_resolved"] = isinstance(yr, int) and r.get("status") != "open"
+        r["_resolved"] = isinstance(yr, int) and r.get("status") not in ("open", "unsupported")
         feats = r.get("features_at_claim", {})
         r["_profile"] = sum(POINTS[feats.get(k, {}).get("value", "unknown")] for k in POSITIVE_FEATURES)
         r["_reviewed"] = r.get("review", {}).get("stage") in REVIEWED_STAGES

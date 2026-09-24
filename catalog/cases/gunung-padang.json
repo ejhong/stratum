@@ -155,14 +155,14 @@
       "source": "S4"
     }
   ],
-  "status": "refuted",
-  "status_note": "Refuted as published: the only peer-reviewed evidence was retracted in 2024 because the dated soils had no shown link to human work. The authors reject this, citing unpublished artifacts; no outside team has dug the disputed 6–11 m.",
-  "year_resolved": 2024,
-  "what_settled_it": "Third-party experts in geophysics, archaeology and radiocarbon raised concerns. The journal's co-editors and Wiley found a major error: the dated soils were not associated with any artifact or feature reliably interpreted as man-made, so the paper was retracted in 2024.",
+  "status": "unsupported",
+  "status_note": "Unsupported, not refuted: the only peer-reviewed evidence was retracted in 2024 because the dated soils had no shown link to human work, but no study has shown the deep layers natural. The authors cite unpublished artifacts.",
+  "year_resolved": null,
+  "what_settled_it": null,
   "settled_by": [
-    "expert-review"
+    "not-settled"
   ],
-  "failure_mode": "misinterpretation",
+  "failure_mode": "none",
   "timeline": [
     {
       "year": 1891,
@@ -247,7 +247,7 @@
       "cost": "medium"
     }
   ],
-  "falsifier": "Published artifacts or features securely tied to Units 2–3, dated on short-lived material from an independent, documented excavation and older than the surface terraces, would reopen the claim.",
+  "falsifier": "Toward open or vindicated: artifacts or features securely tied to Units 2–3, dated on short-lived material from an independent, documented excavation. Toward refuted: a published geological study showing Units 2–3 are in-place weathered lava and natural soil.",
   "sources": [
     {
       "id": "S1",
@@ -396,7 +396,8 @@
       "multiple_labs is coded 'yes' from S1 (2023); whether both labs' dates were public by 2013–2018 is undocumented.",
       "Declined the review's basis wording 'AMS 14C on 12 samples': S1 says 4 of the 12 were dated by the conventional method at BATAN.",
       "Split the Dec 2023 critique instead of one 'held' objection: the association point held (S2), but natural origin of Units 2–3 stays unresolved because no published geological study shows it.",
-      "The review's detik.com source for Yondri's dates returned HTTP 404, so Tempo (S10) is used. Dropped S7 (no longer cited) and the Netflix 2022 event (not re-read, not evidential)."
+      "The review's detik.com source for Yondri's dates returned HTTP 404, so Tempo (S10) is used. Dropped S7 (no longer cited) and the Netflix 2022 event (not re-read, not evidential).",
+      "D19 re-rating 2026-09-23: refuted → unsupported — the only peer-reviewed basis was retracted (dated soils not tied to human work), but no study has shown the deep layers natural. failure_mode misinterpretation → none."
     ]
   }
 }

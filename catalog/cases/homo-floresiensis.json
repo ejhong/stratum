@@ -152,15 +152,21 @@
       "source": "S10"
     }
   ],
-  "status": "partial",
-  "status_note": "The new-species view is accepted: H. erectus-shaped endocast, primitive wrist, ~9 individuals, ~700 ka Mata Menge ancestors. But the 2004 survival claim (~18 ka) was withdrawn by excavators' 2016 redating (S11): skeletons are ~100-60 ka.",
+  "status": "vindicated",
+  "status_note": "Core claim vindicated: a new small-bodied, small-brained Homo species is widely accepted (endocast, primitive wrist, ~9 individuals, ~700 ka Mata Menge kin). The ~18 ka survival age was revised to ~100-60 ka; Henneberg's group dissents.",
+  "refinements": [
+    "Age revised by the excavators: skeletons ~100,000-60,000 years old, stone tools to ~50,000 years (Sutikna et al. 2016, 2018), not before ~38,000 to ~18,000 years as in 2004; a long overlap with modern humans fell away.",
+    "The lineage is far older than first known: small-bodied Mata Menge fossils date to ~700,000 years (van den Bergh et al. 2016), with an even smaller humerus reported in 2024 (Kaifu et al.).",
+    "Ancestry is still debated: dwarfed H. erectus (endocast shape, Falk et al. 2005) or an earlier small-brained lineage (primitive wrist, Tocheri et al. 2007); either way the new-species claim stands.",
+    "At least nine individuals are now attributed to the species, not LB1 alone, which weakens readings of it as one diseased modern human."
+  ],
   "year_resolved": 2016,
-  "what_settled_it": "Comparative morphology (2005-2016) distinguished the skeletons from microcephalic, Laron- and Down-syndrome humans, grouping them with archaic Homo; ~700 ka Mata Menge fossils showed the lineage was ancient. The excavators' 2016 redating (S11) revised the ~18 ka survival age to ~100-60 ka.",
+  "what_settled_it": "Comparative morphology (2005-2016) distinguished the skeletons from microcephalic, Laron- and Down-syndrome humans and grouped them with archaic Homo; ~700 ka small-bodied fossils from Mata Menge (2016) showed a long Flores lineage, leaving pathology readings a minority view.",
   "settled_by": [
     "morphology",
     "new-excavation"
   ],
-  "failure_mode": "dating-error",
+  "failure_mode": "none",
   "timeline": [
     {
       "year": 2003,
@@ -465,7 +471,8 @@
       "Left corrections[0] and corrections[1] as detail-adding entries rather than moving them to notes; they add detail but do not correct an error, so this is low priority.",
       "Did not re-source features_at_claim.independent_teams/multiple_labs notes (Jacob et al. 2006 co-author Soejono undercuts 'independent'); would need to read paywalled S6 or S2's supplementary methods.",
       "independent_methods_count (4) is left as the four dating methods already described in features_at_claim.multiple_dating_methods; did not add a separate morphological-evidence count.",
-      "Did not add Falk et al. 2009 as a direct rebuttal source for the Laron-syndrome objection; S9 already supports 'wrong' and the source cap is reached."
+      "Did not add Falk et al. 2009 as a direct rebuttal source for the Laron-syndrome objection; S9 already supports 'wrong' and the source cap is reached.",
+      "D19 re-rating 2026-09-23: partial → vindicated — the new-species claim is accepted; the ~18 ka survival age, redated to ~100-60 ka by the excavators, is treated as a date refinement (orthodoxy_at_claim concerns species, not survival)."
     ]
   }
 }

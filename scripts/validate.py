@@ -142,10 +142,10 @@ def rules(rec, stem, errs):
             errs.append(f"year_resolved: required when status is {status}")
         if not rec.get("what_settled_it"):
             errs.append(f"what_settled_it: required when status is {status}")
-    if status == "open" and rec.get("year_resolved") is not None:
-        errs.append("year_resolved: must be null for an open case")
-    if status in ("open", "partial") and not rec.get("decisive_tests"):
-        errs.append("decisive_tests: required for open and partial cases")
+    if status in ("open", "unsupported") and rec.get("year_resolved") is not None:
+        errs.append(f"year_resolved: must be null for an {status} case")
+    if status in ("open", "partial", "unsupported") and not rec.get("decisive_tests"):
+        errs.append("decisive_tests: required for open, partial and unsupported cases")
     if status == "refuted" and rec.get("failure_mode") in (None, "none"):
         errs.append("failure_mode: required for refuted cases")
     yc, yr = rec.get("year_claimed"), rec.get("year_resolved")

@@ -63,8 +63,12 @@ compounds):
   sources are silent. This coding drives the project's analysis, so be careful and literal.
 - **objections**: the main criticisms. Classify each `kind`; set `outcome` (held / wrong /
   unresolved) with a one-line `outcome_note` saying how we know.
-- **status**: the state of the professional literature today (2026). `partial` when part
-  of the claim stood and part fell. Acknowledge residual dissent in `status_note`.
+- **status**: rate the CORE anomalous claim as the literature stands today (2026) — see the
+  schema's status definitions. Details refined later (dates tightened, layers re-identified,
+  interpretations adjusted) go in `refinements` and do not make a claim `partial`; `partial`
+  means a substantive part of the core claim itself failed. A retracted or withdrawn basis
+  without a positive disproof is `unsupported`, not `refuted`. A separate claim bundled in
+  (e.g. whether a war happened, versus where a city was) belongs in its own record.
 - **decisive_tests** (open/partial cases): specific and feasible, e.g. "AMS-date the
   archived bone collagen from level X at a second laboratory." These become the field
   partner's work queue, so make them concrete.

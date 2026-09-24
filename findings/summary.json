@@ -25,8 +25,8 @@
   },
   {
    "tag": "Pattern",
-   "head": "Vindications are messy; refutations are clean.",
-   "text": "Of 10 celebrated vindications, 3 held cleanly, 5 were partly right and 2 are still open. All 7 refutations held.",
+   "head": "Most celebrated vindications hold at their core.",
+   "text": "7 of 10 hold, usually with later refinements; 3 are still contested. All 7 refutations held. (Corrected after outside feedback: we had wrongly counted refinements as partial failures.)",
    "link": "findings/",
    "link_text": "Observation O1"
   },

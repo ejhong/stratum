@@ -146,14 +146,12 @@
    "source": "S7"
   }
  ],
- "status": "partial",
- "status_note": "Pre-Clovis use is accepted in an independent 2025 synthesis (S14); the excavators say even conservative views concede ~12,000 years (S7). The 16,000-19,000 14C-yr span is unconfirmed; S15 deems all pre-16 ka sites equivocal.",
+ "status": "open",
+ "status_note": "Open: an independent 2025 synthesis counts Meadowcroft among core pre-Clovis sites (S14), but the coal-contamination test critics asked for was never reported, and Potter et al. (2022) deem all pre-16 ka sites equivocal (S15).",
  "year_resolved": null,
- "what_settled_it": "Not settled. Oxford AMS dates (1990, S5) and micromorphology (1999, S6) answered some contamination concerns; an independent 2025 synthesis counts the site among 10 sites underpinning pre-Clovis technology (S14). No source read reports a test for coal, the main alternative.",
+ "what_settled_it": null,
  "settled_by": [
-  "replication",
-  "geology",
-  "expert-review"
+  "not-settled"
  ],
  "failure_mode": "none",
  "timeline": [
@@ -436,11 +434,11 @@
    "Clovis-first prior removed, not re-sourced: only the excavators allege it (S12, 'Clovis primacy syndrome'). Re-add, coded from the critic's own words, if Haynes 1980 (S2) is read and argues from Clovis-first.",
    "year_claimed 1977 (S16, title only). S5 and S7 imply dates were published from 1975; a 1975 progress report (Pennsylvania Archaeologist 45(3), per the review) was not read. Use 1975 if it reports pre-Clovis dates.",
    "limit_bp 13050 is S15's Strict Clovis-First date, not a calibration of 11,500 14C yr BP; sibling records code this orthodoxy as 13000 or 13350. Analyst should harmonize.",
-   "Status 'partial' rests on one independent synthesis (S14); S15 (abstract only) may class the site as equivocal. Recode 'open' if later independent reviews reject it.",
    "multiple_labs recoded from 'no' to 'unknown': no source read names the lab(s) behind the 1970s dates.",
    "Coal objection dated 1992, though S13 says the critics 'reiterate' it; S17 (1987) may be the first statement, but its abstract does not name Meadowcroft.",
    "'identification' is a loose fit for the assemblage-'character' objection (schema: natural vs human-made); used as the nearest kind.",
-   "bp values kept null: individual lab dates not read or calibrated (see decisive test 4)."
+   "bp values kept null: individual lab dates not read or calibrated (see decisive test 4).",
+   "D19 re-rating 2026-09-23: partial → open — no component failed: pre-Clovis use is accepted by one independent synthesis (2025) and called equivocal by another (2022); coal contamination is untested. Replaces the earlier 'recode open' note."
   ]
  }
 }

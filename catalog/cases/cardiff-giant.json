@@ -187,7 +187,8 @@
       "Did not verify S2's subtitle/publisher suggested in the review ('The Giant from Cardiff that Fooled America', Rowman & Littlefield); lookup.py's Crossref metadata does not surface them.",
       "Left the fraud explanation inside `claim` alongside what was claimed, rather than moving it entirely to accepted_age/what_settled_it; both already state it, so this is redundancy, not an error.",
       "Did not add Boynton to key_critics (he began as a proponent and only later reversed); his reversal is instead recorded in timeline.",
-      "Franco (1969), 'The Cardiff Giant: A Hundred Year Old Hoax,' New York History, flagged by the skeptic as a possible source, remains unchecked (UNVERIFIED, outside this pass's budget)."
+      "Franco (1969), 'The Cardiff Giant: A Hundred Year Old Hoax,' New York History, flagged by the skeptic as a possible source, remains unchecked (UNVERIFIED, outside this pass's budget).",
+      "D19 re-rating 2026-09-23: unchanged — refuted fits: hoax exposed (Marsh's 1869 verdict on fresh tool marks, the traced Iowa gypsum, Hull's own admission)."
     ]
   }
 }

@@ -138,12 +138,12 @@
       "source": "S9"
     }
   ],
-  "status": "partial",
-  "status_note": "The ~315 ka age is accepted and unchallenged. Whether the fossils belong to the H. sapiens lineage stays disputed: the only independent re-analyses place them closer to Neanderthals, against the original team's view.",
-  "year_resolved": 2017,
-  "what_settled_it": "The ~315 ka age (TL; recalculated U-series/ESR) is unchallenged by any published re-dating. H. sapiens-lineage membership stays contested: the only independent re-analyses (S9, S14) place Irhoud closer to Neanderthals; proponents (S10, S15) maintain the attribution. Genetic estimates vary.",
+  "status": "open",
+  "status_note": "Open: the ~315 ka age is accepted, but whether the fossils are early H. sapiens is contested. The only independent re-analyses (2019, 2023) place them nearer Neanderthals; the proponents (2018, 2026) keep the attribution.",
+  "year_resolved": null,
+  "what_settled_it": null,
   "settled_by": [
-    "new-excavation"
+    "not-settled"
   ],
   "failure_mode": "none",
   "timeline": [
@@ -225,7 +225,7 @@
       "cost": "medium"
     }
   ],
-  "falsifier": "Independent re-dating that puts the fossil layer well below ~250 ka, or protein or fuller morphological evidence placing Irhoud outside the H. sapiens lineage (for example, closer to Neanderthals).",
+  "falsifier": "Toward refuted: re-dating the fossil layer well below ~250 ka, or protein or fuller morphological evidence placing Irhoud outside the H. sapiens lineage (e.g. nearer Neanderthals). Toward vindicated: such evidence placing it within the H. sapiens clade.",
   "sources": [
     {
       "id": "S1",
@@ -419,11 +419,11 @@
     }
   ],
   "confidence": "medium",
-  "confidence_note": "Facts are well sourced. 'Partial' reflects a live taxonomic dispute; the 286 ka ESR date's independence from TL dose-rate data is unverified. S2 read via abstract only.",
+  "confidence_note": "Facts are well sourced. 'Open' reflects a live taxonomic dispute; the 286 ka ESR date's independence from TL dose-rate data is unverified. S2 read via abstract only.",
   "corrections": [
     "Brief: fossils 'long treated as Neanderthal-like' until 2017. Actually Hublin (1992) rejected that reading, and Smith et al. (2007) already called Irhoud 'early Homo sapiens' at ~160 ka; 2017's novelty was the age.",
     "Brief: the 2017 papers 'dated them to ~300,000 years (thermoluminescence on heated flints)'. TL dated the flints, not the fossils; the only direct fossil date (U-series/ESR, 286±32 ka) recalculates a 1960s find once dated 160±16 ka.",
-    "Brief's 'Expected status: vindicated' overstates consensus: the brief and common accounts call Irhoud simply the oldest H. sapiens, but the only independent re-analyses (S9, S14) dispute the species attribution; recorded as partial."
+    "Brief's 'Expected status: vindicated' overstates consensus: the brief and common accounts call Irhoud simply the oldest H. sapiens, but the only independent re-analyses (S9, S14) dispute the species attribution; recorded as open."
   ],
   "notes": "The claim coded here is the 2017 one; finds date from 1961. Earlier ages: ~40 ka (S7), then ESR 130–190 ka (Grün & Stringer 1991, per S9), then 160 ± 16 ka (S4). A pan-African origin (S10; cf. S17, no single birthplace) is debated (S9). Omo I was later redated to at least 233 ka (S12), narrowing the leap. Mundane checks: no published challenge to the dates, association or specimen integrity was found; whether the recalculated 286 ka ESR/U-series date shares dose-rate inputs with the TL work is UNVERIFIED; a 2018 correction (S16) fixed figure labels and sample counts without changing conclusions. The live dispute is taxonomic, not chronological.",
   "review": {
@@ -434,7 +434,8 @@
     "skeptic_on": "2026-09-23",
     "skeptic_verdict": "revise",
     "open_issues": [
-      "Plates removed: Commons lists CC BY 4.0 for both MPI EVA photos, but the archived 2017 press kit labels both CC-BY-SA 2.0 (matching credits: Schatz; Kamal). Unresolved without a Commons correction, so no plates are recorded."
+      "Plates removed: Commons lists CC BY 4.0 for both MPI EVA photos, but the archived 2017 press kit labels both CC-BY-SA 2.0 (matching credits: Schatz; Kamal). Unresolved without a Commons correction, so no plates are recorded.",
+      "D19 re-rating 2026-09-23: partial → open — no part of the core claim failed: the ~315 ka age is accepted, while H. sapiens membership is actively contested by independent re-analyses (2019, 2023)."
     ]
   }
 }

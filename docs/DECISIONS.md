@@ -123,3 +123,19 @@ Replaces "What's left after the boring explanations", which read as dismissive o
 work — a poor signal to the archaeologists the lab needs as partners. The new byline names
 both halves of the project: the intriguing anomaly and the evenhanded test. It lives in one
 place (`TAGLINE` in `scripts/stratum_data.py`); header, titles and preview cards use it.
+
+## 2026-09-23 · D19 · Rate the core claim; add "unsupported"
+Outside feedback (from an author who works on these subjects) showed the rating rule was
+flawed: it marked Troy, Göbekli Tepe and *Homo floresiensis* only "partly vindicated" because
+later research refined details, and marked Gunung Padang "refuted" because its paper was
+retracted. Archaeology refines almost every real discovery, so that rule penalized normal
+science, and a withdrawn paper is not a disproof. New rule: status rates the **core
+anomalous claim** — the proposition that contradicted the accepted view of its time.
+Refinements (dates tightened, layers re-identified, interpretations adjusted) are recorded in
+`refinements` and do not make a claim partial. A new status, **unsupported**, covers evidence
+withdrawn or shown insufficient without a positive disproof. Separate claims bundled together
+(the Trojan War's historicity; the Göbekli "temple" reading) become their own records. Applied
+uniformly to all records by one agent, with every change and reason in
+analysis/rerating_d19.md. Observation O1 ("vindications are messy") was partly produced by the
+old rule and is re-evaluated. A finer graded "standing" scale for interpretive and historical
+claims may be layered on later.

@@ -318,10 +318,12 @@
     "status": {
       "enum": [
         "vindicated",
-        "refuted",
+        "partial",
         "open",
-        "partial"
-      ]
+        "unsupported",
+        "refuted"
+      ],
+      "description": "Rate the CORE anomalous claim — the proposition that contradicted the accepted view of its time — not every detail around it. vindicated = the core claim is accepted, even if details were later refined (record those in `refinements`); partial = a substantive part of the core claim itself failed; open = actively contested with evidence on both sides; unsupported = its evidence was withdrawn or shown insufficient, but it has not been shown false; refuted = positively shown false (hoax exposed, natural origin or wrong dates demonstrated). Separate claims bundled together become their own records."
     },
     "status_note": {
       "type": "string",
@@ -612,6 +614,15 @@
           }
         }
       }
+    },
+    "refinements": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "maxLength": 220
+      },
+      "description": "Details revised as research continued (dates tightened, layers re-identified, interpretations adjusted) that do not overturn the core claim."
     }
   },
   "$defs": {

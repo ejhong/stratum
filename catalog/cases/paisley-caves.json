@@ -109,12 +109,17 @@
       "source": "S9"
     }
   ],
-  "status": "partial",
-  "status_note": "The pre-Clovis age holds: cut-marked bone, dated basketry, and 3 biomarker-confirmed coprolites converge near 12,300 14C BP. But mtDNA misclassified 6 of 21 coprolites as human when biomarkers showed carnivore; hence partial.",
+  "status": "vindicated",
+  "status_note": "Core claim vindicated: cut-marked bone, dated basketry and 3 biomarker-confirmed coprolites put people here ~14,300 cal BP. The mtDNA method misfired (6 of 21 'human' coprolites were carnivore); all evidence is from one program.",
+  "refinements": [
+    "mtDNA proved unreliable for typing coprolites: lipid biomarkers showed 6 of 21 mtDNA-'human' coprolites were carnivore, probably because DNA moves through cave sediment (Shillito et al. 2018, 2020).",
+    "Coprolite 1374-5/5D-31-2, typed human by mtDNA in 2008, is herbivore by micromorphology and FTIR (Goldberg et al. 2009) and by steroid biomarkers (Sistiaga et al. 2014).",
+    "The pre-Clovis case now rests on lines independent of mtDNA: biomarkers on 3 coprolites, basketry dated 12,273±56 14C BP above coprolite 185, and two cut-marked bones below Clovis levels (Hockett & Jenkins 2013)."
+  ],
   "year_resolved": 2020,
   "what_settled_it": "No single event; convergent evidence independent of the original mtDNA method: lipid biomarkers confirming three pre-Clovis coprolites as human, a basketry fragment above dated coprolite 185, and cut-marked bone below Clovis levels (Hockett & Jenkins 2013; Shillito et al. 2020).",
   "settled_by": ["replication", "forensic-analysis"],
-  "failure_mode": "contamination",
+  "failure_mode": "none",
   "timeline": [
     {
       "year": 2008,
@@ -338,7 +343,8 @@
     "skeptic_verdict": "revise",
     "open_issues": [
       "Removed the single-team/sample-size objection rather than sourcing it (could not verify who specifically raised it in 2009); the underlying 'all pre-Clovis evidence from one program' concern is now covered in status_note and notes instead.",
-      "Did not add a separate bioturbation/site-formation mundane-explanation entry given the notes field's length budget; coprophagy is noted as one specific mechanism, and 'contamination' (DNA mobility) is recorded as failure_mode."
+      "Did not add a separate bioturbation/site-formation mundane-explanation entry given the notes field's length budget; coprophagy is noted as one specific mechanism, and 'contamination' (DNA mobility) is recorded as failure_mode.",
+      "D19 re-rating 2026-09-23: partial → vindicated — pre-Clovis presence holds on lines independent of mtDNA; the mtDNA misclassifications are a method refinement, not a failed core claim. failure_mode contamination → none."
     ]
   }
 }
