@@ -50,6 +50,8 @@ worded here.
 - **Test:** share of objections with `kind = prior` among those with `outcome = wrong`, vs among those with `outcome = held`.
 - **Would disprove it:** at 30 or more objections with known outcomes, the prior-based share among wrong objections is not higher than among objections that held.
 - **Status:** awaiting data
+- **Result (reached 2026-09-23; logged 2026-09-30):** consistent in direction, not statistically significant. At the threshold, 53 objections had known outcomes: priors were 4 of 16 that proved wrong (25%) vs 3 of 37 that held (8%); two-sided Fisher exact p = 0.18. After the D19 re-rating: 60 objections, 4 of 16 (25%) vs 4 of 44 (9%), p = 0.19. Four prior-based objections on each side is a small base. Output: analysis/outputs/summary.json.
+- **Status:** consistent (n = 60)
 
 ## H5 · Vindication is slower than refutation
 - **Date:** 2026-09-23
