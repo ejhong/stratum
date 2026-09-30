@@ -1,26 +1,300 @@
 [
- {"id": "malakunanja-ii-1990", "name": "Malakunanja II (1990 TL claim)", "country": "Australia", "anomaly_type": "chronology",
-  "expected_status": "partial", "why": "The site's first >50 ka claim (TL, 1990), made when ~40 ka was the accepted limit; later supported by OSL (1998) and the 2017 Madjedbebe work.",
-  "sources": ["Roberts, R.G., Jones, R. & Smith, M.A. (1990). Thermoluminescence dating of a 50,000-year-old human occupation site in northern Australia. Nature 345: 153–156. doi:10.1038/345153a0",
-              "Roberts, R.G., Yoshida, H. et al. (1998). Single-aliquot and single-grain optical dating confirm thermoluminescence age estimates from Malakunanja II rock shelter in northern Australia. Ancient TL 16. doi:10.26034/la.atl.1998.287"],
-  "found_via": "skeptic review of madjedbebe (2026-09-23)", "proposed_on": "2026-09-23"},
- {"id": "trojan-war-historicity", "name": "Trojan War historicity (Troy VI/VIIa)", "country": "Turkey", "anomaly_type": "legend",
-  "expected_status": "open", "why": "Split from troy-hisarlik: whether a war like the Iliad's happened at Troy VI/VIIa. Hittite texts record Wilusa conflicts; none matches Homer's account.",
-  "sources": ["Cline, E.H. (2013). The Hittite Texts: Assuwa, Ahhiyawa, and Alaksandu of Wilusa. In The Trojan War: A Very Short Introduction. Oxford University Press, pp. 54-68. doi:10.1093/actrade/9780199760275.003.0004",
-              "Cline, E.H. (2013). 6. Returning to Hisarlik: Carl Blegen and Manfred Korfmann. In The Trojan War: A Very Short Introduction. Oxford University Press, pp. 85-102. doi:10.1093/actrade/9780199760275.003.0006",
-              "Finley, M.I.; Caskey, J.L.; Kirk, G.S.; Page, D.L. (1964). The Trojan War. Journal of Hellenic Studies 84: 1-20. doi:10.2307/627688",
-              "Korfmann, M. (2004). Was There a Trojan War?. Archaeology 57(3): 36-41. https://archive.archaeology.org/0405/etc/troy.html"],
-  "found_via": "D19 re-rating", "proposed_on": "2026-09-23"},
- {"id": "gobekli-tepe-temple-reading", "name": "Göbekli Tepe 'temple, no residents' reading", "country": "Turkey", "anomaly_type": "capability",
-  "expected_status": "unsupported", "why": "Split from gobekli-tepe: Schmidt's purely ritual, uninhabited 'temple' reading. Domestic buildings found 2015-19 are not yet dated against the enclosures.",
-  "sources": ["Schmidt, K. (2000). Göbekli Tepe, Southeastern Turkey. A Preliminary Report on the 1995-1999 Excavations. Paleorient 26(1): 45-54. doi:10.3406/paleo.2000.4697",
-              "Banning, E.B. (2011). So Fair a House: Göbekli Tepe and the Identification of Temples in the Pre-Pottery Neolithic of the Near East. Current Anthropology 52(5): 619-660. doi:10.1086/661207",
-              "Dietrich, O., Notroff, J. (2015). A sanctuary, or so fair a house? In defense of an archaeology of cult at Pre-Pottery Neolithic Göbekli Tepe. In N. Laneri (ed.), Defining the Sacred: Approaches to the Archaeology of Religion in the Near East, pp. 75-89. Oxbow Books. doi:10.2307/j.ctvh1dspq.11",
-              "Clare, L. (2020). Göbekli Tepe, Turkey. A brief summary of research at a new World Heritage Site (2015-2019). e-Forschungsberichte des DAI 2020(2): 81-88. doi:10.34780/efb.v0i2.1012"],
-  "found_via": "D19 re-rating", "proposed_on": "2026-09-23"},
- {"id": "bosnian-ravne-tunnels", "name": "Ravne tunnels, Visoko", "country": "Bosnia and Herzegovina", "anomaly_type": "capability",
-  "expected_status": "unsupported", "why": "Split from bosnian-pyramids: an ancient Ravne tunnel network. Dates come only from foundation-chosen samples (fill wood 15th-16th c. CE); no independent study.",
-  "sources": ["Osmanagich, S. (2025). Establishing Deep Time: Multi-Method Dating of Archaeological and Speleological Features in the Bosnian Valley of the Pyramids. EarthArXiv preprint. doi:10.31223/x5jq78",
-              "Šabanija-Softić, A., Osmanagić, S. (2026). Archaeological Excavation of the Ravne 6 Tunnel (Visoko, Bosnia and Herzegovina): Results from the 2025 Field Season. Archaeological Discovery 14(2): 171-188. doi:10.4236/ad.2026.142009"],
-  "found_via": "D19 re-rating", "proposed_on": "2026-09-23"}
+ {
+  "id": "malakunanja-ii-1990",
+  "name": "Malakunanja II (1990 TL claim)",
+  "country": "Australia",
+  "anomaly_type": "chronology",
+  "expected_status": "partial",
+  "why": "The site's first >50 ka claim (TL, 1990), made when ~40 ka was the accepted limit; later supported by OSL (1998) and the 2017 Madjedbebe work.",
+  "sources": [
+   "Roberts, R.G., Jones, R. & Smith, M.A. (1990). Thermoluminescence dating of a 50,000-year-old human occupation site in northern Australia. Nature 345: 153–156. doi:10.1038/345153a0",
+   "Roberts, R.G., Yoshida, H. et al. (1998). Single-aliquot and single-grain optical dating confirm thermoluminescence age estimates from Malakunanja II rock shelter in northern Australia. Ancient TL 16. doi:10.26034/la.atl.1998.287"
+  ],
+  "found_via": "skeptic review of madjedbebe (2026-09-23)",
+  "proposed_on": "2026-09-23"
+ },
+ {
+  "id": "trojan-war-historicity",
+  "name": "Trojan War historicity (Troy VI/VIIa)",
+  "country": "Turkey",
+  "anomaly_type": "legend",
+  "expected_status": "open",
+  "why": "Split from troy-hisarlik: whether a war like the Iliad's happened at Troy VI/VIIa. Hittite texts record Wilusa conflicts; none matches Homer's account.",
+  "sources": [
+   "Cline, E.H. (2013). The Hittite Texts: Assuwa, Ahhiyawa, and Alaksandu of Wilusa. In The Trojan War: A Very Short Introduction. Oxford University Press, pp. 54-68. doi:10.1093/actrade/9780199760275.003.0004",
+   "Cline, E.H. (2013). 6. Returning to Hisarlik: Carl Blegen and Manfred Korfmann. In The Trojan War: A Very Short Introduction. Oxford University Press, pp. 85-102. doi:10.1093/actrade/9780199760275.003.0006",
+   "Finley, M.I.; Caskey, J.L.; Kirk, G.S.; Page, D.L. (1964). The Trojan War. Journal of Hellenic Studies 84: 1-20. doi:10.2307/627688",
+   "Korfmann, M. (2004). Was There a Trojan War?. Archaeology 57(3): 36-41. https://archive.archaeology.org/0405/etc/troy.html"
+  ],
+  "found_via": "D19 re-rating",
+  "proposed_on": "2026-09-23"
+ },
+ {
+  "id": "gobekli-tepe-temple-reading",
+  "name": "Göbekli Tepe 'temple, no residents' reading",
+  "country": "Turkey",
+  "anomaly_type": "capability",
+  "expected_status": "unsupported",
+  "why": "Split from gobekli-tepe: Schmidt's purely ritual, uninhabited 'temple' reading. Domestic buildings found 2015-19 are not yet dated against the enclosures.",
+  "sources": [
+   "Schmidt, K. (2000). Göbekli Tepe, Southeastern Turkey. A Preliminary Report on the 1995-1999 Excavations. Paleorient 26(1): 45-54. doi:10.3406/paleo.2000.4697",
+   "Banning, E.B. (2011). So Fair a House: Göbekli Tepe and the Identification of Temples in the Pre-Pottery Neolithic of the Near East. Current Anthropology 52(5): 619-660. doi:10.1086/661207",
+   "Dietrich, O., Notroff, J. (2015). A sanctuary, or so fair a house? In defense of an archaeology of cult at Pre-Pottery Neolithic Göbekli Tepe. In N. Laneri (ed.), Defining the Sacred: Approaches to the Archaeology of Religion in the Near East, pp. 75-89. Oxbow Books. doi:10.2307/j.ctvh1dspq.11",
+   "Clare, L. (2020). Göbekli Tepe, Turkey. A brief summary of research at a new World Heritage Site (2015-2019). e-Forschungsberichte des DAI 2020(2): 81-88. doi:10.34780/efb.v0i2.1012"
+  ],
+  "found_via": "D19 re-rating",
+  "proposed_on": "2026-09-23"
+ },
+ {
+  "id": "bosnian-ravne-tunnels",
+  "name": "Ravne tunnels, Visoko",
+  "country": "Bosnia and Herzegovina",
+  "anomaly_type": "capability",
+  "expected_status": "unsupported",
+  "why": "Split from bosnian-pyramids: an ancient Ravne tunnel network. Dates come only from foundation-chosen samples (fill wood 15th-16th c. CE); no independent study.",
+  "sources": [
+   "Osmanagich, S. (2025). Establishing Deep Time: Multi-Method Dating of Archaeological and Speleological Features in the Bosnian Valley of the Pyramids. EarthArXiv preprint. doi:10.31223/x5jq78",
+   "Šabanija-Softić, A., Osmanagić, S. (2026). Archaeological Excavation of the Ravne 6 Tunnel (Visoko, Bosnia and Herzegovina): Results from the 2025 Field Season. Archaeological Discovery 14(2): 171-188. doi:10.4236/ad.2026.142009"
+  ],
+  "found_via": "D19 re-rating",
+  "proposed_on": "2026-09-23"
+ },
+ {
+  "id": "qafzeh-skhul-luminescence",
+  "name": "Qafzeh-Skhul modern humans (TL/ESR dates)",
+  "country": "Israel",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "TL (1988) put Qafzeh modern humans at ~92 ka when ~40-50 ka was thought the limit for them in the Levant; ESR/U-series later agreed.",
+  "sources": [
+   "Valladas, H. et al. (1988). Thermoluminescence dating of Mousterian 'Proto-Cro-Magnon' remains from Israel and the origin of modern man. Nature 331: 614-616. doi:10.1038/331614a0",
+   "Grün, R. et al. (2005). U-series and ESR analyses of bones and teeth relating to the human burials from Skhul. J. Human Evolution 49: 316-334. doi:10.1016/j.jhevol.2005.04.006"
+  ],
+  "found_via": "owner's expansion list; Shea & Bar-Yosef 2005 review",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "dmanisi-early-homo",
+  "name": "Dmanisi hominins (Georgia)",
+  "country": "Georgia",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "Claimed ~1.7 Ma (1995-2000) for Homo outside Africa when ~1 Ma was the accepted limit; Ar-Ar re-dating (2010) held.",
+  "sources": [
+   "Gabunia, L. et al. (2000). Earliest Pleistocene hominid cranial remains from Dmanisi, Republic of Georgia. Science 288: 1019-1025. doi:10.1126/science.288.5468.1019",
+   "Garcia, T. et al. (2010). Earliest human remains in Eurasia: new 40Ar/39Ar dating of the Dmanisi hominid-bearing levels. Quaternary Geochronology 5: 443-451. doi:10.1016/j.quageo.2009.09.012"
+  ],
+  "found_via": "search of Out-of-Africa chronology literature",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "pakefield-happisburgh",
+  "name": "Pakefield and Happisburgh early Britons",
+  "country": "United Kingdom",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "Flints claimed ~700 ka (2005), footprints ~0.8-1 Ma (2014), when ~500 ka (Boxgrove) was the accepted limit for humans in northern Europe.",
+  "sources": [
+   "Parfitt, S.A. et al. (2005). The earliest record of human activity in northern Europe. Nature 438: 1008-1012. doi:10.1038/nature04227",
+   "Ashton, N. et al. (2014). Hominin footprints from Early Pleistocene deposits at Happisburgh, UK. PLoS ONE 9: e88329. doi:10.1371/journal.pone.0088329"
+  ],
+  "found_via": "Lewis et al. 2019 Happisburgh review; Quaternary literature",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "gran-dolina-td6",
+  "name": "Gran Dolina TD6 (Homo antecessor)",
+  "country": "Spain",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "Hominins and tools claimed >780 ka (1995) when ~500 ka was the accepted limit for western Europe; paleomagnetic age has held.",
+  "sources": [
+   "Carbonell, E. et al. (1995). Lower Pleistocene hominids and artifacts from Atapuerca-TD6 (Spain). Science 269: 826-830. doi:10.1126/science.7638598",
+   "Bermúdez de Castro, J.M. et al. (1997). A hominid from the Lower Pleistocene of Atapuerca, Spain: possible ancestor to Neandertals and modern humans. Science 276: 1392-1395. doi:10.1126/science.276.5317.1392"
+  ],
+  "found_via": "European earliest-occupation literature",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "boucher-de-perthes-antiquity",
+  "name": "Boucher de Perthes' Somme handaxes (antiquity of humans)",
+  "country": "France",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "From 1840s he claimed worked flints with extinct fauna, i.e. humans far older than ~6 ka biblical chronology; accepted after Prestwich/Evans 1859-60.",
+  "sources": [
+   "Prestwich, J. (1860). On the occurrence of flint-implements, associated with the remains of animals of extinct species in beds of a late geological period. Phil. Trans. R. Soc. 150: 277-317. doi:10.1098/rstl.1860.0018",
+   "Gamble, C. & Kruszynski, R. (2009). John Evans, Joseph Prestwich and the stone that shattered the time barrier. Antiquity 83: 461-475. doi:10.1017/s0003598x00098574"
+  ],
+  "found_via": "history-of-archaeology literature; decades-long acceptance",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "niah-deep-skull",
+  "name": "Niah Cave Deep Skull",
+  "country": "Malaysia",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "Harrisson's 1950s claim of a ~40 ka modern skull in Borneo; later dating (~37-42 ka) re-affirmed it after doubts over context. Limit unsourced.",
+  "sources": [
+   "Stephens, M. et al. (2007). Progress in optical dating of guano-rich sediments associated with the Deep Skull, West Mouth of the Great Cave of Niah, Sarawak, Borneo. Quaternary Geochronology 2: 110-116. doi:10.1016/j.quageo.2006.04.008",
+   "Barker, G. (2005). The archaeology of foraging and farming at Niah Cave, Sarawak. Asian Perspectives 44: 90-106. doi:10.1353/asi.2005.0004"
+  ],
+  "found_via": "owner's suggestion; unsure of accepted limit at claim, researcher must source",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "lake-mungo-1970s",
+  "name": "Lake Mungo burials (Mungo 1 and 3)",
+  "country": "Australia",
+  "anomaly_type": "chronology",
+  "expected_status": "vindicated",
+  "why": "1968-72 claim of ~26-32 ka cremation and burial; re-dated 2003 to ~40 ka. Accepted limit in 1960s must be sourced (Australia thought young).",
+  "sources": [
+   "Bowler, J.M. et al. (1972). Pleistocene man in Australia: age and significance of the Mungo skeleton. Nature 240: 48-50. doi:10.1038/240048a0",
+   "Bowler, J.M. et al. (2003). New ages for human occupation and climatic change at Lake Mungo, Australia. Nature 421: 837-840. doi:10.1038/nature01383"
+  ],
+  "found_via": "Oceania coverage gap; unsure of accepted limit",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "jinmium-tl-1996",
+  "name": "Jinmium rock shelter (TL 116-176 ka)",
+  "country": "Australia",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "1996 TL ages of ~116-176 ka for occupation when ~50-60 ka was the accepted limit; OSL and 14C (1998) showed sediment mixing and ages under ~10 ka.",
+  "sources": [
+   "Fullagar, R.L.K. et al. (1996). Early human occupation of northern Australia: archaeology and thermoluminescence dating of Jinmium rock-shelter. Antiquity 70: 751-773. doi:10.1017/s0003598x00084040",
+   "Roberts, R. et al. (1998). Optical and radiocarbon dating at Jinmium rock shelter in northern Australia. Nature 393: 358-362. doi:10.1038/30718"
+  ],
+  "found_via": "owner's expansion list",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "moulin-quignon-jaw",
+  "name": "Moulin-Quignon jaw",
+  "country": "France",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "1863 claim of a human jaw with handaxes in Pleistocene gravel, when human antiquity was newly debated; intrusive and recent, tools partly planted.",
+  "sources": [
+   "Tylor, A. (1863). On the discovery of supposed human remains in the tool-bearing drift of Moulin-Quignon. Anthropological Review 1(1): 166. doi:10.2307/3024997",
+   "Hurel, A. & Coye, N. (2016). Moulin Quignon 1863-1864: détours inédits et bilan historiographique. L'Anthropologie 120. doi:10.1016/j.anthro.2016.05.005"
+  ],
+  "found_via": "owner's expansion list; accepted limit and fate wording to be verified by researcher",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "galley-hill-skeleton",
+  "name": "Galley Hill skeleton",
+  "country": "United Kingdom",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "1888 claim of a modern human skeleton in Middle Pleistocene gravel; fluorine testing (1949) and radiocarbon showed a later intrusive burial.",
+  "sources": [
+   "Oakley, K.P. & Montagu, M.F.A. (1949). A reconsideration of the Galley Hill skeleton. Bull. British Museum (Natural History) Geology 1: 25-48. doi:10.5962/p.313842",
+   "Demetsopoullos, I.C., Burleigh, R. & Oakley, K.P. (1983). Relative and absolute dating of the human skull and skeleton from Galley Hill, Kent. J. Archaeological Science 10(2): 129-134. doi:10.1016/0305-4403(83)90046-8"
+  ],
+  "found_via": "owner's expansion list",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "longgupo-early-homo",
+  "name": "Longgupo early Homo (1995)",
+  "country": "China",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "1995 claim of Homo and tools in Asia ~1.8 Ma when ~1 Ma was the limit; jaw later reassigned to an ape and ESR ages challenged. Unsure: artefacts still argued.",
+  "sources": [
+   "Huang, W. et al. (1995). Early Homo and associated artefacts from Asia. Nature 378: 275-278. doi:10.1038/378275a0",
+   "Etler, D.A., Crummett, T.L. & Wolpoff, M.H. (2001). Longgupo: early Homo colonizer or late Pliocene Lufengpithecus survivor in South China? Human Evolution 16: 1-12. doi:10.1007/bf02438918"
+  ],
+  "found_via": "Asian Homo erectus origin debates; status may be 'unsupported' if artefacts stand",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "sub-crag-flints",
+  "name": "Sub-Crag flints ('Pliocene man', Suffolk)",
+  "country": "United Kingdom",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "Moir's 1910s claim of human-flaked flints below the Red Crag (Pliocene) when people were thought Pleistocene at oldest; natural fracture argued by Warren.",
+  "sources": [
+   "Moir, J.R. (1911). The flint implements of Sub-Crag man. Proc. Prehistoric Society of East Anglia 1(1): 17-24. doi:10.1017/s0958841800022511",
+   "Warren, S.H. (1913). Problems of flint fracture. Man 13: 37 (no. 20). doi:10.2307/2788551"
+  ],
+  "found_via": "eolith controversy history; obscure failure; researcher should find a modern source for the fate",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "kanam-jaw",
+  "name": "Kanam jaw",
+  "country": "Kenya",
+  "anomaly_type": "chronology",
+  "expected_status": "unsupported",
+  "why": "Leakey's 1932 claim of an early modern-type Pleistocene jaw; provenance never verified, and later opinion split (pathology, later date). Limit to be sourced.",
+  "sources": [
+   "Leakey, L.S.B. (1935). Human remains from Kanam and Kanjera, Kenya Colony. Nature 135: 1041. doi:10.1038/1351041b0",
+   "Tobias, P.V. (1960). The Kanam jaw. Nature 185: 946-947. doi:10.1038/185946a0"
+  ],
+  "found_via": "Africa hominin history; quietly abandoned claim",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "pikimachay-ayacucho",
+  "name": "Pikimachay Cave pre-projectile-point levels",
+  "country": "Peru",
+  "anomaly_type": "chronology",
+  "expected_status": "unsupported",
+  "why": "MacNeish's 1970 claim of >20 ka human occupation in Peru, when ~12-13 ka was the accepted limit for South America; dates and tools never confirmed.",
+  "sources": [
+   "MacNeish, R.S. et al. (1970). Megafauna and man from Ayacucho, highland Peru. Science 168: 975-977. doi:10.1126/science.168.3934.975",
+   "Nami, H.G. et al. (2023). New taphonomic approach applied to the Late Pleistocene bone remains from Pikimachay Cave, Ayacucho Basin, Peru. Bull. Mém. Soc. Anthropol. Paris. doi:10.4000/bmsap.12018"
+  ],
+  "found_via": "South America gap; abandoned claim; check 1970s-90s critiques",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "katanda-bone-points",
+  "name": "Katanda worked-bone harpoons",
+  "country": "Democratic Republic of the Congo",
+  "anomaly_type": "chronology",
+  "expected_status": "open",
+  "why": "1995 claim of ~90 ka barbed bone points when such technology was thought Late Stone Age (<~40 ka); reassessed dating (2001) leaves the age uncertain.",
+  "sources": [
+   "Yellen, J.E. et al. (1995). A Middle Stone Age worked bone industry from Katanda, Upper Semliki Valley, Zaire. Science 268: 553-556. doi:10.1126/science.7725100",
+   "Feathers, J.K. & Migliorini, E. (2001). Luminescence dating at Katanda: a reassessment. Quaternary Science Reviews 20: 961-966. doi:10.1016/s0277-3791(00)00041-x"
+  ],
+  "found_via": "African MSA behavioural-modernity literature",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "old-crow-flesher",
+  "name": "Old Crow flesher (northern Yukon)",
+  "country": "Canada",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "1973: a bone flesher radiocarbon-dated before the late-Wisconsin peak, when Clovis was the limit; AMS (1986) made it late Holocene, almost 26,000 yr younger.",
+  "sources": [
+   "Irving, W.N. & Harington, C.R. (1973). Upper Pleistocene radiocarbon-dated artefacts from the northern Yukon. Science 179(4071): 335-340. doi:10.1126/science.179.4071.335",
+   "Nelson, D.E., Morlan, R.E., Vogel, J.S., Southon, J.R. et al. (1986). New dates on northern Yukon artifacts: Holocene not Upper Pleistocene. Science 232(4751): 749-751. doi:10.1126/science.232.4751.749"
+  ],
+  "found_via": "owner's expansion list; sources checked by the main session (2026-09-30)",
+  "proposed_on": "2026-09-30"
+ },
+ {
+  "id": "del-mar-sunnyvale-aar",
+  "name": "Del Mar and Sunnyvale skeletons (aspartic-acid ages)",
+  "country": "United States",
+  "anomaly_type": "chronology",
+  "expected_status": "refuted",
+  "why": "1974: aspartic-acid racemization put California skeletons at 50,000+ yr when Clovis was the limit; AMS (1985) found none older than 11,000 14C yr.",
+  "sources": [
+   "Bada, J.L., Schroeder, R.A. & Carter, G.F. (1974). New evidence for the antiquity of man in North America deduced from aspartic acid racemization. Science 184(4138): 791-793. doi:10.1126/science.184.4138.791",
+   "Taylor, R.E., Payen, L.A., Prior, C.A., Slota, P.J. et al. (1985). Major revisions in the Pleistocene age assignments for North American human skeletons by C-14 accelerator mass spectrometry: none older than 11,000 C-14 years B.P. American Antiquity 50(1): 136-140. doi:10.2307/280638"
+  ],
+  "found_via": "owner's expansion list; sources checked by the main session (2026-09-30)",
+  "proposed_on": "2026-09-30"
+ }
 ]
